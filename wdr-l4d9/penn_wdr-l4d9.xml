@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 9 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 9 [Penn Transcription]</title>
+          <date when="2016-05-06">May 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-06">May 06, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="111rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d9">
+  			<head xml:id="wdrl4d9-Hd1e3503">Librum IV, Distinctio 9 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d9q1" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3508">Librum IV, Distinctio 9, Quaestio 1</head>
+  				<head xml:id="wdrl4d9-Hd1e3511" type="questionTitle">Quaeritur utrum christus vere in hoc sacramento manducetur</head>
+  				<p xml:id="wdrl4d9-d1e3514"><lb ed="#P"/>Quaeritur utrum 
+  					<lb ed="#P"/>christus vere in hoc sacramento man<lb ed="#P"/>ducetur 
+  					<pc ana="#virgula"/> Responsio in manducatione corporali 
+  					<lb ed="#P"/>tria sunt scilicet masticatio <pc ana="#punctus"/> more <pc ana="#punctus"/> In ven<lb ed="#P"/>trum 
+  					sumptio <pc ana="#punctus"/> Ad <choice><orig>menbra</orig><reg>membra</reg></choice> unio <pc ana="#punctus"/> haec omnia 
+  					<lb ed="#P"/>conveniunt speciebus <pc ana="#punctuselevatus"/> secundum <pc ana="#punctus"/> <sic>modo</sic> suo convenit corpori 
+  					<cb ed="#P" n="111va"/><lb ed="#P"/>christi vero <pc ana="#punctus"/> tertium tantum <unclear>corporetur</unclear> <choice><orig>mistico</orig><reg>mystico</reg></choice> <pc ana="#punctus"/> Ita 
+  					<lb ed="#P"/>tamen quod cibatus <pc ana="#punctus"/> corpori unitur <pc ana="#punctus"/> non econverso <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q2" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3581">Librum IV, Distinctio 9, Quaestio 2</head>
+  				<head xml:id="wdrl4d9-Hd1e3584" type="questionTitle">Quibus modis christus manducetur</head>
+  				<p xml:id="wdrl4d9-d1e3587"><lb ed="#P"/><pc ana="#pilcrow"/>Quibus modis christus manducetur 
+  					<lb ed="#P"/>Responsio dicitur sic sacramentaliter <pc ana="#punctus"/> quando accipitur sub speciebus 
+  					<lb ed="#P"/>Item spiritualiter <pc ana="#virgula"/> quando bene dispositus accedit <pc ana="#virgula"/> vel et 
+  					<lb ed="#P"/>quando credit tantum vera fide <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q3" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3609">Librum IV, Distinctio 9, Quaestio 3</head>
+  				<head xml:id="wdrl4d9-Hd1e3612" type="questionTitle">Quid est spiritualiter manducaretur</head>
+  				<p xml:id="wdrl4d9-d1e3615"><lb ed="#P"/><pc ana="#pilcrow"/>Quid est spiritualiter manducaretur <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio secundum <name>augustinum</name> in littera <pc ana="#punctus"/> christo et ecclesiae in corporari <pc ana="#punctus"/> 
+  					<lb ed="#P"/>vel convenienter per modum <unclear cert="low">nutrimenti</unclear> credendo <pc ana="#punctus"/> vel spiritualiter 
+  					<lb ed="#P"/>per virtutem sacramenti credendo et percipiendo</p>
+  			</div>
+  			<div xml:id="wdr-l4d9q4" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3644">Librum IV, Distinctio 9, Quaestio 4</head>
+  				<head xml:id="wdrl4d9-Hd1e3647" type="questionTitle">Qua utilitate manducatur sacramentaliter cum spirituali manducatione</head>
+  				<p xml:id="wdrl4d9-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>Qua utilitate manducatur 
+  					<lb ed="#P"/>sacraentaliter cum spirituali <choice><sic>mandicatione</sic><corr>mandicatione</corr></choice> 
+  					<lb ed="#P"/>Responsio de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> salutis est <pc ana="#punctus"/> pro loco et tempore 
+  					<lb ed="#P"/>non simpliciter <pc ana="#virgula"/> Item cum auctoritatem gratiae contineat 
+  					<lb ed="#P"/>multas utilitates habet scilicet <num>xii</num> unde <unclear>v?</unclear> <unclear>Inflam<lb ed="#P"/>mat</unclear> 
+  					<pc ana="#virgula"/> memorat <pc ana="#virgula"/> sustentat <pc ana="#virgula"/> roborat <pc ana="#virgula"/> au<lb ed="#P"/>get 
+  					<pc ana="#virgula"/> hostia <pc ana="#punctuselevatus"/> speciem <pc ana="#virgula"/> purgat <pc ana="#punctus"/> reficit <pc ana="#virgula"/> vi<lb ed="#P"/>tam 
+  					<pc ana="#virgula"/> dat <pc ana="#virgula"/> et unit <pc ana="#punctus"/> Confirmatque fidem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>munit <pc ana="#virgula"/> fomitemque remittit <pc ana="#virgula"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q5" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3734">Librum IV, Distinctio 9, Quaestio 5</head>
+  				<head xml:id="wdrl4d9-Hd1e3737" type="questionTitle">Utrum mali sumant corpus christi</head>
+  				<p xml:id="wdrl4d9-d1e3740"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum mali sumant corpus christi 
+  					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> quia sumunt species quae super pars essentialis sacra<!-- drops -->menti <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q6" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3755">Librum IV, Distinctio 9, Quaestio 6</head>
+  				<head xml:id="wdrl4d9-Hd1e3758" type="questionTitle">Utrum in fides manducent sacramentaliter</head>
+  				<p xml:id="wdrl4d9-d1e3761"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in fides manducent 
+  					<lb ed="#P"/>sacramentaliter <pc ana="#punctus"/> Responsio si dicat modus rei 
+  					<lb ed="#P"/>manducare <pc ana="#punctus"/> verum est <pc ana="#punctus"/> si modus manducantis 
+  					<lb ed="#P"/>tunc si non intendit sumere nec sacramentum 
+  					<lb ed="#P"/>ecclesiae <pc ana="#punctus"/> tunc sumit ut rem tantum <pc ana="#virgula"/> non sacra<lb ed="#P"/>mentaliter 
+  					<lb ed="#P"/> <pc ana="#punctus"/> aut intendit quamvis non credat 
+  					<lb ed="#P"/>ibi christum esse ut haereticus <pc ana="#punctus"/> et tunc sumit sa<!-- drops -->cramentaliter</p>
+  			</div>
+  			<div xml:id="wdr-l4d9q7" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3801">Librum IV, Distinctio 9, Quaestio 7</head>
+  				<head xml:id="wdrl4d9-Hd1e3804" type="questionTitle">utrum qui sumit cum peccato mortali peccet mortaliter</head>
+  				<p xml:id="wdrl4d9-d1e3807"><lb ed="#P"/><pc ana="#pilcrow"/>utrum qui sumit 
+  					<lb ed="#P"/>cum peccato mortali peccent mortaliter 
+  					<lb ed="#P"/>Responsio secundum <name ref="#Paul">apostolum</name> sic <pc ana="#punctus"/> sive eius certitudinem 
+  					<lb ed="#P"/>sciat <pc ana="#punctus"/> sive probabiliter <pc ana="#punctus"/> quia sic <unclear>discrimini se</unclear> 
+  					<lb ed="#P"/>committit <pc ana="#virgula"/> si autem nullius peccati post <unclear>suffi?ren</unclear> 
+  					<lb ed="#P"/>discussionem <pc ana="#virgula"/> conscientiam habet <pc ana="#virgula"/> accedere potest <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q8" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3849">Librum IV, Distinctio 9, Quaestio 8</head>
+  				<head xml:id="wdrl4d9-Hd1e3852" type="questionTitle">Utrum qui accedit contritus si non confessus peccet</head>
+  				<p xml:id="wdrl4d9-d1e3855"><cb ed="#P" n="111vb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum qui accedit contritus sed non con<lb ed="#P"/>fessus 
+  					peccet <pc ana="#punctus"/> Responsio si habet oportunitatem 
+  					<lb ed="#P"/>tunc peccat <pc ana="#punctus"/> quia debet reconciliari secundum 
+  					<lb ed="#P"/>iudicium ecclesiae <pc ana="#punctus"/> si non habet <pc ana="#virgula"/> tunc si est 
+  					<lb ed="#P"/><choice><orig>neccessarias</orig><reg>necessarias</reg></choice> aliqua <pc ana="#punctus"/> vel forte scandalum fieret <pc ana="#punctus"/> 
+  					<!-- drops --> non peccant <pc ana="#punctus"/> alias peccat</p>
+  			</div>
+  			<div xml:id="wdr-l4d9q9" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3894">Librum IV, Distinctio 9, Quaestio 9</head>
+  				<head xml:id="wdrl4d9-Hd1e3897" type="questionTitle">Utrum aliud quam peccatum mortale impediat ab accessu</head> 
+  				<p xml:id="wdrl4d9-d1e3900"><lb ed="#P"/><pc ana="#pilcrow"/>utrum 
+  					<lb ed="#P"/>aliud quam peccatum mortale <choice><orig>inpediat</orig><reg>impediat</reg></choice> 
+  					<lb ed="#P"/>ab accessu <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> plura <pc ana="#punctus"/>ob rever<lb ed="#P"/>entiam 
+  					sacramenti <pc ana="#punctus"/> ut <unclear>pueritia</unclear> interdictum 
+  					<lb ed="#P"/>suspensio <pc ana="#virgula"/> excommunicatio indevotio <pc ana="#punctus"/> pol<lb ed="#P"/>lutio 
+  					<pc ana="#virgula"/> etiam quando non est mortalis <pc ana="#punctus"/> non tamen de 
+  					<lb ed="#P"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> est abstinendum <pc ana="#punctus"/> Nota ergo quod 
+  					<lb ed="#P"/>tria exiguntur <pc ana="#virgula"/> puritas conscientiae reverentia <pc ana="#punctus"/> 
+  					<!-- drops --> et devotio <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d9q10" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e3967">Librum IV, Distinctio 9, Quaestio 10</head>
+  				<head xml:id="wdrl4d9-Hd1e3970" type="questionTitle">utrum peccet sacerdos qui scienter dat eucharistiam</head>
+  				<p xml:id="wdrl4d9-d1e3973"><lb ed="#P"/><pc ana="#pilcrow"/>utrum peccet 
+  					<lb ed="#P"/>sacerdos qui scienter dat eucharistiam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ei quem scit immortali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si est 
+  					<lb ed="#P"/>manifestus <pc ana="#punctus"/> non debet dare <pc ana="#punctus"/> si occultus in 
+  					<lb ed="#P"/>manifesto peccati debet dari <pc ana="#punctus"/> sed non in occulto <pc ana="#punctus"/></p>
+  			</div>
+  			<!-- note; there is a disagreement about the order of questions in Wett15 and GKS and Penn 
+  				GKS and PENN both but number 12 in wett15 before 11.
+  				
+  				This is an important point for the connection of GKS and Penn 
+  				
+  				My ids here follow the order in wett15, but the actual order in the xml follows what is seen in each witness.
+  				
+  				Thus question 12 will follow question 10 and then 11 will follow. But this order needs to be checked agains the Peter Tarantaise Text 
+  				
+  				In this way the paragraph and sections will line up according to ids. But they xml order and paragraph number will not line up.
+  				This also presents a problem for the my CTS urn which use paragraph numbers determined from the paragraph position in the XML doc tree 
+  				This could present problems in processing, but is a reminder that xml id shoudl be used to identify resources and not element positions 
+  			-->
+  			<!-- the confusion seems to be with this paragraph; it begins with Queritur suggesting a new distinction (this is followed in the GKS witness) -->
+  			<div xml:id="wdr-l4d9q12" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e4009">Librum IV, Distinctio 9, Quaestio 12</head>
+  				<head xml:id="wdrl4d9-Hd1e4012" type="questionTitle">Utrum susceptis de crimine debeat dari</head>
+  				<p xml:id="wdrl4d9-d1e4015"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum suspectis de crimine 
+  					<lb ed="#P"/>debeat dari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> dic de violenta 
+  					<lb ed="#P"/>suspitione ut ante <num>10<!-- number 10 seems written here and then circled --></num> sed propter pro<!-- drops -->babile 
+  					vel levem 
+  					<!-- drops --> non debet de negari <pc ana="#punctus"/></p>
+  			</div>
+  			<!-- now our count goes back to 11 even though this is in position 12 in the penn manuscript -->
+  			<div xml:id="wdr-l4d9q11" type="quaestio">
+  				<head xml:id="wdrl4d9-Hd1e4043">Librum IV, Distinctio 9, Quaestio 11</head>
+  				<head xml:id="wdrl4d9-Hd1e4046" type="questionTitle">Utrum histrionibus debeat dari</head>
+  				<p xml:id="wdrl4d9-d1e4049"><lb ed="#P"/><pc ana="#pilcrow"/>utrum 
+  					<lb ed="#P"/><choice><orig>hystrionibus</orig><reg>histrionibus</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>debeat dari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> <name ref="#Cyprian">curpianus<!-- possible Cyprian ?? --></name> quod non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Nota etiam quod furioso habenti lucida <choice><sic>intervella</sic><corr>intervalla</corr></choice> potest dari <pc ana="#virgula"/><pc ana="#virgula"/> similiter ei qui postquam 
+  					<lb ed="#P"/>petiit ex infirmitate incidit in furiam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>si non timetur periculum derisionis vel vo<lb ed="#P"/>mitus 
+  					quia tunc nunc <pc ana="#punctus"/> sed perpetuo non <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

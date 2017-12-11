@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 11 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 11 [Aarau Transcription]</title>
+          <date when="2015-07-26">July 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-07-26">July 26, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="111ra" select="kba-WettF0015_111r.json"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d11">
+  			<head xml:id="wdrl1d11-Hd1e3503">Librum I, Distinctio 11 [Aarau Transcription]</head>
+  			<div xml:id="wdr-l1d11q1" type="quaestio">
+  				<head xml:id="wdrl1d11-Hd1e3508" type="questionTitle">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
+  				<p xml:id="wdrl1d11-d1e3511"><lb ed="#A"/>Queritur si spiritus sanctus procedat 
+  					<lb ed="#A"/>a patre et filio Responsio sic <g ref="#dot"/> alias si a filio 
+  					<cb ed="#A" n="111rb" select="kba-WettF0015_111r.json"/><lb ed="#A"/>non procederet <g ref="#slash"/> non distingueretur ab eo <g ref="#dot"/> quia inter eos 
+  					<lb ed="#A"/>non esset oppositio relationis <g ref="#slash"/> quae sola distinguit in divinis <g ref="#dot"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d11q2" type="quaestio">
+  				<head xml:id="wdrl1d11-Hd1e3535" type="questionTitle">Utrum procedat ab eis secundum quod unum sunt</head>
+  				<p xml:id="wdrl1d11-d1e3538"><lb ed="#A"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt Responsio sic scilicet secundum quod u<lb ed="#A"/>num 
+  					sunt <unclear>communi</unclear> voluntate plures tamen pluralitate <g ref="#slash"/> unde supposita spiran<lb ed="#A"/>tia 
+  					sunt plura <g ref="#dot"/> una tamen est forma sive principium quo spirant scilicet con<!--drops line-->cors voluntas</p>
+  			</div>
+  			<div xml:id="wdr-l1d11q3" type="quaestio">
+  				<head xml:id="wdrl1d11-Hd1e3560" type="questionTitle">Utrum illa unitas sit essentia vel notionis</head>
+  				<p xml:id="wdrl1d11-d1e3563"><lb ed="#A"/><g ref="#pilcrow"/>Utrum illa unitas sit essentiae vel notionis <g ref="#dot"/> 
+  					<lb ed="#A"/>Responsio unitas est notionis <g ref="#slash"/> communis duabus personis quae tamen praesup<lb ed="#A"/>ponit 
+  					unitatem essentiae <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> Diversi <unclear>erit</unclear> actus a diversis potentiis oper<lb ed="#A"/>ativis 
+  					secundum rationem egrediuntur <g ref="#slash"/> secundum quod diversa attribuunt 
+  					<lb ed="#A"/>deo <g ref="#slash"/> ut scientia <g ref="#dot"/> <unclear>volubilis</unclear> etc quamvis una sit essentia <g ref="#dot"/> et similiter 
+  					<lb ed="#A"/>est de actibus notionalibus <g ref="#dot"/> vel unius vel duarum personarum unde potentia 
+  					<lb ed="#A"/><unclear>spirativa</unclear> dicit essentiam sub ratione notionis duarum personarum</p>
+  			</div>
+  			<div xml:id="wdr-l1d11q4" type="quaestio">
+  				<head xml:id="wdrl1d11-Hd1e3614" type="questionTitle">Utrum Pater et Filius debeant dici unus spirator vel plures</head>
+  				<p xml:id="wdrl1d11-d1e3617"><lb ed="#A"/><g ref="#unclear"/>Utrum pater et filius debeant dici unus spirator <g ref="#dot"/> vel plures Responsio 
+  					<lb ed="#A"/>plures debent dici <g ref="#dot"/> quia actus numeranatur secundu supposita saltem 
+  					<lb ed="#A"/>secundum modum intelligendi substantia <ref>distinctione 9 quaestione 6</ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d11q5" type="quaestio">
+  				<head xml:id="wdrl1d11-Hd1e3637" type="questionTitle">Quid sit ipsa vis spirativa in eis</head>
+  				<p xml:id="wdrl1d11-d1e3640"><lb ed="#A"/><g ref="#pilcrow"/>Quid sit ipsa vis <unclear>spirativa</unclear> in eis Responsio Cum dico 
+  					<lb ed="#A"/>potentia <unclear>spirativa</unclear> primum pertinet ad essentiam <g ref="#dot"/> secundum ad notionem <g ref="#dot"/> 
+  					<lb ed="#A"/>unde dicit essentiale <g ref="#slash"/> tractum ad significationem pluralem duarum personarum <!-- drops line --> substantia quaestione 3</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 29 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 29 [Penn Transcription]</title>
+          <date when="2016-05-18">May 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-18">May 18, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="125vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d29">
+  			<head xml:id="wdrl4d29-Hd1e3503">Librum IV, Distinctio 29 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d29q1" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3508">Librum IV, Distinctio 29, Quaestio 1</head>
+  				<head xml:id="wdrl4d29-Hd1e3511" type="questionTitle">Utrum consensus possit cogi</head>
+  				<p xml:id="wdrl4d29-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum consensus possit cogi 
+  					<lb ed="#P"/>Responsio absoluta coactione non <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>voluntas libera est <pc ana="#punctus"/> conditionata tamen potest <pc ana="#virgula"/> scilicet per 
+  					<lb ed="#P"/>metum <pc ana="#punctus"/> quod fit voluntarium <pc ana="#punctus"/> mixtum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d29q2" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3540">Librum IV, Distinctio 29, Quaestio 2</head>
+  				<head xml:id="wdrl4d29-Hd1e3543" type="questionTitle">Utrum metus cadat inconstantem virum</head>
+  				<p xml:id="wdrl4d29-d1e3546"><lb ed="#P"/><pc ana="#pilcrow"/>utrum metus cadat in constantem 
+  					<lb ed="#P"/>virum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> non tamen nisi sicut 
+  					<lb ed="#P"/>debet <pc ana="#punctus"/> quia ex metu dimittit minus bonum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>pro maiori et econverso de malis nec dimittit 
+  					<lb ed="#P"/>nisi quod licite potest <pc ana="#virgula"/> Insipiens autem <pc ana="#virgula"/> quod 
+  					<lb ed="#P"/>illicite <pc ana="#virgula"/> ut pro parva <choice><orig>pena</orig><reg>poena</reg></choice> magnum bonum 
+  					<!-- drops --> dimittat</p>
+  			</div>
+  			<div xml:id="wdr-l4d29q3" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3590">Librum IV, Distinctio 29, Quaestio 3</head>
+  				<head xml:id="wdrl4d29-Hd1e3593" type="questionTitle">Utrum consensus coactus impediat matrimonium</head>
+  				<p xml:id="wdrl4d29-d1e3596"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus coac<lb ed="#P"/>tus 
+  					impediat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sola <pc ana="#punctus"/> 
+  					<lb ed="#P"/>coactio conditionata <pc ana="#punctusfluxus"/> non absoluta <pc ana="#punctus"/> potest 
+  					<lb ed="#P"/>cadere in consensum <pc ana="#virgula"/> scilicet propter metum <pc ana="#punctus"/> quae 
+  					<lb ed="#P"/>si fuerit sufficiens <pc ana="#virgula"/> quia talis est quae potest cadere 
+  					<lb ed="#P"/>inconstantem virum <pc ana="#punctus"/> tunc <choice><orig>inpedit</orig><reg>impedit</reg></choice> Alias 
+  					<lb ed="#P"/>non <choice><orig>inpedit</orig><reg>impedit</reg></choice> <pc ana="#virgula"/> Nota ergo <num>4</num> secundum legem quatuor metus 
+  					<lb ed="#P"/>cadit inconstantum virum scilicet cum quis est 
+  					<lb ed="#P"/>potens inferre et volens <pc ana="#punctus"/> minatur vel 
+  					<lb ed="#P"/>intendat mortem <pc ana="#virgula"/> aut gravem corporis 
+  					<lb ed="#P"/>cruciatum <pc ana="#virgula"/> aut servitutem <pc ana="#punctus"/> aut stuprum sive 
+  					<lb ed="#P"/>in persona propria <pc ana="#punctus"/> sive liberorum sive uxoris</p>
+  			</div>
+  			<div xml:id="wdr-l4d29q4" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3676">Librum IV, Distinctio 29, Quaestio 4</head>
+  				<head xml:id="wdrl4d29-Hd1e3679" type="questionTitle">Utrum consensus talis cum Iuramento faciat matrimonium</head>
+  				<p xml:id="wdrl4d29-d1e3682"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus talis cum Iura<lb ed="#P"/>mento 
+  					faciat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in iu<lb ed="#P"/>dicio 
+  					fori non iudicatur <pc ana="#virgula"/> obligatorium iu<lb ed="#P"/>ramentum 
+  					<pc ana="#punctus"/> In iudicio poli <pc ana="#virgula"/> consulendum est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod <choice><orig>inpleatur</orig><reg>impleatur</reg></choice> iuramentum <pc ana="#punctus"/> vel saltem <choice><orig>inpetret</orig><reg>impetret</reg></choice> 
+  					absolutionem a superiore <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d29q5" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3728">Librum IV, Distinctio 29, Quaestio 5</head>
+  				<head xml:id="wdrl4d29-Hd1e3731" type="questionTitle">Utrum tale matrimonium ratificetur per consensum sequentem</head>
+  				<p xml:id="wdrl4d29-d1e3734"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum tale meritorium ratificetur 
+  					<cb ed="#P" n="126ra"/><lb ed="#P"/>per consensum sequentem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio quamvis consensus coactus non faciat <pc ana="#punctus"/> matrimonium 
+  					<lb ed="#P"/>unus <pc ana="#punctus"/> tamen scilicet consentiens ligatur ad contra<lb ed="#P"/>hendum 
+  					<pc ana="#punctus"/> Si ergo ille remanet in eodem consensu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>solus consentus tacitus <pc ana="#virgula"/> cum prius expresso 
+  					<lb ed="#P"/>ratificat matrimonium <pc ana="#virgula"/> Si non per manet <pc ana="#punctus"/> tunc 
+  					<lb ed="#P"/>scilicet contrahit aliud matrimonium <pc ana="#punctus"/> stabit <pc ana="#virgula"/> Si 
+  					<lb ed="#P"/>autem non <pc ana="#virgula"/> quamvis in iudicio poli non 
+  					<lb ed="#P"/>ratificet <pc ana="#punctus"/> tamen in iudicio fori <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d29q6" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3789">Librum IV, Distinctio 29, Quaestio 6</head>
+  				<head xml:id="wdrl4d29-Hd1e3792" type="questionTitle">Utrum per copulam sequentem ratificetur tale matrimonium</head>
+  				<p xml:id="wdrl4d29-d1e3795"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per compulam sequentem 
+  					<lb ed="#P"/>ratificetur tale matrimonium Responsio sic si habita 
+  					<lb ed="#P"/>oportunitate reclamandi permittit se vol<lb ed="#P"/>untarie 
+  					cognosci <pc ana="#punctus"/> <unclear>Secus</unclear> si per vim 
+  					<lb ed="#P"/>vel per metum sufficientem <pc ana="#virgula"/> et tenent 
+  					<lb ed="#P"/>in iudicio fori <pc ana="#punctus"/> In iudicio poli non <pc ana="#punctus"/> 
+  					<!-- drops --> nisi vere consentiat <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d29q7" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3829">Librum IV, Distinctio 29, Quaestio 7</head>
+  				<head xml:id="wdrl4d29-Hd1e3832" type="questionTitle">Utrum pater possit cogere liberos ad contrahendum</head>
+  				<p xml:id="wdrl4d29-d1e3835"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>pater possit cogere liberos ad con<lb ed="#P"/>trahendum 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia requiritur 
+  					<lb ed="#P"/>consensus omnino liber <pc ana="#punctus"/> tamen ratione significationis quia 
+  					<lb ed="#P"/>libera fuit coniunctio christi et ecclesiae <pc ana="#virgula"/> cumque gravis 
+  					<lb ed="#P"/>est haec obligatio <pc ana="#punctus"/> tamen si contrahere vo<lb ed="#P"/>lunt 
+  					congruum est <pc ana="#punctus"/> ut cum quibus contrahent 
+  					<!-- drops --> parentibus <choice><orig>aquiescant</orig><reg>acquiescant</reg></choice></p>
+  			</div>
+  			<div xml:id="wdr-l4d29q8" type="quaestio">
+  				<head xml:id="wdrl4d29-Hd1e3880">Librum IV, Distinctio 29, Quaestio 8</head>
+  				<head xml:id="wdrl4d29-Hd1e3883" type="questionTitle">Utrum consensus tacitus filiae familias sufficiati</head>
+  				<p xml:id="wdrl4d29-d1e3886"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum con<lb ed="#P"/>sensus 
+  					tacitus filiae familias suffici<lb ed="#P"/>ati 
+  					<pc ana="#virgula"/> Responsio sic ut dicit lex in littera cum 
+  					<lb ed="#P"/>expresso scilicet parentum <pc ana="#punctus"/> et hoc si adhuc non est 
+  					<lb ed="#P"/>sui iuris <pc ana="#punctus"/> Alias requiritur expressus <pc ana="#punctus"/></p>
+  				<!-- possibile homeoteleuton here or in GKS; the paragraph ends differently -->
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

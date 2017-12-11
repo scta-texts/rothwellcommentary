@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 32 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 32 [Penn Transcription]</title>
+          <date when="2016-05-19">May 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-19">May 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="127ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d32">
+  			<head xml:id="wdrl4d32-Hd1e3503">Librum IV, Distinctio 32 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d32q1" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3508">Librum IV, Distinctio 32, Quaestio 1</head>
+  				<head xml:id="wdrl4d32-Hd1e3511" type="questionTitle">Utrum reddere debitum sit necessitatis</head>
+  				<p xml:id="wdrl4d32-d1e3514"><lb ed="#P"/>Quaeritur utrum reddere debitum sit ne<lb ed="#P"/>cessitatis 
+  					<pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> quia sui corporis 
+  					<lb ed="#P"/>non habet potestatem <pc ana="#punctus"/> quando tamen vergit in periculum 
+  					<lb ed="#P"/>proprii corporis non tenetur quia sibi magis 
+  					<!-- drops --> tenetur quis quam alteri <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q2" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3537">Librum IV, Distinctio 32, Quaestio 2</head>
+  				<head xml:id="wdrl4d32-Hd1e3540" type="questionTitle">Utrum aliquando exigere sit necessitatis</head>
+  				<p xml:id="wdrl4d32-d1e3543"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>aliquando exigere sit necessitatis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nec oportet reddere nisi petatur expres<lb ed="#P"/>se 
+  					<pc ana="#punctus"/> vel <choice><sic>tacit</sic><corr>tacite</corr></choice> per signa <pc ana="#virgula"/> <pc ana="#virgula"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q3" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3578">Librum IV, Distinctio 32, Quaestio 3</head>
+  				<head xml:id="wdrl4d32-Hd1e3581" type="questionTitle">Utrum unius coniux sine licentia alterius possit continentia vovere</head>
+  				<p xml:id="wdrl4d32-d1e3584"><lb ed="#P"/><pc ana="#pilcrow"/>utrum unus coniux sine licen<lb ed="#P"/>tia 
+  					alterius possit continentiam vovere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic per aliquos sciliet ut non 
+  					<lb ed="#P"/>petatur debitum <pc ana="#punctus"/> hoc idem videtur dicere <name ref="#Augustine">augustinus</name> 
+  					<lb ed="#P"/>in littera <pc ana="#punctus"/> Alii tamen quod non <pc ana="#punctus"/> quia ni<lb ed="#P"/>mis 
+  					onerosum esset <pc ana="#virgula"/> quod unus verecundiam 
+  					<lb ed="#P"/>semper subiret petendo <pc ana="#punctus"/> sed quod non reddatur 
+  					<lb ed="#P"/>non potest <pc ana="#virgula"/> quia sui corporis non habet potestatem</p>
+  			</div>
+  			<div xml:id="wdr-l4d32q4" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3625">Librum IV, Distinctio 32, Quaestio 4</head>
+  				<head xml:id="wdrl4d32-Hd1e3628" type="questionTitle">Utrum indebito illo sint partes</head>
+  				<p xml:id="wdrl4d32-d1e3631"><cb ed="#P" n="127rb"/><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <del rend="expunctuated">de</del> indebito illo sint partes <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio sic <pc ana="#virgula"/> ut innuit <name ref="#Paul">apsotolus</name> <pc ana="#punctus"/> quamvis 
+  					<lb ed="#P"/>quo ad alia vir possit vel praesit mulieri <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q5" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3659">Librum IV, Distinctio 32, Quaestio 5</head>
+  				<head xml:id="wdrl4d32-Hd1e3662" type="questionTitle">Utrum tempore sacro liceat exigere vel reddere debitum</head>
+  				<p xml:id="wdrl4d32-d1e3665"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tempore sacro liceat exigere 
+  					<lb ed="#P"/>vel reddere debitum <pc ana="#punctus"/> Responsio non licet 
+  					<lb ed="#P"/>exigere <pc ana="#punctus"/> quia tunc mens elevari debet 
+  					<lb ed="#P"/>ad spiritualia <pc ana="#punctus"/> Si tamen petit ex infirmitate 
+  					<lb ed="#P"/>non ex conceptum ex orationis ecclesiasticae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>vel temporis <pc ana="#punctus"/> nec peccant mortaliter red<lb ed="#P"/>dere 
+  					tamen semper oportet <pc ana="#punctus"/> quia ecclesia non potest 
+  					<lb ed="#P"/>Iuri naturali et divino praevidicium facere <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q6" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3702">Librum IV, Distinctio 32, Quaestio 6</head>
+  				<head xml:id="wdrl4d32-Hd1e3705" type="questionTitle">Utrum tempore in praegnationis liceat debitum reddere vel pertere</head>
+  				<p xml:id="wdrl4d32-d1e3708"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tempore in praegnationis li<lb ed="#P"/>ceat 
+  					debitum reddere vel petere <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> si potest fieri sine periculo aborsus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>semper debet reddi <pc ana="#punctus"/> propter remedium <choice><sic>exigeri</sic><corr>exigi</corr></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>etiam potest sine peccato mortali <pc ana="#punctus"/> Si non 
+  					<lb ed="#P"/>potest <pc ana="#virgula"/> nec exigi nec reddi debet <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q7" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3749">Librum IV, Distinctio 32, Quaestio 7</head>
+  				<head xml:id="wdrl4d32-Hd1e3752" type="questionTitle">Utrum tempore menstruorum liceat exigere vel reddere debitum</head>
+  				<p xml:id="wdrl4d32-d1e3755"><pc ana="#pilcrow"/><lb ed="#P"/>utrum tempore menstruorum li<lb ed="#P"/>ceat 
+  					exigere vel reddere debitum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio communius dicitur et securius <pc ana="#punctus"/> quod non licet 
+  					<lb ed="#P"/>tunc petere quia in habitum in lege <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et etiam sancti in glosis <pc ana="#punctus"/> <pc ana="#virgula"/> reddere tamen iuris 
+  					<lb ed="#P"/>est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> <pc ana="#punctus"/> Alii tamen addunt quod non licet 
+  					<lb ed="#P"/>reddere nisi petenti probabiliter immineat 
+  					<lb ed="#P"/>periculum fornicationis <pc ana="#punctus"/> Alii dicunt quod si 
+  					<lb ed="#P"/>passio est naturalis tempore determinate <pc ana="#punctus"/> tunc reddere 
+  					<lb ed="#P"/>et exigere mortale est <pc ana="#punctus"/> quia concepi con<lb ed="#P"/>sueverunt fetus menbris <choice><orig>dampnati</orig><reg>damnati</reg></choice> <pc ana="#punctus"/> Si 
+  					<lb ed="#P"/>in naturalis <pc ana="#punctus"/> saltem licet reddere quia non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>possunt fetus concipi <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q8" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3828">Librum IV, Distinctio 32, Quaestio 8</head>
+  				<head xml:id="wdrl4d32-Hd1e3831" type="questionTitle">Utrum tempore leprae oporteat debitum reddere</head>
+  				<p xml:id="wdrl4d32-d1e3834"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tempore leprae oporteat 
+  					<lb ed="#P"/>debitum reddere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> dicit <name ref="#AlanusDeInsulis">alanus <!-- i'm not 100% sure about name designation --></name> 
+  					<lb ed="#P"/>et cum eo multi alii <pc ana="#punctus"/> quod sanus tenetur le<lb ed="#P"/>proso 
+  					reddere debitum <pc ana="#punctus"/> sed non cohabitare <pc ana="#punctus"/> 
+  					<cb ed="#P" n="127va"/><lb ed="#P"/>in qua maius est periculum infectionis <pc ana="#virgula"/> sed proprie 
+  					<lb ed="#P"/>locum eius debet manere <pc ana="#punctus"/> <name>Ganfredus <unclear>vero <!-- could be "secunod" --></unclear> cardin<lb ed="#P"/>alis</name> 
+  					dicit quod sanus tenetur cohabitare 
+  					<lb ed="#P"/>leproso habitanti separatim <pc ana="#punctus"/> sed non habitanti 
+  					<lb ed="#P"/>cum aliis leprosis convenienter <pc ana="#punctus"/> prima opinio <choice><orig>tollerabilior</orig><reg>tolerabilior</reg></choice> est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q9" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3898">Librum IV, Distinctio 32, Quaestio 9</head>
+  				<head xml:id="wdrl4d32-Hd1e3901" type="questionTitle">Utrum convenienter debuerit prohiberi aliquo tempore nuptas celebrare</head>
+  				<p xml:id="wdrl4d32-d1e3904"><lb ed="#P"/><pc ana="#pilcrow"/>utrum convenienter debuerit prohibere 
+  					<lb ed="#P"/>aliquo tempore nuptias celebrare <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum iura scilicet 
+  					<lb ed="#P"/>a <num>lxx</num> usque ad octa<lb ed="#P"/>vas 
+  					paschae <pc ana="#punctus"/> tribus diebus ante ascensionem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet diebus rogationum <pc ana="#punctus"/> usque ad octavas 
+  					<lb ed="#P"/>pentecoste <pc ana="#punctus"/> et ab adventu <pc ana="#punctus"/> usque post <choice><orig>epi<lb ed="#P"/>phaniam</orig><reg>epi<lb ed="#P"/>phaniam</reg></choice> 
+  					<pc ana="#punctus"/> quia celebratio <pc ana="#punctus"/> quae fit cum quamdam 
+  					<lb ed="#P"/><choice><orig>sollempnitate</orig><reg>sollemnitate</reg></choice> <pc ana="#virgula"/> mundana <pc ana="#punctus"/> devotionem <choice><orig>in<lb ed="#P"/>pedit</orig><reg>im<lb ed="#P"/>pedit</reg></choice> 
+  					<pc ana="#virgula"/> contrahi tamen potest matrimonium per verba de 
+  					<lb ed="#P"/>praesenti <pc ana="#punctus"/> et etiam <pc ana="#virgula"/> sponsalia <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d32q10" type="quaestio">
+  				<head xml:id="wdrl4d32-Hd1e3991">Librum IV, Distinctio 32, Quaestio 10</head>
+  				<head xml:id="wdrl4d32-Hd1e3994" type="questionTitle">Utrum matrimonium tali tempore contractum sit sperandum</head>
+  				<p xml:id="wdrl4d32-d1e3997"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium tali tempore contractum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sic sperandum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia tempus 
+  					<lb ed="#P"/>non est de essentia matrimonii <pc ana="#punctus"/> peccant 
+  					<lb ed="#P"/>tamen propter statum <pc ana="#punctus"/> ecclesiae <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

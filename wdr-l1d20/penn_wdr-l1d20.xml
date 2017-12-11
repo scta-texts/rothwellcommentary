@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 20 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 20 [Penn Transcription]</title>
+          <date when="2016-04-23">April 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-23">April 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="32va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d20">
+  			<head xml:id="wdrl1d20-Hd1e3503">Librum I, Distinctio 20 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d20q1" type="quaestio">
+  				<head xml:id="wdrl1d20-Hd1e3508" type="questionTitle">Utrum filius sit opus sicut pater</head>
+  				<p xml:id="wdrl1d20-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum filius 
+  					<lb ed="#P"/>sit opus <pc ana="#punctus"/> sicut pater <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum symbolum <pc ana="#punctus"/> <choice><orig>attanasii</orig><reg>athanasii</reg></choice> 
+  					<lb ed="#P"/>fit autem tantum distributio <unclear>pro hiis</unclear> <pc ana="#punctus"/> quae posse <pc ana="#punctus"/> potentiae est <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/><del rend="strikethrough">posse</del> post se actus essentiales absolutos <pc ana="#punctus"/> non autem notion<lb ed="#P"/>ales 
+  					<pc ana="#punctus"/>qui proprietates relatas <pc ana="#punctus"/> quos posse <pc ana="#punctus"/> tantum est potentiae <pc ana="#virgula"/> 
+  					<lb ed="#P"/>in prima agente <pc ana="#punctus"/> <pc ana="#virgula"/> nec etiam debet <choice><orig>summi</orig><reg>sumi</reg></choice> ad aliquid <pc ana="#punctus"/> sub quicquid <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d20q2" type="quaestio">
+  				<head xml:id="wdrl1d20-Hd1e3583" type="questionTitle">Utrum patri sit aequalis in potentia</head>
+  				<p xml:id="wdrl1d20-d1e3586"><lb ed="#P"/><pc ana="#pilcrow"/>utrum patri sit aequalis in potentia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
+  					<lb ed="#P"/>quia in omnibus actibus essentialibus <pc ana="#punctus"/> ut intelligere creare etc 
+  					<!-- drops --> <ref>supra 1</ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d20q3" type="quaestio">
+  				<head xml:id="wdrl1d20-Hd1e3607" type="questionTitle">Utrum aliquid sit aequale deo</head>
+  				<p xml:id="wdrl1d20-d1e3610"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquid sit aequale deo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Respondeo non quia nec in natura nec in virtute <pc ana="#punctus"/> nec in operatione quia
+  					<!-- drops --> omnis creatura finita est</p>
+  			</div>
+  			<div xml:id="wdr-l1d20q4" type="quaestio">
+  				<head xml:id="wdrl1d20-Hd1e3626" type="questionTitle">Utrum in divinis sit</head>
+  				<p xml:id="wdrl1d20-d1e3629"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in divinis sit 
+  					<lb ed="#P"/>ordo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> <name ref="#Eusebius">Eusebius</name> dicit quod non <pc ana="#punctus"/> et hoc intellige de 
+  					<lb ed="#P"/>ordine <unclear>simpliciter</unclear> est tamen ibi <pc ana="#punctus"/> eum determinatione <pc ana="#punctus"/> ut ordo 
+  					<lb ed="#P"/>originis unde sic pater dicitur prima persona <pc ana="#punctus"/> filius secunda <pc ana="#punctus"/> etc <pc ana="#virgula"/> <choice><orig>Inpor<lb ed="#P"/>tat</orig><reg>Impor<lb ed="#P"/>tat</reg></choice> 
+  					enim ordinatorum distinctionem et gradum prioris 
+  					<lb ed="#P"/>et posterioris <pc ana="#punctus"/> et habitudinem mutuam secundum non <del rend="strikethrough">eado</del> 
+  					<!-- drops --> in deo sed alia duo</p>
+  			</div>
+  			<div xml:id="wdr-l1d20q5" type="quaestio">
+  				<head xml:id="wdrl1d20-Hd1e3688" type="questionTitle">Utrum ibi sit ordo natur</head>
+  				<p xml:id="wdrl1d20-d1e3691"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ibi sit ordo 
+  					<lb ed="#P"/>natur <pc ana="#punctus"/> Responsio <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> Sed notitia quod si acci<lb ed="#P"/>piatur 
+  					ordo naturae <unclear>u?t</unclear> subiecti <pc ana="#punctus"/> sic non est ordo nullae quia una 
+  					<lb ed="#P"/>numero est in personis tribus sed tantum personarum <pc ana="#virgula"/> quae ordinantur <pc ana="#punctus"/> Si 
+  					<lb ed="#P"/>autem accipiatur ut rationis secundum quam ordo attenditur 
+  					<lb ed="#P"/>sic verum est <pc ana="#punctus"/> quia ordinantur secundum naturalem originem ab invicem</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

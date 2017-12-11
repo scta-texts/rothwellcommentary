@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum 1, Distinctio 48</title>
+                <author>William de Rothwell</author>
+                <editor xml:id="CO">Calix Ohara</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.06">
+                    <title>Librum I, Distinctio 48</title>
+                    <date when="2015-04-10">June 19, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Lombard Press</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2015-06-19">June 19, 2015</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, Codes 686</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2015-06-19" who="#CO" status="draft" n="2015.06">
+                    <p>Created file for the first time.</p>
+                    <note type="status">
+                        <note type="collobaration">Yes</note>
+                        <note type="validating-schema">lbp-0.0.1</note>
+                        <note type="transcription-type">documentary</note>
+                    </note>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <p><unclear>Quaeritur</unclear> utrum <unclear>creatio</unclear> esse possit Responsio <g ref="#slash"/> prima <g ref="#dot"/> 
+            <lb ed="#P"/>quod sic <g ref="#dot"/> secundum fidem <g ref="#dot"/> Cum enim Dominus sit omnipotens <g ref="#slash"/> <unclear>non</unclear> solum <unclear>pro<lb ed="#P"/>ducere</unclear>
+            aliquid de sua substantia <g ref="#slash"/> quod est generatio <g ref="#dot"/> nulla solum <unclear>dici</unclear> aliena
+            <lb ed="#P"/>substantia <g ref="#slash"/> ut in factione <g ref="#slash"/> sed <unclear>etiam</unclear> dici <unclear>notatur</unclear> <g ref="#slash"/> quod est creatio <g ref="#dot"/> <g ref="#slash"/> et intelligere quod
+            <lb ed="#P"/><unclear>li</unclear> <g ref="#dot"/> de <g ref="#dot"/> dicat ordinem solum <g ref="#dot"/>non creatam materialem</p>
+           
+            <p><g ref="#pilcro"/>Utrum creatio sit mutatio Responsio convenitur scilicet loquendo et lar<lb ed="#P"/>ge
+            sed propriae et stricte loquendo <g ref="#slash"/> non mutatio enim propriae <unclear>est</unclear>
+            <lb ed="#P"/>quem habet duo extrema secundum rem <g ref="#slash"/> et ab uno <unclear>rendt</unclear> in aliud <g ref="#slash"/> eodem
+            <lb ed="#P"/>subiectio <unclear>maneretur</unclear> <g ref="#dot"/> et <unclear>hoc</unclear> est naturalis et fit naturaliter per motum <g ref="#slash"/> Alia
+            <lb ed="#P"/>autem scilicet large dicta <unclear>mutatio</unclear> <g ref="#slash"/> habet unum extremum rationis <g ref="#slash"/>
+            <lb ed="#P"/>aliquod <unclear>rendt</unclear> in alterum extremum quod est rei <g ref="#dot"/> et hoc est supernaturalis <g ref="#slash"/> et fit
+            <lb ed="#P"/>sine motu <g ref="#dot"/> et talis est creatio</p>
+            
+            <p><g ref="#pilcro"/>Quid sit secundum rem creatio Responsio Creatio accipitur actionem <g ref="#slash"/> et pas<lb ed="#P"/>sive
+            <g ref="#dot"/> <g ref="#slash"/> primo modo significatur operationem divinam <unclear>quam</unclear> est essentia divina <unclear>cum</unclear> relatione
+            <lb ed="#P"/>quadam rationis non rei ad creaturam <g ref="#dot"/> <g ref="#slash"/> secundo modo dicunt quidam quod 
+            <lb ed="#P"/>non est aliud a creatura secundam rem <g ref="#dot"/> licet licet secundam rationem quia dicit <unclear>ipsam</unclear> comparatam 
+            <lb ed="#P"/>ad creatorem <g ref="#dot"/> <g ref="#slash"/> Alii probaliter dicunt quod differt <unclear>etiam</unclear> secundam rem <g ref="#dot"/>
+            <lb ed="#P"/>quia <unclear>accidentalis</unclear> quoddam est in creatura <g ref="#dot"/> et  significat rem quandam quid non est in 
+            <lb ed="#P"/>praedictio passionis propriae loquando <g ref="#dot"/> licet in generatione relationis <g ref="#dot"/> quia dicit
+            <lb ed="#P"/>habitudine et dependentia rei creatae ad creatorem <g ref="#dot"/> quid 
+            <lb ed="#P"/>relatio consequitur actionem Dei creantis <g ref="#dot"/> <g ref="#slash"/> <unclear>ex</unclear> dici filiatione <g ref="#dot"/>
+            <lb ed="#P"/><g ref="#slash"/> <unclear>haec</unclear> etiam non est creatura propriae quia ad ipsam non terminatur operatio <g ref="#dot"/>
+            <lb ed="#P"/> sed large (punctus elevatus) quia <unclear>incepta</unclear> esse post non esse <g ref="#slash"/> et quamvis sit creaura
+            <lb ed="#P"/>non <unclear>rn</unclear> alia relatione secundam rem reertur ad creatorem quam <unclear>serpam</unclear> 
+            <lb ed="#P"/>sed tamen secundam rationem et in hiis secundum Avicenam non est ingredientem irae in infinitum</p>
+            
+            <p><pb n="123r"/><lb ed="#P"/><g ref="pilcro"/>Utrum actus creandi alicui creaturae communicari potuerit Responsio non quia
+            <lb ed="#P"/>sicut ars praesupponit operatione naturae <g ref="#slash"/> ita natura operatione divina <g ref="#dot"/>
+            <lb ed="#P"/>quid per creationem ministrat naturae materiam <g ref="#slash"/> <unclear>Iudex Esto</unclear> cum prima rerum creatarum sit
+            <lb ed="#P"/>esse <g ref="#slash"/> oportet idem non esse creaturam quod antecedit esse <g ref="#slash"/> Alius etiam et <unclear>Datus</unclear>
+            <lb ed="#P"/>dicunt angelos non esse <unclear>creatoreus</unclear> sicut nec agricole segetum</p>
+            
+            <p><g ref="pilcro"/>Utrum creatura aliquid efficiat Repsonsio sic <unclear>universali</unclear> disponando ad effictum 
+            <lb ed="#P"/>divinum <g ref="#dot"/> ut in creatione animae <unclear>universali</unclear> tanquam efficiens <unclear>Christus</unclear> ut in 
+            <lb ed="#P"/>naturalibus quid fiunt pro motum  <unclear>slicho</unclear> tamen etiam Deus est causa inmediata</p>
+            
+            <p><g ref="pilcro"/>Utrum sit unum solum primum <unclear>principium</unclear> Responsio <unclear>In domini</unclear> <!-- Something going on here with the red ink --> omnium quia in omnibus operatur
+            <lb ed="#P"/>versis generationibus causarum <g ref="#slash"/> plura sunt ut <unclear>multa</unclear> prima <g ref="#slash"/> chaos <g ref="#dot"/> prima forma <g ref="#slash"/> esse
+            <lb ed="#P"/>primum movens <g ref="#slash"/> motor primi <unclear>mobilis</unclear> et <unclear>finis</unclear> ultimus participio esse
+            <lb ed="#P"/>domini <g ref="#slash"/> simplicter tamen est <unclear>tum</unclear> unum primum quia cum esse inveniatur in omnibus
+            <lb ed="#P"/>rebus <g ref="#slash"/> licet <unclear>diversimode</unclear> participatum  oportet esse aliquam primam causam 
+            <lb ed="#P"/>in qua inveniatur primo <unclear>secundum</unclear> regulam philosophi</p>
+            
+            <p><g ref="pilcro"/>Utrum a primo principio producta sint omnia inmediate <g ref="#slash"/> <unclear>sive</unclear> aliquo mediate
+            <lb ed="#P"/>Responsio In prima natura institutione omnia facta sunt a Deo inmediate quia solius
+            <lb ed="#P"/>Domini natura est <g ref="#slash"/> ei leges instituere <g ref="#slash"/> conservatio uno et <unclear>mltrplo</unclear> fit
+            <lb ed="#P"/><unclear>essent</unclear> mediante altero scilicet per leges naturae inditas</p>
+            
+            <p><g ref="pilcro"/>Ut mundus sit aeternus Responsio In <ref><title>litera <unclear>mea</unclear></title> ponit regulas politio<lb ed="#P"/>nes
+            <name>Plato</name></ref> enim dixit eum fuisse ab aeterno in potentia materiae solum
+            <lb ed="#P"/>et operatione divina eductum <unclear>dicit</unclear> potentia ad actum <g ref="#slash"/> et hoc in tempore <g ref="#slash"/> Maiorum
+            <lb ed="#P"/>autem <unclear>posuit</unclear> eum fuisse ab aeterno <g ref="#slash"/> in statu generationis et
+            <lb ed="#P"/>coronis <g ref="#slash"/> ut nec est <g ref="#slash"/> Sed <name ref="#Moses">Moyses</name> et fides ponit mundum
+            <lb ed="#P"/>natura in potentia materiae natura in actu <g ref="#dot"/> scilicet in sola potentia agentis ab aeterno
+            <lb ed="#P"/>fuisse et in tepore per creationem incepisse</p>
+            
+            <p><g ref="pilcro"/>Utrum aliqua creatura potuerit feri ab aeterno Responsio licet Dominus
+            <lb ed="#P"/>potuerit ab aeterno <g ref="#slash"/> enim tamen creatura feri ab aeterno <unclear>potuerit</unclear>
+            <lb ed="#P"/>quia est contra rationem creaturae cum dicit eius ratione sit quod habeat esse post 
+            <lb ed="#P"/>enim esse <g ref="#slash"/> Item Dominus creaturam duratione praecedit <g ref="#slash"/> sicut aeternitas
+            <lb ed="#P"/>tempore <g ref="#slash"/> <name>Boethius</name> <unclear>oratio</unclear> vi tempus ab aevo et circa generatio et circa</p>
+            
+            <p><g ref="pilcro"/>Utrum Dominus operatur propter aliquem finem Responsio sicut quod agens est per 
+            <lb ed="#P"/><unclear>intellectum</unclear> scilicet propter finem operis et etiam operantis <g ref="#slash"/> hoc tamen operatio <unclear>sive</unclear> hoc 
+            <lb ed="#P"/>enim est propter desiderius finis enim habiti licet propter amorem habiti quem</p>
+            
+            <p><g ref="pilcro"/>Utrum Domini bonitas sit finis omnium operum <!-- Parenthees? --> intendit aliis communicare
+            <lb ed="#P"/>Domini Responsio sicut <unclear>Puer</unclear> 16 universa propter <unclear>semum</unclear>ipsum operatus est
+            <lb ed="#P"/>Dominus <g ref="#slash"/> et <unclear>intellecte</unclear> hoc dicit fine ultimo et communi <g ref="#slash"/> proprius autem et proprius est 
+            <lb ed="#P"/>operatio rei <g ref="#slash"/> finem etiam illum omnia consequuntur scilicet bonitatem domini in aliqua</p>
+            
+            <p><g ref="#pilcrow"/>Utrum hoc sit finis omnium creaturarum Responsi Duplex est <!-- parentheses? --> sui similitudine 
+            <lb ed="#P"/><unclear>do</unclear> universi scilicet partium inter se <g ref="#dot"/> et earum ad Dominum <g ref="#slash"/> secundo modo <g ref="#slash"/> bonitas
+            <lb ed="#P"/>divina est <unclear>finis</unclear> omnium <g ref="#slash"/> sed primo modo hoc est finis omnium <g ref="#slash"/> vel secunda genera sin<lb ed="#P"/>gulorum
+            <g ref="#slash"/> in queam ad constitionem eius genus creaturae concurrit <unclear>secundum ss</unclear>
+            <lb ed="#P"/><unclear>hol</unclear> omnium naturalium solum <g ref="#slash"/> quia est ultima forma naturae <g ref="#slash"/> est etiam finis
+            <lb ed="#P"/>principalis <g ref="#slash"/> tamquam sine quo res non esset <g ref="#slash"/> vegetabilium scilicet quem vertuntur 
+            <lb ed="#P"/>in usum hominis <g ref="#slash"/> quia principaliter propter hominis utilitatem factem unde ces<lb ed="#P"/>sante
+            usu hominis <unclear>cessabant</unclear> <g ref="#slash"/> <unclear>Est</unclear> tamen <unclear>nobilius</unclear> finis omnium
+            <lb ed="#P"/>secundarius scilicet sine quo res <unclear>nobilius</unclear> esset <g ref="#slash"/>habet nec aliqua utilitatem ab omnibus
+            <lb ed="#P"/><g ref="#slash"/> hoc ex <ref><title>literis</title> <g ref="#slash"/> <name ref="#Aristotle">Philosophum</name>  11 philosophorum</ref> dicit quod <quote>nos sumus quodammodo omnium</quote></p>
+            
+            <p><g ref="#pilcrow"/>Quaere natura sit dignior hoc <unclear>scilicet</unclear> angelus Responsio secundam <unclear>9</unclear> distinctionem <unclear><name ref="#Jacob">Jacobus</name></unclear> <unclear>8-15-q6</unclear>
+            <lb ed="#P"/>naturae angelus est dignior <g ref="#slash"/> secundam ordinem ad gratiam et gloriam aequa<lb ed="#P"/>les
+            <g ref="#slash"/> sed <unclear>quantum</unclear> ad acceptionem divinam humana natura est dignior propter</p>
+            
+            <p><g ref="#pilcrow"/>Utrum anima rationalis corpori uniri debuerit <!-- parenthesis? -->unionem in prima divina
+            <lb ed="#P"/>Responsio sic quia hoc est dici natura sua quod patet quia potentia <unclear>vegetiva</unclear> et sen<lb ed="#P"/>sativa 
+            <unclear>nec</unclear> <unclear>sunt nisi</unclear> in corpore <g ref="#slash"/> Item ratio non est nisi <unclear>inrationales</unclear> <unclear>ob ubt</unclear> ex
+            <lb ed="#P"/>corpore <unclear>scilicet</unclear> <g ref="#slash"/> in <unclear>litteratis</unclear> potentia causa communis scilicet divina bonitas et propter exempla bene uni<lb ed="#P"/>onis
+            scilicet inter dominum et spiritum tanta scilicet differentia enim inpediente</p>
+            
+            <p><g ref="#pilcrow"/>Utrum tali corpori uniri debuerit Responsio sic quia multiplicitati 
+            <lb ed="#P"/>potentiarum animae Respondet multiplicitas organorum in corpore diversimode 
+            <lb ed="#P"/>complexionatorum <unclear>secundum</unclear> congruitatem ad opera sua unde non
+            <lb ed="#P"/><unclear>potu</unclear> esse celeste <g ref="#dot"/> natura simplicis <unclear>elui</unclear> <g ref="#dot"/> natura mixtum homogeneum 
+            <lb ed="#P"/><g ref="#slash"/> est atque <unclear>reparatissimum</unclear> in complexione propter nobilissimam formam</p>
+        </body>
+    </text>
+</TEI>

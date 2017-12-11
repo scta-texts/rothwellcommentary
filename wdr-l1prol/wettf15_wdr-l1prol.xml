@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Prologus [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.06-dev-master">
+          <title>Book I, Question 1</title>
+          <date when="2015-06-12">June 12, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-06-12">June 12, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-12" who="#JW" status="draft" n="2015.06">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="A107v" select="kba-WettF0015_107v.json" ana="#A">
+      <graphic url="A107v.jpg"/>
+      <zone start="#wdrl1prol-qutvrs" ulx="1012" uly="904" lrx="2672" lry="1784" n="1"/>
+      <zone start="#wdrl1prol-usuade" ulx="1012" uly="1686" lrx="2672" lry="2145" n="1"/>
+      <zone start="#wdrl1prol-qssise" ulx="1012" uly="2054" lrx="2672" lry="2824" n="1"/>
+      <zone start="#wdrl1prol-utsesp" ulx="1012" uly="2739" lrx="2672" lry="3509" n="1"/>
+      <zone start="#wdrl1prol-usssne" ulx="1012" uly="3437" lrx="2672" lry="3968" n="1"/>
+      <zone start="#wdrl1prol-uhsail" ulx="3908" uly="1070" lrx="2672" lry="4574" n="1"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="107va" select="kba-WettF0015_107v.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l1prol">
+        <head>Librum I, Prologus [Aarau Transcription]</head>
+        <div xml:id="wdr-l1prolq1" type="quaestio">
+          <head type="questionTitle">Utrum theologia sit scientia</head>
+          <p xml:id="wdrl1prol-qutvrs"><cb ed="#A" n="107va" select="kba-WettF0015_107v.json"/><lb ed="#A"/>Queritur utrum theologia sit scientia <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio <g ref="#dot"/> proprie loquendo debet dici sapientia <g ref="#dot"/> quae 
+            <lb ed="#A"/>secundum <name ref="#Augustine">augustinum</name> est de divinis <g ref="#dot"/> sed scientia de humana<lb ed="#A"/>nis 
+          <g ref="#dot"/> tamen hic large etiam potest de scientia <g ref="#dot"/> quia licet non procedat 
+            <lb ed="#A"/>secundum viam rationis inferioris sicut aliae scientiae <g ref="#dot"/> tamen procedit 
+            <lb ed="#A"/>secundum viam rationis superioris <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1prolq2" type="questio">
+          <head type="questionTitle">Utrum sit una scientia vel plures</head>
+          <p xml:id="wdrl1prol-usuade"><lb ed="#A"/><g ref="#pilcrow"/>utrum sit una scientia <g ref="#dot"/> vel plures <g ref="#dot"/> Responsio una est simpliciter 
+            <lb ed="#A"/>quia est de deo principaliter <g ref="#dot"/> et de aliis rebus inquantum parti<lb ed="#A"/>cipant 
+            <lb ed="#A"/>aliquid divini esse</p>
+        </div>
+        <div xml:id="wdr-l1prolq3" type="quaestio">
+          <head type="questionTitle">Quid sit subiectum in theologia</head>
+          <p xml:id="wdrl1prol-qssise"><lb ed="#A"/><g ref="#pilcrow"/>Quid sit subiectum in theologya <g ref="#dot"/> Responsio <g ref="#dot"/> Deus est subiectum proprie 
+            <lb ed="#A"/>loquendo <g ref="#slash"/> quia de illi principaliter intenditur <g ref="#dot"/> vel 
+            <lb ed="#A"/>minus proprie omne illud dicendo subiectum de quo in scientia de<lb ed="#A"/>terminatur 
+            <g ref="#slash"/> sic <unclear cert="high">omnes</unclear> res divinae <unclear cert="high">sunt</unclear> subiectum <g ref="#slash"/> inquantum esse div<lb ed="#A"/>num 
+            participant <g ref="#dot"/> primum subiectum est intentionis <g ref="#dot"/> secundum 
+            <lb ed="#A"/>executionis <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1prolq4" type="quaestio">
+          <head type="questionTitle">Utrum theologia sit scientia speculativa vel practica</head>
+          <p xml:id="wdrl1prol-utsesp"><lb ed="#A"/><g ref="#pilcrow"/>Utrum theologia sit scientia speculativa <g ref="#slash"/> vel practica 
+            <lb ed="#A"/>Responsio partim speculativa <g ref="#slash"/> partim practica <g ref="#dot"/> quia de ipsa est 
+            <lb ed="#A"/>sapientia quae est habitus perficiens intellectum in extensi<lb ed="#A"/>one 
+            ad affectum <g ref="#slash"/>secudum quod excitat affectionem <g ref="#slash"/> unde potest 
+            <lb ed="#A"/>dici scientia affectiva <g ref="#dot"/> unde <name ref="#Paul">apostolus</name> dicit eam esse scientia pi<lb ed="#A"/>etatis</p>
+        </div>
+        <div xml:id="wdr-l1prolq5" type="quaestio">
+          <head type="questionTitle">Utrum sit scientia necessaria</head>
+          <p xml:id="wdrl1prol-usssne"><lb ed="#A"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
+              <lb ed="#A"/>rebus prout exeunt a suo principio <g ref="#slash"/> hoc aut de ipsis prout 
+              <lb ed="#A"/>redeunt in ipsum tamquam in suum finem <g ref="#slash"/> cognitio aut 
+              <lb ed="#A"/>finis nostri nobis summe necessaria est <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1prolq6" type="quaestio">
+          <head type="questionTitle">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
+          <p xml:id="wdrl1prol-uhsail"><lb ed="#A"/><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis per rationes 
+            <lb ed="#A"/>et argumenta <g ref="#dot"/> Responsio <g ref="#dot"/> sic  <g ref="#slash"/> modestus scilicet quo suppositum ratio fidei <g ref="#dot"/> 
+            <lb ed="#A"/>non quod proponatur <g ref="#slash"/> nec ad fidei probationem <g ref="#slash"/> sed ad decla<lb ed="#A"/>rationem 
+            fidelibus <g ref="#slash"/>et ad defensionem contra in<lb ed="#A"/>fideles 
+            haec omnia <ref><name ref="#Augustine">augustinus</name> 2 <unclear>de in littera</unclear></ref></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

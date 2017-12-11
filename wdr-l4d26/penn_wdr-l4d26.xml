@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 26 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 26 [Penn Transcription]</title>
+          <date when="2016-05-18">May 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-18">May 18, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="124rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d26">
+  			<head xml:id="wdrl4d26-Hd1e3503">Librum IV, Distinctio 26 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d26q1" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3508">Librum IV, Distinctio 26, Quaestio 1</head>
+  				<head xml:id="wdrl4d26-Hd1e3511" type="questionTitle">Utrum matrimonium sit de iure naturali</head>
+  				<p xml:id="wdrl4d26-d1e3514"><lb ed="#P"/>Quaeritur utrum matrimonium sit de iure 
+  					<lb ed="#P"/>naturali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> non quod sit de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <pc ana="#virgula"/> naturae 
+  					<lb ed="#P"/>si quia ad ipsum natura inclinat <pc ana="#virgula"/> Educatio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>enim filiorum <choice><orig>inpediretur</orig><reg>impediretur</reg></choice> si non esset certa parentum 
+  					<!-- drops -->adinvicem obligatio</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q2" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3554">Librum IV, Distinctio 26, Quaestio 2</head>
+  				<head xml:id="wdrl4d26-Hd1e3557" type="questionTitle">Quando matrimonium fuerit institutum</head>
+  				<p xml:id="wdrl4d26-d1e3560"><lb ed="#P"/><pc ana="#pilcrow"/>Quando <pc ana="#punctus"/> 
+  					<lb ed="#P"/>matrimonium fuerit instititum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> <name ref="#Lombard">magister</name> 
+  					<lb ed="#P"/>in littera <pc ana="#virgula"/> cui concordat <pc ana="#virgula"/> <name ref="#Augustine">augustinus</name> in littera quaedam 
+  					<lb ed="#P"/>in paradiso ante peccatum fuit institutum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in officium tantum <pc ana="#virgula"/> et sic fuit tantum sacramentum 
+  					<lb ed="#P"/>large <pc ana="#punctus"/> ratione signi <pc ana="#punctus"/> <pc ana="#virgula"/> post peccatum autem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>etiam in remedium <pc ana="#punctus"/> et sic proprie est sacramentum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d26q3" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3614">Librum IV, Distinctio 26, Quaestio 3</head>
+  				<head xml:id="wdrl4d26-Hd1e3617" type="questionTitle">A quo fuerit institutum matrimonium</head>
+  				<p xml:id="wdrl4d26-d1e3620"><cb ed="#P" n="124va"/><lb ed="#P"/><pc ana="#pilcrow"/>a quo fuerit institutum matrimonium 
+  					<lb ed="#P"/>Responsio ab homine scilicet <name ref="#Adam"><choice><sic>ada</sic><corr>adam</corr></choice></name> divinitus inspiratio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia etiam ibi est aliquod carnale <pc ana="#punctus"/> aliquod spirituale scilicet signifi<!-- drops -->catio</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q4" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3647">Librum IV, Distinctio 26, Quaestio 4</head>
+  				<head xml:id="wdrl4d26-Hd1e3650" type="questionTitle">Utrum matrimonium et usus eius fuerit in praecepto ante peccatum</head>
+  				<p xml:id="wdrl4d26-d1e3653"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium et usus eius <pc ana="#punctus"/> 
+  					<lb ed="#P"/>fuerit in praecepto <pc ana="#punctus"/> ante peccatum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#gen">genese</title> primo</ref> <quote xml:id="wdrl4d26-Qd1e3677" ana="#gen1_22">crescite et multiplicamini</quote> <pc ana="#virgula"/> et hoc 
+  					<lb ed="#P"/>propter multiplicationem speciei <pc ana="#punctus"/> et ad complendum <unclear>numerum <!-- possibily <sic>matrimonium</sic> --></unclear> electorum</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q5" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3696">Librum IV, Distinctio 26, Quaestio 5</head>
+  				<head xml:id="wdrl4d26-Hd1e3699" type="questionTitle">Utrum post peccatum sit in praecepto</head>
+  				<p xml:id="wdrl4d26-d1e3702"><lb ed="#P"/><pc ana="#pilcrow"/>utrum post peccatum sit in praecepto 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> post peccatum est duplex <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> matrimoni<lb ed="#P"/>nii 
+  					scilicet <pc ana="#virgula"/> multiplicatio naturae humane et conservatio 
+  					<lb ed="#P"/>et sic fuit in praecepto <pc ana="#virgula"/> usque ad sufficientem 
+  					<lb ed="#P"/>multitudinem <pc ana="#virgula"/> Alia in tanto fornicationis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et sic semper fuit indulgentia <pc ana="#punctus"/> et numquam praeceptum 
+  					<!-- drops --> hoc in littera</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q6" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3742">Librum IV, Distinctio 26, Quaestio 6</head>
+  				<head xml:id="wdrl4d26-Hd1e3745" type="questionTitle">Utrum adhuc illud praeceptum maneat</head>
+  				<p xml:id="wdrl4d26-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>utrum adhuc illud 
+  					<lb ed="#P"/>praeceptum maneat <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia cum 
+  					<lb ed="#P"/>affirmativum sit <pc ana="#virgula"/> non obligat ad semper <pc ana="#virgula"/> nunc 
+  					<lb ed="#P"/>autem non est necessitas <pc ana="#punctus"/> praecepti <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d26q7" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3776">Librum IV, Distinctio 26, Quaestio 7</head>
+  				<head xml:id="wdrl4d26-Hd1e3779" type="questionTitle">Utrum matrimonium sit sacramentum</head>
+  				<p xml:id="wdrl4d26-d1e3782"><lb ed="#P"/>Utrum matrimonium sit sacramentum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Paul">apostolum</name> ibi est remedium 
+  					<lb ed="#P"/>effective <pc ana="#virgula"/> contra peccatum in <choice><sic>signe</sic><corr>signis</corr></choice> sensibilibus 
+  					<lb ed="#P"/>est enim ibi actus exterior <pc ana="#punctus"/> sacramentum tantum <pc ana="#punctus"/> coniunctio 
+  					<lb ed="#P"/>animorum <pc ana="#punctus"/> vel indivisibilitas sacramentum <pc ana="#virgula"/> et res <pc ana="#punctus"/> effectus 
+  					<!-- drops --> gratiae ibi collatae <pc ana="#virgula"/> res tantum</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q8" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3830">Librum IV, Distinctio 26, Quaestio 8</head>
+  				<head xml:id="wdrl4d26-Hd1e3833" type="questionTitle">Utrum matrimonium sit causa gratiae</head>
+  				<p xml:id="wdrl4d26-d1e3836"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium 
+  					<lb ed="#P"/>sit causa gratiae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt 
+  					<lb ed="#P"/>quod tantum signum est <pc ana="#punctus"/> quia sacramenta veteri legis  <pc ana="#virgula"/> in nova <pc ana="#punctus"/> 
+  					<lb ed="#P"/>approbant <pc ana="#punctus"/> alii quod gratia tantum perservans <pc ana="#punctus"/> a malo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia excusat actum <pc ana="#punctus"/> Alii <pc ana="#punctus"/> verius <pc ana="#punctus"/> quod etiam convert 
+  					<lb ed="#P"/>gratiam in operatione boni <pc ana="#punctus"/> tum sit sacramentum 
+  					<lb ed="#P"/>novae legis <pc ana="#punctus"/> et haec ordinantur ad honestum usum 
+  					<!-- drops --> matrimonii</p>
+  			</div>
+  			<div xml:id="wdr-l4d26q9" type="quaestio">
+  				<head xml:id="wdrl4d26-Hd1e3887">Librum IV, Distinctio 26, Quaestio 9</head>
+  				<head xml:id="wdrl4d26-Hd1e3890" type="questionTitle">Utrum carnalis copula sit de integritate matrimonii</head>
+  				<p xml:id="wdrl4d26-d1e3893"><lb ed="#P"/><pc ana="#pilcrow"/>utrum carnalis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>copula sit de integritate matrimonii 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> est de essentialibus <pc ana="#punctus"/> matrimonii quantum 
+  					<lb ed="#P"/>ad prima perfectionem <pc ana="#punctus"/> sed est de integritate secunda <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quae est incompleta <pc ana="#virgula"/> significatione <pc ana="#virgula"/> et secundum hoc <pc ana="#virgula"/> 
+  					<cb ed="#P" n="124vb"/><lb ed="#P"/>hinc inde locuntur diversimode sancti in littera</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

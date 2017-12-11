@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 13 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 13 [Aarau Transcription]</title>
+          <date when="2015-07-26">July 26, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-07-26">July 26, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="111rb" select="kba-WettF0015_111r.json"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d13">
+  			<head xml:id="wdrl1d13-Hd1e3503">Librum I, Distinctio 13 [Aarau Transcription]</head>
+  			<div xml:id="wdr-l1d13q1" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3508" type="questionTitle">Utrum processio sit in divinis</head>
+  				<p xml:id="wdrl1d13-d1e3511"><lb ed="#A"/>Queritur utrum processio sit in divi<lb ed="#A"/>nis 
+  					Responsio sic quae scilicet est processio initialis <g ref="#slash"/>ut princi<lb ed="#A"/>piam 
+  					a principio <g ref="#dot"/> ut lineae a puncto <g ref="#dot"/> <g ref="#slash"/> localis autem proces<lb ed="#A"/>sio 
+  					<g ref="#dot"/> vel causalis non est ibi proprie <g ref="#dot"/> sed <corr>tran<del rend="expunctuated">s</del>sumptive</corr> scilicet quo ad determinatio<lb ed="#A"/>nem 
+  					et distinctionem originis <g ref="#dot"/> non quo ad diversitatem essentiae</p>
+  			</div>
+  			<div xml:id="wdr-l1d13q2" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3548" type="questionTitle">Utrum procedere sit proprium Spiritui Sancto</head>
+  				<p xml:id="wdrl1d13-d1e3551"><cb ed="#A" n="111va" select="kba-WettF0015_111v.json"/>
+  					<lb ed="#A"/><g ref="#pilcrow"/>utrum procedere sit proprium spiritui sancto Responsio secundum rationem <unclear>consequentiae</unclear> est 
+  					<lb ed="#A"/>etiam ad generationem filii <g ref="#dot"/> <g ref="#slash"/> quia tantum dicit emanationem ab 
+  					<lb ed="#A"/>altero <g ref="#dot"/> <g ref="#slash"/> appropriatur tamen spiritui sancto hoc nomen <g ref="#slash"/> quia processio 
+  					<lb ed="#A"/>spiritus sancti non addit spiritualem differentiam processionis <g ref="#slash"/> nobis 
+  					<lb ed="#A"/>notam <g ref="#slash"/> supra processionem convenienter dictam <g ref="#dot"/> sicut facit pro<lb ed="#A"/>cessio 
+  					filii <g ref="#dot"/> <g ref="#slash"/> <unclear>Exemplum</unclear> habemus de accidente sibi <g ref="#slash"/> et proprio <g ref="#dot"/> <g ref="#slash"/> et similiter <!-- drop line --> de proprio <g ref="#slash"/> et diffinitione</p> 
+  			</div>
+  			<div xml:id="wdr-l1d13q3" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3611" type="questionTitle">utrum realiter diversae sint processiones generatio et processio</head>
+  				<p xml:id="wdrl1d13-d1e3614"><lb ed="#A"/><g ref="#pilcrow"/>utrum realiter diversae sint processio<lb ed="#A"/>nes 
+  					<g ref="#slash"/> generatio et processio Responsio sic <g ref="#dot"/> quia diversa supposita secunda 
+  					<lb ed="#A"/>rem constituunt <g ref="#dot"/> <g ref="#slash"/> Sed quidam dicunt quod differunt se ipsis 
+  					<lb ed="#A"/>sicut <unclear>pri?ae dicere</unclear> <g ref="#slash"/> ut rationale et irrationale <g ref="#dot"/> <g ref="#slash"/> Alii autem quod per 
+  					<lb ed="#A"/>supposita et formas suppositorum in quantum principia actuum <g ref="#slash"/> ut 
+  					<lb ed="#A"/>generatio ab uno solo <g ref="#slash"/> et per formam propriam <g ref="#dot"/><g ref="#slash"/> processio a 
+  					<lb ed="#A"/>duobus <g ref="#slash"/> et per formam communem <g ref="#dot"/> <g ref="#slash"/> concordando utrumque dicit 
+  					<lb ed="#A"/>quod differunt se ipsis formaliter <g ref="#slash"/> quia diversas habent rationes 
+  					<lb ed="#A"/>reales <g ref="#dot"/> <g ref="#slash"/> sed non se ipsis originaliter <g ref="#slash"/> sed penes supposi<lb ed="#A"/>tas 
+  					formas <g ref="#slash"/> a quibus hii actus egrediuntur scilicet paternitatem et <unclear>communem</unclear> <!--drops line -->spirationem</p>
+  			</div>
+  			<div xml:id="wdr-l1d13q4" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3690" type="questionTitle">Utrum processio Spiritus Sancti possit dici generatio</head>
+  				<p xml:id="wdrl1d13-d1e3693"><lb ed="#A"/><g ref="#pilcrow"/>utrum processio spiritus sancti possit dici generatio Responsio secundum 
+  					<lb ed="#A"/><name ref="#Augustine">augustinum</name> in littera quod non <g ref="#dot"/> <g ref="#slash"/> quia haec processio dividitur contra generationem <g ref="#dot"/> 
+  					<lb ed="#A"/>quia generatio est emanatio pro modum naturae <g ref="#dot"/> processio per modum <!-- drop line --> voluntatis</p>    
+  			</div>
+  			<div xml:id="wdr-l1d13q5" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3719" type="questionTitle">Utrum Spiritus Sanctus possit dici ingenitus</head>
+  				<p xml:id="wdrl1d13-d1e3722"><lb ed="#A"/><g ref="#pilcrow"/>utrum spiritus sanctus possit dici ingenitus Responsio Ingenitum 
+  					<lb ed="#A"/>poteset accipi privarem <g ref="#slash"/> et sic non cadit in divinis <g ref="#dot"/> <g ref="#slash"/> vel negative 
+  					<lb ed="#A"/>et hoc dupliciter <g ref="#slash"/> vel negatione in genere aliquo determinato <g ref="#dot"/> quae relin<lb ed="#A"/>quit 
+  					aliquid <g ref="#slash"/> et tollit esset ab alio per generationem solum <g ref="#slash"/> et sic convenit 
+  					<lb ed="#A"/>spiritui sancto <g ref="#dot"/> et sic dicit eum <name ref="#Jerome">Ieromus</name> in littera ingenitum <g ref="#dot"/> <g ref="#slash"/> vel negatione 
+  					<lb ed="#A"/>extra gradus quae tollit esse ab alio simpliciter sic tantum pater inge<lb ed="#A"/>nitus 
+  					et sic <name rend="#Augustine">augustinus</name> in littera dicit spiritum sanctum nec genitum <g ref="#slash"/> nec ingenitum <!-- drop line --> debere dici</p>
+  			</div>
+  			<div xml:id="wdr-l1d13q6" type="quaestio">
+  				<head xml:id="wdrl1d13-Hd1e3775" type="questionTitle">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
+  				<p xml:id="wdrl1d13-d1e3778"><lb ed="#A"/><g ref="#pilcrow"/>utrum ingenitum dicat aliquam notionem 
+  					<lb ed="#A"/>in spiritu sancto Responsio Notio dicitur id quod est principium innotescendi 
+  					<lb ed="#A"/>persona <g ref="#dot"/> <g ref="#slash"/> ad notionem <unclear>g?itur</unclear> tria requiruntur <g ref="#dot"/> <g ref="#slash"/> primum quod sit proprietas 
+  					<lb ed="#A"/>aliquam determinata <g ref="#dot"/> quia generale non distinguit <g ref="#slash"/> Secundum quod 
+  					<lb ed="#A"/>sit proprietas regula <g ref="#dot"/> quia sola relatio originis distinguit 
+  					<lb ed="#A"/>in divinis <g ref="#dot"/> <g ref="#slash"/> tertium quod sit proprietas ad dignitatem aliquam 
+  					<lb ed="#A"/>pertinens <g ref="#dot"/> <g ref="#slash"/> quia ergo esse ab alio non per generationem <g ref="#slash"/> nullam 
+  					<lb ed="#A"/>dignitatem importat <g ref="#dot"/> sic autem dicitur ingenitus de spiritu sancto ideo <!-- drops line --> nulla notio ponit in eo <g ref="#dot"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

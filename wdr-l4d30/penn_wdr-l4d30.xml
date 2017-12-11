@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 30 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 30 [Penn Transcription]</title>
+          <date when="2016-05-19">May 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-19">May 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="126ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d30">
+  			<head xml:id="wdrl4d30-Hd1e3503">Librum IV, Distinctio 30 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d30q1" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3508">Librum IV, Distinctio 30, Quaestio 1</head>
+  				<head xml:id="wdrl4d30-Hd1e3511" type="questionTitle">Utrum aliquis error impediat matrimonium</head>
+  				<p xml:id="wdrl4d30-d1e3514"><lb ed="#P"/>Quaeritur utrum aliquis error <choice><orig>inp<lb ed="#P"/>ediat</orig><reg>imp<lb ed="#P"/>ediat</reg></choice> 
+  					matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia ponit 
+  					<lb ed="#P"/>defectum in consensu qui est substantialis in matrimonium</p>
+  			</div>
+  			<div xml:id="wdr-l4d30q2" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3539">Librum IV, Distinctio 30, Quaestio 2</head>
+  				<head xml:id="wdrl4d30-Hd1e3542" type="questionTitle">Utrum error personae impediat</head>
+  				<p xml:id="wdrl4d30-d1e3545"><pc ana="#pilcrow"/><lb ed="#P"/>Utrum error personae <choice><orig>inpe<lb ed="#P"/>diat</orig><reg>impe<lb ed="#P"/>diat</reg></choice> 
+  					<lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic in littera quia defectus est 
+  					<lb ed="#P"/>in materia matrimonium <pc ana="#punctus"/> quia in hanc personam non 
+  					<lb ed="#P"/>consensit <pc ana="#virgula"/> <pc ana="#punctus"/> Error autem conditionis ponit 
+  					<cb ed="#P" n="126rb"/><lb ed="#P"/>defectum informa <pc ana="#punctus"/> quae est indivisibilitas 
+  					<lb ed="#P"/>et haec sunt de essentia matrimonii tantum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q3" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3588">Librum IV, Distinctio 30, Quaestio 3</head>
+  				<head xml:id="wdrl4d30-Hd1e3591" type="questionTitle">Utrum error nobilitatis inpediat</head>
+  				<p xml:id="wdrl4d30-d1e3594"><lb ed="#P"/><pc ana="#pilcrow"/>utrum error nobilitatis <choice><orig>inpe<lb ed="#P"/>diat</orig><reg>impe<lb ed="#P"/>diat</reg></choice> 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si erratur circa subiectum nobili<lb ed="#P"/>tatis 
+  					<pc ana="#punctus"/> est error personae <pc ana="#punctus"/> et <choice><orig>inpedit</orig><reg>impedit</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Si autem circa nobilitatem subiecti <pc ana="#punctus"/> error est 
+  					<lb ed="#P"/>qualitatis <pc ana="#virgula"/> nec <choice><orig>inpedit</orig><reg>impedit</reg></choice> haec in littera <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q4" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3647">Librum IV, Distinctio 30, Quaestio 4</head>
+  				<head xml:id="wdrl4d30-Hd1e3650" type="questionTitle">Utrum alius error praeter hos impediat</head>
+  				<p xml:id="wdrl4d30-d1e3653"><lb ed="#P"/><pc ana="#pilcrow"/>utrum alius error praeter hos <choice><orig>in<lb ed="#P"/>pediat</orig><reg>im<lb ed="#P"/>pediat</reg></choice> 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non propter errorem scilicet quaedam 
+  					<lb ed="#P"/>enim existentia propria impediunt ut consanguinitas 
+  					<lb ed="#P"/>et affinitas <pc ana="#virgula"/> vel infidelitas sive erretur 
+  					<lb ed="#P"/>sive non <pc ana="#virgula"/> Error autem qualitatis et fortunae 
+  					<lb ed="#P"/>quia est contra accidentalia <pc ana="#punctus"/> non impedit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q5" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3693">Librum IV, Distinctio 30, Quaestio 5</head>
+  				<head xml:id="wdrl4d30-Hd1e3696" type="questionTitle">Utrum beata virgo voverit virginitatem</head>
+  				<p xml:id="wdrl4d30-d1e3699"><lb ed="#P"/>Utrum beata virgo voverit virgi<lb ed="#P"/>nitatem 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum <name ref="#Bede">bedam</name> et etiam 
+  					<lb ed="#P"/><name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> non tamen expressit ore nisi postea 
+  					<lb ed="#P"/>pariter cum <name>Ioseph</name> <pc ana="#punctus"/> prius dico tacite quia 
+  					<lb ed="#P"/>res insolita erat <pc ana="#virgula"/> vovit autem <pc ana="#punctus"/> quia secundum 
+  					<lb ed="#P"/><name ref="#Augustine">augustinum</name> dignior est virginitas quando deo dicatur</p>
+  			</div>
+  			<div xml:id="wdr-l4d30q6" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3742">Librum IV, Distinctio 30, Quaestio 6</head>
+  				<head xml:id="wdrl4d30-Hd1e3745" type="questionTitle">Utrum consenserit in carnalem copulam</head>
+  				<p xml:id="wdrl4d30-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consenserit in carnalem copulam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <name ref="#WilliamOfAuxerre">Guillelmus altisiodorensis</name> <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> in universali <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet non in particulari <pc ana="#punctus"/> quia in coniugale socie<lb ed="#P"/>tatem 
+  					<pc ana="#punctus"/> Alii quod in obligationem eius <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>in solutionem <pc ana="#punctus"/> verius dicendum est <pc ana="#punctus"/> quod consensit 
+  					<lb ed="#P"/>implicite <pc ana="#virgula"/> mea <pc ana="#punctus"/> non explicite <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>consensit divinae inspirationi iubenti contrahere <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et omnibus quae in hac inspiratione conse<lb ed="#P"/>querentur 
+  					<pc ana="#virgula"/> Sperabat tamen numquam consecu<lb ed="#P"/>turam 
+  					copulam <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> commit<lb ed="#P"/>tentes 
+  					virginitatem suam <pc ana="#virgula"/> deo <pc ana="#punctus"/> consensit 
+  					<lb ed="#P"/>incarnalem copulam <pc ana="#punctus"/> non <unclear>il ap <!-- common abbrevs for something --></unclear> etc <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q7" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3832">Librum IV, Distinctio 30, Quaestio 7</head>
+  				<head xml:id="wdrl4d30-Hd1e3835" type="questionTitle">Utrum coniugium eius fuerit perfectum</head>
+  				<p xml:id="wdrl4d30-d1e3838"><lb ed="#P"/><pc ana="#pilcrow"/>utrum coniugium eius fuerit perfectum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio sic secundum <name ref="#Augustine">augustinum</name> in littera prima scilicet per<lb ed="#P"/>fectione 
+  					quae est quantum adesse <pc ana="#punctus"/> sed non quantum <pc ana="#punctus"/> 
+  					<cb ed="#P" n="126va"/><lb ed="#P"/>ad operationem <pc ana="#punctus"/> nec quantum ad significationem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q8" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3866">Librum IV, Distinctio 30, Quaestio 8</head>
+  				<head xml:id="wdrl4d30-Hd1e3869" type="questionTitle">Utrum bene assignentur in littera causae contrahendi matrimonium</head>
+  				<p xml:id="wdrl4d30-d1e3872"><lb ed="#P"/><pc ana="#pilcrow"/>utrum bene assignentur in littera 
+  					<lb ed="#P"/>causae contrahendi <pc ana="#punctus"/> matrimonium 
+  					<lb ed="#P"/>Responsio sic quae tres sunt <pc ana="#punctus"/> una ex parte partus 
+  					<lb ed="#P"/>ut <choice><orig>dyabolo</orig><reg>diabolo</reg></choice> celaretur et hoc intellige 
+  					<lb ed="#P"/>pro habitione divina <pc ana="#punctus"/> quia naturaliter cognoscere <pc ana="#punctus"/> 
+  					<lb ed="#P"/>potuit partum virginis <pc ana="#punctus"/> alia ex parte matris <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ne lapidaretur <pc ana="#virgula"/> <unclear>tria</unclear> ex parte <name>ioseph</name> in comparatione 
+  					<lb ed="#P"/>ad utrumque ut utrique obsequeretur <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q9" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3924">Librum IV, Distinctio 30, Quaestio 9</head>
+  				<head xml:id="wdrl4d30-Hd1e3927" type="questionTitle">Utrum ex causa in honesta possit contrahi matrimonium</head>
+  				<p xml:id="wdrl4d30-d1e3930"><lb ed="#P"/>Utrum ex causa in honesta possit 
+  					<lb ed="#P"/>contrahi matrimonium <pc ana="#punctus"/> Responsio in littera quod sic quia 
+  					<lb ed="#P"/>licet contrahens <pc ana="#punctus"/> male velit <pc ana="#virgula"/> bonum tamen 
+  					<lb ed="#P"/>est quod vult scilicet matrimonium quia bonitatem habet <sic>in</sic> 
+  					<lb ed="#P"/>ex institutione deo <pc ana="#punctus"/> et ideo mala intentio <pc ana="#punctus"/> non vi<lb ed="#P"/>tiat 
+  					sacramenti substantiam quia accidentalis est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d30q10" type="quaestio">
+  				<head xml:id="wdrl4d30-Hd1e3963">Librum IV, Distinctio 30, Quaestio 10</head>
+  				<head xml:id="wdrl4d30-Hd1e3966" type="questionTitle">Utrum tale matrimonium bonum sit</head>
+  				<p xml:id="wdrl4d30-d1e3969"><lb ed="#P"/>Utrum tale matrimonium bonum sit <pc ana="#punctus"/> Responsio 
+  					<lb ed="#P"/>sic <pc ana="#punctus"/> quia licet circumstantia operantis ma<lb ed="#P"/>la 
+  					sit <pc ana="#punctus"/> ipse tamen consensus bonus est et ipsum matrimonium</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

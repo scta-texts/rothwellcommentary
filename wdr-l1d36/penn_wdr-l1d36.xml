@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 36 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 36 [Penn Transcription]</title>
+          <date when="2016-05-02">May 02, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-02">May 02, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="37vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d36">
+  			<head xml:id="wdrl1d36-Hd1e3503">Librum I, Distinctio 36 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d36q1" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3508">Librum I, Distinctio 36, Quaestio 1</head>
+  				<head xml:id="wdrl1d36-Hd1e3511" type="questionTitle">Utrum deus cognoscat mala</head>
+  				<p xml:id="wdrl1d36-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus cognoscat mala 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum sanctos in littera <pc ana="#punctus"/> non per speciem propriam quia pura 
+  					<lb ed="#P"/>privatio est <pc ana="#punctus"/> sed per ydenam boni contrarii per amlitiam pri<lb ed="#P"/>vatur 
+  					aliquando autem dicitur ea nescire id est non approbare <pc ana="#punctus"/> <ref><name ref="#Cassiodorus">cassiodorus</name> 
+  						<!-- drops --> in littera</ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d36q2" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3543">Librum I, Distinctio 36, Quaestio 2</head>
+  				<head xml:id="wdrl1d36-Hd1e3546" type="questionTitle">utrum cognoscat singularia</head>
+  				<p xml:id="wdrl1d36-d1e3549"><lb ed="#P"/><pc ana="#pilcrow"/>utrum cognoscat singularia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
+  					<lb ed="#P"/>quia causa est omnium causarum concurrentium ad constitutionem 
+  					<cb ed="#P" n="38ra"/><lb ed="#P"/>rei et immediata causa <pc ana="#punctus"/> sed tunc arbitramur scire et 
+  					<!-- drops --> <unclear>circa</unclear> <ref>supra distinctio 36 quaestio <unclear>6</unclear></ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d36q3" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3576">Librum I, Distinctio 36, Quaestio 3</head>
+  				<head xml:id="wdrl1d36-Hd1e3579" type="questionTitle">Utrum quae cognoscit possint de esse in ipso</head>
+  				<p xml:id="wdrl1d36-d1e3582"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quae cognoscit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>possint <seg type="correction">de<del rend="expunctuated">e</del></seg> esse in ipso <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non secundum <name ref="#Augustine">augustinum</name> <del rend="strikethrough">in littera</del> et <name ref="#Lombard">magister</name> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in littera <pc ana="#punctus"/> quia mala non sunt in eo <pc ana="#punctus"/> sed movis scientia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>unde nota quod in scientia dei dicuntur esse <pc ana="#virgula"/> omnia quae sunt obiectum 
+  					<lb ed="#P"/>eius <pc ana="#punctus"/> In deo omnia quae sunt et sola quae ab eo fiunt 
+  					<lb ed="#P"/>ut bona quia deus significat per modum per se subsistentis <pc ana="#punctuselevatus"/> cuius est 
+  					<lb ed="#P"/>operari <pc ana="#punctus"/> non essentia autem quia formam dicit tantum ea quae communicant formam</p>
+  			</div>
+  			<div xml:id="wdr-l1d36q4" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3641">Librum I, Distinctio 36, Quaestio 4</head>
+  				<head xml:id="wdrl1d36-Hd1e3644" type="questionTitle">Utrum tres verius sint in deo vel in natura propria</head>
+  				<p xml:id="wdrl1d36-d1e3647"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tres verius sint in deo vel in natura propria 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> verius esse simpliciter habent in deo <pc ana="#punctus"/> quia secundum <name ref="#Augustine">augustinum</name> sunt vita 
+  					<lb ed="#P"/>et lux <pc ana="#punctus"/> Sed verius esse sui generis sine determinant habet 
+  					<!-- drops --> in <unclear>persona</unclear> <pc ana="#punctus"/> propria</p>
+  			</div>
+  			<div xml:id="wdr-l1d36q5" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3677">Librum I, Distinctio 36, Quaestio 5</head>
+  				<head xml:id="wdrl1d36-Hd1e3680" type="questionTitle">Utrum deus uno cognoscat omnia</head>
+  				<p xml:id="wdrl1d36-d1e3683"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus uno cognoscat omnia 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum <ref><name ref="#Dionysius">dyonsium</name> libro <title>de divinis nominibus</title></ref> quod tamen <add place="marginCenter">est</add> ratio multorum 
+  					<lb ed="#P"/>et haec est essentia sua <pc ana="#punctus"/> quae est <choice><orig>ydea</orig><reg>idea</reg></choice> rerum omnium</p>
+  			</div>
+  			<div xml:id="wdr-l1d36q6" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3716">Librum I, Distinctio 36, Quaestio 6</head>
+  				<head xml:id="wdrl1d36-Hd1e3719" type="questionTitle">utrum ideae sint in deo per quas res cognoscit</head>
+  				<p xml:id="wdrl1d36-d1e3722"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>ydeae</orig><reg>ideae</reg></choice> sint in deo per quas res cognoscit 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum <name ref="#Augustine">augustinum</name> et <name ref="#Boethius">boetium</name> <pc ana="#punctus"/> oportet <pc ana="#punctus"/> non <pc ana="#punctus"/> secundum <ref><name ref="#Averroes">commentatorem</name> super xi <title>metaphysicae</title></ref> 
+  					<lb ed="#P"/>primum agens <sic>praehabere</sic> omnes formas exemplares et in potentiam activa <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sicut omnes sunt in materia in potentia passiva quaestio idem dicit <ref><name ref="#Dionysius">dyonsius</name> 
+  						<lb ed="#P"/><num>vc</num> <title ref="#deDivinisNominibus">de divinis nominibus</title></ref> haec autem formae non per se subsistunt <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut dixerunt platonici <pc ana="#punctus"/> sed sunt in mente divina <pc ana="#punctus"/> et sunt 
+  					<lb ed="#P"/>in ipso principium cognitionis rerum</p>
+  			</div>
+  			<div xml:id="wdr-l1d36q7" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3792">Librum I, Distinctio 36, Quaestio 7</head>
+  				<head xml:id="wdrl1d36-Hd1e3795" type="questionTitle">utrum sint in deo plure ideae</head>
+  				<p xml:id="wdrl1d36-d1e3798"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sint in deo plures <choice><orig>ydeae</orig><reg>ideae</reg></choice> <pc ana="#punctus"/> <pc ana="#virgula"/> vel una <pc ana="#punctus"/> Responsio 
+  					<lb ed="#P"/>quamvis essentia una sit quae est exemplar omnium rerum <pc ana="#punctus"/> tamen 
+  					<lb ed="#P"/><choice><orig>ydeae</orig><reg>ideae</reg></choice> plures sunt <pc ana="#punctus"/> quia secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> non eadem ratione conditus est 
+  					<lb ed="#P"/>homo qua equus <pc ana="#punctus"/> Singula enim propriis creata sunt ratio<lb ed="#P"/>nibus 
+  					Ille autem <choice><orig>ydeae</orig><reg>ideae</reg></choice> plures <pc ana="#punctus"/> nihil aliud sunt quam 
+  					<lb ed="#P"/>modi diversi <unclear>immutabilitatis</unclear> divinae essentiae in rebus di<lb ed="#P"/>versis 
+  					in intellectu divino exeuntes ad diversas creaturas 
+  					<lb ed="#P"/>producendum et cognoscendum unde illa <subst><del rend="strikethrough">pluritas</del> <add place="inLine">pluralitas</add></subst> 
+  					<lb ed="#P"/>rationum <pc ana="#punctus"/> quamvis in deo absolute nullo modo differat 
+  					<lb ed="#P"/>In creatura tamen differt re et ratione inquantum autem <unclear>sumpt<lb ed="#P"/>um</unclear> 
+  					intellectu quocumque <pc ana="#punctus"/> etiam divina per modum exemplaris in comparatione 
+  					<lb ed="#P"/>ad modos rerum futuros <pc ana="#punctus"/> sic diffinit ratione tantum <pc ana="#punctus"/> <pc ana="#virgula"/> 
+  					<lb ed="#P"/>quae ratio non est cassa <pc ana="#virgula"/> sed fundatur super divinae naturae plenitu<lb ed="#P"/>dinem 
+  					<pc ana="#punctus"/> diversis modis <unclear>immutabilem</unclear> <pc ana="#punctus"/> completur autem per 
+  					<cb ed="#P" n="38rb"/><lb ed="#P"/>operationem intellectus <pc ana="#punctus"/> et terminatur ad creaturam diversis modis 
+  					<!-- drops --> <unclear>immutantem <!-- above similar instances all are ambiguous with immitantem or immitabilem --></unclear> <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d36q8" type="quaestio">
+  				<head xml:id="wdrl1d36-Hd1e3919">Librum I, Distinctio 36, Quaestio 8</head>
+  				<head xml:id="wdrl1d36-Hd1e3922" type="questionTitle">utrum in deo sint ideae omnium</head>
+  				<p xml:id="wdrl1d36-d1e3925"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in deo sint <choice><orig>ydeae</orig><reg>ideae</reg></choice> omnium 
+  					<lb ed="#P"/>rerum et quomodo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quia <choice><orig>ydea</orig><reg>idea</reg></choice> nihil aliud est quam immutabi<lb ed="#P"/>litas 
+  					divinae essentiae <pc ana="#punctus"/> etc <ref type="commentary" target="http://scta.info/resource/wdrl1d36-d1e3798">supra proximo</ref> <pc ana="#punctus"/> Ideo omnia illa habentur 
+  					<lb ed="#P"/><choice><orig>ydeam</orig><reg>ideam</reg></choice> in deo <pc ana="#virgula"/> quae divinam essentiam sui formam qualitercumque imi<lb ed="#P"/>tantur 
+  					<lb ed="#P"/>non aliud unde nec malum <pc ana="#punctus"/> nec privatio <pc ana="#punctus"/> <choice><orig>ydeam</orig><reg>ideam</reg></choice> habent <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Sed omnia quae naturam entis participant <pc ana="#punctus"/> et aeque per<lb ed="#P"/>fectam <pc ana="#punctus"/> 
+  					ex parte dei <pc ana="#punctus"/> sed non ex parte creaturae <pc ana="#punctus"/> quia diversimode 
+  					<lb ed="#P"/>imitantur <pc ana="#punctus"/> sed illa <del rend="strikethrough">yfco</del> perfectiorem quae perfectius habent esse <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut ex materia <pc ana="#punctus"/> et forma <pc ana="#punctus"/> compositum <pc ana="#punctus"/> postmodum forma substantialis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Sed materia incompleta similiter infinitum <pc ana="#punctus"/> vacuum <pc ana="#punctus"/> tempus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secundum id quod se habent ad esse <pc ana="#punctus"/> Deus tamen perfecte illa cognoscit per 
+  					<lb ed="#P"/><choice><orig>ydeam</orig><reg>ideam</reg></choice> quae est causa illorum quamvis nos ipsa <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

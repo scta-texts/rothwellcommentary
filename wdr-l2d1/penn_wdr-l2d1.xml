@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 1 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum II, Distinctio 1 [Penn Transcription]</title>
+          <date when="2016-11-16">November 16, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-11-16">November 16, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-11-16" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="43va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l2d2">
+  			<head >Librum II, Distinctio 1 [Penn Transcription]</head>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 1</head>
+  				<head type="questionTitle">Utrum creatio esse possit</head>
+  				<p>Quaeritur utrum creatio esse 
+  					<lb ed="#P"/>possit. Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> fidem 
+  					<lb ed="#P"/>cum enim deus sit <unclear>opus</unclear> <pc type="virgula">/</pc> non solum producit 
+  					<lb ed="#P"/>aliquid de sua substantia <pc type="virgula">/</pc> quod est generatio <pc ana="#punctus"/> nec solum 
+  					<lb ed="#P"/>de aliena substantia <pc ana="#punctus"/> ut in factione <pc type="virgula">/</pc> sed etiam de nichi<lb ed="#P"/>lo 
+  					<pc type="virgula">/</pc> quod est creatio <pc type="virgula">/</pc> et intellige quod <unclear>li de</unclear> 
+  					<lb ed="#P"/>dicat ordinem <pc type="virgula">/</pc> non causam materialem solum <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 2</head>
+  				<head type="questionTitle">Utrum creatio sit mutatio</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum creatio sit mutatio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> <unclear>communiter <!-- convienter --></unclear> scilicet loquendo et large <pc type="virgula">/</pc> sed proprie 
+  					<lb ed="#P"/>et stricte loquendo <pc type="virgula">/</pc> non <pc type="virgula">/</pc> mutatio enim 
+  					<lb ed="#P"/>proprie est <pc type="virgula">/</pc> quae habet duo extrema secundum esse <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et <sic>ab imo</sic> tendit in aliud eodem <pc ana="#punctus"/> subiecto 
+  					<lb ed="#P"/>manere <pc type="virgula">/</pc> et haec est naturalis <pc ana="#punctus"/> et fit naturaliter 
+  					<lb ed="#P"/>per motum <pc type="virgula">/</pc> Alia autem scilicet large <pc type="virgula">/</pc> dicta 
+  					<lb ed="#P"/>mutatio <pc type="virgula">/</pc> habet unum extremum rationis. 
+  					<cb ed="#P" n="44ra"/><lb ed="#P"/>a quo tendit in alterum extremum quod est 
+  					<lb ed="#P"/>rei <pc ana="#punctus"/> et haec est supernaturalis <pc ana="#punctus"/> et fit secundum motu <pc ana="#punctus"/> et <!-- drops line --> <pc ana="#pilcrow"/> talis est creatio <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 3</head>
+  				<head type="questionTitle">Quid sit secundum rem creatio</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>rem creatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> creatio accipitur active <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et passive <pc type="virgula">/</pc> primo modo <pc type="virgula">/</pc> significat operationem divinam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quae est essentia <pc ana="#punctus"/> divina <pc ana="#punctus"/> cum relatione quadam rationis 
+  					<lb ed="#P"/>non rationi <pc ana="#punctus"/> ad creaturam <pc ana="#punctus"/> <pc type="virgula">/</pc> secundo modo dicunt quidam 
+  					<lb ed="#P"/>quod non est aliud a creatura <pc type="virgula">/</pc> secundum rem <pc ana="#punctus"/> sed secundum 
+  					<lb ed="#P"/>rationem <pc ana="#punctus"/> quia dicit ipsam comparatam ad creatorem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Alii probabilius dicunt quod differet secundum rem 
+  					<lb ed="#P"/>quia accidens est quoddam increatura <pc ana="#punctus"/> et significat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>rem quandam quae non est impedimento passi<lb ed="#P"/>onis 
+  					<pc type="virgula">/</pc> proprie loquendo <pc ana="#punctus"/> sed in <unclear>genere</unclear> relationis <pc ana="#punctus"/>quia 
+  					<lb ed="#P"/>dicit <pc type="virgula">/</pc> habitudinem et dependentiam rei 
+  					<lb ed="#P"/>creatae <pc type="virgula">/</pc> ad creatorem <pc ana="#punctus"/> quae relatio consequitur 
+  					<lb ed="#P"/>actionem dei creantis <pc type="virgula">/</pc> exemplum <pc ana="#punctus"/> de filiatione <!-- possible paragraph break --> <pc ana="#pilcrow"/> haec 
+  					<lb ed="#P"/>etiam relatio non est creatura proprie <pc ana="#punctus"/> quia ad ipsam 
+  					<lb ed="#P"/>non terminantur operatio <pc ana="#punctus"/> sed large <pc type="virgula">/</pc> quia incipit 
+  					<lb ed="#P"/>esse <pc type="virgula">/</pc> post non esse <pc ana="#pilcrow"/> et quamvis sit creatura 
+  					<lb ed="#P"/>non tamen alia relatore secundum rem refertur <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ad creatorem <pc type="virgula">/</pc> quam se ipsa <pc ana="#punctus"/> sed secundum rationem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et in hiis secundum <pc type="virgula">/</pc> <name ref="#Avicenna">Avicennam</name> <pc type="virgula">/</pc> non est inconveniens <pc ana="#punctus"/> <!-- drops to noext line --> ire in infinitum</p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 4</head>
+  				<head type="questionTitle">Utrum actus creandi alicui creaturae communicari potuerit</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum actus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>creandi alicui creaturae communicari 
+  					<lb ed="#P"/>potuerit <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia sicut ars prae<lb ed="#P"/>supponit 
+  					aperitionem naturae ita natura aperione 
+  					<lb ed="#P"/>divina <pc ana="#punctus"/> quae per creationem ministra <pc type="virgula">/</pc> naturae materiam <pc ana="#punctus"/> 
+  					<lb ed="#P"/><pc type="virgula">/</pc><pc type="virgula">/</pc> Item cum primo rerum creaturarum sit esse oportet illud 
+  					<lb ed="#P"/>non esse creaturam <pc ana="#punctus"/> quod antecedit esse <pc ana="#punctus"/> <name ref="#Augustine">Augustinus</name> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>etiam et <name ref="#JohnDamascenus">damascenus</name> dicunt angelos <pc ana="#punctus"/> non esse creatores <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sicut <subst><del rend="strikethrough">naturae</del><add place="in-line">nec</add></subst> agricole <pc type="virgula">/</pc> segerum <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 5</head>
+  				<head type="questionTitle">Utrum creatura aliquid efficiat</head>
+  				<p><pc ana="#pilcrow"/>Utrum creatura aliquid effi<lb ed="#P"/>ciat 
+  				<pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> vel disponendo ad effectum 
+  					<lb ed="#P"/>divinum <pc ana="#punctus"/> ut in creatione animae <pc ana="#punctus"/> vel tanquam 
+  					<lb ed="#P"/>efficiens proximum <pc type="virgula">/</pc> ut in naturalibus quae fiunt 
+  					<cb ed="#P" n="44rb"/><lb ed="#P"/>per motum <pc type="virgula">/</pc> nichilominus tamen etiam deus est causa 
+  					<lb ed="#P"/>immediata omnium quae <unclear>in omnibus</unclear> operatur</p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 6</head>
+  				<head type="questionTitle">Utrum sit unum solum primum principium</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit unum solum primum principium 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> in diversis generibus causarum plura sunt <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut materia prima chaos <pc ana="#punctus"/> prima forma <pc type="virgula">/</pc> esse 
+  					<lb ed="#P"/>primum movens <pc ana="#punctus"/> motor primi mobilis <pc ana="#punctus"/> et finis 
+  					<lb ed="#P"/>ultimus <pc ana="#punctus"/> participatur esse divini <pc ana="#punctus"/> <unclear>Simpliciter causam</unclear> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>est tantum unum primum quia cum esse inveniatur in 
+  					<lb ed="#P"/>omnibus rebus haec diversimode participanti oportet creaturae 
+  					<lb ed="#P"/>aliquam primam causam <pc type="virgula">/</pc> in qua inveniatur primo <!-- drops line --> secundum regulam philosophi <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 7</head>
+  				<head type="questionTitle">Utrum a primo principio producta sint omnia immediate vel aliquo mediante</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>a primo principio producta sint omnia 
+  					<lb ed="#P"/>immediate <pc ana="#punctus"/> vel aliquo mediante <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> In prima naturae institutione <pc ana="#punctus"/> omnia facta sunt 
+  					<lb ed="#P"/>a deo <pc type="virgula">/</pc> immediate <pc type="virgula">/</pc> quia solus divini <pc type="virgula">/</pc> naturae 
+  					<lb ed="#P"/>est <pc type="virgula">/</pc> ei leges <pc ana="#punctus"/> instituere <pc type="virgula">/</pc> conservatio vero et 
+  					<lb ed="#P"/>multiplicatio fit etiam mediane <pc type="virgula">/</pc> altera scilicet prae le<lb ed="#P"/>ges 
+  					naturae <unclear>mendicas <!-- wettf15 has "menditas" --></unclear></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 8</head>
+  				<head type="questionTitle">Utrum mundus fit aeternus</head>
+  				<p><lb ed="#P"/>utrum mundus fit aeternus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in littera <pc type="virgula">/</pc> <name ref="#Lombard">magister</name> ponit tres positiones <pc ana="#punctus"/> <name ref="#Plato">plato</name> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>enim eum dixit <pc type="virgula">/</pc> fuisse ab aeterno in potentia materiae 
+  					<lb ed="#P"/>solum <pc ana="#punctus"/> et operatione divina <pc ana="#punctus"/> eductum <pc ana="#punctus"/> de potentia ad 
+  					<lb ed="#P"/>actum <pc type="virgula">/</pc> et hoc in tempore <pc type="virgula">/</pc> <name ref="#Aristotle">Aristoteles</name> autem posuit eum 
+  					<lb ed="#P"/>fuisse <pc type="virgula">/</pc> ab aeterno in statu generationis et corruptionis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut nunc est <pc ana="#punctus"/> Sed <name ref="#Moses">moyses</name> et fides ponit 
+  					<lb ed="#P"/>mundum nec in potentia materiae nec in actu <pc ana="#punctus"/> sed in sola 
+  					<lb ed="#P"/>potentia agentis <pc ana="#punctus"/> ab aeterno fuisse <pc type="virgula">/</pc> et <unclear>inrepere</unclear> <!-- drops --> <pc ana="#pilcrow"/> per creationem incepisse <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 9</head>
+  				<head type="questionTitle">Utrum aliqua creatura potuerit fieri ab aeterno</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>aliqua creatura potuerit fieri 
+  					<lb ed="#P"/>ab aeterno <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> licet deus potuerit 
+  					<lb ed="#P"/>ab aeterno <pc type="virgula">/</pc> non tamen creatura <pc type="virgula">/</pc> fieri <pc ana="#punctus"/> ab aeterno po<lb ed="#P"/>tuit 
+  					<pc type="virgula">/</pc> quia est contra rationem creaturae <pc ana="#punctus"/> cum 
+  					<lb ed="#P"/>de eius ratione sit <pc ana="#punctus"/> quod habeat esse post 
+  					<lb ed="#P"/>non esse <pc type="virgula">/</pc> Item deus creaturam duratione 
+  					<lb ed="#P"/>praecedit <pc type="virgula">/</pc> sicut aeternitas tempus <pc type="virgula">/</pc> <name ref="#Boethius">boetius</name> 
+  					<cb ed="#P" n="44va"/><lb ed="#P"/>qui tempus ab aevo etc <pc ana="#punctus"/> ergo etc <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 10</head>
+  				<head type="questionTitle">Utrum deus operetur ad aliquem finem</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus operetur ad aliquem 
+  					<lb ed="#P"/>finem <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia agens est per intellectum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet propter finem operis <pc type="virgula">/</pc> et etiam operantis <pc ana="#punctus"/> haec tamen operatio 
+  					<lb ed="#P"/>secundum <pc ana="#punctus"/> hoc <pc ana="#punctus"/> non est propter desiderium finis non habiti 
+  					<lb ed="#P"/>sed propter amorem habiti <pc ana="#punctus"/> quem intendit aliis communicari <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 11</head>
+  				<head type="questionTitle">Utrum Dei bonitas fit finis omnium operum dei</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum dei bonitas fit finis <pc ana="#punctus"/> omnium 
+  					<lb ed="#P"/>operum dei <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <ref><title ana="#prov">proverbi</title> 16</ref> <quote ana="#prov16_4"><sic>universam</sic> 
+  					<lb ed="#P"/>propter semetipsum operatus est <sic>deus</sic></quote> <pc type="virgula">/</pc> et intellige hoc 
+  					<lb ed="#P"/>de fine <pc type="virgula">/</pc> ultimo et communi proximus <pc type="virgula">/</pc> autem <pc ana="#punctus"/> et proprius <pc ana="#punctus"/> est 
+  					<lb ed="#P"/>operatio rei <pc ana="#punctus"/> finem etiam illum omnia <choice><orig>consecuntur</orig><reg>consequuntur</reg></choice> <pc type="virgula">/</pc> scilicet 
+  					<lb ed="#P"/>bonitatem dei <pc type="virgula">/</pc> in aliqua sui similitudine <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 12</head>
+  				<head type="questionTitle">Utrum homo sit finis omnium creaturarum</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum homo fit finis omnium cre<lb ed="#P"/>aturarum 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex est <pc ana="#punctus"/> ordo universi scilicet partium 
+  					<lb ed="#P"/>inter se <pc type="virgula">/</pc> et earum ad deum <pc ana="#punctus"/> secundo modo bonitas 
+  					<lb ed="#P"/>divina <pc ana="#punctus"/> est finis omnium <pc ana="#punctus"/> Sed primo modo <pc type="virgula">/</pc> 
+  					<lb ed="#P"/>homo est finis omnium <pc ana="#punctus"/> vel secundum genera singulorum 
+  					<lb ed="#P"/>inquantum ad <unclear>constitutionem</unclear> eius omne genus 
+  					<lb ed="#P"/>creaturae <pc type="virgula">/</pc> concurrit <pc type="virgula">/</pc> secundum <name ref="#GregoryGreat">gregorium</name> <pc ana="#punctus"/> vel omnium naturalium 
+  					<lb ed="#P"/>solum <pc type="virgula">/</pc> quia est ultima forma naturae <pc type="virgula">/</pc> est etiam finis 
+  					<lb ed="#P"/>principalis <pc ana="#punctus"/> tanquam sine quo res non esset <pc type="virgula">/</pc> 
+  					<lb ed="#P"/>vegetabilium scilicet quae vertuntur <pc type="virgula">/</pc> in usu ho<lb ed="#P"/>minis 
+  					<pc ana="#punctus"/> quia principaliter propter hominis utilitatem 
+  					<lb ed="#P"/>facta <pc type="virgula">/</pc> unde cessante usu hominis <pc ana="#punctus"/> cessabunt 
+  					<lb ed="#P"/>est tamen nichilominus finis omnium <pc type="virgula">/</pc> secundarius <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet sine quo res nichilominus esset <pc ana="#punctus"/> habet enim aliquam 
+  					<lb ed="#P"/>utilitatem ab omnibus <pc ana="#punctus"/> hoc ex littera <pc ana="#punctus"/> <pc type="virgula">/</pc> <ref><name ref="#Aristotle">philosophus</name> 
+  					<lb ed="#P"/>11 <title ref="#Physics">physicorum</title></ref> <pc type="virgula">/</pc> dicit <pc type="virgula">/</pc> quod nos sumus quod <unclear>ammus</unclear> 
+  					<lb ed="#P"/>finis omnium <ref>Infra distinctione 15 quaestione 6</ref></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 13</head>
+  				<head type="questionTitle">Quae natura sit dignior homo vel angelus</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Quae natura sit dignior homo 
+  					<lb ed="#P"/>vel angelus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum conditionem naturae <pc type="virgula">/</pc> 
+  					<lb ed="#P"/>angelus est dignior <pc ana="#punctus"/> secundum ordinem ad 
+  					<lb ed="#P"/>gratiam vel gloriam <pc ana="#punctus"/> aequales <pc type="virgula">/</pc> sed quantum 
+  					<lb ed="#P"/>ad acceptationem divinam <pc ana="#punctus"/> humana natura 
+  					<lb ed="#P"/>est dignior propter <choice><sic>uniorem</sic><corr>unionem</corr></choice> in persona divina</p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 14</head>
+  				<head type="questionTitle">Utrum anima rationalis corpori uniri debuerit</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum anima rationalis corpori uniri 
+  					<lb ed="#P"/>debuerit <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic quia hoc est de natura 
+  					<lb ed="#P"/>sua <pc ana="#punctus"/> quod patet quia potentia vegetiva <pc ana="#punctus"/> et sensitiva 
+  					<lb ed="#P"/>non sunt nisi in corpore <pc ana="#punctus"/> Item ratio non est <pc ana="#punctus"/> nisi 
+  					<lb ed="#P"/>intellectus obumbratus ex corpore scilicet in littera 
+  					<lb ed="#P"/>ponitur causa communis scilicet divina bonitas <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>propter exemplum beatae unionis scilicet inter deum 
+  					<lb ed="#P"/>et spiritum <pc type="virgula">/</pc> tanta scilicet differentia non impediente <pc ana="#punctus"/></p>
+  			</div>
+  			<div type="quaestio">
+  				<head>Librum II, Distinctio 1, Quaestio 15</head>
+  				<head type="questionTitle"><pc ana="#pilcrow"/>utrum tali corpori uniri debuerit</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum tali corpori uniri debuerit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia multiplicitati personarum animae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Respondet multiplicitas organorum in corpore 
+  					<lb ed="#P"/>diversimode <sic>complexionatarum <!-- wettf15 has "complexionatorum" --></sic> secundum congruitatem ad 
+  					<lb ed="#P"/>opera sua <pc type="virgula">/</pc> unde non potuit esse celeste <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nec simplicis elementi <pc ana="#punctus"/> nec mixtum homogenum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>est autem temperatissimum incomplexione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>propter nobilissimam formam scilicet animam <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

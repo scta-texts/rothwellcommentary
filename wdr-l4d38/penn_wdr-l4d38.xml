@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 38 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 38 [Penn Transcription]</title>
+          <date when="2016-05-20">May 20, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-20">May 20, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="129rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d38">
+  			<head xml:id="wdrl4d38-Hd1e3503">Librum IV, Distinctio 38 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d38q1" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3508">Librum IV, Distinctio 38, Quaestio 1</head>
+  				<head xml:id="wdrl4d38-Hd1e3511" type="questionTitle">Quid sit votum</head>
+  				<p xml:id="wdrl4d38-d1e3514"><lb ed="#P"/>Quaeritur quid sit votum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/><name ref="#HughOfStVictor">hugo</name> et <name ref="#Lombard">magister</name> in littera votum est testifica<lb ed="#P"/>tio 
+  					quaedam promissionis spontaneae <pc ana="#punctus"/> quae 
+  					<lb ed="#P"/>deo et hiis quae dei sunt fieri debet <pc ana="#punctus"/> haec est 
+  					<lb ed="#P"/>distinctio voti expressi <pc ana="#punctus"/> quod etiam in facie ecclesiae 
+  					<lb ed="#P"/>obligat <pc ana="#virgula"/> theologi diffiniunt sic <pc ana="#virgula"/> votum 
+  					<lb ed="#P"/>est conceptio melioris propositi <pc ana="#punctus"/> cum deliber<lb ed="#P"/>atione 
+  					firmata <pc ana="#virgula"/> et est diffinitio voti ta<lb ed="#P"/>citi 
+  					<pc ana="#virgula"/> licet autem votum etiam sanctis fiat <pc ana="#punctus"/> tamen propter 
+  					<!-- drops --> deum eis <pc ana="#punctus"/> fit</p>
+  			</div>
+  			<div xml:id="wdr-l4d38q2" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3574">Librum IV, Distinctio 38, Quaestio 2</head>
+  				<head xml:id="wdrl4d38-Hd1e3577" type="questionTitle">De quibus debeat fieri votum</head>
+  				<p xml:id="wdrl4d38-d1e3580"><lb ed="#P"/><pc ana="#pilcrow"/>De quibus 
+  					<cb ed="#P" n="129va"/><lb ed="#P"/>debeat fieri votum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> tantum de 
+  					<lb ed="#P"/>hiis quae sunt super erogationois <pc ana="#punctus"/> ut patet per 
+  					<lb ed="#P"/>diffinitione <pc ana="#punctuselevatus"/> quia volunta debet esse <pc ana="#punctus"/> unde de 
+  					<lb ed="#P"/><choice><orig>neccessaris</orig><reg>necessaris</reg></choice> non est <pc ana="#punctus"/> nisi votum larget dictum <pc ana="#punctus"/> nec est 
+  					<lb ed="#P"/>de indifferenti <pc ana="#virgula"/> nisi possit esse materia virtutis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>informant debito sine <pc ana="#virgula"/> ut comedere et huiusmodi <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nec de malo inquantum malum <pc ana="#punctus"/> sed inquantum in aliquo 
+  					<lb ed="#P"/>eventu <pc ana="#punctus"/> erit bonum <pc ana="#punctus"/> pro quo solo est ob<lb ed="#P"/>ligatorium 
+  					ut votum aptae</p>
+  			</div>
+  			<div xml:id="wdr-l4d38q3" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3644">Librum IV, Distinctio 38, Quaestio 3</head>
+  				<head xml:id="wdrl4d38-Hd1e3647" type="questionTitle">Quis possit vovere</head>
+  				<p xml:id="wdrl4d38-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>Quis possit vovere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> votum 
+  					<lb ed="#P"/>convenienter dictum quale fit in baptismo omni homini 
+  					<lb ed="#P"/>licet emittere <pc ana="#punctus"/> Sed votum proprie dictum non 
+  					<lb ed="#P"/>potest quilibet emittere <pc ana="#virgula"/> nisi inquantum est suae voluntatis 
+  					<lb ed="#P"/>et non in potestate alter vis <pc ana="#punctus"/> unde vir 
+  					<lb ed="#P"/>sine consensu uxoris non potest vovere con<lb ed="#P"/>tinentia 
+  					<pc ana="#virgula"/> sed alia potest <pc ana="#virgula"/> <pc ana="#punctus"/> muliere autem nec 
+  					<lb ed="#P"/>abstinentiam <pc ana="#virgula"/> nec peregrinationem <pc ana="#virgula"/> nec continen<lb ed="#P"/>tiam 
+  					<pc ana="#virgula"/> filius familias <pc ana="#punctus"/> <choice><orig>nichil</orig><reg>nihil</reg></choice> de parentibus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ad curam domus et familiae <pc ana="#virgula"/> sed de parentibus 
+  					<lb ed="#P"/>ad salutem proprie personae <pc ana="#virgula"/> servus nihil in quo 
+  					<lb ed="#P"/>fiat praeiudicium domino <pc ana="#punctus"/> sed dicendi aliquas orationes <pc ana="#punctus"/> 
+  					<lb ed="#P"/>aut huiusmodi monachus omnino nihil quia volun<lb ed="#P"/>tatem 
+  					suam totaliter <pc ana="#punctus"/> alibi subdidit ad obedi<!-- drops -->endum</p>
+  			</div>
+  			<div xml:id="wdr-l4d38q4" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3733">Librum IV, Distinctio 38, Quaestio 4</head>
+  				<head xml:id="wdrl4d38-Hd1e3736" type="questionTitle">De differentia votorum</head>
+  				<p xml:id="wdrl4d38-d1e3739"><lb ed="#P"/>De differentia votorum 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> votum dicitur convenienter <pc ana="#punctus"/> et proprie <pc ana="#punctus"/> ut dictum est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Sed votum proprie dictum dividitur in privatum et 
+  					<lb ed="#P"/><choice><orig>sollempne</orig><reg>sollemne</reg></choice> <pc ana="#virgula"/> et est divisio totius <unclear>p?tantivi</unclear> in 
+  					<lb ed="#P"/>suas partes <pc ana="#punctus"/> quia primum est <choice><orig>inperfectum</orig><reg>imperfectum</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secundum perfectum <pc ana="#virgula"/> <pc ana="#punctus"/> perfecte obligat <pc ana="#virgula"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q5" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3793">Librum IV, Distinctio 38, Quaestio 5</head>
+  				<head xml:id="wdrl4d38-Hd1e3796" type="questionTitle">Quod modis sollemnizetur votum</head>
+  				<p xml:id="wdrl4d38-d1e3799"><lb ed="#P"/><pc ana="#pilcrow"/>Quod modis <choice><orig>sollempnizetur</orig><reg>sollemnizetur</reg></choice> 
+  					<lb ed="#P"/>votum <pc ana="#punctus"/> Responsio secundum Iuris peritos tribus modis 
+  					<lb ed="#P"/>scilicet per susceptionem sacri ordinis <pc ana="#punctus"/> per confessionem 
+  					<lb ed="#P"/>omissam <pc ana="#punctus"/> per susceptum religionis habitum 
+  					<lb ed="#P"/>qui proficientibus dari consuevit <pc ana="#virgula"/> et hoc est 
+  					<!-- drops --> professio tacita <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q6" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3834">Librum IV, Distinctio 38, Quaestio 6</head>
+  				<head xml:id="wdrl4d38-Hd1e3837" type="questionTitle">Quod votum impediat matrimonium</head>
+  				<p xml:id="wdrl4d38-d1e3840"><lb ed="#P"/><pc ana="#pilcrow"/>Quod votum <choice><orig>inpediat</orig><reg>impediat</reg></choice> matrimonium 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <choice><orig>sollempne</orig><reg>sollemne</reg></choice> <choice><orig>inpedit</orig><reg>impedit</reg></choice> <pc ana="#virgula"/> et dirimit quia 
+  					<lb ed="#P"/>fit translatio <unclear>dominii</unclear> <pc ana="#punctus"/> Sed simplex non <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>tantum nuda est promissio <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q7" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3886">Librum IV, Distinctio 38, Quaestio 7</head>
+  				<head xml:id="wdrl4d38-Hd1e3889" type="questionTitle">Utrum votum semper debeat observari</head>
+  				<p xml:id="wdrl4d38-d1e3892"><lb ed="#P"/><pc ana="#pilcrow"/>utrum votum semper debeat observari 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> nisi excusetur per aliquid et haec secundum <name>gauf</name> 
+  					<lb ed="#P"/>praecipue in <num>4</num> casibus scilicet propter impossibili<lb ed="#P"/>tatem 
+  					complendi <pc ana="#punctus"/> propter dispensationem superioris 
+  					<lb ed="#P"/>propter <pc ana="#punctus"/> defectum conditionis appositae <pc ana="#virgula"/> propter defectum 
+  					<lb ed="#P"/>causae principaliter moventis <pc ana="#punctus"/> ut si in littera 
+  					<lb ed="#P"/>aliquid vovit pro salute filii <pc ana="#punctus"/> quia 
+  					<!-- drops --> tamen moritur</p>
+  			</div>
+  			<div xml:id="wdr-l4d38q8" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3936">Librum IV, Distinctio 38, Quaestio 8</head>
+  				<head xml:id="wdrl4d38-Hd1e3939" type="questionTitle">Utrum votum possit communicari in aliud</head>
+  				<p xml:id="wdrl4d38-d1e3942"><lb ed="#P"/><pc ana="#pilcrow"/>utrum votum possit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>commutari in aliud <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>secundum <name ref="#Boethius">boethius <!-- not possitive about name --></name> quod pro caritate institutum est etc 
+  					<lb ed="#P"/>fit autem mutatio <pc ana="#punctus"/> quandoque auctoritate iuris <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/>in casibus a iure determinatis <pc ana="#punctus"/> quandoque auctoritate 
+  					<lb ed="#P"/>praelati <pc ana="#virgula"/> ut de abstinentia <pc ana="#punctus"/> et peregrina<lb ed="#P"/>tione 
+  					et huiusmodi ab episcopo <pc ana="#virgula"/> auctoritate propria numquam 
+  					<lb ed="#P"/>quia nullus in causa sua debet suis dicere <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q9" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e3992">Librum IV, Distinctio 38, Quaestio 9</head>
+  				<head xml:id="wdrl4d38-Hd1e3995" type="questionTitle">Utrum possit dispensari in votis</head>
+  				<p xml:id="wdrl4d38-d1e3998"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dispensari in votis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> convenienter dicitur <pc ana="#virgula"/> quod sic <pc ana="#punctus"/> si duo concurant secundum 
+  					<lb ed="#P"/><name ref="#Boethius">boethius</name> scilicet auctoritas <pc ana="#punctus"/> et causa <pc ana="#punctus"/> sine quibus 
+  					<lb ed="#P"/>non est dispensatio sed dissipatio <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q10" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4029">Librum IV, Distinctio 38, Quaestio 10</head>
+  				<head xml:id="wdrl4d38-Hd1e4032" type="questionTitle">Utrum possit dispensari in voto continentiae</head>
+  				<p xml:id="wdrl4d38-d1e4035"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dispensari in 
+  					<lb ed="#P"/>voto continentiae <pc ana="#punctus"/> Responsio duplex est <choice><orig>soll<lb ed="#P"/>empnis</orig><reg>soll<lb ed="#P"/>emnis</reg></choice> 
+  					opinio <pc ana="#punctus"/> tam <sic>iuristarum</sic> <pc ana="#virgula"/> quam theo<lb ed="#P"/>logorum 
+  					<pc ana="#punctus"/> quidam enim dicunt simplicia <pc ana="#punctus"/> quod <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nec in simplici nec in <choice><orig>sollempni</orig><reg>sollemni</reg></choice> <pc ana="#punctus"/> quia nihil <pc ana="#punctus"/> 
+  					<lb ed="#P"/>potest esse <pc ana="#punctus"/> recompensas <pc ana="#punctus"/> Alii <del rend="expunctuated">debent</del> autem 
+  					<lb ed="#P"/><name>Iohannes theutonicus <!-- https://en.wikipedia.org/wiki/Johannes_Teutonicus --></name> et <name>dominus hugo cardinalis</name> 
+  					<lb ed="#P"/>et alii dicunt quod sic <pc ana="#punctus"/> a papa <pc ana="#punctus"/> tantum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>probatio scilicet communi <pc ana="#punctus"/> non privatio <pc ana="#punctus"/> quia tunc bonum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>obedientiae <pc ana="#punctus"/> praeponderat et <name>Iohannes</name> dicit quod 
+  					<lb ed="#P"/>vidit de facto dispensari <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q11" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4136">Librum IV, Distinctio 38, Quaestio 11</head>
+  				<head xml:id="wdrl4d38-Hd1e4139" type="questionTitle">Utrum possit dispensari in voto sollempni religionis</head>
+  				<p xml:id="wdrl4d38-d1e4142"><cb ed="#P" n="130ra"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dispensari in 
+  					<lb ed="#P"/>voto <choice><orig>sollempni</orig><reg>sollemni</reg></choice> religionis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quidam quod papa <pc ana="#punctus"/> nullo modo potest cum re<lb ed="#P"/>ligioso 
+  					<pc ana="#virgula"/> dispensare ut ad saeculum re<lb ed="#P"/>deat 
+  					<pc ana="#virgula"/> quia non potest fieri reconpensatio 
+  					<lb ed="#P"/>propter tria vota <pc ana="#punctus"/> annexa praecipue conti<lb ed="#P"/>nentiae 
+  					<pc ana="#virgula"/> alii vero dicunt quod sic <pc ana="#punctus"/> pro uti<lb ed="#P"/>litate 
+  					scilicet contra non privata <pc ana="#punctus"/> Ita quod 
+  					<lb ed="#P"/>de monacho potest facere non monachum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q12" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4195">Librum IV, Distinctio 38, Quaestio 12</head>
+  				<head xml:id="wdrl4d38-Hd1e4198" type="questionTitle">Quid sit scandalum</head>
+  				<p xml:id="wdrl4d38-d1e4201"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit scandalum <pc ana="#punctus"/> Responsio secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/><ref>glossa <title ref="#mt">matthaeus</title> <num>xviii</num></ref> <seg type="correction">Scan<del rend="expunctuated">l</del>dalum</seg> est dictum 
+  					<lb ed="#P"/>vel factum minus rectum <pc ana="#punctus"/> Alteri praebens oc<lb ed="#P"/>casionem 
+  					ruinae et describitur hic scan<lb ed="#P"/>dalum activum non passivum <pc ana="#punctus"/> Scandalum 
+  					<lb ed="#P"/>et tantum circumstantia aggravans est <pc ana="#punctus"/> quando sive 
+  					<lb ed="#P"/>intentione <pc ana="#virgula"/> per malum opus datur occasio ru<lb ed="#P"/>inae 
+  					<pc ana="#punctus"/> quando vero ex intentione datur haec 
+  					<lb ed="#P"/>occasio <pc ana="#punctus"/> speciale peccatum est <pc ana="#punctus"/> nota etiam quod tale 
+  					<lb ed="#P"/>est peccatum scandali <pc ana="#punctus"/> quale est <pc ana="#virgula"/> per quod <seg><del rend="expunctuated">s</del>a</seg> 
+  					<!-- drops --> scandalizo <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q13" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4274">Librum IV, Distinctio 38, Quaestio 13</head>
+  				<head xml:id="wdrl4d38-Hd1e4277" type="questionTitle">Quae sint dimittenda propter scandalum</head>
+  				<p xml:id="wdrl4d38-d1e4280"><lb ed="#P"/><pc ana="#pilcrow"/>Quae sint di<lb ed="#P"/>mittenda 
+  					propter scandalum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> omne 
+  					<lb ed="#P"/>malum <pc ana="#punctus"/> et etiam indifferens <pc ana="#virgula"/> Sed bonum praecepti 
+  					<lb ed="#P"/>numquam <pc ana="#punctus"/> bonum aut supererogationis <pc ana="#virgula"/> quamvis possit 
+  					<lb ed="#P"/>dimittere <pc ana="#virgula"/> non tamen tenemur sed ad tempus aliquando 
+  					<lb ed="#P"/>debet differri <pc ana="#punctus"/> ut praedictio et huiusmodi</p>
+  			</div>
+  			<div xml:id="wdr-l4d38q14" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4316">Librum IV, Distinctio 38, Quaestio 14</head>
+  				<head xml:id="wdrl4d38-Hd1e4319" type="questionTitle">Utrum nostra temporalia propter scandalum debeamus dimittere</head>
+  				<p xml:id="wdrl4d38-d1e4322"><lb ed="#P"/><pc ana="#pilcrow"/>utrum nostra temporalia propter scanda<lb ed="#P"/>lum 
+  					debeamus dimittere <pc ana="#punctus"/> Responsio si alie<lb ed="#P"/>na 
+  					sunt quae nos administramus <pc ana="#punctus"/> non debemus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed si nostra <pc ana="#virgula"/> et speratur ex hoc correctio de<lb ed="#P"/>bemus 
+  					dimittere <pc ana="#punctus"/> Si autem non <pc ana="#punctusfluxus"/> consilium est di<lb ed="#P"/>mittere 
+  					<pc ana="#punctus"/> sed non tenemur quia fit eis occasio 
+  					<lb ed="#P"/>mali <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q15" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4359">Librum IV, Distinctio 38, Quaestio 15</head>
+  				<head xml:id="wdrl4d38-Hd1e4362" type="questionTitle">Utrum uxor credens virum mortuum licite possit contrahere</head>
+  				<p xml:id="wdrl4d38-d1e4365"><lb ed="#P"/>Responsio <pc ana="#punctus"/> non nisi de hoc certificata sit <pc ana="#virgula"/> per iuramentum 
+  					<cb ed="#P" n="130rb"/><lb ed="#P"/>aliquorum qui mortuum noverunt <pc ana="#punctus"/> <name ref="#HughOfStVictor">hugo</name> dixit 
+  					<lb ed="#P"/>iuramentum unius sufficere <pc ana="#punctus"/> cum publica fama <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d38q16" type="quaestio">
+  				<head xml:id="wdrl4d38-Hd1e4390">Librum IV, Distinctio 38, Quaestio 16</head>
+  				<head xml:id="wdrl4d38-Hd1e4393" type="questionTitle">Utrum si contraxerit maritus revertentem teneatur</head>
+  				<p xml:id="wdrl4d38-d1e4396"><lb ed="#P"/><pc ana="#pilcrow"/>utrum si contraxerit maritus revertentem 
+  					<lb ed="#P"/>teneatur recipere Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> si probabiliter 
+  					<lb ed="#P"/>credens primum mortuum <pc ana="#punctus"/> cum secundo contraxit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et statim ad revertentem redit <pc ana="#punctus"/> aliter non tenetur</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

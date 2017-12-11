@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 39 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 39 [Penn Transcription]</title>
+          <date when="2016-05-23">May 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-23">May 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="130rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d39">
+  			<head xml:id="wdrl4d39-Hd1e3503">Librum IV, Distinctio 39 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d39q1" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3508">Librum IV, Distinctio 39, Quaestio 1</head>
+  				<head xml:id="wdrl4d39-Hd1e3511" type="questionTitle">Utrum fidelis cum infideli possit contrahere</head>
+  				<p xml:id="wdrl4d39-d1e3514"><lb ed="#P"/>Quaeritur utrum fidelis cum infideli <pc ana="#punctus"/> 
+  					<lb ed="#P"/>possit contrahere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ante legem 
+  					<lb ed="#P"/>licuit <pc ana="#punctus"/> ut patet in <name ref="#Joseph">Ioseph</name> <pc ana="#punctus"/> et <name ref="#Moses">moyse</name> <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>non fuit prohibitum <pc ana="#virgula"/> in lege licuit <pc ana="#punctus"/> sed non 
+  					<lb ed="#P"/>cum chananeis <pc ana="#punctus"/> propter <pc ana="#punctus"/> diversitatem eorum 
+  					<lb ed="#P"/>nisi converterentur ad fidem <pc ana="#punctus"/> ut <name>raab <!-- not sure if this is a name or just a generic word for Rabbi --></name> <pc ana="#punctus"/> tempore 
+  					<lb ed="#P"/><choice><orig>euvangelii</orig><reg>evangelii</reg></choice> cum nullo licet <pc ana="#virgula"/> quia est contra bonum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>prolis <pc ana="#punctus"/> quae non educatur ad cultum dei <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et contra bonum fidei quae non servatur ad deum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d39q2" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3589">Librum IV, Distinctio 39, Quaestio 2</head>
+  				<head xml:id="wdrl4d39-Hd1e3592" type="questionTitle">Utrum inter infidelis possit esse matrimonium legitimum</head>
+  				<p xml:id="wdrl4d39-d1e3595"><lb ed="#P"/><pc ana="#pilcrow"/>utrum inter infidelis possit esse 
+  					<lb ed="#P"/>matrimonium legitimum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic ut patet <ref><title ref="#Icor">1 corinthios</title> 
+  						<lb ed="#P"/><num>vii</num></ref> <pc ana="#punctus"/> quia non tantum est sacramentum ecclesiae sed ecclesia in 
+  					<lb ed="#P"/>officium <pc ana="#virgula"/> naturae et in foedus societatis humanae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d39q3" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3625">Librum IV, Distinctio 39, Quaestio 3</head>
+  				<head xml:id="wdrl4d39-Hd1e3628" type="questionTitle">Utrum tale matrimonium excuset coniugalem concubitum</head>
+  				<p xml:id="wdrl4d39-d1e3631"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tale matrimonium excuset coniugalem 
+  					<lb ed="#P"/>concubitum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia matrimonium verum est 
+  					<lb ed="#P"/>incomplete tam <pc ana="#punctus"/> quia bona matrimonii incomple<lb ed="#P"/>ta 
+  					habet <pc ana="#punctus"/> licet enim evitent <choice><orig>penam</orig><reg>poenam</reg></choice> actu 
+  					<lb ed="#P"/>illo <pc ana="#virgula"/> non tamen acquirunt palmam ut fideles <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d39q4" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3668">Librum IV, Distinctio 39, Quaestio 4</head>
+  				<head xml:id="wdrl4d39-Hd1e3671" type="questionTitle">Utrum fideles possit contrahere matrimonium cum haeretico</head>
+  				<p xml:id="wdrl4d39-d1e3674"><lb ed="#P"/><pc ana="#pilcrow"/>utrum fidelis possit contrahere matrimonium 
+  					<lb ed="#P"/>cum haeretico <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si facit tenet <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/> 
+  					<lb ed="#P"/>non tamen debet <pc ana="#punctus"/> sicut nec <pc ana="#virgula"/> cum <choice><orig>excomunicato</orig><reg>excommunicato</reg></choice> <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d39q5" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3707">Librum IV, Distinctio 39, Quaestio 5</head>
+  				<head xml:id="wdrl4d39-Hd1e3710" type="questionTitle">Utrum fideles conversus teneatur ab infideli discedere</head>
+  				<p xml:id="wdrl4d39-d1e3713"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum fideles conversus teneatur ab 
+  					<lb ed="#P"/>infideli discedere <pc ana="#punctus"/> Responsio nunc simpliciter 
+  					<lb ed="#P"/>teneatur propter periculum commanendi <pc ana="#punctus"/> <choice><orig>Inprimi<lb ed="#P"/>tam</orig><reg>Imprimi<lb ed="#P"/>tam</reg></choice> 
+  					tamen ecclesiae licuit <pc ana="#virgula"/> ei commanere secundum <name ref="#Paul">apostolum</name> 
+  					<lb ed="#P"/>dummodo infideles vellet commanere sine 
+  					<lb ed="#P"/>contumelia creatoris <pc ana="#punctus"/> et hoc tunc consilium 
+  					<lb ed="#P"/>fuit <pc ana="#punctus"/> propter spem conversationis infidelis <pc ana="#punctus"/> sed non prae<!-- drops -->ceptum</p>
+  			</div>
+  			<div xml:id="wdr-l4d39q6" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3760">Librum IV, Distinctio 39, Quaestio 6</head>
+  				<head xml:id="wdrl4d39-Hd1e3763" type="questionTitle">Utrum fideles dimissus possit contrahere</head>
+  				<p xml:id="wdrl4d39-d1e3766"><cb ed="#P" n="130va"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum fideles dimissus possit contrahere <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum <name ref="#Ambrose">ambrosum</name> in littera <pc ana="#punctus"/> quia quamvis 
+  					<lb ed="#P"/>fuerit initiatum et <choice><orig>consumatum</orig><reg>consummatum</reg></choice> <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>tamen ratum <pc ana="#virgula"/> quia caruit fundamento 
+  					<lb ed="#P"/>omnium sanctorum scilicet baptismo et hoc intellige 
+  					<lb ed="#P"/>quando infideles fidelem dimittit <pc ana="#virgula"/> vel non 
+  					<lb ed="#P"/>vult cohabitare <pc ana="#virgula"/> sine blasphemiae christi 
+  					<lb ed="#P"/>vel nititur pervetere fidelem <pc ana="#virgula"/> alias non licet <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d39q7" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3822">Librum IV, Distinctio 39, Quaestio 7</head>
+  				<head xml:id="wdrl4d39-Hd1e3825" type="questionTitle">Utrum infideles dimissus similiter possit contrahere</head>
+  				<p xml:id="wdrl4d39-d1e3828"><lb ed="#P"/><pc ana="#pilcrow"/>utrum infideles dimissus similiter 
+  					<lb ed="#P"/>possit contrahere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia quamvis s
+  					<lb ed="#P"/>materiam per alterius conversationem <pc ana="#punctus"/> et matrimonium eius se<lb ed="#P"/>quens 
+  					sic solutum <pc ana="#virgula"/> dat tamen <choice><orig>inpedimentum</orig><reg>impedimentum</reg></choice> 
+  					<lb ed="#P"/>infideli <pc ana="#punctus"/> <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> tamen <pc ana="#virgula"/> si post conversatur 
+  					<lb ed="#P"/>ante quam uxor alteri nupserit <pc ana="#punctus"/> debet eam 
+  					<lb ed="#P"/>habere <pc ana="#punctus"/> Si autem nupsit <pc ana="#punctus"/> aliam accipiat</p>
+  			</div>
+  			<div xml:id="wdr-l4d39q8" type="quaestio">
+  				<head xml:id="wdrl4d39-Hd1e3883">Librum IV, Distinctio 39, Quaestio 8</head>
+  				<head xml:id="wdrl4d39-Hd1e3886" type="questionTitle">Utrum matrimonium solvi possit pro peccato alio quam pro fornicatione</head>
+  				<p xml:id="wdrl4d39-d1e3889"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium solvi possit pro peccato 
+  					<lb ed="#P"/>alio <pc ana="#virgula"/> quam pro fornicatione <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>pro fornicatione carnali solvitur <pc ana="#virgula"/> quo ad thorum 
+  					<lb ed="#P"/>tantum <pc ana="#virgula"/> pro spirituali scilicet infidelitate dic <ref>supra 
+  						<lb ed="#P"/>quaestione 5 et 6</ref> Sed pro fornicatione communisse dicta scilicet 
+  					<lb ed="#P"/>pro quocumque peccato <pc ana="#punctus"/> non solvitur <pc ana="#virgula"/> sed tamen si ali<lb ed="#P"/>quod 
+  					peccatum <pc ana="#virgula"/> scandalum coniugis est <pc ana="#virgula"/> dimit<lb ed="#P"/>titur 
+  					ad tempus <pc ana="#punctus"/> usque ad correctionem scandali 
+  					<!-- drops --> sic loquitur <name ref="#Augustine">augustinus</name> in littera </p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

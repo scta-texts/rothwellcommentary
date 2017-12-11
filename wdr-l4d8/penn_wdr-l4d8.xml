@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 8 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 8 [Penn Transcription]</title>
+          <date when="2016-05-06">May 06, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-06">May 06, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="110va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d8">
+  			<head xml:id="wdrl4d8-Hd1e3503">Librum IV, Distinctio 8 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d8q1" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3508">Librum IV, Distinctio 8, Quaestio 1</head>
+  				<head xml:id="wdrl4d8-Hd1e3511" type="questionTitle">Quaeritur utrum eucharistia sit sacramentum</head>
+  				<p xml:id="wdrl4d8-d1e3514"><lb ed="#P"/>Quaeritur utrum echaristia 
+  					<lb ed="#P"/>sit sacramentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia significat sanctita<lb ed="#P"/>tem 
+  					<pc ana="#virgula"/> et efficit <pc ana="#virgula"/> et sanctitatis continet auctoritatem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q2" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3537">Librum IV, Distinctio 8, Quaestio 2</head>
+  				<head xml:id="wdrl4d8-Hd1e3540" type="questionTitle">Utrum sit unum sacramentum</head>
+  				<p xml:id="wdrl4d8-d1e3543"><pc ana="#punctus"/><pc ana="#pilcrow"/>utrum sit unum sacramentum <pc ana="#punctus"/> Responsio u<lb ed="#P"/>num 
+  					est unitatem perfectionis <lb ed="#P"/> quia ad eius integri<lb ed="#P"/>tatem 
+  					plura requiruntur <pc ana="#virgula"/> sed non est unum indivi<lb ed="#P"/>sibilitatem 
+  					vel continuitatem</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q3" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3564">Librum IV, Distinctio 8, Quaestio 3</head>
+  				<head xml:id="wdrl4d8-Hd1e3567" type="questionTitle">utrum debuit praefigurari in veteri lege</head>
+  				<p xml:id="wdrl4d8-d1e3570"><lb ed="#P"/><pc ana="#pilcrow"/>utrum debuit praefigurari in veteri lege 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> unde <pc ana="#punctus"/> nota <pc ana="#punctus"/> quod quaedam sacramenta <pc ana="#punctus"/> nova <pc ana="#punctus"/> 
+  					<lb ed="#P"/>fuerunt in veteri lege licet non omnia eodem modo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut matrimonium quia dicit actum naturae <pc ana="#virgula"/> et <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> quae dicit actum 
+  					<lb ed="#P"/>virtutis <pc ana="#punctus"/> et ordo qui est specialis deputatio ad 
+  					<cb ed="#P" n="110vb"/><lb ed="#P"/>cultum divinum <pc ana="#punctus"/> et haec tria in omni lege re<lb ed="#P"/>quiruntur 
+  					Baptismus vero et eucharistia <pc ana="#punctus"/> sunt 
+  					<lb ed="#P"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> pro nunc vitae spiritualis <pc ana="#punctus"/> unum generando 
+  					<lb ed="#P"/>alterum conservando <pc ana="#punctus"/> et ideo ante tempus huius 
+  					<lb ed="#P"/>vitae <pc ana="#punctus"/> non deberent modi feste tradi <pc ana="#punctus"/> sed in 
+  					<lb ed="#P"/>figura esse <pc ana="#punctus"/> sed confirmatio et extrema unctio 
+  					<lb ed="#P"/>sunt sacramenta perfectionis <pc ana="#punctus"/> unum gratiae 
+  					<lb ed="#P"/>alterum gloriae  disponentem <pc ana="#punctus"/> ideo tempore legis 
+  					<!-- drops --> nec in se <pc ana="#punctus"/> nec in figura 
+  					<!-- drops--> fuerunt</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q4" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3662">Librum IV, Distinctio 8, Quaestio 4</head>
+  				<head xml:id="wdrl4d8-Hd1e3665" type="questionTitle">Utrum hoc sacramentum debuerit institui</head>
+  				<p xml:id="wdrl4d8-d1e3668"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>hoc sacramentum debuerit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>institui <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia sicut <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> est 
+  					<lb ed="#P"/>nobis ad vitam spirituale generatio per baptismum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Ita in eo conservatio per nutrimentum 
+  					<lb ed="#P"/>eucharistiae <pc ana="#virgula"/> ideo haec duo christus per se expresse in<lb ed="#P"/>stituit</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q5" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3711">Librum IV, Distinctio 8, Quaestio 5</head>
+  				<head xml:id="wdrl4d8-Hd1e3714" type="questionTitle">utrum ante adventum christi debuit institui</head>
+  				<p xml:id="wdrl4d8-d1e3717"><lb ed="#P"/>utrum ante adven<lb ed="#P"/>tum 
+  					christi debuit institui <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia res contenta <pc ana="#punctus"/> christus est <pc ana="#punctus"/> res significata non 
+  					<lb ed="#P"/>contenta <pc ana="#punctus"/> unitas ecclesiae per <choice><sic>fide</sic><corr>fidem</corr></choice> et caritatem <pc ana="#punctus"/> 
+  					<!-- drops --> tunc autem unio carnalis</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q6" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3753">Librum IV, Distinctio 8, Quaestio 6</head>
+  				<head xml:id="wdrl4d8-Hd1e3756" type="questionTitle">Utrum ante passionem debuit institui</head>
+  				<p xml:id="wdrl4d8-d1e3759"><lb ed="#P"/>utrum ante <pc ana="#punctus"/> 
+  					<lb ed="#P"/>passionem debuit institui <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet <unclear>nicena</unclear> <pc ana="#punctus"/> quia ab eis corporaliter recessit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>propter terminationem veteris sacrificii <pc ana="#punctus"/> propter in<lb ed="#P"/>stantis 
+  					passionis repraesentationem <pc ana="#punctus"/> ut ultimo 
+  					<lb ed="#P"/>traditum magis memoriae <unclear>etiam</unclear> figuretur</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q7" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3798">Librum IV, Distinctio 8, Quaestio 7</head>
+  				<head xml:id="wdrl4d8-Hd1e3801" type="questionTitle">Quo ordine christus confecit</head>
+  				<p xml:id="wdrl4d8-d1e3804"><lb ed="#P"/><pc ana="#pilcrow"/>Quo ordine christus confecit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> licet aliter dixerint quod sine verbis <pc ana="#punctus"/> alii 
+  					<lb ed="#P"/>quod aliis verbis <pc ana="#punctus"/> alii quod eadem verba bis per<lb ed="#P"/>tulerit 
+  					<pc ana="#punctus"/> verius tamen distinguitur et communius <pc ana="#punctus"/> quod 
+  					<lb ed="#P"/>illis verbis tamen simul dictis <pc ana="#punctus"/> consecravit ipse 
+  					<lb ed="#P"/>et nobis formam consecrandi dedit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q8" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3839">Librum IV, Distinctio 8, Quaestio 8</head>
+  				<head xml:id="wdrl4d8-Hd1e3842" type="questionTitle">De ordine quo ecclesia conficit</head>
+  				<p xml:id="wdrl4d8-d1e3845"><lb ed="#P"/><pc ana="#pilcrow"/>De ordine quo ecclesia conficit <lb ed="#P"/> 
+  					<lb ed="#P"/>Responsio <lb ed="#P"/> conficitur <pc ana="#virgula"/> et sumitur <pc ana="#punctus"/> <unclear>mane</unclear> <pc ana="#punctus"/> <unclear>Aicui<lb ed="#P"/>nis <!-- possible name --></unclear> 
+  					<pc ana="#punctus"/> propter reverentiam <pc ana="#punctus"/> sacramenti <pc ana="#punctus"/> quamvis 
+  					<lb ed="#P"/>dominus celebravit post cenam propter dictas 
+  					<cb ed="#P" n="111ra"/><lb ed="#P"/>causas supra <unclear>idem</unclear> <ref>Guillelmus q</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q9" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3892">Librum IV, Distinctio 8, Quaestio 9</head>
+  				<head xml:id="wdrl4d8-Hd1e3895" type="questionTitle">Utrum tantum <unclear>aieunis</unclear> sumi debeat </head>
+  				<p xml:id="wdrl4d8-d1e3901"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tantum <unclear>aieunis</unclear> sumi debeat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> nisi in <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> mortis  <pc ana="#punctus"/> et hoc propter <pc ana="#punctus"/> 
+  					<lb ed="#P"/>reverentiam <pc ana="#punctus"/> et propter actionem dignam <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q10" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3934">Librum IV, Distinctio 8, Quaestio 10</head>
+  				<head xml:id="wdrl4d8-Hd1e3937" type="questionTitle">Utrum post sumptionem liceat statim comedere</head>
+  				<p xml:id="wdrl4d8-d1e3940"><lb ed="#P"/><pc ana="#pilcrow"/>utrum post sumptionem <pc ana="#virgula"/> liceat 
+  					<lb ed="#P"/>statim <pc ana="#punctus"/> comedere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sufficit modicum 
+  					<lb ed="#P"/>tempus post <pc ana="#punctus"/> quia cito species illae alterantur</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q11" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e3964">Librum IV, Distinctio 8, Quaestio 11</head>
+  				<head xml:id="wdrl4d8-Hd1e3967" type="questionTitle">A quibus debent esse ieiuni sumpturi hoc sacramentum</head>
+  				<p xml:id="wdrl4d8-d1e3970"><lb ed="#P"/><pc ana="#pilcrow"/>A quibus debent esse <choice><sic>ieuni</sic><corr>ieiuni</corr></choice> sump<lb ed="#P"/>turi 
+  					hoc sacrametum <pc ana="#punctus"/> Responsio a <unclear>bom?bus</unclear> 
+  					<lb ed="#P"/>quae violant naturae ieiunium <pc ana="#punctus"/> etiam a me<lb ed="#P"/>dicinis 
+  					et aqua <pc ana="#punctus"/> et hoc ob reverentiam nec 
+  					<lb ed="#P"/>ante alios cibos <name ref="#Augustine">augustinus</name> in littera <ref><title>de consecratione</title> distinctione <num>ii</num></ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q12" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4012">Librum IV, Distinctio 8, Quaestio 12</head>
+  				<head xml:id="wdrl4d8-Hd1e4015" type="questionTitle">De forma consecrationis panis hoc est corpus meum</head>
+  				<p xml:id="wdrl4d8-d1e4018"><lb ed="#P"/><pc ana="#pilcrow"/>De forma consecrationis panis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>hoc est corpus meum <pc ana="#punctus"/> Responsio in littera 
+  					<lb ed="#P"/>forma est <pc ana="#punctus"/> et dicitur in persona christi cuius meminere est 
+  					<lb ed="#P"/>in qua ponitur est <pc ana="#virgula"/> non fit <pc ana="#virgula"/> quia ibi non est commune <pc ana="#punctus"/> 
+  					<lb ed="#P"/>subiectum <pc ana="#punctus"/> et terminus transmutationis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q13" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4051">Librum IV, Distinctio 8, Quaestio 13</head>
+  				<head xml:id="wdrl4d8-Hd1e4054" type="questionTitle">Quid demonstrat hoc pro nomine hoc</head>
+  				<p xml:id="wdrl4d8-d1e4057"><lb ed="#P"/><pc ana="#pilcrow"/>Quid demonstrat hoc pro nomine <mentioned>hoc</mentioned> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio quidam dixerint <pc ana="#punctus"/> quod materialiter tantum 
+  					<lb ed="#P"/>ponitur alii quod demonstratio ad intellectum <pc ana="#punctus"/> <mentioned>hoc</mentioned> 
+  					<lb ed="#P"/>id est significatum per <mentioned>hoc</mentioned> <pc ana="#punctus"/> Nunc aliqui quod demonstra<lb ed="#P"/>tive 
+  					<unclear>quaestio</unclear> ad sensum <mentioned>hoc</mentioned> est id est quod sub hac specie 
+  					<lb ed="#P"/>est contenti <pc ana="#virgula"/> unde glossa quod <pc ana="#punctus"/> sub hac specie <pc ana="#punctus"/> 
+  					<lb ed="#P"/>videtur <pc ana="#virgula"/> <name ref="#RichardOfStVictor">Richardus de sancto victore</name> quod demon<lb ed="#P"/>stratio 
+  					mixta <mentioned>hoc</mentioned> id est in quod <mentioned>hoc</mentioned> transmutandum est 
+  					<lb ed="#P"/>Dicit quod aliud est in omnibus significantibus 
+  					<lb ed="#P"/>tantum <pc ana="#punctus"/> aliud in effectibus etiam in quibus verba 
+  					<lb ed="#P"/>accipiuntur secundum illud tempus pro quo proferunt <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia completio rei est a fine <pc ana="#punctus"/> unde corpus 
+  					<lb ed="#P"/>christi demonstrat <pc ana="#punctus"/> Nota etiam quod non est 
+  					<lb ed="#P"/>de essentia formae <pc ana="#virgula"/> tamen scienter obmit<lb ed="#P"/>ti 
+  					non debet <pc ana="#punctus"/> ubi usus anitquae ecclesiae <pc ana="#virgula"/> licet habet <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q14" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4154">Librum IV, Distinctio 8, Quaestio 14</head>
+  				<head xml:id="wdrl4d8-Hd1e4157" type="questionTitle">De forma consecrationis sanguinis</head>
+  				<p xml:id="wdrl4d8-d1e4160"><lb ed="#P"/><pc ana="#pilcrow"/>De forma consecrationis sanguinis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> forma est <pc ana="#punctus"/> accipite et bibite 
+  					<cb ed="#P" n="111rb"/><lb ed="#P"/>ex eo etc <pc ana="#punctus"/> sed de substantia formae tantum est illud <pc ana="#punctus"/> hoc est 
+  					<lb ed="#P"/>est enim calix sanguinis mei <pc ana="#punctus"/> novi testimenti 
+  					<lb ed="#P"/>pro vobis et pro multis <choice><orig>efusus</orig><reg>effusus</reg></choice> iure <pc ana="#punctus"/> peccatorum 
+  					<lb ed="#P"/>in illum enim tantum virtute conversionis <pc ana="#punctus"/> significatur 
+  					<lb ed="#P"/>sub specie christi praesentia calix nec ibi ponitur 
+  					<lb ed="#P"/>vel pro contento suo <pc ana="#virgula"/> vel pro passionis signo 
+  					<lb ed="#P"/>quia per calicem intelligitur passio</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q15" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4212">Librum IV, Distinctio 8, Quaestio 15</head>
+  				<head xml:id="wdrl4d8-Hd1e4215" type="questionTitle">Utrum in istis formis sit aliqua virtus spiritualis ad transubstandum</head>
+  				<p xml:id="wdrl4d8-d1e4218"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in istis formis sit ali<lb ed="#P"/>qua 
+  					virtus spiritualis ad transubstandum 
+  					<lb ed="#P"/>Responsio duae sunt opiniones <pc ana="#punctus"/> quidam quod virtus 
+  					<lb ed="#P"/>divina tantum est assistens <pc ana="#punctus"/> Alii probabilius 
+  					<lb ed="#P"/>quod in eis est virtus instrumentalis <pc ana="#punctus"/> quae eis 
+  					<lb ed="#P"/>ultimo instanti complete <unclear>o?nis</unclear> confertur <ref>supra distinctio 1 quaestio</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d8q16" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4248">Librum IV, Distinctio 8, Quaestio 16</head>
+  				<head xml:id="wdrl4d8-Hd1e4251" type="questionTitle">utrum una forma operetur secundum altera</head>
+  				<p xml:id="wdrl4d8-d1e4254"><lb ed="#P"/><pc ana="#pilcrow"/>utrum una forma operetur secundum altera 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia utraque secundum altera habet propriam 
+  					<lb ed="#P"/>virtutem <pc ana="#punctus"/> propriam significationem <pc ana="#punctus"/> et deteriora 
+  					<lb ed="#P"/>tam <unclear>n?u?eri</unclear> et sub utra specie est corpus 
+  					<lb ed="#P"/>et sanguis <pc ana="#punctus"/> ex naturali concomitatia <pc ana="#punctus"/> non ex 
+  					<!-- drops --> vi sacramenti</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q17" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4290">Librum IV, Distinctio 8, Quaestio 17</head>
+  				<head xml:id="wdrl4d8-Hd1e4293" type="questionTitle">Utrum per solas formas sine aliis verbis quae dicuntur in canone</head>
+  				<p xml:id="wdrl4d8-d1e4296"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per solas <pc ana="#punctus"/> 
+  					<lb ed="#P"/>formas <pc ana="#punctus"/> sine aliis verbis quae dicuntur 
+  					in canone <pc ana="#punctus"/> possit fieri 
+  					<lb ed="#P"/>consecratio <pc ana="#punctus"/> Responsio sic graviter peccaret</p>
+  			</div>
+  			<div xml:id="wdr-l4d8q18" type="quaestio">
+  				<head xml:id="wdrl4d8-Hd1e4317">Librum IV, Distinctio 8, Quaestio 18</head>
+  				<head xml:id="wdrl4d8-Hd1e4320" type="questionTitle">Utrum uno sacerdote deficiente ab alio debeat suppleri</head>
+  				<p xml:id="wdrl4d8-d1e4323"><lb ed="#P"/><pc ana="#pilcrow"/>utrum uno sacerdote deficiente <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ab alio debeat suppleri <pc ana="#punctus"/> Responsio sic 
+  					<lb ed="#P"/>secundum concilium <unclear>toletanum</unclear> <pc ana="#punctus"/> si scitur ubi desierit 
+  					<lb ed="#P"/>si nescitur a capite inchoetur sed secundum 
+  					<lb ed="#P"/><unclear>innoc?um</unclear> tertium melius est hostiam consecratam 
+  					<lb ed="#P"/>reservare <pc ana="#punctus"/> et super aliam hostiam <pc ana="#punctus"/> missam 
+  					<!-- drops --> a capite inchoare <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

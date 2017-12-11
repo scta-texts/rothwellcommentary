@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 16 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 16 [Penn Transcription]</title>
+          <date when="2016-04-19">April 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-19">April 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="30ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d16">
+  			<head xml:id="wdrl1d16-Hd1e3503">Librum I, Distinctio 16 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d16q1" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3508" type="questionTitle">Utrum divinis personis conveniat missio visibilis</head>
+  				<p xml:id="wdrl1d16-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum divinis 
+  					<lb ed="#P"/>personis conveniat missio visibilis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> quod 
+  					<lb ed="#P"/>sic <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> Includit autem tria scilicet personae emanationem 
+  					<lb ed="#P"/>aeternam <pc ana="#punctus"/> eius internam in habitationem sive praesentia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>novo scilicet modo <pc ana="#punctus"/> et utriusque in signo visibili mani<!-- drops -->festationem</p>
+  			</div>
+  			<div xml:id="wdr-l1d16q2" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3547" type="questionTitle">Propter quid fiat missio visibili</head>
+  				<p xml:id="wdrl1d16-d1e3550"><lb ed="#P"/><pc ana="#pilcrow"/>propter quid fiat missio visibili 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> missio invisibilis enim sit <sic>lateus</sic> fit 
+  					<lb ed="#P"/>homini propter se ipsum <pc ana="#punctus"/> sed visibilis cum sit patens 
+  					<lb ed="#P"/>fit homini propter alterum <pc ana="#punctus"/> prima fit ad eum <unclear>de?dam</unclear> plenitudine 
+  					<lb ed="#P"/>sufficientiae in se <pc ana="#punctus"/> secunda autem redundantiae in alios</p>
+  			</div>
+  			<div xml:id="wdr-l1d16q3" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3581" type="questionTitle">Utrum ad patres veteri testamentis fieret missio visibilis</head>
+  				<p xml:id="wdrl1d16-d1e3584"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ad patres veteri testamentis fieret missio 
+  					<lb ed="#P"/>visibilis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <ref><name ref="#Augustine">augustinus</name> in littera libro <title ref="#deTrinitate">de trinitate</title></ref> non quamvis 
+  					<lb ed="#P"/>eum aliquando apparuerit <pc ana="#punctus"/> ut dicit <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> Non enim erat status 
+  					<lb ed="#P"/>plenitudinis <pc ana="#punctus"/> redundantiae in alias <pc ana="#punctus"/> sed status aeter<cb ed="#P" n="30rb"/><lb ed="#P"/>nalis 
+  					propagationis</p>
+  			</div>
+  			<div xml:id="wdr-l1d16q4" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3625" type="questionTitle">Quibus debuit fieri in novo testamento</head>
+  				<p xml:id="wdrl1d16-d1e3628"><lb ed="#P"/><pc ana="#pilcrow"/>Quibus debuit fieri in novo testamento <pc ana="#punctus"/> Respondeo in <unclear>postmitam</unclear> 
+  					<lb ed="#P"/>ecclesia ad apostolos <pc ana="#punctus"/> et quasdam alios fideles <pc ana="#punctus"/> qui erant 
+  					<lb ed="#P"/>quasi prima seminaria plantatio totius ecclesiae <pc ana="#punctus"/> et hoc propter 
+  					<lb ed="#P"/>paucitatem eorum <pc ana="#punctus"/> nec veritas tunc ita manifesta 
+  					<lb ed="#P"/>erat ut nunc est <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> <pc ana="#punctus"/> Non autem <unclear>ab?am</unclear> virginem quam<lb ed="#P"/>vis 
+  					credatur cum aliis apostolis <pc ana="#virgula"/> in die pentecostes 
+  					<lb ed="#P"/>spiritum sanctum recepisse visibiliter <pc ana="#punctus"/> quia redundare in ea non 
+  					<lb ed="#P"/>debuit per doctrinam <pc ana="#punctus"/> ad christum autem factam est <pc ana="#punctus"/> ad ostendenda 
+  					<lb ed="#P"/>tantum redundantiam <pc ana="#punctus"/> et tunc quando redundare incipit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d16q5" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3692" type="questionTitle">Utrum pater nunquam in specie visibili apparuerit</head>
+  				<p xml:id="wdrl1d16-d1e3695"><lb ed="#P"/>utrum pater nunquam in specie visibili apparuerit 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <ref><name ref="#Augustine">augustinus</name> libro <title ref="#deTrinitate">de Trinitate</title></ref> Temerarium est dicere quod pater in vetero 
+  					<lb ed="#P"/>testamento numquam per formas visibiles apparuit <pc ana="#punctus"/> apparuit autem 
+  					<lb ed="#P"/>in vetero testamento in specie visibili <pc ana="#punctus"/> In novo testamento in specie <unclear>andi?li</unclear> 
+  					<lb ed="#P"/>In quam fuit maior expressio signi <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> non tamen dicitur missus 
+  					<!-- drops line --> quia non est ab alio</p>
+  			</div>
+  			<div xml:id="wdr-l1d16q6" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3735" type="questionTitle">Utrum missio visibilis facta fuerit per angelos</head>
+  				<p xml:id="wdrl1d16-d1e3738"><lb ed="#P"/><pc ana="#pilcrow"/>utrum missio visi<lb ed="#P"/>bilis 
+  					facta fuerit per angelos <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt 
+  					<lb ed="#P"/>apparitiones <pc ana="#virgula"/> vetero testamento factas angelico ministerio <pc ana="#virgula"/> novi 
+  					<lb ed="#P"/>autem testamentis <pc ana="#punctus"/> a deo immediate <pc ana="#punctus"/> alii autem consentientes 
+  					<lb ed="#P"/>verbum <name ref="#Augustine">augusitni</name> <pc ana="#punctus"/> dicunt utrasque semper factas <pc ana="#virgula"/> ministerio angelorum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>potest incarnationem <pc ana="#punctus"/> hoc enim est lex divinitas secundum <choice><orig>dyabolum</orig><reg>diabolum</reg></choice> <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d16q7" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3789" type="questionTitle">Quare in talibus speciebus facta sit</head> 
+  				<p xml:id="wdrl1d16-d1e3792"><lb ed="#P"/><pc ana="#pilcrow"/>Quare in talibus speciebus facta sit <pc ana="#punctus"/> Responsio 
+  					<lb ed="#P"/>In christo facta apparatio in baptismo <pc ana="#virgula"/> ad significandam redundantia 
+  					<lb ed="#P"/>operationis et gratiae <pc ana="#punctus"/> in qua apparuit natura debens in persona 
+  					<lb ed="#P"/>filii <pc ana="#punctus"/> <pc ana="#virgula"/> natura potens in voce patris testificatae de filio 
+  					<lb ed="#P"/>naturali <pc ana="#punctus"/> potuit ergo potuit <pc ana="#punctus"/> Influentia nullae potentis super 
+  					<lb ed="#P"/>debentem <pc ana="#punctus"/> in columba significatae per magnificentiam super christum 
+  					<lb ed="#P"/>hominem <pc ana="#punctus"/> vox patris in transfiguratione <pc ana="#punctus"/> figurabat redundantiam 
+  					<lb ed="#P"/>doctrinae <pc ana="#punctus"/> unde dicit ipsum auditae <pc ana="#punctus"/> In apostolis autem 
+  					<lb ed="#P"/>similiter <pc ana="#punctus"/> in flatu apparuit <pc ana="#virgula"/> redundantiam significans <choice><orig>aparitionis</orig><reg>apparitionis</reg></choice> 
+  					<lb ed="#P"/>et potestatis <pc ana="#punctus"/> soli xx quae a capite in eos descendit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>In signis igneis propter redundantiam ferventis doctrinae 
+  					<lb ed="#P"/>Nota <del rend="strikethrough">qu <!-- unclear --></del> quod secundum quandam <ref>Glossa <title>matthaeus</title> iii</ref> quod columba illa 
+  					<cb ed="#P" n="30va"/><lb ed="#P"/>erat verum corpus <pc ana="#punctus"/> sed non vera columba <pc ana="#virgula"/> <!-- fancy --> Ulterius etiam nota 
+  					<lb ed="#P"/>quod filius solus in natura humana apparuit <pc ana="#virgula"/> quia illius tantum me<lb ed="#P"/>diator 
+  					et redemptor est <pc ana="#punctus"/> <pc ana="#virgula"/> pater autem in voce <pc ana="#punctus"/> quia de <unclear>m?ra<lb ed="#P"/>to</unclear> 
+  					filii et proprietas eius <pc ana="#virgula"/> non potuit convenientius <unclear><pc ana="#virgula"/></unclear> alia 
+  					<lb ed="#P"/>specie fieri <pc ana="#punctus"/> spiritus <del rend="strikethrough">autem</del> sanctos autem irrationali creatura <pc ana="#virgula"/> non uni<lb ed="#P"/>ta 
+  					sibi <pc ana="#punctus"/> Sed signi congruebat <pc ana="#punctus"/> Item in toto alibi <pc ana="#virgula"/> super 
+  					<lb ed="#P"/>christum <unclear>quod</unclear> non alibi <pc ana="#punctus"/> significans in christo <unclear>ul?eni</unclear> gratiae et sensuum 
+  					<lb ed="#P"/>spiritualium plenitudinem <pc ana="#punctus"/> In columba autem <pc ana="#punctus"/> propter innocen<lb ed="#P"/>tiam 
+  					nullae fecunditatem gratiae <pc ana="#punctus"/> et sacrificium redemptionis humanae</p>
+  			</div>
+  			<div xml:id="wdr-l1d16q8" type="quaestio">
+  				<head xml:id="wdrl1d16-Hd1e3948" type="questionTitle">Utrum natura humana in christo maior fuerit dignitate quam natura angelica</head>
+  				<p xml:id="wdrl1d16-d1e3951"><lb ed="#P"/><pc ana="#pilcrow"/>utrum humana in christo maior fuerit dignitate 
+  					<lb ed="#P"/>quam natura angelica <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic scilicet inquantum erat unica <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>similiter <pc ana="#punctus"/> secundum se <pc ana="#punctus"/> ex parte qua comprehensor <pc ana="#punctus"/> <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> natura humana quae 
+  					<lb ed="#P"/>potio non poterat deputari <pc ana="#punctus"/> quale assumpsit christus <pc ana="#punctus"/> nullus 
+  					<lb ed="#P"/>est maior nisi deus <pc ana="#punctus"/> sed inquantum viator <pc ana="#punctus"/> sic minor fuit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>propter statum passibilitatis et hic est secundum quid tantum</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

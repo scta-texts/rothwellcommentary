@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 43 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 43 [Penn Transcription]</title>
+          <date when="2016-05-03">May 03, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-03">May 03, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="41ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d43">
+  			<head xml:id="wdrl1d43-Hd1e3503">Librum I, Distinctio 43 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d43q1" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3508">Librum I, Distinctio 43, Quaestio 1</head>
+  				<head xml:id="wdrl1d43-Hd1e3511" type="questionTitle">Utrum essentia dei sit infinita</head>
+  				<p xml:id="wdrl1d43-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum essentia dei 
+  					<lb ed="#P"/>sit infinita <pc ana="#punctus"/> Responsio quidam dixerunt <pc ana="#punctus"/> quod essentia ut essentia 
+  					<lb ed="#P"/>est infinita <pc ana="#punctus"/> Sed virtus infinita <pc ana="#punctus"/> alii quod nec finita 
+  					<lb ed="#P"/>nec infinita <pc ana="#punctus"/> quia finis est omnium <pc ana="#punctus"/> alii quod deus finitus 
+  					<lb ed="#P"/>est quo ad se <pc ana="#punctus"/> infinitus quoad nos <pc ana="#punctus"/> Sed sancti simpliciter 
+  					<lb ed="#P"/>dicunt eum infinitum <pc ana="#punctus"/> et immensum <pc ana="#punctus"/> unde tenendum est <pc ana="#virgula"/> quod essentia 
+  					<lb ed="#P"/>dei est infinita <pc ana="#punctus"/> negative scilicet quia nullo <unclear>c?o</unclear> concluditur 
+  					<lb ed="#P"/>Sed non privatum quia hoc dicit <choice><orig>inperfectionem</orig><reg>imperfectionem</reg></choice> <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d43q2" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3573">Librum I, Distinctio 43, Quaestio 2</head>
+  				<head xml:id="wdrl1d43-Hd1e3576" type="questionTitle">utrum potentia dei sit infinita</head>
+  				<p xml:id="wdrl1d43-d1e3579"><lb ed="#P"/><pc ana="#pilcrow"/>utrum potentia dei sit infinita <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia caret 
+  					<lb ed="#P"/>termino durationis <pc ana="#punctus"/> et termino extentionis <pc ana="#punctus"/> quia potest <unclear>in infinita</unclear> <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>vigore infinito <pc ana="#punctus"/> cuius signum est quod non praesupponit 
+  					<lb ed="#P"/>naturam <pc ana="#punctus"/> nec moram requirit <pc ana="#punctus"/> nec <unclear>aiycilium</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l1d43q3" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3618">Librum I, Distinctio 43, Quaestio 3</head>
+  				<head xml:id="wdrl1d43-Hd1e3621" type="questionTitle">utrum illa infinitas potentiae sit reducibilis ad actum</head>
+  				<p xml:id="wdrl1d43-d1e3624"><lb ed="#P"/><pc ana="#pilcrow"/>utrum illa infinitas potentiae sit reducibilis ad 
+  					<lb ed="#P"/>actum <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quantum ad infinitum secundum quantitatem 
+  					<lb ed="#P"/>virtutis <pc ana="#punctus"/> qua deus est infinitus et hoc patet in generatione filii <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et productione spiritus sancti sed numquam ad infinitatem secundum 
+  					<lb ed="#P"/>quantitatem molis <pc ana="#punctus"/> quia esset inordinatum <pc ana="#punctus"/> Sed secundum quantitatem 
+  					<lb ed="#P"/>discretam <pc ana="#punctus"/> potest quidem quamlibet rem per se <pc ana="#punctus"/> sed non con<lb ed="#P"/>iunctivi 
+  					quia sic iam <seg type="correction">futura<del rend="expunctuated">m</del></seg> essent</p>
+  			</div>
+  			<div xml:id="wdr-l1d43q4" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3669">Librum I, Distinctio 43, Quaestio 4</head>
+  				<head xml:id="wdrl1d43-Hd1e3672" type="questionTitle">utrum omnipotentia dei sit creaturae communicabilis</head>
+  				<p xml:id="wdrl1d43-d1e3675"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnipotentia dei sit creaturae communicabilis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<cb ed="#P" n="41rb"/><lb ed="#P"/>non <pc ana="#punctus"/> sicut nec essentia divina <pc ana="#punctus"/> quia omnipotentia habet causalitas universali<cb ed="#P" n="41ra"/>tatem 
+  					<pc ana="#punctus"/> et infinitatem <pc ana="#punctus"/> et sufficientiam <pc ana="#punctus"/> cum habeat creatura 
+  					<lb ed="#P"/>nullo non potest esse causa sui ipsius <pc ana="#punctus"/> nec potest infinita cum <unclear>habeat</unclear> 
+  					<lb ed="#P"/>essentiam finitam <pc ana="#punctus"/> nec potest per se <pc ana="#punctus"/> sed per alterum</p>
+  			</div>
+  			<div xml:id="wdr-l1d43q5" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3718">Librum I, Distinctio 43, Quaestio 5</head>
+  				<head xml:id="wdrl1d43-Hd1e3721" type="questionTitle">Utrum deus operetur ex necessitate naturae</head>
+  				<p xml:id="wdrl1d43-d1e3724"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus operetur ex <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> naturae <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia non 
+  					<lb ed="#P"/>habet aliud dirigens ipsum <pc ana="#punctus"/> ut natura habet <pc ana="#punctus"/> non esset 
+  					<lb ed="#P"/>primum agens <pc ana="#punctus"/> sed sua libera voluntate dirigitur quae tamen non 
+  					<!-- drops --> aliud ab ipso</p>
+  			</div>
+  			<div xml:id="wdr-l1d43q6" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3757">Librum I, Distinctio 43, Quaestio 6</head>
+  				<head xml:id="wdrl1d43-Hd1e3760" type="questionTitle">Utrum operetur ex necessitate iustitiae</head>
+  				<p xml:id="wdrl1d43-d1e3763"><lb ed="#P"/><pc ana="#pilcrow"/>utrum operetur ex <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> coactionis <pc ana="#punctus"/> sic 
+  					<lb ed="#P"/>non <pc ana="#punctus"/> si de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> immobilitatis aut ergo iustitiae quae est ex<lb ed="#P"/>igentia 
+  					meritorum <pc ana="#punctus"/> sic non <pc ana="#punctus"/> quia illa potest mutari <pc ana="#punctus"/> aut 
+  					<lb ed="#P"/>convenientiae <pc ana="#punctus"/> quae est condecentia divinae bonitatis <pc ana="#punctus"/> aut ergo 
+  					<lb ed="#P"/>simpliciter et sic omnia operatur ex <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> iustitiae <pc ana="#punctus"/> aut 
+  					<lb ed="#P"/>ut nunc <pc ana="#punctus"/> et sic nihil <pc ana="#punctus"/> quia condecentia quae nunc est <pc ana="#punctus"/> potest 
+  					<lb ed="#P"/>mutari <pc ana="#punctus"/> quia condecentia operum divinorum tota de<lb ed="#P"/>pendet 
+  					ex parte operantis <pc ana="#punctus"/> Sed non sicut in nobis</p>
+  			</div>
+  			<div xml:id="wdr-l1d43q7" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3833">Librum I, Distinctio 43, Quaestio 7</head>
+  				<head xml:id="wdrl1d43-Hd1e3836" type="questionTitle">utrum possit deus plura facere quam facit</head>
+  				<p xml:id="wdrl1d43-d1e3839"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit deus plura facere quam facit <pc ana="#punctus"/> Respondeo 
+  					<lb ed="#P"/>sic <pc ana="#punctus"/> in littera et etiam pauciora <pc ana="#punctus"/> et alia quam facit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et hoc propter potentiae infinitatem <pc ana="#punctus"/> et liberalitatem quae nunc ad certum 
+  					<!-- drops --> <unclear>genus</unclear> <pc ana="#punctus"/> nec ad certum numerum determinatur</p>
+  			</div>
+  			<div xml:id="wdr-l1d43q8" type="quaestio">
+  				<head xml:id="wdrl1d43-Hd1e3869">Librum I, Distinctio 43, Quaestio 8</head>
+  				<head xml:id="wdrl1d43-Hd1e3872" type="questionTitle">Utrum aliqua possit de potentia absoluta quae non possit de potentia ordinata</head>
+  				<p xml:id="wdrl1d43-d1e3875"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliqua possit 
+  					<lb ed="#P"/>de potentia absoluta <pc ana="#punctus"/> quae non possit de potentia ordinata 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <ref><title>Glossam</title> <title ref="#gen">Genesis</title> <num>xix</num></ref> quia est ordo simpliciter 
+  					<lb ed="#P"/>et est ordo ut nunc <pc ana="#punctus"/> multa potest deus <pc ana="#punctus"/> circumscripto secundo 
+  					<lb ed="#P"/>ordine <pc ana="#punctus"/> sed non <unclear>po</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> primo modo dicitur posse de potentia ab<lb ed="#P"/>soluta 
+  					<pc ana="#punctus"/> Secundo modo de potentia ordinata <pc ana="#punctus"/> quia ergo multa 
+  					<lb ed="#P"/>potest <pc ana="#punctus"/> primo modo <pc ana="#punctus"/> quae non potest secundo modo <pc ana="#punctus"/> ideo quidam dicitur posse de potentia 
+  					<lb ed="#P"/>absoluta quae non potest de ordinata <pc ana="#punctus"/> quia multa <unclear>subsistunt</unclear> 
+  					<lb ed="#P"/>suae potentiae quae non congruit sibi ut nunc facere <pc ana="#punctus"/> posset tamen 
+  					<lb ed="#P"/>facere ea congruentia <pc ana="#punctus"/> et sic ea facere</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

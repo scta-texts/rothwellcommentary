@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 25 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 25 [Penn Transcription]</title>
+          <date when="2016-05-18">May 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-18">May 18, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="123vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d25">
+  			<head xml:id="wdrl4d25-Hd1e3503">Librum IV, Distinctio 25 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d25q1" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3508">Librum IV, Distinctio 25, Quaestio 1</head>
+  				<head xml:id="wdrl4d25-Hd1e3511" type="questionTitle">Quis possit conferre ordines</head>
+  				<p xml:id="wdrl4d25-d1e3514"><lb ed="#P"/>Quaeritur quis possit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>conferre ordines <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> solus <pc ana="#punctus"/> episcopos 
+  					<lb ed="#P"/>de iure <sic>sibius<!-- wett15 and gks have communi--></sic> <pc ana="#punctus"/> et ordinariae potestatis <!-- et ordinarieae potestatis, not in gks, it is added in wett15, and preseted in line in Penn without correction --> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>alii autem ex indulgentia solius papae 
+  					<lb ed="#P"/>sive generali sive speciali <pc ana="#punctus"/> minores tantum 
+  					<lb ed="#P"/>ordines <pc ana="#punctus"/> dummodo ispi <del rend="expunctuated">duo</del> illos habeant</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q2" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3558">Librum IV, Distinctio 25, Quaestio 2</head>
+  				<head xml:id="wdrl4d25-Hd1e3561" type="questionTitle">Utrum presbyter possit consecrare episcopum</head>
+  				<p xml:id="wdrl4d25-d1e3564">utrum presbyter possit consecrare episcopum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#virgula"/> quia non potest dare quod 
+  					<lb ed="#P"/>non habet <pc ana="#punctus"/> Item ipse inferiores debet disponere <pc ana="#punctus"/> 
+  					<!-- drops -->et non econverso</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q3" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3585">Librum IV, Distinctio 25, Quaestio 3</head>
+  				<head xml:id="wdrl4d25-Hd1e3588" type="questionTitle">Utrum episcopus haereticus vel praecisus potest ordinare vel consecrare episcopos</head>
+  				<p xml:id="wdrl4d25-d1e3591"><lb ed="#P"/><pc ana="#pilcrow"/>utrum episcopus haereticus 
+  					<lb ed="#P"/>vel praecisus <pc ana="#virgula"/> potest ordinare <pc ana="#punctus"/> vel <pc ana="#punctus"/> 
+  					<lb ed="#P"/>consecrare episcopos <pc ana="#punctus"/> Responsio <name ref="#Lombard">magister</name> in littera 
+  					<lb ed="#P"/>tangit <num>iiiior</num> opiniones <pc ana="#punctus"/> prima dicit <pc ana="#virgula"/> quod  
+  					<cb ed="#P" n="124ra"/><lb ed="#P"/>quod haeretici quam diu tollerantur <pc ana="#virgula"/> possunt 
+  					<lb ed="#P"/>quando autem praecise fuerunt non <pc ana="#virgula"/> Quanta dicit 
+  					<lb ed="#P"/>quod haeretici in ecclesia ordinati ordinatio possunt 
+  					<lb ed="#P"/>ordinare <pc ana="#punctus"/> extra ecclesiam ordinati non <pc ana="#punctus"/> haec 
+  					<lb ed="#P"/>ambae falsae sunt <pc ana="#virgula"/> <pc ana="#pilcrow"/> Secunda opinio dicit 
+  					<lb ed="#P"/>quod ab utrisque collata informata ecclesiae <pc ana="#virgula"/> sacramenta 
+  					<lb ed="#P"/>vera sunt <pc ana="#punctus"/> extra ecclesiam falsa <pc ana="#punctus"/> tertia opus 
+  					<lb ed="#P"/>addit quod quamvis vera sint <pc ana="#virgula"/> tamen in suscipientibus 
+  					scienter <pc ana="#virgula"/> sunt in anima <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>non recipiunt ordinis executionem <pc ana="#punctus"/> quam 
+  					<lb ed="#P"/>nec ipsi conferentes habebant <pc ana="#virgula"/> et utraque vera 
+  					<!-- drops -->est</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q4" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3680">Librum IV, Distinctio 25, Quaestio 4</head>
+  				<head xml:id="wdrl4d25-Hd1e3683" type="questionTitle">Quid sit simonia</head>
+  				<p xml:id="wdrl4d25-d1e3686"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit <choice><orig>symonia</orig><reg>simonia</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> a doctoribus sic describitur <pc ana="#virgula"/> quod est 
+  					<lb ed="#P"/>studiosa voluntas emendi <pc ana="#virgula"/> vel ven<lb ed="#P"/>dendi 
+  					<pc ana="#virgula"/> aliquod spirituale <pc ana="#punctus"/> vel annexum spirituali</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q5" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3720">Librum IV, Distinctio 25, Quaestio 5</head>
+  				<head xml:id="wdrl4d25-Hd1e3723" type="questionTitle">In quibus casibus committatur simonia</head>
+  				<p xml:id="wdrl4d25-d1e3726"><lb ed="#P"/><pc ana="#pilcrow"/>In quibus casibus committatur <choice><orig>sy<lb ed="#P"/>monia</orig><reg>si<lb ed="#P"/>monia</reg></choice> 
+  					<pc ana="#punctus"/> Responsio in venditione sacramentorum 
+  					<lb ed="#P"/>semperque dicuntur spiritualia per causantur <pc ana="#punctus"/> Inter an<lb ed="#P"/>nexa 
+  					autem spiritualibus <pc ana="#punctus"/> quaedam sint ante<lb ed="#P"/>cedentia 
+  					<pc ana="#punctus"/> ut vasa sacra <pc ana="#virgula"/> ius paternatus <pc ana="#punctus"/> quae<lb ed="#P"/>dam 
+  					consequentia ut perceptio decimarum <pc ana="#punctus"/> quae<lb ed="#P"/>dam 
+  					communicantia ut labor <choice><sic>afficiorum</sic><corr>officiorum</corr></choice> 
+  					<lb ed="#P"/>et invenditone omnium horum quandoque incidit 
+  					<lb ed="#P"/><choice><orig>symonia</orig><reg>simonia</reg></choice> <pc ana="#punctus"/> quandoque de hiis in quare in summis</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q6" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3788">Librum IV, Distinctio 25, Quaestio 6</head>
+  				<head xml:id="wdrl4d25-Hd1e3791" type="questionTitle">Utrum simoniaci sint haeretici</head>
+  				<p xml:id="wdrl4d25-d1e3794"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <choice><orig>symoniaci</orig><reg>simoniaci</reg></choice> sint haeretici 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non sint haeretici <pc ana="#punctus"/> per essentiam <pc ana="#punctus"/> haeresis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed per similitudinem <pc ana="#punctus"/> non <pc ana="#punctus"/> enim errant in cre<lb ed="#P"/>dendis
+  					sed faciunt sicut errantes <pc ana="#punctus"/> po<lb ed="#P"/>nentes 
+  					gratiam sub praetio <pc ana="#virgula"/> <pc ana="#virgula"/> et sic locuntur sancti</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q7" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3836">Librum IV, Distinctio 25, Quaestio 7</head>
+  				<head xml:id="wdrl4d25-Hd1e3839" type="questionTitle">Utrum sexus muliebris impediat susceptionem ordinis</head>
+  				<p xml:id="wdrl4d25-d1e3842"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sexus muliebris impediat 
+  					<lb ed="#P"/>susceptionem ordinis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic quia 
+  					<lb ed="#P"/>sexus connumeratur inter essentialia ordinis <pc ana="#punctus"/> <pc ana="#virgula"/> 
+  					<lb ed="#P"/>mulieribus enim nec competit docere <pc ana="#punctus"/> nec debent 
+  					<lb ed="#P"/>iuris in divino ministerio praeferri <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d25q8" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3870">Librum IV, Distinctio 25, Quaestio 8</head>
+  				<head xml:id="wdrl4d25-Hd1e3873" type="questionTitle">Utrum pueri possint ordinari</head>
+  				<p xml:id="wdrl4d25-d1e3876"><cb ed="#P" n="124rb"/><lb ed="#P"/><pc ana="#pilcrow"/>Utrum pueri <choice><sic>possit</sic><corr>possint</corr></choice> ordinari <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio caracterem ordinis semper suscipiunt <pc ana="#punctus"/> 
+  					<lb ed="#P"/>si tamen ante tempus determinatum a canonibus 
+  					<!-- drops --> accedunt peccant</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q9" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3901">Librum IV, Distinctio 25, Quaestio 9</head>
+  				<head xml:id="wdrl4d25-Hd1e3904" type="questionTitle">Utrum servi possint ordinari</head>
+  				<p xml:id="wdrl4d25-d1e3907">Utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>servi possint ordinari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>de iure non <pc ana="#virgula"/> propter vilitatem talium personarum 
+  					<lb ed="#P"/>et contemptibilitate <pc ana="#punctus"/> quia servus etiam 
+  					<lb ed="#P"/>venundari potest <pc ana="#punctus"/> si tamen de facto ordinantur 
+  					<!-- drops -->caracterem suscipiunt</p>
+  			</div>
+  			<div xml:id="wdr-l4d25q10" type="quaestio">
+  				<head xml:id="wdrl4d25-Hd1e3936">Librum IV, Distinctio 25, Quaestio 10</head>
+  				<head xml:id="wdrl4d25-Hd1e3939" type="questionTitle">Utrum ordinatus debeat domino suo reddi</head>
+  				<p xml:id="wdrl4d25-d1e3942"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ordinatus debeat domino suo reddi 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> si ordinatus est sciente domino <pc ana="#punctus"/> et non 
+  					<lb ed="#P"/>contradicente <pc ana="#virgula"/> vel postquam scivit <pc ana="#punctus"/> infra <pc ana="#punctus"/> an<lb ed="#P"/>num 
+  					non potivit non redditur <pc ana="#virgula"/> sed nesciente 
+  					<lb ed="#P"/>vel contradictione <pc ana="#virgula"/> tunc si ordinator vel 
+  					<lb ed="#P"/>praesentator scivit reddant pro eo <pc ana="#punctus"/> duo 
+  					<lb ed="#P"/>mancipia <pc ana="#punctus"/> sed si utroque nesciente <pc ana="#punctus"/> in mi<lb ed="#P"/>noribus 
+  					ordinibus debet reddi <pc ana="#punctus"/> nisi redimatru 
+  					<lb ed="#P"/>ab aliquo <pc ana="#punctus"/> in subdiaconatu <pc ana="#punctus"/> vel diaconatu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>debet redimi a se vel ab ecclesia si non debet <pc ana="#punctus"/> 
+  					<lb ed="#P"/>reddi <pc ana="#punctus"/> presbyter similiter si non habet peculium <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod pro eo reddatur <pc ana="#virgula"/> nec ab aliquo redim<lb ed="#P"/>atur 
+  					reddendus est tantum ad servitia hone<lb ed="#P"/>sta 
+  					<pc ana="#punctus"/> haec omnia probantur <ref><num>liiii</num> distinctione si servis <!-- si servis might be an incipit reference --></ref></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

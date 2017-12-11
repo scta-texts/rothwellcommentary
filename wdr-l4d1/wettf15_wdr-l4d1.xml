@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 1 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.09-dev-master">
+          <title>Librum IV, Distinctio 1 [Aarau Transcription]</title>
+          <date when="2015-09-09">September 09, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-09-09">September 09, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+        	<witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-09-09" who="#JW" status="draft" n="2015.09">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+  	<surface n="A157r" select="kba-WettF0015_157r.json" ana="#A">
+      <graphic url="A157r.jpg"/>
+      <zone start="#wdrl4d1-qqspeh" ulx="362" uly="3458" lrx="2144" lry="5054" n="1"/>
+      <zone start="#wdrl4d1-eqcsop" ulx="2125" uly="547" lrx="3907" lry="1135" n="1"/>
+      <zone start="#wdrl4d1-qsieam" ulx="2125" uly="1014" lrx="3907" lry="1473" n="1"/>
+      <zone start="#wdrl4d1-uesagi" ulx="2125" uly="1276" lrx="3907" lry="1820" n="1"/>
+      <zone start="#wdrl4d1-usnpqc" ulx="2125" uly="1752" lrx="3907" lry="2041" n="1"/>
+      <zone start="#wdrl4d1-uegueg" ulx="2125" uly="1974" lrx="3907" lry="2146" n="1"/>
+      <zone start="#wdrl4d1-uavcte" ulx="2125" uly="2099" lrx="3907" lry="2876" n="1"/>
+      <zone start="#wdrl4d1-uiecpc" ulx="2125" uly="2782" lrx="3907" lry="3189" n="1"/>
+      <zone start="#wdrl4d1-usvqum" ulx="2125" uly="3129" lrx="3907" lry="3652" n="1"/>
+      <zone start="#wdrl4d1-uegsis" ulx="2125" uly="3600" lrx="3907" lry="4113" n="1"/>
+      <zone start="#wdrl4d1-afphea" ulx="2125" uly="4044" lrx="3907" lry="4917" n="1"/>
+      <zone start="#wdrl4d1-urfepo" ulx="2125" uly="4869" lrx="3907" lry="5035" n="1"/>
+    </surface>
+  	<surface n="A157v" select="kba-WettF0015_157v.json" ana="#A">
+      <graphic url="A157v.jpg"/>
+      <zone start="#wdrl4d1-urfepo" ulx="994" uly="546" lrx="2688" lry="780" n="2"/>
+      <zone start="#wdrl4d1-asfshp" ulx="994" uly="705" lrx="2688" lry="1217" n="1"/>
+      <zone start="#wdrl4d1-usmsqi" ulx="994" uly="1161" lrx="2742" lry="1582" n="1"/>
+      <zone start="#wdrl4d1-uiapso" ulx="994" uly="1506" lrx="2688" lry="2160" n="1"/>
+      <zone start="#wdrl4d1-qfiffx" ulx="994" uly="2096" lrx="2688" lry="2607" n="1"/>
+      <zone start="#wdrl4d1-qallde" ulx="994" uly="2546" lrx="2688" lry="2832" n="1"/>
+      <zone start="#wdrl4d1-qednfc" ulx="994" uly="2774" lrx="2688" lry="3421" n="1"/>
+      <zone start="#wdrl4d1-qrahfp" ulx="994" uly="3347" lrx="2688" lry="3987" n="1"/>
+      <zone start="#wdrl4d1-uiedtp" ulx="994" uly="3926" lrx="2688" lry="4366" n="1"/>
+      <zone start="#wdrl4d1-ugcqcm" ulx="994" uly="4154" lrx="2688" lry="4691" n="1"/>
+      <zone start="#wdrl4d1-uicstc" ulx="994" uly="4623" lrx="2688" lry="4916" n="1"/>
+      <zone start="#wdrl4d1-umdeis" ulx="994" uly="4859" lrx="2688" lry="5038" n="1"/>
+      <zone start="#wdrl4d1-umdeis" ulx="2702" uly="558" lrx="4450" lry="1001" n="2"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="157ra" select="kba-WettF0015_157r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l4d1">
+        <head>Librum IV, Distinctio 1 [Aarau Transcription]</head>
+        <div xml:id="wdr-l4d1q1" type="quaestio">
+          <head type="questionTitle">Quid sit sacramentum</head>
+          <p xml:id="wdrl4d1-qqspeh"><lb ed="#A"/>Quaeritur quid sit sacramentum Responsio <name ref="#Augustine">Augustinus</name> <title ref="#CityOfGod">de civitate dei</title> et 
+          <lb ed="#A"/>in littera <g ref="#dot"/> Sacramentum est sacrae rei signum <g ref="#dot"/> hoc est 
+            <lb ed="#A"/>larga <g ref="#dot"/> Item <name ref="#Augustine">Augustinus</name> <title ref="#deDoctrinaChristiana">doctrina christiana</title> sacramentum est <corr><add place="aboveLine">in</add>visibilis</corr> 
+            <lb ed="#A"/>gratiae visibilis forma <g ref="#dot"/><g ref="#slash"/> <!-- fancy --> <name ref="#Lombard">magister</name> addit ita ut 
+            <lb ed="#A"/>eius similitudinem generat et causa existat <g ref="#dot"/> Item <name ref="#Augustine">augustinus</name> sa<lb ed="#A"/>cramentum 
+            est in quo sub tegumento realiter visibilium <g ref="#slash"/> divina virtus 
+            <lb ed="#A"/>secretius operatur salutem <g ref="#dot"/> <g ref="#slash"/> Quarta <name ref="#HughOfStVictor">hugo</name> in libro sacra sacramentum 
+            <lb ed="#A"/>est materiale elementum extrinsecus oculis suppositum <g ref="#dot"/> ex institutione 
+            <lb ed="#A"/>significans <g ref="#dot"/> ex similitudine repraesentans <g ref="#dot"/> ex sanctificatione aliquam invisi<lb ed="#A"/>bilem 
+            gratiam conferens <g ref="#dot"/> <g ref="#pilcrow"/>Nota tamen quod sacramentum dicitur vel quia sancti<lb ed="#A"/>tatem 
+            tantum significat <g ref="#dot"/> vel tantum facit <g ref="#dot"/> <g ref="#slash"/> vel utrumque <g ref="#dot"/> <g ref="#slash"/> primum convenit sacra<lb ed="#A"/>mentis 
+            veteris legis <g ref="#dot"/> <g ref="#slash"/> <unclear>tertium</unclear> <g ref="#slash"/> novae legis <g ref="#dot"/> <g ref="#slash"/> secundum <g ref="#slash"/> autem dicitur sacramentum 
+            <lb ed="#A"/>significatum vel secretum <g ref="#slash"/> ut passio et huiusmodi <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q2" type="quaestio">
+          <head type="questionTitle">Ex quibus sacramentum consistit</head>
+          <p xml:id="wdrl4d1-eqcsop"><cb ed="#A" n="157rb" select="kba-WettF0015_157r.json"/><lb ed="#A"/><g ref="#pilcrow"/>Ex quibus consistit Responsio in littera ex duobus scilicet rebus sensibilibus <g ref="#dot"/> 
+            <lb ed="#A"/>et verbis <g ref="#dot"/> <g ref="#slash"/> primum est <unclear>contrariae</unclear> etiam veteribus <g ref="#dot"/><g ref="#slash"/> secundum speciale novis scilicet ut acto<lb ed="#A"/>rem 
+            scilicet verbum incarnatur perfectius repraesentent <g ref="#dot"/> <g ref="#slash"/> et quia secundum <name ref="#Augustine">augustinum</name> verba 
+            <lb ed="#A"/>inter signa obtinent principatum <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q3" type="quaestio">
+          <head type="questionTitle">Quare sint instituta</head>
+          <p xml:id="wdrl4d1-qsieam"><g ref="#pilcrow"/><lb ed="#A"/>Quare sint instituta Responsio In littera ponitur triplex utilitas scilicet hu<lb ed="#A"/>miliatio 
+          <g ref="#dot"/> eruditio <g ref="#dot"/> exercitio <g ref="#dot"/> Item adunatio in unum cultum <g ref="#dot"/> <g ref="#slash"/> et <!-- drops line --> <sic>agnitio</sic> mutua</p>
+        </div>
+        <div xml:id="wdr-l4d1q4" type="quaestio">
+          <head type="questionTitle">utrum esse signum sit essentiale sacramento Responsio sic</head>
+          <p xml:id="wdrl4d1-uesagi"><lb ed="#A"/><g ref="#pilcrow"/>Utrum esse signum sit essentiale sacramento Responsio sic <g ref="#dot"/> 
+            <lb ed="#A"/>quod patet per diffinitiones <g ref="#dot"/> quia sacramenta medicinae sunt <g ref="#slash"/> circa subiectum 
+            <lb ed="#A"/>voluntarium <g ref="#dot"/> ideo oportet ibi esse praecognitionem in intellectu <g ref="#dot"/> et hoc fit 
+            <lb ed="#A"/>per signum exterius <g ref="#dot"/> <g ref="#slash"/> et inclinationem in affectu <g ref="#dot"/> et hoc pertinet ad gratiam interius <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q5" type="quaestio">
+          <head type="questionTitle">Utrum sacramenta novae legis contineant gratiam</head>
+          <p xml:id="wdrl4d1-usnpqc"><lb ed="#A"/><g ref="#pilcrow"/>Utrum sacramenta novae legis contineant gratuam Responsio proprie loquendo 
+            <lb ed="#A"/>non continent <g ref="#dot"/> sed <choice><orig>methaphorice</orig><reg>metaphorice</reg></choice> scilicer per quadam consequentiam <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q6" type="quaestio">
+          <head type="questionTitle">Utrum efficiant gratiam</head>
+          <p xml:id="wdrl4d1-uegueg"><lb ed="#A"/><g ref="#pilcrow"/>Utrum efficiant gratiam</p>
+        </div>
+        <div xml:id="wdr-l4d1q7" type="quaestio">
+          <head type="questionTitle">Utrum aliqua vis insit eis ad causandum gratiam</head>
+          <p xml:id="wdrl4d1-uavcte"><lb ed="#A"/><g ref="#pilcrow"/>Utrum aliqua vis insit eis ad causandum gratiam Responsio Non efficiunt 
+            <lb ed="#A"/>principaliter <g ref="#dot"/> sed instrumentaliter id est <choice><orig>aminiculando</orig><reg>adminiculando</reg></choice> <g ref="#dot"/> <g ref="#slash"/> Sed quidam dicunt hoc 
+            <lb ed="#A"/><choice><orig>aminiculum</orig><reg>adminiculum</reg></choice> tantum exterius esse in corpore <g ref="#dot"/> nihil intus <g ref="#dot"/> sed divina virtus 
+            <lb ed="#A"/>eis assisti <g ref="#dot"/> <g ref="#slash"/> Alii dicunt <g ref="#dot"/> quod etiam interius <choice><orig>aminiculatur</orig><reg>adminiculatur</reg></choice> non per se <g ref="#dot"/> 
+            <lb ed="#A"/>sed inquantum instrumentum est <!-- possible indiciation to invert instrumentum and est --> <g ref="#dot"/> et hoc virtus ei confertur tantum in usu sacramenti <g ref="#dot"/> 
+            <lb ed="#A"/>hoc est probabilior unde <name ref="#Augustine">augustinus</name> unde haec virtus aquae ut corpus tangat etc</p>
+        </div>
+        <div xml:id="wdr-l4d1q8" type="quaestio">
+          <head type="questionTitle">Utrum insit eis illa virtus</head>
+          <p xml:id="wdrl4d1-uiecpc"><lb ed="#A"/><g ref="#pilcrow"/>unde insit eis illa virtus Responsio a passione christi <g ref="#dot"/> ut dicit <ref><title>glossa romanos</title> 
+            <lb ed="#A"/><num>v</num></ref> et <ref><title ref="#io">ioannes</title> 19</ref> tamquam a causa meritoria <g ref="#dot"/> quae in nos derivatur per fidem 
+            <lb ed="#A"/>ecclesiae in sacramento <g ref="#dot"/> in quibus aliquo modo conformamur passioni christi <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q9" type="quaestio">
+          <head type="questionTitle">Unde sacramenta veteris legis iustificabant</head>
+          <p xml:id="wdrl4d1-usvqum"><lb ed="#A"/><g ref="#pilcrow"/>utrum sacramenta veteris legis iustificabant Responsio sic quantum ad 
+            <lb ed="#A"/>opus operans <g ref="#dot"/> quod est vel devotio <g ref="#dot"/> vel obedientia <g ref="#dot"/> vel reverentia dei <g ref="#dot"/> quando propter 
+            <lb ed="#A"/>hoc offerebantur <g ref="#dot"/> <g ref="#slash"/> sed non quantum ad opus operatur <g ref="#dot"/> <g ref="#slash"/> <name ref="#Lombard">magister</name> <g ref="#dot"/> dicit quod 
+            <lb ed="#A"/>neutro modo <g ref="#dot"/> <g ref="#slash"/> sed <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> quod utroque modo <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q10" type="quaestio">
+          <head type="questionTitle">Utrum eadem gratiam sit in virtutibus et sacramentis</head>
+          <p xml:id="wdrl4d1-uegsis"><lb ed="#A"/><g ref="#pilcrow"/>Utrum eadem gratiam sit in virtutibus et sacramentis Responsio sicut una est 
+            <lb ed="#A"/>anima <g ref="#dot"/> diversae potentiae <g ref="#dot"/> ita una gratia gratum faciens in anima <g ref="#dot"/> a qua 
+            <lb ed="#A"/>fluunt diversi habitus humilitantes potentias ad bonum <g ref="#dot"/> <g ref="#slash"/> et diversi ef<lb ed="#A"/>fectus 
+            potentias a malo <g ref="#dot"/> <g ref="#slash"/> primum est in virtutibus secundum in sacramentis <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q11" type="quaestio">
+          <head type="questionTitle">An fides parentum valebat parvulis ad remissionem peccati originalis ante circumcisionem</head>
+          <p xml:id="wdrl4d1-afphea"><lb ed="#A"/><g ref="#pilcrow"/>An fides parentum valebat parvulis ad remissionem 
+            <lb ed="#A"/>peccati originalis ante <corr>circumci<del rend="expunctuated">s</del>sionem</corr> Responsio in littera quod sic <g ref="#dot"/> unde <name ref="#GregoryGreat">gregorius</name> Quod 
+            <lb ed="#A"/><choice><orig>aput</orig><reg>apud</reg></choice> nos valet aqua baptismi <g ref="#dot"/> hoc egit apud veteres <g ref="#dot"/> vel pro 
+            <lb ed="#A"/>parvulis sola fides <g ref="#dot"/> vel pro maioribus fides sacrificii scilicet christi 
+            <lb ed="#A"/>vel pro hiis qui ex <name ref="#Abraham">abrahae</name> stirpe prodierunt <g ref="#slash"/> <choice><orig>misterium</orig><reg>mysterium</reg></choice> 
+            <lb ed="#A"/>circumcisionis <g ref="#dot"/> <g ref="#slash"/> Ratio est <g ref="#slash"/> quia per alium contractum est <g ref="#dot"/> <g ref="#slash"/> In adulto 
+            <lb ed="#A"/>requirebatur fides propria <g ref="#dot"/> quia habuit etiam actualia <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q12" type="quaestio">
+          <head type="questionTitle">Utrum requirebatur fides formata</head>
+          <p xml:id="wdrl4d1-urfepo"><lb ed="#A"/><g ref="#pilcrow"/>Utrum requirebatur fides formata Responsio non <g ref="#dot"/> quia non habet virtutem 
+            <cb ed="#A" n="157va" select="kba-WettF0015_157v.json"/><lb ed="#A"/>salvandi ex parte subiecti <g ref="#dot"/> <choice><orig>set</orig><reg>sed</reg></choice> ex parte obiecti <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q13" type="quaestio">
+          <head type="questionTitle">An sufficiebat fides sine motu</head>
+          <p xml:id="wdrl4d1-asfshp"><lb ed="#A"/><g ref="#pilcrow"/>An sufficiebat fides sine motu Responsio non quia fides opera<lb ed="#A"/>batur 
+            per modum meriti saltem de congruo <g ref="#dot"/> Sed meritum non consistit 
+            <lb ed="#A"/>solum in habitu <g ref="#dot"/> sed in motu liberi arbitrii <g ref="#slash"/> Item <unclear>oportuit</unclear> quod motus ille 
+            <lb ed="#A"/>fidei specialiter determinaretur ad salvandum hunc parvulum <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q14" type="quaestio">
+          <head type="questionTitle">Utrum suffecerit motus interior sine signo exteriori</head>
+          <p xml:id="wdrl4d1-usmsqi"><lb ed="#A"/><g ref="#pilcrow"/>Utrum suffecerit motus interior sine signo exteriori <g ref="#dot"/> Responsio <!-- good example of why this should be Responsio and not Respondeo --> Quidam 
+            <lb ed="#A"/>dicunt quod non <g ref="#dot"/> nec in parvulis <g ref="#dot"/> nec in adultis <g ref="#dot"/> <g ref="#slash"/> Alii dicunt verius quod sic <g ref="#dot"/> 
+            <lb ed="#A"/>quia nulla sacramenta vel signa adhuc fuerunt instituta <g ref="#dot"/><g ref="#slash"/> unde <name ref="#GregoryGreat">gregorius</name> supra quaestionem <num>ii</num></p>
+        </div>
+        <div xml:id="wdr-l4d1q15" type="quaestio">
+          <head type="questionTitle">Utrum in adultis esset necessaria virtus sacrificii</head>
+          <p xml:id="wdrl4d1-uiapso"><lb ed="#A"/><g ref="#pilcrow"/>Utrum in adultis esset necessaria virtus sacrificii Responsio Duae sunt opi<lb ed="#A"/>niones 
+            <g ref="#slash"/><ref type="commentary" target="http://scta.info/resource/wdr-l4d1q14">ut supra quaestionem 14</ref> unde secunda dicit quod tantum erat de bene esse 
+            <lb ed="#A"/>exterior professio fidei <g ref="#dot"/> quae fiebat secundum <name ref="#GregoryGreat">gregorius</name> <g ref="#dot"/> per sacrificium <g ref="#dot"/> <g ref="#slash"/> secundum <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> 
+            <lb ed="#A"/>per decimatio <g ref="#dot"/> <g ref="#slash"/> secundum doctores etiam per oblationes <g ref="#dot"/> <name ref="#HughOfStVictor">Hugo</name> <g ref="#dot"/> dicit quod magis 
+            <lb ed="#A"/>fuerunt ad devotionem proposita <g ref="#dot"/> quam propter salutem obtinendam <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q16" type="quaestio">
+          <head type="questionTitle">Quare fuerit instituta circumcisio</head>
+          <p xml:id="wdrl4d1-qfiffx"><lb ed="#A"/><g ref="#pilcrow"/>Quare fuerit instituta circumcisio Responsio In remedium quod contu<lb ed="#A"/>lit 
+            et ostendit <g ref="#slash"/> et in signum quasi carnali populo <g ref="#dot"/> in quo fides secundum propagationem 
+            <lb ed="#A"/>carnalem multiplicabatur <g ref="#slash"/> et in <name ref="#Abraham">abraham</name> <g ref="#slash"/> in quo incepit notabilis 
+            <lb ed="#A"/>fidelium ab infidelibus distinctio <g ref="#dot"/> <g ref="#slash"/> hoc ex <ref><title>glossa genese</title> 17</ref></p>
+        </div>
+        <div xml:id="wdr-l4d1q17" type="quaestio">
+          <head type="questionTitle">Quare ante legem fuerit data</head>
+          <p xml:id="wdrl4d1-qallde"><lb ed="#A"/><g ref="#pilcrow"/>Quare ante legem fuerit data Responsio ut per eam populus congrega<lb ed="#A"/>retur 
+            <g ref="#slash"/>cui lex danda erat <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q18" type="quaestio">
+          <head type="questionTitle">Quibus est data</head>
+          <p xml:id="wdrl4d1-qednfc"><lb ed="#A"/><g ref="#pilcrow"/>Quibus est data Responsio illis de quibus nasciturus erat christus 
+            <lb ed="#A"/>quia eos et specialis decebat sanctificio <g ref="#dot"/> et specialis distinctio <g ref="#dot"/> <g ref="#slash"/> quamvis 
+            <lb ed="#A"/>tamen alii non tenerentur tamen eis profuit scilicet proselitis <g ref="#dot"/> ut achior <g ref="#dot"/> 
+            <lb ed="#A"/><ref ana="#iudt14_6"><title ref="#iudt">Iudith</title> 14</ref> <g ref="#slash"/> Item nota quod tantum filii promissionis dicuntur filii <g ref="#dot"/> in quibus 
+            <lb ed="#A"/>mansit lex <g ref="#dot"/> non filii carnis <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q19" type="quaestio">
+          <head type="questionTitle">Quae requiruntur ad integritatem eius</head>
+          <p xml:id="wdrl4d1-qrahfp"><lb ed="#A"/><g ref="#pilcrow"/>Quae requiruntur ad integritatem eius Responsio secundum <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> tria scilicet mascu<lb ed="#A"/>lus 
+            <g ref="#dot"/> caro praeputii <g ref="#dot"/> dies octam <g ref="#dot"/> <g ref="#slash"/> Sed nota <g ref="#dot"/> quod inquantum est sacramentum 
+            <lb ed="#A"/>requirebantur prima duo <g ref="#dot"/> <g ref="#slash"/> sed quantum ad significationem et observationem praecepti 
+            <lb ed="#A"/>requirebamur etiam tertium <g ref="#dot"/> <g ref="#slash"/> Sed <name ref="#Lombard">magister</name> dicit <g ref="#slash"/> quod in <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> licuit praevenire tempus 
+            <lb ed="#A"/><g ref="#slash"/>Sed <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> quod non <g ref="#dot"/> et quod salvabantur per fidem parentum <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q20" type="quaestio">
+          <head type="questionTitle">Utrum in ea remittebatur culpa</head>
+          <p xml:id="wdrl4d1-uiedtp"><lb ed="#A"/><g ref="#pilcrow"/>utrum in ea remittebatur culpa Responsio in littera secundum <name ref="#Augustine">augustinum</name> et <name ref="#Jerome">Ieromus</name> quod sic <g ref="#dot"/> <g ref="#slash"/> sed 
+            <lb ed="#A"/>principaliter originale per consequens sive per accidens <g ref="#slash"/> actuale <g ref="#dot"/> <g ref="#slash"/> non tamen debitum temporalis <!-- drops to next line --> <choice><orig>penae</orig><reg>poenae</reg></choice></p>
+        </div>
+        <div xml:id="wdr-l4d1q21" type="quaestio">
+          <head type="questionTitle">Utrum gratiam conferebat</head>
+          <p xml:id="wdrl4d1-ugcqcm"><lb ed="#A"/><g ref="#pilcrow"/>utrum gratiam conferebat Responsio plures sunt opiniones <g ref="#dot"/> 
+            <lb ed="#A"/>sed communis est quod sic simpliciter inquantum scilicet gratia est deletiva culpae <g ref="#dot"/> <g ref="#slash"/> sed per accidens 
+            <lb ed="#A"/>confertur inquantum est operatam boni <g ref="#dot"/> <g ref="#slash"/> exemplum de consecratione sanguinis <g ref="#slash"/> ubi per 
+            <lb ed="#A"/>accidens est et corpus <g ref="#dot"/> <g ref="#slash"/> unde <name ref="#Lombard">magister</name> dicit quod conferebat modicam <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q22" type="quaestio">
+          <head type="questionTitle">Utrum imprimebat caracterem</head>
+          <p xml:id="wdrl4d1-uicstc"><lb ed="#A"/><g ref="#pilcrow"/>utrum imprimebat caracterem <g ref="#dot"/> Responsio non <g ref="#dot"/> quia status illius populi carnalis 
+            <lb ed="#A"/>erat <g ref="#dot"/> et ideo non habuit caracterem spiritualem <g ref="#dot"/> sed tantum carnalem <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l4d1q23" type="quaestio">
+          <head type="questionTitle">Utrum mutari debuerit in baptismum</head>
+          <p xml:id="wdrl4d1-umdeis"><lb ed="#A"/><g ref="#pilcrow"/>Utrum mutari debuerit in baptismum Responsio sic <g ref="#dot"/> quia baptismus perfectior est <g ref="#dot"/> 
+            <cb ed="#A" n="157vb" select="kba-WettF0015_157v.json"/><lb ed="#A"/>unde <name ref="#Augustine">augustinus</name> dicit quod alia instituta sunt sacramenta virtute maio<lb ed="#A"/>ra 
+            <g ref="#dot"/> utilitate meliora <g ref="#dot"/> actu faciliora <g ref="#dot"/> numero pauciora <g ref="#dot"/></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

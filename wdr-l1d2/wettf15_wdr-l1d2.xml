@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 2 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.06-dev-master">
+          <title>Librum I, Distinctio 2 [Aarau Transcription]</title>
+          <date when="2015-06-14">June 14, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-06-14">June 14, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-06-14" who="#JW" status="draft" n="2015.06">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="A108r">
+      <graphic url="A108r.jpg"/>
+      <zone start="#wdrl1d2-qudeap" ulx="474" uly="1474" lrx="2207" lry="2044" n="1"/>
+      <zone start="#wdrl1d2-uidsdr" ulx="474" uly="1962" lrx="2207" lry="2345" n="1"/>
+      <zone start="#wdrl1d2-sqadin" ulx="474" uly="2331" lrx="2207" lry="3065" n="1"/>
+      <zone start="#wdrl1d2-uidhei" ulx="474" uly="3008" lrx="2207" lry="3413" n="1"/>
+      <zone start="#wdrl1d2-utsdmp" ulx="474" uly="3358" lrx="2207" lry="4213" n="1"/>
+      <zone start="#wdrl1d2-upirpo" ulx="474" uly="4166" lrx="2207" lry="5065" n="1"/>
+    </surface>
+  </facsimile>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="108ra" select="kba-WettF0015_108r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l1d2">
+        <head>Librum I, Distinctio 2 [Aarau Transcription]</head>
+        <div xml:id="wdr-l1d2q1" type="quaestio">
+          <head type="questionTitle">Utrum deus per essentiam sit unus</head>
+          <p xml:id="wdrl1d2-qudeap"><lb ed="#A"/>Queritur utrum deus per essentiam sit unus <g ref="#dot"/> Responsio <g ref="#dot"/> Sic <g ref="#dot"/> quia 
+            <lb ed="#A"/>hoc dicit fides <g ref="#slash"/> et scriptura <g ref="#slash"/> hoc etiam patet per rationem 
+            <lb ed="#A"/>quia in causis <g ref="#slash"/> secundum <ref><name ref="#Aristotle">philosophum</name> 11 <title ref="#Aristotle">metaphysicae</title></ref> <g ref="#dot"/> oportet esse statum <g ref="#dot"/> ergo est aliqua 
+            <lb ed="#A"/>prima <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d2q2" type="quaestio">
+          <head type="questionTitle">Utrum in divina essentia sit aliqua multiplex attributorum</head>
+          <p xml:id="wdrl1d2-uidsdr"><lb ed="#A"/><g ref="#pilcrow"/>utrum in divina essentia sit aliqua multiplex attributorum <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia perfectio in eo est omnium generum <g ref="#slash"/> secundum <name ref="#Aristotle">philosophum</name> et <name ref="#Dionysius">Dyonisium</name> 
+            <lb ed="#A"/>sed tamen idem sunt in deo secundum rem <g ref="#dot"/> sed differunt <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d2q3" type="quaestio">
+          <head type="questionTitle">Secundum quid accipiatur attributorum distinctio</head>
+          <p xml:id="wdrl1d2-sqadin"><lb ed="#A"/><g ref="#pilcrow"/>Secundum quid accipiatur attributorum distinctio <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio <g ref="#dot"/> secundum distinctionem rationis <g ref="#dot"/> non illam quae tantum est ex parte 
+            <lb ed="#A"/>ratiocinantis <g ref="#dot"/> sed quae habet <sic>fudamentum</sic> in re <g ref="#dot"/> quamvis non 
+            <lb ed="#A"/>eo modo possit intelligere <g ref="#dot"/> sicut est in re <g ref="#dot"/> unde verissime 
+            <lb ed="#A"/>ratio sapientiae est in deo et bonitatis etc quae idem in deo sunt secundum 
+            <lb ed="#A"/>rem <g ref="#slash"/> sed differunt rationibus propriis <g ref="#dot"/> <g ref="#slash"/> Exemplum de intellectu naturalis</p>
+        </div>
+        <div xml:id="wdr-l1d2q4" type="quaestio">
+          <head type="questionTitle">Utrum in deo sit personarum pluralitas</head>
+          <p xml:id="wdrl1d2-uidhei"><lb ed="#A"/><g ref="#pilcrow"/>Utrum in deo sit personarum pluralitas <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia summum bonum 
+            <lb ed="#A"/>communicabile debet esse et diffusivum sui quia hoc perfectionis 
+            <lb ed="#A"/>est <g ref="#slash"/> tamen sui divisibilitate scilicet essentiae <g ref="#slash"/> quia hoc esset imperfectionis <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d2q5" type="quaestio">
+          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <p xml:id="wdrl1d2-utsdmp"><lb ed="#A"/><g ref="#pilcrow"/>utrum tantum sint tres personae non plures neque pauciores <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio <g ref="#dot"/> secundum fidem <g ref="#slash"/> non <g ref="#slash"/> quod patet ex origine <g ref="#dot"/> quia unus a nullo <g ref="#slash"/> 
+            <lb ed="#A"/>a quo alius <g ref="#slash"/> aliter ab alio <g ref="#slash"/> a quo alius <g ref="#dot"/> <g ref="#slash"/> alter ab alio <g ref="#slash"/> a 
+            <lb ed="#A"/>quo nullus <g ref="#dot"/> Item modi originandi tantum duo sunt scilicet <unclear>naturae</unclear> 
+            <lb ed="#A"/>et voluntatis Item secundum <name ref="#RichardOfStVictor">Richardum</name> <g ref="#dot"/> si plures essent non essent ibi 
+            <lb ed="#A"/>summa germanitas <g ref="#dot"/> <g ref="#slash"/> vel essent ibi plures filii <g ref="#slash"/> vel 
+            <lb ed="#A"/>plures spiritus sancti <g ref="#slash"/> quia tantum sunt duo modo procedendi <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d2q6" type="quaestio">
+          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <p xml:id="wdrl1d2-upirpo"><lb ed="#A"/><g ref="#pilcrow"/>Utrum personae in divinis differant re <g ref="#slash"/> vel ratione tantum <g ref="#slash"/> Responsio <g ref="#dot"/> dif<lb ed="#A"/>ferunt 
+            ratione <g ref="#slash"/> non quae tantum est ex parte ratiocinantis <g ref="#slash"/> 
+            <lb ed="#A"/>sed quae etiam res est <g ref="#dot"/> unde dicit <name ref="#Augustine">augustinus</name> quod tres res sunt <g ref="#dot"/> Diffe<lb ed="#A"/>runt 
+            <unclear>autem</unclear> relatione secundum <name ref="#Boethius">Boetium</name> quae comparata ad essentiam quam 
+            <lb ed="#A"/>refert <g ref="#slash"/> sola ratio est <g ref="#dot"/> quia non inhaeret <g ref="#dot"/> <g ref="#slash"/> comparata <unclear>autem</unclear> ad 
+            <lb ed="#A"/>obiectum secundum scilicet quod se ad aliud habet <g ref="#slash"/> sic res est distin<lb ed="#A"/>guens 
+            personas <g ref="#slash"/> realiter <g ref="#dot"/> propter <unclear>operatio <!-- might be "opperatio" --></unclear> <g ref="#dot"/></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

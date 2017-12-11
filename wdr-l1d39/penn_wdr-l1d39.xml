@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 39 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 39 [Penn Transcription]</title>
+          <date when="2016-05-02">May 02, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-02">May 02, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="39rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d39">
+  			<head xml:id="wdrl1d39-Hd1e3503">Librum I, Distinctio 39 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d39q1" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3508">Librum I, Distinctio 39, Quaestio 1</head>
+  				<head xml:id="wdrl1d39-Hd1e3511" type="questionTitle">Utrum Deus possit nescire illud quod scit</head>
+  				<p xml:id="wdrl1d39-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum deus pos<lb ed="#P"/>sit 
+  					nescire illud quod scit <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera quod sic <pc ana="#punctus"/> si intelli<lb ed="#P"/>gatur 
+  					<unclear>divisim</unclear> <pc ana="#punctus"/> quia sicut ab aeterno potuit <pc ana="#punctus"/> ita modo potest 
+  					<lb ed="#P"/>si autem coniuncti non <pc ana="#virgula"/> quia non potest aliquid de novo scire vel 
+  					<lb ed="#P"/>nescire <pc ana="#punctus"/> hoc distinctio est in omnibus propositionibus confectis 
+  					<lb ed="#P"/>de actibus divinis aeternus <pc ana="#punctus"/> quae non ponunt actu obiectum 
+  					<lb ed="#P"/>in tempore <pc ana="#punctus"/> sed in potentia <pc ana="#punctus"/> et hoc propter liberalitatem voluntatis in indivisibili 
+  					<lb ed="#P"/>nunc aeternitatis sed non est de actibus <unclear>divisis</unclear> respectu obiectorum aeternorum 
+  					<lb ed="#P"/>ut generare et huiusmodi <pc ana="#punctus"/> nec eorum qui ponunt effectum in creatura 
+  					<lb ed="#P"/>praesentem vel praeteritum ut creare <pc ana="#punctus"/> quia subiacent legibus 
+  					<lb ed="#P"/><del rend="strikethrough">in praesentem</del> temporis in praesente praeteritione et futuro <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d39q2" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3579">Librum I, Distinctio 39, Quaestio 2</head>
+  				<head xml:id="wdrl1d39-Hd1e3582" type="questionTitle">Utrum Deus possit nescire illud quod scit</head>
+  				<p xml:id="wdrl1d39-d1e3585"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit scire quod nescit <pc ana="#punctus"/> vel plura quam scit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> ad primum quod triplex est scientia in deo scilicet scientia simplicis no<lb ed="#P"/>titiae 
+  					vel intelligentiae <pc ana="#punctus"/> scientia visionis <pc ana="#punctus"/> scientia approbationis 
+  					<lb ed="#P"/>prima est respectu omnium <pc ana="#punctus"/> sive futurorum sive possibilium <pc ana="#punctus"/> et hanc non 
+  					<lb ed="#P"/>potest <pc ana="#punctus"/> secunda est respectu eorum quae ordinata sunt ad actum extra <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut omnia futura <pc ana="#punctus"/> bona vel mala <pc ana="#punctus"/> tertia est respectu bonorum 
+  					<lb ed="#P"/>tantum futurorum <pc ana="#punctus"/> de hiis duabus distinguendum est <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>coniunctim non potest <pc ana="#punctus"/> divisim potest <ref type="commentary" target="http://scta.info/resource/wdrl1d39-d1e3514">supra proxima</ref> ad secundum dicendum 
+  					<lb ed="#P"/>cum qua utrum eius scientia possit augeri <pc ana="#punctus"/> vel minui <pc ana="#punctus"/> vel mu<lb ed="#P"/>tari 
+  					<pc ana="#punctus"/> potest distingui ut prius <pc ana="#punctus"/> Sed tamen melius iudetur 
+  					<lb ed="#P"/>neganda simpliciter quia semper accipitur <unclear>coniunc??ter</unclear> quia praesupponit 
+  					<lb ed="#P"/>determinatum numerum <pc ana="#punctus"/> cui addit vel minuit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d39q3" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3665">Librum I, Distinctio 39, Quaestio 3</head>
+  				<head xml:id="wdrl1d39-Hd1e3668" type="questionTitle">utrum deus habeat scientia non entium</head>
+  				<p xml:id="wdrl1d39-d1e3671"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus habeat scientiam non entium <pc ana="#punctus"/> Respondeo sic scilicet 
+  					<lb ed="#P"/>tamquam entium in intellectu suo <pc ana="#punctus"/> bonorum autem futurorum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>tamquam entium in causa sua <pc ana="#punctus"/> sed actu existentium <pc ana="#punctus"/> modo natura propria</p>
+  			</div>
+  			<div xml:id="wdr-l1d39q4" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3694">Librum I, Distinctio 39, Quaestio 4</head>
+  				<head xml:id="wdrl1d39-Hd1e3697" type="questionTitle">utrum habeat scientiam infinitorum</head>
+  				<p xml:id="wdrl1d39-d1e3700"><lb ed="#P"/><pc ana="#pilcrow"/>utrum habeat scientiam infinitorum <pc ana="#punctus"/> Responsio triplex dicitur <mentioned>infinitum</mentioned> 
+  					<cb ed="#P" n="39va"/><lb ed="#P"/>scilicet in quantitate virtutis <pc ana="#punctus"/> in genere quantitatis dimensione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et in genere quantitatis discrete <pc ana="#punctus"/> primum bene est actu <pc ana="#punctus"/> ut deus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et hic scit <pc ana="#punctus"/> secundum nec est actu nec potentia secundum philosophos <pc ana="#punctus"/> et hic nescit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>non sicut inpassibilia dici potest scire <pc ana="#punctus"/> tertium non est actu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed in potentia <pc ana="#punctus"/> et illud scit simplici notitia <pc ana="#punctus"/> non scientia visionis 
+  					<!-- drops -->nec approbationis <ref>supra quaestio <unclear>7</unclear></ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d39q5" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3756">Librum I, Distinctio 39, Quaestio 5</head>
+  				<head xml:id="wdrl1d39-Hd1e3759" type="questionTitle">Quid sit providentia</head>
+  				<p xml:id="wdrl1d39-d1e3762"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit providentia 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <name ref="#Boethius">boetius</name> <title ref="#Consolation">de consolatione</title> <pc ana="#punctus"/> providentia est ratio in summo <unclear>omni</unclear> 
+  					<lb ed="#P"/>principe constituta <pc ana="#punctus"/> <del rend="strikethrough">q</del> per quam cuncta disponit <pc ana="#punctus"/> unde 
+  					<lb ed="#P"/>pertinet ad scientiam practicam <pc ana="#punctus"/> quia et de agendis <pc ana="#punctus"/> Inclu<lb ed="#P"/>dit 
+  					autem sapientiam in praecognitione <pc ana="#punctus"/> et voluntate <unclear>cum</unclear> proposito <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et potentiam in <choice><orig>exequutione</orig><reg>executione</reg></choice> propositi <ref type="commentary" target="http://scta.info/resource/wdrl1d35-d1e3601">supra distinctio 35 quaestio 3</ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d39q6" type="quaestio">
+  				<head xml:id="wdrl1d39-Hd1e3822">Librum I, Distinctio 39, Quaestio 6</head>
+  				<head xml:id="wdrl1d39-Hd1e3825" type="questionTitle">De quibus sit providentia</head>
+  				<p xml:id="wdrl1d39-d1e3828"><lb ed="#P"/><pc ana="#pilcrow"/>De quibus sit providentia Responsio 4 leguntur fuisse 
+  					<lb ed="#P"/>errores circa hoc <pc ana="#punctus"/> quidam posuerunt <del rend="strikethrough">im</del> providentiam <unclear>aio?<lb ed="#P"/>um?</unclear> 
+  					esse <pc ana="#punctus"/> sed fato omnia contingere <pc ana="#punctus"/> quidam sola caelestia 
+  					<lb ed="#P"/>regni providetia <pc ana="#punctus"/> quidam tam naturas <del rend="strikethrough">mles</del> universales generum 
+  					<lb ed="#P"/>et specierum et non particularia alii vero etiam particularia naturae rationalis 
+  					<lb ed="#P"/>tantum <pc ana="#punctus"/> et non alia <pc ana="#punctus"/> Sed fides ponit omnia regi dei provi<lb ed="#P"/>dentia 
+  					<pc ana="#punctus"/> <ref><title ref="#sap">Sapientia</title> <num>xii</num></ref> <quote xml:id="wdrl1d39-Qd1e3877" ana="#sap6_8">Aequaliter est illi cura de omnibus</quote> et 
+  					<lb ed="#P"/>effectus tamen providentiae <pc ana="#virgula"/> magis iuget circa rationalia quia non 
+  					<lb ed="#P"/>solum quantum ad esse naturae <pc ana="#punctus"/> sed etiam esse <unclear>morale</unclear> et quicquid excidit 
+  					<lb ed="#P"/>ab uno ordine <add place="aboveLine">per</add> <seg type="correction">providentia<add place="aboveLine">m</add></seg> ordinatur ad aliud bonum</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

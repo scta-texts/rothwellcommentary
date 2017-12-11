@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 22 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 22 [Penn Transcription]</title>
+          <date when="2016-05-17">May 17, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-17">May 17, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="121va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d22">
+  			<head xml:id="wdrl4d22-Hd1e3503">Librum IV, Distinctio 22 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d22q1" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3508">Librum IV, Distinctio 22, Quaestio 1</head>
+  				<head xml:id="wdrl4d22-Hd1e3511" type="questionTitle">Utrum peccata dimissa redeant quantum culpam</head>
+  				<p xml:id="wdrl4d22-d1e3514"><lb ed="#P"/>Quaeritur utrum peccata dimissa re<lb ed="#P"/>deant 
+  					quantum ad culpam <pc ana="#punctus"/> Responsio quidam 
+  					<lb ed="#P"/>dixerunt ut <name ref="#HilaryOfPoitiers">hillarius</name> in littera quod redeunt <pc ana="#virgula"/> non 
+  					<lb ed="#P"/>secundum numerum <pc ana="#punctus"/> sed quantum ad aequipollentiam culpae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>alii <pc ana="#punctus"/> dicunt convenienter <pc ana="#punctus"/> et hoc <unclear>tenetur</unclear> quod redeunt 
+  					<lb ed="#P"/>aggravando <pc ana="#virgula"/> tantum peccatum sequens propter 
+  					<lb ed="#P"/>ingratitudinem prioris misericordiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d22q2" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3556">Librum IV, Distinctio 22, Quaestio 2</head>
+  				<head xml:id="wdrl4d22-Hd1e3559" type="questionTitle">Utrum redeant quantum ad poenam</head>
+  				<p xml:id="wdrl4d22-d1e3562"><cb ed="#P" n="121vb"/><lb ed="#P"/>Utrum redeant quantum ad <choice><orig>penam</orig><reg>poenam</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi per aggravationem <pc ana="#punctus"/> si quid tamen 
+  					<lb ed="#P"/>de <choice><orig>pena</orig><reg>poena</reg></choice> restat <pc ana="#virgula"/> per accidens aeternaliter pu<!-- drops -->nietur</p>
+  			</div>
+  			<div xml:id="wdr-l4d22q3" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3599">Librum IV, Distinctio 22, Quaestio 3</head>
+  				<head xml:id="wdrl4d22-Hd1e3602" type="questionTitle">Utrum omnia peccata redeant</head>
+  				<p xml:id="wdrl4d22-d1e3605"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia peccata <pc ana="#punctus"/> 
+  					<lb ed="#P"/>redeant <pc ana="#punctus"/> Responsio sic scilicet aggravando 
+  					<lb ed="#P"/>sed non in se <pc ana="#virgula"/> etiam originalia <pc ana="#punctus"/> secundum <name>Rab <!-- could be either "Rabanus" or Maimonides --></name> 
+  					<lb ed="#P"/>in littera <pc ana="#punctus"/> tam in aggravando <pc ana="#punctus"/> quam in simili<lb ed="#P"/>tudine 
+  					<choice><orig>penae</orig><reg>poenae</reg></choice> <pc ana="#punctus"/> Item venialia et mortalia</p>
+  			</div>
+  			<div xml:id="wdr-l4d22q4" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3647">Librum IV, Distinctio 22, Quaestio 4</head>
+  				<head xml:id="wdrl4d22-Hd1e3650" type="questionTitle">Utrum per ingratitudinem debeant dici redire peccata</head>
+  				<p xml:id="wdrl4d22-d1e3653"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per ingratitudinem debeant 
+  					<lb ed="#P"/>dici redire peccata <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera <pc ana="#punctus"/> respectu 
+  					<lb ed="#P"/>opinio <pc ana="#punctus"/> quidam dicunt quod redeunt simpliciter 
+  					<lb ed="#P"/>alii verius quod redeunt per ingratitudinem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>de primis quidam dicunt quod simpliciter omnia re<lb ed="#P"/>deunt 
+  					<pc ana="#virgula"/> quidam quod tantum <pc ana="#punctus"/> in <num>iiior</num> casibus 
+  					<lb ed="#P"/>unde <unclear>nisi</unclear> fratres odit <pc ana="#virgula"/> apostata fit 
+  					<lb ed="#P"/>spernitque fateri <pc ana="#punctus"/> <choice><orig>penituisset</orig><reg>poenituisset</reg></choice> piget 
+  					<lb ed="#P"/>pristina culpa redit hoc modo non tenentur</p>
+  			</div>
+  			<div xml:id="wdr-l4d22q5" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3711">Librum IV, Distinctio 22, Quaestio 5</head>
+  				<head xml:id="wdrl4d22-Hd1e3714" type="questionTitle">Utrum per ingratitudinem redeat totus reatus praecedens</head>
+  				<p xml:id="wdrl4d22-d1e3717"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per ingratitudinem re<lb ed="#P"/>deat 
+  					totus reatus praecedens <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio quamvis quidam dixerint <pc ana="#punctus"/> quod sic ut 
+  					<lb ed="#P"/><choice><sic>habetur</sic><corr><name ref="#HilaryOfPoitiers">hilarius</name></corr></choice> in littera <pc ana="#virgula"/>verius tamen dicitur et convenienter 
+  					<lb ed="#P"/>quod non <pc ana="#virgula"/> aggravatur tamen sequens propter in<!-- drops -->ingratitudinem</p>
+  			</div>
+  			<!-- likely homoteleuton here in gks --> 
+  			<div xml:id="wdr-l4d22q6" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3752">Librum IV, Distinctio 22, Quaestio 6</head>
+  				<head xml:id="wdrl4d22-Hd1e3755" type="questionTitle">Utrum ingratitudo sit speciale peccatum</head>
+  				<p xml:id="wdrl4d22-d1e3758"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ingratitudo 
+  					<lb ed="#P"/>sit speciale peccatum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ingratitudo 
+  					<lb ed="#P"/>est non agere gratias pro beneficiis <pc ana="#punctus"/> et hoc potest 
+  					<lb ed="#P"/>fieri <pc ana="#virgula"/> sola obmissione <pc ana="#punctus"/> et sic est speciale 
+  					<lb ed="#P"/>peccatum <pc ana="#punctus"/> aut cum peccato commissionis et 
+  					<lb ed="#P"/>sic est generale in omni peccato</p>
+  			</div>
+  			<div xml:id="wdr-l4d22q7" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3790">Librum IV, Distinctio 22, Quaestio 7</head>
+  				<head xml:id="wdrl4d22-Hd1e3793" type="questionTitle">Quid in poenitentia sit sacramentum et quod res</head>
+  				<p xml:id="wdrl4d22-d1e3796"><lb ed="#P"/><pc ana="#pilcrow"/>Quid in <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit sacramentum 
+  					<lb ed="#P"/>et quod res <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera <pc ana="#punctus"/> exterio 
+  					<lb ed="#P"/><choice><orig>penitentia</orig><reg>poenitentia</reg></choice> est sacramentum tantum <pc ana="#punctus"/> et haec habet actum 
+  					<lb ed="#P"/>conficientis <pc ana="#virgula"/> loco materiae sive elementi <pc ana="#virgula"/> verba <pc ana="#punctus"/> 
+  					<lb ed="#P"/>absolutionis loco formae <pc ana="#punctus"/> Interior <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> 
+  					<lb ed="#P"/>est <pc ana="#punctus"/> res et sacramentum <pc ana="#punctus"/> non inquantum est actus 
+  					<cb ed="#P" n="122ra"/><lb ed="#P"/>virtutis tantum <pc ana="#punctus"/> sed inquantum includit 
+  					<lb ed="#P"/>in se propositum confitendi et satisfaciendi Remis<lb ed="#P"/>sio 
+  					peccatorum res est tantum <pc ana="#punctus"/> quia hanc 
+  					<lb ed="#P"/>quantum est de se semper facit <pc ana="#virgula"/> vel actu dis<lb ed="#P"/>pensat 
+  					<pc ana="#virgula"/> ut in attritio <pc ana="#virgula"/> vel in proposito 
+  					<lb ed="#P"/>habitu <pc ana="#punctus"/> ut in eo <pc ana="#virgula"/> qui ante vere 
+  					<!-- drops --> <unclear>conteritur</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d22q8" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3887">Librum IV, Distinctio 22, Quaestio 8</head>
+  				<head xml:id="wdrl4d22-Hd1e3890" type="questionTitle">Utrum poenitentia sit unum sacramentum</head>
+  				<p xml:id="wdrl4d22-d1e3893"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit unum 
+  					<lb ed="#P"/>sacramentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> unum scilicet ab unitate 
+  					<lb ed="#P"/>perfectionis respectu finis unius <pc ana="#virgula"/> qui est 
+  					<lb ed="#P"/>in significando <pc ana="#virgula"/> et in efficiendo <pc ana="#virgula"/> non autem 
+  					<lb ed="#P"/>ab unitate <pc ana="#virgula"/> continuationis vel indivi<lb ed="#P"/>sibilitatis <pc ana="#punctus"/></p>
+  			</div>
+  			<!-- seems like gks picks up here again, but there is not clear rubrication -->
+  			<div xml:id="wdr-l4d22q9" type="quaestio">
+  				<head xml:id="wdrl4d22-Hd1e3937">Librum IV, Distinctio 22, Quaestio 9</head>
+  				<head xml:id="wdrl4d22-Hd1e3940" type="questionTitle">An poenitentia sit instituta et quando</head>
+  				<p xml:id="wdrl4d22-d1e3943"><lb ed="#P"/><pc ana="#pilcrow"/>an <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit instituta <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>quando Responsio <pc ana="#punctus"/> quantum ad actum interiorem 
+  					<lb ed="#P"/>fuit <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> in lege <pc ana="#virgula"/> naturae sine ins<lb ed="#P"/>titutione 
+  					<pc ana="#virgula"/> quantum ad actum exteriorem 
+  					<lb ed="#P"/>aliquem <pc ana="#punctus"/> fuit in lege <name ref="#Moses">moysi</name> <pc ana="#punctus"/> quae 
+  					<lb ed="#P"/>praecipiebat pro peccato <pc ana="#punctus"/> aliquam sacrificia 
+  					<lb ed="#P"/>exteriora facere <pc ana="#virgula"/> quantum ad modum determi<lb ed="#P"/>natum 
+  					<pc ana="#virgula"/> in utroque <pc ana="#punctus"/> instituta est in 
+  					<lb ed="#P"/>nova lege <pc ana="#virgula"/> quae praecepit confessionem 
+  					<lb ed="#P"/>et satisfactionem <pc ana="#virgula"/> ab arbitrium sacerdotis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et ab hoc solo habet <pc ana="#virgula"/> quod sic signum et 
+  					<lb ed="#P"/>causa gratiae <pc ana="#pilcrow"/> Instituta autem fuit 
+  					<lb ed="#P"/>ad non <pc ana="#punctus"/> quando remissionis peccatorum 
+  					<lb ed="#P"/>potestatem dedit <pc ana="#virgula"/> <ref><title ref="#mt">matthaeus</title> <num>xv</num></ref> et <ref><title ref="#io">iohannes</title> <num>xx</num></ref> sed 
+  					<!-- drops --> apostoli divulgaverunt </p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

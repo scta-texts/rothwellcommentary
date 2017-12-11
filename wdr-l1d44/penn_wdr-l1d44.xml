@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 44 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 44 [Penn Transcription]</title>
+          <date when="2016-05-03">May 03, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-03">May 03, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="41rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d44">
+  			<head xml:id="wdrl1d44-Hd1e3503">Librum I, Distinctio 44 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d44q1" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3508">Librum I, Distinctio 44, Quaestio 1</head>
+  				<head xml:id="wdrl1d44-Hd1e3511" type="questionTitle">Utrum deus singulas partes universi potuerint facere meliores</head>
+  				<p xml:id="wdrl1d44-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus singulas partes universi <pc ana="#punctuselevatus"/> 
+  					<lb ed="#P"/>potuerint facere meliores <pc ana="#punctus"/> <!-- omits Respondeo here --> Sic <pc ana="#punctus"/> <name ref="#Augustine">augustinus</name> in littera boni<lb ed="#P"/>tate 
+  					scilicet accidentali <pc ana="#punctus"/> Sed non bonitate essentiali <pc ana="#punctus"/> ita quod 
+  					<lb ed="#P"/>maneret eadem res <pc ana="#punctus"/> quia bonitas essentialis <pc ana="#punctus"/> est ultima 
+  					<lb ed="#P"/>dicitur completam <pc ana="#punctus"/> licet aliam rem meliorem potuit facere</p>
+  			</div>
+  			<div xml:id="wdr-l1d44q2" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3553">Librum I, Distinctio 44, Quaestio 2</head>
+  				<head xml:id="wdrl1d44-Hd1e3556" type="questionTitle">Utrum totum universum potuerint facere melius</head>
+  				<p xml:id="wdrl1d44-d1e3559"><lb ed="#P"/><pc ana="#pilcrow"/>utrum totum universum potuerit facere melius <pc ana="#punctus"/> Responsio
+  					<!-- definite hand change here -->
+  					<!-- <handShift/> --> <!-- uncomment when schema inlcudes handShfit -->
+  					<cb ed="#P" n="41va"/><lb ed="#P"/>quantum ad meliorationem ordinis non <pc ana="#virgula"/> nec quantum ad 
+  					<lb ed="#P"/>meliorationem finis <pc ana="#punctus"/> qui est summum bonum <pc ana="#punctus"/> similiter 
+  					<lb ed="#P"/>nec melioratione partium universi <pc ana="#punctus"/> ita quod una pars <pc ana="#punctus"/> 
+  					<lb ed="#P"/>fieri melior <pc ana="#punctus"/> sed potus <unclear>de terminis</unclear> esset <pc ana="#punctus"/> quia distruetur 
+  					<lb ed="#P"/>ordo <pc ana="#virgula"/> et proportio partium ad invicem <pc ana="#virgula"/> exemplum decythara <pc ana="#virgula"/> 
+  					<lb ed="#P"/>potuit tam fieri melius aliquorum partium a <unclear>conditione <!-- possible corrected --></unclear> <pc ana="#punctus"/> sed 
+  					<lb ed="#P"/>non esset omne idem <pc ana="#virgula"/> cum isto <pc ana="#virgula"/> sed istud haberet sed 
+  					<lb ed="#P"/>ad illud <pc ana="#punctus"/> ut pars ad totum <pc ana="#virgula"/> accidentali scilicet sed non 
+  					<lb ed="#P"/>essentiali <pc ana="#punctus"/> quia tunc aliud universum esset <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d44q3" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3637">Librum I, Distinctio 44, Quaestio 3</head>
+  				<head xml:id="wdrl1d44-Hd1e3640" type="questionTitle">utrum humanitas christi potuerit fieri melior</head>
+  				<p xml:id="wdrl1d44-d1e3643"><lb ed="#P"/><pc ana="#pilcrow"/>utrum humanitas christi potuerit 
+  					<lb ed="#P"/>fieri melior <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum se scilicet cum sit 
+  					<lb ed="#P"/>creatura <pc ana="#virgula"/> quae finita est <pc ana="#punctus"/> sed inquantum unita <pc ana="#virgula"/> non <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d44q4" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3667">Librum I, Distinctio 44, Quaestio 4</head>
+  				<head xml:id="wdrl1d44-Hd1e3670" type="questionTitle">utrum beata virgine potuerit aliquid melius fieri</head>
+  				<p xml:id="wdrl1d44-d1e3673"><lb ed="#P"/>utrum beata virgine potuerit aliquid 
+  					<lb ed="#P"/>melius <pc ana="#punctus"/> fieri <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum se scilicet sed non 
+  					<lb ed="#P"/>secundum conditionem qua mater est <pc ana="#punctus"/> quia non potuit 
+  					<!-- drops --> esse mater <unclear>meu?o?s</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l1d44q5" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3700">Librum I, Distinctio 44, Quaestio 5</head>
+  				<head xml:id="wdrl1d44-Hd1e3703" type="questionTitle">utrum etiam beatitudine creata</head>
+  				<p xml:id="wdrl1d44-d1e3706"><lb ed="#P"/><pc ana="#pilcrow"/>utrum etiam beatitudine 
+  					<lb ed="#P"/>creata <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quantum ad bonum participant 
+  					<lb ed="#P"/>quod eis deus non <pc ana="#virgula"/> sed quantum ad modum participandi 
+  					<!-- drops --> potuit</p>
+  			</div>
+  			<div xml:id="wdr-l1d44q6" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3727">Librum I, Distinctio 44, Quaestio 6</head>
+  				<head xml:id="wdrl1d44-Hd1e3730" type="questionTitle">Utrum universum potuerit facere ante quam fecit</head>
+  				<p xml:id="wdrl1d44-d1e3733"><lb ed="#P"/><pc ana="#pilcrow"/>utrum universum poteurit 
+  					<lb ed="#P"/>facere ante quam fecit <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> duplex <pc ana="#punctus"/> est <pc ana="#punctus"/> quaetio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia haec determinatio ante potest cadere sub pos<lb ed="#P"/>sibilitate 
+  					<pc ana="#punctus"/> et tunc <pc ana="#punctus"/> stat pro duratione <pc ana="#punctus"/> quae esse 
+  					<lb ed="#P"/>potuit <pc ana="#virgula"/> et sic verum est quod potuit ante <pc ana="#punctuselevatus"/> 
+  					quia potuit facere tempus mille annorum prius 
+  					<lb ed="#P"/>isto tempore <pc ana="#virgula"/> vel potest stare pro duratione quae 
+  					<lb ed="#P"/>fuit aeternitas <pc ana="#punctus"/> et sic non potuit amore <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia in aeternitate fieri non potuit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d44q7" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3785">Librum I, Distinctio 44, Quaestio 7</head>
+  				<head xml:id="wdrl1d44-Hd1e3788" type="questionTitle">Utrum aliud universum facere possit</head>
+  				<p xml:id="wdrl1d44-d1e3791"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliud universum facere <seg type="correction">po<del rend="expunctuated">t</del>ssit <pc ana="#punctus"/></seg> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia posset alium mundum facere cum 
+  					<lb ed="#P"/>isto <pc ana="#virgula"/> etiam <unclear>infinitos</unclear> <pc ana="#punctus"/> neutrum causam esset universum <pc ana="#punctus"/> 
+  					<!-- drops --> secundum rationem nominis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d44q8" type="quaestio">
+  				<head xml:id="wdrl1d44-Hd1e3828">Librum I, Distinctio 44, Quaestio 8</head>
+  				<head xml:id="wdrl1d44-Hd1e3831" type="questionTitle">Utrum easdem partes huius universi facere possit adhuc</head>
+  				<p xml:id="wdrl1d44-d1e3834"><lb ed="#P"/><pc ana="#pilcrow"/>utrum easdem 
+  					<lb ed="#P"/>partes huius universi facere possit adhuc 
+  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> non ex defectu potentiae sed quia res <pc ana="#punctus"/> 
+  					<lb ed="#P"/>desinit esse <pc ana="#virgula"/> possibilis <pc ana="#punctus"/> quia transiit <pc ana="#punctus"/> 
+  					<cb ed="#P" n="41vb"/><lb ed="#P"/>in praeteritum <ref>supra distinctio <unclear>47</unclear> quaestio 9</ref> tamen quia eadem 
+  					<lb ed="#P"/>potentia <pc ana="#punctus"/> manet in deo <pc ana="#punctus"/> ideo dicit in littera quod potest 
+  					<lb ed="#P"/>quidquid potuit <pc ana="#punctus"/> exemplum de defectu possit <pc ana="#punctus"/> sicut <add place="marginRight">sonus</add> 
+  					<lb ed="#P"/>vel tenebrae non possint <pc ana="#virgula"/> videri</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 49 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 49 [Penn Transcription]</title>
+          <date when="2016-05-25">May 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-25">May 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="136ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d49">
+  			<head xml:id="wdrl4d49-Hd1e3503">Librum IV, Distinctio 49 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d49q1" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3508">Librum IV, Distinctio 49, Quaestio 1</head>
+  				<head xml:id="wdrl4d49-Hd1e3511" type="questionTitle">Utrum beatitudo sit deus</head>
+  				<p xml:id="wdrl4d49-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum beatitudo sit 
+  					<lb ed="#P"/>deus <pc ana="#punctus"/> Responsio duplex ext beatitudo scilciet in<lb ed="#P"/>creata 
+  					quae deus est <pc ana="#punctus"/> quae beneficat nos effective 
+  					<lb ed="#P"/>et creata quae beatificat nos formaliter <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Cum enim finis noster ultimus scilicet deus sic extra 
+  					<lb ed="#P"/>nos <pc ana="#punctus"/> non beatificat nos formaliter <pc ana="#punctus"/> sed con<lb ed="#P"/>iunctio 
+  					ipsa <pc ana="#punctus"/> secundum possibilitatem nostram <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ad ipsum finem <pc ana="#punctus"/> quae est quasi finis intra <pc ana="#virgula"/> prima igitur 
+  					<lb ed="#P"/>est tanquam finis in quo quiescitur secundam 
+  					<lb ed="#P"/>tanquam finis <pc ana="#punctus"/> quo quiescitur</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q2" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3563">Librum IV, Distinctio 49, Quaestio 2</head>
+  				<head xml:id="wdrl4d49-Hd1e3566" type="questionTitle">Utrum beatitudo sit actus hominis</head>
+  				<p xml:id="wdrl4d49-d1e3569"><lb ed="#P"/><pc ana="#pilcrow"/>utrum beatitudo sit actus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>hominis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia beatitudo con<lb ed="#P"/>sistit 
+  					in ultima et perfectissima unctione 
+  					<lb ed="#P"/>creaturae rationalis cum suo principio haec autem est 
+  					<lb ed="#P"/>illa quae est in actu <pc ana="#punctus"/> non illa quae est 
+  					<cb ed="#P" n="136rb"/><lb ed="#P"/>in potentia tantum <pc ana="#punctus"/> vel in habitu <pc ana="#punctus"/> ultimus etiam finis 
+  					<lb ed="#P"/>cuiuslibet rei est sua operatio <pc ana="#punctus"/> finis enim rei est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>forma <pc ana="#punctus"/> forma autem est propter operationem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q3" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3616">Librum IV, Distinctio 49, Quaestio 3</head>
+  				<head xml:id="wdrl4d49-Hd1e3619" type="questionTitle">Utrum sit actus voluntarius</head>
+  				<p xml:id="wdrl4d49-d1e3622"><lb ed="#P"/>utrum sit actus voluntarius 
+  					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> ut probabilius dicitur quamvis quidam 
+  					<lb ed="#P"/>dicant <pc ana="#virgula"/> quod principaliter sit actus intellectus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>est igitur in actu <pc ana="#punctus"/> intellectus <sic>orientaliter</sic> quia 
+  					<lb ed="#P"/>cognitio praevia est affectionem <pc ana="#punctus"/> in actu autem 
+  					<lb ed="#P"/>voluntatis <pc ana="#punctus"/> completive quia frui secundum <name ref="#Augustine">augustinum</name> 
+  					<lb ed="#P"/>est amore inhaere etc <pc ana="#punctus"/> unde perfectiorem 
+  					<lb ed="#P"/>et <sic>intimiorem</sic> coniunctionem facit amore <pc ana="#punctus"/> quam 
+  					<lb ed="#P"/>cognitio <ref>supra libro primo distinctione prima quaestione ii</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q4" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3675">Librum IV, Distinctio 49, Quaestio 4</head>
+  				<head xml:id="wdrl4d49-Hd1e3678" type="questionTitle">Utrum omnes appetant beatitudinem</head>
+  				<p xml:id="wdrl4d49-d1e3681"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes appetant bea<lb ed="#P"/>titudinem 
+  					 Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum philosophos et 
+  					<lb ed="#P"/><name ref="#Augustine">augustinus</name> et alios sanctos <pc ana="#virgula"/> quia omni rei a suo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>motore <choice><orig>inprimitur</orig><reg>imprimitur</reg></choice> <pc ana="#virgula"/> aliqua dispositio <pc ana="#punctus"/> qua ten<lb ed="#P"/>dit 
+  					in suum finem naturaliter <pc ana="#punctus"/> unde omnes appe<lb ed="#P"/>tun 
+  					beatitudinem <pc ana="#punctus"/> tanquam ultimum finem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et eam cognoscunt in universali scilicet quadam suffi<lb ed="#P"/>cientiam 
+  					<pc ana="#punctus"/> quamvis <pc ana="#punctus"/> non in particulari secundum quod in hoc 
+  						<!-- drops --> sit illa sufficientia <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q5" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3740">Librum IV, Distinctio 49, Quaestio 5</head>
+  				<head xml:id="wdrl4d49-Hd1e3743" type="questionTitle">Utrum in appetendo beatitudinem aliquis mereatur</head>
+  				<p xml:id="wdrl4d49-d1e3746"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in 
+  					<lb ed="#P"/>appetendo beatitudinem aliquis 
+  					<lb ed="#P"/>mereatur <pc ana="#punctus"/> Responsio sic <pc ana="#virgula"/> inquantum scilicet procedit 
+  					<lb ed="#P"/>a voluntate deliberatio <pc ana="#punctus"/> sed non <pc ana="#punctus"/> quando tantum a naturali <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q6" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3770">Librum IV, Distinctio 49, Quaestio 6</head>
+  				<head xml:id="wdrl4d49-Hd1e3773" type="questionTitle">Utrum ab omnibus beatitudo participetur aequaliter</head>
+  				<p xml:id="wdrl4d49-d1e3776"><lb ed="#P"/>utrum ab omnibus beatitudo partici<lb ed="#P"/>petur 
+  					aequaliter <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quamvis obiectum sit <pc ana="#virgula"/> <sic>unde</sic> et idem <pc ana="#punctus"/> diverse <pc ana="#punctus"/> tamen 
+  					<lb ed="#P"/>virtutis <pc ana="#virgula"/> sunt potentiae quae operantur circa 
+  					<lb ed="#P"/>ipsum <pc ana="#punctus"/> et diversitatem perfecte potentiae maiori 
+  					<lb ed="#P"/>et minori <pc ana="#punctus"/> lumine <sic>gratiae <!-- scribe is likely not sure which of the two should be used --></sic> gloriae <pc ana="#punctus"/> secundum diversitatem 
+  						<!-- drops --> meritorum  <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q7" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3828">Librum IV, Distinctio 49, Quaestio 7</head>
+  				<head xml:id="wdrl4d49-Hd1e3831" type="questionTitle">Utrum post iudicium sit maior beatitudo sanctorum quam modo</head>
+  				<p xml:id="wdrl4d49-d1e3834"><lb ed="#P"/><pc ana="#pilcrow"/>utrum post iudi<lb ed="#P"/>cium 
+  					sit maior beatitudo sanctorum quam 
+  					<lb ed="#P"/>modo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Jerome">Jeromum</name> in littera <pc ana="#punctus"/> unde 
+  					<lb ed="#P"/>nota quod si extensive loquimur <pc ana="#virgula"/> sic maior 
+  					<cb ed="#P" n="136va"/><lb ed="#P"/>est gloria <pc ana="#punctus"/> quia ad stolam animae stola corporis addetur 
+  					<lb ed="#P"/>et praemio essentiali <pc ana="#punctus"/> accidentale <pc ana="#punctus"/> Si autem intensive 
+  					<lb ed="#P"/>sic secundum quodam <pc ana="#punctus"/> non augebitur <pc ana="#virgula"/> beatitudo essentialis quia 
+  					<lb ed="#P"/>immutabilis est et aevo mensuratur <pc ana="#virgula"/> seu aeternitate <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Alii autem quod augebatur quia tunc anima est perfectior 
+  					<lb ed="#P"/>habito naturali perfectibilis maxime cum tunc corpus aeque non 
+  					<lb ed="#P"/><choice><orig>inpediat</orig><reg>impediat</reg></choice> <pc ana="#virgula"/> unde <name ref="#Augustine">augustinus</name> in littera dicit quod nunc appetitu 
+  						<!-- drops --> corporis retardatur</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q8" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3906">Librum IV, Distinctio 49, Quaestio 8</head>
+  				<head xml:id="wdrl4d49-Hd1e3909" type="questionTitle">Utrum aliquem dotes sanctis sint assignandae</head>
+  				<p xml:id="wdrl4d49-d1e3912"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquem dotes 
+  					<lb ed="#P"/>sanctis sint assignandae <pc ana="#punctus"/> Responsio 
+  					<lb ed="#P"/>sic <pc ana="#virgula"/> Sunt autem dotes <pc ana="#punctus"/> dona quaedam quae dantur 
+  					<lb ed="#P"/>in proprietatem sponsae ecclesiae a tota trinitate 
+  					<lb ed="#P"/>quae pater noster est <pc ana="#punctus"/> quando in domum sponsi christi scilicet tradu<lb ed="#P"/>citur 
+  					<pc ana="#virgula"/> quamvis ante traductionem promittantur 
+  					<lb ed="#P"/>et dicuntur dotes secundum similitudinem dotes in 
+  					<lb ed="#P"/>matrimonio carnali <pc ana="#punctus"/> quia ibi dos est <pc ana="#punctus"/> quod datur sponso 
+  						<!-- drops --> a parte</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q9" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3952">Librum IV, Distinctio 49, Quaestio 9</head>
+  				<head xml:id="wdrl4d49-Hd1e3955" type="questionTitle">Utrum dotes sint in christo</head>
+  				<p xml:id="wdrl4d49-d1e3958"><lb ed="#P"/><pc ana="#pilcrow"/>utrum dotes sint 
+  					<lb ed="#P"/>in christo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum substantiam scilicet et convenienter 
+  					<lb ed="#P"/>loquendo <pc ana="#punctus"/> sed non proprie <pc ana="#punctus"/> neque secundum ratione dotis 
+  					<lb ed="#P"/>quia ipse sponsus est <pc ana="#punctus"/> non sponsa <pc ana="#punctus"/> quia natura 
+  					<lb ed="#P"/>humana <pc ana="#virgula"/> numquam esse distinctum habuit a persona 
+  						<!-- drops --> filii dei <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q10" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e3995">Librum IV, Distinctio 49, Quaestio 10</head>
+  				<head xml:id="wdrl4d49-Hd1e3998" type="questionTitle">Utrum in angelis sint dotes</head>
+  				<p xml:id="wdrl4d49-d1e4001"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in angelis <del rend="expunctuated">sed</del> 
+  					<lb ed="#P"/>sint dotes <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> proprie loquendo <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>et secundum ratione dotis <pc ana="#punctus"/> quia quamvis angelorum 
+  					<lb ed="#P"/>et hominum una sit ecclesia et etiam matrimonium aliquo 
+  					<lb ed="#P"/>modo <pc ana="#virgula"/> inter angelos et christum propter unionem 
+  					<lb ed="#P"/>gratiae <pc ana="#punctus"/> non tamen per unitatem naturae in specie <pc ana="#punctus"/> lar<lb ed="#P"/>ge 
+  					tamen loquendo <pc ana="#punctus"/> possunt dicitur habere dotes</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q11" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4043">Librum IV, Distinctio 49, Quaestio 11</head>
+  				<head xml:id="wdrl4d49-Hd1e4046" type="questionTitle">Quod sint dotes</head>
+  				<p xml:id="wdrl4d49-d1e4049"><lb ed="#P"/><pc ana="#pilcrow"/>Quod sint dotes <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>doctores <num>vii</num> tres animae scilicet visio <pc ana="#punctus"/> dilectio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>comprehensio <pc ana="#punctus"/> sive fruitio <pc ana="#virgula"/> et <num>iiiior</num> corporis cla<lb ed="#P"/>ritas 
+  					<pc ana="#punctus"/> impassibilitas <pc ana="#punctus"/> subtilitas <pc ana="#punctus"/> agili<lb ed="#P"/>tas 
+  					<pc ana="#punctus"/> dicuntur autem haec <num>vii</num> <pc ana="#punctus"/> dotes quasi 
+  					<lb ed="#P"/>dona principalia <pc ana="#punctus"/> per quae ad actum gloriae 
+  					<lb ed="#P"/>disponimur alia autem dona <pc ana="#punctus"/> sunt quasi 
+  					<cb ed="#P" n="136vb"/><lb ed="#P"/>dona <sic>perafernalia</sic> id est iuxta dotem <pc ana="#punctus"/> per dona igitur 
+  					<lb ed="#P"/>animae <pc ana="#virgula"/> ipsa principio vitae suae deo scilicet perfecte con<lb ed="#P"/>iungitur 
+  					<pc ana="#virgula"/> quia visio succedit fidei dilectio 
+  					<lb ed="#P"/>caritati comprehensio specie corpus autem 
+  					<lb ed="#P"/>per dona sua principio vitae suae scilicet animae <pc ana="#punctus"/> perfecte 
+  					<lb ed="#P"/>subicitur <pc ana="#virgula"/> ne per ipsum <pc ana="#virgula"/> anima ab actu gloriae 
+  					<lb ed="#P"/>retardetur quia claritas facit ipsum 
+  					<lb ed="#P"/>facile mobile susceptibile nobilium specierum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sensibilium <pc ana="#virgula"/> Inpassibilitas autem resistere 
+  					<lb ed="#P"/>inpressionibus ignobilibus <pc ana="#punctus"/> agilitas ut mo<lb ed="#P"/>tori 
+  					non resistat <pc ana="#virgula"/> subtilitas <pc ana="#punctus"/> ut <choice><orig>nichil</orig><reg>nihil</reg></choice> 
+  					<lb ed="#P"/>eius motui resistendo impediunt praestet</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q12" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4170">Librum IV, Distinctio 49, Quaestio 12</head>
+  				<head xml:id="wdrl4d49-Hd1e4173" type="questionTitle">Utrum sancti in patria deum videbunt per essentiam</head>
+  				<p xml:id="wdrl4d49-d1e4176"><lb ed="#P"/><lb ed="#P"/>Utrum sancti in patria deum vi<lb ed="#P"/>debunt 
+  					per essentiam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic<ref> glossa <title ref="#Icor">I cor</title> 
+  						<lb ed="#P"/><num>xv</num></ref> super illud cum tradiderit regium <pc ana="#punctus"/> in essentiam 
+  					<lb ed="#P"/>patris et filii <pc ana="#punctus"/> et spiritus sanctus videbitur perfectio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>enim intellectus sicut cuiuslibet rei consistet <pc ana="#virgula"/> in 
+  					<lb ed="#P"/>coniunctione cum ultimo fine <pc ana="#punctus"/> quod est sum<lb ed="#P"/>mum 
+  					intelligibile scilicet deus qui est prima veritas <pc ana="#punctus"/> 
+  					<lb ed="#P"/>haec autem coniunctio <del rend="expunctuated">dicitur</del> potest dupliciter intelligi <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Nam quidam dicunt deum in futor videri 
+  					<lb ed="#P"/>ab intellectu creato <pc ana="#virgula"/> per speciem impressam non 
+  					<lb ed="#P"/>abstractam <pc ana="#punctus"/> et <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> facie ad faciem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sicut etiam nunc hominem in deo <pc ana="#punctus"/> per similitudi<lb ed="#P"/>nem 
+  					in occulo receptam <pc ana="#virgula"/> Alii autem deum 
+  					<lb ed="#P"/>videri per essentiam propriam <pc ana="#punctus"/> tanquam per speciem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sive formam non tamen concretam intellectivi 
+  					<lb ed="#P"/>sed per se subsistentem <pc ana="#punctus"/> separatam praesentem 
+  					<lb ed="#P"/>intellectui cum intelligentia <pc ana="#punctus"/> sicut vix prae<lb ed="#P"/>sens 
+  					est <choice><orig>oculo</orig><reg>occulo</reg></choice> <pc ana="#punctus"/> haec duae opiniones sunt 
+  					<lb ed="#P"/>etiam philosophorum <pc ana="#punctus"/> de intellectu nostra respectu intelligentiarum 
+  					<lb ed="#P"/>prima est <name ref="#Avicenna">avicenna</name> <pc ana="#punctus"/> secundum <name ref="#Averroes">averoys</name> et 
+  						<name ref="#AlexanderAphrodisias">alexandri <!-- i'm not quite certain about name identification --></name></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q13" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4302">Librum IV, Distinctio 49, Quaestio 13</head>
+  				<head xml:id="wdrl4d49-Hd1e4305" type="questionTitle">Utrum deus a sanctis comprehendatur</head>
+  				<p xml:id="wdrl4d49-d1e4308"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus <pc ana="#punctus"/> a <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sanctis comprehendatur Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<cb ed="#P" n="137ra"/><lb ed="#P"/>secundum sanctos qui convenienter dicunt eum <choice><sic>inprehensibilem</sic><corr>incomprehensibilem</corr></choice> 
+  					<lb ed="#P"/>quia comprehendi dicitur secundum <name ref="#Augustine">augustinum</name> cuius fines circum<lb ed="#P"/>spici 
+  					possunt <pc ana="#punctus"/> deus autem infinitus est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Intellectus autem sanctorum finitus attingitur 
+  					<lb ed="#P"/>ergo ab intellectu creato <pc ana="#punctus"/> sed non comprehenditur 
+  					<lb ed="#P"/>sicut punctus attingit lineam <pc ana="#punctus"/> quamvis igitur 
+  					<lb ed="#P"/>ipse simplex sic <pc ana="#virgula"/> sed rationem autem tamen intel<lb ed="#P"/>ligibilitatis 
+  					post parationem ad intellectum sanctorum 
+  					<!-- drops --> multiplex est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q14" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4369">Librum IV, Distinctio 49, Quaestio 14</head>
+  				<head xml:id="wdrl4d49-Hd1e4372" type="questionTitle">Utrum omnes sancti deum aequaliter videant</head>
+  				<p xml:id="wdrl4d49-d1e4375"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes sancti <pc ana="#punctus"/> 
+  					<lb ed="#P"/>deum aequaliter videant <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia quamvis idem <pc ana="#punctus"/> sit cognoscibilem omnium <pc ana="#punctusfluxus"/> 
+  					<lb ed="#P"/>diversionem videtur secundum <name ref="#Augustine">augustinum</name> in littera secundum di<lb ed="#P"/>versitatem 
+  					dispositionis et virtutis <pc ana="#punctus"/> in gratia <pc ana="#punctus"/> et 
+  					<!-- drops --> in gloria <pc ana="#punctus"/> <ref type="commentary" target="http://scta.info/resource/wdrl4d49-d1e3776">supra quaestio 6</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q15" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4418">Librum IV, Distinctio 49, Quaestio 15</head>
+  				<head xml:id="wdrl4d49-Hd1e4421" type="questionTitle">Utrum videbunt deum etiam oculo corporali</head>
+  				<p xml:id="wdrl4d49-d1e4424"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>videbunt deum etiam oculo corporali <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> sicut etiam dicit <name ref="#Ambrose">ambrosum</name> et <name>Ieromum</name> et hoc in<lb ed="#P"/>tellige 
+  						per se scilicet per accidens tamen videbitur 
+  					<lb ed="#P"/>quodammodo in regimine creaturarum et motu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sicut nunc anima cognoscitur per motum corporis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q16" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4461">Librum IV, Distinctio 49, Quaestio 16</head>
+  				<head xml:id="wdrl4d49-Hd1e4464" type="questionTitle">Utrum quicumque videt deum videat omnia in ipso</head>
+  				<p xml:id="wdrl4d49-d1e4467"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum quicumque videt deum videat 
+  					<lb ed="#P"/>omnia in ipso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non ut patet in an<lb ed="#P"/>gelis 
+  					secundum <name ref="#Dionysius">dyonisium</name> <pc ana="#punctus"/> quia non sed si causa cogno<lb ed="#P"/>scatur 
+  					<pc ana="#punctus"/> secundum id quod est <pc ana="#punctus"/> quod etiam cognoscitur 
+  					<lb ed="#P"/>in ratione cauae <pc ana="#punctus"/> primo modo deus est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>obiectum beatitudinis unde ab omnibus videtur secundum 
+  					<lb ed="#P"/>essentiam suam <pc ana="#punctus"/> sed inquantum est causa <pc ana="#punctus"/> po<lb ed="#P"/>tens 
+  					non operans a nullo intellectu cre<lb ed="#P"/>ato 
+  					videtur <pc ana="#virgula"/> nec videri potest <pc ana="#punctus"/> Inquantum autem 
+  					<lb ed="#P"/>est causa potens et operans sic videtur 
+  					<lb ed="#P"/>quantum vult <pc ana="#virgula"/> quia causa est et speculum vo<lb ed="#P"/>luntant tantum</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q17" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4529">Librum IV, Distinctio 49, Quaestio 17</head>
+  				<head xml:id="wdrl4d49-Hd1e4532" type="questionTitle">Utrum corpora sanctorum erunt impassibilia</head>
+  				<p xml:id="wdrl4d49-d1e4535"><lb ed="#P"/><pc ana="#pilcrow"/>utrum corpora sanctorum 
+  					<lb ed="#P"/>erunt <choice><orig>inpassibilia</orig><reg>impassibilia</reg></choice> Responsio sic <ref><title ref="#Icor">1 
+  						<lb ed="#P"/>corinthios</title> <num>xv</num> in glossa</ref> et hoc intellige de 
+  					<lb ed="#P"/>passione proprie dicta <pc ana="#punctus"/> quae est eum trans<cb ed="#P" n="137rb"/><lb ed="#P"/>mutatione 
+  					et abiectione <pc ana="#punctus"/> non de ea quae est 
+  					<lb ed="#P"/>in sola specie corruptione <pc ana="#virgula"/> vel receptione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quae manebit quia prima est inperfectionis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secunda perfectionis <pc ana="#punctus"/> non fiet autem hoc extra quinti 
+  					<lb ed="#P"/>corporis ut quidam dixerunt <pc ana="#virgula"/> sed virtute <pc ana="#punctus"/> 
+  					<lb ed="#P"/>animae <unclear>praed?nantis</unclear> <pc ana="#punctus"/> et corpus ita omnino 
+  					<lb ed="#P"/>continentis <pc ana="#punctus"/> et perficientis <pc ana="#punctus"/> ut peregrinam 
+  					<lb ed="#P"/><choice><orig>inpressionem</orig><reg>impressionem</reg></choice> non possit recipere <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q18" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4615">Librum IV, Distinctio 49, Quaestio 18</head>
+  				<head xml:id="wdrl4d49-Hd1e4618" type="questionTitle">Utrum fiant secundum sensum immutabilia</head>
+  				<p xml:id="wdrl4d49-d1e4621"><lb ed="#P"/>utrum fiant secundum sensum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>immutabilia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non immutatione 
+  					<lb ed="#P"/>naturali qua excellentiae sensibilium corrumpunt 
+  					<lb ed="#P"/>sensum <pc ana="#punctus"/> sed spirituali sive animali tantum <pc ana="#punctus"/> re<lb ed="#P"/>cipiendo 
+  					scilicet similitudinem sensati <pc ana="#punctus"/> quam <choice><orig>in<lb ed="#P"/>mutationem</orig><reg>im<lb ed="#P"/>mutationem</reg></choice> 
+  					dicunt quidam tunc fieri <pc ana="#punctus"/> extramit<lb ed="#P"/>tendo 
+  					tantum <pc ana="#punctus"/> sed verius dicendum est quod sentiemus 
+  					<lb ed="#P"/>intus suscipiendo sicut modo <pc ana="#virgula"/> Luminosi<lb ed="#P"/>tas 
+  					<pc ana="#punctus"/> etiam oculi non <choice><orig>inpedit</orig><reg>impedit</reg></choice> receptionem specie <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia manebit in ea <choice><orig>dyafanitas</orig><reg>diaphanitas</reg></choice> naturalis mul<lb ed="#P"/>to 
+  					<pc ana="#virgula"/> etiam a remotiori videre poterit <pc ana="#punctus"/> quia in 
+  					<lb ed="#P"/>minori angelo quam modo <pc ana="#punctus"/> propter maiorem perfectionem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q19" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4703">Librum IV, Distinctio 49, Quaestio 19</head>
+  				<head xml:id="wdrl4d49-Hd1e4706" type="questionTitle">Utrum corpus gloriosum erit clarum</head>
+  				<p xml:id="wdrl4d49-d1e4709"><lb ed="#P"/><pc ana="#pilcrow"/>utrum corpus gloriosum erit cla<lb ed="#P"/>rum 
+  					<pc ana="#punctus"/> <sic>clarum</sic> <pc ana="#punctus"/> Responsio clarum erit dupliciter 
+  					<lb ed="#P"/>secundum <ref><name ref="#GregoryGreat">Gregorium</name> <title>super iob</title> <num>xxviiio</num></ref> <pc ana="#punctus"/> quia erit par<lb ed="#P"/>vum 
+  					et lucidum <pc ana="#punctus"/> unde dicit quod corpora sanctorum 
+  					<lb ed="#P"/>et claritate fulgent <pc ana="#virgula"/> et puritate trans<lb ed="#P"/>lucent 
+  					non tamen propter hoc erunt rara <pc ana="#punctus"/> sed 
+  					<lb ed="#P"/>conpacta <pc ana="#punctus"/> erit autem haec claritas in corpore 
+  					<lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> ex redundantia gloriae animae in 
+  					<lb ed="#P"/>corpus <pc ana="#punctus"/>
+  					unde quod est in anima spiritualiter <pc ana="#punctus"/> re<lb ed="#P"/>cipitur 
+  					in corpore corporaliter cum <unclear>pervietate</unclear> etiam habet colorem est causa 
+  						<!--drops--> naturae</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q20" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4777">Librum IV, Distinctio 49, Quaestio 20</head>
+  				<head xml:id="wdrl4d49-Hd1e4780" type="questionTitle">Utrum corpus gloriosum sit visibile ab oculo non glorificato</head>
+  				<p xml:id="wdrl4d49-d1e4783"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum corpus 
+  					<lb ed="#P"/>gloriosum sit visi<lb ed="#P"/>bile 
+  					ab oculo non 
+  					<cb ed="#P" n="137va"/><lb ed="#P"/>glorificato <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia cum gloria per<lb ed="#P"/>ficiat 
+  					naturam sub claritate gloriae manebit 
+  					<lb ed="#P"/>species naturae utrumque subditum erit voluntaria animae 
+  					<lb ed="#P"/>sanctus igitur habens corpus gloriosum potest 
+  					<lb ed="#P"/>apparere vel in specie gloriae <pc ana="#punctus"/> vel in specie naturae 
+  					<lb ed="#P"/>prout voluerit <pc ana="#punctus"/> exemplum de <choice><sic>sequamis</sic><corr>squamis</corr></choice> piscium <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et <choice><sic>noctilucucis</sic><corr>noctilucis</corr></choice> <pc ana="#virgula"/> quae dupliciter videntur 
+  					<lb ed="#P"/>in luminositate de nocte <pc ana="#virgula"/> et in colore 
+  					<lb ed="#P"/>proprio de die <pc ana="#virgula"/> dicunt igitur quidam <pc ana="#punctus"/> quod 
+  					<lb ed="#P"/>corpus gloriosum videri possit ab oculo non 
+  					<lb ed="#P"/>glorificato <pc ana="#virgula"/> in proprio colore <pc ana="#punctus"/> sine miraculo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed in sua claritate non <pc ana="#virgula"/> alii vero quod etiam 
+  					<lb ed="#P"/>in claritate sine miraculo <pc ana="#punctus"/> quia illi 
+  					<lb ed="#P"/>claritas unica est <pc ana="#punctus"/> cum claritate naturali 
+  					<lb ed="#P"/>quamvis non sit abeadem causa <pc ana="#punctus"/> Non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>tamen totaliter <pc ana="#punctus"/> sed ab oculo glorioso taliter 
+  					<lb ed="#P"/>et perfecte capi potest <pc ana="#punctus"/> de factus autem in oculo 
+  					<lb ed="#P"/>non glorificato <pc ana="#virgula"/> est ex parte virtutis <pc ana="#punctus"/> vi<lb ed="#P"/>sive 
+  					<pc ana="#virgula"/> non propter claritatem quae in <unclear>lucens</unclear> et <unclear>de<lb ed="#P"/>lectas</unclear> 
+  						est <pc ana="#punctus"/> non corrupens <pc ana="#virgula"/> temperari 
+  					<lb ed="#P"/>tamen potest pro voluntate sancti cum vo<lb ed="#P"/>luerit 
+  					apparem oculo infirmo</p>
+  			</div>
+  			<div xml:id="wdr-l4d49q21" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e4915">Librum IV, Distinctio 49, Quaestio 21</head>
+  				<head xml:id="wdrl4d49-Hd1e4918" type="questionTitle">Utrum corpus gloriosum ratione suae subtilitatis possit penetrare corpus non gloriosum ita quod simul sunt in eodem loco</head>
+  				<p xml:id="wdrl4d49-d1e4921"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum corpus gloriosum ratione suae 
+  					<lb ed="#P"/>subtilitatis <pc ana="#virgula"/> possit penetrare <pc ana="#punctus"/> 
+  					<lb ed="#P"/>corpus non gloriosum <pc ana="#virgula"/> ita quod simul 
+  					<lb ed="#P"/>sint in eodem loco <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam 
+  					<lb ed="#P"/>dicunt quod non <pc ana="#punctus"/> nisi per miraculum <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>corpora distinguuntur per diversas materias <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et diversae materiae per diversos situs <pc ana="#punctus"/> Alii <pc ana="#punctus"/> dicunt
+  					<!-- note that lines are moving around a hole in the vellum here -->
+  					<lb ed="#P"/>communius quod potest <pc ana="#virgula"/> quia <pc ana="#punctus"/> etiam 
+  					<lb ed="#P"/><ref><name ref="#JohnDamascenus">damascenus</name> libro <num>iii</num></ref> quod dicens in<lb ed="#P"/>travit 
+  					ianuis clausis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>attribuit virtuti <choice><sic>clari<lb ed="#P"/>ficationis</sic><corr>glorificationis</corr></choice> <pc ana="#punctus"/> subintrat 
+  					<cb ed="#P" n="137vb"/><lb ed="#P"/>autem secundum eos corpus gloriosum subtilitate 
+  					<lb ed="#P"/>sua corpus non gloriosum <pc ana="#punctus"/> sed non dividit 
+  					<lb ed="#P"/>ad modum spiritus <pc ana="#punctus"/> quia spiritualia erunt non tamen 
+  					<lb ed="#P"/>hoc erit per rarefactionem <pc ana="#punctus"/> secundum <name ref="#GregoryGreat">gregorium</name> et quia 
+  					<lb ed="#P"/>sic subintrat manent indistincte 
+  					<lb ed="#P"/>utriusque dimensiones <pc ana="#virgula"/> intrinsece scilicet quam<lb ed="#P"/>vis 
+  					non extrinsece <pc ana="#virgula"/> unde diversas habent 
+  					<lb ed="#P"/>superficies sed eundem locum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q22" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e5031">Librum IV, Distinctio 49, Quaestio 22</head>
+  				<head xml:id="wdrl4d49-Hd1e5034" type="questionTitle">Utrum possit simul esse in eodem loco cum altero corpore glorioso</head>
+  				<p xml:id="wdrl4d49-d1e5037"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit simul esse in eodem 
+  					<lb ed="#P"/>loco <pc ana="#virgula"/> cum altero corpore glorioso <pc ana="#punctuselevatus"/> 
+  					<lb ed="#P"/>Responsio non <pc ana="#punctus"/> quia eadem specie subtilitatem 
+  					<lb ed="#P"/>habet <pc ana="#virgula"/> sicut nec spiritus a spiritu penetratur 
+  					<lb ed="#P"/>quamvis corpus penetrat <pc ana="#punctus"/> hoc etiam infir<lb ed="#P"/>mitatis 
+  					esset si penetraretur <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q23" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e5069">Librum IV, Distinctio 49, Quaestio 23</head>
+  				<head xml:id="wdrl4d49-Hd1e5072" type="questionTitle">Utrum corpora gloriosa erunt agilia ita quod moveantur ad omnem loci differentiam</head>
+  				<p xml:id="wdrl4d49-d1e5075"><lb ed="#P"/><pc ana="#pilcrow"/>utrum corpora gloriosa erunt agi<lb ed="#P"/>lia 
+  					<pc ana="#virgula"/>ita quod moveantur ad 
+  					<lb ed="#P"/>omnem loci differentiam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic quia secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/><name ref="#Augustine">augustinum</name> ubicumque voluerit animus protinus erit 
+  					<lb ed="#P"/>et corpus <pc ana="#punctus"/> erit igitur ille motus <pc ana="#virgula"/> voluntatis 
+  					<lb ed="#P"/>non naturae <pc ana="#punctus"/> quia corpus perfecte subicietur animae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nec ille motus est propter indigentiam 
+  					<lb ed="#P"/>sed propter perfectionem naturae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d49q24" type="quaestio">
+  				<head xml:id="wdrl4d49-Hd1e5119">Librum IV, Distinctio 49, Quaestio 24</head>
+  				<head xml:id="wdrl4d49-Hd1e5122" type="questionTitle">Utrum motus eorum sit in instanti</head>
+  				<p xml:id="wdrl4d49-d1e5125"><lb ed="#P"/><pc ana="#pilcrow"/>utrum motus eorum sit 
+  					<lb ed="#P"/>in instanti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt 
+  					<lb ed="#P"/>quod sic <pc ana="#virgula"/> quia moventur ad modum 
+  					<lb ed="#P"/>spiritus <pc ana="#punctus"/> Aliis autem videtur hoc <choice><orig>inpos<lb ed="#P"/>sibile</orig><reg>impos<lb ed="#P"/>sibile</reg></choice> 
+  					<pc ana="#virgula"/> cum omne divisibile quod 
+  					<lb ed="#P"/>movetur partim sit in termino a quo <pc ana="#virgula"/> par<lb ed="#P"/>tim 
+  					vero in termino ad quem <pc ana="#virgula"/> unde alii di<lb ed="#P"/>cunt 
+  					verius <pc ana="#punctus"/> quod movetur in tempore 
+  					<lb ed="#P"/><choice><orig>inperceptibili</orig><reg>imperceptibili</reg></choice> <pc ana="#punctus"/> et unum etiam in minori 
+  					<lb ed="#P"/>tempore <pc ana="#punctus"/> quam Aliud secundum quod est perfectioris 
+  						<!-- drops --> gloriae</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

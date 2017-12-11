@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <div xml:id="wdr-l1prol">
+    <head>Librum I, Prologus</head>
+    <div xml:id="wdr-l1prolq1" type="quaestio">
+      <head type="questionTitle">Utrum theologia sit scientia</head>
+      <p xml:id="wdrl1prol-qutvrs">
+        <assertions>
+          <assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a1"/>
+        </assertions>
+      </p>
+    </div>
+    <div xml:id="wdr-l1prolq2" type="questio">
+      <head type="questionTitle">Utrum sit una scientia vel plures</head>
+      <p xml:id="wdrl1prol-usuade">
+        <assertions>
+        	<assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a2"/>
+        </assertions>
+      </p>
+    </div>
+    <div xml:id="wdr-l1prolq3" type="quaestio">
+      <head type="questionTitle">Quid sit subiectum in theologia</head>
+      <p xml:id="wdrl1prol-qssise">
+        <assertions>
+        	<assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a3"/>
+        </assertions>
+      </p>
+    </div>
+    <div xml:id="wdr-l1prolq4" type="quaestio">
+      <head type="questionTitle">Utrum theologia sit scientia speculativa vel practica</head>
+      <p xml:id="wdrl1prol-utsesp">
+        <assertions>
+        	<assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a4"/>
+        </assertions>
+      </p>
+    </div>
+    <div xml:id="wdr-l1prolq5" type="quaestio">
+      <head type="questionTitle">Utrum sit scientia necessaria</head>
+      <p xml:id="wdrl1prol-usssne">
+        <assertions>
+        	<assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a5"/>
+        </assertions>
+      </p>
+    </div>
+    <div xml:id="wdr-l1prolq6" type="quaestio">
+      <head type="questionTitle">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
+      <p xml:id="wdrl1prol-uhsail">
+        <assertions>
+        	<assertion property="abbreviates" target="http://scta.info/resource/pdtl1prolq1a6"/>
+        </assertions>
+      </p>
+    </div>
+  </div>
+</info>

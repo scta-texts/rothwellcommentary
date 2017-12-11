@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 41 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 41 [Penn Transcription]</title>
+          <date when="2016-05-23">May 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-23">May 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="131ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d41">
+  			<head xml:id="wdrl4d41-Hd1e3503">Librum IV, Distinctio 41 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d41q1" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3508">Librum IV, Distinctio 41, Quaestio 1</head>
+  				<head xml:id="wdrl4d41-Hd1e3511" type="questionTitle">Quid sit affinitas et qualiter contrahitur</head>
+  				<p xml:id="wdrl4d41-d1e3514"><lb ed="#P"/>Quaeritur quid sit <del rend="expunctuated">matrimonium</del> <pc ana="#punctus"/> affi<lb ed="#P"/>nitas 
+  					<pc ana="#punctus"/> et qualiter contrahatur <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum iuris peritos <pc ana="#punctus"/> affinitas est 
+  					<lb ed="#P"/>proximitas personarum <pc ana="#punctus"/> ex <choice><sic>naturali</sic><corr>carnali</corr></choice> copula 
+  					<lb ed="#P"/>veniens omnium carens parentela <pc ana="#punctus"/> con<lb ed="#P"/>trahitur 
+  					autem per omnem commixtionem seminum 
+  					<lb ed="#P"/>sive fornicationem sive non <pc ana="#punctus"/> quia efficiuntur 
+  					<lb ed="#P"/><seg type="correction">s<del>u</del>emper</seg> una caro <pc ana="#punctus"/> sed non contrahitur per pol<lb ed="#P"/>lutionem 
+  					extra ordinariam <pc ana="#punctus"/> sive contra naturam 
+  					<lb ed="#P"/>sive secundum naturam nisi fiat maritali affectu <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d41q2" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3577">Librum IV, Distinctio 41, Quaestio 2</head>
+  				<head xml:id="wdrl4d41-Hd1e3580" type="questionTitle">Utrum affinitas transeat in alteram personam</head>
+  				<p xml:id="wdrl4d41-d1e3583"><lb ed="#P"/><pc ana="#pilcrow"/>utrum affinitas transeat in 
+  					<lb ed="#P"/>alteram personam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> licet antiqui<lb ed="#P"/>tus 
+  					transiret <pc ana="#punctus"/> nunc tamen non transit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia quasi generatio aequivocata est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>generatio affinitatis et ideo in alio non generat 
+  					<lb ed="#P"/>simile vinculum <pc ana="#punctus"/> sicut in consanguinitate 
+  					<lb ed="#P"/>cuius generatio est quasi univoca <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d41q3" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3618">Librum IV, Distinctio 41, Quaestio 3</head>
+  				<head xml:id="wdrl4d41-Hd1e3621" type="questionTitle">Utrum impediat matrimonium</head>
+  				<p xml:id="wdrl4d41-d1e3624"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum impediat matrimonium <pc ana="#punctus"/>
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> si praecedit matrimonium eadem ratione 
+  					<lb ed="#P"/>qua et consanguinitas <pc ana="#punctus"/> quia efficiuntur 
+  					<lb ed="#P"/>per mixtionem una caro <pc ana="#virgula"/> et eadem ratione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>qua consanguinitas <pc ana="#punctus"/> usque <pc ana="#punctus"/> ad <num>4</num> gradum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Si autem sequitur matrimonium <choice><orig>inpedit</orig><reg>impedit</reg></choice> reum ab <choice><sic>in<lb ed="#P"/>petitionem</sic><corr><lb ed="#P"/>petitionem</corr></choice> 
+  					debiti <pc ana="#punctus"/> <ref>supra distinctio 40 quaestio 3 et 4</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d41q4" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3685">Librum IV, Distinctio 41, Quaestio 4</head>
+  				<head xml:id="wdrl4d41-Hd1e3688" type="questionTitle">De distinctione in littera quinque specierum luxuriae quae sunt fornicatio stuprum  adulterium incestus raptus</head>
+  				<p xml:id="wdrl4d41-d1e3691"><lb ed="#P"/><pc ana="#pilcrow"/>De distinctione in littera <pc ana="#punctus"/> quinque 
+  					<lb ed="#P"/>specierum luxuriae <pc ana="#virgula"/> quae sunt <pc ana="#punctus"/> fornicatio 
+  					<lb ed="#P"/>stuprum <pc ana="#punctus"/> adulterium <pc ana="#punctus"/> incestus <pc ana="#punctus"/> <del rend="strikethrough">raptus</del> 
+  					<lb ed="#P"/>raptus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sicut habitus virtutum <pc ana="#punctus"/> distin<pc ana="#punctus"/>guntur 
+  					per actus et actus per opera <pc ana="#punctus"/> ita et 
+  					<pc ana="#punctus"/>vitiorum <pc ana="#punctus"/> quodlibet habet obiectum hic habet specialem 
+  					<!-- drops --> causam prohibitionis </p>
+  			</div>
+  			<div xml:id="wdr-l4d41q5" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3740">Librum IV, Distinctio 41, Quaestio 5</head>
+  				<head xml:id="wdrl4d41-Hd1e3743" type="questionTitle">De separatione matrimonii propter consanguinitatem vel affinitatem</head>
+  				<p xml:id="wdrl4d41-d1e3746"><lb ed="#P"/><pc ana="#pilcrow"/>De separatione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>matrimonii <pc ana="#punctus"/> propter consanguinitatem 
+  					<lb ed="#P"/>vel affinitatem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> omne <pc ana="#punctus"/> matrimonium 
+  					<lb ed="#P"/>contractum in gradum prohabito <pc ana="#virgula"/> consanguinitatis <pc ana="#punctus"/> 
+  					<cb ed="#P" n="131rb"/><lb ed="#P"/>vel affinitatis <pc ana="#punctus"/> sperandum est <pc ana="#punctus"/> quia non potest 
+  					<lb ed="#P"/>stare sine peccato <pc ana="#punctus"/> ad accusationem autem talis 
+  					<lb ed="#P"/>matrimonii <pc ana="#punctus"/> vel testificationem <pc ana="#punctus"/> secundum iura 
+  					<lb ed="#P"/>tantum <pc ana="#virgula"/> consanguinei admittuntur quod fit 
+  					<lb ed="#P"/>in favorem matrimonii et quia talibus de consanguinitate 
+  					<!-- drops --> plus constat</p>
+  			</div>
+  			<div xml:id="wdr-l4d41q6" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3802">Librum IV, Distinctio 41, Quaestio 6</head>
+  				<head xml:id="wdrl4d41-Hd1e3805" type="questionTitle">Utrum aliqui filii sint illegittimi</head>
+  				<p xml:id="wdrl4d41-d1e3808"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum aliqui filii <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sint illegittimi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> omnes scilicet qui 
+  					<lb ed="#P"/>extra matrimonium verum <pc ana="#punctus"/> vel saltem interpretatum <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/>quod in facie ecclesiae <pc ana="#virgula"/> bona fide utriusque <pc ana="#punctus"/> vel 
+  					<lb ed="#P"/>alterius contrahitur nascuntur <pc ana="#virgula"/> quia illi nec 
+  					<lb ed="#P"/>secundum legem naturae rationalis <pc ana="#punctus"/> nec secundum legem positivam 
+  					<!-- drops --> nascunturm <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d41q7" type="quaestio">
+  				<head xml:id="wdrl4d41-Hd1e3852">Librum IV, Distinctio 41, Quaestio 7</head>
+  				<head xml:id="wdrl4d41-Hd1e3855" type="questionTitle">Quod modis filii illegittimi legittimentur</head>
+  				<p xml:id="wdrl4d41-d1e3858"><lb ed="#P"/><pc ana="#pilcrow"/>Quot modis filii <pc ana="#punctus"/> 
+  					<lb ed="#P"/>illegittimi legittimentur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
+  					<lb ed="#P"/>Iura Canonica <pc ana="#virgula"/> duobus scilicet per consequens <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in facie ecclesiae <pc ana="#virgula"/> cum iure illegitimi et per di<lb ed="#P"/>spensationem 
+  					papae primus modus non exten<lb ed="#P"/>ditur 
+  					ad spurios <pc ana="#punctus"/> sed secundus <pc ana="#punctus"/> Alii et <num>vi</num> 
+  					modis fit legittimatio <pc ana="#punctus"/> secundum leges <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

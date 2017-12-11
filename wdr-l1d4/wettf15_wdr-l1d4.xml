@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 4 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 4 [Aarau Transcription]</title>
+          <date when="2015-07-03">July 03, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-07-03">July 03, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-03" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="109ra" select="kba-WettF0015_109r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l1d4">
+        <head>Librum I, Distinctio 4 [Aarau Transcription]</head>
+        <div xml:id="wdr-l1d4q1" type="quaestio">
+          <head type="questionTitle">Utrum generatio in divinis sit</head>
+          <p><lb ed="#A"/>Queritur utrum generatio in divinis sit Responsio sic <g ref="#dot"/> quando sic <g ref="#dot"/> quia 
+            <lb ed="#A"/>diffusio sive multiplicatio sui est perfectionis et 
+            <lb ed="#A"/>ideo deo attribuendum <g ref="#dot"/> et etiam perfectissima communicatio <g ref="#slash"/> 
+            <lb ed="#A"/>quae est univoca communicatio naturae <g ref="#dot"/> et haec est generatio <g ref="#dot"/> <g ref="slash"/> <!-- special slash --> secundum genus tamen 
+            <lb ed="#A"/>non est ibi scilicet mutationem <g ref="#dot"/> quia <unclear>hoc</unclear> est <choice><orig>inperfectionis</orig><reg>imperfectionis</reg></choice> <g ref="#dot"/></p> 
+        </div>
+        <div xml:id="wdr-l1d4q2" type="quaestio">
+          <head type="questionTitle">Utrum concedendum sit quod deus genuit deum</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum concedendum sit quod deus genuit deum Responsio in littera quod sic <g ref="#dot"/> 
+            <lb ed="#A"/>etiam in symbolo <g ref="#dot"/> quia iste terminus <mentioned>deus</mentioned> significat naturam in sup<g ref="#slash"/><lb ed="#A"/>posito 
+            <g ref="#dot"/> et per verbum notionale <g ref="#slash"/> <mentioned>genuit</mentioned> <g ref="#slash"/> restringitur 
+            <lb ed="#A"/>ad standum pro persona patris in subiecto <g ref="#dot"/> et pro persona filii in praedicato</p>
+        </div>
+        <div xml:id="wdr-l1d4q3" type="quaestio">
+          <head type="questionTitle">Utrum concedendum sit quod genuerit se deum</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum concedendum sit quod genuerit se deum <g ref="#dot"/> vel alium deum <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio in littera quod utraque neganda <g ref="#dot"/> <g ref="#slash"/> quia se <unclear>recip?tum</unclear> est <g ref="#slash"/> 
+            <lb ed="#A"/>et ideo refert idem suppositum <g ref="#dot"/> alius autem relatum diversitatis 
+            <lb ed="#A"/>substantiae est in generali <g ref="#dot"/> et determinatur per hunc terminum <mentioned>deum</mentioned> <g ref="#dot"/> et ideo 
+            <lb ed="#A"/>dicit diversum in divinitate <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d4q4" type="quaestio">
+          <head type="questionTitle">Utrum genuerit deum qui est deus pater aut non</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit deum qui est deus pater <g ref="#dot"/> aut non Responsio Cum dicitur 
+            <lb ed="#A"/>qui est deus pater <g ref="#slash"/> aut est <choice><orig>appositam</orig><reg>oppositam</reg></choice> <unclear>contractio</unclear> <g ref="#dot"/> et sic falsa <g ref="#dot"/> 
+            <lb ed="#A"/>aut non <g ref="#slash"/> sed qui ibi subintellectum tenetur <unclear>relatae</unclear> non <unclear>implicat?e</unclear> 
+            <lb ed="#A"/>sicut in priori sensu et sic est vera <g ref="#dot"/> Idem sensus distinguitur in littera</p>
+        </div>
+        <div xml:id="wdr-l1d4q5" type="quaestio">
+          <head type="questionTitle">Utrum possit fieri praedicatio <unclear>affirmativa</unclear> in divinis</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum possit fieri praedicatio <unclear>affirmativa</unclear> in divinis Responsio 
+            <lb ed="#A"/>Quaedam est praedicatio per <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> ut est praedicatur idem de se 
+            <lb ed="#A"/>vel distinctio eius et haec est in divinis <g ref="#dot"/> quia non dicit compositionem realem <g ref="#dot"/> 
+            <lb ed="#A"/>Item est praedicatio per inhaerentiam <g ref="#slash"/> quae tantum dicit denominationem 
+            <lb ed="#A"/>extrinsecam <g ref="#dot"/> haec etiam convenit divinis <g ref="#dot"/> ut <unclear>cum</unclear> dicitur creator <g ref="#dot"/> quia etiam non dicit 
+            <lb ed="#A"/>compositionem in deo <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> sed praedicatio per inhaerentiam intrinsecam non 
+            <lb ed="#A"/>convenit deo secundum rem <g ref="#dot"/> sed secundum modum intelligendi tantum <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d4q6" type="quaestio">
+          <head type="questionTitle">An persona vere praedicetur de essentia</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>An persona vera praedicetur de essentia Responsio sic <g ref="#dot"/> propter omnimodam 
+            <lb ed="#A"/><choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae et personae <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d4q7" type="quaestio">
+          <head type="questionTitle">Utrum trinitas vere praedicetur de essentia</head>
+          <p><cb ed="#A" n="109rb" select="kba-WettF0015_109r.json"/><lb ed="#A"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter omni<lb ed="#A"/>modam 
+            <lb ed="#A"/><choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trinitatem Idem <name ref="#Augustine">augustinus</name></p>
+        </div>
+        <div xml:id="wdr-l1d4q8" type="quaestio">
+          <head type="questionTitle">Pro quo supponat iste terminus deus</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Pro quo supponat iste terminus deus Responsio Quidam similiter 
+            <lb ed="#A"/>dixerunt quod <unclear>cum</unclear> sit terminus communis concretus significans essentiam 
+            <lb ed="#A"/>communem pluribus suppositis <g ref="#dot"/> quod supponit naturaliter pro 
+            <lb ed="#A"/>supposito <unclear>naturae</unclear> illius <g ref="#dot"/> sed accidentaliter pro natura <g ref="#dot"/> Sed contra <g ref="#dot"/> 
+            <lb ed="#A"/>Deus creat <g ref="#dot"/> hic stat pro natura communi <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> Alii dicunt quod 
+            <lb ed="#A"/>principaliter supponit pro natura <g ref="#dot"/> quae non est forma multiplicabilis 
+            <lb ed="#A"/>in suppositis et ipse habet naturam termini discreti <g ref="#dot"/> <g ref="#slash"/> accidentaliter 
+            <lb ed="#A"/>tamen pro persona <g ref="#dot"/> propter <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> ipsorum <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> alii dicunt quod habet 
+            <lb ed="#A"/>naturam termini discreti ex parte naturae significatae sed naturam termini communis 
+            <lb ed="#A"/>ex parte suppositorum et indifferenter pro utroque potest 
+            <lb ed="#A"/>supponere <g ref="#dot"/> <unclear>principaliter</unclear> tamen pro natura <g ref="#dot"/> et <unclear>videtur</unclear> verius <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d4q9" type="quaestio">
+          <head type="questionTitle">Utrum habeat plurale</head> <!-- plurale might be corrected to "plura" -->
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum habeat plurale Responsio quando <sic>nuncupatem</sic> sumitur 
+            <lb ed="#A"/>vel <sic>participatem</sic> sic habet plurale <g ref="#dot"/> sed quando naturaliter sumitur 
+            <lb ed="#A"/>non <g ref="#dot"/> quia forma eius nec re nec intellectu est multiplicabilis <g ref="#dot"/></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

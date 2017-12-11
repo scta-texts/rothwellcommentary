@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 48 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 48 [Penn Transcription]</title>
+          <date when="2016-05-25">May 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-25">May 25, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="135va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d48">
+  			<head xml:id="wdrl4d48-Hd1e3503">Librum IV, Distinctio 48 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d48q1" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3508">Librum IV, Distinctio 48, Quaestio 1</head>
+  				<head xml:id="wdrl4d48-Hd1e3511" type="questionTitle">Utrum christus iudicabit informa humana</head>
+  				<p xml:id="wdrl4d48-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum christus iudicabit 
+  					<lb ed="#P"/>in forma humana <pc ana="#punctus"/> Responsio sic utraque 
+  					<!-- this below ref pointer actually points to the paragraph, we could think about point one level higher, to the question. but right i'm not sure question level would display -->
+  					<lb ed="#P"/>natura iudicabit <ref type="commentary" target="http://scta.info/resource/wdrl4d47-d1e3623">supra distinctione 47 quaestione 3</ref> In humano 
+  					<lb ed="#P"/>quia in ea ex alterari debet in qua maxime humi<lb ed="#P"/>liatus 
+  					fuit <pc ana="#virgula"/> et opera redemptionis exhibuit <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q2" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3541">Librum IV, Distinctio 48, Quaestio 2</head>
+  				<head xml:id="wdrl4d48-Hd1e3544" type="questionTitle">Utrum christus apparebit in forma glorificata</head>
+  				<p xml:id="wdrl4d48-d1e3547"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus apparebit in forma glorificata 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera quia hoc erit ad 
+  					<lb ed="#P"/>maiorem reverentiam Iudicis</p>
+  			</div>
+  			<div xml:id="wdr-l4d48q3" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3567">Librum IV, Distinctio 48, Quaestio 3</head>
+  				<head xml:id="wdrl4d48-Hd1e3570" type="questionTitle">Utrum in forma divina a reprobis videri possit</head>
+  				<p xml:id="wdrl4d48-d1e3573"><lb ed="#P"/><pc ana="#pilcrow"/>Responsio non secundum <name ref="#Augustine">augustinum</name> in littera quia cum 
+  					<lb ed="#P"/>ipsum intelligere sit summa perfectio intellectus 
+  					<lb ed="#P"/>non potest esse sine maxima dilectione <pc ana="#punctus"/> etc illud 
+  					<lb ed="#P"/>intelligibile <unclear>improportionaliter</unclear> excedat intellectum 
+  					<lb ed="#P"/>naturalem ad illud pertingere non possunt  <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nisi elevato intellectu et disposito per gratiam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>unde tantum videtur a mundo corde <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q4" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3608">Librum IV, Distinctio 48, Quaestio 4</head>
+  				<head xml:id="wdrl4d48-Hd1e3611" type="questionTitle">Utrum christus descendat ad iudicium in vallem <name>Iosaphat</name></head>
+  				<p xml:id="wdrl4d48-d1e3616"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus descendat ad iu<lb ed="#P"/>dicium 
+  					in vallem <name>Iosaphat</name> Responsio 
+  					<lb ed="#P"/>secundum <ref>Glossa <title ref="#ioel">Ioel</title> <num>iii</num></ref> et idem in littera non desc<lb ed="#P"/>endet 
+  					in vallem <pc ana="#punctus"/> sed sedebit in aere contra locum 
+  					<lb ed="#P"/>illius vallis et montis oliveti <pc ana="#virgula"/> ubi etiam 
+  					<lb ed="#P"/>ascendit <pc ana="#virgula"/> qui valli eidem praeminet <pc ana="#punctus"/> est 
+  					<lb ed="#P"/>autem ille locus communius propter <pc ana="#punctus"/> communitatem <pc ana="#punctus"/> quia quasi in 
+  					<lb ed="#P"/>medio terrae <pc ana="#punctus"/> Item famosus est propter opera 
+  					<lb ed="#P"/>redemptionis <pc ana="#punctus"/> <pc ana="#virgula"/> sedebit autem in tanta alti<lb ed="#P"/>tudine 
+  					aeris <pc ana="#punctus"/> ubi scilicet defecti aspectus apostolorum 
+  					<lb ed="#P"/>videntium ipsum ascendere <pc ana="#punctus"/> Sancti rapientur 
+  					<lb ed="#P"/>ei obviam <pc ana="#punctus"/> <choice><orig>Inpii</orig><reg>Impii</reg></choice> autem tanquam graves ma<lb ed="#P"/>nebunt 
+  					in terra <pc ana="#virgula"/> et ubique diffundentur circa 
+  					<lb ed="#P"/>locum illum haec omnia licet probabilia fiunt 
+  					<!-- drops --> non tamen sunt certa <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q5" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3702">Librum IV, Distinctio 48, Quaestio 5</head>
+  				<head xml:id="wdrl4d48-Hd1e3705" type="questionTitle">Quare tam terribiles erunt circumstantiae iudicii scilicet quod sol convertetur in tenebris et huiusmodi</head>
+  				<p xml:id="wdrl4d48-d1e3708"><lb ed="#P"/><pc ana="#pilcrow"/>Quare tam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>terribiles erunt circumstantiae iu<lb ed="#P"/>dicii 
+  					scilicet quod sol convertetur in tenebras 
+  					<lb ed="#P"/>et huiusmodi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ut propter terrorem iudex 
+  					<lb ed="#P"/>in maiori Reverentia habeatur</p>
+  			</div>
+  			<div xml:id="wdr-l4d48q6" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3731">Librum IV, Distinctio 48, Quaestio 6</head>
+  				<head xml:id="wdrl4d48-Hd1e3734" type="questionTitle">Utrum innovatio mundi fiat</head>
+  				<p xml:id="wdrl4d48-d1e3737"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum innovatio mundi fiat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic secundum scripturam scilicet ut habitatori 
+  					<lb ed="#P"/>suo <pc ana="#virgula"/> scilicet homini innovato <pc ana="#virgula"/> magis congruat 
+  					<lb ed="#P"/>ut perfectius deum tunc et in speculo cre<lb ed="#P"/>atarum 
+  					cognoscat <pc ana="#virgula"/> et sic visio sensibilis de<!-- drops -->delectionem 
+  					augeat</p>
+  			</div>
+  			<div xml:id="wdr-l4d48q7" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3766">Librum IV, Distinctio 48, Quaestio 7</head>
+  				<head xml:id="wdrl4d48-Hd1e3769" type="questionTitle">Utrum motus corporum caelestium cessabit</head>
+  				<p xml:id="wdrl4d48-d1e3772"><lb ed="#P"/><pc ana="#pilcrow"/>utrum motus 
+  					corporum caelestium cessabit <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic 
+  					<lb ed="#P"/><ref>aba <num>iii</num></ref> et <name ref="#IsidoreOfSeville">ysidorus</name> in littera quai est propter <pc ana="#punctus"/> 
+  					<lb ed="#P"/>statum generationis et corruptionis <pc ana="#punctus"/> qui tunc 
+  					<cb ed="#P" n="136ra"/><lb ed="#P"/>cessabit <pc ana="#virgula"/> Lux autem non cessabit <pc ana="#virgula"/> quia eius 
+  					<lb ed="#P"/>utilitas spiritualis est scilicet cognitionis <pc ana="#punctus"/> et deletionis 
+  					<lb ed="#P"/>quae tunc non cessabunt <pc ana="#virgula"/> cessabit autem simpliciter 
+  					<lb ed="#P"/>voluntate divina <pc ana="#punctus"/> quamvis quidam dixerint <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod naturaliter adepto scilicet fine suo <pc ana="#punctus"/> humana scilicet 
+  					<!-- drops --> generatione <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q8" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3830">Librum IV, Distinctio 48, Quaestio 8</head>
+  				<head xml:id="wdrl4d48-Hd1e3833" type="questionTitle">Utrum lux eorum</head>
+  				<p xml:id="wdrl4d48-d1e3836"><lb ed="#P"/><pc ana="#pilcrow"/>utrum lux eorum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>augebitur <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia <ref><title ref="#is">ysa</title> 
+  						<lb ed="#P"/><num>xxx</num></ref> et hoc propter maiorem cognitionem et de<lb ed="#P"/>lectionem 
+  					<pc ana="#punctus"/> hominis innovati <pc ana="#punctus"/> quia ad haec lux 
+  					<!-- drops --> ordinatur <ref>supra <!-- entries that read "sententia" are probably "supra" --> quaestione 6</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q9" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3876">Librum IV, Distinctio 48, Quaestio 9</head>
+  				<head xml:id="wdrl4d48-Hd1e3879" type="questionTitle">Utrum elementa illustrentur</head>
+  				<p xml:id="wdrl4d48-d1e3882"><lb ed="#P"/><pc ana="#pilcrow"/>utrum elementa 
+  					<lb ed="#P"/>illustrentur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> aliqua enim cla<lb ed="#P"/>ritate 
+  					dotabuntur <pc ana="#punctus"/> secundum sanctos ut ha<lb ed="#P"/>bitatori 
+  					<pc ana="#punctus"/> innovato <pc ana="#virgula"/> scilicet homini magis con<lb ed="#P"/>gruant 
+  					<pc ana="#virgula"/> et hoc dicitur caelum novum et terra no<!-- drops -->va <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d48q10" type="quaestio">
+  				<head xml:id="wdrl4d48-Hd1e3917">Librum IV, Distinctio 48, Quaestio 10</head>
+  				<head xml:id="wdrl4d48-Hd1e3920" type="questionTitle">Utrum vegetalia et animalia destruantur</head>
+  				<p xml:id="wdrl4d48-d1e3923"><lb ed="#P"/><pc ana="#pilcrow"/>utrum vegetalia et <pc ana="#punctus"/> 
+  					<lb ed="#P"/>animalia destruantur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>nullam habent convenientiam ad statum incorruptio<lb ed="#P"/>nis 
+  					<pc ana="#virgula"/> quia in toto sunt corruptibilia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>facta etiam tantum propter vitam <unclear>hominum</unclear> <seg type="correction">animal<add place="aboveLine">em</add>is</seg></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

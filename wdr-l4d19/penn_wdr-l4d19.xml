@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 19 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 19 [Penn Transcription]</title>
+          <date when="2016-05-16">May 16, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-16">May 16, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="119va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d19">
+  			<head xml:id="wdrl4d19-Hd1e3503">Librum IV, Distinctio 19 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d19q1" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3508">Librum IV, Distinctio 19, Quaestio 1</head>
+  				<head xml:id="wdrl4d19-Hd1e3511" type="questionTitle">Utrum sacerdotes veteris legis habuerint claves</head>
+  				<p xml:id="wdrl4d19-d1e3514"><lb ed="#P"/>Queritur utrum 
+  					<lb ed="#P"/>sacerdotes veteris legis habuerint claves <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> sed tantum figuram <pc ana="#punctus"/> quia claves ordi<lb ed="#P"/>nantur 
+  					ad apertionem regni caelorum <pc ana="#punctus"/> et peccatorum 
+  					<!-- drops --> remissionem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q2" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3541">Librum IV, Distinctio 19, Quaestio 2</head>
+  				<head xml:id="wdrl4d19-Hd1e3544" type="questionTitle">Utrum in novo testamento soli sacerdotes habeant calves</head>
+  				<p xml:id="wdrl4d19-d1e3547"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in novo testamento 
+  					<lb ed="#P"/>soli sacerdotes habeant claves <pc ana="#punctus"/> Responsio 
+  					<lb ed="#P"/>sic simpliciter loquendo quo ad principale officium 
+  					<lb ed="#P"/>quod est aperitio regni caelorum <pc ana="#punctus"/> alii tamen <pc ana="#virgula"/> sicut 
+  					<lb ed="#P"/>qui possunt excommunicare <pc ana="#punctus"/> habent quo ad minus 
+  					<lb ed="#P"/>principale officium <pc ana="#virgula"/> quod est apertio regni ecclesaie</p> 
+  			</div>
+  			<div xml:id="wdr-l4d19q3" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3576">Librum IV, Distinctio 19, Quaestio 3</head>
+  				<head xml:id="wdrl4d19-Hd1e3579" type="questionTitle">Utrum sacerdotes mali habeant claves</head>
+  				<p xml:id="wdrl4d19-d1e3582"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sacerdotes mali habeant cla<lb ed="#P"/>ves 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> omnes habent clavem <pc ana="#punctus"/> quae est 
+  					<lb ed="#P"/>potestas ordinis <pc ana="#punctus"/> non tamen omnes habent usum 
+  					<lb ed="#P"/>eius quia deficit potestas iurisdictionis <pc ana="#punctus"/> quae 
+  					<!-- drops --> ministra <unclear>materiam</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q4" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3611">Librum IV, Distinctio 19, Quaestio 4</head>
+  				<head xml:id="wdrl4d19-Hd1e3614" type="questionTitle">Utrum christus habuerit claves</head>
+  				<p xml:id="wdrl4d19-d1e3617"><cb ed="#P" n="119vb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus habuerit claves <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/> inquantum deus <pc ana="#punctus"/> habet clavem auctoritatis inquantum 
+  					<lb ed="#P"/>homo habet clavem excellentiae <pc ana="#punctus"/> sed neque cla<!-- drops -->vem 
+  					ministerii tantum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q5" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3642">Librum IV, Distinctio 19, Quaestio 5</head>
+  				<head xml:id="wdrl4d19-Hd1e3645" type="questionTitle">Utrum claves possint auferri</head>
+  				<p xml:id="wdrl4d19-d1e3648"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>claves possint auferri <pc ana="#punctus"/> Responsio sic 
+  					<lb ed="#P"/>quantum ad usum scilicet <unclear>vel</unclear> simpliciter ut in depositis 
+  					<lb ed="#P"/>et degradatis <pc ana="#virgula"/> vel <choice><orig>inpeditur</orig><reg>impeditur</reg></choice> <unclear>a tempus</unclear> <pc ana="#punctus"/> ut in ex<lb ed="#P"/>communicatis 
+  					et suspensis <pc ana="#punctus"/> quia sic multis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>intrinsecis indiget <lb ed="#P"/> sed non possint <lb ed="#P"/> 
+  					<lb ed="#P"/>auferri <pc ana="#punctus"/> quo ad radicem vel ecclesiam <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q6" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3702">Librum IV, Distinctio 19, Quaestio 6</head>
+  				<head xml:id="wdrl4d19-Hd1e3705" type="questionTitle">Utrum quilibet habens clavem quemlibet inferiorem possit absolvere</head>
+  				<p xml:id="wdrl4d19-d1e3708"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quilibet habens clavem <pc ana="#punctuselevatus"/> quemlibet 
+  					<lb ed="#P"/>inferiorem possit absolvere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>non quia quamvis non sit clavis limi<lb ed="#P"/>tata 
+  					<pc ana="#virgula"/> tamen iurisdictio est limitata <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q7" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3732">Librum IV, Distinctio 19, Quaestio 7</head>
+  				<head xml:id="wdrl4d19-Hd1e3735" type="questionTitle">Utrum inferior aliquando possit absolvere superiorem</head>
+  				<p xml:id="wdrl4d19-d1e3738"><lb ed="#P"/><pc ana="#pilcrow"/>utrum inferior aliquando possit ab<lb ed="#P"/>solvere 
+  					superiorem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic scilicet excom<lb ed="#P"/>missione 
+  					superioris in foro <choice><orig>penitentiali</orig><reg>poenitentiali</reg></choice> 
+  					<lb ed="#P"/>quia per peccatum efficitur inferior <pc ana="#punctus"/> sed non in 
+  					<lb ed="#P"/>foro contentioso <pc ana="#virgula"/> quiai ibi non dicitur a super<lb ed="#P"/>ioritate 
+  					sua <pc ana="#virgula"/> per peccatum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q8" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3775">Librum IV, Distinctio 19, Quaestio 8</head>
+  				<head xml:id="wdrl4d19-Hd1e3778" type="questionTitle">Utrum quilibet teneatur corripere fratrem peccantem</head>
+  				<p xml:id="wdrl4d19-d1e3781"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quilibet teneatur corripere 
+  					<lb ed="#P"/>fratrem peccantem <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> verbo scilicet 
+  					<lb ed="#P"/>quia est opus caritatis <name ref="#Augustine">augustinus</name> si autem frater tuus etc <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed praelatus etiam flagello <pc ana="#virgula"/> non tamen ad semper 
+  					<lb ed="#P"/>tenetur quia praeceptum <pc ana="#punctus"/> <unclear>a fur</unclear> est <pc ana="#punctus"/> sed quando separ<lb ed="#P"/>atur 
+  					correctio <pc ana="#virgula"/> nec est alius qui faciat 
+  					<lb ed="#P"/>vel facere debeat ex officio <pc ana="#punctuselevatus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d19q9" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3824">Librum IV, Distinctio 19, Quaestio 9</head>
+  				<head xml:id="wdrl4d19-Hd1e3827" type="questionTitle">Utrum peccator debeat corrigere</head>
+  				<p xml:id="wdrl4d19-d1e3830"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum peccator debeat corrigere 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> si <unclear>corrigere</unclear> ut praelatus <pc ana="#punctus"/> peccat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in digno utendo officio <pc ana="#punctus"/> si ut pri<lb ed="#P"/>vatus 
+  					non nisi in casu in quo scandalizaret 
+  					<!-- drops --> corrigendo</p>
+  			</div>
+  			<div xml:id="wdr-l4d19q10" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3858">Librum IV, Distinctio 19, Quaestio 10</head>
+  				<head xml:id="wdrl4d19-Hd1e3861" type="questionTitle">Utrum subditus debeat corrigere praelatum</head>
+  				<p xml:id="wdrl4d19-d1e3864"><lb ed="#P"/><pc ana="#pilcrow"/>utrum subditus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>debeat corrigere praelatum <pc ana="#punctuselevatus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> modeste tamen ne laedat re<!-- drops -->verentiam</p>
+  			</div>
+  			<div xml:id="wdr-l4d19q11" type="quaestio">
+  				<head xml:id="wdrl4d19-Hd1e3888">Librum IV, Distinctio 19, Quaestio 11</head>
+  				<head xml:id="wdrl4d19-Hd1e3891" type="questionTitle">Utrum debeat praecedere ammonitio ante denuntiationem et utrum te stes sint adhibendi</head>
+  				<p xml:id="wdrl4d19-d1e3894"><cb ed="#P" n="120ra"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum debeat praecedere ammonitio 
+  					<lb ed="#P"/>ante denuntiationem <pc ana="#punctus"/> et utrum te <pc ana="#punctus"/> 
+  					<lb ed="#P"/>stes sint adhibendi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nota 
+  					<lb ed="#P"/>ordinem hunc <pc ana="#virgula"/> primo corripe eum inter te et 
+  					<lb ed="#P"/>et ipsum solum <pc ana="#punctus"/> secundo <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> dic praelato <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>ut persona publica est <pc ana="#punctus"/> quia haec essent denun<lb ed="#P"/>tiare 
+  					ecclesiae <pc ana="#virgula"/> sed ut est persona privata <pc ana="#punctus"/> quae tamen 
+  					<lb ed="#P"/>plus potest prodesse quam alia <pc ana="#punctus"/> tertio te <pc ana="#virgula"/> 
+  					<lb ed="#P"/>stes sunt adhibendi <pc ana="#punctuselevatus"/> et hoc dicunt qui<lb ed="#P"/>dam 
+  					<pc ana="#punctus"/> si sit manifestum <pc ana="#punctus"/> sed dic etiam de oculto 
+  					<lb ed="#P"/>quod potest ostendi bonis personis <pc ana="#virgula"/> quae volunt 
+  					<lb ed="#P"/>prodesse <pc ana="#virgula"/> non obesse <pc ana="#virgula"/> quarto <pc ana="#virgula"/> praelato ut 
+  					<lb ed="#P"/>est persona publica id est ecclesiae <pc ana="#virgula"/> quinto si est re<lb ed="#P"/>bellis 
+  					excommunicandus est <pc ana="#punctus"/> Et nota quod in quocumque 
+  					<lb ed="#P"/>gradu corrigitur reliqui praetermittendi 
+  					<lb ed="#P"/>sunt <pc ana="#virgula"/> Item nota quod hanc <choice><orig>sollempnitatem</orig><reg>sollemnitatem</reg></choice> 
+  					<lb ed="#P"/>non oportet servari <pc ana="#virgula"/> nisi imaginis peccatis <pc ana="#punctus"/> vel etiam 
+  					<lb ed="#P"/>parvis quae cedunt in infamiam <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

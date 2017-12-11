@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 36 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 36 [Penn Transcription]</title>
+          <date when="2016-05-20">May 20, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-20">May 20, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="128rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d36">
+  			<head xml:id="wdrl4d36-Hd1e3503">Librum IV, Distinctio 36 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d36q1" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3508">Librum IV, Distinctio 36, Quaestio 1</head>
+  				<head xml:id="wdrl4d36-Hd1e3511" type="questionTitle">Utrum error conditionis impediat matrimonium</head>
+  				<p xml:id="wdrl4d36-d1e3514"><lb ed="#P"/>Quaeritur utrum error conditionis 
+  					<lb ed="#P"/>impediat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <choice><sic>iuram</sic><corr>iura</corr></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet si liber contrahit cum ancilla <pc ana="#punctus"/> quam 
+  					<lb ed="#P"/>credit liberam <pc ana="#punctus"/> quia graviter <sic>lederetur</sic> 
+  					<lb ed="#P"/>sine culpa sua <pc ana="#punctus"/> in prole scilicet et in red<lb ed="#P"/>ditione 
+  					debiti <pc ana="#punctus"/> Secus est si creditur ancilla <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quae libera est <pc ana="#virgula"/> <pc ana="#punctus"/> <pc ana="#virgula"/> vel servus credit liberam 
+  					<lb ed="#P"/>cum qua contrahit <pc ana="#virgula"/> quae ancilla est <pc ana="#virgula"/> quia 
+  					<lb ed="#P"/>primus non leditur <pc ana="#virgula"/> in secundo aequaliter 
+  					<lb ed="#P"/>leduntur <pc ana="#virgula"/> et ideo non dirimunt <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d36q2" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3585">Librum IV, Distinctio 36, Quaestio 2</head>
+  				<head xml:id="wdrl4d36-Hd1e3588" type="questionTitle">Utrum servus possit contrahere sine consensu domini</head>
+  				<p xml:id="wdrl4d36-d1e3591"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum servus possit contrahere 
+  					<lb ed="#P"/>sine consensu domini <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title>extra</title> 
+  						<lb ed="#P"/><num>iiii</num> de coniuga <unclear>ser</unclear> capitulo 1</ref> quia matrimonium est 
+  					<lb ed="#P"/>de iure naturali <pc ana="#punctus"/> in naturalibus autem 
+  					<lb ed="#P"/>servus non est subditus domino <pc ana="#punctus"/> sed tantum 
+  					<!-- drops --> manualibus</p>
+  			</div>
+  			<div xml:id="wdr-l4d36q3" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3630">Librum IV, Distinctio 36, Quaestio 3</head>
+  				<head xml:id="wdrl4d36-Hd1e3633" type="questionTitle">Utrum coniugio possit supervenire servitus</head>
+  				<p xml:id="wdrl4d36-d1e3636"><lb ed="#P"/><pc ana="#pilcrow"/>utrum coniugio 
+  					possit supervenire servitus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic ex parte viri <pc ana="#punctus"/> non uxoris 
+  					<lb ed="#P"/>sine consensu viri <pc ana="#punctus"/> quia <choice><orig>capud</orig><reg>caput</reg></choice> 
+  					<lb ed="#P"/>uxoris est <pc ana="#punctus"/> tenetur tamen vir uxori 
+  					<lb ed="#P"/>petenti <pc ana="#punctus"/> debitum reddere <pc ana="#punctus"/> etiam domino aliud 
+  					<lb ed="#P"/>praecipiente <pc ana="#virgula"/> quia quo ad hoc se alienare 
+  					<lb ed="#P"/>non potuit a potestate uxoris <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d36q4" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3681">Librum IV, Distinctio 36, Quaestio 4</head>
+  				<head xml:id="wdrl4d36-Hd1e3684" type="questionTitle">Cuius parentis conditionem debeat sequi partus</head>
+  				<p xml:id="wdrl4d36-d1e3687"><lb ed="#P"/><pc ana="#pilcrow"/>Cuius parentis conditione debeat sequi 
+  					<lb ed="#P"/>partis <pc ana="#punctus"/> Responsio patrem in conditionibus activis 
+  					<lb ed="#P"/>sicut honoribus et patrimoniorum acquisitionibus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia <pc ana="#punctus"/> primum formale <pc ana="#virgula"/> et actum est pater <pc ana="#virgula"/> sed 
+  					<lb ed="#P"/>matrem in conditionibus passivis <pc ana="#punctus"/> sicut ser<lb ed="#P"/>vitutibus 
+  					et huiusmodi quia principium materiale <pc ana="#punctus"/> 
+  					<lb ed="#P"/>est <pc ana="#virgula"/> haec sunt de iure communi <pc ana="#punctus"/> In quibusdam tamen 
+  					<lb ed="#P"/>terris <pc ana="#virgula"/> semper sequitur deteriorem partem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d36q5" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3734">Librum IV, Distinctio 36, Quaestio 5</head>
+  				<head xml:id="wdrl4d36-Hd1e3737" type="questionTitle">Utrum defectus aetatis impediat matrimonium</head> 
+  				<p xml:id="wdrl4d36-d1e3740"><cb ed="#P" n="129ra"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum defectus aetatis <choice><orig>inpediat</orig><reg>impediat</reg></choice> 
+  					<lb ed="#P"/>matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia in pueris 
+  					<lb ed="#P"/>ante <num>xiiii</num> annum <pc ana="#punctus"/> et in puellis ante 
+  					<lb ed="#P"/><num>xii</num> <pc ana="#punctus"/> et est defectus discretionis <pc ana="#virgula"/> et in potentia 
+  					<lb ed="#P"/>reddendi debitum <pc ana="#punctus"/> ut in pluribus <pc ana="#punctus"/> <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> 
+  					<lb ed="#P"/>si in aliquibus opposita horum appareant tenet matrimonium</p>
+  			</div>
+  			<div xml:id="wdr-l4d36q6" type="quaestio">
+  				<head xml:id="wdrl4d36-Hd1e3795">Librum IV, Distinctio 36, Quaestio 6</head>
+  				<head xml:id="wdrl4d36-Hd1e3798" type="questionTitle">Utrum sponsalia in minori aetate contracta possint dissolvi per mutuum consensum</head>
+  				<p xml:id="wdrl4d36-d1e3801"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sponsalia in minori aetate 
+  					<lb ed="#P"/>contrata <pc ana="#virgula"/> possint dissolvi per mu<lb ed="#P"/>tuum 
+  					consensum <pc ana="#punctus"/> Responsio <name ref="#HughOfStVictor">hugo</name> dixit 
+  					<lb ed="#P"/>quod non <pc ana="#punctus"/> propter iuramentum <pc ana="#punctus"/> sed vis tantum 
+  					<lb ed="#P"/>dissimulat <pc ana="#punctus"/> Alii autem dicunt contrarium 
+  					<lb ed="#P"/>scilicet quod obligatione <pc ana="#punctus"/> quae fit deo <pc ana="#punctus"/> persona priva<lb ed="#P"/>ta 
+  					non potest absolvere <pc ana="#punctus"/> sed tamen potest 
+  					<lb ed="#P"/>ab ea quae fit homini absolvere <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 47 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 47 [Penn Transcription]</title>
+          <date when="2016-05-04">May 04, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-04">May 04, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="42vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d47">
+  			<head xml:id="wdrl1d47-Hd1e3503">Librum I, Distinctio 47 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d47q1" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3508">Librum I, Distinctio 47, Quaestio 1</head>
+  				<head xml:id="wdrl1d47-Hd1e3511" type="questionTitle">Utrum voluntas beneplaciti possit impediri</head>
+  				<p xml:id="wdrl1d47-d1e3514"><lb ed="#P"/>Queritur utrum 
+  					<lb ed="#P"/>voluntas beneplaciti possit <choice><orig>in<lb ed="#P"/>pedire</orig><reg>im<lb ed="#P"/>pedire</reg></choice> 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> voluntas antecedens <pc ana="#virgula"/> nec 
+  					<lb ed="#P"/>conveniens <choice><orig>inpeditur</orig><reg>impeditur</reg></choice> <pc ana="#virgula"/> vel cassatur <pc ana="#virgula"/> quia utraque 
+  					<lb ed="#P"/>est <pc ana="#virgula"/> opus <pc ana="#virgula"/> et utraque <choice><orig>inpletur</orig><reg>impletur</reg></choice> <pc ana="#virgula"/> quantum in deo 
+  					<lb ed="#P"/>est <pc ana="#virgula"/> non <unclear>tamen <!-- earlier instances of "causam" might be better rendered as "tamen" as in this cause --></unclear> in effectu <pc ana="#virgula"/> salvationis <pc ana="#virgula"/> sed <pc ana="#virgula"/> 
+  					<lb ed="#P"/>sola conveniens semper <choice><orig>inpletur</orig><reg>impletur</reg></choice> <pc ana="#virgula"/> quia illud praecise 
+  					<lb ed="#P"/>vult <pc ana="#virgula"/> et haec <choice><orig>inpletur</orig><reg>impletur</reg></choice> de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <pc ana="#virgula"/> <unclear>commune</unclear> <pc ana="#virgula"/> non 
+  					<lb ed="#P"/>consequentis <pc ana="#virgula"/> si antecedentis neuter modo <pc ana="#virgula"/> semper <choice><orig>inpletur</orig><reg>impletur</reg></choice> 
+  					<cb ed="#P" n="43ra"/><lb ed="#P"/>quia illud non vult praecise <ref>supra distinctio <unclear>48</unclear> quaestio 1</ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d47q2" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3635">Librum I, Distinctio 47, Quaestio 2</head>
+  				<head xml:id="wdrl1d47-Hd1e3638" type="questionTitle">Utrum possit mutari</head>
+  				<p xml:id="wdrl1d47-d1e3641"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit mutari <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia quamvis <pc ana="#virgula"/> habeat libertatem in eligendo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod perfectionis est <pc ana="#punctus"/> non mutabilitatem <pc ana="#punctus"/> post 
+  					<lb ed="#P"/>modum <pc ana="#virgula"/> post electionem <pc ana="#punctus"/> quia hoc est imperfectionem</p>
+  			</div>
+  			<div xml:id="wdr-l1d47q3" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3675">Librum I, Distinctio 47, Quaestio 3</head>
+  				<head xml:id="wdrl1d47-Hd1e3678" type="questionTitle">utrum possit aliquid praeter <unclear>en</unclear> fieri</head>
+  				<p xml:id="wdrl1d47-d1e3684"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit aliquid praeter <unclear>en</unclear> 
+  					<lb ed="#P"/>fieri <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> ut mala <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>hoc intellige <pc ana="#virgula"/> de voluntate efficere <choice><orig>Nichil</orig><reg>Nihil</reg></choice> 
+  					<lb ed="#P"/>autem fit <pc ana="#virgula"/> praeter voluntatem <del rend="expunctuated">praeter</del> permitten<lb ed="#P"/>tem 
+  					<pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> in littera <pc ana="#virgula"/> contra eam tamen nihil fit <pc ana="#virgula"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d47q4" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3742">Librum I, Distinctio 47, Quaestio 4</head>
+  				<head xml:id="wdrl1d47-Hd1e3745" type="questionTitle">utrum aliquid fiat contra voluntatem signi</head>
+  				<p xml:id="wdrl1d47-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquid fiat contra volun<lb ed="#P"/>tatem 
+  					signi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> contra illa signa 
+  					<lb ed="#P"/>fieri potest <pc ana="#virgula"/> quae sunt illud rei fiendae <pc ana="#virgula"/> ut 
+  					<lb ed="#P"/>sunt praeceptio <pc ana="#punctus"/> consilium prohibitio <pc ana="#virgula"/> Sed 
+  					<lb ed="#P"/>non contra ea <pc ana="#virgula"/> quae sunt in fieri <pc ana="#virgula"/> ut permis<!--drops-->sio 
+  					et operatio</p>
+  			</div>
+  			<div xml:id="wdr-l1d47q5" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3785">Librum I, Distinctio 47, Quaestio 5</head>
+  				<head xml:id="wdrl1d47-Hd1e3788" type="questionTitle">utrum illud quod fit contra voluntatem dei obsequatur ei</head>
+  				<p xml:id="wdrl1d47-d1e3791"><lb ed="#P"/><pc ana="#pilcrow"/>utrum illud quod <pc ana="#punctus"/> 
+  					<lb ed="#P"/>fit contra voluntatem dei obsequatur 
+  					<lb ed="#P"/><pc ana="#punctus"/> ei  <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#GregoryGreat">gregorium</name> et <name ref="#Augustine">augustinum</name> in littera  
+  					<lb ed="#P"/>sed hoc fit per accidens <pc ana="#punctus"/> et per occasionem <pc ana="#punctus"/> sicut 
+  					<lb ed="#P"/>etiam <choice><orig>dyabolus</orig><reg>diabolus</reg></choice> <pc ana="#punctus"/> obsequitur iusto <pc ana="#virgula"/> sic quod fit <pc ana="#virgula"/> 
+  					<lb ed="#P"/>contra voluntatem <pc ana="#virgula"/> signi <pc ana="#punctus"/> obsequitur voluntati 
+  					<lb ed="#P"/><unclear>p</unclear> beneplaciti <pc ana="#punctus"/> sed tamen directe per se secundum 
+  					<lb ed="#P"/>intentionem <pc ana="#virgula"/> <unclear>etm</unclear> bona <choice><sic>obsequntur</sic><corr>obsequuntur</corr></choice> ei <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d47q6" type="quaestio">
+  				<head xml:id="wdrl1d47-Hd1e3868">Librum I, Distinctio 47, Quaestio 6</head>
+  				<head xml:id="wdrl1d47-Hd1e3871" type="questionTitle">utrum deus possit praecipere aliquid mali</head>
+  				<p xml:id="wdrl1d47-d1e3874"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit praecipere 
+  					<lb ed="#P"/>aliquid mali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> malum <pc ana="#virgula"/> manens 
+  					<lb ed="#P"/>malum <pc ana="#punctus"/> non potest praecipere <pc ana="#punctus"/> sicut nec velle <pc ana="#punctus"/> 
+  					sed malum <unclear>p</unclear> illo <pc ana="#virgula"/> quod praecipiendo fit bonum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>non tamen hoc potest fieri in quo<del rend="expunctuated">b</del> malo <pc ana="#punctus"/> 
+  					<lb ed="#P"/>unde non potest praecipere mala <pc ana="#punctus"/> quae sunt 
+  					<lb ed="#P"/>quod inordinatione hominis ad deum <pc ana="#punctus"/> ut quae 
+  					<lb ed="#P"/>sunt contra praecepta <pc ana="#virgula"/> primae tabulae <pc ana="#virgula"/> quia or<lb ed="#P"/>dinem 
+  					creaturae <pc ana="#virgula"/> ad se ipsum non potest infrin<lb ed="#P"/>gere 
+  					<pc ana="#punctus"/> Sed inter mala quae sunt <pc ana="#virgula"/> ex in or<lb ed="#P"/>dinatione 
+  					hominis ad proximum <pc ana="#punctus"/> quaedam 
+  					<lb ed="#P"/>sunt mala in se <pc ana="#virgula"/> sed non secundum se <pc ana="#virgula"/> quae <pc ana="#virgula"/> 
+  					<cb ed="#P" n="43rb"/><lb ed="#P"/>ex aliqua circumstantia possunt bene fieri <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut homine occidere <pc ana="#virgula"/> et haec secundum omnes <pc ana="#virgula"/> deus potest 
+  					<lb ed="#P"/>praecipere <pc ana="#virgula"/> quaedam autem sunt mala in se 
+  					<lb ed="#P"/>et secundum se <pc ana="#virgula"/> ut <unclear>furari?</unclear> et <unclear>fornicari</unclear> et huiusmodi 
+  					<lb ed="#P"/>quae statim nominata convoluta sunt <pc ana="#virgula"/> malo <pc ana="#punctus"/> et 
+  					<lb ed="#P"/>haec <choice><orig>inplicant</orig><reg>implicant</reg></choice> duplicem inordinationem scilicet 
+  					<lb ed="#P"/>ad deum <pc ana="#punctus"/> et ad proximum <pc ana="#virgula"/> ut fartum quod est 
+  					<lb ed="#P"/>contractio rei alienae <pc ana="#virgula"/> invida <pc ana="#virgula"/> haec contra proximum 
+  					<lb ed="#P"/>et fraudulenter <pc ana="#punctus"/> hoc contra deum <pc ana="#punctus"/> similiter <unclear>me<lb ed="#P"/>chari</unclear> 
+  					includit <pc ana="#virgula"/> quod cum aliena <pc ana="#punctus"/> et <unclear>ibidem</unclear> de<lb ed="#P"/>clarandi 
+  					in creatura <pc ana="#virgula"/> contra unum scilicet quod est respectu 
+  					<lb ed="#P"/>dei <pc ana="#virgula"/> non potest praecipere <pc ana="#virgula"/> contra secundum <sic>secundum</sic> quosdam 
+  					<lb ed="#P"/>potest praecipere <pc ana="#virgula"/> ut contractare rem alienam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed non fradulenter <pc ana="#punctus"/> et similiter in aliis <pc ana="#punctus"/> secundum 
+  					<lb ed="#P"/>alios non potest <pc ana="#virgula"/> quia de ordinatio illius includitur 
+  					<lb ed="#P"/>quam deus non potest facere <pc ana="#virgula"/> sed potest deus rem  
+  					<lb ed="#P"/>alienam <pc ana="#virgula"/> vel uxorem in dominum istius transferre <pc ana="#punctus"/> 
+  					<lb ed="#P"/>vel simpliciter vel ad tempus <pc ana="#virgula"/> et sic iam habet eam 
+  					<!-- drops --> ut suam <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

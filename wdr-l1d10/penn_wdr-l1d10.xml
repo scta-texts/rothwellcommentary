@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 10 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 10 [Penn Transcription]</title>
+          <date when="2016-04-11">April 11, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-11">April 11, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+        	<witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<cb ed="#P" n="28ra"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l1d10">
+        <head>Librum I, Distinctio 10 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d10q1" type="quaestio">
+          <head type="questionTitle">Utrum in divinis sint plures modis procedendi quam duo</head>
+          <p><lb ed="#P"/>Quaeritur utrum in divinis sint plures modi 
+          	<lb ed="#P"/>procedendi quam duo Responsio non <pc ana="#virgula"/> quia sola 
+          	<lb ed="#P"/>in divinis distinguit <pc ana="#punctus"/> hanc autem relationem 
+          	<lb ed="#P"/>oportet esse originis <pc ana="#punctus"/> determinatam <pc ana="#punctus"/> habentem perfectionem alicuius 
+          	<lb ed="#P"/>dignitatis <pc ana="#punctus"/> et sine <choice><orig>hiis</orig><reg>his</reg></choice> non fit distinctio personae <pc ana="#punctus"/> <choice><orig>hiis</orig><reg>his</reg></choice> autem 
+          	<lb ed="#P"/>servatis <pc ana="#punctus"/> non potest esse processio <pc ana="#virgula"/> nisi per modum naturae vel voluntatis</p>
+        </div>
+        <div xml:id="wdr-l1d10q2" type="quaestio">
+          <head type="questionTitle">Utrum spiritus sanctus procedat ut amore patris et filii</head>
+        	<p><lb ed="#P"/><g ref="#pilcrow"/>Utrum spiritus sanctus procedat ut amore patris et 
+        		<lb ed="#P"/>filii <pc ana="#punctus"/> Responsio sic secundum <name ref="#Jerome">Ieromum</name> et <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quia bonum increatum 
+        		<lb ed="#P"/>dicitur diffundit <pc ana="#punctus"/> se sicut et bonum creatum scilicet per modum 
+        		<lb ed="#P"/>naturae et voluntatis <pc ana="#virgula"/> et iterum pater et filius secundum quod sunt distinctae 
+        		<lb ed="#P"/>personae non sunt sine amore <g ref="#dot"/> ille autem non potest esse accidens <g ref="#dot"/> 
+        		<!-- run to next line --> ergo substantia <pc ana="#punctus"/></p>
+        </div>
+        <div xml:id="wdr-l1d10q3" type="quaestio">
+          <head type="questionTitle">utrum spiritus sanctus sit caritas sive amor proprie vel appropriate tantum</head>
+          <p><g ref="#pilcrow"/>Utrum spiritus sanctus sit caritas 
+          	<lb ed="#P"/>sive amore proprie vel appropriate tantum Responsio triplex 
+          	<lb ed="#P"/>amor est in divinis scilicet essentialis quo unum sunt naturaliter 
+          	<lb ed="#P"/>se diligendo <pc ana="#punctus"/> <pc ana="#virgula"/> notionalis <pc ana="#virgula"/> quo bonum sunt in spirando <pc ana="#punctus"/> 
+          	<lb ed="#P"/>qui est communis spiratio <pc ana="#virgula"/> personalis quo <unclear>connectuntur</unclear> <pc ana="#pilcrow"/> in amore 
+          	<lb ed="#P"/>spirato scilicet spiritu sancto <pc ana="#virgula"/> primus intelligitur cum dicitur pater 
+          	<lb ed="#P"/>diligit se filius diligit se etc <pc ana="#punctus"/> et hic communis est tribus <pc ana="#punctus"/> Secundus 
+          	<lb ed="#P"/>cum dicitur <pc ana="#virgula"/> pater et filius diligunt se spiritu sancto et tantum  
+          	<lb ed="#P"/>est in patre et filio <pc ana="#punctus"/> <pc ana="#virgula"/> tertius cum dicitur spiritus sanctus amore est 
+          	<lb ed="#P"/>et hic proprius est spiritui sancto <pc ana="#punctus"/> immo ipse est spiritus sanctus scilicet 
+          	<lb ed="#P"/>primus nullo appropriatur ei propter maiorem similitudinem Secundus 
+          	<cb ed="#P" n="28rb"/><lb ed="#P"/>autem non appropriatur ei <pc ana="#punctus"/> hoc habentur hinc inde ab <name ref="#Augustine">augustino</name> in littera</p>
+        </div>
+        <div xml:id="wdr-l1d10q4" type="quaestio">
+          <head type="questionTitle">Utrum procedat a patre in filium et econverso</head>
+        	<p><lb ed="#P"/><g ref="#pilcrow"/>utrum procedat a patre in filium et econverso Responsio 
+        		<lb ed="#P"/>sic scilicet secundum quod aliquid dicitur procedere in aliud tamquam 
+        		<lb ed="#P"/>in obiectum <pc ana="#virgula"/> seu termen actionis <pc ana="#punctus"/> quia sic obiectum nihil recipi 
+        		<lb ed="#P"/>ab operante <pc ana="#punctus"/> Unde <name ref="#Jerome">Jeromus</name> in littera quod est dilectio quam habet pater in fi<lb ed="#P"/>lium 
+        		<pc ana="#punctus"/> et filius in patrem <pc ana="#punctus"/> <pc ana="#virgula"/> quidam tamen nolunt <del rend="strikethrough">concedere</del> hoc concedere 
+        		<lb ed="#P"/>quia non invenitur expressam <pc ana="#punctus"/> Secundum autem quod aliquid procedere 
+        		<lb ed="#P"/>in aliud tamquam in subiectum <pc ana="#punctus"/> sic neutrum verum est</p>
+        </div>
+        <div xml:id="wdr-l1d10q5" type="quaestio">
+          <head type="questionTitle">Utrum Spiritus Sanctus sit unio sive nexus patris et filii</head>
+        	<p><lb ed="#P"/><g ref="#pilcrow"/>utrum spiritus sanctus sit unio sive nexus patris et filii 
+        		<lb ed="#P"/>Responsio sic <g ref="#dot"/> et hoc habet ex modo procedendi <pc ana="#punctus"/> quia procedit 
+            ut amore <pc ana="#punctus"/> <pc ana="#virgula"/> ex ipsa autem processione habet <pc ana="#virgula"/> quod est subsistens 
+            	<!-- drops line --> persona propter oppositum relationis</p>
+        </div>
+        <div xml:id="wdr-l1d10q6" type="quaestio">
+          <head type="questionTitle">Quare tertiae personae appropriatur hoc nomen spiritus sanctus</head>
+        	<p><lb ed="#P"/><g ref="#pilcrow"/>Quare tertiae personae appro<lb ed="#P"/>priatur 
+        		hoc nomen spiritus sanctus Responsio prout est oratio sic toti 
+        		<lb ed="#P"/>trinitati convenit <pc ana="#punctus"/> <pc ana="#virgula"/> sed prout est quasi una dicto <pc ana="#punctus"/> sic usu ecclesiae 
+        		<lb ed="#P"/>appropriatur spiritui sancto <pc ana="#punctus"/> propter modum amoris procedendi 
+        		qui spiritualis est <pc ana="#virgula"/> generatio autem in nobis corporalis <pc ana="#punctus"/> <pc ana="#virgula"/> Item amor 
+        		 <!-- drops line -->nos spirituales facit</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

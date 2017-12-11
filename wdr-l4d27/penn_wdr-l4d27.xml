@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 27 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 27 [Penn Transcription]</title>
+          <date when="2016-05-18">May 18, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-18">May 18, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="124vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d27">
+  			<head xml:id="wdrl4d27-Hd1e3503">Librum IV, Distinctio 27 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d27q1" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3508">Librum IV, Distinctio 27, Quaestio 1</head>
+  				<head xml:id="wdrl4d27-Hd1e3511" type="questionTitle">Quid sit matrimonium</head>
+  				<p xml:id="wdrl4d27-d1e3514"><lb ed="#P"/>Queritur quid sit matrimonium <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Lombard">magistrum</name> in littera <pc ana="#punctus"/> matrimonium est con<lb ed="#P"/>iunctio 
+  					maritalis viri et mulieris inter 
+  					<lb ed="#P"/>legitimas personas individuam iure con<lb ed="#P"/>suetudinem 
+  					retinens <pc ana="#virgula"/> et describitur hic numerum 
+  					<lb ed="#P"/>consummatum <pc ana="#virgula"/> et ponitur primo <unclear>gns <!-- maybe gratian --></unclear> <unclear>coniunctio</unclear> secundo differentia ma<lb ed="#P"/>ritalis 
+  					<pc ana="#punctus"/> et ideo etiam a digniori nominatur scilicet 
+  					<lb ed="#P"/>marito <pc ana="#virgula"/> et hoc materia remota <pc ana="#punctus"/> viri mulieris <pc ana="#punctus"/> 
+  					<lb ed="#P"/><num>4</num> materia <pc ana="#punctus"/> propinqua inter legem <pc ana="#punctus"/> personas <pc ana="#virgula"/> <ref><num>5</num> causa 
+  						finalis <pc ana="#punctus"/> in distinctione vitae consu re <!-- i think this is a reference to gratian somehwere --></ref> Insepara<lb ed="#P"/>bilitas 
+  					enim est bonum <pc ana="#punctus"/> matrimonii <pc ana="#punctus"/> bonum 
+  					<lb ed="#P"/>vero habet rationem finis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q2" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3597">Librum IV, Distinctio 27, Quaestio 2</head>
+  				<head xml:id="wdrl4d27-Hd1e3600" type="questionTitle">Quare dicatur matrimonium</head>
+  				<p xml:id="wdrl4d27-d1e3603"><pc ana="#pilcrow"/><lb ed="#P"/>Quare dicatur matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>matrimonium dicitur secundum <name ref="#Augustine">augustinum</name> a fine <pc ana="#punctus"/> quia ad hoc debet nubere 
+  					<lb ed="#P"/>ut materia fiat <pc ana="#virgula"/> secundum <name ref="#IsidoreOfSeville">ysidorus</name> dicitur ab officio 
+  					<lb ed="#P"/>matrimonium quasi matris munium is est officium <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>in educatione magis est officium matris <pc ana="#virgula"/> quam 
+  					<lb ed="#P"/>patris <pc ana="#virgula"/> coniugium dicitur a coniunctione <pc ana="#punctus"/> Nup<lb ed="#P"/>tiae 
+  					autem <pc ana="#virgula"/> a <choice><orig>sollempni</orig><reg>sollemni</reg></choice> desponsatione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>a nube <pc ana="#virgula"/> quia tunc velantur capita nubentium</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q3" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3662">Librum IV, Distinctio 27, Quaestio 3</head>
+  				<head xml:id="wdrl4d27-Hd1e3665" type="questionTitle">Utrum solus consensus faciat matrimonium</head>
+  				<p xml:id="wdrl4d27-d1e3668"><lb ed="#P"/><pc ana="#pilcrow"/>utrum solus consensus fa<lb ed="#P"/>ciat 
+  					matrimonium <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sanctos in littera <pc ana="#virgula"/> concurrente tamen cum hac 
+  					<lb ed="#P"/>constitutione divina  <pc ana="#punctus"/> nam sui potestatem trans<lb ed="#P"/>ferre 
+  					non possent <pc ana="#virgula"/> nisi de consensu <unclear>communis</unclear> <unclear>divini</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q4" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3703">Librum IV, Distinctio 27, Quaestio 4</head>
+  				<head xml:id="wdrl4d27-Hd1e3706" type="questionTitle">Utrum requiratur consensus per verba expressius</head>
+  				<p xml:id="wdrl4d27-d1e3709"><lb ed="#P"/><pc ana="#pilcrow"/>utrum requiratur consensus per verba ex<lb ed="#P"/>pressius 
+  					<pc ana="#punctus"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Lombard">magistrum</name> in littera <pc ana="#virgula"/> quia 
+  					<lb ed="#P"/>sacramentum requirit signa exterius <pc ana="#punctus"/> unde 
+  					<lb ed="#P"/>etiam potest fieri per signa alia praesentium 
+  					<!-- drops --> ut mutorum vel litteras absentium</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q5" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3742">Librum IV, Distinctio 27, Quaestio 5</head>
+  				<head xml:id="wdrl4d27-Hd1e3745" type="questionTitle">Utrum consensus simulatis tantum cum expressione verborum faciat matrimonium</head>
+  				<p xml:id="wdrl4d27-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>consensus simulatus tantum <pc ana="#punctus"/> cum expressione 
+  					<lb ed="#P"/>verborum faciat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non ecclesia 
+  					<lb ed="#P"/>tamen <pc ana="#virgula"/> secundum verba iudicat <pc ana="#virgula"/> nisi probetur ei simulatio</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q6" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3775">Librum IV, Distinctio 27, Quaestio 6</head>
+  				<head xml:id="wdrl4d27-Hd1e3778" type="questionTitle">Utrum religionis ingressus possit solvere matrimonium initiatum</head>
+  				<p xml:id="wdrl4d27-d1e3781"><cb ed="#P" n="125ra"/><lb ed="#P"/>Utrum religionis ingressus possit 
+  					<lb ed="#P"/>solvere matrimonium initiatum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic secundum <pc ana="#punctus"/> canones <pc ana="#punctus"/> quia sicut mors 
+  					<lb ed="#P"/>carnalis solvit vinculum carnale <pc ana="#punctus"/> 
+  					<!-- drops --> ita spiritualis spirituale</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q7" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3808">Librum IV, Distinctio 27, Quaestio 7</head>
+  				<head xml:id="wdrl4d27-Hd1e3811" type="questionTitle">Utrum post matrimonium initiatum statim teneatur exactus reddere debitum</head>
+  				<p xml:id="wdrl4d27-d1e3814"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>post <pc ana="#punctus"/> matrimonium initiatum statim tene<lb ed="#P"/>atur 
+  					<pc ana="#virgula"/> exactus reddere debitum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> si vult <pc ana="#punctus"/> deliberare de religionis 
+  					<lb ed="#P"/>ingressu <pc ana="#punctus"/> non tenetur infra <pc ana="#punctus"/> duos men<lb ed="#P"/>ses 
+  					<pc ana="#punctus"/> <ref><title>extra</title> de conv 9</ref> si <pc ana="#punctus"/> non <pc ana="#punctus"/> puta <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod tenetur cum non habeant exceptionem <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q8" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3867">Librum IV, Distinctio 27, Quaestio 8</head>
+  				<head xml:id="wdrl4d27-Hd1e3870" type="questionTitle">Utrum si interim in vita a viro cognoscitur possit ingredi monasterium</head>
+  				<p xml:id="wdrl4d27-d1e3873"><pc ana="#pilcrow"/><lb ed="#P"/>utrum sis interim <pc ana="#punctus"/> in vita a 
+  					<lb ed="#P"/>viro cognoscitur <pc ana="#virgula"/> possit ingre<lb ed="#P"/>di 
+  					monasterium <pc ana="#punctus"/> jResponsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia <choice><orig>con<lb ed="#P"/>sumatum</orig><reg>con<lb ed="#P"/>summatum</reg></choice> 
+  					est <space unit="chars" quantity="5"/> matrimonium nec est omnino vio<lb ed="#P"/>lenta 
+  					<pc ana="#punctus"/> quia ante translata fuit mu<!-- drops -->tua 
+  					potestas</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q9" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3915">Librum IV, Distinctio 27, Quaestio 9</head>
+  				<head xml:id="wdrl4d27-Hd1e3918" type="questionTitle">Utrum matrimonium consummatum possit solvi per religionis ingressum</head>
+  				<p xml:id="wdrl4d27-d1e3921"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium <choice><orig>consu<lb ed="#P"/>matum</orig><reg>consu<lb ed="#P"/>mmatum</reg></choice> 
+  					possit solvi per religio<lb ed="#P"/>nis 
+  					ingressum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quo ad 
+  					<lb ed="#P"/>vinculum <pc ana="#punctus"/> sed quo ad chorum de consensu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>utriusque significat enim coniunctionem christi <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ad naturam humanam quae indivisibilis est <pc ana="#punctus"/> In<lb ed="#P"/>itiatum 
+  					autem coniunctionem cum fidei anima quae 
+  					<!-- drops --> divisibilis est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q10" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e3968">Librum IV, Distinctio 27, Quaestio 10</head>
+  				<head xml:id="wdrl4d27-Hd1e3971" type="questionTitle">Utrum qui in vito coniunge intravit et postea redditur eo mortuo teneatur redire ad monasterium</head>
+  				<p xml:id="wdrl4d27-d1e3974"><lb ed="#P"/><pc ana="#pilcrow"/>utrum qui in 
+  					<lb ed="#P"/>vito coniunge instravit et postea redditur eo mortuo teneatur 
+  					<lb ed="#P"/>redire ad monasterium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <pc ana="#punctus"/> 
+  					<lb ed="#P"/><name>Gaus?</name> quod non <pc ana="#punctus"/> si sine consensu eius in<lb ed="#P"/>travit 
+  					quia non potuit <choice><orig>sollempnizare</orig><reg>sollemnizare</reg></choice> votum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Si autem de consensu eius intravit <pc ana="#virgula"/> illa <pc ana="#punctus"/> 
+  					<lb ed="#P"/>manente in saeculo quia suspecta non est 
+  					<lb ed="#P"/>de incontinentia <pc ana="#virgula"/> non potest revocari <pc ana="#punctus"/> Si 
+  					<lb ed="#P"/>autem quia suspecta est revocatur <pc ana="#virgula"/> ea 
+  					<lb ed="#P"/>mortua debet redire ad monasterium <pc ana="#punctus"/> quia 
+  					<cb ed="#P" n="125rb"/><lb ed="#P"/>primus de consensu eius intraverat <pc ana="#virgula"/> et cessat 
+  					<lb ed="#P"/>impedimentum <pc ana="#punctus"/> nec potest contrahere matrimonium</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q11" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4044">Librum IV, Distinctio 27, Quaestio 11</head>
+  				<head xml:id="wdrl4d27-Hd1e4047" type="questionTitle">Utrum per mutuum consensum sine ingressu religionis solvatur matrimonium</head>
+  				<p xml:id="wdrl4d27-d1e4050"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per mutuum consensum 
+  					<lb ed="#P"/>sine ingressus religionis sol<lb ed="#P"/>vatur 
+  					matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quam<lb ed="#P"/>vis 
+  					per mutuum consensum construatur <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia secundum <pc ana="#punctus"/> <ref><name>Innocentium</name> <title>extra</title> <num>i</num></ref> spiritualia difficilius 
+  					<lb ed="#P"/>destruimur <pc ana="#virgula"/> quam construantur <pc ana="#virgula"/> corporalia <pc ana="#punctus"/> econverso <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q12" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4097">Librum IV, Distinctio 27, Quaestio 12</head>
+  				<head xml:id="wdrl4d27-Hd1e4100" type="questionTitle">Quid sint sponsalia</head>
+  				<p xml:id="wdrl4d27-d1e4103"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sint sponsalia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>futurarum nuptiarum sponsio <pc ana="#virgula"/> et haec proprie 
+  					<lb ed="#P"/>large tamen accipiuntur pro matrimonio incho<lb ed="#P"/>ato 
+  					<pc ana="#virgula"/> haec fiunt <num>4</num> modis <pc ana="#punctus"/> Item quibusdam 
+  					<lb ed="#P"/>conditionibus appositis irrita sunt <pc ana="#punctus"/> quibusdam 
+  					<lb ed="#P"/>vero non <pc ana="#punctus"/> Item in <num>viiio</num> casibus solvuntur 
+  					<lb ed="#P"/>de hiis quare in summis</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q13" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4145">Librum IV, Distinctio 27, Quaestio 13</head>
+  				<head xml:id="wdrl4d27-Hd1e4148" type="questionTitle">Quo tempore contrahi possunt</head>
+  				<p xml:id="wdrl4d27-d1e4151"><lb ed="#P"/>Quo tempore contrahi possunt <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> a septimo anno <pc ana="#virgula"/> quia quamvis tunc 
+  					<lb ed="#P"/>per se non intelligat <pc ana="#punctus"/> tamen ab alio potest 
+  					<lb ed="#P"/>aliqualiter capere <pc ana="#punctus"/> ad matrimonium autem fortior ab<lb ed="#P"/>ligatio 
+  					requiritur et ideo etiam maior discretio <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q14" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4178">Librum IV, Distinctio 27, Quaestio 14</head>
+  				<head xml:id="wdrl4d27-Hd1e4181" type="questionTitle">Utrum habens plures uxores sit irregularis</head>
+  				<p xml:id="wdrl4d27-d1e4184"><lb ed="#P"/><pc ana="#pilcrow"/>utrum habens plures uxores <pc ana="#virgula"/> sit 
+  					<lb ed="#P"/>irregularis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> propter <pc ana="#punctus"/> defectum 
+  					<lb ed="#P"/>sacramenti <pc ana="#punctus"/> in quo significatur <pc ana="#virgula"/> coniunctio unius ecclesiae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>cum christo <pc ana="#punctus"/> In super signum est incontinentiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q15" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4219">Librum IV, Distinctio 27, Quaestio 15</head>
+  				<head xml:id="wdrl4d27-Hd1e4222" type="questionTitle">Utrum ducens corruptam sit irregularis</head>
+  				<p xml:id="wdrl4d27-d1e4225"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ducens corruptam 
+  					<lb ed="#P"/>sit <del rend="strikethrough">irregularis</del> irregularis 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> qui duxit plures <pc ana="#punctus"/> proprie dicitur bigamus 
+  					<lb ed="#P"/>sed qui corruptam <pc ana="#punctus"/> <unclear>interpretative</unclear> <pc ana="#punctus"/> sive 
+  					<lb ed="#P"/>similitudinarie <pc ana="#virgula"/> quia deficit sacramentum <pc ana="#punctus"/> sicut in prima</p>
+  			</div>
+  			<div xml:id="wdr-l4d27q16" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4261">Librum IV, Distinctio 27, Quaestio 16</head>
+  				<head xml:id="wdrl4d27-Hd1e4264" type="questionTitle">Utrum irregularitas bigamiae tollatur per baptismum</head>
+  				<p xml:id="wdrl4d27-d1e4267"><lb ed="#P"/>utrum irregularitas bigamiae 
+  					<lb ed="#P"/>tollatur per baptismum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> opinio <name ref="#Jerome">Ieromi</name> 
+  					<lb ed="#P"/>fuit <pc ana="#virgula"/> quod sic <pc ana="#virgula"/> sed <name ref="#Augustine">augustinus</name> <name ref="#Ambrose">ambrosus</name> et ecclesia 
+  					<lb ed="#P"/>sentiunt quod non <pc ana="#punctus"/> quia baptismus tantum 
+  					<lb ed="#P"/>ordinatur contra peccatum <pc ana="#virgula"/> et contra sequelas peccati <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d27q17" type="quaestio">
+  				<head xml:id="wdrl4d27-Hd1e4307">Librum IV, Distinctio 27, Quaestio 17</head>
+  				<head xml:id="wdrl4d27-Hd1e4310" type="questionTitle">Utrum papa cum bigamo possit dispensare</head>
+  				<p xml:id="wdrl4d27-d1e4313"><cb ed="#P" n="125va"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum papa cum bigamo possit dispen<lb ed="#P"/>sare 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum Iura <pc ana="#punctus"/> quia par est apostolis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et praecipue cum bigamo <pc ana="#virgula"/> secundum interpetationem <pc ana="#punctus"/> 
+  					<lb ed="#P"/>iuris <pc ana="#punctus"/> quidam tamen dicunt contrarium  de ordinibus 
+  					<lb ed="#P"/>qui erant sacri tempore apostolorum ut dyaconatus 
+  					<!-- drops --> et presbyteratus <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

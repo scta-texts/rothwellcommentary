@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 30 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 30 [Penn Transcription]</title>
+          <date when="2016-05-01">May 01, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-01">May 01, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="35vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d30">
+  			<head xml:id="wdrl1d30-Hd1e3503">Librum I, Distinctio 30 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d30q1" type="quaestio">
+  				<head xml:id="wdrl1d30-Hd1e3508">Librum I, Distinctio 30, Quaestio 1</head>
+  				<head xml:id="wdrl1d30-Hd1e3511" type="questionTitle">utrum aliqua dicatur de Deo ex tempore</head>
+  				<p xml:id="wdrl1d30-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum aliqua dicantur 
+  					<lb ed="#P"/>de deo ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quadruplex est praedicatio scilicet 
+  					<lb ed="#P"/>per essentiam <pc ana="#punctus"/> per denominationem sive per inhaerentiam <pc ana="#punctus"/> per causam <pc ana="#punctus"/> 
+  					<lb ed="#P"/>per relationem sive habitudinem ut esse dextrum alicui <pc ana="#punctus"/> primo 
+  					<lb ed="#P"/>et secundo modo nihil dicitur de deo ex tempore <pc ana="#punctus"/> immediate sed mediate 
+  					natura assumpta <pc ana="#punctus"/> quia mutabilis esset <pc ana="#punctus"/> <unclear>termino</unclear> autem modo sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut <unclear>pacia? ma?</unclear> <pc ana="#punctus"/> salus <unclear>ma</unclear> <pc ana="#punctus"/> similiter quarto modo <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/>dominus creator <pc ana="#punctus"/> et huiusmodi secundum <name ref="#Augustine">augustinum</name> in littera quia connotant effectum 
+  					<!-- drops --> in creatura</p>
+  			</div>
+  			<div xml:id="wdr-l1d30q2" type="quaestio">
+  				<head xml:id="wdrl1d30-Hd1e3580">Librum I, Distinctio 30, Quaestio 2</head>
+  				<head xml:id="wdrl1d30-Hd1e3583" type="questionTitle">Utrum dicatur de deo per se 
+  					vel per accidens</head>
+  				<p xml:id="wdrl1d30-d1e3586"><lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur de deo per se 
+  					<lb ed="#P"/>vel per accidens <pc ana="#punctus"/> Responsio dici aliquid per accidens potest in<lb ed="#P"/>telligi 
+  					aut per oppositum addici secundum substantiam <pc ana="#virgula"/> aut 
+  					<lb ed="#P"/>ad dici per se <pc ana="#punctus"/> aut addici semper <pc ana="#punctus"/> sive <choice><orig>neccessario</orig><reg>necessario</reg></choice> primo modo secundum <name ref="#Augustine">augustinum</name> 
+  					<lb ed="#P"/>nihil de deo dicitur secundum accidens secundo modo dici per accidens possunt 
+  					<cb ed="#P" n="36ra"/><lb ed="#P"/>quae conveniunt deo per naturam assumptam <pc ana="#punctus"/> <unclear>termino</unclear> modo secundum <name ref="#HilaryOfPoitiers">hillarium</name> <pc ana="#punctus"/> dicitur esse de 
+  					<lb ed="#P"/>creatura per accidens <pc ana="#punctus"/> et sic quae ex tempore de deo dicuntur <pc ana="#virgula"/> per accidens 
+  					<lb ed="#P"/>dicuntur <pc ana="#punctus"/> quantum ad connotant <pc ana="#punctus"/> nunquam ad principale significatum super quod 
+  					<lb ed="#P"/>fundantur illud autem accidens secundum <name ref="#Augustine">augustinum</name> in littera non est <unclear>dei</unclear> sed alterius</p>
+  			</div>
+  			<div xml:id="wdr-l1d30q3" type="quaestio">
+  				<head xml:id="wdrl1d30-Hd1e3656">Librum I, Distinctio 30, Quaestio 3</head>
+  				<head xml:id="wdrl1d30-Hd1e3659" type="questionTitle">Utrum dicantur secundum substantiam vel secundum relationem</head>
+  				<p xml:id="wdrl1d30-d1e3662"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum dicantur secundum substantiam <pc ana="#punctus"/> vel secundum relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> significant 
+  					<lb ed="#P"/>principali divinam essentiam <pc ana="#punctus"/> quia dicunt habitudine dei ad creaturam 
+  					<lb ed="#P"/>per aliquem effectum <unclear>cantum</unclear> <pc ana="#punctus"/> Inter hoc autem <pc ana="#punctus"/> quidam connotant respectum 
+  					<lb ed="#P"/>temporale ad deum ut ad principium ut dicens creator <pc ana="#punctus"/> et haec conveniunt 
+  					<lb ed="#P"/>toti trinitati <pc ana="#punctus"/> quidam vero connotant relationem aeternum personae ad personam 
+  					<lb ed="#P"/>ut missus <pc ana="#punctus"/> et haec conveniunt tantum personae illi cui <del rend="strikethrough">cre</del> convenit <unclear>r?s</unclear> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quaedam nullo connotant respectum temporalem creaturae ad unam personam 
+  					<lb ed="#P"/>determinatam <pc ana="#punctus"/> sicut ad terminum non tantum ut ad principium ut in<lb ed="#P"/>carnatus 
+  					<unclear>unde</unclear> etiam illi tantum convenit</p>
+  			</div>
+  			<div xml:id="wdr-l1d30q4" type="quaestio">
+  				<head xml:id="wdrl1d30-Hd1e3724">Librum I, Distinctio 30, Quaestio 4</head>
+  				<head xml:id="wdrl1d30-Hd1e3727" type="questionTitle">Utrum ponant aliquam relationem in deo realem</head>
+  				<p xml:id="wdrl1d30-d1e3730"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ponant aliquam relationem in deo realem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>sed tantum in creatura <pc ana="#punctus"/> <del rend="strikethrough">ponitur</del> ratio ponitur <ref>sententia quaestio 1</ref> <pc ana="#virgula"/> nihilominus tantum aliquid 
+  					<lb ed="#P"/>est in deo <pc ana="#punctus"/> super quod illa relatio fundatur <pc ana="#punctus"/> ut quod creator <pc ana="#punctus"/> super 
+  					<lb ed="#P"/>potentiam operationem et huiusmodi <pc ana="#punctus"/> et ideo non est cassa <pc ana="#virgula"/> <pc ana="#punctus"/> Nota ergo <pc ana="#punctus"/> quod relatio 
+  					<lb ed="#P"/>quandoque realiter est in utroque extremorum ut pater et filius <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque 
+  					<lb ed="#P"/>in altero tantum <pc ana="#punctus"/> ut scientia <pc ana="#punctus"/> et scibile <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque in neutro sed in anima 
+  					<lb ed="#P"/>tantum <pc ana="#punctus"/> ut relatio eiusdem ad seipsum <pc ana="#punctus"/> Item quod ratio tripliciter apprehen<lb ed="#P"/>dit 
+  					se ipsum formam rei scilicet vel <del rend="expunctuated">omnino</del> quae omnino est in re <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/>lapis vel quae nullo modo <pc ana="#punctus"/> ut chimerae <pc ana="#punctus"/> aliquando partim in re <pc ana="#punctus"/> partim 
+  					<lb ed="#P"/>non <pc ana="#punctus"/> vel <del rend="strikethrough">fom</del> forma universalis <pc ana="#punctus"/> quae in singularibus fundatur tamen 
+  					<!-- drops --> non est ibi universalis</p>
+  			</div>
+  			<div xml:id="wdr-l1d30q5" type="quaestio">
+  				<head xml:id="wdrl1d30-Hd1e3827">Librum I, Distinctio 30, Quaestio 5</head>
+  				<head xml:id="wdrl1d30-Hd1e3830" type="questionTitle">Utrum esse divini conveniat deo ab aeterno vel ex tempore</head>
+  				<p xml:id="wdrl1d30-d1e3833"><lb ed="#P"/><pc ana="#pilcrow"/>utrum esse divini conveniat deo ab 
+  					<lb ed="#P"/>aeterno <pc ana="#punctus"/> vel ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> convenit ei ex tempore <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et hic largo dicendo ex tempore id est cum tempore <pc ana="#punctus"/> et tunc ex <pc ana="#punctus"/>
+  					<lb ed="#P"/>dicit concomitantiam solam <pc ana="#punctus"/> <pc ana="#virgula"/> Si autem ex <pc ana="#punctus"/> dicit ordinem et 
+  					<!-- drops --> convenientiam <pc ana="#punctus"/> sic dicendum quod non <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

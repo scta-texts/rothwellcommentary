@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 5 [Aarau Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 5 [Aarau Transcription]</title>
+          <date when="2015-07-04">July 04, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-07-04">July 04, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-04" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+          xpointer="worksCited"/>
+        <xi:include
+          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+          xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <cb ed="#A" n="109rb" select="kba-WettF0015_109r.json"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l1d5">
+        <head>Librum I, Distinctio 5 [Aarau Transcription]</head>
+        <div xml:id="wdr-l1d5q1" type="quaestio">
+          <head type="questionTitle">Utrum essentia divina sit generans</head>
+          <p><lb ed="#A"/>Queritur utrum essentia divina sit generans Responsio in 
+            <lb ed="#A"/>littera quod non <g ref="#dot"/> <g ref="#slash"/> quia actus et operationes tantum supposi<lb ed="#A"/>torum 
+            sunt etiam in creaturis <g ref="#dot"/> unde suppositum per formam agit 
+            <lb ed="#A"/>non ipsa forma <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d5q2" type="quaestio">
+          <head type="questionTitle">Utrum concedendum sit quod essentia divina sit pater</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum concedendum sit quod essentia divina sit pater Responsio Si 
+            <lb ed="#A"/>hoc nomen patri accipitur <unclear>substantem</unclear> vera est <g ref="#dot"/> quia sic habet 
+            <lb ed="#A"/>in se intellectum suppositi cui inest paternitas <g ref="#dot"/> et est praedicatio 
+            <lb ed="#A"/>per <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> Si autem adiective accipitur <g ref="#slash"/> falsa est <g ref="#slash"/> quia 
+            <lb ed="#A"/><unclear>notatur <!-- nominatur --></unclear> inesse paternitas essentiae <g ref="#dot"/> et sit praedicatio per inhaerentiam <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d5q3" type="quaestio">
+          <head type="questionTitle">Utrum essentia possit dici genita</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>utrum essentia possit dici genita Responsio in creaturis 
+            <lb ed="#A"/>quamvis suppositum primo et principaliter generatur <g ref="#slash"/> tamen essentia 
+            <lb ed="#A"/>ex consequenti <g ref="#dot"/> quia inesse producitur <g ref="#slash"/> <!-- fancy slash --> sed in divinis non 
+            <lb ed="#A"/>generatur nisi suppositum non essentia <g ref="#slash"/> quia eandem essentiam ac<lb ed="#A"/>cipit 
+            <g ref="#slash"/>nisi velis aliquid dicere generari id est per generationem 
+            <lb ed="#A"/>communicari <g ref="#dot"/> sed hic est improprie <g ref="#dot"/> Idem in littera</p>
+        </div>
+        <div xml:id="wdr-l1d5q4" type="quaestio">
+          <head type="questionTitle">Utrum possit dici essentia de essentia</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum possit dici essentia de essentia Responsio non nisi est magna 
+            <lb ed="#A"/>improprietate <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> Nota ergo quod nominum quaedam sunt pure personalia <g ref="#dot"/> et 
+            <lb ed="#A"/>hic proprie supponunt pro persona <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> quaedam pure essentialia et haec 
+            <lb ed="#A"/>supponant pro sola essentia <g ref="#dot"/> <g ref="#slash"/> quaedam medio modo se habentia <g ref="#dot"/> 
+            <lb ed="#A"/>vel propter <sic>cointellectum</sic> suppositi <g ref="#slash"/> nec concreta <g ref="#dot"/> vel alicuius actus vel mo<lb ed="#A"/>di 
+            qui personae convenit <g ref="#slash"/> nec abstracta <g ref="#dot"/> et hic magis vel minus proprie 
+            <lb ed="#A"/>supponit pro persona <g ref="#slash"/> secundum quod magis vel minus accedunt 
+            <cb ed="#A" n="109va" select="kba-WettF0015_109v.json"/><lb ed="#A"/>ad modum significandi personalem <g ref="#dot"/> <g ref="#slash"/> proprissime ergo suppo<lb ed="#A"/>nit 
+            pro persona nomen personae proprium <g ref="#cot"/> ut pater <g ref="#dot"/> <g ref="#slash"/> postea nomen commune ut <choice><orig>y<lb ed="#A"/>postasis</orig><reg>hy<lb ed="#A"/>postasis</reg></choice> 
+            <g ref="#dot"/> <g ref="#slash"/> postea terminus naturalis concretus <g ref="#slash"/> nec deus <g ref="#dot"/> postea 
+            <lb ed="#A"/>huius potentia bonitas <g ref="#dot"/> etc <g ref="#dot"/> <g ref="#slash"/> postea iste terminus <g ref="#slash"/> substantia <g ref="#dot"/> ul<lb ed="#A"/>timo 
+            autem et improprissime <g ref="#slash"/> <g ref="#slash"/> hoc terminus <g ref="#slash"/> essentia</p>
+        </div>
+        <div xml:id="wdr-l1d5q5" type="quaestio">
+          <head type="questionTitle">Utrum filius sit de substantia patris</head>
+          <p>Utrum filius sit de substantia patris Responsio sic <g ref="#dot"/> sancti in littera <g ref="#dot"/> 
+            <lb ed="#A"/>et accipitur ibi li <mentioned>de</mentioned> <g ref="#dot"/> non pure substantialiter <g ref="#dot"/> nec pure origi<lb ed="#A"/>naliter 
+            <g ref="#dot"/> sed mixtim <g ref="#slash"/> quia filius et consubstantialis est patri et 
+            <lb ed="#A"/>ab eo processit <g ref="#dot"/></p>
+        </div>
+        <div xml:id="wdr-l1d5q6" type="quaestio">
+          <head type="questionTitle">Utrum filius sit de nihilo vel etiam pater possit dici esse de nihilo</head>
+          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum filius sit de nihilo <g ref="#dot"/> vel etiam pater possit dici esse de nihilo <g ref="#dot"/> 
+            <lb ed="#A"/>Responsio esse de nihilo secundum <name ref="#Anselm"><unclear>anselmum</unclear></name> <g ref="#dot"/> tripliciter accipitur <g ref="#dot"/> <g ref="#slash"/> quia <unclear>negatio</unclear> 
+            <lb ed="#A"/>inclusa ita nihilo si explicetur potest cadere super verbum 
+            <lb ed="#A"/>et sic accipitur negative <g ref="#dot"/> et hic modo pater posset dici esse 
+            <lb ed="#A"/>de nihilo <g ref="#dot"/> sed iste modus non est usitatus in scriptura <g ref="#dot"/> et 
+            <lb ed="#A"/>ideo non debet dici <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> sine explicatione <g ref="#slash"/> aut negatio potest 
+            <lb ed="#A"/>sequi verbum <g ref="#dot"/> et tunc li <mentioned>de</mentioned> <g ref="#dot"/> potest teneri materialiter <g ref="#dot"/> et sic de 
+            <lb ed="#A"/>nihilo nihil fit <g ref="#dot"/> <g ref="#slash"/> aut ordinaliter <g ref="#dot"/> et sic omnis <g ref="#dot"/> et sola 
+            <lb ed="#A"/>creatura est de nihilo <g ref="#dot"/> et sic communiter accipitur <g ref="#dot"/></p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

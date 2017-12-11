@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 21 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 21 [Penn Transcription]</title>
+          <date when="2016-04-23">April 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-23">April 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="32va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d21">
+  			<head xml:id="wdrl1d21-Hd1e3503">Librum I, Distinctio 21 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d21q1" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3508" type="questionTitle">Utrum vere possit dici solus deus est creator</head>
+  				<p xml:id="wdrl1d21-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum <del rend="strikethrough">muere</del> vere possit dici solus 
+  					<lb ed="#P"/>deus est creator <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex est <pc ana="#punctus"/> quia <unclear>haec dictio</unclear> solus 
+  					<lb ed="#P"/>privat <unclear>ass??tionem</unclear> <pc ana="#punctus"/> aute ergo simpliciter et sic ponit soli<lb ed="#P"/>tudinem 
+  					circa deum <pc ana="#punctus"/> et sic <subst><del rend="strikethrough">plura</del> <add place="inLine">falsa</add></subst> aut respectu alicuius 
+  					<lb ed="#P"/>et hic dicitur aut enim intelligitur fieri exclusio aliorum a 
+  					<lb ed="#P"/>participatione formae subiecti <pc ana="#punctus"/> propter <choice><orig>inplicationem</orig><reg>implicationem</reg></choice> <unclear>sub intellectam</unclear> 
+  					<lb ed="#P"/>scilicet qui est <pc ana="#punctus"/> et sic vera sub hoc sensu <pc ana="#punctus"/> ille qui solus est deus 
+  					<lb ed="#P"/>et nullus praeter ipsum est deus <pc ana="#punctus"/> est creator <pc ana="#punctus"/> autem a partici<lb ed="#P"/>patione 
+  					formae praedicati <pc ana="#punctus"/> sic etiam vera sub hoc sensu <pc ana="#punctus"/> solus ille 
+  					<cb ed="#P" n="32vb"/><lb ed="#P"/>qui est deus <pc ana="#punctus"/> est creator</p>
+  			</div>
+  			<div xml:id="wdr-l1d21q2" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3596" type="questionTitle">Utrum haec sit vera solus deus est pater</head>
+  				<p xml:id="wdrl1d21-d1e3599"><lb ed="#P"/><pc ana="#pilcrow"/>utrum haec sit vera <pc ana="#punctus"/> solus deus est pater 
+  					<lb ed="#P"/>Responsio distinguenda est sicut praedicta <pc ana="#punctus"/> et similiter in primo sensu falsa <pc ana="#punctus"/> 
+  					<lb ed="#P"/>in aliis vera <pc ana="#punctus"/> <unclear>Intellige</unclear> tamen secundum <del rend="strikethrough">secundum</del> quod pater ex usu lo<lb ed="#P"/>quendi 
+  					stat per persona patris aeterni <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d21q3" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3629" type="questionTitle">Utrum haec salus pater est deus</head>
+  				<p xml:id="wdrl1d21-d1e3632"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum haec <pc ana="#punctus"/> salus pater <pc ana="#virgula"/> <pc ana="#punctus"/> est deus <pc ana="#punctus"/> Responsio quidam dicunt 
+  					<lb ed="#P"/>quod deo exclusiva addita <subst><del rend="strikethrough">una</del> <add place="inLine">uni</add></subst> personae non excludit 
+  					<lb ed="#P"/>aliam respectu praedicti essentialis <pc ana="#punctus"/> quia in illo unum sunt <pc ana="#punctus"/> sed tantum 
+  					<lb ed="#P"/>respectu praedicti personalis <pc ana="#punctus"/> Sed melius dicendum <pc ana="#punctus"/> quod haec distinguenda est 
+  					<lb ed="#P"/>ut praedictae <pc ana="#punctus"/> in primo sensu vera <pc ana="#punctus"/> In secundum falsa ut praedictae <pc ana="#punctus"/> Sed in <unclear>t?o</unclear> 
+  					<lb ed="#P"/>ad huc duplex <pc ana="#punctus"/> quia cum solus idem sit quod non cum alio <pc ana="#virgula"/> 
+  					<lb ed="#P"/>haec potest intelligi <pc ana="#punctus"/> vel neutraliter <pc ana="#punctus"/> vel masculine et primo modo 
+  					<!-- drops --> propositio est vera <pc ana="#punctus"/>secundo <pc ana="#punctus"/> falsa <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d21q4" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3703" type="questionTitle">Utrum <unclear>haec</unclear> solus pater est pater</head>
+  				<p xml:id="wdrl1d21-d1e3709"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <unclear>haec</unclear> solus 
+  					<lb ed="#P"/>pater <pc ana="#punctus"/> est pater <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> distinguenda secunda secundum tres sensus ut 
+  					<lb ed="#P"/>primae duae eodem modo ut ille est vera vel falsa <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d21q5" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3733" type="questionTitle">Utrum haec trinitas est solus deus</head>
+  				<p xml:id="wdrl1d21-d1e3736"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum haec trinitas est solus deus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quidam dicunt quod si haec <unclear>dcio</unclear> addatur habuit <pc ana="#punctus"/> 
+  					<lb ed="#P"/><unclear>t?o</unclear> deus <pc ana="#virgula"/> in praedicto et hoc cum altera determinatione <pc ana="#punctus"/> ut 
+  					<lb ed="#P"/>si dicatur trinitas est unus solus deus <pc ana="#punctus"/> et similia <pc ana="#punctus"/> quod 
+  					<lb ed="#P"/>propositio vera est <pc ana="#punctus"/> et propria <pc ana="#punctus"/> quia fit exclusio aliorum a partici<lb ed="#P"/>patione 
+  					huius formarum <pc ana="#punctus"/> Si autem sine determinatione tunc 
+  					<lb ed="#P"/>si solus ponitur adverbialiter <pc ana="#punctus"/> per solum <pc ana="#punctus"/> tunc iterum <unclear>secundo</unclear> vera 
+  					<lb ed="#P"/>est et propria <pc ana="#punctus"/> Si autem nominaliter <pc ana="#punctusfluxus"/> <unclear>secundo</unclear> est falsa <pc ana="#punctus"/> et <choice><orig>inpropria</orig><reg>impropria</reg></choice> 
+  					<lb ed="#P"/>et superflua <pc ana="#virgula"/> <!-- fancy --> Secundum alios dicendum <pc ana="#punctus"/> quod haec <unclear>dcio <!-- decisio --></unclear> solus 
+  					<lb ed="#P"/>congrue addi potest huic termino <mentioned>deus</mentioned> in praedicto quia habet naturam 
+  					<lb ed="#P"/>termini communis <pc ana="#punctus"/> et etiam singularis <ref>supra distinctio 4 quaestio 8</ref> unde potest 
+  					<lb ed="#P"/>fieri <unclear>assotiatio</unclear> <pc ana="#punctus"/> et assotiationis exclusio quamvis non 
+  					<lb ed="#P"/>aliis terminis communibus qui <del rend="strikethrough">a</del> in praedicto statum tantum pro forma 
+  					<lb ed="#P"/>communi <pc ana="#virgula"/> <pc ana="#punctus"/> aut ergo fit exclusio a praedcito simpliciter <pc ana="#punctus"/> et sic est 
+  					<lb ed="#P"/>falsa <pc ana="#punctus"/> quia ponit solitudinem <pc ana="#virgula"/> aut respectu alicuius formae 
+  					<lb ed="#P"/>determinatae <pc ana="#punctus"/> aut ergo aliorum substantiorum <pc ana="#virgula"/> ab eodem praedicto 
+  					<lb ed="#P"/>aut aliorum praedictorum ab eodem subiecto <pc ana="#punctus"/> et utroque modo <unclear>veri est propositio</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l1d21q6" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3876" type="questionTitle">utrum haec pater est solus deus</head>
+  				<p xml:id="wdrl1d21-d1e3879"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <add place="belowLine">haec</add> pater est solus deus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> vera est 
+  					<cb ed="#P" n="33ra"/><lb ed="#P"/>si solus <del rend="expunctuated">est</del> ponitur adverbialiter <pc ana="#punctus"/> <pc ana="#virgula"/> Item si nomen est et exclu<lb ed="#P"/>dit 
+  					a forma praedicti aliud neutraliter vera est <pc ana="#punctus"/> si autem 
+  					<!-- drops line --> masculine falsa est --&gt;</p>
+  			</div>
+  			<div xml:id="wdr-l1d21q7" type="quaestio">
+  				<head xml:id="wdrl1d21-Hd1e3911" type="questionTitle">Utrum possit dici quod deus est solus</head>
+  				<p xml:id="wdrl1d21-d1e3914"><pc ana="#pilcrow"/>Utrum possit dici 
+  					<lb ed="#P"/>quod deus est solus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non secundum hic quia ibi est 
+  					<lb ed="#P"/>pluralitas personarum unde simpliter non est dicendus solus <del rend="strikethrough">deus</del> 
+  					<lb ed="#P"/>quamvis respectu alicuius attributi possit dici solus</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

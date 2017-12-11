@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 25 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 25 [Penn Transcription]</title>
+          <date when="2016-04-27">April 27, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-27">April 27, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="34ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d25">
+  			<head>Librum I, Distinctio 25 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d25q1" type="quaestio">
+  				<head type="questionTitle">Quid sit persona</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>ueritur quid sit persona <pc ana="#punctus"/> Responsio secundum <name>boetium</name> libro <title ref="#Consolation">de consolatione</title> <unclear>dicitur</unclear> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>natur persona est rationalis nec individua substantia <pc ana="#punctus"/> <pc ana="#virgula"/> posita autem 
+  					<lb ed="#P"/>in hac diffinitione <pc ana="#punctus"/> conveniunt personis divinis <pc ana="#punctus"/> large accepta<lb ed="#P"/>nt 
+  					intellectuale sit rationale <pc ana="#punctus"/> <pc ana="#virgula"/> Individuum pro incommunicabili 
+  						<!-- drops --> substantia pro existentia</p>
+  			</div>
+  			<div xml:id="wdr-l1d25q2" type="quaestio">
+  				<head type="questionTitle">utrum persona dicatur univoce de personis creatis et increatis</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum persona dicatur uni<lb ed="#P"/>voce 
+  					de personis creatis et increatis Responsio analogi<lb ed="#P"/>ce 
+  					dicitur et quantum ad rem significatam <pc ana="#punctus"/> per prius convenit deo <pc ana="#punctus"/> sed quantum 
+  					<lb ed="#P"/>ad modum significandi per prius creaturis <pc ana="#punctus"/> quia ab humanis 
+  					<lb ed="#P"/>ad divina translatum est ut dicit <name ref="#Boethius">boetius</name> <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d25q3" type="quaestio">
+  				<head type="questionTitle">utrum sit commune respectu personarum divinarum</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit commune respectu personarum divinarum <pc ana="#punctus"/> Responsio communitate rei 
+  					<lb ed="#P"/>sola essentia communis est tribus personis <pc ana="#punctus"/> commune <unclear>??</unclear> <pc ana="#punctus"/> <unclear>enim</unclear> est eis esse <unclear>persona <!-- could be personam --></unclear> 
+  					<lb ed="#P"/>ut dicit <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> et hoc communitate rationis <pc ana="#punctus"/> quia secundum unam rationem 
+  					<lb ed="#P"/>convenit eis <pc ana="#punctus"/> hanc communitatem ratonis quidam dicunt esse <pc ana="#virgula"/> tantum ne<lb ed="#P"/>gationis  
+  					<pc ana="#punctus"/> quia individuum cadit in diffinitione personae <pc ana="#punctus"/> alii communitatem 
+  					<lb ed="#P"/>intentionis fundatae super intellectum tantum <pc ana="#punctus"/> alii communius quod 
+  					<lb ed="#P"/>est communitas rationis fundatae etiam super rem non solum in diversis 
+  					<lb ed="#P"/>numero <pc ana="#punctus"/> <choice><orig>Inportat</orig><reg>Importat</reg></choice> enim respectum ad nullam communem <pc ana="#virgula"/> et ad proprietatem</p>
+  			</div>
+  			<div xml:id="wdr-l1d25q4" type="quaestio">
+  				<head type="questionTitle">Utrum persona idem significet in singulari et in plurali</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum persona idem significet in singulari 
+  					<lb ed="#P"/>et in plurali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicebant quod non <pc ana="#punctus"/> Sed 
+  					<lb ed="#P"/>communis opinion est <pc ana="#virgula"/> quod sic <pc ana="#punctus"/> et quamvis significet substantiam simul 
+  					<lb ed="#P"/>et proprietatem relationem tamen principaliter in divinis scilicet sed non generaliter 
+  						<!-- drops line --> <ref>supra distinctio 13 quaestio <unclear>7</unclear></ref></p>
+  			</div>
+  			<div xml:id="wdr-l1d25q5" type="quaestio">
+  				<head type="questionTitle">Utrum possit dici alia persona</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici alia persona 
+  					<lb ed="#P"/>patris <pc ana="#punctus"/> alia filii <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> in symbolo et <ref><name ref="#Augustine">augustinus</name> in littera</ref> 
+  					<lb ed="#P"/>pluralitas enim personarum quae non est alienitas simpliciter <pc ana="#virgula"/> non 
+  					<lb ed="#P"/>repugnant unitati essentiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d25q6" type="quaestio">
+  				<head type="questionTitle">Utrum possit dici tres personae eiusdem essentiae</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum possit dici tres personae eiusdem essentiae 
+  					<cb ed="#P" n="34rb"/><lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> <pc ana="#virgula"/> quia essentia secundum modum intelli<lb ed="#P"/>gendi 
+  					se habet in ratione formae ad personis nihilominus tamen propter <choice><orig>ydemp<lb ed="#P"/>titatem</orig><reg>iden<lb ed="#P"/>titatem</reg></choice> 
+  					rei melius dicitur tres personae una essentia <pc ana="#virgula"/> <!-- fancy --> Nota etiam quod 
+  					<lb ed="#P"/>in divinis constructio obliquarum tantum fit secundum habitudinem 
+  					<lb ed="#P"/>duarum causarum scilicet efficientis ut ita loquar ut cum dicitur filius patris 
+  					<lb ed="#P"/>et formalis <pc ana="#punctus"/> ut cum dicitur tres personae unius essentiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d25q7" type="quaestio">
+  				<head type="questionTitle">utrum possit dici tres personae tres res vel tres entes</head>
+  				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres personae tres res 
+  					<lb ed="#P"/>vel tres entes <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si res accipitur absolute 
+  					<lb ed="#P"/>sic non potest <pc ana="#punctus"/> <pc ana="#virgula"/> si <unclear>relatae</unclear> creavit enim omne genus <pc ana="#punctus"/> sic potest <pc ana="#punctus"/> unde 
+  					<lb ed="#P"/><name ref="#Augustine">augustinus</name> dicit in littera <pc ana="#punctus"/> quod sunt tres res <pc ana="#punctus"/> <pc ana="#virgula"/> Ens autem si accipiatur 
+  					<lb ed="#P"/><unclear>adiective</unclear> sic dicitur in plurali <pc ana="#punctus"/> sic <ref><name ref="#JohnDamascenus">damascenus</name> in littera</ref> loquitur si substantem 
+  						<!-- drops --> sic non</p>
+  			</div>
+  		</div>
+  		
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 3 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 3 [Penn Transcription]</title>
+          <date when="2016-05-05">May 05, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-05">May 05, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="107rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d3">
+  			<head xml:id="wdrl4d3-Hd1e3503">Librum IV, Distinctio 3 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d3q1" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3508">Librum IV, Distinctio 3, Quaestio 1</head>
+  				<head xml:id="wdrl4d3-Hd1e3511" type="questionTitle">Quid sit baptismus</head>
+  				<p xml:id="wdrl4d3-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur quid sit <unclear>baptismus <!-- baptismus seems spelled incorrectly here --></unclear> 
+  					<lb ed="#P"/>Responsio <name ref="#Lombard">magister</name> quod est intentio id est ablutio corporis 
+  					<lb ed="#P"/>exterior <pc ana="#punctus"/> facta sub forma verborum praescriptura <pc ana="#punctuselevatus"/> <name ref="#Augustine">augustinus</name> 
+  					<lb ed="#P"/>dicit quaestione idem scilicet quod est tinctio in aqua <pc ana="#punctus"/> verbo vire sancti<lb ed="#P"/>ficata 
+  					<pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> et <name>Iohannes</name> tamen quod in baptismo sunt tria <pc ana="#punctus"/> 
+  					<lb ed="#P"/>scilicet sacramentum tantum scilicet ablutio sub forma verborum <pc ana="#punctus"/> 
+  					<cb ed="#P" n="107va"/><lb ed="#P"/>Sacramentum et res scilicet <choice><orig>karacter</orig><reg>character</reg></choice> res tantum scilicet gratia 
+  					<lb ed="#P"/>et hoc <choice><sic>differitur</sic><corr>differtur</corr></choice> quod est sacramentum tantum <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q2" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3583">Librum IV, Distinctio 3, Quaestio 2</head>
+  				<head xml:id="wdrl4d3-Hd1e3586" type="questionTitle">Utrum verbum vocale sit de essentia baptismi</head>
+  				<p xml:id="wdrl4d3-d1e3589"><lb ed="#P"/><pc ana="#pilcrow"/>utrum verbum vocale sit de essentia baptismi 
+  					<lb ed="#P"/>Responsio tria sunt de essentia <pc ana="#punctus"/> <unclear><name ref="#Lombard">magister</name></unclear> <pc ana="#punctus"/> aquae <pc ana="#punctus"/> forma verbi <pc ana="#punctus"/> intentio 
+  					ministri <pc ana="#virgula"/> ista duo copulas <pc ana="#virgula"/> sed quia verba 
+  					<!-- drops --> <ref type="commentary" target="http://scta.info/resource/wdrl4d1-uavcte">supra prima distinctio quaestione 7</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q3" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3620">Librum IV, Distinctio 3, Quaestio 3</head>
+  				<head xml:id="wdrl4d3-Hd1e3623" type="questionTitle">Quid sit de substantia formae</head>
+  				<p xml:id="wdrl4d3-d1e3626"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit de substantia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>formae <pc ana="#punctus"/> Responsio forma latinorum est <pc ana="#punctus"/> Ego <pc ana="#punctus"/> te <pc ana="#punctus"/> 
+  					<lb ed="#P"/>baptizo <pc ana="#punctus"/> in <pc ana="#punctus"/> nomine <pc ana="#punctus"/> patri <pc ana="#punctus"/> et <pc ana="#punctus"/> filii <pc ana="#punctus"/> spiritus sancti <pc ana="#punctus"/> amen <ref><title>extra</title> <num>vi</num> 
+  						<lb ed="#P"/> de baptismo</ref> <pc ana="#virgula"/> forma graecorum est haec <pc ana="#punctus"/> baptizetur servus 
+  					<lb ed="#P"/>christi in nomine <pc ana="#punctus"/> patri <pc ana="#punctus"/> etc <pc ana="#punctus"/> <pc ana="#virgula"/> Invocatio ergo trinitatis est de 
+  					<lb ed="#P"/>substantia <pc ana="#punctus"/> quia ab institutione divinae eset <pc ana="#punctus"/> Similiter 
+  					<lb ed="#P"/>expressio actus et personae baptizandi sunt de substantia <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>idem apud omnes exprimitur et ideo videtur descen<lb ed="#P"/>disse 
+  					a traditione apostolica <pc ana="#punctus"/> sed modus exprimendi 
+  					<lb ed="#P"/>est diversus inter latini et graecae ideo non est de substantia quam<lb ed="#P"/>vis 
+  					quidam dicant quod sic tamen est de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <pc ana="#punctus"/> 
+  					<!-- drops --> baptizantis quia aliter <unclear>peccavit</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q4" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3724">Librum IV, Distinctio 3, Quaestio 4</head>
+  				<head xml:id="wdrl4d3-Hd1e3727" type="questionTitle">utrum expressio trium personarum sit de necessitate formae</head>
+  				<p xml:id="wdrl4d3-d1e3730"><lb ed="#P"/><pc ana="#pilcrow"/>utrum expre<lb ed="#P"/>ssio 
+  					trium personarum sit de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> formae 
+  					<lb ed="#P"/>Responsio si voluntarie fit vacuum est sacramentum 
+  					<lb ed="#P"/><pc ana="#virgula"/>Sed si ex <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <pc ana="#punctus"/> ut quia puer moritur 
+  					<lb ed="#P"/>pie creditur quod deus <choice><orig>supleat</orig><reg>suppleat</reg></choice> tutius tamen est 
+  					<!-- drops --> baptizari si super <unclear>vixerit</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q5" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3773">Librum IV, Distinctio 3, Quaestio 5</head>
+  				<head xml:id="wdrl4d3-Hd1e3776" type="questionTitle">Si nunc valeret baptizari in nomine christi</head>
+  				<p xml:id="wdrl4d3-d1e3779"><lb ed="#P"/><pc ana="#pilcrow"/>Si nunc va<lb ed="#P"/>leret 
+  					baptizari in nomine christi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secundum quod theologi convenienter dicunt <pc ana="#virgula"/> quamvis quidam 
+  					<lb ed="#P"/>quod sic <pc ana="#virgula"/> <unclear>nisi</unclear> essent eaedem causae <pc ana="#virgula"/> quae tunc scilicet 
+  					<lb ed="#P"/>speciale consilium spiritus sancti implicita expressio 
+  					<lb ed="#P"/>trinitatis <pc ana="#virgula"/> reverentia nominis christi <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q6" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3817">Librum IV, Distinctio 3, Quaestio 6</head>
+  				<head xml:id="wdrl4d3-Hd1e3820" type="questionTitle">Quae mutatio formae evacuat baptismum</head>
+  				<p xml:id="wdrl4d3-d1e3823"><lb ed="#P"/><pc ana="#pilcrow"/>Quae mutatio formae evacuat baptismum 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/>si ponuntur nomina quae non significant personas 
+  					<lb ed="#P"/>sed notionalia ut genitor etc <pc ana="#punctus"/> vacuum est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>si corrumpatur rota vel in parte <pc ana="#punctus"/> si manet 
+  					<lb ed="#P"/>significata <pc ana="#punctus"/> saltem secundum a commodationem usus 
+  					<lb ed="#P"/>valet <pc ana="#punctus"/> si addatur ex devotione vel simplicitate 
+  					<lb ed="#P"/>non nocet <pc ana="#punctus"/> Si ex perversitate ut <name ref="#Arius">arrius</name> 
+  					<cb ed="#P" n="107vb"/><lb ed="#P"/>nocet Si derivatur <pc ana="#virgula"/> ex voluntate non 
+  					<lb ed="#P"/>valet <pc ana="#virgula"/> Si ex <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <pc ana="#punctus"/> pie creditur <pc ana="#virgula"/> quod usque 
+  					<lb ed="#P"/>si fiat transpositio <pc ana="#punctus"/> ex simplicitate <pc ana="#punctus"/> non nocet <pc ana="#punctus"/> 
+  					<lb ed="#P"/>si ex perversitate haeretica <pc ana="#punctus"/> non valet <pc ana="#punctus"/> si inter<lb ed="#P"/>positio 
+  					est modica <pc ana="#punctus"/> non nocet <pc ana="#punctus"/> si <pc ana="#punctus"/> magna <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ita quod discontinuat actum <pc ana="#virgula"/> tunc 
+  					<!-- drops --> non valet</p>
+  			</div>
+  			<div xml:id="wdr-l4d3q7" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3915">Librum IV, Distinctio 3, Quaestio 7</head>
+  				<head xml:id="wdrl4d3-Hd1e3918" type="questionTitle">Utrum convenienter fiat in aqua</head>
+  				<p xml:id="wdrl4d3-d1e3921"><pc ana="#punctus"/><pc ana="#pilcrow"/>utrum convenienter fiat in 
+  					<lb ed="#P"/>aqua <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia <unclear>hmdum</unclear> primum prin<lb ed="#P"/>cipium 
+  					vitae est <pc ana="#punctus"/> Item quia baptismus <pc ana="#punctus"/> refrigerat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>abluit <pc ana="#punctus"/> illuminat Item fit in qua propter fa<lb ed="#P"/>cilitatem 
+  					et utilitatem secundum <name ref="#Ambrose">ambrosum</name> in littera <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q8" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3960">Librum IV, Distinctio 3, Quaestio 8</head>
+  				<head xml:id="wdrl4d3-Hd1e3963" type="questionTitle">In qua aqua possit fieri</head>
+  				<p xml:id="wdrl4d3-d1e3966"><pc ana="#punctus"/>Responsio in omni ubi remanet species aqueae <pc ana="#punctuselevatus"/> 
+  					<lb ed="#P"/>quantumcumque alias alterius unde potest fieri in mare
+  					<!-- drops --> et in paludibus</p>
+  			</div>
+  			<div xml:id="wdr-l4d3q9" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e3979">Librum IV, Distinctio 3, Quaestio 9</head>
+  				<head xml:id="wdrl4d3-Hd1e3982" type="questionTitle">Utrum aliqua vis in sit aquae</head>
+  				<p xml:id="wdrl4d3-d1e3985"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliqua vis 
+  					<lb ed="#P"/>in sit aequae <pc ana="#punctus"/> Responsio quidam <del rend="expunctuated">quod</del> et dicunt 
+  					<lb ed="#P"/>quod non <pc ana="#punctus"/> sed tantum <pc ana="#punctus"/> sunt ad hoc <unclear>duputate</unclear> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>alii verius quod sic <pc ana="#punctus"/> sed incompleta <pc ana="#punctus"/> et <unclear>q</unclear> 
+  					<lb ed="#P"/>passiva <pc ana="#punctus"/> est eis data in baptismo christi sed <choice><orig>con<lb ed="#P"/>pleta</orig><reg>com<lb ed="#P"/>pleta</reg></choice> 
+  					et actam in usu <pc ana="#punctus"/> ut cum aliquis baptizatur 
+  					<!-- drops --> <ref target="http://scta.info/resource/wdrl4d1-uavcte">supra distinctione 1 quaestione 7</ref></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q10" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e4043">Librum IV, Distinctio 3, Quaestio 10</head>
+  				<head xml:id="wdrl4d3-Hd1e4046" type="questionTitle">Utrum immersio sit necessaria</head>
+  				<p xml:id="wdrl4d3-d1e4049"><lb ed="#P"/><pc ana="#pilcrow"/>utrum immersio 
+  					<lb ed="#P"/>sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/>  non <pc ana="#punctus"/> quia per asperionem 
+  					<lb ed="#P"/>vel superfusionem aquae potest fieri <pc ana="#punctus"/> tamen con<lb ed="#P"/>suetudo 
+  					cuiuslibet ecclesiae ibi servanda est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q11" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e4080">Librum IV, Distinctio 3, Quaestio 11</head>
+  				<head xml:id="wdrl4d3-Hd1e4083" type="questionTitle">Utrum trina immersio sit necessaria</head>
+  				<p xml:id="wdrl4d3-d1e4086"><lb ed="#P"/><pc ana="#pilcrow"/>utrum trina immersio sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#GregoryGreat">gregorium</name> in littera <pc ana="#punctus"/> tamen ubi est 
+  					<lb ed="#P"/>consuetudo <pc ana="#virgula"/> servandum est et <pc ana="#punctus"/> secundum sanctos haec 
+  					<!-- drops --> consuetudo melior est</p>
+  			</div>
+  			<div xml:id="wdr-l4d3q12" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e4125">Librum IV, Distinctio 3, Quaestio 12</head>
+  				<head xml:id="wdrl4d3-Hd1e4128" type="questionTitle">Quae pars immersi debeat</head>
+  				<p xml:id="wdrl4d3-d1e4131"><lb ed="#P"/><pc ana="#pilcrow"/>Quae pars 
+  					<lb ed="#P"/>immersi debeat <pc ana="#punctus"/> Responsio secundum celebriorem 
+  					<lb ed="#P"/>opinionem <pc ana="#virgula"/> baptizato capite <pc ana="#punctus"/> totum est baptizatum <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>in eo <pc ana="#virgula"/> vigent omnes sensus et non sic de aliis 
+  					<!-- drops --> <choice><orig>menbris</orig><reg>membris</reg></choice></p>
+  			</div>
+  			<div xml:id="wdr-l4d3q13" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e4163">Librum IV, Distinctio 3, Quaestio 13</head>
+  				<head xml:id="wdrl4d3-Hd1e4166" type="questionTitle">Quando baptizatus fuit institutus</head>
+  				<p xml:id="wdrl4d3-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>Quando baptizatus fuit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>institutus <!-- maybe something else small here --> Responsio <pc ana="#punctus"/> occulte fuit institutus 
+  					<lb ed="#P"/>ante passionem <pc ana="#punctus"/> et tunc fuit in consilio 
+  					<cb ed="#P" n="108ra"/><lb ed="#P"/>post passionem <pc ana="#punctus"/> promulgatus omnibus et tunc 
+  					<!-- drops --> <unclear>fuit<!-- spelling actually looks like fiunt --></unclear> in praecepto</p>
+  			</div>
+  			<div xml:id="wdr-l4d3q14" type="quaestio">
+  				<head xml:id="wdrl4d3-Hd1e4202">Librum IV, Distinctio 3, Quaestio 14</head>
+  				<head xml:id="wdrl4d3-Hd1e4205" type="questionTitle">Quando cessaverint legalia</head>
+  				<p xml:id="wdrl4d3-d1e4208"><lb ed="#P"/><pc ana="#pilcrow"/>Quando cessaverint 
+  					<lb ed="#P"/>legalia <pc ana="#punctus"/> Responsio secundum <name ref="#HughOfStVictor">hugo</name> circumcisio obligavit 
+  					<lb ed="#P"/>et profuit usque ad passionem christi <pc ana="#punctus"/> <pc ana="#virgula"/> et tunc mor<lb ed="#P"/>tua 
+  					fuit <pc ana="#virgula"/> <pc ana="#punctus"/> sed post divulgatum <unclear>evangelium</unclear> <pc ana="#punctus"/> etiam 
+  					<lb ed="#P"/>mortificatum fuit <pc ana="#virgula"/> sed ab institutione baptismi usque 
+  					<lb ed="#P"/>ad passionem christi <pc ana="#punctus"/> baptismus cum circumcisione 
+  					<lb ed="#P"/>currebatur <pc ana="#virgula"/> uno proficiente <pc ana="#virgula"/> altero defi<lb ed="#P"/>ciente 
+  					<pc ana="#virgula"/> sed a passione usque <unclear>ad vulgatum</unclear> 
+  					<lb ed="#P"/>evangelium observari poterat et ob reverentiam 
+  					<lb ed="#P"/>non tamen spes in ea ponenda <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 35 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 35 [Penn Transcription]</title>
+          <date when="2016-05-20">May 20, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-20">May 20, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="128rb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d35">
+  			<head xml:id="wdrl4d35-Hd1e3503">Librum IV, Distinctio 35 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d35q1" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3508">Librum IV, Distinctio 35, Quaestio 1</head>
+  				<head xml:id="wdrl4d35-Hd1e3511" type="questionTitle">Utrum liceat viro uxorem dimittere causa fornicationis</head>
+  				<p xml:id="wdrl4d35-d1e3514"><lb ed="#P"/>Quaeritur utrum liceat viro ux<lb ed="#P"/>orem 
+  					dimittere <pc ana="#punctus"/> causa fornicationis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio sic secundum <choice><orig>euvanglium</orig><reg>evanglium</reg></choice> et hoc modum ad<lb ed="#P"/>ulteri 
+  					et favorem fidem servantis <pc ana="#punctus"/> 
+  					<cb ed="#P" n="128va"/><lb ed="#P"/>quando autem culpa alterius adiungitur <pc ana="#punctus"/> 
+  					<lb ed="#P"/>vel culpa istius non est <pc ana="#punctus"/> quod fit in <num>vii</num> 
+  					<lb ed="#P"/>casibus non potest dimittere quare in summis</p>
+  			</div>
+  			<div xml:id="wdr-l4d35q2" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3555">Librum IV, Distinctio 35, Quaestio 2</head>
+  				<head xml:id="wdrl4d35-Hd1e3558" type="questionTitle">Utrum teneatur adulterantem dimittere</head>
+  				<p xml:id="wdrl4d35-d1e3561"><lb ed="#P"/><pc ana="#pilcrow"/>utrum teneatur adulterantem dim<lb ed="#P"/>ittere 
+  					Responsio <pc ana="#punctus"/> si oculum est et probari non 
+  					<lb ed="#P"/>potest <pc ana="#punctus"/> non debet dimitti <pc ana="#punctus"/> propter <pc ana="#punctus"/> scandalum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Sed si manifestum <pc ana="#punctus"/> et perserverat in malitia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>tenetur dimittere <pc ana="#punctus"/> Si autem correcta est 
+  					<lb ed="#P"/>potest retinere si vult <pc ana="#punctus"/> amen</p>
+  			</div>
+  			<div xml:id="wdr-l4d35q3" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3599">Librum IV, Distinctio 35, Quaestio 3</head>
+  				<head xml:id="wdrl4d35-Hd1e3602" type="questionTitle">Utrum sine iudicio ecclesiae possit dimitti</head>
+  				<p xml:id="wdrl4d35-d1e3605"><pc ana="#pilcrow"/><lb ed="#P"/>utrum sine iudicio ecclesiae pos<lb ed="#P"/>sit 
+  					dimitti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quo ad chorum 
+  					<lb ed="#P"/>in occulto negando <pc ana="#virgula"/> ei debitum <pc ana="#virgula"/> si con<lb ed="#P"/>tat 
+  					ei de adulterio <pc ana="#virgula"/> nisi compellatur ab ecclesia 
+  					<lb ed="#P"/>et tunc non generatur ei privatio accusa<lb ed="#P"/>tionis 
+  					<pc ana="#virgula"/> Sed quo ad cohabitationem non 
+  					<!-- drops --> licet sine iudicio ecclesiae</p>
+  			</div>
+  			<div xml:id="wdr-l4d35q4" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3641">Librum IV, Distinctio 35, Quaestio 4</head>
+  				<head xml:id="wdrl4d35-Hd1e3644" type="questionTitle">Utrum uxor propter adulterium similiter possit dimittere virum sicut econverso</head>
+  				<p xml:id="wdrl4d35-d1e3647"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum uxor 
+  					<lb ed="#P"/>propter adulterium similiter possit di<lb ed="#P"/>mittere 
+  					virum <pc ana="#virgula"/> sicut econverso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secundum <name ref="#Jerome">Ieromum</name> in littera quia uterque aequaliter pec<lb ed="#P"/>cant 
+  					<pc ana="#virgula"/> contra bonum fidei <pc ana="#virgula"/> <pc ana="#punctus"/> Simpliciter autem 
+  					<lb ed="#P"/>plus peccant <pc ana="#virgula"/> viri propter maiorem <choice><orig>hubundantiam</orig><reg>abundantiam</reg></choice> 
+  					<lb ed="#P"/>rationis <pc ana="#punctus"/> <pc ana="#virgula"/> uxor tamen plus contra 
+  					<lb ed="#P"/>Iura matrimonii <pc ana="#punctus"/> quibusdam tamen bonum videtur <pc ana="#punctus"/> 
+  					<lb ed="#P"/> quod uxor numquam tenetur dimittere virum 
+  					<lb ed="#P"/>sicut aliquando econverso <pc ana="#punctus"/> licet possit <pc ana="#virgula"/> quia non est ei prae<!-- drops -->lata <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d35q5" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3718">Librum IV, Distinctio 35, Quaestio 5</head>
+  				<head xml:id="wdrl4d35-Hd1e3721" type="questionTitle">Utrum post divortium possit aliis nubere</head>
+  				<p xml:id="wdrl4d35-d1e3724"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum post divortium 
+  					<lb ed="#P"/>possit aliis nubere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>adhuc manet <pc ana="#virgula"/> inter eos vinculum 
+  					<lb ed="#P"/>coniugale <pc ana="#virgula"/> quia nullum <choice><orig>inpedimentum</orig><reg>impedimentum</reg></choice> 
+  					<lb ed="#P"/>superveniens <pc ana="#virgula"/> solvere potest nisi mors <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d35q6" type="quaestio">
+  				<head xml:id="wdrl4d35-Hd1e3761">Librum IV, Distinctio 35, Quaestio 6</head>
+  				<head xml:id="wdrl4d35-Hd1e3764" type="questionTitle">Utrum post divortium possit reconciliari</head>
+  				<p xml:id="wdrl4d35-d1e3767"><lb ed="#P"/><pc ana="#pilcrow"/>utrum post divortium possit 
+  					<lb ed="#P"/>reconciliari <lb ed="#P"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> adulterans 
+  					<lb ed="#P"/>correctus est <pc ana="#virgula"/> alias non <pc ana="#virgula"/> tenetur etiam 
+  					<lb ed="#P"/>ad hoc reus <pc ana="#punctus"/> si petatur ab innocente 
+  					<cb ed="#P" n="128vb"/><lb ed="#P"/>et cogi debet <pc ana="#virgula"/> sed non econverso <pc ana="#punctus"/> tenetur etiam 
+  					<lb ed="#P"/>prius innocens <pc ana="#virgula"/> si post adulteratus 
+  					<lb ed="#P"/>est <pc ana="#punctus"/> et cogi debet nisi statum mutaverint <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

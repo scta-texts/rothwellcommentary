@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 40 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 40 [Penn Transcription]</title>
+          <date when="2016-05-23">May 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-23">May 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="130va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d40">
+  			<head xml:id="wdrl4d40-Hd1e3503">Librum IV, Distinctio 40 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d40q1" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3508">Librum IV, Distinctio 40, Quaestio 1</head>
+  				<head xml:id="wdrl4d40-Hd1e3511" type="questionTitle">Utrum consanguinitas sic inter homines</head>
+  				<p xml:id="wdrl4d40-d1e3514"><lb ed="#P"/>Quaeritur 
+  					<lb ed="#P"/>utrum consanguinitas <pc ana="#punctus"/> sic inter homines <pc ana="#punctus"/> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quae scilicet est communicatio sanguinis sive 
+  					<lb ed="#P"/>naturae per originem unius ab altero <pc ana="#punctus"/> quae ideo <pc ana="#virgula"/> 
+  					<lb ed="#P"/>in hominibus assignatur <pc ana="#virgula"/> quia in eis <pc ana="#punctus"/> haec communicatio 
+  					<lb ed="#P"/>recognoscitur <del rend="expunctuated">sic</del> non sic autem in brutis <pc ana="#punctus"/> de<lb ed="#P"/>belitatur 
+  					tantum per admixtionem alieni 
+  					<lb ed="#P"/>sanctis paulatim haec similitudo sanguinis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d40q2" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3562">Librum IV, Distinctio 40, Quaestio 2</head>
+  				<head xml:id="wdrl4d40-Hd1e3565" type="questionTitle">Quid sit consanguinitas et qualiter distinguatur</head>
+  				<p xml:id="wdrl4d40-d1e3568"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit consanguinitas <pc ana="#punctus"/> et qua<lb ed="#P"/>liter 
+  					distinguatur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Consang<lb ed="#P"/>uintas 
+  					est vinculum personarum ab eodem 
+  					<cb ed="#P" n="130vb"/><lb ed="#P"/>stipite descendentium a carnali pro<lb ed="#P"/>pagatione 
+  					contractum <pc ana="#punctus"/> distinguitur autem 
+  					<lb ed="#P"/>per gradus <pc ana="#virgula"/> quaelibet autem persana <pc ana="#punctus"/> in linea 
+  					<lb ed="#P"/>ascendentium <pc ana="#punctus"/> et descendentium <pc ana="#punctus"/> unum 
+  					<lb ed="#P"/>gradum facit <pc ana="#virgula"/> quidam ponit <del rend="expunctuated">st</del> patrem 
+  					<lb ed="#P"/>esse stipitem <pc ana="#punctus"/> fratres <pc ana="#punctus"/> atuem in primo gradu <pc ana="#punctus"/> 
+  					<lb ed="#P"/>alii autem nepotes <pc ana="#punctus"/> in prima gradu <pc ana="#punctus"/> filios 
+  					<lb ed="#P"/>autem patre <seg type="correction">stipitem<del rend="expunctuated">s</del></seg> <pc ana="#virgula"/> quia <unclear>sunt</unclear> una <unclear>caro</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d40q3" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3645">Librum IV, Distinctio 40, Quaestio 3</head>
+  				<head xml:id="wdrl4d40-Hd1e3648" type="questionTitle">Utrum debeat impedire matrimonium</head>
+  				<p xml:id="wdrl4d40-d1e3651"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum debeat <choice><orig>inpedire</orig><reg>impedire</reg></choice> matrimonium 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> et hoc <pc ana="#punctus"/> cum patre et matre <pc ana="#punctus"/> ex 
+  					<lb ed="#P"/>lege nature <ref><title ref="#gen">genesis</title> 1</ref> quibus maior reverentia 
+  					<lb ed="#P"/>debetur <pc ana="#virgula"/> quam uxori <pc ana="#punctus"/> ex lege divina <pc ana="#punctus"/> 
+  					<lb ed="#P"/><choice><orig>inpedit</orig><reg>impedit</reg></choice> usque ad secundum gradum <pc ana="#punctus"/> ne debetur 
+  					<lb ed="#P"/>occasio luxuriae <pc ana="#punctus"/> quia talis solent 
+  					<lb ed="#P"/>simul manere <pc ana="#punctus"/> propter statutum ecclesiae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>hodie <choice><orig>inpedit</orig><reg>impedit</reg></choice> usque ad <num>4</num> gradum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et hoc propter dilatationem amicitiae</p>
+  			</div>
+  			<div xml:id="wdr-l4d40q4" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3728">Librum IV, Distinctio 40, Quaestio 4</head>
+  				<head xml:id="wdrl4d40-Hd1e3731" type="questionTitle">Usque ad quotum gradum protendatur impedimentum</head>
+  				<p xml:id="wdrl4d40-d1e3734"><lb ed="#P"/><pc ana="#pilcrow"/>usque ad quotum gradum proten<lb ed="#P"/>datur 
+  					inpedimentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nunc 
+  					<lb ed="#P"/>usque ad quartum gradum inclusive <pc ana="#virgula"/> 
+  					<lb ed="#P"/>usque ad illum gradum consuevit tantum 
+  					<lb ed="#P"/>vigere <unclear>amicitiam</unclear> et etiam memoriam consanguinitatis</p>
+  			</div>
+  			<div xml:id="wdr-l4d40q5" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3761">Librum IV, Distinctio 40, Quaestio 5</head>
+  				<head xml:id="wdrl4d40-Hd1e3764" type="questionTitle">Utrum matrimonium infidelium contractum in gradum prohibito post conversionem debeat separari</head>
+  				<p xml:id="wdrl4d40-d1e3767"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium infidelium contractum in gra<lb ed="#P"/>dum 
+  					prohibito post conversionem de<lb ed="#P"/>beat 
+  					separari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi sit in 
+  					<lb ed="#P"/>gradu prohibito <pc ana="#virgula"/> lege naturali <pc ana="#punctus"/> vel divina <pc ana="#punctus"/> 
+  					<lb ed="#P"/><ref>supra quaestionem</ref> est <pc ana="#punctus"/> quibus legibus <pc ana="#punctus"/> etiam infidelis subia<lb ed="#P"/>cent 
+  					<pc ana="#virgula"/> sed non statutis ecclesiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d40q6" type="quaestio">
+  				<head xml:id="wdrl4d40-Hd1e3808">Librum IV, Distinctio 40, Quaestio 6</head>
+  				<head xml:id="wdrl4d40-Hd1e3811" type="questionTitle">Utrum matrimonium ante concilium in 5 et 6 gradu contractum post concilium debuerit separari</head>
+  				<p xml:id="wdrl4d40-d1e3814"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum matrimonium ante concilium in 5 <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et 6 gradu contractum <pc ana="#punctus"/> post con<lb ed="#P"/>cilium 
+  					debuerit separari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quia non fuit matrimonium <pc ana="#punctus"/> nisi per novum consensus 
+  					<lb ed="#P"/>tacitum vel expressum <pc ana="#punctus"/> cessante <choice><orig>in<lb ed="#P"/>pedimento</orig><reg>im<lb ed="#P"/>pedimento</reg></choice> 
+  					<pc ana="#punctus"/> voluissent contrahere <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

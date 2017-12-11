@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 33 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 33 [Penn Transcription]</title>
+          <date when="2016-05-19">May 19, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-19">May 19, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="127va"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d33">
+  			<head xml:id="wdrl4d33-Hd1e3503">Librum IV, Distinctio 33 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d33q1" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3508">Librum IV, Distinctio 33, Quaestio 1</head>
+  				<head xml:id="wdrl4d33-Hd1e3511" type="questionTitle">Utrum bigamia sit contra ius naturale</head>
+  				<p xml:id="wdrl4d33-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum bigamia sit contra 
+  					<lb ed="#P"/>ius naturale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum <pc ana="#punctus"/> quod proprie accipitur 
+  					<lb ed="#P"/>ius naturale scilicet quod recta ratio dictat 
+  					<lb ed="#P"/>quia est contra aequalitatem foederis matrimo<lb ed="#P"/>nialis 
+  					<pc ana="#virgula"/> Sed secundum quod dicitur ius naturale a natura 
+  					<lb ed="#P"/>generis <pc ana="#punctus"/> sic non est contra ius naturale <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d33q2" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3547">Librum IV, Distinctio 33, Quaestio 2</head>
+  				<head xml:id="wdrl4d33-Hd1e3550" type="questionTitle">Utrum aliquando licuerit habere plures uxores</head>
+  				<p xml:id="wdrl4d33-d1e3553"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquando licuerit habere plures 
+  					<lb ed="#P"/>uxores <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> numquam per se licuit <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>est contra ius natural <pc ana="#punctus"/> <pc ana="#virgula"/> ex dispensatione 
+  					<lb ed="#P"/>tamen dei qui est supra naturam <pc ana="#punctus"/> licuit hoc 
+  					<lb ed="#P"/>antiquis patribus <pc ana="#punctus"/> quia tunc in successi<lb ed="#P"/>one 
+  					sanguinis fuit multiplicatio religionis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d33q3" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3588">Librum IV, Distinctio 33, Quaestio 3</head>
+  				<head xml:id="wdrl4d33-Hd1e3591" type="questionTitle">Utrum fornicatio simplex sit contra ius naturale et semper mortale</head>
+  				<p xml:id="wdrl4d33-d1e3594"><lb ed="#P"/><pc ana="#pilcrow"/>utrum fornicatio simplex sit contra ius 
+  					<lb ed="#P"/>naturale et semper mortale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>contra naturam <pc ana="#punctus"/> quia contra naturae finem scilicet prolis 
+  					<cb ed="#P" n="127vb"/><lb ed="#P"/>generationem et eius educationem <pc ana="#punctus"/> naturalem et 
+  					<lb ed="#P"/>mortalem <pc ana="#punctus"/> fit enim propter dilectionem In semper 
+  					<lb ed="#P"/>excludit a parentibus creaturam educandae 
+  					<lb ed="#P"/>prolis <pc ana="#punctus"/> <ref>supra distinctio <unclear>16</unclear> quaestio 1</ref> unde etiam 
+  					<lb ed="#P"/>peccatum mortale est quia violat 
+  					<lb ed="#P"/>foedus sive ordinem debitum parentis de 
+  					<!-- drops --> prole</p>
+  			</div>
+  			<div xml:id="wdr-l4d33q4" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3644">Librum IV, Distinctio 33, Quaestio 4</head>
+  				<head xml:id="wdrl4d33-Hd1e3647" type="questionTitle">Utrum aliquando ex dispensatione fuerit licita fornicatio</head>
+  				<p xml:id="wdrl4d33-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquando ex dispen<lb ed="#P"/>satione 
+  					fuerit licita fornicatio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non quia secundum se deforme est <pc ana="#punctus"/> 
+  					<lb ed="#P"/>cognoscere non suam <pc ana="#punctus"/> <pc ana="#virgula"/> concubinae autem 
+  					<lb ed="#P"/>patrum <pc ana="#virgula"/> sic ideo dicebantur <pc ana="#virgula"/> quamvis 
+  					<lb ed="#P"/>etiam uxores essent <pc ana="#punctus"/> quia auctoritatem 
+  					<lb ed="#P"/>in genere vel in regimine domus non habebant 
+  					<!-- drops --> sicut <unclear>domine</unclear></p>
+  			</div>
+  			<div xml:id="wdr-l4d33q5" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3693">Librum IV, Distinctio 33, Quaestio 5</head>
+  				<head xml:id="wdrl4d33-Hd1e3696" type="questionTitle">Utrum in veteri lege fuerit licitum uxorem repudiare</head>
+  				<p xml:id="wdrl4d33-d1e3699"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum in veteri 
+  					<lb ed="#P"/>lege fuerit licitum uxorem repu<lb ed="#P"/>diare 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> permissum ad evi<lb ed="#P"/>tandum 
+  					dum maius malum scilicet <sic>uxoricidium</sic> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sed non praeceptum <pc ana="#virgula"/> et communius dicitur quod haec 
+  					<lb ed="#P"/>permissio <pc ana="#virgula"/> excusabat tantum a <choice><orig>pena</orig><reg>poena</reg></choice> <pc ana="#punctus"/> non 
+  					<lb ed="#P"/>a culpa <pc ana="#punctus"/> Aliqui tamen magistri dicunt 
+  					<lb ed="#P"/>quod et a culpa <pc ana="#punctus"/> quia illa permissio fuit 
+  					<!-- drops --> dispensatio divina</p>
+  			</div>
+  			<div xml:id="wdr-l4d33q6" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3751">Librum IV, Distinctio 33, Quaestio 6</head>
+  				<head xml:id="wdrl4d33-Hd1e3754" type="questionTitle">Utrum repudiata possit reconciliari</head>
+  				<p xml:id="wdrl4d33-d1e3757"><lb ed="#P"/>Utrum repudi<lb ed="#P"/>ata 
+  					possit reconciliari Responsio <pc ana="#punctus"/> sic scilicet 
+  					<lb ed="#P"/>ante secundas nuptias <pc ana="#virgula"/> mulieris <pc ana="#punctus"/> quas 
+  					<lb ed="#P"/>secundum quosdam <pc ana="#punctus"/> licuit ei contrahere sine 
+  					<lb ed="#P"/>peccato <pc ana="#punctus"/> ex dispensatione divina <pc ana="#punctus"/> Secundum 
+  					<lb ed="#P"/>quosdam ver <pc ana="#punctus"/> lex hoc tantum permisit <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sicut et libellum <pc ana="#punctus"/> repudii <pc ana="#punctus"/> post has <unclear>ergo</unclear> 
+  					<lb ed="#P"/>non potuit reconciliari <pc ana="#punctus"/> <pc ana="#virgula"/> post secundas 
+  					<lb ed="#P"/>autem nuptias <pc ana="#virgula"/> viri <!-- possibile an extra character here --> potuuit <pc ana="#punctus"/> quia 
+  					<lb ed="#P"/>viro plures licuit habere uxores <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d33q7" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3820">Librum IV, Distinctio 33, Quaestio 7</head>
+  				<head xml:id="wdrl4d33-Hd1e3823" type="questionTitle">Utrum virginitas sit virtus</head>
+  				<p xml:id="wdrl4d33-d1e3826"><lb ed="#P"/><pc ana="#pilcrow"/>utrum virginitas sit virtus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio essentia virtutis eadem est <pc ana="#punctus"/> cum 
+  					<lb ed="#P"/>castitate coniugali <pc ana="#punctus"/> et viduali <pc ana="#punctus"/> sed 
+  					<cb ed="#P" n="128ra"/><lb ed="#P"/>status et materia differunt <pc ana="#virgula"/> ad perfectionem 
+  					<lb ed="#P"/>autem eius requiritur integritas carnis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et mentis <pc ana="#punctus"/> cuius tamen corruptio recuperari 
+  					<lb ed="#P"/>potest <pc ana="#punctus"/> sed non carnis <pc ana="#punctus"/> dicunt tamen quidam 
+  					<lb ed="#P"/>vel aliqui quod <del rend="expunctuated">spiritus</del> virtus specialis sit 
+  					<lb ed="#P"/>quia habet speciale difficultatem in materia <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et specialem bonitatem <pc ana="#punctus"/> exemplum de liberalitatem 
+  					<lb ed="#P"/>et magnificentia <pc ana="#virgula"/> sed primum verius est <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d33q8" type="quaestio">
+  				<head xml:id="wdrl4d33-Hd1e3887">Librum IV, Distinctio 33, Quaestio 8</head>
+  				<head xml:id="wdrl4d33-Hd1e3890" type="questionTitle">Utrum melior sit virginitas matrimonio</head>
+  				<p xml:id="wdrl4d33-d1e3893"><lb ed="#P"/><pc ana="#pilcrow"/>utrum melior sit virginitas 
+  					<lb ed="#P"/>matrimonio <pc ana="#punctus"/> Responsio tempore gratiae <pc ana="#virgula"/> melior 
+  					<lb ed="#P"/>est virginitas <pc ana="#punctus"/> antiquitus autem <pc ana="#virgula"/> me<lb ed="#P"/>lius 
+  					fuit matrimonium aequalia autem <unclear>sunt <!-- possibily corrected --></unclear> 
+  					<lb ed="#P"/>virginitas nunc <pc ana="#punctus"/> et matrimonium tunc <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> 
+  					<lb ed="#P"/>celibatus <name>Iohannis</name> <pc ana="#punctus"/> non praefertur coniugio <name ref="#Abraham">abrahae</name></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum IV, Distinctio 43 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum IV, Distinctio 43 [Penn Transcription]</title>
+          <date when="2016-05-23">May 23, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-23">May 23, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="131vb"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l4d43">
+  			<head xml:id="wdrl4d43-Hd1e3503">Librum IV, Distinctio 43 [Penn Transcription]</head>
+  			<div xml:id="wdr-l4d43q1" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3508">Librum IV, Distinctio 43, Quaestio 1</head>
+  				<head xml:id="wdrl4d43-Hd1e3511" type="questionTitle">Utrum resurrectio sit futura</head>
+  				<p xml:id="wdrl4d43-d1e3514"><lb ed="#P"/>Quaeritur utrum resurrectio sit futura <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia hoc dicit fides <pc ana="#punctus"/> et scriptura 
+  					<lb ed="#P"/>sacra <pc ana="#virgula"/> et propter divinam iustitiam nec anaima 
+  					<lb ed="#P"/>remuneretur in corpore <pc ana="#punctus"/> in quo et meruit 
+  					<!-- drops --> 1a quaestione 3</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q2" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3542">Librum IV, Distinctio 43, Quaestio 2</head>
+  				<head xml:id="wdrl4d43-Hd1e3545" type="questionTitle">Quid sit resurrectio</head>
+  				<p xml:id="wdrl4d43-d1e3548"><lb ed="#P"/>Quid sit resurrectio 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum <name ref="#JohnDamascenus">damascenus</name> Resurrectio est copulatio <pc ana="#punctus"/> 
+  					<cb ed="#P" n="132ra"/><lb ed="#P"/>rursum corporis et animae <add place="aboveLine">et</add> eius qui cecidit 
+  					et dissolutum est <pc ana="#punctus"/> animalis surrectio <pc ana="#virgula"/> est autem nominis 
+  					<lb ed="#P"/>interpretatio postquam diffinitio <pc ana="#punctus"/> quia nec est converti<!-- drops -->bilis <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q3" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3583">Librum IV, Distinctio 43, Quaestio 3</head>
+  				<head xml:id="wdrl4d43-Hd1e3586" type="questionTitle">Utrum omnes resurgant</head>
+  				<p xml:id="wdrl4d43-d1e3589"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes resur<lb ed="#P"/>gant 
+  					Responsio <pc ana="#punctus"/> sic <ref><title ana="#Icor">1 corinthios</title> <num>xv</num></ref> <quote xml:id="wdrl4d43-Qd1e3604" ana="#Icor15_51">omnes quidem 
+  						<lb ed="#P"/>resurgemus</quote> etc <pc ana="#virgula"/> tamen propter remunera<lb ed="#P"/>tionem 
+  					coniuncti <pc ana="#punctus"/> tum propter impletionem 
+  					<lb ed="#P"/>desiderii naturali <pc ana="#virgula"/> quod inest cuilibet animae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ad corpus scilicet que nihil frustra est in natura</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q4" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3629">Librum IV, Distinctio 43, Quaestio 4</head>
+  				<head xml:id="wdrl4d43-Hd1e3632" type="questionTitle">Utrum resurrectio sit naturalis vel miraculosa</head>
+  				<p xml:id="wdrl4d43-d1e3635"><lb ed="#P"/><pc ana="#pilcrow"/>utrum resurrectio sit naturalis vel mi<lb ed="#P"/>raculosa 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non est naturalis <pc ana="#punctus"/> sed mi<lb ed="#P"/>raculosa 
+  					<pc ana="#punctus"/> quia non est a principio intra 
+  					<lb ed="#P"/>sed ex principio extra solum scilicet deo a privatione <pc ana="#punctus"/> 
+  					<lb ed="#P"/>enim ad habitum <pc ana="#punctus"/> naturaliter non est regressus <pc ana="#punctus"/> 
+  					<!-- drops --> sed miraculose tantum</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q5" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3670">Librum IV, Distinctio 43, Quaestio 5</head>
+  				<head xml:id="wdrl4d43-Hd1e3673" type="questionTitle">Quae sit causa nostrae resurrectionis</head>
+  				<p xml:id="wdrl4d43-d1e3676"><lb ed="#P"/>Quae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sit causa nostrae resurrectionis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> causa 
+  					<lb ed="#P"/>principialis est divina virtus <pc ana="#punctus"/> quae sola 
+  					<lb ed="#P"/>effectum <sic>naturalem <!-- wett15 has "supernaturalem --></sic> producere potest <pc ana="#punctus"/> cum so<lb ed="#P"/>la 
+  					sit supra tantam naturam <pc ana="#virgula"/> resurrectio et christi <pc ana="#virgula"/> 
+  					<lb ed="#P"/>causa est nostrae resurrectionis <pc ana="#punctus"/> ut dicit <ref>glossa <title ana="#rom">romanos</title> 
+  						<lb ed="#P"/>1</ref> dispositam scilicet <pc ana="#virgula"/> quia in quo tanta 
+  					<lb ed="#P"/>natura quodammodo fuit in eo et immutari 
+  					<lb ed="#P"/>potuit <pc ana="#virgula"/> quod patet etiam in <name ref="#Adam">adam</name> <pc ana="#punctus"/> <pc ana="#virgula"/> vox 
+  					<lb ed="#P"/>etiam rube <pc ana="#punctus"/> est causa <pc ana="#punctus"/> resurrectionis <pc ana="#punctus"/> nostrae <pc ana="#punctus"/> 
+  					<lb ed="#P"/>instrumentalis scilicet tanquam motus causae <pc ana="#virgula"/> per quem pro<lb ed="#P"/>ducit 
+  					effectum <pc ana="#virgula"/> et haec vox secundum quosdam 
+  					<lb ed="#P"/>est iussio christi <pc ana="#virgula"/> resurgere <choice><orig>inperantis</orig><reg>imperantis</reg></choice> <pc ana="#punctus"/> 
+  					<lb ed="#P"/>secundum <pc ana="#punctus"/> alios vero <pc ana="#virgula"/> est christi manifesta apparitio <pc ana="#punctus"/> 
+  					<!-- drops --> ut videtur dicere <name ref="#GregoryGreat">Gregorius</name></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q6" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3784">Librum IV, Distinctio 43, Quaestio 6</head>
+  				<head xml:id="wdrl4d43-Hd1e3787" type="questionTitle">Utrum resurrectio differenda sit usque in finem mundi</head>
+  				<p xml:id="wdrl4d43-d1e3790"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>resurrectio differenda sit usque in finem 
+  					<lb ed="#P"/>mundi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> ut dicitur <ref>glossa <title ref="#hebr">hebraeos</title> 
+  						<lb ed="#P"/><num>xi</num></ref> scilicet ut in communi resurrectione omnium  <pc ana="#virgula"/> maius <pc ana="#punctus"/> 
+  					<lb ed="#P"/>sit gaudium singulorum <pc ana="#virgula"/> non enim corpera 
+  					<lb ed="#P"/>inferiora <pc ana="#punctus"/> ad <choice><orig>inmutabilitatis</orig><reg>immutabilitatis</reg></choice> statum 
+  					<cb ed="#P" n="132rb"/><lb ed="#P"/>duci debent <pc ana="#virgula"/> quamdiu manent motus <pc ana="#punctus"/> 
+  					<lb ed="#P"/>superiorum <pc ana="#punctus"/> Secutus autem est de resurrectione animarum quae 
+  					<lb ed="#P"/>a motu caeli non dependent <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q7" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3854">Librum IV, Distinctio 43, Quaestio 7</head>
+  				<head xml:id="wdrl4d43-Hd1e3857" type="questionTitle">Utrum resurrectio fiat subito</head>
+  				<p xml:id="wdrl4d43-d1e3860"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum resurrectio fiat subito <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quantum ad id <pc ana="#punctus"/> quod fit virtute divina <pc ana="#punctus"/> quae operatur 
+  					<lb ed="#P"/>in instanti <pc ana="#punctus"/> sicut est corporum reformatio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et animarum unio <pc ana="#punctus"/> sed quantum ad id <pc ana="#virgula"/> quod fit ministerio 
+  					<lb ed="#P"/>angelorum <pc ana="#punctus"/> sic fit repente id est in tempore 
+  					<lb ed="#P"/><choice><orig>inperceptibili</orig><reg>imperceptibili</reg></choice> <pc ana="#punctus"/> sicut forte vox tubae <pc ana="#punctus"/> 
+  					<!-- drops --></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q8" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3911">Librum IV, Distinctio 43, Quaestio 8</head>
+  				<head xml:id="wdrl4d43-Hd1e3914" type="questionTitle">Utrum fiat nocte vel die</head>
+  				<p xml:id="wdrl4d43-d1e3917"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>fiat nocte vel die <pc ana="#punctus"/> Responsio duplex 
+  					<lb ed="#P"/>est opinio <pc ana="#punctus"/> sicut de resurrectione christi <pc ana="#punctus"/> quam <name ref="#GregoryGreat">gregorius</name> 
+  					<lb ed="#P"/><lb ed="#P"/>dicit factam media nocte <pc ana="#virgula"/> <name ref="#Augustine">augustinus</name> autem 
+  					<lb ed="#P"/>diluculo <pc ana="#punctus"/> cui consentit <pc ana="#virgula"/> magis ecclesia qui<lb ed="#P"/>dam 
+  					igitur dicunt <pc ana="#virgula"/> quod redit media nocte <pc ana="#punctus"/> 
+  					<lb ed="#P"/>ut <name ref="#Cassiodorus">cassiodorus</name> <pc ana="#punctus"/> in littera <pc ana="#punctus"/> Alii <pc ana="#punctus"/> quod diluculo 
+  					<lb ed="#P"/>sole existente <pc ana="#virgula"/> in puncto <pc ana="#virgula"/> orientes <pc ana="#punctus"/> 
+  					<lb ed="#P"/>et luna in occidente id est in plenilunio <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q9" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e3986">Librum IV, Distinctio 43, Quaestio 9</head>
+  				<head xml:id="wdrl4d43-Hd1e3989" type="questionTitle">Utrum resurrectio omnium fiat erit a morte</head>
+  				<p xml:id="wdrl4d43-d1e3992"><lb ed="#P"/><pc ana="#pilcrow"/>utrum resurrectio omnium fiat erit a mor<lb ed="#P"/>te 
+  					<pc ana="#virgula"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> et <name ref="#Ambrose">ambrosum</name> in littera 
+  					<lb ed="#P"/>et hoc verisimilius dicitur <pc ana="#virgula"/> qui stipendia peccati moris <pc ana="#punctus"/> 
+  					<lb ed="#P"/><ref><title ana="#rom">romanos</title> 1</ref> quamvis quidam vide<lb ed="#P"/>antur <pc ana="#virgula"/> contrarium 
+  					<lb ed="#P"/>sensisse <pc ana="#virgula"/> ut <name ref="#Jerome"><sic>Ieronimus</sic></name> dicit in littera </p>
+  			</div>
+  			<div xml:id="wdr-l4d43q10" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e4043">Librum IV, Distinctio 43, Quaestio 10</head>
+  				<head xml:id="wdrl4d43-Hd1e4046" type="questionTitle">Utrum omnia corpora oporteat prius incinerari</head>
+  				<p xml:id="wdrl4d43-d1e4049"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum omnia corpora oporteat prius 
+  					<lb ed="#P"/>incinerari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ana="#gen">genesis</title> <unclear>7</unclear></ref> <quote xml:id="wdrl4d43-Qd1e4069" ana="#gen3_19"><!-- hard to find direct quote -->terra es</quote> 
+  					<lb ed="#P"/>etc <pc ana="#punctus"/> et hoc propter corruptionem <del rend="strikethrough">me</del> fomitis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>In patris autem pulueribus secundum quosdam 
+  					<lb ed="#P"/>remanet <pc ana="#virgula"/> aptitudo quaedam <pc ana="#punctus"/> ad resump<lb ed="#P"/>tionem 
+  					animae <pc ana="#virgula"/> secundum <pc ana="#punctus"/> alios autem non <pc ana="#punctus"/> et verius <pc ana="#punctus"/> 
+  					<lb ed="#P"/>nisi secundum ordinem <pc ana="#virgula"/> divinae providentiae <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l4d43q11" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e4112">Librum IV, Distinctio 43, Quaestio 11</head>
+  				<head xml:id="wdrl4d43-Hd1e4115" type="questionTitle">Utrum idem homo numero resurgat</head>
+  				<p xml:id="wdrl4d43-d1e4118"><lb ed="#P"/><pc ana="#pilcrow"/>utrum idem homo numero resurgat <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> <ref><title ref="#iob">iob</title> <num>xix</num></ref> <quote xml:id="wdrl4d43-Qd1e4138" ana="#iob19_27">quem visurus 
+  						<lb ed="#P"/>sum ego ipse</quote> etc <pc ana="#virgula"/> et hoc quia idem debet remunerari 
+  					<lb ed="#P"/>qui meruit <pc ana="#punctus"/> In super eadem est materia pulueris <pc ana="#punctus"/> 
+  					<cb ed="#P" n="132va"/><lb ed="#P"/>scilicet eiusdem et eadem forma scilicet anima <pc ana="#punctus"/> unde et idem 
+  					<!-- drops --> compositum</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q12" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e4163">Librum IV, Distinctio 43, Quaestio 12</head>
+  				<head xml:id="wdrl4d43-Hd1e4166" type="questionTitle">Utrum in iudicio cognoscet quilibet omnia peccat sua</head>
+  				<p xml:id="wdrl4d43-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum in iudicio <pc ana="#punctus"/> 
+  					<lb ed="#P"/>cognoscet <pc ana="#virgula"/> quilibet omnia peccata sua <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> et <name ref="#GregoryGreat">gregorium</name> in littera et hoc 
+  					<lb ed="#P"/>ad manifestationem <choice><sic>diem</sic><corr>divinae</corr></choice> iustitiae quantum ad peccata 
+  					<lb ed="#P"/>praesentia <pc ana="#punctus"/> et divinae <unclear>misericordiae</unclear> <pc ana="#virgula"/> quantum ad praeterita deleta</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q13" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e4218">Librum IV, Distinctio 43, Quaestio 13</head>
+  				<head xml:id="wdrl4d43-Hd1e4221" type="questionTitle">Utrum cognoscat quilibet peccata aliena</head>
+  				<p xml:id="wdrl4d43-d1e4224"><lb ed="#P"/><pc ana="#pilcrow"/>utrum cognoscat quilibet peccata aliena <pc ana="#punctus"/> 
+  					<lb ed="#P"/>Responsio secundum <ref><title>glossa</title> <title ref="#Icor">i corinthios</title> <num>iiii</num></ref> supra illud mani<lb ed="#P"/>festabit 
+  					consimilia cordium gesta et cogitata <pc ana="#punctus"/> 
+  					<lb ed="#P"/>bona et mala <pc ana="#punctus"/> tunc tota erunt omnibus 
+  					<lb ed="#P"/>et hoc propter evidentia iudicii <pc ana="#punctus"/> quidam tamen 
+  					<lb ed="#P"/>cum <name ref="#Lombard">magister</name> in littera <pc ana="#virgula"/> dicunt deleta per <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> non 
+  					<lb ed="#P"/>apparere omnibus <pc ana="#punctus"/> Alii autem <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> propter aug<lb ed="#P"/>mentum 
+  					gratiarum actionis vel <choice><orig>penae</orig><reg>poenae</reg></choice> pro ingratitudine</p>
+  			</div>
+  			<div xml:id="wdr-l4d43q14" type="quaestio">
+  				<head xml:id="wdrl4d43-Hd1e4290">Librum IV, Distinctio 43, Quaestio 14</head>
+  				<head xml:id="wdrl4d43-Hd1e4293" type="questionTitle">Utrum omnia simul videant uno intuitu</head>
+  				<p xml:id="wdrl4d43-d1e4296"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia simul videant uno 
+  					<lb ed="#P"/>intuitu <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt quod sic non 
+  					<lb ed="#P"/>naturaliter <pc ana="#punctus"/> sed divina virtute <pc ana="#virgula"/> Alii quod tantum <add place="aboveLine">in</add> universali 
+  					<lb ed="#P"/>quasi <!-- correct previous version of single "q" to "quasi" --> in summa <pc ana="#punctus"/> Alii melius dicunt scilicet quod qui 
+  					<lb ed="#P"/>ident <pc ana="#virgula"/> in libro vitae <pc ana="#punctus"/> singula uno in<lb ed="#P"/>tuitu 
+  					vident <pc ana="#virgula"/> sed quae in libris conscientiarum 
+  					<lb ed="#P"/><pc ana="#punctus"/> simul <pc ana="#punctus"/> sed in tempore in perceptibili <pc ana="#punctus"/> 
+  					<lb ed="#P"/>quod tamen habet infinitas partes <pc ana="#punctus"/></p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

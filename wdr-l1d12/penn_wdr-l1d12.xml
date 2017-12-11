@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 12 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.07-dev-master">
+          <title>Librum I, Distinctio 12 [Penn Transcription]</title>
+          <date when="2016-04-12">April 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-04-12">April 12, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+        	<witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+      	<cb ed="#P" n="28va"/>
+      </div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d12">
+  			<head xml:id="wdrl1d12-Hd1e3503">Librum I, Distinctio 12 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d12q1" type="quaestio">
+  				<head xml:id="wdrl1d12-Hd1e3508" type="questionTitle">Utrum Spiritus Sanctus prius procedat a Patre quam a Filio</head>
+  				<p xml:id="wdrl1d12-d1e3511"><lb ed="#P"/>Quaeritur utrum spiritus sanctus prius <pc ana="#punctus"/> 
+  					<lb ed="#P"/>procedat a patre quam a filio Responsio non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera 
+  					<lb ed="#P"/>quia in aeternitate non est prius et posterius <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d12q2" type="quaestio">
+  				<head xml:id="wdrl1d12-Hd1e3531" type="questionTitle">Utrum plenius procedat ab uno quam ab alio</head>
+  				<p xml:id="wdrl1d12-d1e3534"><lb ed="#P"/><g ref="#pilcrow"/>Utrum plenius procedat ab uno quam ab alio 
+  					<lb ed="#P"/>Responsio in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quia quamvis filius virtutem spirantem 
+  					<lb ed="#P"/>habeat a patre tamen eandem habet a patre quam pater</p>
+  			</div>
+  			<div xml:id="wdr-l1d12q3" type="quaestio">
+  				<head xml:id="wdrl1d12-Hd1e3550" type="questionTitle">Utrum aeque immediate procedat ab utroque</head>
+  				<p xml:id="wdrl1d12-d1e3553"><lb ed="#P"/><g ref="#pilcrow"/>utrum eam immediate procedat ab utroque 
+  					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> respiciendo ad principium quo spirant <pc ana="#punctus"/> similiter 
+  					<lb ed="#P"/>respiciendo ad ipsos spirantes <pc ana="#punctus"/> <pc ana="#virgula"/> sed nihilominus etiam mediate 
+  					<lb ed="#P"/>et immediate procedit a patre ut dicit <name ref="#RichardOfStVictor">Ricardus</name> <pc ana="#punctus"/> quia filius a patre 
+  					<!-- drops to next line -->habet quod spirat <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d12q4" type="quaestio">
+  				<head xml:id="wdrl1d12-Hd1e3585" type="questionTitle">Utrum eadem virtus spirativa quae est in eis sit etiam in Spiritu Sancto</head>
+  				<p xml:id="wdrl1d12-d1e3588"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum eadem virtus spi<lb ed="#P"/>ratam quae est in eis <pc ana="#virgula"/> sit etiam in spiritu sancto Responsio 
+  					<lb ed="#P"/>potentia spirandi tripliciter potest dici <pc ana="#punctus"/> quia gerundium potest sumi <pc ana="#punctus"/> vel 
+  					<lb ed="#P"/>a verbo activo <pc ana="#virgula"/> vel passivo <pc ana="#punctus"/> vel impersonali <pc ana="#punctus"/> <pc ana="#virgula"/> primo modo est in patre 
+  					<lb ed="#P"/>et filio tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum modo in spiritu sancto tantum <pc ana="#virgula"/> Tertio modo est in tribus 
+  					<lb ed="#P"/>convenienter personis <pc ana="#punctus"/> quia sic idem est quod potentia per quam fit spiratio <pc ana="#punctus"/> <pc ana="#virgula"/> non 
+  					<lb ed="#P"/>tamen propter hoc tres spirant vel spirantur <pc ana="#punctus"/> Sed duo spi<!--drops to next line -->rant 
+  					<pc ana="#punctus"/> et unus spiratur</p>
+  			</div>
+  		</div>
+  	</body>
+  </text>
+</TEI>

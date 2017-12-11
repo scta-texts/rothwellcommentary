@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 41 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 41 [Penn Transcription]</title>
+          <date when="2016-05-03">May 03, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-03">May 03, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<cb ed="#P" n="40ra"/>
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="wdr-l1d41">
+  			<head xml:id="wdrl1d41-Hd1e3503">Librum I, Distinctio 41 [Penn Transcription]</head>
+  			<div xml:id="wdr-l1d41q1" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3508">Librum I, Distinctio 41, Quaestio 1</head>
+  				<head xml:id="wdrl1d41-Hd1e3511" type="questionTitle">Utrum electio in deo sit ab aeterno</head>
+  				<p xml:id="wdrl1d41-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum 
+  					<lb ed="#P"/>electio in deo sit ab aeterno <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> electio proprie est 
+  					<lb ed="#P"/>aliquorum permixtorum segregatio <pc ana="#punctus"/> et praeoptatio <pc ana="#punctus"/> unde non 
+  					<lb ed="#P"/>est finis <pc ana="#punctus"/> quia determinatus <pc ana="#punctus"/> nec irrationabilium <pc ana="#punctus"/> sed tantum 
+  					<lb ed="#P"/>inter homines <unclear>haec</unclear> in proposito dei <seg type="correction">eligent<add place="aboveLine">i</add><del rend="expunctuated">e</del>s</seg> aeterna est 
+  					<lb ed="#P"/><choice><orig>exequutione</orig><reg>executione</reg></choice> aut temporalis <pc ana="#punctus"/> Nota etiam quod vocatio dicit 
+  					<lb ed="#P"/>tantum actum exteriorem et ideo tantum est temporalis <pc ana="#punctus"/> praedestinatio 
+  					<lb ed="#P"/>tantum interiorem <pc ana="#punctus"/> et ideo tantum aeterna <pc ana="#punctus"/> electio autem <pc ana="#punctus"/> vel 
+  					<cb ed="#P" n="40rb"/><lb ed="#P"/>dicit actum <choice><sic>iteriorem</sic><corr>interiorem</corr></choice> per se <pc ana="#punctus"/> vel cum effectum extra <pc ana="#punctus"/> et ideo duplex</p>
+  			</div>
+  			<div xml:id="wdr-l1d41q2" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3593">Librum I, Distinctio 41, Quaestio 2</head>
+  				<head xml:id="wdrl1d41-Hd1e3596" type="questionTitle">Quid sit electio</head>
+  				<p xml:id="wdrl1d41-d1e3599"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit electio <pc ana="#punctus"/> Responsio quaedam aeternalia temporalis <pc ana="#punctus"/> et hoc 
+  					<lb ed="#P"/>quaedam ad gratiam <pc ana="#punctus"/> quadam ad assumptum <pc ana="#punctus"/> Nota <unclear>dubium</unclear> inter 4 ista 
+  					<lb ed="#P"/>quod praescientia dicit cognitionem solam <pc ana="#punctus"/> propositum addit volun<lb ed="#P"/>tatis 
+  					inclinationem <pc ana="#punctus"/> electio addit alicuius a suo opposito 
+  					<lb ed="#P"/>separationem <pc ana="#punctus"/> praedestinatio addit <pc ana="#virgula"/> alicuius in finem ultimum desti<!-- drops -->nationem</p>
+  			</div>
+  			<div xml:id="wdr-l1d41q3" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3638">Librum I, Distinctio 41, Quaestio 3</head>
+  				<head xml:id="wdrl1d41-Hd1e3641" type="questionTitle">Utrum praedestinatio possit habere causam meritoriam</head>
+  				<p xml:id="wdrl1d41-d1e3644"><lb ed="#P"/><pc ana="#pilcrow"/>utrum praedestinatio possit habere causam 
+  					<lb ed="#P"/>meritoriam <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non secundum <name ref="#Augustine">augustinum</name> in littera scilicet quod ad principale 
+  					<lb ed="#P"/>significatum <pc ana="#punctus"/> quod est propositum dei aeternum <pc ana="#punctus"/> tamen quantum ad connotant 
+  					<lb ed="#P"/>unum <pc ana="#punctus"/> quod est collatio gratiae in praesenti <pc ana="#punctus"/> sicut potest habere causam 
+  					<lb ed="#P"/>dispositionem <pc ana="#virgula"/> meritum propositum vel alienum et hoc dicitur <unclear>congruentiam</unclear> 
+  					<lb ed="#P"/>non de <del rend="expunctuated">dig</del> condigno <pc ana="#punctus"/> <pc ana="#virgula"/> quantum vero ad collationem gloriae <pc ana="#punctus"/> habet 
+  					<lb ed="#P"/>causam meritoriam <pc ana="#punctus"/> meritum scilicet hominis</p>
+  			</div>
+  			<div xml:id="wdr-l1d41q4" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3698">Librum I, Distinctio 41, Quaestio 4</head>
+  				<head xml:id="wdrl1d41-Hd1e3701" type="questionTitle">utrum possit habere in deo causam motivam</head>
+  				<p xml:id="wdrl1d41-d1e3704"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit habere in deo causam motivam <pc ana="#punctus"/> Responsio non 
+  					<lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> unde praescientia meritorum secundum <name ref="#Augustine">augustinum</name> non est causa mo<lb ed="#P"/>tivam 
+  					<lb ed="#P"/>ad praedestinandum <pc ana="#punctus"/> sed tamen quia voluntatis dei potest 
+  					<lb ed="#P"/>esse aliqua ratio <pc ana="#virgula"/> quamvis non causa <pc ana="#virgula"/> ideo est ratio secundum quam congrue fertur 
+  					<lb ed="#P"/>voluntas dei ad praeparandum illi gloriam <pc ana="#punctus"/> et gratiam <pc ana="#punctus"/> <unclear>cuius</unclear> 
+  					<lb ed="#P"/>praescit futura merita <pc ana="#punctus"/> non tamen ipse movetur propter merita <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d41q5" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3754">Librum I, Distinctio 41, Quaestio 5</head>
+  				<head xml:id="wdrl1d41-Hd1e3757" type="questionTitle">Utrum reprobatio habeant causam a parte hominis</head>
+  				<p xml:id="wdrl1d41-d1e3760"><lb ed="#P"/><pc ana="#pilcrow"/>utrum reprobatio habeant causam a parte hominis 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> in reprobatione sunt tria <pc ana="#punctus"/> aeterna praevisio <pc ana="#punctus"/> et huius 
+  					<lb ed="#P"/>meritum hominis non est causa <pc ana="#punctus"/> temporalis obduratio <pc ana="#punctus"/> et huius causa 
+  					<lb ed="#P"/>est meritoria <pc ana="#punctus"/> Sed non <del rend="expunctuated">aeterna</del> effectiva <pc ana="#punctus"/></p>
+  			</div>
+  			<div xml:id="wdr-l1d41q6" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3792">Librum I, Distinctio 41, Quaestio 6</head>
+  				<head xml:id="wdrl1d41-Hd1e3795" type="questionTitle">utrum habeat causam ex parte dei</head>
+  				<p xml:id="wdrl1d41-d1e3798"><lb ed="#P"/><pc ana="#pilcrow"/>utrum habeat causam ex parte dei <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non scilicet quantum 
+  					<lb ed="#P"/>ad <choice><orig>penam</orig><reg>poenam</reg></choice> <choice><orig>dampni</orig><reg>damni</reg></choice> <pc ana="#punctus"/> quae privatio est <pc ana="#punctus"/> Sed quantum ad <choice><orig>penam</orig><reg>poenam</reg></choice> 
+  					<lb ed="#P"/>sensus sic habet <pc ana="#punctus"/> similiter ordo utriusque horum ad substantiam 
+  					<lb ed="#P"/>et ad meritum eius <pc ana="#punctus"/> a deo est inquantum iustum est <pc ana="#punctus"/> sed <unclear>haec</unclear>
+  					<!-- drops --> omnia ab homine sunt quodammodo <pc ana="#punctus"/></p>
+  			</div>
+  			<!-- unclear division marking in text here -->
+  			<div xml:id="wdr-l1d41q7" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e3854">Librum I, Distinctio 41, Quaestio 7</head>
+  				<head xml:id="wdrl1d41-Hd1e3857" type="questionTitle">Utrum deus semper sciat quicquid semel scivit</head>
+  				<p xml:id="wdrl1d41-d1e3860"><lb ed="#P"/>utrum deus semper sciat 
+  					<lb ed="#P"/>quicquid semel scivit <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quantum ad scientiam 
+  					<lb ed="#P"/>scilicet simplicis intelligentiae <pc ana="#punctus"/> et similiter quantum ad scientiam 
+  					<lb ed="#P"/>cognitionis assertive <pc ana="#punctus"/> quo ad veritatem scilicet rei <pc ana="#punctus"/> qui haec 
+  					<lb ed="#P"/>semper eadem manet in diversis temporibus <pc ana="#punctus"/> ut dicit <name ref="#Lombard">magister</name> 
+  					<lb ed="#P"/>in littera <pc ana="#punctus"/> Sed de veritate signi <pc ana="#punctus"/> sive enuntiabilis <pc ana="#punctus"/> 
+  					<lb ed="#P"/>est duplex <choice><orig>oppinio</orig><reg>opinio</reg></choice> <pc ana="#punctus"/> una de nominalium sic dicis quia 
+  					<lb ed="#P"/>ponebant quod ab unitate rei significatae <pc ana="#punctus"/> licet secundum 
+  					<cb ed="#P" n="40va"/><lb ed="#P"/>versa tempora <pc ana="#punctus"/> praesens scilicet praeteritum et futurum <pc ana="#punctus"/> esset unitas 
+  					<lb ed="#P"/>enunciabilis <pc ana="#punctus"/> alia fuit opinio realium <pc ana="#punctus"/> quae convenienter tenetur 
+  					<lb ed="#P"/>sic decorum <pc ana="#punctus"/> quia ponunt quod ab una re <pc ana="#punctus"/> propter diversum 
+  					<lb ed="#P"/>modum rei <del rend="strikethrough">fuit</del> fit triplex enunciabile secundum tres <unclear>d?s</unclear> temporum <pc ana="#punctus"/> 
+  					<lb ed="#P"/>haec opinio communis est et vera <pc ana="#punctus"/> quia etiam <ref><name ref="#Aristotle">aristoteles</name> libro <title ref="#Categories">praedicamenti</title></ref> dicit quod eadem 
+  					<lb ed="#P"/>oratio susceptibilis est <seg type="correction">verita<add place="aboveLine">tis</add><del rend="strikethrough">s</del></seg> <pc ana="#punctus"/> primi dicunt quod omne 
+  					<lb ed="#P"/>enunciabile quod semper est verum <pc ana="#punctus"/> semper verum est <pc ana="#punctus"/> et quod deus semper 
+  					<lb ed="#P"/>scit omne enunciabile quod semel scivit <pc ana="#punctus"/> secundi autem dicunt 
+  					<lb ed="#P"/>quod non <pc ana="#punctus"/> scivit enim christum passurum <pc ana="#punctus"/> et modo nescit <pc ana="#punctus"/> muta<lb ed="#P"/>tione 
+  					scilicet facta <pc ana="#punctus"/> a parte sciti <pc ana="#punctus"/> non scientiae <pc ana="#punctus"/> unde <sic>hii</sic> concedunt 
+  					<lb ed="#P"/>quod deus non semper scit quicquid semel scivit <name ref="#Lombard">magister</name> tamen in 
+  					<!-- drops --> littera dicunt quod sic</p>
+  			</div>
+  			<div xml:id="wdr-l1d41q8" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e4010">Librum I, Distinctio 41, Quaestio 8</head>
+  				<head xml:id="wdrl1d41-Hd1e4013" type="questionTitle">Utrum sciat omnia praesentialiter tantum</head>
+  				<p xml:id="wdrl1d41-d1e4016"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sciat omnia praesentialiter 
+  					<lb ed="#P"/>tantum Respondeo sic <pc ana="#punctus"/> ita scilicet quod praesent<add place="aboveLine">i</add>alitas intelligatur 
+  					<lb ed="#P"/>ex parte cognoscentis <pc ana="#punctus"/> non a parte rei cognitae <pc ana="#punctus"/> sibi quippe 
+  					<lb ed="#P"/>omnia tempora sunt praesentia in nunc aeternitatis</p>
+  			</div>
+  			<div xml:id="wdr-l1d41q9" type="quaestio">
+  				<head xml:id="wdrl1d41-Hd1e4040">Librum I, Distinctio 41, Quaestio 9</head>
+  				<head xml:id="wdrl1d41-Hd1e4043" type="questionTitle">Utrum sciat omnia immutabiliter</head>
+  				<p xml:id="wdrl1d41-d1e4046"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sciat omnia immutabiliter <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> ex 
+  					<lb ed="#P"/>parte scientis sic <!-- review all instances of scilicet, some could be "sic" as in this case --> sed non ex parte scitorum</p>
+  			</div>
+  			
+  		</div>
+  	</body>
+  </text>
+</TEI>
