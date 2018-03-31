@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum II, Distinctio 2 [Penn Transcription]</title>
+        <author>William de Rothwell</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum II, Distinctio 2 [Penn Transcription]</title>
+          <date when="2017-12-11">December 11, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-11-16">November 16, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-12-08" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="44-v"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="wdr-l2d2">
+        <head>Librum II, Distinctio 2 [Penn Transcription]</head>
+        <div xml:id="wdr-l2d2q1" type="quaestio">
+          <head>Librum II, Distinctio 2, Quaestio 1</head>
+          <head type="questionTitle">Utrum angelus sit</head>
+          <p>
+            <lb ed="#P"/>Quaeritur utrum angelus sit. 
+            <lb ed="#P"/>Responsio sic ut patet in scriptura ad completionem 
+            <lb ed="#P"/>etiam universi requiritur creatura pure 
+            <lb ed="#P"/>corporalis pure spiritualis et composita ex utraque
+          </p>
+        </div>
+        <div xml:id="wdr-l2d2q2" type="quaestio">
+          <head>Librum II, Distinctio 2, Quaestio 2</head>
+          <head type="questionTitle">Quid sit angelis</head>
+          <p>
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quid sit angelus Responsio secundum 
+            <ref><name>damascenus</name> libro ii</ref> <quote source="http://scta.info/resource/jddfo-l2c3">angelus est substantia intellectualis 
+            <lb ed="#P"/>semper mobilis arbitrio libera et incorpora 
+            <lb ed="#P"/>deo ministrans grata non natura immortali
+            <lb ed="#P"/>tatem suscipiens</quote> <mentioned>Intellectualis</mentioned> in quo differt 
+            <lb ed="#P"/>animalibus <mentioned>semper mobilis</mentioned> a vegetabilis quae non mo<lb ed="#P"/>ventur 
+            secundum locum <mentioned>arbitrio libera</mentioned> a sensibus 
+            <lb ed="#P"/><mentioned>incorporealis</mentioned> a pure corporalibus <mentioned>deo mini<lb ed="#P"/>strans</mentioned> 
+            ad daemonibus gratia non natura etc a deo
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
