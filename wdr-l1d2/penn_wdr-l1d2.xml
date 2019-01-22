@@ -78,7 +78,7 @@
         </div>
         <div xml:id="wdr-l1d2q2" type="quaestio">
           <head type="questionTitle">Utrum in divina essentia sit aliqua multiplex attributorum</head>
-          <p xml:id="wdrl1d2-uidsdr"><g ref="#pilcrow"/>utrum in divina essentia 
+          <p xml:id="wdrl1d2-uidsdr"><lb ed="#P"/><g ref="#pilcrow"/>utrum in divina essentia 
             <lb ed="#P"/>sit aliqua multitudo attributorum <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia 
             <lb ed="#P"/>perfectio in eo est omnium generum <g ref="#slash"/> secundum <name ref="#Aristotle">philosophum</name> <g ref="#dot"/> et <name ref="#Dionysius">dyonisium</name> <g ref="#slash"/> sed tamen idem 
             <lb ed="#P"/>sunt in deo secundum rem <g ref="#dot"/> Sed differunt ratione <g ref="#dot"/></p>
