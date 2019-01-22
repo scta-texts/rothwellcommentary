@@ -106,7 +106,8 @@
   			<div xml:id="wdr-l4d16q6" type="quaestio">
   				<head xml:id="wdrl4d16-Hd1e3786">Librum IV, Distinctio 16, Quaestio 6</head>
   				<head xml:id="wdrl4d16-Hd1e3789" type="questionTitle">Utrum circumstantiae trahant in aliam speciem peccati</head>
-  				<p xml:id="wdrl4d16-d1e3792"><lb ed="#P"/><pc ana="#pilcrow"/>utrum circumstantiae trahant 
+  				<p xml:id="wdrl4d16-d1e3792"><lb ed="#P"/><pc ana="#pilcrow"/>utrum circumstantiae trahant
+  				  <cb ed="#P" n="116ra"/>
   					<lb ed="#P"/>in aliam speciem peccati <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic scilicet 
   					<lb ed="#P"/>omnes illae quae tollunt bonum aliquod <pc ana="#punctus"/> specie 
   					<lb ed="#P"/>differens <pc ana="#punctus"/> sed aliae non <pc ana="#virgula"/> sed tantum augent 

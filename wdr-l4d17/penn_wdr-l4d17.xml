@@ -481,12 +481,12 @@
   					<lb ed="#P"/>liberi arbitrii Responsio <pc ana="#punctus"/> non <pc ana="#virgula"/> sed econversio <pc ana="#punctus"/> quia finis prior 
   					<lb ed="#P"/>est intentione <pc ana="#punctus"/> unde metus reconcilia<lb ed="#P"/>tionis 
   					<pc ana="#virgula"/>praecedit aversionem a peccato <pc ana="#punctus"/> 
-  					<cb ed="#P" n="118va"/><lb ed="#P"/></p>
+  					</p>
   			</div>
   			<div xml:id="wdr-l4d17q41" type="quaestio">
   				<head xml:id="wdrl4d17-Hd1e5527">Librum IV, Distinctio 17, Quaestio 41</head>
   				<head xml:id="wdrl4d17-Hd1e5530" type="questionTitle">Utrum culpae remissio praecedat contritionem</head>
-  				<p xml:id="wdrl4d17-d1e5533"><lb ed="#P"/><pc ana="#pilcrow"/>utrum culpae remissio praecedat 
+  			  <p xml:id="wdrl4d17-d1e5533"><cb ed="#P" n="118va"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum culpae remissio praecedat 
   					<lb ed="#P"/>contritionem <pc ana="#punctus"/> Responsio diversimode hic dicitur 
   					<lb ed="#P"/>sed dic quod si dicatur <pc ana="#virgula"/> contritio cum gratia tertio <pc ana="#punctus"/> 
   					<lb ed="#P"/>sic praecedit sicut et gratia a parte scilicet iustifi<lb ed="#P"/>cationis 
