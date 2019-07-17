@@ -1,25 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 1 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 1 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.06-dev-master">
-          <title>Librum I, Distinctio 1</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 1</title>
           <date when="2015-06-12">June 12, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-06-12">June 12, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -27,15 +25,18 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-06-12" who="#JW" status="draft" n="2015.06">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-06-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -60,26 +61,31 @@
   </facsimile>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        
+      <div xml:id="starts-on">
+        <pb ed="#P" n="24-r"/>
+        <cb ed="#P" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="wdr-l1d1">
-        <head>Librum I, Distinctio 1 [Penn Transcription]</head>
+        <head>Liber I, Distinctio 1 [Penn Transcription]</head>
         <div xml:id="wdr-l1d1q1" type="quaestio">
           <head type="questionTitle">Quid sit uti secundum rem et cuius potentiae actus sit</head>
-          <p xml:id="wdrl1d1-qqsirr"><lb ed="#P"/>Queritur quid sit uti secundum rem et cuius potentiae actus sit 
+          <p xml:id="wdrl1d1-qqsirr">
+            <lb ed="#P" n="1"/>Queritur quid sit uti secundum rem et cuius potentiae actus sit 
             <lb ed="#P"/>Responsio <g ref="#dot"/> uti secundum <ref><name ref="#Augustine">augustinum</name> in <title>littera</title></ref> est id quod in usum venerit 
             <lb ed="#P"/>referre ad obtinendum illud <g ref="#slash"/> quo ferendum est <g ref="#slash"/> <g ref="#dot"/> et sic accipitur 
             <lb ed="#P"/>proprie in theologia <g ref="#dot"/> <g ref="#slash"/> Item <ref><name ref="#Augustine">augustinus</name> in <title>littera</title> <g ref="#dot"/></ref> uti est assumere aliquid 
-            <cb ed="#P" n="24rb"/><lb ed="#P"/>in facultatem volentis et hoc magis larga <g ref="#dot"/> est autem actus 
+            <cb ed="#P" n="b"/> <!-- 24rb -->
+            <lb ed="#P"/>in facultatem volentis et hoc magis larga <g ref="#dot"/> est autem actus 
             <lb ed="#P"/>voluntatis quae movet in finem quid idem est quod bonum <g ref="#dot"/> tamen 
-            <lb ed="#P"/>prout includit regimen rationis</p>
+            <lb ed="#P"/>prout includit regimen rationis
+          </p>
         </div>
         <div xml:id="wdr-l1d1q2" type="quaestio">
           <head type="questionTitle">Utrum utendum sit sola creatura</head>
-          <p xml:id="wdrl1d1-uusuba"><g ref="#pilcrow"/>utrum utendum sit sola creatura <g ref="#dot"/> et utrum omni 
+          <p xml:id="wdrl1d1-uusuba">
+            <g ref="#pilcrow"/>utrum utendum sit sola creatura <g ref="#dot"/> et utrum omni 
             <lb ed="#P"/>creatura <g ref="#dot"/> vel etiam defectum creaturae scilicet malo <g ref="#dot"/> 
             <lb ed="#P"/>Responsio <g ref="#dot"/> ut <unclear>instrumentis</unclear> utendum est potentiis <g ref="#dot"/> ut habitu quo 
             <lb ed="#P"/>regulamur <g ref="#dot"/> sic tantum habitibus bonis <g ref="#dot"/> ut actu quo mov<lb ed="#P"/>emur <g ref="#dot"/> 
@@ -89,50 +95,64 @@
             voluntatis <g ref="#dot"/> quodammodo assumi possunt <g ref="#dot"/> vel operando <g ref="#dot"/> ut opera nostra 
             bona <g ref="#dot"/> vel <choice><orig>tollerando</orig><reg>tolerando</reg></choice> <g ref="#dot"/> ut mala <choice><orig><corr>pen<del>a</del><add>ae</add></corr></orig><reg><corr>poen<del>a</del><add>ae</add></corr></reg></choice> propriae et culpae 
             <lb ed="#P"/>alienae <g ref="#dot"/> vel respuendo <g ref="#dot"/> ut culpam propriam vel approbando 
-            <lb ed="#P"/>ut bona aliena</p>
+            <lb ed="#P"/>ut bona aliena
+          </p>
         </div>
         <div xml:id="wdr-l1d1q3" type="quaestio">
           <head type="questionTitle">Utrum deus utatur aliquod</head>
-          <p xml:id="wdrl1d1-uduqnu"><lb ed="#P"/><g ref="#pilcrow"/>Utrum deus utatur aliquo <g ref="#dot"/> Responsio <g ref="#dot"/> quod sic 
+          <p xml:id="wdrl1d1-uduqnu">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum deus utatur aliquo <g ref="#dot"/> Responsio <g ref="#dot"/> quod sic 
             <lb ed="#P"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> Sed ipse non refert ad finem extra se <g ref="#dot"/> sicut fit 
-            <lb ed="#P"/>in usus nostro <g ref="#dot"/> unde non est motus in eo <g ref="#slash"/> sed in nobis quando <!-- drops below into next line; not sure how to mark -->nobis utitur</p>
+            <lb ed="#P"/>in usus nostro <g ref="#dot"/> unde non est motus in eo <g ref="#slash"/> sed in nobis quando <!-- drops below into next line; not sure how to mark -->nobis utitur
+          </p>
         </div>
         <div xml:id="wdr-l1d1q4" type="quaestio">
           <head type="questionTitle">Utrum angeli vel sancti in patria utantur</head>
-          <p xml:id="wdrl1d1-uavnah"><lb ed="#P"/><g ref="#pilcrow"/>utrum angeli vel sancti in pa<lb ed="#P"/>tria 
+          <p xml:id="wdrl1d1-uavnah">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum angeli vel sancti in pa<lb ed="#P"/>tria 
             <g ref="#dot"/> utantur <g ref="#dot"/> Responsio <g ref="#dot"/> sic tali usu scilicet qui non importat 
             <lb ed="#P"/>imperfectionem <g ref="#dot"/> ut est usus virtutum <g ref="#dot"/> sed non imperfectio ut hic <g ref="#dot"/> 
-            <lb ed="#P"/>unde referunt ad habitum <g ref="#slash"/> non ad habendum</p>
+            <lb ed="#P"/>unde referunt ad habitum <g ref="#slash"/> non ad habendum
+          </p>
         </div>
         <div xml:id="wdr-l1d1q5" type="quaestio">
           <head type="questionTitle">Quid sit frui vel cuius potentia sit actus</head>
-          <p xml:id="wdrl1d1-qsfifc"><lb ed="#P"/><g ref="#pilcrow"/>Quid sit frui <g ref="#dot"/> vel cuius potentiae sit actus 
+          <p xml:id="wdrl1d1-qsfifc">
+            <lb ed="#P"/><g ref="#pilcrow"/>Quid sit frui <g ref="#dot"/> vel cuius potentiae sit actus 
             <lb ed="#P"/>et cuius virtutis <g ref="#dot"/> Responsio <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> frui est amore 
             <lb ed="#P"/>inhaerere alicui rei propter se ipsam <g ref="#dot"/> hoc est generalis <g ref="#dot"/> <g ref="#slash"/> Item <ref><name ref="#Augustine">augustinus</name> 
-              <lb ed="#P"/>in <title>littera</title></ref> frui est uti cum <sic>gaudo</sic> non adhuc <sic>speciei</sic> <g ref="#dot"/> 
+            <lb ed="#P"/>in <title>littera</title></ref> frui est uti cum <sic>gaudo</sic> non adhuc <sic>speciei</sic> <g ref="#dot"/> 
             <lb ed="#P"/>Sed iam rei <g ref="#dot"/> hoc est magis stricta <g ref="#dot"/> <g ref="#slash"/> Est autem actus 
             <lb ed="#P"/>voluntatis quae est perfectissima potentia <g ref="#dot"/> quia sola libera est <g ref="#dot"/> 
             <lb ed="#P"/>et est respectu finis <g ref="#dot"/> tamen secundum quod includit in se <g ref="#dot"/> cognitionem 
             <lb ed="#P"/>rationis <g ref="#dot"/> et est secundum perfectissimam virtutem scilicet caritatem quae <choice><orig>inmedia<lb ed="#P"/>tius</orig><reg>immedia<lb ed="#P"/>tius</reg></choice> 
-            fruibili coniungit <g ref="#dot"/></p>
+            fruibili coniungit <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d1q6" type="quaestio">
           <head type="questionTitle">Utrum solo deo sit fruendum</head>
-          <p xml:id="wdrl1d1-usdbef"><lb ed="#P"/><g ref="#pilcrow"/>utrum solo deo sit fruendum <g ref="#dot"/> Responsio sic <g ref="#dot"/> 
+          <p xml:id="wdrl1d1-usdbef">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum solo deo sit fruendum <g ref="#dot"/> Responsio sic <g ref="#dot"/> 
             <lb ed="#P"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> quia ipse solus est ultimus finis effective 
             <lb ed="#P"/>tantum fruimur potentia <g ref="#dot"/> dispositive habitu caritatis <g ref="#dot"/> 
-            <cb ed="#P" n="24va"/><lb ed="#P"/>formaliter ipsa fruitiones beatitudine <corr>creata<del rend="expunctuated">ta</del></corr> <g ref="#dot"/> Sed solo deo 
-            <lb ed="#P"/>tamquam <choice><orig>abiecto</orig><reg>obiecto</reg></choice> et fine <g ref="#dot"/></p>
+            <pb ed="#P" n="24-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>formaliter ipsa fruitiones beatitudine <corr>creata<del rend="expunctuated">ta</del></corr> <g ref="#dot"/> Sed solo deo 
+            <lb ed="#P"/>tamquam <choice><orig>abiecto</orig><reg>obiecto</reg></choice> et fine <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d1q7" type="quaestio">
           <head type="questionTitle">Utrum uno actu fruitionis fruemur tribus personis</head> 
-          <p xml:id="wdrl1d1-uuaeci"><lb ed="#P"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus 
+          <p xml:id="wdrl1d1-uuaeci">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus 
             <lb ed="#P"/>personis <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia in eis est una ratio obiecti fruitionis et fin<lb ed="#P"/>is 
-            <g ref="#dot"/> et una est cognitio ipsorum</p>
+            <g ref="#dot"/> et una est cognitio ipsorum
+          </p>
         </div>
         <div xml:id="wdr-l1d1q8" type="quaestio">
           <head type="questionTitle">Quibus conveniat fruitio vel quibus modis</head>
-          <p xml:id="wdrl1d1-qcfsqd"><g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#dot"/> vel quibus modis 
+          <p xml:id="wdrl1d1-qcfsqd">
+            <g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#dot"/> vel quibus modis 
             <lb ed="#P"/>Responsio <g ref="#dot"/> ad fruitionem tria requiruntur ut patet in diffinitione 
             <lb ed="#P"/>eius scilicet coniunctio delectio <g ref="#dot"/> quietatio <g ref="#dot"/> quietatio autem potest esse 
             <lb ed="#P"/>secundum appetitum rectae rationis <g ref="#dot"/> sic fruuntur boni <g ref="#dot"/> summo bono <g ref="#dot"/> 
@@ -141,7 +161,8 @@
             <lb ed="#P"/>huc tripliciter <g ref="#dot"/> quia triplex coniunctio <g ref="#dot"/> vel per <unclear>differentia</unclear> essentiae sic se 
             <lb ed="#P"/>ipso deus <g ref="#dot"/> nec propter hoc aliquod indiget <g ref="#dot"/> vel per speciem gloriae <g ref="#dot"/> 
             <lb ed="#P"/>sic sancti in patria <g ref="#dot"/> et hoc est perfecta <g ref="#dot"/> vel per inhabitationem gratiae 
-            <lb ed="#P"/>sic sancti in via <g ref="#dot"/> et hoc est imperfecta <g ref="#dot"/> tantum scilicet secundum quandam degus<g ref="#pilcrow"/>tationem <!-- last works breaks onto next line at pilcrow--></p>
+            <lb ed="#P"/>sic sancti in via <g ref="#dot"/> et hoc est imperfecta <g ref="#dot"/> tantum scilicet secundum quandam degus<g ref="#pilcrow"/>tationem <!-- last works breaks onto next line at pilcrow-->
+          </p>
         </div>
       </div>
     </body>
