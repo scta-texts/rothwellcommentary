@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 31 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 31 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 31 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 31 [Penn Transcription]</title>
           <date when="2016-05-01">May 01, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d31">
-  			<head xml:id="wdrl1d31-Hd1e3503">Librum I, Distinctio 31 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d31-Hd1e3503">Liber I, Distinctio 31 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d31q1" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3508">Librum I, Distinctio 31, Quaestio 1</head>
-  				<head xml:id="wdrl1d31-Hd1e3511" type="questionTitle">Utrum aequalitas aliquid ponat in deo</head>
+  				<head xml:id="wdrl1d31-Hd1e3508">Liber I, Distinctio 31, Quaestio 1</head>
+  				<head xml:id="wdrl1d31-Hd1e3511" type="question-title">Utrum aequalitas aliquid ponat in deo</head>
   				<p xml:id="wdrl1d31-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum aequali<lb ed="#P"/>tas 
   					aliquid ponat in deo <pc ana="#punctus"/> Responsio inaequalitate sunt duo 
   					<lb ed="#P"/>scilicet res et id in quo res fundatur scilicet una <subst><del rend="expunctuated">qualitas</del> 
@@ -70,8 +70,8 @@
   						<!-- drops --> 4 quaestione 4</ref></p>
   			</div>
   			<div xml:id="wdr-l1d31q2" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3587">Librum I, Distinctio 31, Quaestio 2</head>
-  				<head xml:id="wdrl1d31-Hd1e3590" type="questionTitle">utrum significet relationem vel substantiam</head>
+  				<head xml:id="wdrl1d31-Hd1e3587">Liber I, Distinctio 31, Quaestio 2</head>
+  				<head xml:id="wdrl1d31-Hd1e3590" type="question-title">utrum significet relationem vel substantiam</head>
   				<p xml:id="wdrl1d31-d1e3593"><cb ed="#P" n="36rb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum significet relationem vel substantiam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> aequalitas dicitur 
   					<lb ed="#P"/>plurium differentium quantitas unde <choice><orig>inportat</orig><reg>importat</reg></choice> distinctionem 
   					<lb ed="#P"/>personalem <pc ana="#punctus"/> et essentiae unitatem <pc ana="#punctus"/> dicunt ergo quaedam <pc ana="#punctus"/> quod <unclear>huius</unclear> nomina <pc ana="#punctus"/> in 
@@ -84,8 +84,8 @@
   					<lb ed="#P"/>ab huius unitatem creatam <pc ana="#punctus"/> quam personae referuntur ad invicem</p>
   			</div>
   			<div xml:id="wdr-l1d31q3" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3667">Librum I, Distinctio 31, Quaestio 3</head>
-  				<head xml:id="wdrl1d31-Hd1e3670" type="questionTitle">De appropriatis secundum Hilarium in littera qui dicit quod aeternitas est in patre species in imagine usus immunere</head>
+  				<head xml:id="wdrl1d31-Hd1e3667">Liber I, Distinctio 31, Quaestio 3</head>
+  				<head xml:id="wdrl1d31-Hd1e3670" type="question-title">De appropriatis secundum Hilarium in littera qui dicit quod aeternitas est in patre species in imagine usus immunere</head>
   				<p xml:id="wdrl1d31-d1e3673"><lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#HilaryOfPoitiers">hylarium</name> in littera qui dicit quod aeternitas 
   					<lb ed="#P"/>est in patre species in <choice><orig>ymagine</orig><reg>imagine</reg></choice> usus immunere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> tri<lb ed="#P"/>plex 
   					est non appropriationis in divinis <pc ana="#punctus"/> una propter manifestationem 
@@ -111,8 +111,8 @@
   					<pc ana="#punctus"/> quia uti effectus proprius caritatis <pc ana="#punctus"/> quae appropriatur ei <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d31q4" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3868">Librum I, Distinctio 31, Quaestio 4</head>
-  				<head xml:id="wdrl1d31-Hd1e3871" type="questionTitle">De appropriatis secundum Augustinum in littera qui dicit quod in patre est unitas in filio aequalitas in spiritu sancto aequalitatis unitatis </head>
+  				<head xml:id="wdrl1d31-Hd1e3868">Liber I, Distinctio 31, Quaestio 4</head>
+  				<head xml:id="wdrl1d31-Hd1e3871" type="question-title">De appropriatis secundum Augustinum in littera qui dicit quod in patre est unitas in filio aequalitas in spiritu sancto aequalitatis unitatis </head>
   				<p xml:id="wdrl1d31-d1e3874"><lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#Augustine">augustinum</name> in littera qui dicit quod in patre est unitas <pc ana="#punctus"/> 
   					<lb ed="#P"/>in filio aequalitas in spiritu sancto aequalitatis unitatis<cb ed="#P" n="36va"/><lb ed="#P"/>que 
   					concordia <pc ana="#punctus"/> Resopnsio <pc ana="#punctus"/> unitas patri appropriatur <pc ana="#punctus"/> quia pater<lb ed="#P"/>nitates 
@@ -128,8 +128,8 @@
   					<lb ed="#P"/>proprium est <pc ana="#punctus"/> tertia est proprium spiritus sanctus immo est spiritus sanctus et non appropriatur</p> 
   			</div>
   			<div xml:id="wdr-l1d31q5" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3978">Librum I, Distinctio 31, Quaestio 5</head>
-  				<head xml:id="wdrl1d31-Hd1e3981" type="questionTitle">De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem aequalia propter filium connexa propter spiritum sanctum</head>
+  				<head xml:id="wdrl1d31-Hd1e3978">Liber I, Distinctio 31, Quaestio 5</head>
+  				<head xml:id="wdrl1d31-Hd1e3981" type="question-title">De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem aequalia propter filium connexa propter spiritum sanctum</head>
   				<p xml:id="wdrl1d31-d1e3987"><lb ed="#P"/><pc ana="#pilcrow"/>De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem <pc ana="#punctus"/> 
   					<lb ed="#P"/>aequalia <pc ana="#punctus"/> propter filium connexa propter spiritum <del rend="strikethrough">sum</del> sanctum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Si 
   					<lb ed="#P"/>li <mentioned>omnia</mentioned> distribuit pro rebus increatis <pc ana="#punctus"/> tunc li <pc ana="#punctus"/> <mentioned>propter</mentioned> notat 

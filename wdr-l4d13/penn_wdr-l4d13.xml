@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 13 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 13 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 13 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 13 [Penn Transcription]</title>
           <date when="2016-05-09">May 09, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d13">
-  			<head xml:id="wdrl4d13-Hd1e3503">Librum IV, Distinctio 13 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d13-Hd1e3503">Liber IV, Distinctio 13 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d13q1" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3508">Librum IV, Distinctio 13, Quaestio 1</head>
-  				<head xml:id="wdrl4d13-Hd1e3511" type="questionTitle">Quis possit hoc sacramentum conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3508">Liber IV, Distinctio 13, Quaestio 1</head>
+  				<head xml:id="wdrl4d13-Hd1e3511" type="question-title">Quis possit hoc sacramentum conficere</head>
   				<p xml:id="wdrl4d13-d1e3514"><lb ed="#P"/>Queritur <pc ana="#punctus"/> 
   					<lb ed="#P"/>quis possit hoc sacramentum conficere 
   					<lb ed="#P"/>Responsio soli sacerdotes <pc ana="#punctus"/> et omnes <pc ana="#punctus"/> quia non est sacra<lb ed="#P"/>mentum 
@@ -67,8 +67,8 @@
   					<!-- drops --> communes</p>
   			</div>
   			<div xml:id="wdr-l4d13q2" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3546">Librum IV, Distinctio 13, Quaestio 2</head>
-  				<head xml:id="wdrl4d13-Hd1e3549" type="questionTitle">Utrum bonus laicus possit conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3546">Liber IV, Distinctio 13, Quaestio 2</head>
+  				<head xml:id="wdrl4d13-Hd1e3549" type="question-title">Utrum bonus laicus possit conficere</head>
   				<p xml:id="wdrl4d13-d1e3552"><lb ed="#P"/><pc ana="#pilcrow"/>utrum bonus laicus possit <pc ana="#punctus"/> 
   					<lb ed="#P"/>conficere <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> quia non habet potestatem 
   					<lb ed="#P"/>ad hoc <pc ana="#virgula"/> per caracterem ordinis <pc ana="#punctus"/> Nam 
@@ -80,8 +80,8 @@
   					ponunt</p>
   			</div>
   			<div xml:id="wdr-l4d13q3" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3627">Librum IV, Distinctio 13, Quaestio 3</head>
-  				<head xml:id="wdrl4d13-Hd1e3630" type="questionTitle">Utrum sacerdos malus possit conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3627">Liber IV, Distinctio 13, Quaestio 3</head>
+  				<head xml:id="wdrl4d13-Hd1e3630" type="question-title">Utrum sacerdos malus possit conficere</head>
   				<p xml:id="wdrl4d13-d1e3633"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sacerdos <pc ana="#punctus"/> 
   					<lb ed="#P"/>malus possit conficere <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> 
   					<cb ed="#P" n="113vb"/><lb ed="#P"/>quia <choice><orig>caracterem</orig><reg>characterem</reg></choice> habet qui est de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
@@ -89,23 +89,23 @@
   					<lb ed="#P"/>quia nobis est occulta <pc ana="#punctus"/> Idem <name ref="#GregoryGreat">gregorius</name> <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d13q4" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3693">Librum IV, Distinctio 13, Quaestio 4</head>
-  				<head xml:id="wdrl4d13-Hd1e3696" type="questionTitle">Utrum missa boni sit melior quam mali</head>
+  				<head xml:id="wdrl4d13-Hd1e3693">Liber IV, Distinctio 13, Quaestio 4</head>
+  				<head xml:id="wdrl4d13-Hd1e3696" type="question-title">Utrum missa boni sit melior quam mali</head>
   				<p xml:id="wdrl4d13-d1e3699"><lb ed="#P"/><pc ana="#pilcrow"/>utrum missa boni sit melior quam 
   					<lb ed="#P"/>mali <pc ana="#punctus"/> Responsio sic <pc ana="#virgula"/> quantum ad accidentalia <pc ana="#punctus"/> sive 
   					<lb ed="#P"/>personalia <pc ana="#punctus"/> sed non quo ad substantialia <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d13q5" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3727">Librum IV, Distinctio 13, Quaestio 5</head>
-  				<head xml:id="wdrl4d13-Hd1e3730" type="questionTitle">Utrum haeretici possint conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3727">Liber IV, Distinctio 13, Quaestio 5</head>
+  				<head xml:id="wdrl4d13-Hd1e3730" type="question-title">Utrum haeretici possint conficere</head>
   				<p xml:id="wdrl4d13-d1e3733"><lb ed="#P"/><pc ana="#pilcrow"/>utrum haeretici possint conficere <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> si <choice><orig>caracterem</orig><reg>characterem</reg></choice> habent <pc ana="#punctus"/> et formam 
   					<lb ed="#P"/>ecclesiae servant <pc ana="#virgula"/> et saltem intendunt 
   					<lb ed="#P"/>facere quod facit ecclesiae <pc ana="#punctus"/> licet non credant idem in littera</p>
   			</div>
   			<div xml:id="wdr-l4d13q6" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3766">Librum IV, Distinctio 13, Quaestio 6</head>
-  				<head xml:id="wdrl4d13-Hd1e3769" type="questionTitle">Quid faciat haereticum</head>
+  				<head xml:id="wdrl4d13-Hd1e3766">Liber IV, Distinctio 13, Quaestio 6</head>
+  				<head xml:id="wdrl4d13-Hd1e3769" type="question-title">Quid faciat haereticum</head>
   				<p xml:id="wdrl4d13-d1e3772"><lb ed="#P"/><pc ana="#pilcrow"/>Quid faciat haereticum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> di<lb ed="#P"/>visio 
   					<unclear>ab?mutatae</unclear> fidei <pc ana="#punctus"/> in qua pertinaciter 
   					<lb ed="#P"/>perseveratur <pc ana="#punctus"/> <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> haereticus est <pc ana="#virgula"/> quia alicuius 
@@ -114,15 +114,15 @@
   					<pc ana="#punctus"/> vel sequitur</p>
   			</div>
   			<div xml:id="wdr-l4d13q7" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3821">Librum IV, Distinctio 13, Quaestio 7</head>
-  				<head xml:id="wdrl4d13-Hd1e3824" type="questionTitle">Utrum excommunicati vel suspensi possit conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3821">Liber IV, Distinctio 13, Quaestio 7</head>
+  				<head xml:id="wdrl4d13-Hd1e3824" type="question-title">Utrum excommunicati vel suspensi possit conficere</head>
   				<p xml:id="wdrl4d13-d1e3827"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ex<lb ed="#P"/>communicati vel suspensi possit confi<lb ed="#P"/>tere 
   					<lb ed="#P"/><pc ana="#punctus"/> Responsio possunt potentia facti <pc ana="#punctus"/> quia or<lb ed="#P"/>dinem 
   					habent <pc ana="#punctus"/> sed non iuris <pc ana="#punctus"/> quia suspensi sunt <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d13q8" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3852">Librum IV, Distinctio 13, Quaestio 8</head>
-  				<head xml:id="wdrl4d13-Hd1e3855" type="questionTitle">Utrum degradati et depositi possint conficere</head>
+  				<head xml:id="wdrl4d13-Hd1e3852">Liber IV, Distinctio 13, Quaestio 8</head>
+  				<head xml:id="wdrl4d13-Hd1e3855" type="question-title">Utrum degradati et depositi possint conficere</head>
   				<p xml:id="wdrl4d13-d1e3858"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum degradati et depositi 
   					<lb ed="#P"/>possint conficere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> potestatem 
   					<lb ed="#P"/>iurisdictionis non habent <pc ana="#punctus"/> potestatem ordinis 
@@ -132,8 +132,8 @@
   					<!-- drops --> <choice><orig>caracterem</orig><reg>characterem</reg></choice> haec potestas fundatur</p>
   			</div>
   			<div xml:id="wdr-l4d13q9" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3904">Librum IV, Distinctio 13, Quaestio 9</head>
-  				<head xml:id="wdrl4d13-Hd1e3907" type="questionTitle">Utrum omisso aliquo de ritu conficiendi sit <unclear>irritum</unclear> <unclear>sacramenti</unclear></head>
+  				<head xml:id="wdrl4d13-Hd1e3904">Liber IV, Distinctio 13, Quaestio 9</head>
+  				<head xml:id="wdrl4d13-Hd1e3907" type="question-title">Utrum omisso aliquo de ritu conficiendi sit <unclear>irritum</unclear> <unclear>sacramenti</unclear></head>
   				<p xml:id="wdrl4d13-d1e3915"><lb ed="#P"/><pc ana="#pilcrow"/>utrum 
   					<lb ed="#P"/><choice><orig>obmisso</orig><reg>omisso</reg></choice> aliquo de ritu con<lb ed="#P"/>ficiendi 
   					sit <unclear>irritum<!--irritatum?? --></unclear> sacramentum <pc ana="#punctus"/> 
@@ -144,8 +144,8 @@
   					<!-- drops --> peccat</p>
   			</div>
   			<div xml:id="wdr-l4d13q10" type="quaestio">
-  				<head xml:id="wdrl4d13-Hd1e3978">Librum IV, Distinctio 13, Quaestio 10</head>
-  				<head xml:id="wdrl4d13-Hd1e3981" type="questionTitle">Utrum brutum possit summere corpus christi</head>
+  				<head xml:id="wdrl4d13-Hd1e3978">Liber IV, Distinctio 13, Quaestio 10</head>
+  				<head xml:id="wdrl4d13-Hd1e3981" type="question-title">Utrum brutum possit summere corpus christi</head>
   				<p xml:id="wdrl4d13-d1e3984"><lb ed="#P"/><pc ana="#pilcrow"/>utrum bruntum possit <pc ana="#virgula"/> 
   					<lb ed="#P"/>summere corpus christi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam 
   					<cb ed="#P" n="114ra"/><lb ed="#P"/>cum <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> sed tantum speciem <pc ana="#virgula"/> sicut 

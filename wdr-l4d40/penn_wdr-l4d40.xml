@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 40 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 40 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 40 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 40 [Penn Transcription]</title>
           <date when="2016-05-23">May 23, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d40">
-  			<head xml:id="wdrl4d40-Hd1e3503">Librum IV, Distinctio 40 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d40-Hd1e3503">Liber IV, Distinctio 40 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d40q1" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3508">Librum IV, Distinctio 40, Quaestio 1</head>
-  				<head xml:id="wdrl4d40-Hd1e3511" type="questionTitle">Utrum consanguinitas sic inter homines</head>
+  				<head xml:id="wdrl4d40-Hd1e3508">Liber IV, Distinctio 40, Quaestio 1</head>
+  				<head xml:id="wdrl4d40-Hd1e3511" type="question-title">Utrum consanguinitas sic inter homines</head>
   				<p xml:id="wdrl4d40-d1e3514"><lb ed="#P"/>Quaeritur 
   					<lb ed="#P"/>utrum consanguinitas <pc ana="#punctus"/> sic inter homines <pc ana="#punctus"/> <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quae scilicet est communicatio sanguinis sive 
@@ -69,8 +69,8 @@
   					<lb ed="#P"/>sanctis paulatim haec similitudo sanguinis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d40q2" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3562">Librum IV, Distinctio 40, Quaestio 2</head>
-  				<head xml:id="wdrl4d40-Hd1e3565" type="questionTitle">Quid sit consanguinitas et qualiter distinguatur</head>
+  				<head xml:id="wdrl4d40-Hd1e3562">Liber IV, Distinctio 40, Quaestio 2</head>
+  				<head xml:id="wdrl4d40-Hd1e3565" type="question-title">Quid sit consanguinitas et qualiter distinguatur</head>
   				<p xml:id="wdrl4d40-d1e3568"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit consanguinitas <pc ana="#punctus"/> et qua<lb ed="#P"/>liter 
   					distinguatur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Consang<lb ed="#P"/>uintas 
   					est vinculum personarum ab eodem 
@@ -84,8 +84,8 @@
   					<lb ed="#P"/>autem patre <seg type="correction">stipitem<del rend="expunctuated">s</del></seg> <pc ana="#virgula"/> quia <unclear>sunt</unclear> una <unclear>caro</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d40q3" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3645">Librum IV, Distinctio 40, Quaestio 3</head>
-  				<head xml:id="wdrl4d40-Hd1e3648" type="questionTitle">Utrum debeat impedire matrimonium</head>
+  				<head xml:id="wdrl4d40-Hd1e3645">Liber IV, Distinctio 40, Quaestio 3</head>
+  				<head xml:id="wdrl4d40-Hd1e3648" type="question-title">Utrum debeat impedire matrimonium</head>
   				<p xml:id="wdrl4d40-d1e3651"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum debeat <choice><orig>inpedire</orig><reg>impedire</reg></choice> matrimonium 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> et hoc <pc ana="#punctus"/> cum patre et matre <pc ana="#punctus"/> ex 
   					<lb ed="#P"/>lege nature <ref><title ref="#gen">genesis</title> 1</ref> quibus maior reverentia 
@@ -97,8 +97,8 @@
   					<lb ed="#P"/>et hoc propter dilatationem amicitiae</p>
   			</div>
   			<div xml:id="wdr-l4d40q4" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3728">Librum IV, Distinctio 40, Quaestio 4</head>
-  				<head xml:id="wdrl4d40-Hd1e3731" type="questionTitle">Usque ad quotum gradum protendatur impedimentum</head>
+  				<head xml:id="wdrl4d40-Hd1e3728">Liber IV, Distinctio 40, Quaestio 4</head>
+  				<head xml:id="wdrl4d40-Hd1e3731" type="question-title">Usque ad quotum gradum protendatur impedimentum</head>
   				<p xml:id="wdrl4d40-d1e3734"><lb ed="#P"/><pc ana="#pilcrow"/>usque ad quotum gradum proten<lb ed="#P"/>datur 
   					inpedimentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nunc 
   					<lb ed="#P"/>usque ad quartum gradum inclusive <pc ana="#virgula"/> 
@@ -106,8 +106,8 @@
   					<lb ed="#P"/>vigere <unclear>amicitiam</unclear> et etiam memoriam consanguinitatis</p>
   			</div>
   			<div xml:id="wdr-l4d40q5" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3761">Librum IV, Distinctio 40, Quaestio 5</head>
-  				<head xml:id="wdrl4d40-Hd1e3764" type="questionTitle">Utrum matrimonium infidelium contractum in gradum prohibito post conversionem debeat separari</head>
+  				<head xml:id="wdrl4d40-Hd1e3761">Liber IV, Distinctio 40, Quaestio 5</head>
+  				<head xml:id="wdrl4d40-Hd1e3764" type="question-title">Utrum matrimonium infidelium contractum in gradum prohibito post conversionem debeat separari</head>
   				<p xml:id="wdrl4d40-d1e3767"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium infidelium contractum in gra<lb ed="#P"/>dum 
   					prohibito post conversionem de<lb ed="#P"/>beat 
   					separari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi sit in 
@@ -116,8 +116,8 @@
   					<pc ana="#virgula"/> sed non statutis ecclesiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d40q6" type="quaestio">
-  				<head xml:id="wdrl4d40-Hd1e3808">Librum IV, Distinctio 40, Quaestio 6</head>
-  				<head xml:id="wdrl4d40-Hd1e3811" type="questionTitle">Utrum matrimonium ante concilium in 5 et 6 gradu contractum post concilium debuerit separari</head>
+  				<head xml:id="wdrl4d40-Hd1e3808">Liber IV, Distinctio 40, Quaestio 6</head>
+  				<head xml:id="wdrl4d40-Hd1e3811" type="question-title">Utrum matrimonium ante concilium in 5 et 6 gradu contractum post concilium debuerit separari</head>
   				<p xml:id="wdrl4d40-d1e3814"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum matrimonium ante concilium in 5 <pc ana="#punctus"/> 
   					<lb ed="#P"/>et 6 gradu contractum <pc ana="#punctus"/> post con<lb ed="#P"/>cilium 
   					debuerit separari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 

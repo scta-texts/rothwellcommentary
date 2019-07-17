@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 22 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 22 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 22 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 22 [Penn Transcription]</title>
           <date when="2016-04-24">April 24, 2016</date>
         </edition>
       </editionStmt>
@@ -55,14 +55,14 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d22">
-  			<head xml:id="wdrl1d22-Hd1e3503">Librum I, Distinctio 22 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d22-Hd1e3503">Liber I, Distinctio 22 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d22q1" type="quaestio">
-  				<head xml:id="wdrl1d22-Hd1e3508" type="questionTitle">Utrum deus sit nominabilis</head>
+  				<head xml:id="wdrl1d22-Hd1e3508" type="question-title">Utrum deus sit nominabilis</head>
   				<p xml:id="wdrl1d22-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum deus sit nominabilis <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>sic <pc ana="#punctus"/> <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> tamen <pc ana="#punctus"/> sicut etiam <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> cognoscitur a nobis</p>
   			</div>
   			<div xml:id="wdr-l1d22q2" type="quaestio">
-  				<head xml:id="wdrl1d22-Hd1e3542" type="questionTitle">Utrum nominari debeat uno tantum nomine vel pluribus</head>
+  				<head xml:id="wdrl1d22-Hd1e3542" type="question-title">Utrum nominari debeat uno tantum nomine vel pluribus</head>
   				<p xml:id="wdrl1d22-d1e3545"><lb ed="#P"/><pc ana="#pilcrow"/>utrum nominari debeat uno tantum nomine vel 
   					<lb ed="#P"/>pluribus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> pluribus potest nominari <pc ana="#punctus"/> quia quamvis sit 
   					<lb ed="#P"/>unitas essentiae est tamen pluralitas personarum quae re differunt <pc ana="#punctus"/> et 
@@ -73,7 +73,7 @@
   					<pc ana="#punctus"/> ut lux <pc ana="#punctus"/> vita <pc ana="#punctus"/> <pc ana="#virgula"/> per causalitatem ut creator</p>
   			</div>
   			<div xml:id="wdr-l1d22q3" type="quaestio">
-  				<head xml:id="wdrl1d22-Hd1e3601" type="questionTitle">Utrum proprie vel transumptive nominetur</head>
+  				<head xml:id="wdrl1d22-Hd1e3601" type="question-title">Utrum proprie vel transumptive nominetur</head>
   				<p xml:id="wdrl1d22-d1e3604"><lb ed="#P"/><pc ana="#pilcrow"/>utrum proprie <pc ana="#punctus"/> vel transumptive nominetur 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> omnia scilicet et haec quam ad translationem vocis 
   					<lb ed="#P"/>sed non omnia translatione significationis <pc ana="#punctus"/> immo quaedam sunt 
@@ -85,7 +85,7 @@
   					<lb ed="#P"/>et haec non transferuntur ad creaturam nec <del rend="strikethrough">es</del> econverso <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d22q4" type="quaestio">
-  				<head xml:id="wdrl1d22-Hd1e3659" type="questionTitle">Secundum quod genus praedicamenti nominetur</head>
+  				<head xml:id="wdrl1d22-Hd1e3659" type="question-title">Secundum quod genus praedicamenti nominetur</head>
   				<p xml:id="wdrl1d22-d1e3662"><lb ed="#P"/><pc ana="#pilcrow"/>Secundum quid genus praedicamenti nominetur <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quantum ad id quod significatur secundum se absolute <pc ana="#punctus"/> sic omnia 
   					<lb ed="#P"/>significant substantiam <pc ana="#punctus"/> quia essentiam divinam <pc ana="#punctus"/> <pc ana="#virgula"/> quantum ad modum se 
@@ -95,7 +95,7 @@
   					<lb ed="#P"/>omnia genera secundum diversa attributa <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d22q5" type="quaestio">
-  				<head xml:id="wdrl1d22-Hd1e3718" type="questionTitle">De divisione nominum divinorum secundum Ambrosiorum in littera scilicet quod nominum divinorum quaedam exprimunt 
+  				<head xml:id="wdrl1d22-Hd1e3718" type="question-title">De divisione nominum divinorum secundum Ambrosiorum in littera scilicet quod nominum divinorum quaedam exprimunt 
   					proprietatem quaedam essentiam quaedam translative dicuntur</head>
   				<p xml:id="wdrl1d22-d1e3721"><lb ed="#P"/><pc ana="#pilcrow"/>De divisione nominum divinorum secundum <name ref="#Ambrose">ambrosiorum</name> 
   					<cb ed="#P" n="33rb"/><lb ed="#P"/>in littera scilicet quod nominum divinorum quaedam exprimunt 

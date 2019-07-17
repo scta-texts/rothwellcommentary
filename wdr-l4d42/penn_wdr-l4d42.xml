@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 42 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 42 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 42 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 42 [Penn Transcription]</title>
           <date when="2016-05-23">May 23, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d42">
-  			<head xml:id="wdrl4d42-Hd1e3503">Librum IV, Distinctio 42 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d42-Hd1e3503">Liber IV, Distinctio 42 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d42q1" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3508">Librum IV, Distinctio 42, Quaestio 1</head>
-  				<head xml:id="wdrl4d42-Hd1e3511" type="questionTitle">An spiritualis cognatio impediat matrimonium</head>
+  				<head xml:id="wdrl4d42-Hd1e3508">Liber IV, Distinctio 42, Quaestio 1</head>
+  				<head xml:id="wdrl4d42-Hd1e3511" type="question-title">An spiritualis cognatio impediat matrimonium</head>
   				<p xml:id="wdrl4d42-d1e3514"><lb ed="#P"/>Quaeritur an spiritualis cognatio impe<lb ed="#P"/>diat 
   					matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> si praecedit matrimonium 
   					<lb ed="#P"/>quia sicut in generatione carnali <pc ana="#punctuselevatus"/> carnalis 
@@ -72,8 +72,8 @@
   					<lb ed="#P"/>ex necessitate <pc ana="#virgula"/> vel ignorantia <pc ana="#punctus"/> neutrum impedit</p>
   			</div>
   			<div xml:id="wdr-l4d42q2" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3592">Librum IV, Distinctio 42, Quaestio 2</head>
-  				<head xml:id="wdrl4d42-Hd1e3595" type="questionTitle">Ex quibus casis spiritualis contrahitur cognatio</head>
+  				<head xml:id="wdrl4d42-Hd1e3592">Liber IV, Distinctio 42, Quaestio 2</head>
+  				<head xml:id="wdrl4d42-Hd1e3595" type="question-title">Ex quibus casis spiritualis contrahitur cognatio</head>
   				<p xml:id="wdrl4d42-d1e3598"><lb ed="#P"/><pc ana="#pilcrow"/>Ex quibus casis spiritualis contrahitur 
   					<lb ed="#P"/>cognatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> In <choice><orig>cathecismo</orig><reg>catechismo</reg></choice> debilis 
   					<lb ed="#P"/>valde <pc ana="#punctus"/> quae vix inpedit <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/> sed non di<lb ed="#P"/>rimit 
@@ -86,8 +86,8 @@
   					<lb ed="#P"/>et ideo in ea non contrahitur cognatio <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d42q3" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3667">Librum IV, Distinctio 42, Quaestio 3</head>
-  				<head xml:id="wdrl4d42-Hd1e3670" type="questionTitle">Inter quas personas contrahatur</head>
+  				<head xml:id="wdrl4d42-Hd1e3667">Liber IV, Distinctio 42, Quaestio 3</head>
+  				<head xml:id="wdrl4d42-Hd1e3670" type="question-title">Inter quas personas contrahatur</head>
   				<p xml:id="wdrl4d42-d1e3673"><lb ed="#P"/><pc ana="#pilcrow"/>Inter quas personas contrahatur 
   					<lb ed="#P"/>Responsio inter dnatem sacramentum <pc ana="#punctus"/> et suscipientem <pc ana="#punctus"/> 
   					<lb ed="#P"/>inter tenentem ad sacramentum et suscipientem <pc ana="#punctus"/> 
@@ -107,8 +107,8 @@
   					<!-- drops --> cum omnibus</p>
   			</div>
   			<div xml:id="wdr-l4d42q4" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3782">Librum IV, Distinctio 42, Quaestio 4</head>
-  				<head xml:id="wdrl4d42-Hd1e3785" type="questionTitle">Quid sit adoptio per quam legalis cognatio contrahitur</head>
+  				<head xml:id="wdrl4d42-Hd1e3782">Liber IV, Distinctio 42, Quaestio 4</head>
+  				<head xml:id="wdrl4d42-Hd1e3785" type="question-title">Quid sit adoptio per quam legalis cognatio contrahitur</head>
   				<p xml:id="wdrl4d42-d1e3788"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit adoptio <pc ana="#punctus"/> 
   					<lb ed="#P"/>per quam legalis cognatio contrahitur <pc ana="#punctus"/> 
   					<lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cognatio legalis est propinquitas personarum 
@@ -119,8 +119,8 @@
   					<lb ed="#P"/>solatium liberorum ad <choice><orig>suplendum</orig><reg>supplendum</reg></choice> defectum naturae</p>
   			</div>
   			<div xml:id="wdr-l4d42q5" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3832">Librum IV, Distinctio 42, Quaestio 5</head>
-  				<head xml:id="wdrl4d42-Hd1e3835" type="questionTitle">Utrum adoptio impediat matrimonium</head>
+  				<head xml:id="wdrl4d42-Hd1e3832">Liber IV, Distinctio 42, Quaestio 5</head>
+  				<head xml:id="wdrl4d42-Hd1e3835" type="question-title">Utrum adoptio impediat matrimonium</head>
   				<p xml:id="wdrl4d42-d1e3838"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum adoptio impediat matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic secundum iura <pc ana="#punctus"/> vel perpetuo <pc ana="#punctus"/> vel ad tempus 
   					<lb ed="#P"/>durante scilicet adoptione <pc ana="#punctus"/> et hoc eadem ratione 
@@ -129,8 +129,8 @@
   					<lb ed="#P"/><ref>supra distinctione 40 quaestio 3</ref></p>
   			</div>
   			<div xml:id="wdr-l4d42q6" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3873">Librum IV, Distinctio 42, Quaestio 6</head>
-  				<head xml:id="wdrl4d42-Hd1e3876" type="questionTitle">Inter quos contrahitur</head>
+  				<head xml:id="wdrl4d42-Hd1e3873">Liber IV, Distinctio 42, Quaestio 6</head>
+  				<head xml:id="wdrl4d42-Hd1e3876" type="question-title">Inter quos contrahitur</head>
   				<p xml:id="wdrl4d42-d1e3879"><cb ed="#P" n="131vb"/><lb ed="#P"/><pc ana="#pilcrow"/>Inter quos contrahitur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> inter 
   					<lb ed="#P"/>adoptatum <pc ana="#punctus"/> et ad optantem <pc ana="#punctus"/> Inter liberos 
   					<lb ed="#P"/>adoptatos et naturales <pc ana="#punctus"/> Inter adoptatum et uxo<lb ed="#P"/>rem 
@@ -142,8 +142,8 @@
   					<lb ed="#P"/>impedit tantum <pc ana="#punctus"/> durante adoptione <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d42q7" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3932">Librum IV, Distinctio 42, Quaestio 7</head>
-  				<head xml:id="wdrl4d42-Hd1e3935" type="questionTitle">Utrum secundae nuptiae licitae sunt</head>
+  				<head xml:id="wdrl4d42-Hd1e3932">Liber IV, Distinctio 42, Quaestio 7</head>
+  				<head xml:id="wdrl4d42-Hd1e3935" type="question-title">Utrum secundae nuptiae licitae sunt</head>
   				<p xml:id="wdrl4d42-d1e3938"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum secundae nuptiae licitae 
   					<lb ed="#P"/>sunt <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic secundum <name ref="#Paul">apostolum</name> et sanctos <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia mortuo primo iuro soluta est <pc ana="#punctus"/> 
@@ -151,8 +151,8 @@
   					<lb ed="#P"/>quia signum est incontinentiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d42q8" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e3974">Librum IV, Distinctio 42, Quaestio 8</head>
-  				<head xml:id="wdrl4d42-Hd1e3977" type="questionTitle">Utrum secundum matrimonium sit honestum</head>
+  				<head xml:id="wdrl4d42-Hd1e3974">Liber IV, Distinctio 42, Quaestio 8</head>
+  				<head xml:id="wdrl4d42-Hd1e3977" type="question-title">Utrum secundum matrimonium sit honestum</head>
   				<p xml:id="wdrl4d42-d1e3980"><lb ed="#P"/><pc ana="#pilcrow"/>utrum secundum <pc ana="#punctus"/> matrimonium sit honestum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum quod honestum scilicet dicitur abso<lb ed="#P"/>lute 
   					<pc ana="#virgula"/> omne videlicet factum rationabile 
@@ -163,8 +163,8 @@
   					<lb ed="#P"/>et benedictione <choice><orig>sollempni</orig><reg>sollemni</reg></choice> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d42q9" type="quaestio">
-  				<head xml:id="wdrl4d42-Hd1e4034">Librum IV, Distinctio 42, Quaestio 8</head>
-  				<head xml:id="wdrl4d42-Hd1e4037" type="questionTitle">Utrum sit sacramentum</head>
+  				<head xml:id="wdrl4d42-Hd1e4034">Liber IV, Distinctio 42, Quaestio 8</head>
+  				<head xml:id="wdrl4d42-Hd1e4037" type="question-title">Utrum sit sacramentum</head>
   				<p xml:id="wdrl4d42-d1e4040"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit sacramentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic quia <pc ana="#punctus"/> 
   					<lb ed="#P"/>ibi sunt omnia essentialia scilicet materia et forma 
   					<lb ed="#P"/>id est personae legittime et consensus 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 19 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 19 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 19 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 19 [Penn Transcription]</title>
           <date when="2016-05-16">May 16, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d19">
-  			<head xml:id="wdrl4d19-Hd1e3503">Librum IV, Distinctio 19 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d19-Hd1e3503">Liber IV, Distinctio 19 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d19q1" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3508">Librum IV, Distinctio 19, Quaestio 1</head>
-  				<head xml:id="wdrl4d19-Hd1e3511" type="questionTitle">Utrum sacerdotes veteris legis habuerint claves</head>
+  				<head xml:id="wdrl4d19-Hd1e3508">Liber IV, Distinctio 19, Quaestio 1</head>
+  				<head xml:id="wdrl4d19-Hd1e3511" type="question-title">Utrum sacerdotes veteris legis habuerint claves</head>
   				<p xml:id="wdrl4d19-d1e3514"><lb ed="#P"/>Queritur utrum 
   					<lb ed="#P"/>sacerdotes veteris legis habuerint claves <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> sed tantum figuram <pc ana="#punctus"/> quia claves ordi<lb ed="#P"/>nantur 
@@ -66,8 +66,8 @@
   					<!-- drops --> remissionem <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q2" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3541">Librum IV, Distinctio 19, Quaestio 2</head>
-  				<head xml:id="wdrl4d19-Hd1e3544" type="questionTitle">Utrum in novo testamento soli sacerdotes habeant calves</head>
+  				<head xml:id="wdrl4d19-Hd1e3541">Liber IV, Distinctio 19, Quaestio 2</head>
+  				<head xml:id="wdrl4d19-Hd1e3544" type="question-title">Utrum in novo testamento soli sacerdotes habeant calves</head>
   				<p xml:id="wdrl4d19-d1e3547"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in novo testamento 
   					<lb ed="#P"/>soli sacerdotes habeant claves <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>sic simpliciter loquendo quo ad principale officium 
@@ -76,8 +76,8 @@
   					<lb ed="#P"/>principale officium <pc ana="#virgula"/> quod est apertio regni ecclesaie</p> 
   			</div>
   			<div xml:id="wdr-l4d19q3" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3576">Librum IV, Distinctio 19, Quaestio 3</head>
-  				<head xml:id="wdrl4d19-Hd1e3579" type="questionTitle">Utrum sacerdotes mali habeant claves</head>
+  				<head xml:id="wdrl4d19-Hd1e3576">Liber IV, Distinctio 19, Quaestio 3</head>
+  				<head xml:id="wdrl4d19-Hd1e3579" type="question-title">Utrum sacerdotes mali habeant claves</head>
   				<p xml:id="wdrl4d19-d1e3582"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sacerdotes mali habeant cla<lb ed="#P"/>ves 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> omnes habent clavem <pc ana="#punctus"/> quae est 
   					<lb ed="#P"/>potestas ordinis <pc ana="#punctus"/> non tamen omnes habent usum 
@@ -85,16 +85,16 @@
   					<!-- drops --> ministra <unclear>materiam</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d19q4" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3611">Librum IV, Distinctio 19, Quaestio 4</head>
-  				<head xml:id="wdrl4d19-Hd1e3614" type="questionTitle">Utrum christus habuerit claves</head>
+  				<head xml:id="wdrl4d19-Hd1e3611">Liber IV, Distinctio 19, Quaestio 4</head>
+  				<head xml:id="wdrl4d19-Hd1e3614" type="question-title">Utrum christus habuerit claves</head>
   				<p xml:id="wdrl4d19-d1e3617"><cb ed="#P" n="119vb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus habuerit claves <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
   					<lb ed="#P"/> inquantum deus <pc ana="#punctus"/> habet clavem auctoritatis inquantum 
   					<lb ed="#P"/>homo habet clavem excellentiae <pc ana="#punctus"/> sed neque cla<!-- drops -->vem 
   					ministerii tantum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q5" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3642">Librum IV, Distinctio 19, Quaestio 5</head>
-  				<head xml:id="wdrl4d19-Hd1e3645" type="questionTitle">Utrum claves possint auferri</head>
+  				<head xml:id="wdrl4d19-Hd1e3642">Liber IV, Distinctio 19, Quaestio 5</head>
+  				<head xml:id="wdrl4d19-Hd1e3645" type="question-title">Utrum claves possint auferri</head>
   				<p xml:id="wdrl4d19-d1e3648"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>claves possint auferri <pc ana="#punctus"/> Responsio sic 
   					<lb ed="#P"/>quantum ad usum scilicet <unclear>vel</unclear> simpliciter ut in depositis 
@@ -104,16 +104,16 @@
   					<lb ed="#P"/>auferri <pc ana="#punctus"/> quo ad radicem vel ecclesiam <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q6" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3702">Librum IV, Distinctio 19, Quaestio 6</head>
-  				<head xml:id="wdrl4d19-Hd1e3705" type="questionTitle">Utrum quilibet habens clavem quemlibet inferiorem possit absolvere</head>
+  				<head xml:id="wdrl4d19-Hd1e3702">Liber IV, Distinctio 19, Quaestio 6</head>
+  				<head xml:id="wdrl4d19-Hd1e3705" type="question-title">Utrum quilibet habens clavem quemlibet inferiorem possit absolvere</head>
   				<p xml:id="wdrl4d19-d1e3708"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quilibet habens clavem <pc ana="#punctuselevatus"/> quemlibet 
   					<lb ed="#P"/>inferiorem possit absolvere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
   					<lb ed="#P"/>non quia quamvis non sit clavis limi<lb ed="#P"/>tata 
   					<pc ana="#virgula"/> tamen iurisdictio est limitata <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q7" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3732">Librum IV, Distinctio 19, Quaestio 7</head>
-  				<head xml:id="wdrl4d19-Hd1e3735" type="questionTitle">Utrum inferior aliquando possit absolvere superiorem</head>
+  				<head xml:id="wdrl4d19-Hd1e3732">Liber IV, Distinctio 19, Quaestio 7</head>
+  				<head xml:id="wdrl4d19-Hd1e3735" type="question-title">Utrum inferior aliquando possit absolvere superiorem</head>
   				<p xml:id="wdrl4d19-d1e3738"><lb ed="#P"/><pc ana="#pilcrow"/>utrum inferior aliquando possit ab<lb ed="#P"/>solvere 
   					superiorem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic scilicet excom<lb ed="#P"/>missione 
   					superioris in foro <choice><orig>penitentiali</orig><reg>poenitentiali</reg></choice> 
@@ -122,8 +122,8 @@
   					sua <pc ana="#virgula"/> per peccatum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q8" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3775">Librum IV, Distinctio 19, Quaestio 8</head>
-  				<head xml:id="wdrl4d19-Hd1e3778" type="questionTitle">Utrum quilibet teneatur corripere fratrem peccantem</head>
+  				<head xml:id="wdrl4d19-Hd1e3775">Liber IV, Distinctio 19, Quaestio 8</head>
+  				<head xml:id="wdrl4d19-Hd1e3778" type="question-title">Utrum quilibet teneatur corripere fratrem peccantem</head>
   				<p xml:id="wdrl4d19-d1e3781"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quilibet teneatur corripere 
   					<lb ed="#P"/>fratrem peccantem <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> verbo scilicet 
   					<lb ed="#P"/>quia est opus caritatis <name ref="#Augustine">augustinus</name> si autem frater tuus etc <pc ana="#punctus"/> 
@@ -133,8 +133,8 @@
   					<lb ed="#P"/>vel facere debeat ex officio <pc ana="#punctuselevatus"/></p>
   			</div>
   			<div xml:id="wdr-l4d19q9" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3824">Librum IV, Distinctio 19, Quaestio 9</head>
-  				<head xml:id="wdrl4d19-Hd1e3827" type="questionTitle">Utrum peccator debeat corrigere</head>
+  				<head xml:id="wdrl4d19-Hd1e3824">Liber IV, Distinctio 19, Quaestio 9</head>
+  				<head xml:id="wdrl4d19-Hd1e3827" type="question-title">Utrum peccator debeat corrigere</head>
   				<p xml:id="wdrl4d19-d1e3830"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum peccator debeat corrigere 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> si <unclear>corrigere</unclear> ut praelatus <pc ana="#punctus"/> peccat <pc ana="#punctus"/> 
   					<lb ed="#P"/>in digno utendo officio <pc ana="#punctus"/> si ut pri<lb ed="#P"/>vatus 
@@ -142,15 +142,15 @@
   					<!-- drops --> corrigendo</p>
   			</div>
   			<div xml:id="wdr-l4d19q10" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3858">Librum IV, Distinctio 19, Quaestio 10</head>
-  				<head xml:id="wdrl4d19-Hd1e3861" type="questionTitle">Utrum subditus debeat corrigere praelatum</head>
+  				<head xml:id="wdrl4d19-Hd1e3858">Liber IV, Distinctio 19, Quaestio 10</head>
+  				<head xml:id="wdrl4d19-Hd1e3861" type="question-title">Utrum subditus debeat corrigere praelatum</head>
   				<p xml:id="wdrl4d19-d1e3864"><lb ed="#P"/><pc ana="#pilcrow"/>utrum subditus <pc ana="#punctus"/> 
   					<lb ed="#P"/>debeat corrigere praelatum <pc ana="#punctuselevatus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> modeste tamen ne laedat re<!-- drops -->verentiam</p>
   			</div>
   			<div xml:id="wdr-l4d19q11" type="quaestio">
-  				<head xml:id="wdrl4d19-Hd1e3888">Librum IV, Distinctio 19, Quaestio 11</head>
-  				<head xml:id="wdrl4d19-Hd1e3891" type="questionTitle">Utrum debeat praecedere ammonitio ante denuntiationem et utrum te stes sint adhibendi</head>
+  				<head xml:id="wdrl4d19-Hd1e3888">Liber IV, Distinctio 19, Quaestio 11</head>
+  				<head xml:id="wdrl4d19-Hd1e3891" type="question-title">Utrum debeat praecedere ammonitio ante denuntiationem et utrum te stes sint adhibendi</head>
   				<p xml:id="wdrl4d19-d1e3894"><cb ed="#P" n="120ra"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum debeat praecedere ammonitio 
   					<lb ed="#P"/>ante denuntiationem <pc ana="#punctus"/> et utrum te <pc ana="#punctus"/> 
   					<lb ed="#P"/>stes sint adhibendi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nota 

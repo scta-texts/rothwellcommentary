@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 40 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 40 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 40 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 40 [Penn Transcription]</title>
           <date when="2016-05-03">May 03, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d40">
-  			<head xml:id="wdrl1d40-Hd1e3503">Librum I, Distinctio 40 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d40-Hd1e3503">Liber I, Distinctio 40 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d40q1" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e3508">Librum I, Distinctio 40, Quaestio 1</head>
-  				<head xml:id="wdrl1d40-Hd1e3511" type="questionTitle">Quid sit <unclear>praedestinatio</unclear> secundum rem</head>
+  				<head xml:id="wdrl1d40-Hd1e3508">Liber I, Distinctio 40, Quaestio 1</head>
+  				<head xml:id="wdrl1d40-Hd1e3511" type="question-title">Quid sit <unclear>praedestinatio</unclear> secundum rem</head>
   				<p xml:id="wdrl1d40-d1e3517"><lb ed="#P"/>Queritur quid sit <sic>praedestinastio</sic> secundum rem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
   					<lb ed="#P"/>totaliter est in deo <pc ana="#punctus"/> et praedestinatio activa et passiva 
   					<lb ed="#P"/>sicut laudatio <name>caesaris</name> in laudant <pc ana="#punctus"/> quia solum rem 
@@ -71,8 +71,8 @@
   					<pc ana="#punctuselevatus"/> Sed <unclear>approbationis</unclear> <pc ana="#punctus"/> unde partum pertinet ad sa<!-- drops -->pientiam partim ad voluntatem</p>
   			</div>
   			<div xml:id="wdr-l1d40q2" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e3603">Librum I, Distinctio 40, Quaestio 2</head>
-  				<head xml:id="wdrl1d40-Hd1e3606" type="questionTitle">Quid sit diffinitione</head>
+  				<head xml:id="wdrl1d40-Hd1e3603">Liber I, Distinctio 40, Quaestio 2</head>
+  				<head xml:id="wdrl1d40-Hd1e3606" type="question-title">Quid sit diffinitione</head>
   				<p xml:id="wdrl1d40-d1e3609"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit diffinitione <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> praedestinatio est praeparatam gratiae 
   					<lb ed="#P"/>in praesenti <add place="aboveLine">et</add> gloriae in futuro <pc ana="#punctus"/> haec convenit tantum hominibus <pc ana="#punctus"/> Item <name ref="#Augustine">augustinus</name> in 
   					<lb ed="#P"/>littera <title>de fide ad petrum</title> <pc ana="#punctus"/> praedestinatio <pc ana="#punctus"/> est gratuitae donationis praepara<cb ed="#P" n="39vb"/><lb ed="#P"/>tio <pc ana="#punctus"/> 
@@ -80,8 +80,8 @@
   					<!-- drops --> ferendi</p>
   			</div>
   			<div xml:id="wdr-l1d40q3" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e3665">Librum I, Distinctio 40, Quaestio 3</head>
-  				<head xml:id="wdrl1d40-Hd1e3668" type="questionTitle">Quorum sit praedestinatio</head>
+  				<head xml:id="wdrl1d40-Hd1e3665">Liber I, Distinctio 40, Quaestio 3</head>
+  				<head xml:id="wdrl1d40-Hd1e3668" type="question-title">Quorum sit praedestinatio</head>
   				<p xml:id="wdrl1d40-d1e3671"><lb ed="#P"/><pc ana="#pilcrow"/>Quorum sit praedestinatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> large 
   					<lb ed="#P"/>loquendo et in proprie <pc ana="#punctus"/> sic aliquando accipitur propter parationem praemii 
   					<lb ed="#P"/>cuiuscumque <pc ana="#punctus"/> et sic dicit <name ref="#Augustine">augustinus</name> <choice><orig>penam</orig><reg>poenam</reg></choice> malis praedestinatam <pc ana="#punctus"/> Sed 
@@ -99,8 +99,8 @@
   					<lb ed="#P"/>aut aeternitatis ad naturam tantum <pc ana="#punctus"/> sic conventi soli deo christo <!-- possible correction here --></p>
   			</div>
   			<div xml:id="wdr-l1d40q4" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e3793">Librum I, Distinctio 40, Quaestio 4</head>
-  				<head xml:id="wdrl1d40-Hd1e3796" type="questionTitle">Utrum sit aeterna vel temporalis</head>
+  				<head xml:id="wdrl1d40-Hd1e3793">Liber I, Distinctio 40, Quaestio 4</head>
+  				<head xml:id="wdrl1d40-Hd1e3796" type="question-title">Utrum sit aeterna vel temporalis</head>
   				<p xml:id="wdrl1d40-d1e3799"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit aeterna vel temporalis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Aeterna est <ref><title ref="#eph">ephesios</title> 
   					<lb ed="#P"/>1</ref> <quote xml:id="wdrl1d40-Qd1e3814" ana="#eph1_4">elegit nos in ipso ante mundi constitutionem</quote> <pc ana="#punctus"/> quia trai quae im<lb ed="#P"/>portat 
   					<pc ana="#punctus"/> omnia aeterna sunt <pc ana="#punctus"/> quae sunt divina dispositio <pc ana="#punctus"/> quae est principale 
@@ -108,8 +108,8 @@
   					<!-- drops --> significati ad connotatum</p>
   			</div>
   			<div xml:id="wdr-l1d40q5" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e3842">Librum I, Distinctio 40, Quaestio 5</head>
-  				<head xml:id="wdrl1d40-Hd1e3845" type="questionTitle">utrum imponat necessitatem</head>
+  				<head xml:id="wdrl1d40-Hd1e3842">Liber I, Distinctio 40, Quaestio 5</head>
+  				<head xml:id="wdrl1d40-Hd1e3845" type="question-title">utrum imponat necessitatem</head>
   				<p xml:id="wdrl1d40-d1e3848"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>inponat</orig><reg>imponat</reg></choice> 
   					<lb ed="#P"/><choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> <pc ana="#punctus"/> Respondeo non <pc ana="#punctus"/> <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> scilicet absoluta <pc ana="#punctus"/> quia non tollit 
   					<lb ed="#P"/>libertate arbitrium quia est causa proxima <pc ana="#punctus"/> licet praedestinatio sit causa prima 
@@ -125,8 +125,8 @@
   				</p>
   			</div>
   			<div xml:id="wdr-l1d40q6" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e4001">Librum I, Distinctio 40, Quaestio 6</head>
-  				<head xml:id="wdrl1d40-Hd1e4004" type="questionTitle">Utrum praedestinatio habeat certitudinem</head>
+  				<head xml:id="wdrl1d40-Hd1e4001">Liber I, Distinctio 40, Quaestio 6</head>
+  				<head xml:id="wdrl1d40-Hd1e4004" type="question-title">Utrum praedestinatio habeat certitudinem</head>
   				<p xml:id="wdrl1d40-d1e4007"><lb ed="#P"/><pc ana="#pilcrow"/>utrum praedestinatio <pc ana="#punctus"/> 
   					<lb ed="#P"/>habeat certitudinem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> a parte dei certa est et immobilis 
   					<lb ed="#P"/>Sed a parte rei praedestinante est loqui dupliciter <pc ana="#punctus"/> vel secundum se et in 
@@ -136,8 +136,8 @@
   					<!-- drops --> respiciunt</p>
   			</div>
   			<div xml:id="wdr-l1d40q7" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e4051">Librum I, Distinctio 40, Quaestio 7</head>
-  				<head xml:id="wdrl1d40-Hd1e4054" type="questionTitle">utrum numerus praedestinatorum possit augeri</head>
+  				<head xml:id="wdrl1d40-Hd1e4051">Liber I, Distinctio 40, Quaestio 7</head>
+  				<head xml:id="wdrl1d40-Hd1e4054" type="question-title">utrum numerus praedestinatorum possit augeri</head>
   				<p xml:id="wdrl1d40-d1e4057"><lb ed="#P"/><pc ana="#pilcrow"/>utrum numerus praedestinatorum 
   					<lb ed="#P"/>possit augeri <pc ana="#punctus"/> Responsio numerus numerans sive formalis 
   					<lb ed="#P"/>est certus est scilicet quod tot <seg type="correction">sa<add place="aboveLine">l</add>vabuntur</seg> <name ref="#Augustine">augustinus</name> in littera certus est 
@@ -146,8 +146,8 @@
   					<lb ed="#P"/>mutari potest <pc ana="#punctus"/> Sed non mutabuntur</p>
   			</div>
   			<div xml:id="wdr-l1d40q8" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e4101">Librum I, Distinctio 40, Quaestio 8</head>
-  				<head xml:id="wdrl1d40-Hd1e4104" type="questionTitle">Quid sit reprobatio</head>
+  				<head xml:id="wdrl1d40-Hd1e4101">Liber I, Distinctio 40, Quaestio 8</head>
+  				<head xml:id="wdrl1d40-Hd1e4104" type="question-title">Quid sit reprobatio</head>
   				<p xml:id="wdrl1d40-d1e4107"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit reprobatio <pc ana="#punctus"/> Responsio <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> Repro<lb ed="#P"/>batio 
   					est praescientia iniquitatis quorumdam <pc ana="#punctus"/> et <sic>properatio</sic> 
   					<lb ed="#P"/><choice><orig>dampnationis</orig><reg>damnationis</reg></choice> eorum <pc ana="#punctus"/> unde includit tria <pc ana="#punctus"/> unum 
@@ -156,8 +156,8 @@
   					<!-- drops --> in futuro <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d40q9" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e4163">Librum I, Distinctio 40, Quaestio 9</head>
-  				<head xml:id="wdrl1d40-Hd1e4166" type="questionTitle">Quid sit obduratio</head>
+  				<head xml:id="wdrl1d40-Hd1e4163">Liber I, Distinctio 40, Quaestio 9</head>
+  				<head xml:id="wdrl1d40-Hd1e4166" type="question-title">Quid sit obduratio</head>
   				<p xml:id="wdrl1d40-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit obudratio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in 
   					<lb ed="#P"/>corporibus duritiam sequitur triplex proprietas scilicet inhabilitas 
   					<lb ed="#P"/>ad suscipiendam <choice><orig>inpressionem</orig><reg>impressionem</reg></choice> stabilitas ad perma<lb ed="#P"/>nendum 
@@ -170,8 +170,8 @@
   					<!-- drops --> <unclear>gratus</unclear> peccati <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d40q10" type="quaestio">
-  				<head xml:id="wdrl1d40-Hd1e4231">Librum I, Distinctio 40, Quaestio 10</head>
-  				<head xml:id="wdrl1d40-Hd1e4234" type="questionTitle">Quibus sit effectus obduratio</head>
+  				<head xml:id="wdrl1d40-Hd1e4231">Liber I, Distinctio 40, Quaestio 10</head>
+  				<head xml:id="wdrl1d40-Hd1e4234" type="question-title">Quibus sit effectus obduratio</head>
   				<p xml:id="wdrl1d40-d1e4237"><lb ed="#P"/><pc ana="#pilcrow"/>Quibus sit effectus obduratio <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio obduratio secundum quod <choice><orig>pena</orig><reg>poena</reg></choice> est <pc ana="#punctus"/> dicit quamdam <pc ana="#punctus"/> privativam 
   					<lb ed="#P"/>passionem id est inhabilitatem ad gratiam <pc ana="#punctus"/> quae provenit 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 17 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 17 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 17 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 17 [Penn Transcription]</title>
           <date when="2016-04-20">April 20, 2016</date>
         </edition>
       </editionStmt>
@@ -55,9 +55,9 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d17">
-  			<head xml:id="wdrl1d17-Hd1e3503">Librum I, Distinctio 17 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d17-Hd1e3503">Liber I, Distinctio 17 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d17q1" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3508" type="questionTitle">Utrum caritas sit quid increatum in anima</head>
+  				<head xml:id="wdrl1d17-Hd1e3508" type="question-title">Utrum caritas sit quid increatum in anima</head>
   				<p xml:id="wdrl1d17-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum caritas sit quid increatum <pc ana="#punctus"/> 
   					<lb ed="#P"/>in anima <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> opinio <name ref="#Lombard">magistri</name> fuit <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> unde dixit 
   					<lb ed="#P"/>quod caritas est forma increata tantum <pc ana="#punctus"/> immediate voluntatem 
@@ -72,13 +72,13 @@
   					<!-- drops line --> in est nobis</p>
   			</div>
   			<div xml:id="wdr-l1d17q2" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3599" type="questionTitle">Utrum sit substantia a vel accidens</head>
+  				<head xml:id="wdrl1d17-Hd1e3599" type="question-title">Utrum sit substantia a vel accidens</head>
   				<p xml:id="wdrl1d17-d1e3602"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit substantia vel accidens <pc ana="#punctus"/> Respondeo 
   					<lb ed="#P"/>accidens <pc ana="#punctus"/> <pc ana="#virgula"/> quia advenit animae post esse completum <pc ana="#punctus"/> et ut 
   					<lb ed="#P"/>inhaerens <pc ana="#punctus"/> et potest ad <del>h <!-- unclear --></del> esse <pc ana="#punctus"/> et ab esse <pc ana="#punctus"/> etc <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d17q3" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3635" type="questionTitle">Utrum detur secundum proportionem naturalium</head>
+  				<head xml:id="wdrl1d17-Hd1e3635" type="question-title">Utrum detur secundum proportionem naturalium</head>
   				<p xml:id="wdrl1d17-d1e3638"><lb ed="#P"/><pc ana="#pilcrow"/>utrum detur secundum proportionem naturalium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> diver<lb ed="#P"/>simode 
   					datur <pc ana="#punctus"/> secundum diversam virtutem id est dispositionem re<lb ed="#P"/>cipientum 
   					<pc ana="#punctus"/> ut <ref><name>Io?</name> in <title>Glossa</title> <title ref="#mt">Matthaeus</title> xxiiii</ref> autem dispositio 
@@ -91,7 +91,7 @@
   					<lb ed="#P"/>tantum dispositio materialis vel potentia</p>
   			</div>
   			<div xml:id="wdr-l1d17q4" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3732" type="questionTitle">Utrum caritas diligenda sit ex caritate</head>
+  				<head xml:id="wdrl1d17-Hd1e3732" type="question-title">Utrum caritas diligenda sit ex caritate</head>
   				<p xml:id="wdrl1d17-d1e3735"><lb ed="#P"/>Utrum caritas diligenda sit ex caritate 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> aeterna scilicet quae deus est scilicet amore amicitiae et con<lb ed="#P"/>cupiscentiae 
   					Simili creata <pc ana="#punctus"/> sive actus sive habitus <pc ana="#punctus"/> et haec 
@@ -101,7 +101,7 @@
   					<lb ed="#P"/>altero eodem actu amore scilicet amicitiae</p> 
   			</div>
   			<div xml:id="wdr-l1d17q5" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3769" type="questionTitle">Utrum possit certitudinaliter cognosci ab habente ipsam</head>
+  				<head xml:id="wdrl1d17-Hd1e3769" type="question-title">Utrum possit certitudinaliter cognosci ab habente ipsam</head>
   				<p xml:id="wdrl1d17-d1e3772"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit certitudinaliter cognosci ab haben<lb ed="#P"/>te 
   					ipsam <pc ana="#punctus"/> Respondeo non quia actus eius similis est actui 
   					<lb ed="#P"/>naturalis acquisitae dilectionis <pc ana="#punctus"/> Item dei acceptaitonem <choice><orig>in<lb ed="#P"/>portat</orig><reg>im<lb ed="#P"/>portat</reg></choice> 
@@ -110,7 +110,7 @@
   					dei <pc ana="#punctus"/> ut scilicet ignorantes bona nostra <pc ana="#virgula"/> magis <unclear>humili??tatem</unclear></p>
   			</div>
   			<div xml:id="wdr-l1d17q6" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3824" type="questionTitle">Utrum poscit cognosci ante habente ipsam</head>
+  				<head xml:id="wdrl1d17-Hd1e3824" type="question-title">Utrum poscit cognosci ante habente ipsam</head>
   				<p xml:id="wdrl1d17-d1e3827"><lb ed="#P"/><pc ana="#pilcrow"/>utrum poscit cognosci ante habente ipsam 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> cognitione scilicet speculatam <pc ana="#punctus"/> non experientiae <pc ana="#punctus"/> 
   					<lb ed="#P"/><pc ana="#virgula"/>non autem per speciem quae sit idem quod ipsa <pc ana="#punctus"/> sic enim indetur 
@@ -126,7 +126,7 @@
   					<lb ed="#P"/>appetit omnis <pc ana="#punctus"/> exemplum de principiis scientiarum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d17q7" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3925" type="questionTitle">Utrum peius praesentia videatur immediate deus</head>
+  				<head xml:id="wdrl1d17-Hd1e3925" type="question-title">Utrum peius praesentia videatur immediate deus</head>
   				<p xml:id="wdrl1d17-d1e3928"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <unclear>peius</unclear> praesentiam videatur immediate <!-- drops line --> deus <pc ana="#punctus"/> 
   					<cb ed="#P" n="31ra"/><lb ed="#P"/>Responsio <pc ana="#punctus"/> quidam dicunt quod deus videtur hic in essentia sua <pc ana="#punctus"/> Sed 
   					<lb ed="#P"/>modicum et raptim <pc ana="#punctus"/> et propter hoc dicitur non videri <pc ana="#punctus"/> alii vero quod 
@@ -138,7 +138,7 @@
   					<pc ana="#punctus"/> <pc ana="#virgula"/> datus qui concupiscit semper deum hic videt eum</p>
   			</div>
   			<div xml:id="wdr-l1d17q8" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e3988" type="questionTitle">Utrum caritas augeatur</head>
+  				<head xml:id="wdrl1d17-Hd1e3988" type="question-title">Utrum caritas augeatur</head>
   				<p xml:id="wdrl1d17-d1e3991"><lb ed="#P"/><pc ana="#pilcrow"/>utrum caritas augeatur <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> Sic <pc ana="#punctus"/> 
   					<lb ed="#P"/><name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> caritas meretur augeri <pc ana="#virgula"/> ut <unclear>auctoritas<!-- very uncertain --></unclear> mereatur 
   					<lb ed="#P"/>perfici <pc ana="#punctus"/> <name ref="#Lombard">magister</name> tamen in littera <pc ana="#punctus"/> dicit illam non augeri in se <pc ana="#punctus"/> Sed 
@@ -159,7 +159,7 @@
   					<!-- drops --> actuum vel obiectorum</p>
   			</div>
   			<div xml:id="wdr-l1d17q9" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e4124" type="questionTitle">Quomodo augeatur</head>
+  				<head xml:id="wdrl1d17-Hd1e4124" type="question-title">Quomodo augeatur</head>
   				<p xml:id="wdrl1d17-d1e4127"><lb ed="#P"/><pc ana="#pilcrow"/>Quomodo augeatur <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> duae opiniones sunt <pc ana="#punctus"/> <pc ana="#virgula"/> quidam enim dicunt hoc 
   					<lb ed="#P"/>fieri per meliorationem caritatis in se <pc ana="#punctus"/> et deprecationem <pc ana="#punctus"/> 
@@ -172,7 +172,7 @@
   					<lb ed="#P"/>vel <unclear>deprecatione</unclear> aeris <pc ana="#virgula"/> vel <choice><orig>addiccione</orig><reg>additione</reg></choice> alterius luminis</p>
   			</div>
   			<div xml:id="wdr-l1d17q10" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e4211" type="questionTitle">Utrum augeatur quolibet motu</head>
+  				<head xml:id="wdrl1d17-Hd1e4211" type="question-title">Utrum augeatur quolibet motu</head>
   				<p xml:id="wdrl1d17-d1e4214"><lb ed="#P"/><pc ana="#pilcrow"/>utrum augeatur quolibet motu <pc ana="#punctus"/> Responsio non nisi a deo 
   					<lb ed="#P"/>perfectus sit quod precedat ex tota virtute potentiae naturalis <pc ana="#punctus"/> et 
   					<lb ed="#P"/>habitus perficientis eam <pc ana="#punctus"/> <pc ana="#virgula"/> quia ille sufficienter disponit <pc ana="#punctus"/> 
@@ -180,7 +180,7 @@
   					<lb ed="#P"/>dispositio <pc ana="#punctus"/> et tunc ultimus actus agit in virtute omnium</p>
   			</div>
   			<div xml:id="wdr-l1d17q11" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e4247" type="questionTitle">Utrum caritas possit augeri in infinitum</head>
+  				<head xml:id="wdrl1d17-Hd1e4247" type="question-title">Utrum caritas possit augeri in infinitum</head>
   				<p xml:id="wdrl1d17-d1e4250"><lb ed="#P"/><pc ana="#pilcrow"/>utrum caritas possit 
   					augeri in infinitum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt <pc ana="#punctus"/> quod sic <pc ana="#punctus"/> <unclear>nonquam</unclear> 
   					<lb ed="#P"/>tamen in actum reducitur hoc potentia <pc ana="#punctus"/> exemplum <unclear>de numero</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> et dicunt 
@@ -192,7 +192,7 @@
   					<!-- drops --> cessat augmentum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d17q12" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e4324" type="questionTitle">utrum possit diminui</head>
+  				<head xml:id="wdrl1d17-Hd1e4324" type="question-title">utrum possit diminui</head>
   				<p xml:id="wdrl1d17-d1e4327"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit diminui 
   					Responsio <pc ana="#punctus"/> secundum essentiam non <pc ana="#punctus"/> quia nec ex parte dei <pc ana="#punctus"/> cum sic causa 
   					<lb ed="#P"/>perficiendi non deficiendi <pc ana="#punctus"/> nec ex parte nostri quia mortale 
@@ -203,7 +203,7 @@
   					<!-- drops line --> actus <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d17q13" type="quaestio">
-  				<head xml:id="wdrl1d17-Hd1e4380" type="questionTitle">utrum semper sanctus refatur ad personam ut ad eum cum detur</head>
+  				<head xml:id="wdrl1d17-Hd1e4380" type="question-title">utrum semper sanctus refatur ad personam ut ad eum cum detur</head>
   				<p xml:id="wdrl1d17-d1e4383"><lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus <unclear>refatur</unclear> ad <unclear>personam</unclear> ut 
   					<lb ed="#P"/>ad eum cum detur <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia pater et filius 
   					<lb ed="#P"/>una spirant spiritum scilicet oportet autem differentiam esse inter <pc ana="#punctus"/></p>

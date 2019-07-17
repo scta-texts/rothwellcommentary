@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -70,9 +72,9 @@
       <div xml:id="wdr-l1d1">
         <head>Liber I, Distinctio 1 [Penn Transcription]</head>
         <div xml:id="wdr-l1d1q1" type="quaestio">
-          <head type="questionTitle">Quid sit uti secundum rem et cuius potentiae actus sit</head>
+          <head type="question-title">Quid sit uti secundum rem et cuius potentiae actus sit</head>
           <p xml:id="wdrl1d1-qqsirr">
-            <lb ed="#P" n="1"/>Queritur quid sit uti secundum rem et cuius potentiae actus sit 
+            <lb ed="#P" n="30"/>Queritur quid sit uti secundum rem et cuius potentiae actus sit 
             <lb ed="#P"/>Responsio <g ref="#dot"/> uti secundum <ref><name ref="#Augustine">augustinum</name> in <title>littera</title></ref> est id quod in usum venerit 
             <lb ed="#P"/>referre ad obtinendum illud <g ref="#slash"/> quo ferendum est <g ref="#slash"/> <g ref="#dot"/> et sic accipitur 
             <lb ed="#P"/>proprie in theologia <g ref="#dot"/> <g ref="#slash"/> Item <ref><name ref="#Augustine">augustinus</name> in <title>littera</title> <g ref="#dot"/></ref> uti est assumere aliquid 
@@ -83,23 +85,23 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q2" type="quaestio">
-          <head type="questionTitle">Utrum utendum sit sola creatura</head>
+          <head type="question-title">Utrum utendum sit sola creatura</head>
           <p xml:id="wdrl1d1-uusuba">
-            <g ref="#pilcrow"/>utrum utendum sit sola creatura <g ref="#dot"/> et utrum omni 
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum utendum sit sola creatura <g ref="#dot"/> et utrum omni 
             <lb ed="#P"/>creatura <g ref="#dot"/> vel etiam defectum creaturae scilicet malo <g ref="#dot"/> 
             <lb ed="#P"/>Responsio <g ref="#dot"/> ut <unclear>instrumentis</unclear> utendum est potentiis <g ref="#dot"/> ut habitu quo 
             <lb ed="#P"/>regulamur <g ref="#dot"/> sic tantum habitibus bonis <g ref="#dot"/> ut actu quo mov<lb ed="#P"/>emur <g ref="#dot"/> 
             sic etiam tantum bonis <g ref="#dot"/> non vitiorum <g ref="#dot"/> ut <choice><orig>abiecto</orig><reg>obiecto</reg></choice> <g ref="#dot"/> sic 
             <lb ed="#P"/>omnibus quae referri possunt in finem <g ref="#dot"/> et ideo non est utendum 
             <lb ed="#P"/>deo <g ref="#slash"/> Sed omnibus creaturis <g ref="#dot"/> quia omnia in facultatem 
-            voluntatis <g ref="#dot"/> quodammodo assumi possunt <g ref="#dot"/> vel operando <g ref="#dot"/> ut opera nostra 
-            bona <g ref="#dot"/> vel <choice><orig>tollerando</orig><reg>tolerando</reg></choice> <g ref="#dot"/> ut mala <choice><orig><corr>pen<del>a</del><add>ae</add></corr></orig><reg><corr>poen<del>a</del><add>ae</add></corr></reg></choice> propriae et culpae 
+            <lb ed="#P"/>voluntatis <g ref="#dot"/> quodammodo assumi possunt <g ref="#dot"/> vel operando <g ref="#dot"/> ut opera nostra 
+            <lb ed="#P"/>bona <g ref="#dot"/> vel <choice><orig>tollerando</orig><reg>tolerando</reg></choice> <g ref="#dot"/> ut mala <choice><orig><corr>pen<del>a</del><add>ae</add></corr></orig><reg><corr>poen<del>a</del><add>ae</add></corr></reg></choice> propriae et culpae 
             <lb ed="#P"/>alienae <g ref="#dot"/> vel respuendo <g ref="#dot"/> ut culpam propriam vel approbando 
             <lb ed="#P"/>ut bona aliena
           </p>
         </div>
         <div xml:id="wdr-l1d1q3" type="quaestio">
-          <head type="questionTitle">Utrum deus utatur aliquod</head>
+          <head type="question-title">Utrum deus utatur aliquod</head>
           <p xml:id="wdrl1d1-uduqnu">
             <lb ed="#P"/><g ref="#pilcrow"/>Utrum deus utatur aliquo <g ref="#dot"/> Responsio <g ref="#dot"/> quod sic 
             <lb ed="#P"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> Sed ipse non refert ad finem extra se <g ref="#dot"/> sicut fit 
@@ -107,7 +109,7 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q4" type="quaestio">
-          <head type="questionTitle">Utrum angeli vel sancti in patria utantur</head>
+          <head type="question-title">Utrum angeli vel sancti in patria utantur</head>
           <p xml:id="wdrl1d1-uavnah">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum angeli vel sancti in pa<lb ed="#P"/>tria 
             <g ref="#dot"/> utantur <g ref="#dot"/> Responsio <g ref="#dot"/> sic tali usu scilicet qui non importat 
@@ -116,7 +118,7 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q5" type="quaestio">
-          <head type="questionTitle">Quid sit frui vel cuius potentia sit actus</head>
+          <head type="question-title">Quid sit frui vel cuius potentia sit actus</head>
           <p xml:id="wdrl1d1-qsfifc">
             <lb ed="#P"/><g ref="#pilcrow"/>Quid sit frui <g ref="#dot"/> vel cuius potentiae sit actus 
             <lb ed="#P"/>et cuius virtutis <g ref="#dot"/> Responsio <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> frui est amore 
@@ -130,7 +132,7 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q6" type="quaestio">
-          <head type="questionTitle">Utrum solo deo sit fruendum</head>
+          <head type="question-title">Utrum solo deo sit fruendum</head>
           <p xml:id="wdrl1d1-usdbef">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum solo deo sit fruendum <g ref="#dot"/> Responsio sic <g ref="#dot"/> 
             <lb ed="#P"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> quia ipse solus est ultimus finis effective 
@@ -142,7 +144,7 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q7" type="quaestio">
-          <head type="questionTitle">Utrum uno actu fruitionis fruemur tribus personis</head> 
+          <head type="question-title">Utrum uno actu fruitionis fruemur tribus personis</head> 
           <p xml:id="wdrl1d1-uuaeci">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus 
             <lb ed="#P"/>personis <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia in eis est una ratio obiecti fruitionis et fin<lb ed="#P"/>is 
@@ -150,9 +152,9 @@
           </p>
         </div>
         <div xml:id="wdr-l1d1q8" type="quaestio">
-          <head type="questionTitle">Quibus conveniat fruitio vel quibus modis</head>
+          <head type="question-title">Quibus conveniat fruitio vel quibus modis</head>
           <p xml:id="wdrl1d1-qcfsqd">
-            <g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#dot"/> vel quibus modis 
+            <lb ed="#P"/><g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#dot"/> vel quibus modis 
             <lb ed="#P"/>Responsio <g ref="#dot"/> ad fruitionem tria requiruntur ut patet in diffinitione 
             <lb ed="#P"/>eius scilicet coniunctio delectio <g ref="#dot"/> quietatio <g ref="#dot"/> quietatio autem potest esse 
             <lb ed="#P"/>secundum appetitum rectae rationis <g ref="#dot"/> sic fruuntur boni <g ref="#dot"/> summo bono <g ref="#dot"/> 

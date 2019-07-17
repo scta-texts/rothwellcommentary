@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 10 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 10 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 10 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 10 [Penn Transcription]</title>
           <date when="2016-04-11">April 11, 2016</date>
         </edition>
       </editionStmt>
@@ -55,9 +55,9 @@
     </front>
     <body>
       <div xml:id="wdr-l1d10">
-        <head>Librum I, Distinctio 10 [Penn Transcription]</head>
+        <head>Liber I, Distinctio 10 [Penn Transcription]</head>
         <div xml:id="wdr-l1d10q1" type="quaestio">
-          <head type="questionTitle">Utrum in divinis sint plures modis procedendi quam duo</head>
+          <head type="question-title">Utrum in divinis sint plures modis procedendi quam duo</head>
           <p><lb ed="#P"/>Quaeritur utrum in divinis sint plures modi 
           	<lb ed="#P"/>procedendi quam duo Responsio non <pc ana="#virgula"/> quia sola 
           	<lb ed="#P"/>in divinis distinguit <pc ana="#punctus"/> hanc autem relationem 
@@ -66,7 +66,7 @@
           	<lb ed="#P"/>servatis <pc ana="#punctus"/> non potest esse processio <pc ana="#virgula"/> nisi per modum naturae vel voluntatis</p>
         </div>
         <div xml:id="wdr-l1d10q2" type="quaestio">
-          <head type="questionTitle">Utrum spiritus sanctus procedat ut amore patris et filii</head>
+          <head type="question-title">Utrum spiritus sanctus procedat ut amore patris et filii</head>
         	<p><lb ed="#P"/><g ref="#pilcrow"/>Utrum spiritus sanctus procedat ut amore patris et 
         		<lb ed="#P"/>filii <pc ana="#punctus"/> Responsio sic secundum <name ref="#Jerome">Ieromum</name> et <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quia bonum increatum 
         		<lb ed="#P"/>dicitur diffundit <pc ana="#punctus"/> se sicut et bonum creatum scilicet per modum 
@@ -75,7 +75,7 @@
         		<!-- run to next line --> ergo substantia <pc ana="#punctus"/></p>
         </div>
         <div xml:id="wdr-l1d10q3" type="quaestio">
-          <head type="questionTitle">utrum spiritus sanctus sit caritas sive amor proprie vel appropriate tantum</head>
+          <head type="question-title">utrum spiritus sanctus sit caritas sive amor proprie vel appropriate tantum</head>
           <p><g ref="#pilcrow"/>Utrum spiritus sanctus sit caritas 
           	<lb ed="#P"/>sive amore proprie vel appropriate tantum Responsio triplex 
           	<lb ed="#P"/>amor est in divinis scilicet essentialis quo unum sunt naturaliter 
@@ -90,7 +90,7 @@
           	<cb ed="#P" n="28rb"/><lb ed="#P"/>autem non appropriatur ei <pc ana="#punctus"/> hoc habentur hinc inde ab <name ref="#Augustine">augustino</name> in littera</p>
         </div>
         <div xml:id="wdr-l1d10q4" type="quaestio">
-          <head type="questionTitle">Utrum procedat a patre in filium et econverso</head>
+          <head type="question-title">Utrum procedat a patre in filium et econverso</head>
         	<p><lb ed="#P"/><g ref="#pilcrow"/>utrum procedat a patre in filium et econverso Responsio 
         		<lb ed="#P"/>sic scilicet secundum quod aliquid dicitur procedere in aliud tamquam 
         		<lb ed="#P"/>in obiectum <pc ana="#virgula"/> seu termen actionis <pc ana="#punctus"/> quia sic obiectum nihil recipi 
@@ -100,14 +100,14 @@
         		<lb ed="#P"/>in aliud tamquam in subiectum <pc ana="#punctus"/> sic neutrum verum est</p>
         </div>
         <div xml:id="wdr-l1d10q5" type="quaestio">
-          <head type="questionTitle">Utrum Spiritus Sanctus sit unio sive nexus patris et filii</head>
+          <head type="question-title">Utrum Spiritus Sanctus sit unio sive nexus patris et filii</head>
         	<p><lb ed="#P"/><g ref="#pilcrow"/>utrum spiritus sanctus sit unio sive nexus patris et filii 
         		<lb ed="#P"/>Responsio sic <g ref="#dot"/> et hoc habet ex modo procedendi <pc ana="#punctus"/> quia procedit 
             ut amore <pc ana="#punctus"/> <pc ana="#virgula"/> ex ipsa autem processione habet <pc ana="#virgula"/> quod est subsistens 
             	<!-- drops line --> persona propter oppositum relationis</p>
         </div>
         <div xml:id="wdr-l1d10q6" type="quaestio">
-          <head type="questionTitle">Quare tertiae personae appropriatur hoc nomen spiritus sanctus</head>
+          <head type="question-title">Quare tertiae personae appropriatur hoc nomen spiritus sanctus</head>
         	<p><lb ed="#P"/><g ref="#pilcrow"/>Quare tertiae personae appro<lb ed="#P"/>priatur 
         		hoc nomen spiritus sanctus Responsio prout est oratio sic toti 
         		<lb ed="#P"/>trinitati convenit <pc ana="#punctus"/> <pc ana="#virgula"/> sed prout est quasi una dicto <pc ana="#punctus"/> sic usu ecclesiae 

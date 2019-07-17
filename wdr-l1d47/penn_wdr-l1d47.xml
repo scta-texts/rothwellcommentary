@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 47 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 47 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 47 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 47 [Penn Transcription]</title>
           <date when="2016-05-04">May 04, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d47">
-  			<head xml:id="wdrl1d47-Hd1e3503">Librum I, Distinctio 47 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d47-Hd1e3503">Liber I, Distinctio 47 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d47q1" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3508">Librum I, Distinctio 47, Quaestio 1</head>
-  				<head xml:id="wdrl1d47-Hd1e3511" type="questionTitle">Utrum voluntas beneplaciti possit impediri</head>
+  				<head xml:id="wdrl1d47-Hd1e3508">Liber I, Distinctio 47, Quaestio 1</head>
+  				<head xml:id="wdrl1d47-Hd1e3511" type="question-title">Utrum voluntas beneplaciti possit impediri</head>
   				<p xml:id="wdrl1d47-d1e3514"><lb ed="#P"/>Queritur utrum 
   					<lb ed="#P"/>voluntas beneplaciti possit <choice><orig>in<lb ed="#P"/>pedire</orig><reg>im<lb ed="#P"/>pedire</reg></choice> 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> voluntas antecedens <pc ana="#virgula"/> nec 
@@ -71,16 +71,16 @@
   					<cb ed="#P" n="43ra"/><lb ed="#P"/>quia illud non vult praecise <ref>supra distinctio <unclear>48</unclear> quaestio 1</ref></p>
   			</div>
   			<div xml:id="wdr-l1d47q2" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3635">Librum I, Distinctio 47, Quaestio 2</head>
-  				<head xml:id="wdrl1d47-Hd1e3638" type="questionTitle">Utrum possit mutari</head>
+  				<head xml:id="wdrl1d47-Hd1e3635">Liber I, Distinctio 47, Quaestio 2</head>
+  				<head xml:id="wdrl1d47-Hd1e3638" type="question-title">Utrum possit mutari</head>
   				<p xml:id="wdrl1d47-d1e3641"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit mutari <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia quamvis <pc ana="#virgula"/> habeat libertatem in eligendo <pc ana="#punctus"/> 
   					<lb ed="#P"/>quod perfectionis est <pc ana="#punctus"/> non mutabilitatem <pc ana="#punctus"/> post 
   					<lb ed="#P"/>modum <pc ana="#virgula"/> post electionem <pc ana="#punctus"/> quia hoc est imperfectionem</p>
   			</div>
   			<div xml:id="wdr-l1d47q3" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3675">Librum I, Distinctio 47, Quaestio 3</head>
-  				<head xml:id="wdrl1d47-Hd1e3678" type="questionTitle">utrum possit aliquid praeter <unclear>en</unclear> fieri</head>
+  				<head xml:id="wdrl1d47-Hd1e3675">Liber I, Distinctio 47, Quaestio 3</head>
+  				<head xml:id="wdrl1d47-Hd1e3678" type="question-title">utrum possit aliquid praeter <unclear>en</unclear> fieri</head>
   				<p xml:id="wdrl1d47-d1e3684"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit aliquid praeter <unclear>en</unclear> 
   					<lb ed="#P"/>fieri <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> ut mala <pc ana="#punctus"/> et 
   					<lb ed="#P"/>hoc intellige <pc ana="#virgula"/> de voluntate efficere <choice><orig>Nichil</orig><reg>Nihil</reg></choice> 
@@ -88,8 +88,8 @@
   					<pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> in littera <pc ana="#virgula"/> contra eam tamen nihil fit <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l1d47q4" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3742">Librum I, Distinctio 47, Quaestio 4</head>
-  				<head xml:id="wdrl1d47-Hd1e3745" type="questionTitle">utrum aliquid fiat contra voluntatem signi</head>
+  				<head xml:id="wdrl1d47-Hd1e3742">Liber I, Distinctio 47, Quaestio 4</head>
+  				<head xml:id="wdrl1d47-Hd1e3745" type="question-title">utrum aliquid fiat contra voluntatem signi</head>
   				<p xml:id="wdrl1d47-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquid fiat contra volun<lb ed="#P"/>tatem 
   					signi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> contra illa signa 
   					<lb ed="#P"/>fieri potest <pc ana="#virgula"/> quae sunt illud rei fiendae <pc ana="#virgula"/> ut 
@@ -98,8 +98,8 @@
   					et operatio</p>
   			</div>
   			<div xml:id="wdr-l1d47q5" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3785">Librum I, Distinctio 47, Quaestio 5</head>
-  				<head xml:id="wdrl1d47-Hd1e3788" type="questionTitle">utrum illud quod fit contra voluntatem dei obsequatur ei</head>
+  				<head xml:id="wdrl1d47-Hd1e3785">Liber I, Distinctio 47, Quaestio 5</head>
+  				<head xml:id="wdrl1d47-Hd1e3788" type="question-title">utrum illud quod fit contra voluntatem dei obsequatur ei</head>
   				<p xml:id="wdrl1d47-d1e3791"><lb ed="#P"/><pc ana="#pilcrow"/>utrum illud quod <pc ana="#punctus"/> 
   					<lb ed="#P"/>fit contra voluntatem dei obsequatur 
   					<lb ed="#P"/><pc ana="#punctus"/> ei  <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#GregoryGreat">gregorium</name> et <name ref="#Augustine">augustinum</name> in littera  
@@ -110,8 +110,8 @@
   					<lb ed="#P"/>intentionem <pc ana="#virgula"/> <unclear>etm</unclear> bona <choice><sic>obsequntur</sic><corr>obsequuntur</corr></choice> ei <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d47q6" type="quaestio">
-  				<head xml:id="wdrl1d47-Hd1e3868">Librum I, Distinctio 47, Quaestio 6</head>
-  				<head xml:id="wdrl1d47-Hd1e3871" type="questionTitle">utrum deus possit praecipere aliquid mali</head>
+  				<head xml:id="wdrl1d47-Hd1e3868">Liber I, Distinctio 47, Quaestio 6</head>
+  				<head xml:id="wdrl1d47-Hd1e3871" type="question-title">utrum deus possit praecipere aliquid mali</head>
   				<p xml:id="wdrl1d47-d1e3874"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit praecipere 
   					<lb ed="#P"/>aliquid mali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> malum <pc ana="#virgula"/> manens 
   					<lb ed="#P"/>malum <pc ana="#punctus"/> non potest praecipere <pc ana="#punctus"/> sicut nec velle <pc ana="#punctus"/> 

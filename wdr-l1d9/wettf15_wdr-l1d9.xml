@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 9 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 9 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 9 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 9 [Aarau Transcription]</title>
           <date when="2015-07-18">July 18, 2015</date>
         </edition>
       </editionStmt>
@@ -59,16 +59,20 @@
     </front>
     <body>
       <div xml:id="wdr-l1d9">
-        <head>Librum I, Distinctio 9 [Aarau Transcription]</head>
+        <head>Liber I, Distinctio 9 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d9q1" type="quaestio">
-          <head type="questionTitle">Utrum propter generationem distinguatur Pater a Filio</head>
-          <p><lb ed="#A"/>Quaeritur utrum propter generationem distinguatur pater 
+          <head type="question-title">Utrum propter generationem distinguatur Pater a Filio</head>
+          <p xml:id="wdr-l1d9-d1e105">
+            <lb ed="#A"/>Quaeritur utrum propter generationem distinguatur pater 
             <lb ed="#A"/>a filio personaliter Responsio sic <g ref="#dot"/> <g ref="#slash"/> quia essentia non generatur 
-            Sed <choice><orig>ypostasis</orig><reg>hypostasis</reg></choice> <g ref="#dot"/> nulla autem res seipsa gignit <g ref="#slash"/> secundum <name ref="#Augustine">augustinum</name> <g ref="#dot"/></p>
+            Sed <choice><orig>ypostasis</orig><reg>hypostasis</reg></choice> <g ref="#dot"/> nulla autem res seipsa gignit <g ref="#slash"/> secundum <name ref="#Augustine">augustinum</name> <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d9q2" type="quaestio">
-          <head type="questionTitle">Utrum Filius possit dici alius a Patre</head>
-          <p><cb ed="#A" n="110vb" select="kba-WettF0015_110v.json"/><lb ed="#A"/><g ref="#pilcrow"/>Utrum filius possit dici alius a patre Responsio sic <g ref="#dot"/> sed non aliud hoc 
+          <head type="question-title">Utrum Filius possit dici alius a Patre</head>
+          <p xml:id="wdr-l1d9-d1e147">
+            <cb ed="#A" n="110vb" select="kba-WettF0015_110v.json"/>
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum filius possit dici alius a patre Responsio sic <g ref="#dot"/> sed non aliud hoc 
             <lb ed="#A"/><name ref="#Augustine">augustinum</name> in littera quia aliud significat diversitatem substantialem in essentia scilicet 
             <lb ed="#A"/>propter neutrum genus quod indistinctum est <g ref="#slash"/> sicut essentia <g ref="#dot"/> <g ref="#slash"/> et quia 
             <lb ed="#A"/>adiectam in neutro genere tantum <unclear>substantiantur</unclear> alius autem 
@@ -76,28 +80,32 @@
             est <g ref="#slash"/> et <unclear>adiectem</unclear> tantum tenetur <g ref="#dot"/> unde alius dicit diversitatem  <!-- drops line --> secundum naturam termini sibi iuncti</p>
         </div>
         <div xml:id="wdr-l1d9q3" type="quaestio">
-          <head type="questionTitle">Utrum Pater sit prior Filio</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum pater sit prior filio Responsio <name ref="#Ambrose">Ambrosiorum</name> 
+          <head type="question-title">Utrum Pater sit prior Filio</head>
+          <p xml:id="wdr-l1d9-d1e200">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater sit prior filio Responsio <name ref="#Ambrose">Ambrosiorum</name> 
             <lb ed="#A"/>in littera <g ref="#dot"/> quod non <g ref="#dot"/> quia nec est prioritas in essentia <g ref="#slash"/> quae una est <g ref="#dot"/> 
             <lb ed="#A"/>nec in relatione <g ref="#slash"/> quia relata sunt simul natura <g ref="#dot"/> <g ref="#slash"/> nec in <choice><orig>ypostasibus</orig><reg>hypostasibus</reg></choice> 
             <lb ed="#A"/>secundum rem <g ref="#dot"/> licet secundum intellectum prius intelligatur pater in se <g ref="#slash"/> quam in <!-- drop line --> relatione ad filium <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d9q4" type="quaestio">
-          <head type="questionTitle">Utrum Filius sit prior Spiritu Sancto</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum filius sit prior spiritu sancto <g ref="dot"/> 
+          <head type="question-title">Utrum Filius sit prior Spiritu Sancto</head>
+          <p xml:id="wdr-l1d9-d1e257">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum filius sit prior spiritu sancto <g ref="dot"/> 
             <lb ed="#A"/>Responsio non <g ref="#dot"/> quia ibi nihil est prius aut posterius secundum <name ref="#Athanasius">athanasium</name> <g ref="#dot"/> nam nec 
             <lb ed="#A"/>prior est in essentia <g ref="#slash"/> nec propter spirationem <g ref="#slash"/> quia secundum hanc corollative 
             <lb ed="#A"/>dicitur <g ref="#slash"/> nec ratione filiationis <g ref="#slash"/> quia sic <choice><orig>ymago</orig><reg>imago</reg></choice> dicitur <g ref="#slash"/> qua cum 
             <lb ed="#A"/>patre convenit in natura <g ref="#slash"/> et modo naturae scilicet alterum de se spirando <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d9q5" type="quaestio">
-          <head type="questionTitle">Utrum generatio Filii sit aeterna</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>utrum generatio filii sit aeterna Responsio <name ref="#Augustine">augustinus</name> in littera sic <g ref="#dot"/> <g ref="#slash"/> quia cum 
+          <head type="question-title">Utrum generatio Filii sit aeterna</head>
+          <p xml:id="wdr-l1d9-d1e318">
+            <lb ed="#A"/><g ref="#pilcrow"/>utrum generatio filii sit aeterna Responsio <name ref="#Augustine">augustinus</name> in littera sic <g ref="#dot"/> <g ref="#slash"/> quia cum 
             sit de substantia patris <g ref="#slash"/> non potuisset incepisse sine muta<!-- drops line -->tione</p>
         </div>
         <div xml:id="wdr-l1d9q6" type="quaestio">
-          <head type="questionTitle">Utrum Pater et Filius possint dici plures aeterni</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius possint dici plures aeterni Responsio non 
+          <head type="question-title">Utrum Pater et Filius possint dici plures aeterni</head>
+          <p xml:id="wdr-l1d9-d1e348">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius possint dici plures aeterni Responsio non 
             <lb ed="#A"/>si aeternus tenetur <unclear>substantem</unclear> <g ref="#dot"/> <g ref="#slash"/> Si autem <unclear>adiectem</unclear> tenetur <g ref="#slash"/> potest dici 
             <lb ed="#A"/><g ref="#slash"/>unde <unclear>notat</unclear> generaliter quod termini pure stabiles substantiales non possunt de personis 
             in plurali <g ref="#dot"/> ut deus <g ref="#dot"/> quia significaretur diversitas 
@@ -109,21 +117,23 @@
             <lb ed="#A"/>bonitas <g ref="#dot"/> et huiusmodi <g ref="#dot"/> isti secundum hoc possunt dici in singulari vel in plurali <!-- drops line --> secundum quod tunc accipiuntur</p>
         </div>
         <div xml:id="wdr-l1d9q7" type="quaestio">
-          <head type="questionTitle">Utrum generatio Filii sit semper in fieri</head>
-          <p><g ref="#pilcrow"/>Utrum generatio filii sit semper in fieri <g ref="#dot"/> vel in 
+          <head type="question-title">Utrum generatio Filii sit semper in fieri</head>
+          <p  xml:id="wdr-l1d9-d1e450">
+            <g ref="#pilcrow"/>Utrum generatio filii sit semper in fieri <g ref="#dot"/> vel in 
             <lb ed="#A"/>facto esse Responsio Generatio filii aeterna est <g ref="#dot"/> et ideo nec in fieri <g ref="#dot"/> nec 
             <lb ed="#A"/>in facto esse <g ref="#dot"/> sed in esse invariabili <g ref="#slash"/> non ullo motu vel mu<!-- drops line -->tatione</p>
         </div>
         <div xml:id="wdr-l1d9q8" type="quaestio">
-          <head type="questionTitle">Utrum significetur melius vel ut in esse vel ut in fieri</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum significetur melius vel ut in esse <g ref="#dot"/> vel ut in fieri 
+          <head type="question-title">Utrum significetur melius vel ut in esse vel ut in fieri</head>
+          <p xml:id="wdr-l1d9-d1e483"><lb ed="#A"/><g ref="#pilcrow"/>Utrum significetur melius vel ut in esse <g ref="#dot"/> vel ut in fieri 
             <lb ed="#A"/>Responsio <g ref="#dot"/> secundum <name ref="#GregoryGreat">gregorium</name> et <name>augustinum</name> in littera <g ref="#dot"/> melius dicitur semper natus est <g ref="#dot"/> in quo 
             <lb ed="#A"/>notatur nativitas et permanens <g ref="#dot"/> et perfecta <g ref="#dot"/> <g ref="#slash"/> praeteritum enim per<lb ed="#A"/>fectum 
             secundum quod exponitur per est <g ref="#dot"/> notatur terminus praesens <g ref="#slash"/> licet actus 
             <lb ed="#A"/>sit praeteritus <g ref="#dot"/> <g ref="#slash"/> semper ullo nasci dicit praesentialitatem et ideo hoc 
             <lb ed="#A"/>etiam potest dici secundum <name ref="#Origen">originem</name> <g ref="#dot"/> in littera <g ref="#dot"/> <g ref="#slash"/> tantum non dicit perfectionem <g ref="#dot"/> et ideo negat 
             <lb ed="#A"/>eam <name ref="#GregoryGreat">gregorius</name> in littera <g ref="#dot"/> et ideo primum melius et expressius dicitur <g ref="#slash"/> per futurum 
-            <lb ed="#A"/>autem non potest significari <g ref="#dot"/> quia nec perfectionem <g ref="#dot"/> nec actualitatem dicit <g ref="#dot"/></p>
+            <lb ed="#A"/>autem non potest significari <g ref="#dot"/> quia nec perfectionem <g ref="#dot"/> nec actualitatem dicit <g ref="#dot"/>
+          </p>
         </div>
       </div>
     </body>

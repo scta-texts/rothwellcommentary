@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Prologus [Penn Transcription]</title>
+        <title>Liber I, Prologus [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.06-dev-master">
-          <title>Librum I, Prologus</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Prologus</title>
           <date when="2015-06-13">June 13, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-06-12">June 12, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,15 +27,18 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-06-13" who="#JW" status="draft" n="2015.06">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">critical</note>
-          </note>
+        <change when="2015-06-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -55,21 +56,20 @@
   </facsimile>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="24-r"/>
+        <cb ed="#P" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="wdr-l1prol">
-        <head>Librum I, Prologus [Penn Transcription]</head>
+        <head>Liber I, Prologus [Penn Transcription]</head>
         <div xml:id="wdr-l1prolq1" type="quaestio">
-          <head type="questionTitle">Utrum theologia sit scientia</head>
-          <p xml:id="wdrl1prol-qutvrs"><cb ed="#P" n="24ra"/><lb ed="#P"/>Queritur utrum theologia sit scientia  
+          <head type="question-title">Utrum theologia sit scientia</head>
+          <p xml:id="wdrl1prol-qutvrs">
+            <pb ed="#P" n="24-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P" n="1"/>Queritur utrum theologia sit scientia  
             <lb ed="#P"/>Responsio <g ref="#dot"/> proprie loquendo debet dici sapientia <g ref="#dot"/> quae secundum  
             <lb ed="#P"/><name ref="#Augustine">augustinum</name> est de divinis <g ref="#slash"/> Sed scientia de humanis <g ref="#dot"/> 
             <lb ed="#P"/>tamen haec large etiam potest scientia <g ref="#dot"/> quia licet non procedat secundum viam 
@@ -77,13 +77,13 @@
             <lb ed="#P"/>rationis superioris</p>
         </div>
         <div xml:id="wdr-l1prolq2" type="questio">
-          <head type="questionTitle">Utrum sit una scientia vel plures</head>
+          <head type="question-title">Utrum sit una scientia vel plures</head>
           <p xml:id="wdrl1prol-usuade"><lb ed="#P"/><g ref="#pilcrow"/>utrum sit una scientia <g ref="#dot"/> vel plures <g ref="#dot"/> Responsio una 
             <lb ed="#P"/>est simpliciter <g ref="#dot"/> quia est de deo principaliter <corr><add place="aboveLine">et</add></corr> de aliis rebus inquantum 
             <lb ed="#P"/>participant aliquid divini esse</p>
         </div>
         <div xml:id="wdr-l1prolq3" type="quaestio">
-          <head type="questionTitle">Quid sit subiectum in theologia</head>
+          <head type="question-title">Quid sit subiectum in theologia</head>
           <p xml:id="wdrl1prol-qssise"><lb ed="#P"/>Quid sit subiectum in theologia <g ref="#dot"/> Responsio deus est 
             <lb ed="#P"/>subiectum <g ref="#dot"/> proprie loquendo <g ref="#dot"/> quia de illo principaliter intenditur <g ref="#dot"/> 
             <lb ed="#P"/>vel minus proprie <g ref="#slash"/> omne illud dicendo subiectum de quo in scientia 
@@ -92,7 +92,7 @@
             <lb ed="#P"/>secundum executionis</p>
         </div>
         <div xml:id="wdr-l1prolq4" type="quaestio">
-          <head type="questionTitle">Utrum theologia sit scientia speculativa vel practica</head>
+          <head type="question-title">Utrum theologia sit scientia speculativa vel practica</head>
           <p xml:id="wdrl1prol-utsesp"><lb ed="#P"/><g ref="#pilcrow"/>utrum theologia sit scientia speculativa <g ref="#dot"/> vel practica 
             <lb ed="#P"/>Responsio <g ref="#dot"/> partim speculativa <g ref="#dot"/> partim practica <g ref="#dot"/> quia de ipsa 
             <lb ed="#P"/>est sapientia <g ref="#slash"/> quae est habitus perficiens intellectum in ex<lb ed="#P"/>tensione 
@@ -100,15 +100,16 @@
             <lb ed="#P"/>potest de scientia affectiva <g ref="#dot"/> unde <name ref="#Paul">apostolus</name> dicit eam esse scientia pietatis</p>
         </div>
         <div xml:id="wdr-l1prolq5" type="quaestio">
-          <head type="questionTitle">Utrum sit scientia necessaria</head>
+          <head type="question-title">Utrum sit scientia necessaria</head>
           <p xml:id="wdrl1prol-usssne"><lb ed="#P"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> Sic quia aliae 
             <lb ed="#P"/>scientia sunt de rebus prout exeunt a suo principio <g ref="#dot"/> 
-            hoc autem de ipsis prout redeunt in ipsum tamquam in suum 
+            <lb ed="#P"/>hoc autem de ipsis prout redeunt in ipsum tamquam in suum 
             <lb ed="#P"/>finem <g ref="#dot"/> cognitio aut finis nostri nobis summe <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> est</p>
         </div>
         <div xml:id="wdr-l1prolq6" type="quaestio">
-          <head type="questionTitle">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
-          <p xml:id="wdrl1prol-uhsail"><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis 
+          <head type="question-title">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
+          <p xml:id="wdrl1prol-uhsail">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis 
             <lb ed="#P"/>per rationes et argumenta <g ref="#dot"/> Responsio <g ref="#dot"/> Sic  <g ref="#slash"/> modestus 
             <lb ed="#P"/>quo suppositum ratio fidei <g ref="#dot"/> non quod proponatur id est nec ad fidei pro<lb ed="#P"/>bationem 
             <g ref="#dot"/> Sed ad declarationem fidelibus id est et ad defen<lb ed="#P"/>sionem 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 22 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 22 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 22 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 22 [Penn Transcription]</title>
           <date when="2016-05-17">May 17, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d22">
-  			<head xml:id="wdrl4d22-Hd1e3503">Librum IV, Distinctio 22 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d22-Hd1e3503">Liber IV, Distinctio 22 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d22q1" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3508">Librum IV, Distinctio 22, Quaestio 1</head>
-  				<head xml:id="wdrl4d22-Hd1e3511" type="questionTitle">Utrum peccata dimissa redeant quantum culpam</head>
+  				<head xml:id="wdrl4d22-Hd1e3508">Liber IV, Distinctio 22, Quaestio 1</head>
+  				<head xml:id="wdrl4d22-Hd1e3511" type="question-title">Utrum peccata dimissa redeant quantum culpam</head>
   				<p xml:id="wdrl4d22-d1e3514"><lb ed="#P"/>Quaeritur utrum peccata dimissa re<lb ed="#P"/>deant 
   					quantum ad culpam <pc ana="#punctus"/> Responsio quidam 
   					<lb ed="#P"/>dixerunt ut <name ref="#HilaryOfPoitiers">hillarius</name> in littera quod redeunt <pc ana="#virgula"/> non 
@@ -68,15 +68,15 @@
   					<lb ed="#P"/>ingratitudinem prioris misericordiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d22q2" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3556">Librum IV, Distinctio 22, Quaestio 2</head>
-  				<head xml:id="wdrl4d22-Hd1e3559" type="questionTitle">Utrum redeant quantum ad poenam</head>
+  				<head xml:id="wdrl4d22-Hd1e3556">Liber IV, Distinctio 22, Quaestio 2</head>
+  				<head xml:id="wdrl4d22-Hd1e3559" type="question-title">Utrum redeant quantum ad poenam</head>
   				<p xml:id="wdrl4d22-d1e3562"><cb ed="#P" n="121vb"/><lb ed="#P"/>Utrum redeant quantum ad <choice><orig>penam</orig><reg>poenam</reg></choice> <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi per aggravationem <pc ana="#punctus"/> si quid tamen 
   					<lb ed="#P"/>de <choice><orig>pena</orig><reg>poena</reg></choice> restat <pc ana="#virgula"/> per accidens aeternaliter pu<!-- drops -->nietur</p>
   			</div>
   			<div xml:id="wdr-l4d22q3" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3599">Librum IV, Distinctio 22, Quaestio 3</head>
-  				<head xml:id="wdrl4d22-Hd1e3602" type="questionTitle">Utrum omnia peccata redeant</head>
+  				<head xml:id="wdrl4d22-Hd1e3599">Liber IV, Distinctio 22, Quaestio 3</head>
+  				<head xml:id="wdrl4d22-Hd1e3602" type="question-title">Utrum omnia peccata redeant</head>
   				<p xml:id="wdrl4d22-d1e3605"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia peccata <pc ana="#punctus"/> 
   					<lb ed="#P"/>redeant <pc ana="#punctus"/> Responsio sic scilicet aggravando 
   					<lb ed="#P"/>sed non in se <pc ana="#virgula"/> etiam originalia <pc ana="#punctus"/> secundum <name>Rab <!-- could be either "Rabanus" or Maimonides --></name> 
@@ -84,8 +84,8 @@
   					<choice><orig>penae</orig><reg>poenae</reg></choice> <pc ana="#punctus"/> Item venialia et mortalia</p>
   			</div>
   			<div xml:id="wdr-l4d22q4" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3647">Librum IV, Distinctio 22, Quaestio 4</head>
-  				<head xml:id="wdrl4d22-Hd1e3650" type="questionTitle">Utrum per ingratitudinem debeant dici redire peccata</head>
+  				<head xml:id="wdrl4d22-Hd1e3647">Liber IV, Distinctio 22, Quaestio 4</head>
+  				<head xml:id="wdrl4d22-Hd1e3650" type="question-title">Utrum per ingratitudinem debeant dici redire peccata</head>
   				<p xml:id="wdrl4d22-d1e3653"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per ingratitudinem debeant 
   					<lb ed="#P"/>dici redire peccata <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera <pc ana="#punctus"/> respectu 
   					<lb ed="#P"/>opinio <pc ana="#punctus"/> quidam dicunt quod redeunt simpliciter 
@@ -97,8 +97,8 @@
   					<lb ed="#P"/>pristina culpa redit hoc modo non tenentur</p>
   			</div>
   			<div xml:id="wdr-l4d22q5" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3711">Librum IV, Distinctio 22, Quaestio 5</head>
-  				<head xml:id="wdrl4d22-Hd1e3714" type="questionTitle">Utrum per ingratitudinem redeat totus reatus praecedens</head>
+  				<head xml:id="wdrl4d22-Hd1e3711">Liber IV, Distinctio 22, Quaestio 5</head>
+  				<head xml:id="wdrl4d22-Hd1e3714" type="question-title">Utrum per ingratitudinem redeat totus reatus praecedens</head>
   				<p xml:id="wdrl4d22-d1e3717"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per ingratitudinem re<lb ed="#P"/>deat 
   					totus reatus praecedens <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio quamvis quidam dixerint <pc ana="#punctus"/> quod sic ut 
@@ -107,8 +107,8 @@
   			</div>
   			<!-- likely homoteleuton here in gks --> 
   			<div xml:id="wdr-l4d22q6" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3752">Librum IV, Distinctio 22, Quaestio 6</head>
-  				<head xml:id="wdrl4d22-Hd1e3755" type="questionTitle">Utrum ingratitudo sit speciale peccatum</head>
+  				<head xml:id="wdrl4d22-Hd1e3752">Liber IV, Distinctio 22, Quaestio 6</head>
+  				<head xml:id="wdrl4d22-Hd1e3755" type="question-title">Utrum ingratitudo sit speciale peccatum</head>
   				<p xml:id="wdrl4d22-d1e3758"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ingratitudo 
   					<lb ed="#P"/>sit speciale peccatum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ingratitudo 
   					<lb ed="#P"/>est non agere gratias pro beneficiis <pc ana="#punctus"/> et hoc potest 
@@ -117,8 +117,8 @@
   					<lb ed="#P"/>sic est generale in omni peccato</p>
   			</div>
   			<div xml:id="wdr-l4d22q7" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3790">Librum IV, Distinctio 22, Quaestio 7</head>
-  				<head xml:id="wdrl4d22-Hd1e3793" type="questionTitle">Quid in poenitentia sit sacramentum et quod res</head>
+  				<head xml:id="wdrl4d22-Hd1e3790">Liber IV, Distinctio 22, Quaestio 7</head>
+  				<head xml:id="wdrl4d22-Hd1e3793" type="question-title">Quid in poenitentia sit sacramentum et quod res</head>
   				<p xml:id="wdrl4d22-d1e3796"><lb ed="#P"/><pc ana="#pilcrow"/>Quid in <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit sacramentum 
   					<lb ed="#P"/>et quod res <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera <pc ana="#punctus"/> exterio 
   					<lb ed="#P"/><choice><orig>penitentia</orig><reg>poenitentia</reg></choice> est sacramentum tantum <pc ana="#punctus"/> et haec habet actum 
@@ -134,8 +134,8 @@
   					<!-- drops --> <unclear>conteritur</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d22q8" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3887">Librum IV, Distinctio 22, Quaestio 8</head>
-  				<head xml:id="wdrl4d22-Hd1e3890" type="questionTitle">Utrum poenitentia sit unum sacramentum</head>
+  				<head xml:id="wdrl4d22-Hd1e3887">Liber IV, Distinctio 22, Quaestio 8</head>
+  				<head xml:id="wdrl4d22-Hd1e3890" type="question-title">Utrum poenitentia sit unum sacramentum</head>
   				<p xml:id="wdrl4d22-d1e3893"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit unum 
   					<lb ed="#P"/>sacramentum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> unum scilicet ab unitate 
   					<lb ed="#P"/>perfectionis respectu finis unius <pc ana="#virgula"/> qui est 
@@ -144,8 +144,8 @@
   			</div>
   			<!-- seems like gks picks up here again, but there is not clear rubrication -->
   			<div xml:id="wdr-l4d22q9" type="quaestio">
-  				<head xml:id="wdrl4d22-Hd1e3937">Librum IV, Distinctio 22, Quaestio 9</head>
-  				<head xml:id="wdrl4d22-Hd1e3940" type="questionTitle">An poenitentia sit instituta et quando</head>
+  				<head xml:id="wdrl4d22-Hd1e3937">Liber IV, Distinctio 22, Quaestio 9</head>
+  				<head xml:id="wdrl4d22-Hd1e3940" type="question-title">An poenitentia sit instituta et quando</head>
   				<p xml:id="wdrl4d22-d1e3943"><lb ed="#P"/><pc ana="#pilcrow"/>an <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> sit instituta <pc ana="#punctus"/> et 
   					<lb ed="#P"/>quando Responsio <pc ana="#punctus"/> quantum ad actum interiorem 
   					<lb ed="#P"/>fuit <choice><orig>penitentia</orig><reg>poenitentia</reg></choice> in lege <pc ana="#virgula"/> naturae sine ins<lb ed="#P"/>titutione 

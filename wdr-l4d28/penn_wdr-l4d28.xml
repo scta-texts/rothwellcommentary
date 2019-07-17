@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 28 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 28 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 28 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 28 [Penn Transcription]</title>
           <date when="2016-05-18">May 18, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d28">
-  			<head xml:id="wdrl4d28-Hd1e3503">Librum IV, Distinctio 28 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d28-Hd1e3503">Liber IV, Distinctio 28 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d28q1" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3508">Librum IV, Distinctio 28, Quaestio 1</head>
-  				<head xml:id="wdrl4d28-Hd1e3511" type="questionTitle">Utrum consensus de futuro per se matrimonium efficere possit</head>
+  				<head xml:id="wdrl4d28-Hd1e3508">Liber IV, Distinctio 28, Quaestio 1</head>
+  				<head xml:id="wdrl4d28-Hd1e3511" type="question-title">Utrum consensus de futuro per se matrimonium efficere possit</head>
   				<p xml:id="wdrl4d28-d1e3514"><lb ed="#P"/>Queritur utrum consensus <pc ana="#punctus"/> 
   					<lb ed="#P"/>de futuro per se matrimonium efficere possit <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <name ref="#Lombard">magister</name> in littera quod non <pc ana="#punctus"/> quia tantum sunt 
@@ -67,8 +67,8 @@
   					<lb ed="#P"/>obligationis sed firmiorem facit <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d28q2" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3549">Librum IV, Distinctio 28, Quaestio 2</head>
-  				<head xml:id="wdrl4d28-Hd1e3552" type="questionTitle">Utrum copula carnalis sequens consensum de futuro faciat matrimonium</head>
+  				<head xml:id="wdrl4d28-Hd1e3549">Liber IV, Distinctio 28, Quaestio 2</head>
+  				<head xml:id="wdrl4d28-Hd1e3552" type="question-title">Utrum copula carnalis sequens consensum de futuro faciat matrimonium</head>
   				<p xml:id="wdrl4d28-d1e3555"><lb ed="#P"/><pc ana="#pilcrow"/>utrum copula carnalis sequens 
   					<lb ed="#P"/>consensum de futuro faciat matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> si iunguntur affectu coniugali propter 
@@ -77,8 +77,8 @@
   					<!-- drops --> ab ecclesia</p>
   			</div>
   			<div xml:id="wdr-l4d28q3" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3582">Librum IV, Distinctio 28, Quaestio 3</head>
-  				<head xml:id="wdrl4d28-Hd1e3585" type="questionTitle">Utrum post tale copulam aliquod matrimonium contrahi possit</head>
+  				<head xml:id="wdrl4d28-Hd1e3582">Liber IV, Distinctio 28, Quaestio 3</head>
+  				<head xml:id="wdrl4d28-Hd1e3585" type="question-title">Utrum post tale copulam aliquod matrimonium contrahi possit</head>
   				<p xml:id="wdrl4d28-d1e3588"><pc ana="#pilcrow"/><lb ed="#P"/>utrum post tale copulam 
   					<lb ed="#P"/><choice><sic>a<!-- part of this word looks erased --></sic><corr>aliquod</corr></choice> matrimonium contrahi <choice><sic>possint</sic><corr>possit</corr></choice> <pc ana="#punctus"/> Responsio si prior 
   					<lb ed="#P"/>fuit matrimonialis <pc ana="#punctus"/> non potest <pc ana="#punctus"/> si fornicaria <pc ana="#punctus"/> 
@@ -88,8 +88,8 @@
   					<!-- drops --> sed tantum <choice><sic>praesumptuum</sic><corr>praesumptum</corr></choice></p>
   			</div>
   			<div xml:id="wdr-l4d28q4" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3650">Librum IV, Distinctio 28, Quaestio 4</head>
-  				<head xml:id="wdrl4d28-Hd1e3653" type="questionTitle">Utrum consensus temporalis faciat matrimonium</head>
+  				<head xml:id="wdrl4d28-Hd1e3650">Liber IV, Distinctio 28, Quaestio 4</head>
+  				<head xml:id="wdrl4d28-Hd1e3653" type="question-title">Utrum consensus temporalis faciat matrimonium</head>
   				<p xml:id="wdrl4d28-d1e3656"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consen<lb ed="#P"/>sus 
   					temporalis faciat matrimonium 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> secundum <ref><name>gregorium</name> <title>extra</title> <num>iiii</num></ref> <pc ana="#virgula"/> quia est 
@@ -97,8 +97,8 @@
   					<!-- drops -->in <choice><orig>diffinitione</orig><reg>definitione</reg></choice></p>
   			</div>
   			<div xml:id="wdr-l4d28q5" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3697">Librum IV, Distinctio 28, Quaestio 5</head>
-  				<head xml:id="wdrl4d28-Hd1e3700" type="questionTitle">Utrum consensus conditionatus faciat matrimonium</head>
+  				<head xml:id="wdrl4d28-Hd1e3697">Liber IV, Distinctio 28, Quaestio 5</head>
+  				<head xml:id="wdrl4d28-Hd1e3700" type="question-title">Utrum consensus conditionatus faciat matrimonium</head>
   				<p xml:id="wdrl4d28-d1e3703"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus conditio<lb ed="#P"/>natus 
   					faciat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si conditio est 
   					<lb ed="#P"/>de futuro <pc ana="#virgula"/> vel ipsa obligatio <pc ana="#punctus"/> tunc tamen <pc ana="#punctus"/> 
@@ -106,16 +106,16 @@
   					<lb ed="#P"/>vel praesenti <pc ana="#virgula"/> <unclear>ex tantae</unclear> ea est matrimonium aliter non <pc ana="#punctus"/></p> 
   			</div>
   			<div xml:id="wdr-l4d28q6" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3739">Librum IV, Distinctio 28, Quaestio 6</head>
-  				<head xml:id="wdrl4d28-Hd1e3742" type="questionTitle">Utrum consensus clandestinus faciat matrimonium</head>
+  				<head xml:id="wdrl4d28-Hd1e3739">Liber IV, Distinctio 28, Quaestio 6</head>
+  				<head xml:id="wdrl4d28-Hd1e3742" type="question-title">Utrum consensus clandestinus faciat matrimonium</head>
   				<p xml:id="wdrl4d28-d1e3745"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus calndestinus <pc ana="#punctus"/> 
   					<lb ed="#P"/>faciat <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> etiam praesumptum <pc ana="#punctus"/> si 
   					<lb ed="#P"/>fiat coram testibus <pc ana="#punctus"/> alias <pc ana="#punctus"/> si verum sit <pc ana="#punctus"/> non tamen 
   					<!-- drops --> praesumptum</p>
   			</div>
   			<div xml:id="wdr-l4d28q7" type="quaestio">
-  				<head xml:id="wdrl4d28-Hd1e3779">Librum IV, Distinctio 28, Quaestio 7</head>
-  				<head xml:id="wdrl4d28-Hd1e3782" type="questionTitle">In quid sit consensus qui requiritur in matrimonio</head>
+  				<head xml:id="wdrl4d28-Hd1e3779">Liber IV, Distinctio 28, Quaestio 7</head>
+  				<head xml:id="wdrl4d28-Hd1e3782" type="question-title">In quid sit consensus qui requiritur in matrimonio</head>
   				<p xml:id="wdrl4d28-d1e3785"><cb ed="#P" n="125vb"/><lb ed="#P"/><pc ana="#pilcrow"/>In quid sit consensus qui requiritur in matrimonio 
   					<lb ed="#P"/>Responsio in coniugalem societatem secundum <name ref="#Lombard">magistrum</name> in 
   					<lb ed="#P"/>littera sive matrimoniale vinculum <pc ana="#punctus"/> quae includit 

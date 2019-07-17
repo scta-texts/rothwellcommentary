@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 45 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 45 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 45 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 45 [Penn Transcription]</title>
           <date when="2016-05-24">May 24, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d45">
-  			<head xml:id="wdrl4d45-Hd1e3503">Librum IV, Distinctio 45 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d45-Hd1e3503">Liber IV, Distinctio 45 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d45q1" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3508">Librum IV, Distinctio 45, Quaestio 1</head>
-  				<head xml:id="wdrl4d45-Hd1e3511" type="questionTitle">Utrum animae post mortem habeant corporalia receptacula</head>
+  				<head xml:id="wdrl4d45-Hd1e3508">Liber IV, Distinctio 45, Quaestio 1</head>
+  				<head xml:id="wdrl4d45-Hd1e3511" type="question-title">Utrum animae post mortem habeant corporalia receptacula</head>
   				<p xml:id="wdrl4d45-d1e3514"><lb ed="#P"/>Quaeritur utrum animae post mortem 
   					<lb ed="#P"/>habeant corporalia receptacula <pc ana="#punctus"/> Responsio 
   					sic <pc ana="#virgula"/> differentem enim possunt esse in loco <pc ana="#punctus"/> quam<lb ed="#P"/>vis 
@@ -66,8 +66,8 @@
   					eis secundum stant et meritum ipsarum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q2" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3537">Librum IV, Distinctio 45, Quaestio 2</head>
-  				<head xml:id="wdrl4d45-Hd1e3540" type="questionTitle">Utrum usque ad iudicium animae sint in caelo et in inferno</head>
+  				<head xml:id="wdrl4d45-Hd1e3537">Liber IV, Distinctio 45, Quaestio 2</head>
+  				<head xml:id="wdrl4d45-Hd1e3540" type="question-title">Utrum usque ad iudicium animae sint in caelo et in inferno</head>
   				<p xml:id="wdrl4d45-d1e3543"><lb ed="#P"/><pc ana="#pilcrow"/>utrum usque ad iudicium <pc ana="#virgula"/> animae sint 
   					<lb ed="#P"/>in caelo <pc ana="#punctus"/> et in inferno <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia secundum 
   					<lb ed="#P"/>levitatem vel gravitatem meriti vel demierit <pc ana="#punctus"/> non 
@@ -75,8 +75,8 @@
   					ad locum suum</p>
   			</div>
   			<div xml:id="wdr-l4d45q3" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3577">Librum IV, Distinctio 45, Quaestio 3</head>
-  				<head xml:id="wdrl4d45-Hd1e3580" type="questionTitle">Utrum aliquando inde exeant</head>
+  				<head xml:id="wdrl4d45-Hd1e3577">Liber IV, Distinctio 45, Quaestio 3</head>
+  				<head xml:id="wdrl4d45-Hd1e3580" type="question-title">Utrum aliquando inde exeant</head>
   				<p xml:id="wdrl4d45-d1e3583"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum aliquando inde <pc ana="#punctus"/> 
   					<lb ed="#P"/>exeant <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> secundum <pc ana="#punctus"/> legem communem <pc ana="#virgula"/> omnes 
   					<cb ed="#P" n="133vb"/><lb ed="#P"/>exibunt in iudicio reditur tamen <pc ana="#virgula"/> Sed nullus 
@@ -86,8 +86,8 @@
   					<!-- drops --> liberi <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q4" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3635">Librum IV, Distinctio 45, Quaestio 4</head>
-  				<head xml:id="wdrl4d45-Hd1e3638" type="questionTitle">Utrum sinus <name ref="#Abraham">abrahae</name> sive limbus patrum sit inferno</head>
+  				<head xml:id="wdrl4d45-Hd1e3635">Liber IV, Distinctio 45, Quaestio 4</head>
+  				<head xml:id="wdrl4d45-Hd1e3638" type="question-title">Utrum sinus <name ref="#Abraham">abrahae</name> sive limbus patrum sit inferno</head>
   				<p xml:id="wdrl4d45-d1e3644"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sinus <name ref="#Abraham">abrahae</name> sive 
   					<lb ed="#P"/>limbus patrum sit in inferno <pc ana="#punctus"/> Responsio locus 
   					<lb ed="#P"/>antiquorum patrum <pc ana="#virgula"/> sinus id est requies <name ref="#Abraham">abrahae</name> dicitur 
@@ -99,16 +99,16 @@
   					<lb ed="#P"/>est requies <pc ana="#virgula"/> fidelium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q5" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3698">Librum IV, Distinctio 45, Quaestio 5</head>
-  				<head xml:id="wdrl4d45-Hd1e3701" type="questionTitle">Utrum idem locus esset patrum et puerorum</head>
+  				<head xml:id="wdrl4d45-Hd1e3698">Liber IV, Distinctio 45, Quaestio 5</head>
+  				<head xml:id="wdrl4d45-Hd1e3701" type="question-title">Utrum idem locus esset patrum et puerorum</head>
   				<p xml:id="wdrl4d45-d1e3704"><lb ed="#P"/><pc ana="#pilcrow"/>utrum idem locus esset patrum et <!-- bumps up a line --> puerorum 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> idem locus fuit <pc ana="#virgula"/> secundum substantiam differens 
   					<lb ed="#P"/>praesens gradum <pc ana="#punctus"/> quia patres orant in superiori 
   					<lb ed="#P"/>parte <pc ana="#virgula"/> pueri vero erant in inferiori <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q6" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3730">Librum IV, Distinctio 45, Quaestio 6</head>
-  				<head xml:id="wdrl4d45-Hd1e3733" type="questionTitle">Quod sint receptacula animarum post mortem</head>
+  				<head xml:id="wdrl4d45-Hd1e3730">Liber IV, Distinctio 45, Quaestio 6</head>
+  				<head xml:id="wdrl4d45-Hd1e3733" type="question-title">Quod sint receptacula animarum post mortem</head>
   				<p xml:id="wdrl4d45-d1e3736"><lb ed="#P"/><pc ana="#pilcrow"/>Quod sint receptacula animarum 
   					<lb ed="#P"/>post mortem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> rariter <num>iiii</num> dis<lb ed="#P"/>tincta 
   					<pc ana="#virgula"/> secundum diversum statum animarum quia 
@@ -120,8 +120,8 @@
   					<lb ed="#P"/>peccatum etiam personale est</p>
   			</div>
   			<div xml:id="wdr-l4d45q7" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3788">Librum IV, Distinctio 45, Quaestio 7</head>
-  				<head xml:id="wdrl4d45-Hd1e3791" type="questionTitle">Utrum suffraga vivorum prosint defunctis</head>
+  				<head xml:id="wdrl4d45-Hd1e3788">Liber IV, Distinctio 45, Quaestio 7</head>
+  				<head xml:id="wdrl4d45-Hd1e3791" type="question-title">Utrum suffraga vivorum prosint defunctis</head>
   				<p xml:id="wdrl4d45-d1e3794"><lb ed="#P"/><pc ana="#pilcrow"/>utrum suffragia vivorum pro<lb ed="#P"/>sint 
   					defunctis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> <title ref="#IImac">ii macach</title> 
   					<lb ed="#P"/>et <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quia bona nostra per intentionem 
@@ -129,8 +129,8 @@
   					<lb ed="#P"/>sunt in purgatorio <pc ana="#virgula"/> propter unionem caritatis</p>
   			</div>
   			<div xml:id="wdr-l4d45q8" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3830">Librum IV, Distinctio 45, Quaestio 8</head>
-  				<head xml:id="wdrl4d45-Hd1e3833" type="questionTitle">Utrum suffragia facta per malos pro sunt eis</head>
+  				<head xml:id="wdrl4d45-Hd1e3830">Liber IV, Distinctio 45, Quaestio 8</head>
+  				<head xml:id="wdrl4d45-Hd1e3833" type="question-title">Utrum suffragia facta per malos pro sunt eis</head>
   				<p xml:id="wdrl4d45-d1e3836"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum suffragia facta per malos 
   					<lb ed="#P"/>pro sunt eis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> si hoc facit ut 
   					<lb ed="#P"/>minister publicus ut sacerdos missam <pc ana="#punctus"/> 
@@ -140,8 +140,8 @@
   					<!-- drops --> bonos adorandum</p>
   			</div>
   			<div xml:id="wdr-l4d45q9" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e3882">Librum IV, Distinctio 45, Quaestio 9</head>
-  				<head xml:id="wdrl4d45-Hd1e3885" type="questionTitle">Quod sunt suffragai quibus defuncti iuvantur</head>
+  				<head xml:id="wdrl4d45-Hd1e3882">Liber IV, Distinctio 45, Quaestio 9</head>
+  				<head xml:id="wdrl4d45-Hd1e3885" type="question-title">Quod sunt suffragai quibus defuncti iuvantur</head>
   				<p xml:id="wdrl4d45-d1e3888"><lb ed="#P"/><pc ana="#pilcrow"/>Quod sunt <pc ana="#punctus"/> 
   					<lb ed="#P"/>suffragai quibus defuncti iuvantur 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> 4 <pc ana="#punctus"/> secundum <name ref="#GregoryGreat">Gregroius</name> solvuntur <pc ana="#virgula"/> enim ut dicit 
@@ -161,16 +161,16 @@
   					<lb ed="#P"/>eis soluit <pc ana="#punctus"/> <ref>supra distinctione 10 in fine</ref></p>
   			</div>
   			<div xml:id="wdr-l4d45q10" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4003">Librum IV, Distinctio 45, Quaestio 10</head>
-  				<head xml:id="wdrl4d45-Hd1e4006" type="questionTitle">Utrum prosint tantum illis quae sunt in purgatorio</head>
+  				<head xml:id="wdrl4d45-Hd1e4003">Liber IV, Distinctio 45, Quaestio 10</head>
+  				<head xml:id="wdrl4d45-Hd1e4006" type="question-title">Utrum prosint tantum illis quae sunt in purgatorio</head>
   				<p xml:id="wdrl4d45-d1e4009"><lb ed="#P"/><pc ana="#pilcrow"/>utrum prosint tantum illis quae 
   					<lb ed="#P"/>sunt in purgatorio <pc ana="#virgula"/> Responsio sic <pc ana="#punctus"/> quia 
   					<lb ed="#P"/>illi soli indigent <pc ana="#virgula"/> et perceptibiles 
   					<lb ed="#P"/>sunt <pc ana="#punctus"/> non sic autem in patria et <choice><orig>dampnati</orig><reg>damnati</reg></choice></p>
   			</div>
   			<div xml:id="wdr-l4d45q11" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4038">Librum IV, Distinctio 45, Quaestio 11</head>
-  				<head xml:id="wdrl4d45-Hd1e4041" type="questionTitle">Utrum suffragai specialiter pro aliquo facta aeque prosint aliis eiusdem meriti</head>
+  				<head xml:id="wdrl4d45-Hd1e4038">Liber IV, Distinctio 45, Quaestio 11</head>
+  				<head xml:id="wdrl4d45-Hd1e4041" type="question-title">Utrum suffragai specialiter pro aliquo facta aeque prosint aliis eiusdem meriti</head>
   				<p xml:id="wdrl4d45-d1e4044"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum suffragai specialiter <subst><del rend="strikethrough">ab</del> 
   					<lb ed="#P"/><add place="marginLeft">pro</add></subst> aliquo facta aequae prosint aliis 
   					<lb ed="#P"/>eiusdem meriti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> <name>praepositinus</name> duplex 
@@ -183,8 +183,8 @@
   					<lb ed="#P"/>in maiori <choice><orig>karitate</orig><reg>caritate</reg></choice> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q12" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4113">Librum IV, Distinctio 45, Quaestio 12</head>
-  				<head xml:id="wdrl4d45-Hd1e4116" type="questionTitle">Utrum suffragia facta pro multis <unclear>tantundum</unclear> et totaliter prosint singulis</head>
+  				<head xml:id="wdrl4d45-Hd1e4113">Liber IV, Distinctio 45, Quaestio 12</head>
+  				<head xml:id="wdrl4d45-Hd1e4116" type="question-title">Utrum suffragia facta pro multis <unclear>tantundum</unclear> et totaliter prosint singulis</head>
   				<p xml:id="wdrl4d45-d1e4122"><pc ana="#pilcrow"/><lb ed="#P"/>Utrum suffragia facta pro multis <unclear>tantundum</unclear> 
   					<lb ed="#P"/>et totaliter prosint singulis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>secundum <name>praepositinum</name> <pc ana="#punctus"/> secundum alios <pc ana="#punctus"/> non <pc ana="#virgula"/> alias con<lb ed="#P"/>tingeret 
@@ -194,8 +194,8 @@
   					valent secundum gradus caritatis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q13" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4174">Librum IV, Distinctio 45, Quaestio 13</head>
-  				<head xml:id="wdrl4d45-Hd1e4177" type="questionTitle">Utrum sancti in caelo audiant orationes nostras</head>
+  				<head xml:id="wdrl4d45-Hd1e4174">Liber IV, Distinctio 45, Quaestio 13</head>
+  				<head xml:id="wdrl4d45-Hd1e4177" type="question-title">Utrum sancti in caelo audiant orationes nostras</head>
   				<p xml:id="wdrl4d45-d1e4180"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sancti in caelo <choice><sic>gaudant</sic><corr>audiant</corr></choice> orationes 
   					<lb ed="#P"/>nostras <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> non cognitione vespertina <pc ana="#punctus"/> 
   					<lb ed="#P"/>sed naturali sic loquitur <name ref="#Augustine">augustinus</name> dicens eos nescire 
@@ -205,16 +205,16 @@
   					eorum vel earum pertinent <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l4d45q14" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4227">Librum IV, Distinctio 45, Quaestio 14</head>
-  				<head xml:id="wdrl4d45-Hd1e4230" type="questionTitle">Utrum orent pro nobis</head>
+  				<head xml:id="wdrl4d45-Hd1e4227">Liber IV, Distinctio 45, Quaestio 14</head>
+  				<head xml:id="wdrl4d45-Hd1e4230" type="question-title">Utrum orent pro nobis</head>
   				<p xml:id="wdrl4d45-d1e4233"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum orent pro nobis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/><unclear>secundo mach <!-- possible mistake; maybe 2nd macabees --></unclear> ultimum hic est qui multum orat <pc ana="#virgula"/> 
   					<lb ed="#P"/>pro populo <name ref="#Jeremiah">Ieremias propheta</name> <pc ana="#punctus"/> quia perfectior 
   					<lb ed="#P"/>est caritas <pc ana="#virgula"/> eorum erga nos in caelo <pc ana="#virgula"/> quam hic</p>
   			</div>
   			<div xml:id="wdr-l4d45q15" type="quaestio">
-  				<head xml:id="wdrl4d45-Hd1e4269">Librum IV, Distinctio 45, Quaestio 15</head>
-  				<head xml:id="wdrl4d45-Hd1e4272" type="questionTitle">Utrum semper exaudiantur a domino</head>
+  				<head xml:id="wdrl4d45-Hd1e4269">Liber IV, Distinctio 45, Quaestio 15</head>
+  				<head xml:id="wdrl4d45-Hd1e4272" type="question-title">Utrum semper exaudiantur a domino</head>
   				<p xml:id="wdrl4d45-d1e4275"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum semper ex audiantur a domino <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> quia secundum <name ref="#Augustine">augustinum <sic>beatus</sic></name> est cui 
   					<lb ed="#P"/>omnia <choice><sic>opertata</sic><corr>optata</corr></choice> succedunt <pc ana="#punctus"/> et <choice><orig>nichil</orig><reg>nihil</reg></choice> 

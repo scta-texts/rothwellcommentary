@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 25 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 25 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 25 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 25 [Penn Transcription]</title>
           <date when="2016-04-27">April 27, 2016</date>
         </edition>
       </editionStmt>
@@ -55,9 +55,9 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d25">
-  			<head>Librum I, Distinctio 25 [Penn Transcription]</head>
+  			<head>Liber I, Distinctio 25 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d25q1" type="quaestio">
-  				<head type="questionTitle">Quid sit persona</head>
+  				<head type="question-title">Quid sit persona</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>ueritur quid sit persona <pc ana="#punctus"/> Responsio secundum <name>boetium</name> libro <title ref="#Consolation">de consolatione</title> <unclear>dicitur</unclear> <pc ana="#punctus"/> 
   					<lb ed="#P"/>natur persona est rationalis nec individua substantia <pc ana="#punctus"/> <pc ana="#virgula"/> posita autem 
   					<lb ed="#P"/>in hac diffinitione <pc ana="#punctus"/> conveniunt personis divinis <pc ana="#punctus"/> large accepta<lb ed="#P"/>nt 
@@ -65,7 +65,7 @@
   						<!-- drops --> substantia pro existentia</p>
   			</div>
   			<div xml:id="wdr-l1d25q2" type="quaestio">
-  				<head type="questionTitle">utrum persona dicatur univoce de personis creatis et increatis</head>
+  				<head type="question-title">utrum persona dicatur univoce de personis creatis et increatis</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum persona dicatur uni<lb ed="#P"/>voce 
   					de personis creatis et increatis Responsio analogi<lb ed="#P"/>ce 
   					dicitur et quantum ad rem significatam <pc ana="#punctus"/> per prius convenit deo <pc ana="#punctus"/> sed quantum 
@@ -73,7 +73,7 @@
   					<lb ed="#P"/>ad divina translatum est ut dicit <name ref="#Boethius">boetius</name> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d25q3" type="quaestio">
-  				<head type="questionTitle">utrum sit commune respectu personarum divinarum</head>
+  				<head type="question-title">utrum sit commune respectu personarum divinarum</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit commune respectu personarum divinarum <pc ana="#punctus"/> Responsio communitate rei 
   					<lb ed="#P"/>sola essentia communis est tribus personis <pc ana="#punctus"/> commune <unclear>??</unclear> <pc ana="#punctus"/> <unclear>enim</unclear> est eis esse <unclear>persona <!-- could be personam --></unclear> 
   					<lb ed="#P"/>ut dicit <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> et hoc communitate rationis <pc ana="#punctus"/> quia secundum unam rationem 
@@ -84,7 +84,7 @@
   					<lb ed="#P"/>numero <pc ana="#punctus"/> <choice><orig>Inportat</orig><reg>Importat</reg></choice> enim respectum ad nullam communem <pc ana="#virgula"/> et ad proprietatem</p>
   			</div>
   			<div xml:id="wdr-l1d25q4" type="quaestio">
-  				<head type="questionTitle">Utrum persona idem significet in singulari et in plurali</head>
+  				<head type="question-title">Utrum persona idem significet in singulari et in plurali</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum persona idem significet in singulari 
   					<lb ed="#P"/>et in plurali <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicebant quod non <pc ana="#punctus"/> Sed 
   					<lb ed="#P"/>communis opinion est <pc ana="#virgula"/> quod sic <pc ana="#punctus"/> et quamvis significet substantiam simul 
@@ -92,14 +92,14 @@
   						<!-- drops line --> <ref>supra distinctio 13 quaestio <unclear>7</unclear></ref></p>
   			</div>
   			<div xml:id="wdr-l1d25q5" type="quaestio">
-  				<head type="questionTitle">Utrum possit dici alia persona</head>
+  				<head type="question-title">Utrum possit dici alia persona</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici alia persona 
   					<lb ed="#P"/>patris <pc ana="#punctus"/> alia filii <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> in symbolo et <ref><name ref="#Augustine">augustinus</name> in littera</ref> 
   					<lb ed="#P"/>pluralitas enim personarum quae non est alienitas simpliciter <pc ana="#virgula"/> non 
   					<lb ed="#P"/>repugnant unitati essentiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d25q6" type="quaestio">
-  				<head type="questionTitle">Utrum possit dici tres personae eiusdem essentiae</head>
+  				<head type="question-title">Utrum possit dici tres personae eiusdem essentiae</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>Utrum possit dici tres personae eiusdem essentiae 
   					<cb ed="#P" n="34rb"/><lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> <pc ana="#virgula"/> quia essentia secundum modum intelli<lb ed="#P"/>gendi 
   					se habet in ratione formae ad personis nihilominus tamen propter <choice><orig>ydemp<lb ed="#P"/>titatem</orig><reg>iden<lb ed="#P"/>titatem</reg></choice> 
@@ -109,7 +109,7 @@
   					<lb ed="#P"/>et formalis <pc ana="#punctus"/> ut cum dicitur tres personae unius essentiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d25q7" type="quaestio">
-  				<head type="questionTitle">utrum possit dici tres personae tres res vel tres entes</head>
+  				<head type="question-title">utrum possit dici tres personae tres res vel tres entes</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres personae tres res 
   					<lb ed="#P"/>vel tres entes <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si res accipitur absolute 
   					<lb ed="#P"/>sic non potest <pc ana="#punctus"/> <pc ana="#virgula"/> si <unclear>relatae</unclear> creavit enim omne genus <pc ana="#punctus"/> sic potest <pc ana="#punctus"/> unde 

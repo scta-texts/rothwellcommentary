@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 6 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 6 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 6 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 6 [Aarau Transcription]</title>
           <date when="2015-07-05">July 05, 2015</date>
         </edition>
       </editionStmt>
@@ -59,11 +59,12 @@
     </front>
     <body>
       <div xml:id="wdr-l1d6">
-        <head>Librum I, Distinctio 6 [Aarau Transcription]</head>
+        <head>Liber I, Distinctio 6 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d6q1" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium necessitate</head>
+          <head type="question-title">Utrum Pater genuerit Filium necessitate</head>
           <!-- this would be a good pargraph to tag with the subject tag of neccessitas because there is a significant discussion of the term here -->
-          <p><lb ed="#A"/>Queritur utrum pater genuerit filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio 
+          <p xml:id="wdr-l1d6-d1e107">
+            <lb ed="#A"/>Queritur utrum pater genuerit filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio 
             <lb ed="#A"/>secundum <name ref="#Aristotle">philosophum</name> V <title ref="#Metaphysics">metaphysicae</title> et <name ref="#Averroes">commentatorem</name> <mentioned><choice><orig>Neccessarium</orig><reg>Necessarium</reg></choice></mentioned> dicitur uno 
             <lb ed="#A"/>modo quod omnino et per se est immutabile et hoc tantum simpliciter est 
             <lb ed="#A"/><choice><orig>neccessarium</orig><reg>necessarium</reg></choice> <g ref="#dot"/> <g ref="#slash"/> alio modo <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> indigentiae <g ref="#dot"/> <g ref="#slash"/> tertio modo 
@@ -72,12 +73,14 @@
             <lb ed="#A"/>lucem <g ref="#dot"/> <g ref="#slash"/> Primo modo Pater Filium genuerit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> sed non aliis 
             <lb ed="#A"/>modis <g ref="#slash"/> tamen quia <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> communiter sonat in coactio<lb ed="#A"/>nem 
             vel indigentiam et sic etiam haeretici accipiebant <g ref="#dot"/> 
-            <lb ed="#A"/>ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name></p>
+            <lb ed="#A"/>ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name>
+          </p>
         </div>
         <div xml:id="wdr-l1d6q2" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium voluntate</head>
+          <head type="question-title">Utrum Pater genuerit Filium voluntate</head>
           <!-- subject tag for "voluntas" -->
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum voluntate Responsio Quadruplex est voluntas scilicet antece<lb ed="#A"/>dens 
+          <p xml:id="wdr-l1d6-d1e219">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum voluntate Responsio Quadruplex est voluntas scilicet antece<lb ed="#A"/>dens 
             <g ref="#dot"/> accedens <g ref="#dot"/> concomitans <g ref="#dot"/> et consequens <g ref="#dot"/> <g ref="#slash"/> Per primam 
             <lb ed="#A"/>placet opus fiendum antequam fiat <g ref="#dot"/> Per secundam volumus 
             <lb ed="#A"/>aliquid quod ante non voluimus <g ref="#dot"/> ut dicitur in littera Per tertiam placet 
@@ -89,26 +92,30 @@
             <lb ed="#A"/>in littera <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q3" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium natura</head>
-          <p><cb ed="#A" n="109vb" select="kba-WettF0015_109v.json"/><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit 
+          <head type="question-title">Utrum Pater genuerit Filium natura</head>
+          <p xml:id="wdr-l1d6-d1e306">
+            <cb ed="#A" n="109vb" select="kba-WettF0015_109v.json"/><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit 
             <lb ed="#A"/><name ref="#Augustine">augustinus</name> in littera quia generare est actus naturae <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q4" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium secundum rationem exemplaris vel ideae</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum secundum rationem <sic>exemplaris</sic> vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> Responsio 
+          <head type="question-title">Utrum Pater genuerit Filium secundum rationem exemplaris vel ideae</head>
+          <p xml:id="wdr-l1d6-d1e332">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum secundum rationem <sic>exemplaris</sic> vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> Responsio 
             <lb ed="#A"/>aliquid procedere secundum rationem exemplaris vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> dupliciter potest intel<lb ed="#A"/>ligi 
             scilicet vel ut exemplatum <g ref="#dot"/> vel ut ratio exemplandi alia <g ref="#dot"/> <g ref="#slash"/> primo modo 
             <lb ed="#A"/>procedit creatura <g ref="#dot"/> secundum modo filius <g ref="#dot"/> unde <name ref="#Augustine">augustinus</name> Qui negat <choice><orig>yde<lb ed="#A"/>as</orig><reg>ide<lb ed="#A"/>as</reg></choice> 
             esse <g ref="#slash"/> negat filium dei esse <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q5" type="quaestio">
-          <head type="questionTitle">Utrum Pater et Filius spirent Spiritum Sanctum voluntate vel necessitate</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate vel <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> 
+          <head type="question-title">Utrum Pater et Filius spirent Spiritum Sanctum voluntate vel necessitate</head>
+          <p xml:id="wdr-l1d6-d1e398">
+            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate vel <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> 
             <lb ed="#A"/>Responsio Triplex est productio a natura vel a voluntate <g ref="#dot"/> <g ref="#slash"/> scilicet a natura solum <g ref="#dot"/> 
             <lb ed="#A"/>sic filius <g ref="#dot"/> vel a voluntate solum <g ref="#slash"/> sic creatura <g ref="#dot"/> <g ref="#slash"/> vel ab utroque 
             <lb ed="#A"/>simul <g ref="#slash"/> sic spiritus sanctus <g ref="#dot"/> quia et procedit ut amore secundum <name ref="#RichardOfStVictor">Richardum</name> <g ref="#dot"/> 
             <lb ed="#A"/>et etiam spirant eum naturali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> loquendo de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
-            <lb ed="#A"/>immutabilitatis non indigentiae <g ref="#slash"/> vel violentiae <g ref="#slash"/> vel expe<!-- drops to next line -->dientiae</p>
+            <lb ed="#A"/>immutabilitatis non indigentiae <g ref="#slash"/> vel violentiae <g ref="#slash"/> vel expe<!-- drops to next line -->dientiae
+          </p>
         </div>
       </div>
     </body>

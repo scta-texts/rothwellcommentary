@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 19 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 19 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 19 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 19 [Penn Transcription]</title>
           <date when="2016-04-22">April 22, 2016</date>
         </edition>
       </editionStmt>
@@ -55,9 +55,9 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d19">
-  			<head xml:id="wdrl1d19-Hd1e3503">Librum I, Distinctio 19 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d19-Hd1e3503">Liber I, Distinctio 19 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d19q1" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3508" type="questionTitle">Utrum in divinis sit aequalitas</head>
+  				<head xml:id="wdrl1d19-Hd1e3508" type="question-title">Utrum in divinis sit aequalitas</head>
   				<p xml:id="wdrl1d19-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum in divinis 
   					<lb ed="#P"/>sit aequalitas <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> Nota ergo quod secundum <choice><orig>ydemptitatem</orig><reg>idemptitatem</reg></choice> eorum 
   					<lb ed="#P"/>quae se habent per modum substantiae in divinis ut deitas dicit <choice><orig>ydemptitatis</orig><reg>identitatis</reg></choice> 
@@ -68,14 +68,14 @@
   					<lb ed="#P"/>in dei subtilitate non proportione ut creatura <ref><choice><orig>1a</orig><reg>prima</reg></choice> quaestione 7</ref></p>
   			</div>
   			<div xml:id="wdr-l1d19q2" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3569" type="questionTitle">Utrum sit ibi aequalis summa</head>
+  				<head xml:id="wdrl1d19-Hd1e3569" type="question-title">Utrum sit ibi aequalis summa</head>
   				<p xml:id="wdrl1d19-d1e3572"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit ibi aequalis summa <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia unum in quantitate in deo <pc ana="#virgula"/> est simplex unum scilicet indivi<lb ed="#P"/>sibilitate 
   					non secundum quid <pc ana="#punctus"/> vel <pc ana="#punctus"/> proportione quaelibet enim personae <pc ana="#punctus"/> aequalis est 
   					<lb ed="#P"/>alteri <pc ana="#punctus"/> et pluribus et omnibus simul secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d19q3" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3608" type="questionTitle">Utrum sit ibi aequalitas mutua</head>
+  				<head xml:id="wdrl1d19-Hd1e3608" type="question-title">Utrum sit ibi aequalitas mutua</head>
   				<p xml:id="wdrl1d19-d1e3611"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit ibi aequalitas mutua <pc ana="#punctus"/> 
   					<lb ed="#P"/>Respondeo sic <pc ana="#punctus"/> si aequale dicat solam <del>ro</del> relationem <pc ana="#virgula"/> quia relationem 
   					<lb ed="#P"/>aequiperantiae est <pc ana="#virgula"/> Si autem cum relatione est dicat motum <pc ana="#punctus"/> 
@@ -83,7 +83,7 @@
   					<!-- drops --> patri <pc ana="#punctus"/> et non econverso <pc ana="#punctus"/> ut dicit <name>c?s</name></p>
   			</div>
   			<div xml:id="wdr-l1d19q4" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3658" type="questionTitle">Utrum una persona sit in alia</head>
+  				<head xml:id="wdrl1d19-Hd1e3658" type="question-title">Utrum una persona sit in alia</head>
   				<p xml:id="wdrl1d19-d1e3661"><lb ed="#P"/><pc ana="#pilcrow"/>utrum una persona 
   					<lb ed="#P"/>sit in alia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#io">Iohannis</title> <num>xiiii</num></ref> <quote xml:id="wdrl1d19-Qd1e3681" ana="#io14_10">non credis 
   						<lb ed="#P"/>quia ego in patre</quote> etc <pc ana="#punctus"/> unam autem personam esse in alia 
@@ -93,13 +93,13 @@
   					<cb ed="#P" n="32ra"/><lb ed="#P"/>in filio <pc ana="#punctus"/> <pc ana="#virgula"/> nullae propter secundum <pc ana="#punctus"/> una persona in se ipsa</p>
   			</div>
   			<div xml:id="wdr-l1d19q5" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3738" type="questionTitle">Utrum propter eandem rationem dicatur pater esse in filio et econverso</head>
+  				<head xml:id="wdrl1d19-Hd1e3738" type="question-title">Utrum propter eandem rationem dicatur pater esse in filio et econverso</head>
   				<p xml:id="wdrl1d19-d1e3741"><lb ed="#P"/><pc ana="#pilcrow"/>utrum propter eandem rationem dicatur pater esse in filio 
   					<lb ed="#P"/>et econverso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> eadem ratione propria quantum ad essentiae uni<lb ed="#P"/>tatem 
   					<pc ana="#punctus"/> <pc ana="#virgula"/> et eadem ratione <unclear>communi</unclear> quo ad relatam habitudinem</p>
   			</div>
   			<div xml:id="wdr-l1d19q6" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3765" type="questionTitle">Quomodo inter uni modos essendi <unclear>iii</unclear> dicatur pater esse in filio et econverso</head>
+  				<head xml:id="wdrl1d19-Hd1e3765" type="question-title">Quomodo inter uni modos essendi <unclear>iii</unclear> dicatur pater esse in filio et econverso</head>
   				<p xml:id="wdrl1d19-d1e3771"><lb ed="#P"/><pc ana="#pilcrow"/>Quomodo inter <pc ana="#punctus"/> uni <pc ana="#punctus"/> modos essendi in <pc ana="#punctus"/> dicatur 
   					pater esse in filio et econverso <pc ana="#punctus"/> Responsio non continetur <unclear>iii</unclear> 
   					<lb ed="#P"/>omnes modus <pc ana="#virgula"/> etiam creatus <pc ana="#punctus"/> nisi per reductionem <pc ana="#punctus"/> ut modus 
@@ -110,7 +110,7 @@
   					<lb ed="#P"/>6 modo quo dicatur motum esse in movente <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d19q7" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3824" type="questionTitle">Utrum magnitudo sit in Deo</head>
+  				<head xml:id="wdrl1d19-Hd1e3824" type="question-title">Utrum magnitudo sit in Deo</head>
   				<p xml:id="wdrl1d19-d1e3827"><lb ed="#P"/><pc ana="#pilcrow"/>utrum magnitudo sit in deo <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> non <unclear>mo?l</unclear> 
   					<lb ed="#P"/>sed virtutis quae secundum <name ref="#Aristotle">philosophum</name> <pc ana="#punctus"/> est ultimum de potentia <pc ana="#punctus"/> <pc ana="#virgula"/> haec igitur quanti<lb ed="#P"/>tas 
   					virtutis <pc ana="#virgula"/> secundum quod extenditur ad actum existendi 
@@ -122,7 +122,7 @@
   					<lb ed="#P"/><name ref="#Augustine">augustinus</name> in littera assignat aequalitatem in divinis</p>
   			</div>
   			<div xml:id="wdr-l1d19q8" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e3899" type="questionTitle">Utrum aeternitas idem sit quot deus</head>
+  				<head xml:id="wdrl1d19-Hd1e3899" type="question-title">Utrum aeternitas idem sit quot deus</head>
   				<p xml:id="wdrl1d19-d1e3902"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aeternitas idem sit quot deus Responsio 
   					<lb ed="#P"/>sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et hoc secundum rem <pc ana="#punctus"/> secundum rationem tamen 
   					<lb ed="#P"/>differt <pc ana="#punctus"/> <pc ana="#virgula"/> quia quicquid in deo est <pc ana="#punctus"/> deus est <pc ana="#punctus"/> <pc ana="#virgula"/> nunc etiam aeterni<lb ed="#P"/>tatis 
@@ -136,7 +136,7 @@
   					<!-- drops --> continue subiacet <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d19q9" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4007" type="questionTitle">Utrum in divinis</head>
+  				<head xml:id="wdrl1d19-Hd1e4007" type="question-title">Utrum in divinis</head>
   				<p xml:id="wdrl1d19-d1e4010"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in divinis 
   					sit totum integrale Respondeo non <pc ana="#punctus"/> quia omne tale 
   					<cb ed="#P" n="32rb"/><lb ed="#P"/>compositum est <pc ana="#punctus"/> et pars inperfectionem <choice><orig>inportat</orig><reg>importat</reg></choice> <pc ana="#punctus"/> et inaequa<lb ed="#P"/>litas 
@@ -146,14 +146,14 @@
   					<lb ed="#P"/>dictum <pc ana="#punctus"/> sicut dicitur aeternitas tota simul <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d19q10" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4056" type="questionTitle">Utrum sit ibi totum universale et particulare</head>
+  				<head xml:id="wdrl1d19-Hd1e4056" type="question-title">Utrum sit ibi totum universale et particulare</head>
   				<p xml:id="wdrl1d19-d1e4059"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <del rend="expunctuated">est ibi</del> sit ibi totum universale et particulare 
   					<lb ed="#P"/>Respondeo non secundum <name ref="#Augustinus">augustinus</name> in littera <pc ana="#punctus"/> quia in deo non differet sua quanti<lb ed="#P"/>tas 
   					et suum esse nec supposita differunt numero simpliciter 
   					<lb ed="#P"/>ita quod nihil quod est uno <pc ana="#punctus"/> sit in altero <pc ana="#punctus"/> nec est ibi formae communis co<!--drop -->tractio per additionem</p>
   			</div>
   			<div xml:id="wdr-l1d19q11" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4089" type="questionTitle">Utrum sit ibi principium</head>
+  				<head xml:id="wdrl1d19-Hd1e4089" type="question-title">Utrum sit ibi principium</head>
   				<p xml:id="wdrl1d19-d1e4092"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit ibi principium 
   					<lb ed="#P"/>materiale <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> unde dicit <name ref="#Boethius">boetius</name> quod deus est forma 
   					<lb ed="#P"/>sine materia <pc ana="#punctus"/> <pc ana="#virgula"/> In deo enim nulla est causalitas respectu divinarum personarum <pc ana="#punctus"/> sed 
@@ -162,33 +162,33 @@
   					<lb ed="#P"/>scilicet materiae <pc ana="#punctus"/> numquam coincidit</p>
   			</div>
   			<div xml:id="wdr-l1d19q12" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4135" type="questionTitle">Utrum sit ibi communicabile et incommunicabile</head>
+  				<head xml:id="wdrl1d19-Hd1e4135" type="question-title">Utrum sit ibi communicabile et incommunicabile</head>
   				<p xml:id="wdrl1d19-d1e4138"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit ibi communicabile <pc ana="#punctus"/> et incommunicabile <pc ana="#punctus"/> 
   					Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#RichardOfStVictor">Richardum</name> et haec sunt absolutum et re<lb ed="#P"/>latum 
   					<pc ana="#punctus"/> quae non re <pc ana="#punctus"/> sed ratione differunt quamvis relata inter 
   					<lb ed="#P"/>se re differant</p>
   			</div>
   			<div xml:id="wdr-l1d19q13" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4166" type="questionTitle">Utrum in deo sit numerus personarum</head>
+  				<head xml:id="wdrl1d19-Hd1e4166" type="question-title">Utrum in deo sit numerus personarum</head>
   				<p xml:id="wdrl1d19-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in deo sit numberus personarum Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sed non 
   					<lb ed="#P"/>numerus simpliciter <pc ana="#punctus"/> <pc ana="#virgula"/> quia numerus per se <choice><orig>inportat</orig><reg>importat</reg></choice> distinctionem et 
   					<lb ed="#P"/>separationem <pc ana="#punctus"/> <pc ana="#virgula"/> sed cum additur personarum <pc ana="#virgula"/> dicit solam distinctionem</p>
   			</div>
   			<div xml:id="wdr-l1d19q14" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4202" type="questionTitle">Utrum possit dicit trinarius personarum sicut trinitas</head>
+  				<head xml:id="wdrl1d19-Hd1e4202" type="question-title">Utrum possit dicit trinarius personarum sicut trinitas</head>
   				<p xml:id="wdrl1d19-d1e4205"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici trinarius personarum sicut trinitas 
   					<lb ed="#P"/>Respondeo non quia non est ibi numerus simpliciter sed cum determina<lb ed="#P"/>tione 
   					tantum <pc ana="#punctus"/> trinitas autem distinctionem cum unitate  
   					<!-- drops --> trinarius sine unitate </p>
   			</div> 
   			<div xml:id="wdr-l1d19q15" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4221" type="questionTitle">utrum possit dici deus triplex</head>
+  				<head xml:id="wdrl1d19-Hd1e4221" type="question-title">utrum possit dici deus triplex</head>
   				<p xml:id="wdrl1d19-d1e4224"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici 
   					<lb ed="#P"/>deus triplex <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quia triplex dicit plura<!-- drops -->litatem 
   					simpliciter sine unitate</p>
   			</div>
   			<div xml:id="wdr-l1d19q16" type="quaestio">
-  				<head xml:id="wdrl1d19-Hd1e4248" type="questionTitle">Utrum plures veritates sint ab aeterno</head>
+  				<head xml:id="wdrl1d19-Hd1e4248" type="question-title">Utrum plures veritates sint ab aeterno</head>
   				<p xml:id="wdrl1d19-d1e4251"><lb ed="#P"/><pc ana="#pilcrow"/>utrum plures 
   					<lb ed="#P"/>veritates sunt ab aeterno <pc ana="#punctus"/> Respondeo non <pc ana="#punctus"/> sed una tantum <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia ratio veritatis fundamentum habet in esse rei <pc ana="#punctus"/> et completur 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 13 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 13 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 13 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 13 [Aarau Transcription]</title>
           <date when="2015-07-26">July 26, 2015</date>
         </edition>
       </editionStmt>
@@ -58,9 +58,9 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d13">
-  			<head xml:id="wdrl1d13-Hd1e3503">Librum I, Distinctio 13 [Aarau Transcription]</head>
+  			<head xml:id="wdrl1d13-Hd1e3503">Liber I, Distinctio 13 [Aarau Transcription]</head>
   			<div xml:id="wdr-l1d13q1" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3508" type="questionTitle">Utrum processio sit in divinis</head>
+  				<head xml:id="wdrl1d13-Hd1e3508" type="question-title">Utrum processio sit in divinis</head>
   				<p xml:id="wdrl1d13-d1e3511"><lb ed="#A"/>Queritur utrum processio sit in divi<lb ed="#A"/>nis 
   					Responsio sic quae scilicet est processio initialis <g ref="#slash"/>ut princi<lb ed="#A"/>piam 
   					a principio <g ref="#dot"/> ut lineae a puncto <g ref="#dot"/> <g ref="#slash"/> localis autem proces<lb ed="#A"/>sio 
@@ -68,7 +68,7 @@
   					et distinctionem originis <g ref="#dot"/> non quo ad diversitatem essentiae</p>
   			</div>
   			<div xml:id="wdr-l1d13q2" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3548" type="questionTitle">Utrum procedere sit proprium Spiritui Sancto</head>
+  				<head xml:id="wdrl1d13-Hd1e3548" type="question-title">Utrum procedere sit proprium Spiritui Sancto</head>
   				<p xml:id="wdrl1d13-d1e3551"><cb ed="#A" n="111va" select="kba-WettF0015_111v.json"/>
   					<lb ed="#A"/><g ref="#pilcrow"/>utrum procedere sit proprium spiritui sancto Responsio secundum rationem <unclear>consequentiae</unclear> est 
   					<lb ed="#A"/>etiam ad generationem filii <g ref="#dot"/> <g ref="#slash"/> quia tantum dicit emanationem ab 
@@ -78,7 +78,7 @@
   					filii <g ref="#dot"/> <g ref="#slash"/> <unclear>Exemplum</unclear> habemus de accidente sibi <g ref="#slash"/> et proprio <g ref="#dot"/> <g ref="#slash"/> et similiter <!-- drop line --> de proprio <g ref="#slash"/> et diffinitione</p> 
   			</div>
   			<div xml:id="wdr-l1d13q3" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3611" type="questionTitle">utrum realiter diversae sint processiones generatio et processio</head>
+  				<head xml:id="wdrl1d13-Hd1e3611" type="question-title">utrum realiter diversae sint processiones generatio et processio</head>
   				<p xml:id="wdrl1d13-d1e3614"><lb ed="#A"/><g ref="#pilcrow"/>utrum realiter diversae sint processio<lb ed="#A"/>nes 
   					<g ref="#slash"/> generatio et processio Responsio sic <g ref="#dot"/> quia diversa supposita secunda 
   					<lb ed="#A"/>rem constituunt <g ref="#dot"/> <g ref="#slash"/> Sed quidam dicunt quod differunt se ipsis 
@@ -91,13 +91,13 @@
   					formas <g ref="#slash"/> a quibus hii actus egrediuntur scilicet paternitatem et <unclear>communem</unclear> <!--drops line -->spirationem</p>
   			</div>
   			<div xml:id="wdr-l1d13q4" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3690" type="questionTitle">Utrum processio Spiritus Sancti possit dici generatio</head>
+  				<head xml:id="wdrl1d13-Hd1e3690" type="question-title">Utrum processio Spiritus Sancti possit dici generatio</head>
   				<p xml:id="wdrl1d13-d1e3693"><lb ed="#A"/><g ref="#pilcrow"/>utrum processio spiritus sancti possit dici generatio Responsio secundum 
   					<lb ed="#A"/><name ref="#Augustine">augustinum</name> in littera quod non <g ref="#dot"/> <g ref="#slash"/> quia haec processio dividitur contra generationem <g ref="#dot"/> 
   					<lb ed="#A"/>quia generatio est emanatio pro modum naturae <g ref="#dot"/> processio per modum <!-- drop line --> voluntatis</p>    
   			</div>
   			<div xml:id="wdr-l1d13q5" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3719" type="questionTitle">Utrum Spiritus Sanctus possit dici ingenitus</head>
+  				<head xml:id="wdrl1d13-Hd1e3719" type="question-title">Utrum Spiritus Sanctus possit dici ingenitus</head>
   				<p xml:id="wdrl1d13-d1e3722"><lb ed="#A"/><g ref="#pilcrow"/>utrum spiritus sanctus possit dici ingenitus Responsio Ingenitum 
   					<lb ed="#A"/>poteset accipi privarem <g ref="#slash"/> et sic non cadit in divinis <g ref="#dot"/> <g ref="#slash"/> vel negative 
   					<lb ed="#A"/>et hoc dupliciter <g ref="#slash"/> vel negatione in genere aliquo determinato <g ref="#dot"/> quae relin<lb ed="#A"/>quit 
@@ -107,7 +107,7 @@
   					et sic <name rend="#Augustine">augustinus</name> in littera dicit spiritum sanctum nec genitum <g ref="#slash"/> nec ingenitum <!-- drop line --> debere dici</p>
   			</div>
   			<div xml:id="wdr-l1d13q6" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3775" type="questionTitle">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
+  				<head xml:id="wdrl1d13-Hd1e3775" type="question-title">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
   				<p xml:id="wdrl1d13-d1e3778"><lb ed="#A"/><g ref="#pilcrow"/>utrum ingenitum dicat aliquam notionem 
   					<lb ed="#A"/>in spiritu sancto Responsio Notio dicitur id quod est principium innotescendi 
   					<lb ed="#A"/>persona <g ref="#dot"/> <g ref="#slash"/> ad notionem <unclear>g?itur</unclear> tria requiruntur <g ref="#dot"/> <g ref="#slash"/> primum quod sit proprietas 

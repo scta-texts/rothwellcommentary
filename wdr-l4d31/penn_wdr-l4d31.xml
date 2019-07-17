@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 31 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 31 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 31 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 31 [Penn Transcription]</title>
           <date when="2016-05-19">May 19, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d31">
-  			<head xml:id="wdrl4d31-Hd1e3503">Librum IV, Distinctio 31 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d31-Hd1e3503">Liber IV, Distinctio 31 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d31q1" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3508">Librum IV, Distinctio 31, Quaestio 1</head>
-  				<head xml:id="wdrl4d31-Hd1e3511" type="questionTitle">Utrum matrimonium habeat bona excusantia</head>
+  				<head xml:id="wdrl4d31-Hd1e3508">Liber IV, Distinctio 31, Quaestio 1</head>
+  				<head xml:id="wdrl4d31-Hd1e3511" type="question-title">Utrum matrimonium habeat bona excusantia</head>
   				<p xml:id="wdrl4d31-d1e3514"><lb ed="#P"/>Quaeritur utrum matrimonium habeat bona <pc ana="#punctus"/> 
   					<lb ed="#P"/>excusantia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia fit ibi iac<lb ed="#P"/>tura 
   					magni boni <pc ana="#punctus"/> quia bonum spirituale <pc ana="#punctus"/> 
@@ -66,8 +66,8 @@
   					<lb ed="#P"/>unde oportet quod fiat reconpensatio <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q2" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3548">Librum IV, Distinctio 31, Quaestio 2</head>
-  				<head xml:id="wdrl4d31-Hd1e3551" type="questionTitle">Quae sunt illa bona <pc ana="#punctus"/> et quot sint</head>
+  				<head xml:id="wdrl4d31-Hd1e3548">Liber IV, Distinctio 31, Quaestio 2</head>
+  				<head xml:id="wdrl4d31-Hd1e3551" type="question-title">Quae sunt illa bona <pc ana="#punctus"/> et quot sint</head>
   				<p xml:id="wdrl4d31-d1e3556"><lb ed="#P"/><pc ana="#pilcrow"/>Quae sunt illa bona <pc ana="#punctus"/> et quot sint 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> tria sunt scilicet fi<lb ed="#P"/>des 
   					proles <pc ana="#punctus"/> et sacramentum <!-- imp augustine quote here --> haec sunt bona substantialia 
@@ -78,8 +78,8 @@
   					<lb ed="#P"/>ipsum matrimonium <pc ana="#punctus"/> sed ipsa inseperabilitas <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q3" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3611">Librum IV, Distinctio 31, Quaestio 3</head>
-  				<head xml:id="wdrl4d31-Hd1e3614" type="questionTitle">Secundum quam rationem boni dicuntur haec bona</head>
+  				<head xml:id="wdrl4d31-Hd1e3611">Liber IV, Distinctio 31, Quaestio 3</head>
+  				<head xml:id="wdrl4d31-Hd1e3614" type="question-title">Secundum quam rationem boni dicuntur haec bona</head>
   				<p xml:id="wdrl4d31-d1e3617"><lb ed="#P"/><pc ana="#pilcrow"/>Secundum quam rationem boni di<lb ed="#P"/>cuntur 
   					haec bona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> bonum accipitur 
   					<lb ed="#P"/>hic convenienter ad bonum honestum <pc ana="#punctus"/> quod habet 
@@ -90,8 +90,8 @@
   					permixta sunt</p>
   			</div>
   			<div xml:id="wdr-l4d31q4" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3654">Librum IV, Distinctio 31, Quaestio 4</head>
-  				<head xml:id="wdrl4d31-Hd1e3657" type="questionTitle">Utrum haec tria bona sint de necessitate matrimonium</head>
+  				<head xml:id="wdrl4d31-Hd1e3654">Liber IV, Distinctio 31, Quaestio 4</head>
+  				<head xml:id="wdrl4d31-Hd1e3657" type="question-title">Utrum haec tria bona sint de necessitate matrimonium</head>
   				<p xml:id="wdrl4d31-d1e3660"><lb ed="#P"/><pc ana="#pilcrow"/>utrum haec <pc ana="#punctus"/> 
   					<lb ed="#P"/>tria bona sint de necessitate matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quantum ad obligationem 
@@ -101,8 +101,8 @@
   					<lb ed="#P"/>aliquid istorum <pc ana="#punctus"/> irritaret <pc ana="#punctus"/> matrimonium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q5" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3705">Librum IV, Distinctio 31, Quaestio 5</head>
-  				<head xml:id="wdrl4d31-Hd1e3708" type="questionTitle">Utrum intentio non servandi fidem excludant matrimonium</head>
+  				<head xml:id="wdrl4d31-Hd1e3705">Liber IV, Distinctio 31, Quaestio 5</head>
+  				<head xml:id="wdrl4d31-Hd1e3708" type="question-title">Utrum intentio non servandi fidem excludant matrimonium</head>
   				<p xml:id="wdrl4d31-d1e3711"><lb ed="#P"/><pc ana="#pilcrow"/>utrum intentio non servandi 
   					<lb ed="#P"/>fidem excludat matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> de bono fidei duo actus sunt <pc ana="#punctus"/> 
@@ -112,13 +112,13 @@
   					<lb ed="#P"/>appositam primo excludit matrimonium secundo non <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q6" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3747">Librum IV, Distinctio 31, Quaestio 6</head>
-  				<head xml:id="wdrl4d31-Hd1e3750" type="questionTitle">Utrum desperatio prolis suscipiendae excludat matrimonium</head>
+  				<head xml:id="wdrl4d31-Hd1e3747">Liber IV, Distinctio 31, Quaestio 6</head>
+  				<head xml:id="wdrl4d31-Hd1e3750" type="question-title">Utrum desperatio prolis suscipiendae excludat matrimonium</head>
   				<p xml:id="wdrl4d31-d1e3753"><lb ed="#P"/><pc ana="#pilcrow"/>Responsio <pc ana="#punctus"/> non quia adhuc erit in remedium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q7" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3764">Librum IV, Distinctio 31, Quaestio 7</head>
-  				<head xml:id="wdrl4d31-Hd1e3767" type="questionTitle">Utrum intentio ducendi aliam excludat matrimonium</head>
+  				<head xml:id="wdrl4d31-Hd1e3764">Liber IV, Distinctio 31, Quaestio 7</head>
+  				<head xml:id="wdrl4d31-Hd1e3767" type="question-title">Utrum intentio ducendi aliam excludat matrimonium</head>
   				<p xml:id="wdrl4d31-d1e3770"><lb ed="#P"/><pc ana="#pilcrow"/>utrum intentio ducendi aliam 
   					<lb ed="#P"/>excludat matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic secundum <name ref="#Augustine">augustinum</name> in littera si hoc in 
@@ -127,8 +127,8 @@
   					<!-- drops --> fuit in patribus</p>
   			</div>
   			<div xml:id="wdr-l4d31q8" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3806">Librum IV, Distinctio 31, Quaestio 8</head>
-  				<head xml:id="wdrl4d31-Hd1e3809" type="questionTitle">Utrum per haec tria sufficienter actus coniugalis excusetur</head>
+  				<head xml:id="wdrl4d31-Hd1e3806">Liber IV, Distinctio 31, Quaestio 8</head>
+  				<head xml:id="wdrl4d31-Hd1e3809" type="question-title">Utrum per haec tria sufficienter actus coniugalis excusetur</head>
   				<p xml:id="wdrl4d31-d1e3812"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per haec tria <pc ana="#punctus"/> 
   					<lb ed="#P"/>sufficienter actus coniugalis ex<lb ed="#P"/>cusetur 
   					<pc ana="#virgula"/>ne sit peccatum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quod 
@@ -138,8 +138,8 @@
   					<lb ed="#P"/>actum debitis circumstantiis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q9" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3862">Librum IV, Distinctio 31, Quaestio 9</head>
-  				<head xml:id="wdrl4d31-Hd1e3865" type="questionTitle">Utrum sic excusent quod nec peccatum veniale ibi sit</head>
+  				<head xml:id="wdrl4d31-Hd1e3862">Liber IV, Distinctio 31, Quaestio 9</head>
+  				<head xml:id="wdrl4d31-Hd1e3865" type="question-title">Utrum sic excusent quod nec peccatum veniale ibi sit</head>
   				<p xml:id="wdrl4d31-d1e3868"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sic excusent <pc ana="#virgula"/> quod nec peccatum 
   					<cb ed="#P" n="127ra"/><lb ed="#P"/>veniale ibi sit <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic secundum <name ref="#Augustine">augustinum</name> 
   					<lb ed="#P"/>in littera quando scilicet sit pure causa prolis 
@@ -147,8 +147,8 @@
   					<!-- drops --> tacite</p>
   			</div>
   			<div xml:id="wdr-l4d31q10" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3895">Librum IV, Distinctio 31, Quaestio 10</head>
-  				<head xml:id="wdrl4d31-Hd1e3898" type="questionTitle">Utrum actus coniugalis aliquando sit meritorius</head>
+  				<head xml:id="wdrl4d31-Hd1e3895">Liber IV, Distinctio 31, Quaestio 10</head>
+  				<head xml:id="wdrl4d31-Hd1e3898" type="question-title">Utrum actus coniugalis aliquando sit meritorius</head>
   				<p xml:id="wdrl4d31-d1e3901"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum actus coniugalis aliquando sit meritorius <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> in praedictis casibus <pc ana="#punctus"/> dummodo 
   					<lb ed="#P"/>sit in caritate <pc ana="#virgula"/> quia ad opus meritorium 
@@ -156,8 +156,8 @@
   					<lb ed="#P"/>recta intentio <pc ana="#punctus"/> honestas <pc ana="#punctus"/> operis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d31q11" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3935">Librum IV, Distinctio 31, Quaestio 11</head>
-  				<head xml:id="wdrl4d31-Hd1e3938" type="questionTitle">Utrum concubitus causa libidinis explendae sit semper mortale peccatum</head>
+  				<head xml:id="wdrl4d31-Hd1e3935">Liber IV, Distinctio 31, Quaestio 11</head>
+  				<head xml:id="wdrl4d31-Hd1e3938" type="question-title">Utrum concubitus causa libidinis explendae sit semper mortale peccatum</head>
   				<p xml:id="wdrl4d31-d1e3941"><lb ed="#P"/><pc ana="#pilcrow"/>utrum concubitus causa libidi<lb ed="#P"/>nis 
   					explendae sit semper mortale peccatum 
   					<lb ed="#P"/>Responsio non <pc ana="#punctus"/> sed venialis secundum <name ref="#Augustine">augustinum</name> in littera dum<lb ed="#P"/>modo 
@@ -165,8 +165,8 @@
   					<lb ed="#P"/>tantum <pc ana="#punctus"/> Alias mortale esset peccatum</p>
   			</div>
   			<div xml:id="wdr-l4d31q12" type="quaestio">
-  				<head xml:id="wdrl4d31-Hd1e3967">Librum IV, Distinctio 31, Quaestio 12</head>
-  				<head xml:id="wdrl4d31-Hd1e3970" type="questionTitle">Utrum concubitus qui fit causa vitandae fornicationis sit peccatum</head>
+  				<head xml:id="wdrl4d31-Hd1e3967">Liber IV, Distinctio 31, Quaestio 12</head>
+  				<head xml:id="wdrl4d31-Hd1e3970" type="question-title">Utrum concubitus qui fit causa vitandae fornicationis sit peccatum</head>
   				<p xml:id="wdrl4d31-d1e3973"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum concubitus qui fit causa vitan<lb ed="#P"/>de 
   					fornicationis sit peccatum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic 
   					<lb ed="#P"/>veniale scilicet secundum <name ref="#Augustine">augustinum</name> in littera quia non 

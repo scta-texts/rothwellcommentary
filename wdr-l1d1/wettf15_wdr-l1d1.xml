@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 1 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 1 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.06-dev-master">
-          <title>Librum I, Distinctio 1 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 1 [Aarau Transcription]</title>
           <date when="2015-06-12">June 12, 2015</date>
         </edition>
       </editionStmt>
@@ -77,9 +77,9 @@
     </front>
     <body>
       <div xml:id="wdr-l1d1">
-        <head>Librum I, Distinctio 1 [Aarau Transcription]</head>
+        <head>Liber I, Distinctio 1 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d1q1" type="quaestio">
-          <head type="questionTitle">Quid sit uti secundum rem et cuius potentiae actus sit</head>
+          <head type="question-title">Quid sit uti secundum rem et cuius potentiae actus sit</head>
           <p xml:id="wdrl1d1-qqsirr"><lb ed="#A"/>Queritur quid sit uti secundum rem <g ref="#slash"/> et cuius potentiae actus sit <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> uti secundum <ref><name ref="#Augustine">augustinum</name> in <title>littera</title> <unclear>3</unclear></ref> id quod in usum venerit 
             <lb ed="#A"/><unclear>retrare</unclear> ad obtinendum illud quo ferendum est et sic accipiam proprie 
@@ -89,7 +89,7 @@
             regnum rationis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q2" type="quaestio">
-          <head type="questionTitle">Utrum utendum sit sola creatura</head>
+          <head type="question-title">Utrum utendum sit sola creatura</head>
           <p xml:id="wdrl1d1-uusuba"><lb ed="#A"/><g ref="#pilcrow"/>Utrum utendum sit sola creatura <g ref="#slash"/> et utrum omni crea<lb ed="#A"/>tura
             <g ref="#slash"/>vel etiam defectu creaturae scilicet malo <g ref="#dot"/> Responsio <g ref="#dot"/> ut <unclear>inst?u</unclear> 
             <lb ed="#A"/>mentis <g ref="#slash"/>utendum est potentiis <g ref="#slash"/> ut habitu quo re<lb ed="#A"/>gulamur 
@@ -103,20 +103,20 @@
             ut bona aliena <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q3" type="quaestio">
-          <head type="questionTitle">Utrum deus utatur aliquod</head>
+          <head type="question-title">Utrum deus utatur aliquod</head>
           <p xml:id="wdrl1d1-uduqnu"><lb ed="#A"/><g ref="#pilcrow"/>Utrum deus utatur aliquod <g ref="#slash"/> Responsio quod sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> sed ipse 
             <lb ed="#A"/>non refert ad finem extra se <g ref="#dot"/> sicut fit in usus nostro <g ref="#dot"/> unde 
             <lb ed="#A"/>non est motus in eo <g ref="#slash"/> sed in nobis quando nobis utitur</p>
         </div>
         <div xml:id="wdr-l1d1q4" type="quaestio">
-          <head type="questionTitle">Utrum angeli vel sancti in patria utantur</head>
+          <head type="question-title">Utrum angeli vel sancti in patria utantur</head>
           <p xml:id="wdrl1d1-uavnah">utrum angeli vel sancti in patria utantur <g ref="#slash"/> Responsio <g ref="#dot"/> sic <g ref="#slash"/> tali 
             <lb ed="#A"/>usu scilicet qui non importat imperfectionem <unclear>ut</unclear> est usus <unclear>virtutis</unclear> <g ref="#slash"/> sed 
             <lb ed="#A"/>non imperfectio ut hic <g ref="#dot"/> unde referunt ad habitum <g ref="#slash"/> non ad 
             <lb ed="#A"/>habendum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q5" type="quaestio">
-          <head type="questionTitle">Quid sit frui vel cuius potentia sit actus</head>
+          <head type="question-title">Quid sit frui vel cuius potentia sit actus</head>
           <p xml:id="wdrl1d1-qsfifc"><lb ed="#A"/>Quid sit frui <g ref="#slash"/> vel cuius potentiae sit actus <g ref="#slash"/> et cuius virtutis <g ref="#dot"/> Responsio 
             <lb ed="#A"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est amore inhaerere alicui rei propter se 
             <lb ed="#A"/>ipsam <g ref="#dot"/> hoc est generalis <g ref="#dot"/> Item <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est uti est gau<lb ed="#A"/>dio 
@@ -127,20 +127,20 @@
             fruibili coniungit</p>
         </div>
         <div xml:id="wdr-l1d1q6" type="quaestio">
-          <head type="questionTitle">Utrum solo deo sit fruendum</head>
+          <head type="question-title">Utrum solo deo sit fruendum</head>
           <p xml:id="wdrl1d1-usdbef"><lb ed="#A"/><g ref="#pilcrow"/>Utrum solo deo sit fruendum <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> quia 
             <lb ed="#A"/>ipse solus est ultimus finis <g ref="#dot"/> Effective tamen fruimur potentia 
             <lb ed="#A"/>Dispositive habitu caritatis formaliter ipsa fruitione vel 
             <lb ed="#A"/>beatitudine creata <g ref="#dot"/> Sed solo deo tamquam obiecto et fine <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q7" type="quaestio">
-          <head type="questionTitle">Utrum uno actu fruitionis fruemur tribus personis</head> 
+          <head type="question-title">Utrum uno actu fruitionis fruemur tribus personis</head> 
           <p xml:id="wdrl1d1-uuaeci"><lb ed="#A"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus personis <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia in eis est una ratio obiecti <g ref="#slash"/> fruitionis <g ref="#slash"/> et fi<lb ed="#A"/>nis 
             <g ref="#slash"/>et una est cognitio ipsorum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q8" type="quaestio">
-          <head type="questionTitle">Quibus conveniat fruitio vel quibus modis</head>
+          <head type="question-title">Quibus conveniat fruitio vel quibus modis</head>
           <p xml:id="wdrl1d1-qcfsqd"><lb ed="#A"/><g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#slash"/> vel quibus modis <g ref="#dot"/> Responsio <g ref="#dot"/> ad fruitionem 
             <lb ed="#A"/>tria requiruntur ut patet in diffinitione eius scilicet coniunctio delectio 
             <cb ed="#A" n="108ra" select="kba-WettF0015_108r.json"/><lb ed="#A"/>quietatio <g ref="#slash"/>quietatio autem potest esse secundum appetitum rectae rationis 

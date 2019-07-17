@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 12 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 12 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 12 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 12 [Penn Transcription]</title>
           <date when="2016-05-08">May 08, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d12">
-  			<head xml:id="wdrl4d12-Hd1e3503">Librum IV, Distinctio 12 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d12-Hd1e3503">Liber IV, Distinctio 12 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d12q1" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3508">Librum IV, Distinctio 12, Quaestio 1</head>
-  				<head xml:id="wdrl4d12-Hd1e3511" type="questionTitle">Utrum accidentia per miraculum sint ibi sine subiecto</head>
+  				<head xml:id="wdrl4d12-Hd1e3508">Liber IV, Distinctio 12, Quaestio 1</head>
+  				<head xml:id="wdrl4d12-Hd1e3511" type="question-title">Utrum accidentia per miraculum sint ibi sine subiecto</head>
   				<p xml:id="wdrl4d12-d1e3514"><lb ed="#P"/>Quaeritur utrum accidentia per miraculum 
   					<lb ed="#P"/>sint ibi sine subiecto <pc ana="#punctus"/> Responsio sic quia sub<lb ed="#P"/>tracta 
   					causa <pc ana="#virgula"/> aria scilicet substantia adhuc causa pri<lb ed="#P"/>maria 
@@ -67,8 +67,8 @@
   					<!-- drops --> etc</p>
   			</div>
   			<div xml:id="wdr-l4d12q2" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3540">Librum IV, Distinctio 12, Quaestio 2</head>
-  				<head xml:id="wdrl4d12-Hd1e3543" type="questionTitle">Utrum omnia accidentia sint ibi sine subiecto</head>
+  				<head xml:id="wdrl4d12-Hd1e3540">Liber IV, Distinctio 12, Quaestio 2</head>
+  				<head xml:id="wdrl4d12-Hd1e3543" type="question-title">Utrum omnia accidentia sint ibi sine subiecto</head>
   				<p xml:id="wdrl4d12-d1e3546"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia <pc ana="#punctus"/> 
   					<lb ed="#P"/>accidentia sint ibi sine subiecto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
   					<lb ed="#P"/>omnia sunt sine subiecto <unclear>primo</unclear> scilicet <unclear>??ra</unclear> <pc ana="#virgula"/> sed quodam 
@@ -80,8 +80,8 @@
   					<!-- drops --> potest</p>
   			</div>
   			<div xml:id="wdr-l4d12q3" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3605">Librum IV, Distinctio 12, Quaestio 3</head>
-  				<head xml:id="wdrl4d12-Hd1e3608" type="questionTitle">Utrum species possint frangi</head>
+  				<head xml:id="wdrl4d12-Hd1e3605">Liber IV, Distinctio 12, Quaestio 3</head>
+  				<head xml:id="wdrl4d12-Hd1e3608" type="question-title">Utrum species possint frangi</head>
   				<p xml:id="wdrl4d12-d1e3611"><lb ed="#P"/><pc ana="#pilcrow"/>utrum species possint frangi 
   					<lb ed="#P"/>Responsio sic <pc ana="#virgula"/> quia sunt ibi per modum quanti <pc ana="#punctus"/> sed non 
   					<lb ed="#P"/>corpus christi <pc ana="#punctus"/> quia non ibi per modum quanti <pc ana="#punctus"/> <unclear>fratio</unclear> 
@@ -89,8 +89,8 @@
   					<!-- drops --> et <name ref="#Augustine">augustinus</name></p>
   			</div>
   			<div xml:id="wdr-l4d12q4" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3644">Librum IV, Distinctio 12, Quaestio 4</head>
-  				<head xml:id="wdrl4d12-Hd1e3647" type="questionTitle">utrum illa accidentia possint alterari vel corrumpi</head>
+  				<head xml:id="wdrl4d12-Hd1e3644">Liber IV, Distinctio 12, Quaestio 4</head>
+  				<head xml:id="wdrl4d12-Hd1e3647" type="question-title">utrum illa accidentia possint alterari vel corrumpi</head>
   				<p xml:id="wdrl4d12-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>utrum illa accidentia <pc ana="#punctus"/> possint 
   					<lb ed="#P"/>alterari vel corrumpi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia 
   					<lb ed="#P"/>cum omnem modum et virtutem substantiae habeat 
@@ -103,8 +103,8 @@
   					<!-- drops --> est ibi nec corpus nec sanguis</p>
   			</div>
   			<div xml:id="wdr-l4d12q5" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3717">Librum IV, Distinctio 12, Quaestio 5</head>
-  				<head xml:id="wdrl4d12-Hd1e3720" type="questionTitle">Utrum accidentia possunt <unclear>permiscera</unclear> alteri liquari</head>
+  				<head xml:id="wdrl4d12-Hd1e3717">Liber IV, Distinctio 12, Quaestio 5</head>
+  				<head xml:id="wdrl4d12-Hd1e3720" type="question-title">Utrum accidentia possunt <unclear>permiscera</unclear> alteri liquari</head>
   				<p xml:id="wdrl4d12-d1e3726"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>accidentia possunt <unclear>permiscera</unclear> alteri liquari <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio sic quia modum substantia tenet <pc ana="#punctus"/> Nota ergo 
@@ -118,15 +118,15 @@
   					<lb ed="#P"/>quod additur <pc ana="#punctus"/> quasi sacramento utendum est</p>
   			</div>
   			<div xml:id="wdr-l4d12q6" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3789">Librum IV, Distinctio 12, Quaestio 6</head>
-  				<head xml:id="wdrl4d12-Hd1e3792" type="questionTitle">Utrum accidentia possint immutare sensum</head>
+  				<head xml:id="wdrl4d12-Hd1e3789">Liber IV, Distinctio 12, Quaestio 6</head>
+  				<head xml:id="wdrl4d12-Hd1e3792" type="question-title">Utrum accidentia possint immutare sensum</head>
   				<p xml:id="wdrl4d12-d1e3795"><lb ed="#P"/><pc ana="#pilcrow"/>utrum accidentia possint immutare 
   					<lb ed="#P"/>sensum <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> quia quamvis sic esse sic 
   					<lb ed="#P"/>miraculosum <pc ana="#punctus"/> tamen dictio est naturalis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q7" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3815">Librum IV, Distinctio 12, Quaestio 7</head>
-  				<head xml:id="wdrl4d12-Hd1e3818" type="questionTitle">Utrum possint agere in aliquod extrinsecum</head>
+  				<head xml:id="wdrl4d12-Hd1e3815">Liber IV, Distinctio 12, Quaestio 7</head>
+  				<head xml:id="wdrl4d12-Hd1e3818" type="question-title">Utrum possint agere in aliquod extrinsecum</head>
   				<p xml:id="wdrl4d12-d1e3821"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possint agere in aliquod extrin<lb ed="#P"/>secum 
   					<pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> quia virtutem <unclear>substantiae</unclear> habent 
   					<lb ed="#P"/><unclear>intellectus</unclear> virtute etiam alia agunt accidentia <pc ana="#punctus"/> unde 
@@ -134,8 +134,8 @@
   					<pc ana="#punctus"/> actionis <pc ana="#punctus"/> et passionis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q8" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3855">Librum IV, Distinctio 12, Quaestio 8</head>
-  				<head xml:id="wdrl4d12-Hd1e3858" type="questionTitle">Utrum accidentia nutriant</head>
+  				<head xml:id="wdrl4d12-Hd1e3855">Liber IV, Distinctio 12, Quaestio 8</head>
+  				<head xml:id="wdrl4d12-Hd1e3858" type="question-title">Utrum accidentia nutriant</head>
   				<p xml:id="wdrl4d12-d1e3861"><lb ed="#P"/><pc ana="#pilcrow"/>utrum accidentia nutriant <pc ana="#punctus"/> Responsio convenienter 
   					<lb ed="#P"/>nunc dicitur <pc ana="#punctus"/> quod sic <pc ana="#virgula"/> sed <unclear>divinus</unclear> nutriendi <pc ana="#punctus"/> 
   					<lb ed="#P"/><num><choice><orig>iiiior</orig><reg>quattuor</reg></choice></num> opiniones <pc ana="#punctus"/> quidam dicunt quod sive sui <pc ana="#punctus"/> 
@@ -148,16 +148,16 @@
   					<!-- drops --> et communior</p>
   			</div>
   			<div xml:id="wdr-l4d12q9" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3932">Librum IV, Distinctio 12, Quaestio 9</head>
-  				<head xml:id="wdrl4d12-Hd1e3935" type="questionTitle">Utrum hoc sacramentum deleat peccata mortalia</head>
+  				<head xml:id="wdrl4d12-Hd1e3932">Liber IV, Distinctio 12, Quaestio 9</head>
+  				<head xml:id="wdrl4d12-Hd1e3935" type="question-title">Utrum hoc sacramentum deleat peccata mortalia</head>
   				<p xml:id="wdrl4d12-d1e3938"><lb ed="#P"/><pc ana="#pilcrow"/>utrum hoc sacramentum <lb ed="#P"/> 
   					<lb ed="#P"/>deleat peccata mortalia <lb ed="#P"/> Responsio non <lb ed="#P"/> nisi 
   					<lb ed="#P"/>forte oblita <pc ana="#virgula"/> quia alimentum non 
   					<cb ed="#P" n="113va"/><lb ed="#P"/>non convenit nisi vino <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q10" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e3963">Librum IV, Distinctio 12, Quaestio 10</head>
-  				<head xml:id="wdrl4d12-Hd1e3966" type="questionTitle">Utrum deleat venialia</head>
+  				<head xml:id="wdrl4d12-Hd1e3963">Liber IV, Distinctio 12, Quaestio 10</head>
+  				<head xml:id="wdrl4d12-Hd1e3966" type="question-title">Utrum deleat venialia</head>
   				<p xml:id="wdrl4d12-d1e3969"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deleat venialia <pc ana="#punctus"/> Responsio sic 
   					<lb ed="#P"/>in littera quia excitat fervorem caritatis <pc ana="#punctus"/> 
   					<lb ed="#P"/>et devotionis <pc ana="#punctus"/> quem venialia <choice><orig>inpediunt</orig><reg>impediunt</reg></choice> <pc ana="#punctus"/> et ideo 
@@ -166,15 +166,15 @@
   					<!-- drops --> mortalia <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q11" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e4017">Librum IV, Distinctio 12, Quaestio 11</head>
-  				<head xml:id="wdrl4d12-Hd1e4020" type="questionTitle">Utrum conferat augmentum virtutum</head>
+  				<head xml:id="wdrl4d12-Hd1e4017">Liber IV, Distinctio 12, Quaestio 11</head>
+  				<head xml:id="wdrl4d12-Hd1e4020" type="question-title">Utrum conferat augmentum virtutum</head>
   				<p xml:id="wdrl4d12-d1e4023"><lb ed="#P"/><pc ana="#pilcrow"/>utrum conferat aug<lb ed="#P"/>mentum virtutum <pc ana="#punctus"/> Responsio sic in littera <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia est refectio spiritualis <pc ana="#punctus"/> cibus autem <unclear>deperditum</unclear> 
   					<lb ed="#P"/><sic>restaurat</sic> <pc ana="#virgula"/> et in super auget <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q12" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e4052">Librum IV, Distinctio 12, Quaestio 12</head>
-  				<head xml:id="wdrl4d12-Hd1e4055" type="questionTitle">Utrum effectus huius sacramenti possit impedire per venialia</head>
+  				<head xml:id="wdrl4d12-Hd1e4052">Liber IV, Distinctio 12, Quaestio 12</head>
+  				<head xml:id="wdrl4d12-Hd1e4055" type="question-title">Utrum effectus huius sacramenti possit impedire per venialia</head>
   				<p xml:id="wdrl4d12-d1e4058"><lb ed="#P"/><pc ana="#pilcrow"/>utrum effectus huius sacramenti possit 
   					<lb ed="#P"/><choice><orig>inpedire</orig><reg>impedire</reg></choice> per venialia <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> ut 
   					<lb ed="#P"/>quando sine devotione actuali <pc ana="#punctus"/> quasi sine debita 
@@ -182,8 +182,8 @@
   					<lb ed="#P"/>effectum habet <pc ana="#punctus"/> haec non principalem <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d12q13" type="quaestio">
-  				<head xml:id="wdrl4d12-Hd1e4091">Librum IV, Distinctio 12, Quaestio 13</head>
-  				<head xml:id="wdrl4d12-Hd1e4094" type="questionTitle">Utrum frequenter sit communicandum</head>
+  				<head xml:id="wdrl4d12-Hd1e4091">Liber IV, Distinctio 12, Quaestio 13</head>
+  				<head xml:id="wdrl4d12-Hd1e4094" type="question-title">Utrum frequenter sit communicandum</head>
   				<p xml:id="wdrl4d12-d1e4097"><lb ed="#P"/><pc ana="#pilcrow"/>utrum frequenter sit communic<lb ed="#P"/>andum 
   					<pc ana="#punctus"/>Responsio <pc ana="#punctus"/> cum effectum in sumente habeat 
   					<lb ed="#P"/>secundum dispositionem eius <pc ana="#virgula"/> quod quis in se sentit 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 10 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 10 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 10 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 10 [Penn Transcription]</title>
           <date when="2016-05-07">May 07, 2016</date>
         </edition>
       </editionStmt>
@@ -55,18 +55,18 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d10">
-  			<head xml:id="wdrl4d10-Hd1e3503">Librum IV, Distinctio 10 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d10-Hd1e3503">Liber IV, Distinctio 10 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d10q1" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3508">Librum IV, Distinctio 10, Quaestio 1</head>
-  				<head xml:id="wdrl4d10-Hd1e3511" type="questionTitle">Utrum corpus christi vere contineatur sub sacramento</head>
+  				<head xml:id="wdrl4d10-Hd1e3508">Liber IV, Distinctio 10, Quaestio 1</head>
+  				<head xml:id="wdrl4d10-Hd1e3511" type="question-title">Utrum corpus christi vere contineatur sub sacramento</head>
   				<p xml:id="wdrl4d10-d1e3514"><lb ed="#P"/>Quaeritur utrum corpus christi vere 
   					<lb ed="#P"/>contineatur sub sacramento Responsio sic <pc ana="#virgula"/> quia 
   					<lb ed="#P"/>perfectionem coniunctio <pc ana="#virgula"/> etima essentialis nostri ad 
   					<lb ed="#P"/>eum quam in efficacia tantum <pc ana="#punctus"/> nec in aliis sa<!-- drops -->cramentis</p>
   			</div>
   			<div xml:id="wdr-l4d10q2" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3536">Librum IV, Distinctio 10, Quaestio 2</head>
-  				<head xml:id="wdrl4d10-Hd1e3539" type="questionTitle">Utrum sit ibi corpus sub sua quantitate</head>
+  				<head xml:id="wdrl4d10-Hd1e3536">Liber IV, Distinctio 10, Quaestio 2</head>
+  				<head xml:id="wdrl4d10-Hd1e3539" type="question-title">Utrum sit ibi corpus sub sua quantitate</head>
   				<p xml:id="wdrl4d10-d1e3542"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sit ibi corpus 
   					<cb ed="#P" n="112ra"/><lb ed="#P"/>sub sua quantitate <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quamvis qui<lb ed="#P"/>dam 
   					dixerint quod esset ibi sine ibi sine quantitate 
@@ -76,8 +76,8 @@
   					<!-- drops --> in illudendo aerem</p>
   			</div>
   			<div xml:id="wdr-l4d10q3" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3579">Librum IV, Distinctio 10, Quaestio 3</head>
-  				<head xml:id="wdrl4d10-Hd1e3582" type="questionTitle">Utrum corpus christi sub specie sit sicut in loco</head>
+  				<head xml:id="wdrl4d10-Hd1e3579">Liber IV, Distinctio 10, Quaestio 3</head>
+  				<head xml:id="wdrl4d10-Hd1e3582" type="question-title">Utrum corpus christi sub specie sit sicut in loco</head>
   				<p xml:id="wdrl4d10-d1e3585"><lb ed="#P"/><pc ana="#pilcrow"/>utrum corpus christi <pc ana="#punctus"/> 
   					<lb ed="#P"/>sub specie sit sicut in loco <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in loco est 
   					<lb ed="#P"/>per speciem <pc ana="#punctus"/> sicut anima per corpus <pc ana="#punctus"/> et hoc est accidens <pc ana="#punctus"/> 
@@ -85,16 +85,16 @@
   					<!-- drops -->sicut nec anima in corpore</p>
   			</div>
   			<div xml:id="wdr-l4d10q4" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3619">Librum IV, Distinctio 10, Quaestio 4</head>
-  				<head xml:id="wdrl4d10-Hd1e3622" type="questionTitle">utrum simul possit esse in pluribus locis</head>
+  				<head xml:id="wdrl4d10-Hd1e3619">Liber IV, Distinctio 10, Quaestio 4</head>
+  				<head xml:id="wdrl4d10-Hd1e3622" type="question-title">utrum simul possit esse in pluribus locis</head>
   				<p xml:id="wdrl4d10-d1e3625"><lb ed="#P"/><pc ana="#pilcrow"/>utrum semel <pc ana="#punctus"/> 
   					<lb ed="#P"/>possit esse in pluribus locis <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> scilicet 
   					<lb ed="#P"/>per accidens <pc ana="#punctus"/> non per se <pc ana="#punctus"/> inquantum scilicet in ipsum plura 
   					<lb ed="#P"/>individua <choice><orig>transmuttantur</orig><reg>transmutantur</reg></choice> <ref>idem in <unclear>no?</unclear> <num>iii</num></ref></p>
   			</div>
   			<div xml:id="wdr-l4d10q5" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3664">Librum IV, Distinctio 10, Quaestio 5</head>
-  				<head xml:id="wdrl4d10-Hd1e3667" type="questionTitle">utrum totus christus sit in qualibet parte hostiae</head>
+  				<head xml:id="wdrl4d10-Hd1e3664">Liber IV, Distinctio 10, Quaestio 5</head>
+  				<head xml:id="wdrl4d10-Hd1e3667" type="question-title">utrum totus christus sit in qualibet parte hostiae</head>
   				<p xml:id="wdrl4d10-d1e3670"><lb ed="#P"/><pc ana="#pilcrow"/>utrum totus christus sit in qualibet parte 
   					<lb ed="#P"/>hostiae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum omnes est totus in tota 
   					<lb ed="#P"/>hostia <pc ana="#punctus"/> et totus in singulis partibus divisis <pc ana="#punctus"/> 
@@ -105,16 +105,16 @@
   					et ubique <unclear>puris</unclear> panis</p>
   			</div>
   			<div xml:id="wdr-l4d10q6" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3720">Librum IV, Distinctio 10, Quaestio 6</head>
-  				<head xml:id="wdrl4d10-Hd1e3723" type="questionTitle">Utrum christus moveatur motu hostiae</head>
+  				<head xml:id="wdrl4d10-Hd1e3720">Liber IV, Distinctio 10, Quaestio 6</head>
+  				<head xml:id="wdrl4d10-Hd1e3723" type="question-title">Utrum christus moveatur motu hostiae</head>
   				<p xml:id="wdrl4d10-d1e3726"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus <pc ana="#punctus"/> 
   					<lb ed="#P"/>moveatur motu hostiae <pc ana="#punctus"/> Responsio per 
   					<lb ed="#P"/>accidens movetur <pc ana="#virgula"/> non per se <pc ana="#punctus"/> nec anima per 
   					<!-- drops --> corpus</p>
   			</div>
   			<div xml:id="wdr-l4d10q7" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3749">Librum IV, Distinctio 10, Quaestio 7</head>
-  				<head xml:id="wdrl4d10-Hd1e3752" type="questionTitle">Utrum christus sub specie ab oculo glorificata possit videri</head>
+  				<head xml:id="wdrl4d10-Hd1e3749">Liber IV, Distinctio 10, Quaestio 7</head>
+  				<head xml:id="wdrl4d10-Hd1e3752" type="question-title">Utrum christus sub specie ab oculo glorificata possit videri</head>
   				<p xml:id="wdrl4d10-d1e3755"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus sub specie ab <pc ana="#punctus"/> 
   					<lb ed="#P"/>oculo glorificata possit videri <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>oculo intellectuali potest videri <pc ana="#punctus"/> non corporali 
@@ -122,8 +122,8 @@
   					<pc ana="#punctus"/> quia nec ipsum contingit</p>
   			</div>
   			<div xml:id="wdr-l4d10q8" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3780">Librum IV, Distinctio 10, Quaestio 8</head>
-  				<head xml:id="wdrl4d10-Hd1e3783" type="questionTitle">Utrum ab intellectu viatoris possit depraehendi</head>
+  				<head xml:id="wdrl4d10-Hd1e3780">Liber IV, Distinctio 10, Quaestio 8</head>
+  				<head xml:id="wdrl4d10-Hd1e3783" type="question-title">Utrum ab intellectu viatoris possit depraehendi</head>
   				<p xml:id="wdrl4d10-d1e3786"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ab intellectu viatoris pos<lb ed="#P"/>sit 
   					depraehendi <pc ana="#punctus"/> Responsio aequaliter intel<lb ed="#P"/>ligi 
   					potest secundum viam superiorem intellectus <pc ana="#punctus"/> 
@@ -131,8 +131,8 @@
   					<lb ed="#P"/>sed non secundum inferiorem non tamen potest con<lb ed="#P"/>praehendi</p>
   			</div>
   			<div xml:id="wdr-l4d10q9" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3809">Librum IV, Distinctio 10, Quaestio 9</head>
-  				<head xml:id="wdrl4d10-Hd1e3812" type="questionTitle">Utrum aliquando <unclear>in</unclear> altari videatur oculo corporali</head>
+  				<head xml:id="wdrl4d10-Hd1e3809">Liber IV, Distinctio 10, Quaestio 9</head>
+  				<head xml:id="wdrl4d10-Hd1e3812" type="question-title">Utrum aliquando <unclear>in</unclear> altari videatur oculo corporali</head>
   				<p xml:id="wdrl4d10-d1e3818"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquando <unclear>in</unclear> <pc ana="#punctus"/> 
   					<cb ed="#P" n="112rb"/><lb ed="#P"/>altari videatur oculo corporali 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> in specie propria non videtur <pc ana="#punctus"/> sed species in quibus 
@@ -142,8 +142,8 @@
   					<lb ed="#P"/>unde tunc ibi expressiori signo videtur <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l4d10q10" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3868">Librum IV, Distinctio 10, Quaestio 10</head>
-  				<head xml:id="wdrl4d10-Hd1e3871" type="questionTitle">Utrum virtute sacramenti christus sit sub utraque specie</head>
+  				<head xml:id="wdrl4d10-Hd1e3868">Liber IV, Distinctio 10, Quaestio 10</head>
+  				<head xml:id="wdrl4d10-Hd1e3871" type="question-title">Utrum virtute sacramenti christus sit sub utraque specie</head>
   				<p xml:id="wdrl4d10-d1e3874"><lb ed="#P"/><pc ana="#pilcrow"/>utrum virtute sacramenti christus sit 
   					<lb ed="#P"/>sub utraque specie <pc ana="#virgula"/> Responsio virtute transmu<lb ed="#P"/>tationis 
   					<pc ana="#virgula"/> est utrobique tantum unum <pc ana="#virgula"/> post <pc ana="#virgula"/> quia 
@@ -151,8 +151,8 @@
   					<lb ed="#P"/>per accidens scilicet per concordantiam utraque utrobique <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d10q11" type="quaestio">
-  				<head xml:id="wdrl4d10-Hd1e3903">Librum IV, Distinctio 10, Quaestio 11</head>
-  				<head xml:id="wdrl4d10-Hd1e3906" type="questionTitle">Urum virtute verborum possit sacerdos quantamcumque materiam consecrare</head>
+  				<head xml:id="wdrl4d10-Hd1e3903">Liber IV, Distinctio 10, Quaestio 11</head>
+  				<head xml:id="wdrl4d10-Hd1e3906" type="question-title">Urum virtute verborum possit sacerdos quantamcumque materiam consecrare</head>
   				<p xml:id="wdrl4d10-d1e3909"><lb ed="#P"/><pc ana="#pilcrow"/>utrum virtute verborum possit 
   					<lb ed="#P"/>sacerdos quantamcumque materiam consecrare <pc ana="#punctus"/>
   					<lb ed="#P"/>Responssio sic <pc ana="#punctus"/> si concordat intentionem suam cum 

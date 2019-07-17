@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 11 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 11 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 11 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 11 [Penn Transcription]</title>
           <date when="2016-05-08">May 08, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d11">
-  			<head xml:id="wdrl4d11-Hd1e3503">Librum IV, Distinctio 11 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d11-Hd1e3503">Liber IV, Distinctio 11 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d11q1" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3508">Librum IV, Distinctio 11, Quaestio 1</head>
-  				<head xml:id="wdrl4d11-Hd1e3511" type="questionTitle">Utrum panis remaneat post consecrationem</head>
+  				<head xml:id="wdrl4d11-Hd1e3508">Liber IV, Distinctio 11, Quaestio 1</head>
+  				<head xml:id="wdrl4d11-Hd1e3511" type="question-title">Utrum panis remaneat post consecrationem</head>
   				<p xml:id="wdrl4d11-d1e3514"><lb ed="#P"/>Quaeritur utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>panis remaneat <pc ana="#virgula"/> post consecrationem <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio non <pc ana="#punctus"/> quia cum facta sit ibi mutatio <pc ana="#punctus"/> 
@@ -66,16 +66,16 @@
   					<pc ana="#punctus"/> ergo tantum in substantia panis facta est <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d11q2" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3546">Librum IV, Distinctio 11, Quaestio 2</head>
-  				<head xml:id="wdrl4d11-Hd1e3549" type="questionTitle">utrum forma panis maneat quamvis non materia</head>
+  				<head xml:id="wdrl4d11-Hd1e3546">Liber IV, Distinctio 11, Quaestio 2</head>
+  				<head xml:id="wdrl4d11-Hd1e3549" type="question-title">utrum forma panis maneat quamvis non materia</head>
   				<p xml:id="wdrl4d11-d1e3552"><lb ed="#P"/><pc ana="#pilcrow"/>utrum forma panis maneat quam<lb ed="#P"/>vis 
   					non materia <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> sed tantum 
   					<lb ed="#P"/>accidentia <pc ana="#virgula"/> retinentia <unclear>vim</unclear> substantiae <pc ana="#punctus"/> unde tota 
   					<!-- drops --> substantia transmutatur</p>
   			</div>
   			<div xml:id="wdr-l4d11q3" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3580">Librum IV, Distinctio 11, Quaestio 3</head>
-  				<head xml:id="wdrl4d11-Hd1e3583" type="questionTitle">Utrum panis annihiletur</head>
+  				<head xml:id="wdrl4d11-Hd1e3580">Liber IV, Distinctio 11, Quaestio 3</head>
+  				<head xml:id="wdrl4d11-Hd1e3583" type="question-title">Utrum panis annihiletur</head>
   				<p xml:id="wdrl4d11-d1e3586"><lb ed="#P"/><pc ana="#pilcrow"/>utrum panis 
   					<lb ed="#P"/><choice><orig>annicheletur</orig><reg>annihiletur</reg></choice> <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> quia in aliud 
   					<lb ed="#P"/>mutatur <pc ana="#virgula"/> alias hic non inciperet esse 
@@ -83,8 +83,8 @@
   					<!-- drops --> essendi</p>
   			</div>
   			<div xml:id="wdr-l4d11q4" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3618">Librum IV, Distinctio 11, Quaestio 4</head>
-  				<head xml:id="wdrl4d11-Hd1e3621" type="questionTitle">Utrum mutetur in corpore christi</head>
+  				<head xml:id="wdrl4d11-Hd1e3618">Liber IV, Distinctio 11, Quaestio 4</head>
+  				<head xml:id="wdrl4d11-Hd1e3621" type="question-title">Utrum mutetur in corpore christi</head>
   				<p xml:id="wdrl4d11-d1e3624"><lb ed="#P"/><pc ana="#pilcrow"/>utrum mutetur in corpore 
   					<lb ed="#P"/>christi <pc ana="#punctus"/> Responsio quod sic <pc ana="#virgula"/> virtute divina 
   					<lb ed="#P"/>qua transmutat totum in totum <pc ana="#punctus"/> nec est <unclear>ibi</unclear> aliquod 
@@ -94,8 +94,8 @@
   					<!-- drops --> fit in nutrimento</p>
   			</div>
   			<div xml:id="wdr-l4d11q5" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3665">Librum IV, Distinctio 11, Quaestio 5</head>
-  				<head xml:id="wdrl4d11-Hd1e3668" type="questionTitle">Utrum haec substantia mutatio sit <unclear>substantia</unclear> vel successiva</head>
+  				<head xml:id="wdrl4d11-Hd1e3665">Liber IV, Distinctio 11, Quaestio 5</head>
+  				<head xml:id="wdrl4d11-Hd1e3668" type="question-title">Utrum haec substantia mutatio sit <unclear>substantia</unclear> vel successiva</head>
   				<p xml:id="wdrl4d11-d1e3674"><lb ed="#P"/><pc ana="#pilcrow"/>utrum haec substantia mu<pc ana="#punctus"/><lb ed="#P"/>tatio 
   					sit <unclear>substantia</unclear> vel successiva <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/><unclear>sub ita</unclear> est <pc ana="#punctus"/> quia nullius defectus ex parte efficientis 
@@ -107,16 +107,16 @@
   					<lb ed="#P"/>instans tempus illud continuatur</p>
   			</div>
   			<div xml:id="wdr-l4d11q6" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3729">Librum IV, Distinctio 11, Quaestio 6</head>
-  				<head xml:id="wdrl4d11-Hd1e3732" type="questionTitle">Utrum haec mutatio sit maior et mirabilior ceteris</head>
+  				<head xml:id="wdrl4d11-Hd1e3729">Liber IV, Distinctio 11, Quaestio 6</head>
+  				<head xml:id="wdrl4d11-Hd1e3732" type="question-title">Utrum haec mutatio sit maior et mirabilior ceteris</head>
   				<p xml:id="wdrl4d11-d1e3735"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum haec mutatio sit maior et 
   					<lb ed="#P"/>mirabilior ceteris <pc ana="#punctus"/> Responsio sic quantum ad terminum 
   					<lb ed="#P"/>ad quem <pc ana="#punctus"/> sed creatio quantum ad terminum a quo <pc ana="#punctus"/> In<lb ed="#P"/>carnatio 
   					nullo quantum ad distantiam terminorum</p>
   			</div>
   			<div xml:id="wdr-l4d11q7" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3756">Librum IV, Distinctio 11, Quaestio 7</head>
-  				<head xml:id="wdrl4d11-Hd1e3759" type="questionTitle">Utrum haec sit vera id quod fuit vel erat panis est corpus christi</head>
+  				<head xml:id="wdrl4d11-Hd1e3756">Liber IV, Distinctio 11, Quaestio 7</head>
+  				<head xml:id="wdrl4d11-Hd1e3759" type="question-title">Utrum haec sit vera id quod fuit vel erat panis est corpus christi</head>
   				<p xml:id="wdrl4d11-d1e3762"><lb ed="#P"/><pc ana="#pilcrow"/>utrum haec sit vera <pc ana="#punctus"/> id quod fuit vel erat 
   					<lb ed="#P"/>panis est corpus christi <pc ana="#punctus"/> Responsio nota quod tunc horum ter<lb ed="#P"/>minorum 
   					<pc ana="#punctus"/> non sit commune <pc ana="#punctus"/> subiectum <pc ana="#punctus"/> quod omnes propositiones 
@@ -137,8 +137,8 @@
   					est actus <pc ana="#punctus"/> sed panis numquam est corpus christi </p>
   			</div>
   			<div xml:id="wdr-l4d11q8" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3906">Librum IV, Distinctio 11, Quaestio 8</head>
-  				<head xml:id="wdrl4d11-Hd1e3909" type="questionTitle">Utrum panis et vinum sit competens</head>
+  				<head xml:id="wdrl4d11-Hd1e3906">Liber IV, Distinctio 11, Quaestio 8</head>
+  				<head xml:id="wdrl4d11-Hd1e3909" type="question-title">Utrum panis et vinum sit competens</head>
   				<p xml:id="wdrl4d11-d1e3912"><lb ed="#P"/><pc ana="#pilcrow"/>utrum panis et vinum sit <choice><orig>con<cb ed="#P" n="112vb"/><lb ed="#P"/>petens</orig><reg>com<cb ed="#P" n="112vb"/><lb ed="#P"/>petens</reg></choice> 
   					materia huiusmodi sacramenti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>propter usum edendi vel bibendi <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#JohnDamascenus">damascenum</name> 
@@ -146,8 +146,8 @@
   					<lb ed="#P"/>in littera <pc ana="#virgula"/> quia ad salutem animae et corporis sumuntur</p>
   			</div>
   			<div xml:id="wdr-l4d11q9" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e3960">Librum IV, Distinctio 11, Quaestio 9</head>
-  				<head xml:id="wdrl4d11-Hd1e3963" type="questionTitle">De quo pane conficiendum</head>
+  				<head xml:id="wdrl4d11-Hd1e3960">Liber IV, Distinctio 11, Quaestio 9</head>
+  				<head xml:id="wdrl4d11-Hd1e3963" type="question-title">De quo pane conficiendum</head>
   				<p xml:id="wdrl4d11-d1e3966"><lb ed="#P"/><pc ana="#pilcrow"/>De quo pane conficiendum <pc ana="#punctus"/> 
   					<lb ed="#P"/><pc ana="#pilcrow"/>Responsio <pc ana="#punctus"/> secundum conclusionem summam doctorum <pc ana="#punctus"/> et non potest 
   					<lb ed="#P"/>de alio <pc ana="#virgula"/> quia dicens se <unclear>gravo</unclear> falsu comparavit <pc ana="#punctus"/> 
@@ -156,15 +156,15 @@
   					<lb ed="#P"/>dignius <pc ana="#punctus"/> et utilius <pc ana="#punctus"/> et proprius cibus hominum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d11q10" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4012">Librum IV, Distinctio 11, Quaestio 10</head>
-  				<head xml:id="wdrl4d11-Hd1e4015" type="questionTitle">Utrum confici possit infermentato</head>
+  				<head xml:id="wdrl4d11-Hd1e4012">Liber IV, Distinctio 11, Quaestio 10</head>
+  				<head xml:id="wdrl4d11-Hd1e4015" type="question-title">Utrum confici possit infermentato</head>
   				<p xml:id="wdrl4d11-d1e4018"><lb ed="#P"/><pc ana="#pilcrow"/>utrum confici possit infermentato <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic quia variat speciem panis secundum 
   					<lb ed="#P"/><name ref="#Anselm">anselmum</name> <pc ana="#punctus"/> sed non debet <pc ana="#punctus"/> quia nec dicens in eo confecit</p>
   			</div>
   			<div xml:id="wdr-l4d11q11" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4042">Librum IV, Distinctio 11, Quaestio 11</head>
-  				<head xml:id="wdrl4d11-Hd1e4045" type="questionTitle">De quo vino conficiendus sit sanguinis</head>
+  				<head xml:id="wdrl4d11-Hd1e4042">Liber IV, Distinctio 11, Quaestio 11</head>
+  				<head xml:id="wdrl4d11-Hd1e4045" type="question-title">De quo vino conficiendus sit sanguinis</head>
   				<p xml:id="wdrl4d11-d1e4048"><lb ed="#P"/><pc ana="#pilcrow"/>De quo vino conficiendus sit 
   					<lb ed="#P"/>sanguinis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> de vino vitis <pc ana="#punctus"/> quod <pc ana="#punctus"/> solum 
   					<lb ed="#P"/>simpliciter est vinum <pc ana="#virgula"/> de quo etiam dicens <pc ana="#punctus"/> quod etiam magis 
@@ -172,15 +172,15 @@
   					<!-- drops --> rationi sacramenti</p>
   			</div>
   			<div xml:id="wdr-l4d11q12" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4083">Librum IV, Distinctio 11, Quaestio 12</head>
-  				<head xml:id="wdrl4d11-Hd1e4086" type="questionTitle">Utrum de <unclear>acceto</unclear> possit</head>
+  				<head xml:id="wdrl4d11-Hd1e4083">Liber IV, Distinctio 11, Quaestio 12</head>
+  				<head xml:id="wdrl4d11-Hd1e4086" type="question-title">Utrum de <unclear>acceto</unclear> possit</head>
   				<p xml:id="wdrl4d11-d1e4092"><lb ed="#P"/><pc ana="#pilcrow"/>utrum de <unclear>acceto</unclear> <pc ana="#punctus"/> 
   					<lb ed="#P"/>possit <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> non quia corrupta est 
   					<lb ed="#P"/>species vini <pc ana="#punctus"/> quod patet quia infrigidat <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d11q13" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4117">Librum IV, Distinctio 11, Quaestio 13</head>
-  				<head xml:id="wdrl4d11-Hd1e4120" type="questionTitle">Utrum de <sic>aggresta</sic> possit</head>
+  				<head xml:id="wdrl4d11-Hd1e4117">Liber IV, Distinctio 11, Quaestio 13</head>
+  				<head xml:id="wdrl4d11-Hd1e4120" type="question-title">Utrum de <sic>aggresta</sic> possit</head>
   				<p xml:id="wdrl4d11-d1e4126"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum de <sic>aggresta</sic> possit <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>non  quia <pc ana="#punctus"/> adhuc non habet speciem vini <pc ana="#punctus"/> quia non 
   					<lb ed="#P"/>est in termino genera communis sed in via <pc ana="#virgula"/> In musco 
@@ -188,38 +188,38 @@
   					nisi sit <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d11q14" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4166">Librum IV, Distinctio 11, Quaestio 14</head>
-  				<head xml:id="wdrl4d11-Hd1e4169" type="questionTitle">Utrum necesse sit aqua apponere</head>
+  				<head xml:id="wdrl4d11-Hd1e4166">Liber IV, Distinctio 11, Quaestio 14</head>
+  				<head xml:id="wdrl4d11-Hd1e4169" type="question-title">Utrum necesse sit aqua apponere</head>
   				<p xml:id="wdrl4d11-d1e4172"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>neccesse</orig><reg>necesse</reg></choice> sit aqua apponere <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>non quia tantum est ad pressionem si <unclear>igitur</unclear> tamen 
   					<lb ed="#P"/>scienter non debet <pc ana="#punctus"/> debet <choice><orig>obmitti</orig><reg>omitti</reg></choice> quia etiam dicens <pc ana="#punctus"/> 
   					<!-- drops --> apposuit secundum <name ref="#Cyprian">ciprianum</name></p>
   			</div>
   			<div xml:id="wdr-l4d11q15" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4210">Librum IV, Distinctio 11, Quaestio 15</head>
-  				<head xml:id="wdrl4d11-Hd1e4213" type="questionTitle">Utrum sufficiat aqua roseatea</head>
+  				<head xml:id="wdrl4d11-Hd1e4210">Liber IV, Distinctio 11, Quaestio 15</head>
+  				<head xml:id="wdrl4d11-Hd1e4213" type="question-title">Utrum sufficiat aqua roseatea</head>
   				<p xml:id="wdrl4d11-d1e4216"><lb ed="#P"/><pc ana="#pilcrow"/>utrum suffici<lb ed="#P"/>at 
   					aqua roseatea <pc ana="#punctus"/> Responsio non debet ap<pc ana="#punctus"/>poni 
   					<pc ana="#punctus"/> sed pura tamen <pc ana="#punctus"/> et simplex scilicet naturalis non ar<lb ed="#P"/>tificialis</p>
   			</div>
   			<div xml:id="wdr-l4d11q16" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4237">Librum IV, Distinctio 11, Quaestio 16</head>
-  				<head xml:id="wdrl4d11-Hd1e4240" type="questionTitle">Quantum debet apponi</head>
+  				<head xml:id="wdrl4d11-Hd1e4237">Liber IV, Distinctio 11, Quaestio 16</head>
+  				<head xml:id="wdrl4d11-Hd1e4240" type="question-title">Quantum debet apponi</head>
   				<p xml:id="wdrl4d11-d1e4243"><lb ed="#P"/><pc ana="#pilcrow"/>Quantum debet apponi <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio a deo parum ut in vinum facile et 
   					<!-- drops --> totaliter <sic>convertatiri</sic></p>
   			</div>
   			<div xml:id="wdr-l4d11q17" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4260">Librum IV, Distinctio 11, Quaestio 17</head>
-  				<head xml:id="wdrl4d11-Hd1e4263" type="questionTitle">Utrum <sic>pullo</sic> debeat dari sub utraque specie</head>
+  				<head xml:id="wdrl4d11-Hd1e4260">Liber IV, Distinctio 11, Quaestio 17</head>
+  				<head xml:id="wdrl4d11-Hd1e4263" type="question-title">Utrum <sic>pullo</sic> debeat dari sub utraque specie</head>
   				<p xml:id="wdrl4d11-d1e4269"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <pc ana="#punctus"/> 
   					<cb ed="#P" n="113ra"/><lb ed="#P"/>pullo debeat dari sub utraque specie 
   					<lb ed="#P"/>Responsio non <pc ana="#punctus"/> propter periculum <pc ana="#punctus"/> et quia unum tan<lb ed="#P"/>tae
   					efficaciae ut ambo <pc ana="#virgula"/> licet non insignificando <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d11q18" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4294">Librum IV, Distinctio 11, Quaestio 18</head>
-  				<head xml:id="wdrl4d11-Hd1e4297" type="questionTitle">Utrum christus in cena discursus corpus passibile vel impassibile dederit</head>
+  				<head xml:id="wdrl4d11-Hd1e4294">Liber IV, Distinctio 11, Quaestio 18</head>
+  				<head xml:id="wdrl4d11-Hd1e4297" type="question-title">Utrum christus in cena discursus corpus passibile vel impassibile dederit</head>
   				<p xml:id="wdrl4d11-d1e4300"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus in cena discursus 
   					<lb ed="#P"/>corpus passibile vel impassibile dederit 
   					<lb ed="#P"/>Responsio in littera quod passibile <pc ana="#virgula"/> dedit tamen 
@@ -228,8 +228,8 @@
   					<!-- drops --> intrinseca</p>
   			</div>
   			<div xml:id="wdr-l4d11q19" type="quaestio">
-  				<head xml:id="wdrl4d11-Hd1e4336">Librum IV, Distinctio 11, Quaestio 19</head>
-  				<head xml:id="wdrl4d11-Hd1e4339" type="questionTitle">Utrum christus in cena seipsum sumpserit in sacramento</head>
+  				<head xml:id="wdrl4d11-Hd1e4336">Liber IV, Distinctio 11, Quaestio 19</head>
+  				<head xml:id="wdrl4d11-Hd1e4339" type="question-title">Utrum christus in cena seipsum sumpserit in sacramento</head>
   				<p xml:id="wdrl4d11-d1e4342"><lb ed="#P"/><pc ana="#pilcrow"/>utrum christus in cena <pc ana="#punctus"/> 
   					<lb ed="#P"/>se ipsum sumpserit in sacramento <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>quidam quod non <pc ana="#virgula"/> sed panis et vinum non consecrata <pc ana="#punctus"/> 

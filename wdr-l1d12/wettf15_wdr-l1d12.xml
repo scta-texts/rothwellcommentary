@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 12 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 12 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 12 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 12 [Aarau Transcription]</title>
           <date when="2015-07-26">July 26, 2015</date>
         </edition>
       </editionStmt>
@@ -59,27 +59,27 @@
     </front>
     <body>
       <div xml:id="wdr-l1d12">
-      	<head xml:id="wdrl1d12-Hd1e3503">Librum I, Distinctio 12 [Aarau Transcription]</head>
+      	<head xml:id="wdrl1d12-Hd1e3503">Liber I, Distinctio 12 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d12q1" type="quaestio">
-        	<head  xml:id="wdrl1d12-Hd1e3508" type="questionTitle">Utrum Spiritus Sanctus prius procedat a Patre quam a Filio</head>
+        	<head  xml:id="wdrl1d12-Hd1e3508" type="question-title">Utrum Spiritus Sanctus prius procedat a Patre quam a Filio</head>
         	<p xml:id="wdrl1d12-d1e3511"><lb ed="#A"/>Quaeritur utrum spiritus sanctus prius procedat 
             <lb ed="#A"/>a patre quam a filio Responsio non secundum <name ref="#Augustine">augustinus</name> in littera quia in aeternitate <!-- drops line --> non est prius et posterius</p>
         </div>
         <div xml:id="wdr-l1d12q2" type="quaestio">
-        	<head xml:id="wdrl1d12-Hd1e3531" type="questionTitle">Utrum plenius procedat ab uno quam ab alio</head>
+        	<head xml:id="wdrl1d12-Hd1e3531" type="question-title">Utrum plenius procedat ab uno quam ab alio</head>
         	<p xml:id="wdrl1d12-d1e3534"><lb ed="#A"/><g ref="#pilcrow"/>Utrum plenius procedat ab uno quam ab 
             <lb ed="#A"/>alio Responsio in littera quod non <g ref="#slash"/> quia quamvis filius virtutem spira<lb ed="#A"/>tivam 
             habeat a patre <g ref="#slash"/> tamen eandem habet quam pater</p>
         </div>
         <div xml:id="wdr-l1d12q3" type="quaestio">
-        	<head xml:id="wdrl1d12-Hd1e3550" type="questionTitle">Utrum aeque immediate procedat ab utroque</head>
+        	<head xml:id="wdrl1d12-Hd1e3550" type="question-title">Utrum aeque immediate procedat ab utroque</head>
         	<p xml:id="wdrl1d12-d1e3553"><lb ed="#A"/><g ref="#pilcrow"/>utrum aeque immediate procedat ab utroque Responsio sic respi<lb ed="#A"/>ciendo 
             ad principium quo spirant <g ref="#dot"/> <g ref="#slash"/> similiter respiciendo ad ipsos 
             <lb ed="#A"/>spirantes <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> sed nihilominus etiam mediate et immediate procedit a patre 
             <lb ed="#A"/>ut dicit <name ref="#RichardOfStVictor">Rychi</name> quia filius a patre habet quod spirat</p>
         </div>
         <div xml:id="wdr-l1d12q4" type="quaestio">
-        	<head xml:id="wdrl1d12-Hd1e3585" type="questionTitle">Utrum eadem virtus spirativa quae est in eis sit etiam in Spiritu Sancto</head>
+        	<head xml:id="wdrl1d12-Hd1e3585" type="question-title">Utrum eadem virtus spirativa quae est in eis sit etiam in Spiritu Sancto</head>
         	<p xml:id="wdrl1d12-d1e3588"><lb ed="#A"/><g ref="#pilcrow"/>Utrum eadem virtus spirativa quae est in eis sit etiam in spiritu sancto 
             <lb ed="#A"/>Responsio potentia spirandi tripliciter potest accipi <g ref="#dot"/> quia gerundium potest 
             <lb ed="#A"/>sumi vel a verbo activo <g ref="#dot"/> vel passivo <g ref="#dot"/> vel impersonali <g ref="#dot"/> <g ref="#slash"/> primo modo est in patre 

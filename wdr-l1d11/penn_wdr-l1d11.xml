@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 11 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 11 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 11 [Pen Transcription]</title>
+          <title>Liber I, Distinctio 11 [Pen Transcription]</title>
           <date when="2016-04-11">April 11, 2016</date>
         </edition>
       </editionStmt>
@@ -55,23 +55,23 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d11">
-  			<head xml:id="wdrl1d11-Hd1e3503">Librum I, Distinctio 11 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d11-Hd1e3503">Liber I, Distinctio 11 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d11q1" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3508" type="questionTitle">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
+  				<head xml:id="wdrl1d11-Hd1e3508" type="question-title">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
   				<p xml:id="wdrl1d11-d1e3511"><lb ed="#P"/>Queritur si spiritus sanctus 
   					<lb ed="#P"/>procedat a patre et filio Responsio sic <pc ana="#punctus"/> alias si a fi<lb ed="#P"/>lio 
   					non procederet <pc ana="#virgula"/> non distingueretur ab eo <pc ana="#punctus"/> quia inter eos 
   					<lb ed="#P"/>non esset oppositio relationis <pc ana="#virgula"/> quae sola distinguit in divinis</p>
   			</div>
   			<div xml:id="wdr-l1d11q2" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3535" type="questionTitle">Utrum procedat ab eis secundum quod unum sunt</head>
+  				<head xml:id="wdrl1d11-Hd1e3535" type="question-title">Utrum procedat ab eis secundum quod unum sunt</head>
   				<p xml:id="wdrl1d11-d1e3538"><lb ed="#P"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt 
   					<lb ed="#P"/>Responsio sic scilicet secundum quod unum sunt <unclear>communi</unclear> voluntate 
   					<lb ed="#P"/>plures tamen pluralitate <pc ana="#punctus"/> unde <unclear>supposita</unclear> spirantia sunt plura <pc ana="#punctus"/> 
   					<lb ed="#P"/>una tamen est forma sive principium quo spirant scilicet concors <!--drops line--> voluntas</p>
   			</div>
   			<div xml:id="wdr-l1d11q3" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3560" type="questionTitle">Utrum illa unitas sit essentia vel notionis</head>
+  				<head xml:id="wdrl1d11-Hd1e3560" type="question-title">Utrum illa unitas sit essentia vel notionis</head>
   				<p xml:id="wdrl1d11-d1e3563"><g ref="#pilcrow"/>Utrum illa unitas sit 
   					<lb ed="#P"/>essentiae vel notionis <pc ana="#punctus"/> Responsio unitas est notionis communis 
   					<lb ed="#P"/>duabus personis <pc ana="#punctus"/> quae tamen praesupponit unitatem essentiae 
@@ -83,14 +83,14 @@
   					<lb ed="#P"/>duarum personarum</p>
   			</div>
   			<div xml:id="wdr-l1d11q4" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3614" type="questionTitle">Utrum Pater et Filius debeant dici unus spirator vel plures</head>
+  				<head xml:id="wdrl1d11-Hd1e3614" type="question-title">Utrum Pater et Filius debeant dici unus spirator vel plures</head>
   				<p xml:id="wdrl1d11-d1e3617"><cb ed="#P" n="28va"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum pater et filius debeant dici unus 
   					<lb ed="#P"/>spirator vel plures Responsio plures debent dici quia ac<lb ed="#P"/>tus 
   					numerantur secundum supposita <pc ana="#virgula"/> saltem secundum modum intelligendi 
   					<!-- drops to next line --> substantia <ref>distinctione 9 quaestione 6 <!-- cross ref ? --></ref></p>
   			</div>
   			<div xml:id="wdr-l1d11q5" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3637" type="questionTitle">Quid sit ipsa vis spirativa in eis</head>
+  				<head xml:id="wdrl1d11-Hd1e3637" type="question-title">Quid sit ipsa vis spirativa in eis</head>
   				<p xml:id="wdrl1d11-d1e3640"><lb ed="#P"/><g ref="#pilcrow"/>Quid sit ipsa vis 
   					<lb ed="#P"/>spiratam in eis Responsio Cum dico potentia spiratam <pc ana="#punctus"/> 
   					<lb ed="#P"/>primum pertinet ad essentiam secundum ad notionem <pc ana="#punctus"/> unde dicit 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 34 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 34 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 34 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 34 [Penn Transcription]</title>
           <date when="2016-05-02">May 02, 2016</date>
         </edition>
       </editionStmt>
@@ -55,42 +55,42 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d34">
-  			<head xml:id="wdrl1d34-Hd1e3503">Librum I, Distinctio 34 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d34-Hd1e3503">Liber I, Distinctio 34 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d34q1" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3508">Librum I, Distinctio 34, Quaestio 1</head>
-  				<head xml:id="wdrl1d34-Hd1e3511" type="questionTitle">Utrum essentia sit idem re cum persona</head>
+  				<head xml:id="wdrl1d34-Hd1e3508">Liber I, Distinctio 34, Quaestio 1</head>
+  				<head xml:id="wdrl1d34-Hd1e3511" type="question-title">Utrum essentia sit idem re cum persona</head>
   				<p xml:id="wdrl1d34-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum essentia sit idem re cum persona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quod 
   					<lb ed="#P"/>sic probat <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> per sanctos et hoc propter naturae simplicitatem differunt 
   					<lb ed="#P"/>autem ratione <pc ana="#punctus"/> propter differentem modum se habendi scilicet ut absolvunt 
   					<!-- drops --> et relatum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d34q2" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3541">Librum I, Distinctio 34, Quaestio 2</head>
-  				<head xml:id="wdrl1d34-Hd1e3544" type="questionTitle">utrum persona aliquid addat supra essentiam</head>
+  				<head xml:id="wdrl1d34-Hd1e3541">Liber I, Distinctio 34, Quaestio 2</head>
+  				<head xml:id="wdrl1d34-Hd1e3544" type="question-title">utrum persona aliquid addat supra essentiam</head>
   				<p xml:id="wdrl1d34-d1e3547"><lb ed="#P"/><pc ana="#pilcrow"/>utrum persona aliquid addat supra essentiam <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>nihil addit secundum rem <pc ana="#punctus"/> sed secundum rationem scilicet rem ad alterum qui 
   					<lb ed="#P"/>tamen non ponitur circa essentiam <pc ana="#punctus"/> sed circa suppositum eius <pc ana="#punctus"/> nec tamen 
   					<lb ed="#P"/>ab essentia res ille differt re <pc ana="#punctus"/> nec etiam <unclear>componi</unclear> facit in persona</p>
   			</div>
   			<div xml:id="wdr-l1d34q3" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3575">Librum I, Distinctio 34, Quaestio 3</head>
-  				<head xml:id="wdrl1d34-Hd1e3578" type="questionTitle">utrum essentia praedicari debet de persona et econverso</head>
+  				<head xml:id="wdrl1d34-Hd1e3575">Liber I, Distinctio 34, Quaestio 3</head>
+  				<head xml:id="wdrl1d34-Hd1e3578" type="question-title">utrum essentia praedicari debet de persona et econverso</head>
   				<p xml:id="wdrl1d34-d1e3581"><lb ed="#P"/><pc ana="#pilcrow"/>utrum essentia praedicari debeat de persona et econverso <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>praedicatione scilicet quae est per modum <choice><orig>ydemptitatis</orig><reg>identitatis</reg></choice> sed praedicatione quae fit per mo<lb ed="#P"/>dum 
   					inhaerentiae praedicatur essentiae de persona <pc ana="#punctus"/> et non <del rend="strikethrough">eg</del> econverso quia essentia se habet 
   					<!-- drop --> ad modum forint</p>
   			</div>
   			<div xml:id="wdr-l1d34q4" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3613">Librum I, Distinctio 34, Quaestio 4</head>
-  				<head xml:id="wdrl1d34-Hd1e3616" type="questionTitle">utrum possit dici tres personae unius dei vel econverso</head>
+  				<head xml:id="wdrl1d34-Hd1e3613">Liber I, Distinctio 34, Quaestio 4</head>
+  				<head xml:id="wdrl1d34-Hd1e3616" type="question-title">utrum possit dici tres personae unius dei vel econverso</head>
   				<p xml:id="wdrl1d34-d1e3619"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres personae 
   					<lb ed="#P"/>unius dei vel econverso <pc ana="#punctus"/> Responsio secundum <name ref="#Lombard">magistrum</name> in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quia nomina ab<lb ed="#P"/>stracta 
   					<unclear>in genito</unclear> constituuntur in habitudine formae <pc ana="#punctus"/> concreta 
   					<lb ed="#P"/>autem non <pc ana="#punctus"/> unde dicitur tres personae unius essentiae <pc ana="#punctus"/> sed non unius dei</p>
   			</div>
   			<div xml:id="wdr-l1d34q5" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3654">Librum I, Distinctio 34, Quaestio 5</head>
-  				<head xml:id="wdrl1d34-Hd1e3657" type="questionTitle">Utrum possit vel debeat fieri aliqui qua appropriatio in divinis</head>
+  				<head xml:id="wdrl1d34-Hd1e3654">Liber I, Distinctio 34, Quaestio 5</head>
+  				<head xml:id="wdrl1d34-Hd1e3657" type="question-title">Utrum possit vel debeat fieri aliqui qua appropriatio in divinis</head>
   				<p xml:id="wdrl1d34-d1e3660"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit vel debeat fieri aliqui qua appropriatio in di<lb ed="#P"/>vinis 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum sanctos <pc ana="#punctus"/> non autem appropriantur attributa 
   					<cb ed="#P" n="37va"/><lb ed="#P"/>secundum rem quia idem sunt <pc ana="#punctus"/> sed secundum totum quia sic differunt 
@@ -98,8 +98,8 @@
   					<lb ed="#P"/>quam alterius et non alia <ref type="commentary" target="http://scta.info/resource/wdrl1d31-d1e3673">supra distinctio 31 quaestione 3</ref></p>
   			</div>
   			<div xml:id="wdr-l1d34q6" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3691">Librum I, Distinctio 34, Quaestio 6</head>
-  				<head xml:id="wdrl1d34-Hd1e3694" type="questionTitle">utrum conveniens sit appropriatio potentiae sapientiae  et bonitatis</head>
+  				<head xml:id="wdrl1d34-Hd1e3691">Liber I, Distinctio 34, Quaestio 6</head>
+  				<head xml:id="wdrl1d34-Hd1e3694" type="question-title">utrum conveniens sit appropriatio potentiae sapientiae  et bonitatis</head>
   				<p xml:id="wdrl1d34-d1e3697"><lb ed="#P"/><pc ana="#pilcrow"/>utrum conveniens sit appropriatio <pc ana="#punctus"/> potentiae <pc ana="#punctus"/> sapientiae <pc ana="#punctus"/> et bonitatis <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <unclear>t?i</unclear> est ratio appropriationis <pc ana="#punctus"/> una propter assimilationem cum proprio 
   					<lb ed="#P"/>illius haec est <name ref="#RichardOfStVictor">Ricardus</name> vel deteretur <pc ana="#punctus"/> quia potentia praecedit sapientiam <pc ana="#punctus"/> et 
@@ -108,8 +108,8 @@
   					<lb ed="#P"/>erroris hanc <name ref="#Lombard">magister</name> in littera <ref type="commentary" target="http://scta.info/resource/wdrl1d31-d1e3673">supra distinctio 31 quaestio 3</ref></p>
   			</div>
   			<div xml:id="wdr-l1d34q7" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3747">Librum I, Distinctio 34, Quaestio 7</head>
-  				<head xml:id="wdrl1d34-Hd1e3750" type="questionTitle">utrum conveniat aliquid dici de deo translative</head>
+  				<head xml:id="wdrl1d34-Hd1e3747">Liber I, Distinctio 34, Quaestio 7</head>
+  				<head xml:id="wdrl1d34-Hd1e3750" type="question-title">utrum conveniat aliquid dici de deo translative</head>
   				<p xml:id="wdrl1d34-d1e3753"><lb ed="#P"/><pc ana="#pilcrow"/>utrum conveniat aliquid dici de deo translative <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
   					<lb ed="#P"/>ut patet in sacra scriptura <pc ana="#punctus"/> hoc secundum <choice><orig>dyabolum</orig><reg>diabolum</reg></choice> ut per 
   					<lb ed="#P"/>sensibilia manducamur in cognitionem divinorum et etiam ut secreta 
@@ -117,8 +117,8 @@
   					<lb ed="#P"/>infidelibus ne irrideant <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d34q8" type="quaestio">
-  				<head xml:id="wdrl1d34-Hd1e3785">Librum I, Distinctio 34, Quaestio 8</head>
-  				<head xml:id="wdrl1d34-Hd1e3788" type="questionTitle">a quibus rebus debeat fieri ad deum <unclear>translatio</unclear></head>
+  				<head xml:id="wdrl1d34-Hd1e3785">Liber I, Distinctio 34, Quaestio 8</head>
+  				<head xml:id="wdrl1d34-Hd1e3788" type="question-title">a quibus rebus debeat fieri ad deum <unclear>translatio</unclear></head>
   				<p xml:id="wdrl1d34-d1e3793"><lb ed="#P"/><pc ana="#pilcrow"/>a quibus rebus debeat fieri ad deum <unclear>translatio</unclear> <pc ana="#punctus"/> Respondeo non a si<lb ed="#P"/>gnificantibus 
   					aliquem de factum vel culpae vel miseriae <pc ana="#punctus"/> ut 
   					<lb ed="#P"/><choice><orig>dyabolus</orig><reg>diabolus</reg></choice> <unclear>infernus</unclear> mors <pc ana="#punctus"/> Sed a significantibus conditionem 

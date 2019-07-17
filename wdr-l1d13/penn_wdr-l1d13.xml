@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 13 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 13 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 13 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 13 [Penn Transcription]</title>
           <date when="2016-04-12">April 12, 2016</date>
         </edition>
       </editionStmt>
@@ -54,9 +54,9 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d13">
-  			<head xml:id="wdrl1d13-Hd1e3503">Librum I, Distinctio 13 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d13-Hd1e3503">Liber I, Distinctio 13 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d13q1" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3508" type="questionTitle">Utrum processio sit in divinis</head>
+  				<head xml:id="wdrl1d13-Hd1e3508" type="question-title">Utrum processio sit in divinis</head>
   				<p xml:id="wdrl1d13-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pro<lb ed="#P"/>cessio 
   					sit in divinis Responsio sic <pc ana="#punctus"/> quae scilicet est processio in<lb ed="#P"/>itialis 
   					<pc ana="#punctus"/> ut principiati a principio <pc ana="#punctus"/> ut lineae a puncto <pc ana="#punctus"/> <pc ana="#virgula"/> 
@@ -65,7 +65,7 @@
   					<lb ed="#P"/>quo adversitatem essentiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d13q2" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3548" type="questionTitle">Utrum procedere sit proprium Spiritui Sancto</head>
+  				<head xml:id="wdrl1d13-Hd1e3548" type="question-title">Utrum procedere sit proprium Spiritui Sancto</head>
   				<p xml:id="wdrl1d13-d1e3551"><pc ana="#pilcrow"/>Utrum procedere sit proprium spiritui sancto <pc ana="#punctus"/> Responsio secundum 
   					<lb ed="#P"/>rationem <unclear>consequentiae</unclear> est <pc ana="#punctus"/> etiam ad generationem filii <pc ana="#punctus"/> <pc ana="#virgula"/> quia tantum dicit emanationem 
   					<lb ed="#P"/>ab altero <pc ana="#punctus"/> appropriatur tamen spiritui sancto hoc nomen quia pro<cb ed="#P" n="28vb"/><lb ed="#P"/>cessio 
@@ -75,7 +75,7 @@
   					<!-- drop line --> de proprio et diffinitione</p> 
   			</div>
   			<div xml:id="wdr-l1d13q3" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3611" type="questionTitle">utrum realiter diversae sint processiones generatio et processio</head>
+  				<head xml:id="wdrl1d13-Hd1e3611" type="question-title">utrum realiter diversae sint processiones generatio et processio</head>
   				<p xml:id="wdrl1d13-d1e3614"><lb ed="#P"/><pc ana="#pilcrow"/>utrum realiter diversae sint 
   					<lb ed="#P"/>processiones <pc ana="#virgula"/> generatio et processio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Sic quia diver<lb ed="#P"/>sa 
   					supposita secunda rem constituunt <pc ana="#punctus"/> Sed quidam dicunt 
@@ -90,14 +90,14 @@
   						et <unclear cert="high">communem</unclear> spirationem</p>
   			</div>
   			<div xml:id="wdr-l1d13q4" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3690" type="questionTitle">Utrum processio Spiritus Sancti possit dici generatio</head>
+  				<head xml:id="wdrl1d13-Hd1e3690" type="question-title">Utrum processio Spiritus Sancti possit dici generatio</head>
   				<p xml:id="wdrl1d13-d1e3693"><lb ed="#P"/><pc ana="#pilcrow"/>utrum processio spiritus 
   					<lb ed="#P"/>sancti possit dici generatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quod non <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia processio dividitur contra generationem <pc ana="#punctus"/> <pc ana="#virgula"/> quia generatio est emanatio 
   					<lb ed="#P"/>per modum naturae processio per modum voluntatis <pc ana="#punctus"/></p>    
   			</div>
   			<div xml:id="wdr-l1d13q5" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3719" type="questionTitle">Utrum Spiritus Sanctus possit dici ingenitus</head>
+  				<head xml:id="wdrl1d13-Hd1e3719" type="question-title">Utrum Spiritus Sanctus possit dici ingenitus</head>
   				<p xml:id="wdrl1d13-d1e3722"><lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus possit dici ingenitus <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>ingenitum <pc ana="#virgula"/> potest accipi privatem et sic non cadit in divinis <pc ana="#punctus"/> <pc ana="#virgula"/> 
   					<lb ed="#P"/>vel <unclear>negantem <!-- possible correction here --></unclear> <pc ana="#punctus"/> et hoc dupliciter vel negatione in genere aliquo determin<lb ed="#P"/>ato 
@@ -108,7 +108,7 @@
   					<!-- drops line --> debere dici <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d13q6" type="quaestio">
-  				<head xml:id="wdrl1d13-Hd1e3775" type="questionTitle">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
+  				<head xml:id="wdrl1d13-Hd1e3775" type="question-title">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
   				<p xml:id="wdrl1d13-d1e3778"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ingenitum dicat 
   					<lb ed="#P"/>aliquam notionem in spiritu sancto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> notio dicitur <pc ana="#virgula"/> id 
   					<lb ed="#P"/>quod est principium innotescendi persona quid notionem igitur tria requiruntur 

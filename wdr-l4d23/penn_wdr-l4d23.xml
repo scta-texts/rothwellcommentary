@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 23 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 23 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 23 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 23 [Penn Transcription]</title>
           <date when="2016-05-17">May 17, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d23">
-  			<head xml:id="wdrl4d23-Hd1e3503">Librum IV, Distinctio 23 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d23-Hd1e3503">Liber IV, Distinctio 23 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d23q1" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3508">Librum IV, Distinctio 23, Quaestio 1</head>
-  				<head xml:id="wdrl4d23-Hd1e3511" type="questionTitle">Utrum extrema unctio sit sacramentum</head>
+  				<head xml:id="wdrl4d23-Hd1e3508">Liber IV, Distinctio 23, Quaestio 1</head>
+  				<head xml:id="wdrl4d23-Hd1e3511" type="question-title">Utrum extrema unctio sit sacramentum</head>
   				<p xml:id="wdrl4d23-d1e3514"><lb ed="#P"/>Quaeritur 
   					<lb ed="#P"/>utrum extrema unctio sit sacramentum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia in ipsa fit remissio <pc ana="#punctus"/> 
@@ -66,15 +66,15 @@
   					<lb ed="#P"/>ordinatur non per aliud sicut sacramentale <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d23q2" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3543">Librum IV, Distinctio 23, Quaestio 2</head>
-  				<head xml:id="wdrl4d23-Hd1e3546" type="questionTitle">Utrum ipsum oleum sit sacramentum</head>
+  				<head xml:id="wdrl4d23-Hd1e3543">Liber IV, Distinctio 23, Quaestio 2</head>
+  				<head xml:id="wdrl4d23-Hd1e3546" type="question-title">Utrum ipsum oleum sit sacramentum</head>
   				<p xml:id="wdrl4d23-d1e3549"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ipsum oleum sit sacramentum 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> unctio est sacramentum essentialiter <pc ana="#punctus"/> oleum 
   					<lb ed="#P"/>tamen tantum carnaliter sive materialiter</p>
   			</div>
   			<div xml:id="wdr-l4d23q3" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3565">Librum IV, Distinctio 23, Quaestio 3</head>
-  				<head xml:id="wdrl4d23-Hd1e3568" type="questionTitle">Utrum sit unum sacramentum</head>
+  				<head xml:id="wdrl4d23-Hd1e3565">Liber IV, Distinctio 23, Quaestio 3</head>
+  				<head xml:id="wdrl4d23-Hd1e3568" type="question-title">Utrum sit unum sacramentum</head>
   				<p xml:id="wdrl4d23-d1e3571"><cb ed="#P" n="122rb"/><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sit unum sacramentum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sed non unitate indivisibilitatis vel 
   					<lb ed="#P"/>continuationis <pc ana="#virgula"/> sed perfectionis non <pc ana="#virgula"/> quae est 
@@ -86,8 +86,8 @@
   			</div>
   			<!-- gks lacks rubrications for this question -->
   			<div xml:id="wdr-l4d23q4" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3622">Librum IV, Distinctio 23, Quaestio 4</head>
-  				<head xml:id="wdrl4d23-Hd1e3625" type="questionTitle">A quo hoc sacramentum fuerit institutum</head>
+  				<head xml:id="wdrl4d23-Hd1e3622">Liber IV, Distinctio 23, Quaestio 4</head>
+  				<head xml:id="wdrl4d23-Hd1e3625" type="question-title">A quo hoc sacramentum fuerit institutum</head>
   				<p xml:id="wdrl4d23-d1e3628"><lb ed="#P"/><pc ana="#pilcrow"/>a quo hoc sacramentum fuerit in<lb ed="#P"/>stitutum 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam dicunt quod 
   					<lb ed="#P"/>christus omnia sacramenta instituit per se 
@@ -101,8 +101,8 @@
   					<lb ed="#P"/>difficiliora ad credendum per se ipsum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d23q5" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3684">Librum IV, Distinctio 23, Quaestio 5</head>
-  				<head xml:id="wdrl4d23-Hd1e3687" type="questionTitle">Utrum oleum sit conveniens materia huius sacramenti</head>
+  				<head xml:id="wdrl4d23-Hd1e3684">Liber IV, Distinctio 23, Quaestio 5</head>
+  				<head xml:id="wdrl4d23-Hd1e3687" type="question-title">Utrum oleum sit conveniens materia huius sacramenti</head>
   				<p xml:id="wdrl4d23-d1e3690"><lb ed="#P"/><pc ana="#pilcrow"/>utrum oleum sit conveniens materia <pc ana="#punctus"/> 
   					<lb ed="#P"/>huius sacramenti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia sa<lb ed="#P"/>nativum 
   					est <pc ana="#punctus"/> oleum etiam olivarum tantum <pc ana="#punctus"/> sim<lb ed="#P"/>pliciter 
@@ -113,8 +113,8 @@
   					<lb ed="#P"/>ab hac enim virtutem accipit <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d23q6" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3742">Librum IV, Distinctio 23, Quaestio 6</head>
-  				<head xml:id="wdrl4d23-Hd1e3745" type="questionTitle">Quae sit forma huius sacramenti</head>
+  				<head xml:id="wdrl4d23-Hd1e3742">Liber IV, Distinctio 23, Quaestio 6</head>
+  				<head xml:id="wdrl4d23-Hd1e3745" type="question-title">Quae sit forma huius sacramenti</head>
   				<p xml:id="wdrl4d23-d1e3748"><lb ed="#P"/><pc ana="#pilcrow"/>Quae sit forma huius sacramenti 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quaedam <unclear>deprecatam</unclear> quae convenienter est in 
   					<lb ed="#P"/>usu <pc ana="#punctus"/> quam etiam innuit <pc ana="#punctus"/> <name>iacobus</name> et haec est 
@@ -125,8 +125,8 @@
   					<cb ed="#P" n="122va"/>postea deprecativa</p>
   			</div>
   			<div xml:id="wdr-l4d23q7" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3799">Librum IV, Distinctio 23, Quaestio 7</head>
-  				<head xml:id="wdrl4d23-Hd1e3802" type="questionTitle">Quid sit effectus huius sacramenti</head>
+  				<head xml:id="wdrl4d23-Hd1e3799">Liber IV, Distinctio 23, Quaestio 7</head>
+  				<head xml:id="wdrl4d23-Hd1e3802" type="question-title">Quid sit effectus huius sacramenti</head>
   				<p xml:id="wdrl4d23-d1e3805"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit effectus huius sacramenti 
   					<lb ed="#P"/>Responsio unctio <pc ana="#punctus"/> exterior est sacramentum tantum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Res et sacramentum alacritas <pc ana="#virgula"/> quaedam 
@@ -139,24 +139,24 @@
   					<lb ed="#P"/>in virtute omnium praecedentium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d23q8" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3855">Librum IV, Distinctio 23, Quaestio 8</head>
-  				<head xml:id="wdrl4d23-Hd1e3858" type="questionTitle">Utrum imprimat caracterem</head>
+  				<head xml:id="wdrl4d23-Hd1e3855">Liber IV, Distinctio 23, Quaestio 8</head>
+  				<head xml:id="wdrl4d23-Hd1e3858" type="question-title">Utrum imprimat caracterem</head>
   				<p xml:id="wdrl4d23-d1e3861"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum imprimat caracterem <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia caracter tantum <choice><orig>inprimatur</orig><reg>imprimatur</reg></choice> 
   					<lb ed="#P"/>ad distinctionem in ecclesia militante un<lb ed="#P"/>guntur 
   					tantum transeuntes ad triumphantem</p>
   			</div>
   			<div xml:id="wdr-l4d23q9" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3888">Librum IV, Distinctio 23, Quaestio 9</head>
-  				<head xml:id="wdrl4d23-Hd1e3891" type="questionTitle">A quo debeat hoc sacramentum conferri</head>
+  				<head xml:id="wdrl4d23-Hd1e3888">Liber IV, Distinctio 23, Quaestio 9</head>
+  				<head xml:id="wdrl4d23-Hd1e3891" type="question-title">A quo debeat hoc sacramentum conferri</head>
   				<p xml:id="wdrl4d23-d1e3894"><lb ed="#P"/><pc ana="#pilcrow"/>a quo debeat hoc sacramentum 
   					<lb ed="#P"/>conferri <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> a presbyteris <ref><title>iaco</title> <num>v</num></ref> quia 
   					<lb ed="#P"/>soli sunt ministri ecclesiae <pc ana="#virgula"/> non layci <pc ana="#punctus"/> nec tantum 
   					<lb ed="#P"/>episcopi <pc ana="#virgula"/> propter stant infirmi <pc ana="#punctus"/> qui episcopum non posset ad<!-- drops -->ire</p>
   			</div>
   			<div xml:id="wdr-l4d23q10" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3931">Librum IV, Distinctio 23, Quaestio 10</head>
-  				<head xml:id="wdrl4d23-Hd1e3934" type="questionTitle">Quibus debeat dari</head>
+  				<head xml:id="wdrl4d23-Hd1e3931">Liber IV, Distinctio 23, Quaestio 10</head>
+  				<head xml:id="wdrl4d23-Hd1e3934" type="question-title">Quibus debeat dari</head>
   				<p xml:id="wdrl4d23-d1e3937"><pc ana="#pilcrow"/><lb ed="#P"/>Quibus debeat dari <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio cum effectus principalis huius sacramenti sic sa<lb ed="#P"/>nitas 
   					spiritualis vel ultima humilitas immediate 
@@ -171,8 +171,8 @@
   					<!-- drops -->habent</p>
   			</div>
   			<div xml:id="wdr-l4d23q11" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e3995">Librum IV, Distinctio 23, Quaestio 11</head>
-  				<head xml:id="wdrl4d23-Hd1e3998" type="questionTitle">Quae partes corporis debeant inungi</head>
+  				<head xml:id="wdrl4d23-Hd1e3995">Liber IV, Distinctio 23, Quaestio 11</head>
+  				<head xml:id="wdrl4d23-Hd1e3998" type="question-title">Quae partes corporis debeant inungi</head>
   				<p xml:id="wdrl4d23-d1e4001"><lb ed="#P"/><pc ana="#pilcrow"/>Quae partes corporis de<lb ed="#P"/>beant 
   					inungi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ille scilicet in quibus 
   					<lb ed="#P"/>maxime iuget causa morbi spiritualis 
@@ -187,8 +187,8 @@
   					<!-- drops --> <choice><sic>iniungi</sic><corr>inungi</corr></choice> debent <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d23q12" type="quaestio">
-  				<head xml:id="wdrl4d23-Hd1e4073">Librum IV, Distinctio 23, Quaestio 12</head>
-  				<head xml:id="wdrl4d23-Hd1e4076" type="questionTitle">Utrum hoc sacramentum debeat iterari</head>
+  				<head xml:id="wdrl4d23-Hd1e4073">Liber IV, Distinctio 23, Quaestio 12</head>
+  				<head xml:id="wdrl4d23-Hd1e4076" type="question-title">Utrum hoc sacramentum debeat iterari</head>
   				<p xml:id="wdrl4d23-d1e4079"><lb ed="#P"/><pc ana="#pilcrow"/>utrum hoc <pc ana="#punctus"/> 
   					<lb ed="#P"/>sacramentum debeat iterari <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> in littera quia non <choice><orig>inprimit</orig><reg>imprimit</reg></choice> 

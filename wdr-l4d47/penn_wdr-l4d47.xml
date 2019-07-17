@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 47 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 47 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 47 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 47 [Penn Transcription]</title>
           <date when="2016-05-25">May 25, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d47">
-  			<head xml:id="wdrl4d47-Hd1e3503">Librum IV, Distinctio 47 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d47-Hd1e3503">Liber IV, Distinctio 47 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d47q1" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3508">Librum IV, Distinctio 47, Quaestio 1</head>
-  				<head xml:id="wdrl4d47-Hd1e3511" type="questionTitle">Utrum sententia et dispensatio erit vocalis</head>
+  				<head xml:id="wdrl4d47-Hd1e3508">Liber IV, Distinctio 47, Quaestio 1</head>
+  				<head xml:id="wdrl4d47-Hd1e3511" type="question-title">Utrum sententia et dispensatio erit vocalis</head>
   				<p xml:id="wdrl4d47-d1e3514"><lb ed="#P"/>Quaeritur utrum sententia et dispensatio 
   					<cb ed="#P" n="135ra"/><lb ed="#P"/><sic>dispensatio</sic> erit vocalis <pc ana="#punctus"/> Responsio qui<lb ed="#P"/>dam 
   					<pc ana="#punctus"/> dicunt quod totum iudicium mentale 
@@ -70,8 +70,8 @@
   					<lb ed="#P"/>in littera sed neutrum est certum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q2" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3560">Librum IV, Distinctio 47, Quaestio 2</head>
-  				<head xml:id="wdrl4d47-Hd1e3563" type="questionTitle">Utrum tantum fiat disceptatio de operibus misericordiae</head>
+  				<head xml:id="wdrl4d47-Hd1e3560">Liber IV, Distinctio 47, Quaestio 2</head>
+  				<head xml:id="wdrl4d47-Hd1e3563" type="question-title">Utrum tantum fiat disceptatio de operibus misericordiae</head>
   				<p xml:id="wdrl4d47-d1e3566"><lb ed="#P"/><pc ana="#pilcrow"/>utrum tantum fiat <unclear>disceptatio<sic>tatur</sic> <!-- possible halfway corrected --></unclear> 
   					<lb ed="#P"/><del rend="strikethrough">fiat</del> de operibus misericordiae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in talis 
   					<lb ed="#P"/>disceptatio erit <pc ana="#virgula"/> de omnibus operibus <pc ana="#punctus"/> 
@@ -82,8 +82,8 @@
   					<lb ed="#P"/>apparebit eis misericordia dignos non esse <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q3" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3617">Librum IV, Distinctio 47, Quaestio 3</head>
-  				<head xml:id="wdrl4d47-Hd1e3620" type="questionTitle">Utrum solus christus iudicabit</head>
+  				<head xml:id="wdrl4d47-Hd1e3617">Liber IV, Distinctio 47, Quaestio 3</head>
+  				<head xml:id="wdrl4d47-Hd1e3620" type="question-title">Utrum solus christus iudicabit</head>
   				<p xml:id="wdrl4d47-d1e3623"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum solus christus iudicabit <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio debet iudicabit prima auctoritate christus secundum quod homo sub 
   					<lb ed="#P"/>auctoritate quasi iurisdictione delegata <pc ana="#virgula"/> et vocis prola<lb ed="#P"/>tione 
@@ -94,8 +94,8 @@
   					<lb ed="#P"/>mali autem comparatione ut ninivite etc</p>
   			</div>
   			<div xml:id="wdr-l4d47q4" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3663">Librum IV, Distinctio 47, Quaestio 4</head>
-  				<head xml:id="wdrl4d47-Hd1e3666" type="questionTitle">Utrum daemones sint executores sententiae</head>
+  				<head xml:id="wdrl4d47-Hd1e3663">Liber IV, Distinctio 47, Quaestio 4</head>
+  				<head xml:id="wdrl4d47-Hd1e3666" type="question-title">Utrum daemones sint executores sententiae</head>
   				<p xml:id="wdrl4d47-d1e3669"><lb ed="#P"/><pc ana="#pilcrow"/>utrum daemones sint <choice><orig>exequitores</orig><reg>executores</reg></choice> 
   					<lb ed="#P"/>sententiae <pc ana="#punctus"/> Responsio <name ref="#Lombard">magister</name> in littera ponit duas operati<lb ed="#P"/>ones 
   					<pc ana="#punctus"/> quidam enim dicunt <pc ana="#punctus"/> quod sic <pc ana="#virgula"/> quia voluntariae pec<lb ed="#P"/>cator 
@@ -104,8 +104,8 @@
   					<lb ed="#P"/>omnis praelatio ut dicitur in littera etc</p>
   			</div>
   			<div xml:id="wdr-l4d47q5" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3715">Librum IV, Distinctio 47, Quaestio 5</head>
-  				<head xml:id="wdrl4d47-Hd1e3718" type="questionTitle">Utrum omnes homines iudicabuntur</head>
+  				<head xml:id="wdrl4d47-Hd1e3715">Liber IV, Distinctio 47, Quaestio 5</head>
+  				<head xml:id="wdrl4d47-Hd1e3718" type="question-title">Utrum omnes homines iudicabuntur</head>
   				<p xml:id="wdrl4d47-d1e3721"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes homines iudicabuntur <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> iudicio scilicet retributionis <pc ana="#punctus"/> sed non omnis iudicio 
   					<lb ed="#P"/>discussionis meritorum <pc ana="#punctus"/> Immo sic secundum sententiam <name ref="#GregoryGreat">gregorii</name> 
@@ -117,8 +117,8 @@
   					<!-- drops --> operis habent</p>
   			</div>
   			<div xml:id="wdr-l4d47q6" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3783">Librum IV, Distinctio 47, Quaestio 6</head>
-  				<head xml:id="wdrl4d47-Hd1e3786" type="questionTitle">Utrum angeli iudicabuntur</head>
+  				<head xml:id="wdrl4d47-Hd1e3783">Liber IV, Distinctio 47, Quaestio 6</head>
+  				<head xml:id="wdrl4d47-Hd1e3786" type="question-title">Utrum angeli iudicabuntur</head>
   				<p xml:id="wdrl4d47-d1e3789"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum angeli iudi<lb ed="#P"/>cabuntur 
   					Responsio <pc ana="#punctus"/> in iudicio <unclear>disceptionis</unclear> <pc ana="#punctus"/> non <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia in permixta sunt merita utrorumque <pc ana="#punctus"/> sed iudicio 
@@ -127,8 +127,8 @@
   					sunt <pc ana="#punctus"/> sed non <choice><orig>consequuti</orig><reg>consecuti</reg></choice> sunt <pc ana="#punctus"/> <pc ana="#virgula"/> sed non quantum ad essentialia <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q7" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3842">Librum IV, Distinctio 47, Quaestio 7</head>
-  				<head xml:id="wdrl4d47-Hd1e3845" type="questionTitle">Utrum ignis mundum purgabit</head>
+  				<head xml:id="wdrl4d47-Hd1e3842">Liber IV, Distinctio 47, Quaestio 7</head>
+  				<head xml:id="wdrl4d47-Hd1e3845" type="question-title">Utrum ignis mundum purgabit</head>
   				<p xml:id="wdrl4d47-d1e3848"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ignis mundum purgabit <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic secundum sanctos et hoc ab puritate <pc ana="#virgula"/> quia 
   					<lb ed="#P"/>materia peccatorum fuit <pc ana="#virgula"/> et ab ignoscibilitate corruptionis <pc ana="#punctus"/> 
@@ -139,8 +139,8 @@
   					<lb ed="#P"/>quantum et aqua diluvii ut dicitur in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q8" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3898">Librum IV, Distinctio 47, Quaestio 8</head>
-  				<head xml:id="wdrl4d47-Hd1e3901" type="questionTitle">Utrum ignis illae sit ignis claris</head>
+  				<head xml:id="wdrl4d47-Hd1e3898">Liber IV, Distinctio 47, Quaestio 8</head>
+  				<head xml:id="wdrl4d47-Hd1e3901" type="question-title">Utrum ignis illae sit ignis claris</head>
   				<p xml:id="wdrl4d47-d1e3904"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ignis ille sit ignis claris <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia <name ref="#Augustine">augustinus</name> dicit eum mundanum ignem <pc ana="#punctus"/> 
   					<lb ed="#P"/>Quidam igitur dicunt eum esse elementum ignis <pc ana="#punctus"/> et 
@@ -153,8 +153,8 @@
   					<lb ed="#P"/>horum differentia tantum est <unclear>praesens commune</unclear> <pc ana="#virgula"/> sed non in specie <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q9" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e3978">Librum IV, Distinctio 47, Quaestio 9</head>
-  				<head xml:id="wdrl4d47-Hd1e3981" type="questionTitle">Utrum iste ignis purgabit caelo</head>
+  				<head xml:id="wdrl4d47-Hd1e3978">Liber IV, Distinctio 47, Quaestio 9</head>
+  				<head xml:id="wdrl4d47-Hd1e3981" type="question-title">Utrum iste ignis purgabit caelo</head>
   				<p xml:id="wdrl4d47-d1e3984"><lb ed="#P"/><pc ana="#pilcrow"/>utrum iste ignis purgabit caelos <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non quia nihil habent <choice><orig>inpuritatis</orig><reg>impuritatis</reg></choice> nec reci<lb ed="#P"/>piunt 
   					peregrinas <choice><orig>inpressiones</orig><reg>impressiones</reg></choice> <pc ana="#punctus"/> sed tantum in nova<lb ed="#P"/>buntur 
@@ -162,8 +162,8 @@
   					<lb ed="#P"/>auctoritates quae hic ciunt <pc ana="#virgula"/> locuntur de caelo aereo <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q10" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e4027">Librum IV, Distinctio 47, Quaestio 10</head>
-  				<head xml:id="wdrl4d47-Hd1e4030" type="questionTitle">Utrum iste ignis elementa consumet</head>
+  				<head xml:id="wdrl4d47-Hd1e4027">Liber IV, Distinctio 47, Quaestio 10</head>
+  				<head xml:id="wdrl4d47-Hd1e4030" type="question-title">Utrum iste ignis elementa consumet</head>
   				<p xml:id="wdrl4d47-d1e4033"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ille ignis elementa consumet <pc ana="#punctus"/> 
   					<cb ed="#P" n="135va"/><lb ed="#P"/>Responsio quidam dixerunt quod terra et aere mane<lb ed="#P"/>bunt 
   					secundum substantiam <pc ana="#punctus"/> alia duo in caelestem materiam 
@@ -178,8 +178,8 @@
   					<lb ed="#P"/>cessabit motus caelorum <pc ana="#punctus"/> qui est principium omnis alterationis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d47q11" type="quaestio">
-  				<head xml:id="wdrl4d47-Hd1e4106">Librum IV, Distinctio 47, Quaestio 11</head>
-  				<head xml:id="wdrl4d47-Hd1e4109" type="questionTitle">Utrum iste ignis sequatur iudicium</head>
+  				<head xml:id="wdrl4d47-Hd1e4106">Liber IV, Distinctio 47, Quaestio 11</head>
+  				<head xml:id="wdrl4d47-Hd1e4109" type="question-title">Utrum iste ignis sequatur iudicium</head>
   				<p xml:id="wdrl4d47-d1e4112"><lb ed="#P"/><pc ana="#pilcrow"/>utrum iste ignis sequatur iudicium <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sicut colligitur ex dictis sanctorum <pc ana="#punctus"/> cum actio illius <pc ana="#punctus"/> 
   					<lb ed="#P"/>ignis sit successiva <pc ana="#virgula"/> habebit in initium ante 

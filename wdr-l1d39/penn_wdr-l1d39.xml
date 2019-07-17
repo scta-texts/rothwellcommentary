@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 39 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 39 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 39 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 39 [Penn Transcription]</title>
           <date when="2016-05-02">May 02, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d39">
-  			<head xml:id="wdrl1d39-Hd1e3503">Librum I, Distinctio 39 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d39-Hd1e3503">Liber I, Distinctio 39 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d39q1" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3508">Librum I, Distinctio 39, Quaestio 1</head>
-  				<head xml:id="wdrl1d39-Hd1e3511" type="questionTitle">Utrum Deus possit nescire illud quod scit</head>
+  				<head xml:id="wdrl1d39-Hd1e3508">Liber I, Distinctio 39, Quaestio 1</head>
+  				<head xml:id="wdrl1d39-Hd1e3511" type="question-title">Utrum Deus possit nescire illud quod scit</head>
   				<p xml:id="wdrl1d39-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum deus pos<lb ed="#P"/>sit 
   					nescire illud quod scit <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in littera quod sic <pc ana="#punctus"/> si intelli<lb ed="#P"/>gatur 
   					<unclear>divisim</unclear> <pc ana="#punctus"/> quia sicut ab aeterno potuit <pc ana="#punctus"/> ita modo potest 
@@ -72,8 +72,8 @@
   					<lb ed="#P"/><del rend="strikethrough">in praesentem</del> temporis in praesente praeteritione et futuro <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d39q2" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3579">Librum I, Distinctio 39, Quaestio 2</head>
-  				<head xml:id="wdrl1d39-Hd1e3582" type="questionTitle">Utrum Deus possit nescire illud quod scit</head>
+  				<head xml:id="wdrl1d39-Hd1e3579">Liber I, Distinctio 39, Quaestio 2</head>
+  				<head xml:id="wdrl1d39-Hd1e3582" type="question-title">Utrum Deus possit nescire illud quod scit</head>
   				<p xml:id="wdrl1d39-d1e3585"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit scire quod nescit <pc ana="#punctus"/> vel plura quam scit <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> ad primum quod triplex est scientia in deo scilicet scientia simplicis no<lb ed="#P"/>titiae 
   					vel intelligentiae <pc ana="#punctus"/> scientia visionis <pc ana="#punctus"/> scientia approbationis 
@@ -88,15 +88,15 @@
   					<lb ed="#P"/>determinatum numerum <pc ana="#punctus"/> cui addit vel minuit <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d39q3" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3665">Librum I, Distinctio 39, Quaestio 3</head>
-  				<head xml:id="wdrl1d39-Hd1e3668" type="questionTitle">utrum deus habeat scientia non entium</head>
+  				<head xml:id="wdrl1d39-Hd1e3665">Liber I, Distinctio 39, Quaestio 3</head>
+  				<head xml:id="wdrl1d39-Hd1e3668" type="question-title">utrum deus habeat scientia non entium</head>
   				<p xml:id="wdrl1d39-d1e3671"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus habeat scientiam non entium <pc ana="#punctus"/> Respondeo sic scilicet 
   					<lb ed="#P"/>tamquam entium in intellectu suo <pc ana="#punctus"/> bonorum autem futurorum <pc ana="#punctus"/> 
   					<lb ed="#P"/>tamquam entium in causa sua <pc ana="#punctus"/> sed actu existentium <pc ana="#punctus"/> modo natura propria</p>
   			</div>
   			<div xml:id="wdr-l1d39q4" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3694">Librum I, Distinctio 39, Quaestio 4</head>
-  				<head xml:id="wdrl1d39-Hd1e3697" type="questionTitle">utrum habeat scientiam infinitorum</head>
+  				<head xml:id="wdrl1d39-Hd1e3694">Liber I, Distinctio 39, Quaestio 4</head>
+  				<head xml:id="wdrl1d39-Hd1e3697" type="question-title">utrum habeat scientiam infinitorum</head>
   				<p xml:id="wdrl1d39-d1e3700"><lb ed="#P"/><pc ana="#pilcrow"/>utrum habeat scientiam infinitorum <pc ana="#punctus"/> Responsio triplex dicitur <mentioned>infinitum</mentioned> 
   					<cb ed="#P" n="39va"/><lb ed="#P"/>scilicet in quantitate virtutis <pc ana="#punctus"/> in genere quantitatis dimensione <pc ana="#punctus"/> 
   					<lb ed="#P"/>et in genere quantitatis discrete <pc ana="#punctus"/> primum bene est actu <pc ana="#punctus"/> ut deus <pc ana="#punctus"/> 
@@ -106,8 +106,8 @@
   					<!-- drops -->nec approbationis <ref>supra quaestio <unclear>7</unclear></ref></p>
   			</div>
   			<div xml:id="wdr-l1d39q5" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3756">Librum I, Distinctio 39, Quaestio 5</head>
-  				<head xml:id="wdrl1d39-Hd1e3759" type="questionTitle">Quid sit providentia</head>
+  				<head xml:id="wdrl1d39-Hd1e3756">Liber I, Distinctio 39, Quaestio 5</head>
+  				<head xml:id="wdrl1d39-Hd1e3759" type="question-title">Quid sit providentia</head>
   				<p xml:id="wdrl1d39-d1e3762"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit providentia 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <name ref="#Boethius">boetius</name> <title ref="#Consolation">de consolatione</title> <pc ana="#punctus"/> providentia est ratio in summo <unclear>omni</unclear> 
   					<lb ed="#P"/>principe constituta <pc ana="#punctus"/> <del rend="strikethrough">q</del> per quam cuncta disponit <pc ana="#punctus"/> unde 
@@ -116,8 +116,8 @@
   					<lb ed="#P"/>et potentiam in <choice><orig>exequutione</orig><reg>executione</reg></choice> propositi <ref type="commentary" target="http://scta.info/resource/wdrl1d35-d1e3601">supra distinctio 35 quaestio 3</ref></p>
   			</div>
   			<div xml:id="wdr-l1d39q6" type="quaestio">
-  				<head xml:id="wdrl1d39-Hd1e3822">Librum I, Distinctio 39, Quaestio 6</head>
-  				<head xml:id="wdrl1d39-Hd1e3825" type="questionTitle">De quibus sit providentia</head>
+  				<head xml:id="wdrl1d39-Hd1e3822">Liber I, Distinctio 39, Quaestio 6</head>
+  				<head xml:id="wdrl1d39-Hd1e3825" type="question-title">De quibus sit providentia</head>
   				<p xml:id="wdrl1d39-d1e3828"><lb ed="#P"/><pc ana="#pilcrow"/>De quibus sit providentia Responsio 4 leguntur fuisse 
   					<lb ed="#P"/>errores circa hoc <pc ana="#punctus"/> quidam posuerunt <del rend="strikethrough">im</del> providentiam <unclear>aio?<lb ed="#P"/>um?</unclear> 
   					esse <pc ana="#punctus"/> sed fato omnia contingere <pc ana="#punctus"/> quidam sola caelestia 

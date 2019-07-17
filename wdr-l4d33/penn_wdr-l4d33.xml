@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 33 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 33 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 33 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 33 [Penn Transcription]</title>
           <date when="2016-05-19">May 19, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d33">
-  			<head xml:id="wdrl4d33-Hd1e3503">Librum IV, Distinctio 33 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d33-Hd1e3503">Liber IV, Distinctio 33 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d33q1" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3508">Librum IV, Distinctio 33, Quaestio 1</head>
-  				<head xml:id="wdrl4d33-Hd1e3511" type="questionTitle">Utrum bigamia sit contra ius naturale</head>
+  				<head xml:id="wdrl4d33-Hd1e3508">Liber IV, Distinctio 33, Quaestio 1</head>
+  				<head xml:id="wdrl4d33-Hd1e3511" type="question-title">Utrum bigamia sit contra ius naturale</head>
   				<p xml:id="wdrl4d33-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum bigamia sit contra 
   					<lb ed="#P"/>ius naturale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum <pc ana="#punctus"/> quod proprie accipitur 
   					<lb ed="#P"/>ius naturale scilicet quod recta ratio dictat 
@@ -67,8 +67,8 @@
   					<lb ed="#P"/>generis <pc ana="#punctus"/> sic non est contra ius naturale <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d33q2" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3547">Librum IV, Distinctio 33, Quaestio 2</head>
-  				<head xml:id="wdrl4d33-Hd1e3550" type="questionTitle">Utrum aliquando licuerit habere plures uxores</head>
+  				<head xml:id="wdrl4d33-Hd1e3547">Liber IV, Distinctio 33, Quaestio 2</head>
+  				<head xml:id="wdrl4d33-Hd1e3550" type="question-title">Utrum aliquando licuerit habere plures uxores</head>
   				<p xml:id="wdrl4d33-d1e3553"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquando licuerit habere plures 
   					<lb ed="#P"/>uxores <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> numquam per se licuit <pc ana="#punctus"/> quia 
   					<lb ed="#P"/>est contra ius natural <pc ana="#punctus"/> <pc ana="#virgula"/> ex dispensatione 
@@ -77,8 +77,8 @@
   					sanguinis fuit multiplicatio religionis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d33q3" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3588">Librum IV, Distinctio 33, Quaestio 3</head>
-  				<head xml:id="wdrl4d33-Hd1e3591" type="questionTitle">Utrum fornicatio simplex sit contra ius naturale et semper mortale</head>
+  				<head xml:id="wdrl4d33-Hd1e3588">Liber IV, Distinctio 33, Quaestio 3</head>
+  				<head xml:id="wdrl4d33-Hd1e3591" type="question-title">Utrum fornicatio simplex sit contra ius naturale et semper mortale</head>
   				<p xml:id="wdrl4d33-d1e3594"><lb ed="#P"/><pc ana="#pilcrow"/>utrum fornicatio simplex sit contra ius 
   					<lb ed="#P"/>naturale et semper mortale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>contra naturam <pc ana="#punctus"/> quia contra naturae finem scilicet prolis 
@@ -91,8 +91,8 @@
   					<!-- drops --> prole</p>
   			</div>
   			<div xml:id="wdr-l4d33q4" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3644">Librum IV, Distinctio 33, Quaestio 4</head>
-  				<head xml:id="wdrl4d33-Hd1e3647" type="questionTitle">Utrum aliquando ex dispensatione fuerit licita fornicatio</head>
+  				<head xml:id="wdrl4d33-Hd1e3644">Liber IV, Distinctio 33, Quaestio 4</head>
+  				<head xml:id="wdrl4d33-Hd1e3647" type="question-title">Utrum aliquando ex dispensatione fuerit licita fornicatio</head>
   				<p xml:id="wdrl4d33-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquando ex dispen<lb ed="#P"/>satione 
   					fuerit licita fornicatio <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non quia secundum se deforme est <pc ana="#punctus"/> 
@@ -103,8 +103,8 @@
   					<!-- drops --> sicut <unclear>domine</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d33q5" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3693">Librum IV, Distinctio 33, Quaestio 5</head>
-  				<head xml:id="wdrl4d33-Hd1e3696" type="questionTitle">Utrum in veteri lege fuerit licitum uxorem repudiare</head>
+  				<head xml:id="wdrl4d33-Hd1e3693">Liber IV, Distinctio 33, Quaestio 5</head>
+  				<head xml:id="wdrl4d33-Hd1e3696" type="question-title">Utrum in veteri lege fuerit licitum uxorem repudiare</head>
   				<p xml:id="wdrl4d33-d1e3699"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum in veteri 
   					<lb ed="#P"/>lege fuerit licitum uxorem repu<lb ed="#P"/>diare 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> permissum ad evi<lb ed="#P"/>tandum 
@@ -116,8 +116,8 @@
   					<!-- drops --> dispensatio divina</p>
   			</div>
   			<div xml:id="wdr-l4d33q6" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3751">Librum IV, Distinctio 33, Quaestio 6</head>
-  				<head xml:id="wdrl4d33-Hd1e3754" type="questionTitle">Utrum repudiata possit reconciliari</head>
+  				<head xml:id="wdrl4d33-Hd1e3751">Liber IV, Distinctio 33, Quaestio 6</head>
+  				<head xml:id="wdrl4d33-Hd1e3754" type="question-title">Utrum repudiata possit reconciliari</head>
   				<p xml:id="wdrl4d33-d1e3757"><lb ed="#P"/>Utrum repudi<lb ed="#P"/>ata 
   					possit reconciliari Responsio <pc ana="#punctus"/> sic scilicet 
   					<lb ed="#P"/>ante secundas nuptias <pc ana="#virgula"/> mulieris <pc ana="#punctus"/> quas 
@@ -130,8 +130,8 @@
   					<lb ed="#P"/>viro plures licuit habere uxores <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d33q7" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3820">Librum IV, Distinctio 33, Quaestio 7</head>
-  				<head xml:id="wdrl4d33-Hd1e3823" type="questionTitle">Utrum virginitas sit virtus</head>
+  				<head xml:id="wdrl4d33-Hd1e3820">Liber IV, Distinctio 33, Quaestio 7</head>
+  				<head xml:id="wdrl4d33-Hd1e3823" type="question-title">Utrum virginitas sit virtus</head>
   				<p xml:id="wdrl4d33-d1e3826"><lb ed="#P"/><pc ana="#pilcrow"/>utrum virginitas sit virtus <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio essentia virtutis eadem est <pc ana="#punctus"/> cum 
   					<lb ed="#P"/>castitate coniugali <pc ana="#punctus"/> et viduali <pc ana="#punctus"/> sed 
@@ -145,8 +145,8 @@
   					<lb ed="#P"/>et magnificentia <pc ana="#virgula"/> sed primum verius est <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d33q8" type="quaestio">
-  				<head xml:id="wdrl4d33-Hd1e3887">Librum IV, Distinctio 33, Quaestio 8</head>
-  				<head xml:id="wdrl4d33-Hd1e3890" type="questionTitle">Utrum melior sit virginitas matrimonio</head>
+  				<head xml:id="wdrl4d33-Hd1e3887">Liber IV, Distinctio 33, Quaestio 8</head>
+  				<head xml:id="wdrl4d33-Hd1e3890" type="question-title">Utrum melior sit virginitas matrimonio</head>
   				<p xml:id="wdrl4d33-d1e3893"><lb ed="#P"/><pc ana="#pilcrow"/>utrum melior sit virginitas 
   					<lb ed="#P"/>matrimonio <pc ana="#punctus"/> Responsio tempore gratiae <pc ana="#virgula"/> melior 
   					<lb ed="#P"/>est virginitas <pc ana="#punctus"/> antiquitus autem <pc ana="#virgula"/> me<lb ed="#P"/>lius 

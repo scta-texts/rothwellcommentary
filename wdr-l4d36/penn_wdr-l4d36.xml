@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 36 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 36 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 36 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 36 [Penn Transcription]</title>
           <date when="2016-05-20">May 20, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d36">
-  			<head xml:id="wdrl4d36-Hd1e3503">Librum IV, Distinctio 36 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d36-Hd1e3503">Liber IV, Distinctio 36 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d36q1" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3508">Librum IV, Distinctio 36, Quaestio 1</head>
-  				<head xml:id="wdrl4d36-Hd1e3511" type="questionTitle">Utrum error conditionis impediat matrimonium</head>
+  				<head xml:id="wdrl4d36-Hd1e3508">Liber IV, Distinctio 36, Quaestio 1</head>
+  				<head xml:id="wdrl4d36-Hd1e3511" type="question-title">Utrum error conditionis impediat matrimonium</head>
   				<p xml:id="wdrl4d36-d1e3514"><lb ed="#P"/>Quaeritur utrum error conditionis 
   					<lb ed="#P"/>impediat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <choice><sic>iuram</sic><corr>iura</corr></choice> <pc ana="#punctus"/> 
   					<lb ed="#P"/>scilicet si liber contrahit cum ancilla <pc ana="#punctus"/> quam 
@@ -71,8 +71,8 @@
   					<lb ed="#P"/>leduntur <pc ana="#virgula"/> et ideo non dirimunt <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d36q2" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3585">Librum IV, Distinctio 36, Quaestio 2</head>
-  				<head xml:id="wdrl4d36-Hd1e3588" type="questionTitle">Utrum servus possit contrahere sine consensu domini</head>
+  				<head xml:id="wdrl4d36-Hd1e3585">Liber IV, Distinctio 36, Quaestio 2</head>
+  				<head xml:id="wdrl4d36-Hd1e3588" type="question-title">Utrum servus possit contrahere sine consensu domini</head>
   				<p xml:id="wdrl4d36-d1e3591"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum servus possit contrahere 
   					<lb ed="#P"/>sine consensu domini <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title>extra</title> 
   						<lb ed="#P"/><num>iiii</num> de coniuga <unclear>ser</unclear> capitulo 1</ref> quia matrimonium est 
@@ -81,8 +81,8 @@
   					<!-- drops --> manualibus</p>
   			</div>
   			<div xml:id="wdr-l4d36q3" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3630">Librum IV, Distinctio 36, Quaestio 3</head>
-  				<head xml:id="wdrl4d36-Hd1e3633" type="questionTitle">Utrum coniugio possit supervenire servitus</head>
+  				<head xml:id="wdrl4d36-Hd1e3630">Liber IV, Distinctio 36, Quaestio 3</head>
+  				<head xml:id="wdrl4d36-Hd1e3633" type="question-title">Utrum coniugio possit supervenire servitus</head>
   				<p xml:id="wdrl4d36-d1e3636"><lb ed="#P"/><pc ana="#pilcrow"/>utrum coniugio 
   					possit supervenire servitus <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic ex parte viri <pc ana="#punctus"/> non uxoris 
@@ -93,8 +93,8 @@
   					<lb ed="#P"/>non potuit a potestate uxoris <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d36q4" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3681">Librum IV, Distinctio 36, Quaestio 4</head>
-  				<head xml:id="wdrl4d36-Hd1e3684" type="questionTitle">Cuius parentis conditionem debeat sequi partus</head>
+  				<head xml:id="wdrl4d36-Hd1e3681">Liber IV, Distinctio 36, Quaestio 4</head>
+  				<head xml:id="wdrl4d36-Hd1e3684" type="question-title">Cuius parentis conditionem debeat sequi partus</head>
   				<p xml:id="wdrl4d36-d1e3687"><lb ed="#P"/><pc ana="#pilcrow"/>Cuius parentis conditione debeat sequi 
   					<lb ed="#P"/>partis <pc ana="#punctus"/> Responsio patrem in conditionibus activis 
   					<lb ed="#P"/>sicut honoribus et patrimoniorum acquisitionibus <pc ana="#punctus"/> 
@@ -105,8 +105,8 @@
   					<lb ed="#P"/>terris <pc ana="#virgula"/> semper sequitur deteriorem partem <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d36q5" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3734">Librum IV, Distinctio 36, Quaestio 5</head>
-  				<head xml:id="wdrl4d36-Hd1e3737" type="questionTitle">Utrum defectus aetatis impediat matrimonium</head> 
+  				<head xml:id="wdrl4d36-Hd1e3734">Liber IV, Distinctio 36, Quaestio 5</head>
+  				<head xml:id="wdrl4d36-Hd1e3737" type="question-title">Utrum defectus aetatis impediat matrimonium</head> 
   				<p xml:id="wdrl4d36-d1e3740"><cb ed="#P" n="129ra"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum defectus aetatis <choice><orig>inpediat</orig><reg>impediat</reg></choice> 
   					<lb ed="#P"/>matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia in pueris 
   					<lb ed="#P"/>ante <num>xiiii</num> annum <pc ana="#punctus"/> et in puellis ante 
@@ -115,8 +115,8 @@
   					<lb ed="#P"/>si in aliquibus opposita horum appareant tenet matrimonium</p>
   			</div>
   			<div xml:id="wdr-l4d36q6" type="quaestio">
-  				<head xml:id="wdrl4d36-Hd1e3795">Librum IV, Distinctio 36, Quaestio 6</head>
-  				<head xml:id="wdrl4d36-Hd1e3798" type="questionTitle">Utrum sponsalia in minori aetate contracta possint dissolvi per mutuum consensum</head>
+  				<head xml:id="wdrl4d36-Hd1e3795">Liber IV, Distinctio 36, Quaestio 6</head>
+  				<head xml:id="wdrl4d36-Hd1e3798" type="question-title">Utrum sponsalia in minori aetate contracta possint dissolvi per mutuum consensum</head>
   				<p xml:id="wdrl4d36-d1e3801"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sponsalia in minori aetate 
   					<lb ed="#P"/>contrata <pc ana="#virgula"/> possint dissolvi per mu<lb ed="#P"/>tuum 
   					consensum <pc ana="#punctus"/> Responsio <name ref="#HughOfStVictor">hugo</name> dixit 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 33 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 33 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 33 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 33 [Penn Transcription]</title>
           <date when="2016-05-02">May 02, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d33">
-  			<head xml:id="wdrl1d33-Hd1e3503">Librum I, Distinctio 33 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d33-Hd1e3503">Liber I, Distinctio 33 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d33q1" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3508">Librum I, Distinctio 33, Quaestio 1</head>
-  				<head xml:id="wdrl1d33-Hd1e3511" type="questionTitle">Utrum peccatum sit contrarie opinari circa notiones</head>
+  				<head xml:id="wdrl1d33-Hd1e3508">Liber I, Distinctio 33, Quaestio 1</head>
+  				<head xml:id="wdrl1d33-Hd1e3511" type="question-title">Utrum peccatum sit contrarie opinari circa notiones</head>
   				<p xml:id="wdrl1d33-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum <del rend="expunctuated">ut</del> peccatum sit contrarie opinari circa notiones 
   					<lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si enim est de pertinentibus <choice><orig>neccessario</orig><reg>necessario</reg></choice> ad reli<lb ed="#P"/>gionem 
   					fidei et morum <pc ana="#punctus"/> sic non nis per accidens scilicet ratione 
@@ -71,8 +71,8 @@
   					<lb ed="#P"/>opinionibus simplicium cura ea quae fidei sunt</p>
   			</div>
   			<div xml:id="wdr-l1d33q2" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3578">Librum I, Distinctio 33, Quaestio 2</head>
-  				<head xml:id="wdrl1d33-Hd1e3581" type="questionTitle">Utrum proprietates vel notiones sint in personis</head>
+  				<head xml:id="wdrl1d33-Hd1e3578">Liber I, Distinctio 33, Quaestio 2</head>
+  				<head xml:id="wdrl1d33-Hd1e3581" type="question-title">Utrum proprietates vel notiones sint in personis</head>
   				<p xml:id="wdrl1d33-d1e3584"><lb ed="#P"/><pc ana="#pilcrow"/>utrum proprietates <del rend="strikethrough">sint</del> vel notiones sint in personis 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum communem opinionem <pc ana="#punctus"/> et hic tamquam in suppositis 
   					<lb ed="#P"/>quae distinguunt <pc ana="#punctus"/> unde proprietates personales sunt ibi secundum 
@@ -81,16 +81,16 @@
   					<!-- drops --> opiniones <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d33q3" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3623">Librum I, Distinctio 33, Quaestio 3</head>
-  				<head xml:id="wdrl1d33-Hd1e3626" type="questionTitle">utrum proprietates sunt idem quod personae</head>
+  				<head xml:id="wdrl1d33-Hd1e3623">Liber I, Distinctio 33, Quaestio 3</head>
+  				<head xml:id="wdrl1d33-Hd1e3626" type="question-title">utrum proprietates sunt idem quod personae</head>
   				<p xml:id="wdrl1d33-d1e3629"><lb ed="#P"/><pc ana="#pilcrow"/>utrum proprietates sunt idem quod personae 
   					<lb ed="#P"/>Respondeo sic in litera <pc ana="#punctus"/> probat hic <name ref="#Lombard">magister</name> <pc ana="#punctus"/> per sanctos et est opinio communis 
   					<lb ed="#P"/>differt autem ab subiecto in quo <del rend="strikethrough">res</del> est ratione <pc ana="#punctus"/> et hoc per comparationem 
   					<lb ed="#P"/>tantum ad illud ad quod refertur <ref>supra distinctio 7 6</ref></p>
   			</div>
   			<div xml:id="wdr-l1d33q4" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3658">Librum I, Distinctio 33, Quaestio 4</head>
-  				<head xml:id="wdrl1d33-Hd1e3661" type="questionTitle">utrum proprietates sint essentia divina</head>
+  				<head xml:id="wdrl1d33-Hd1e3658">Liber I, Distinctio 33, Quaestio 4</head>
+  				<head xml:id="wdrl1d33-Hd1e3661" type="question-title">utrum proprietates sint essentia divina</head>
   				<p xml:id="wdrl1d33-d1e3664"><lb ed="#P"/><pc ana="#pilcrow"/>utrum proprietates sunt essentia divina <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> <name ref="#Lombard">magister</name> <pc ana="#punctus"/> 
   					<lb ed="#P"/>in littera <pc ana="#punctus"/> et hoc propter omnimoda simplicitatem differt tamen ab essentia <pc ana="#punctus"/> ratione 
   					<lb ed="#P"/>propter rem relatam ad aliud ratione cuius etiam essentiam distinguit <pc ana="#punctus"/> 
@@ -99,8 +99,8 @@
   					<!-- drops -->nati </p>
   			</div>
   			<div xml:id="wdr-l1d33q5" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3708">Librum I, Distinctio 33, Quaestio 5</head>
-  				<head xml:id="wdrl1d33-Hd1e3711" type="questionTitle">Utrum sint in essentia et quomodo</head>
+  				<head xml:id="wdrl1d33-Hd1e3708">Liber I, Distinctio 33, Quaestio 5</head>
+  				<head xml:id="wdrl1d33-Hd1e3711" type="question-title">Utrum sint in essentia et quomodo</head>
   				<p xml:id="wdrl1d33-d1e3714"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sint in essentia et quomodo <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> In essentia est <pc ana="#virgula"/> per modum <choice><orig>ydempitatis</orig><reg>identitatis</reg></choice> tantum <pc ana="#punctus"/> quia non habet oppositum 
   					<lb ed="#P"/>respectu essentiae <pc ana="#punctus"/> In persona autem eset ut in suppositae quia distinguit 
@@ -114,8 +114,8 @@
   					supposito secundum modum intelligendi <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d33q6" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3800">Librum I, Distinctio 33, Quaestio 6</head>
-  				<head xml:id="wdrl1d33-Hd1e3803" type="questionTitle">utrum omnia adiectam essentiam possint praedicari de notionibus</head>
+  				<head xml:id="wdrl1d33-Hd1e3800">Liber I, Distinctio 33, Quaestio 6</head>
+  				<head xml:id="wdrl1d33-Hd1e3803" type="question-title">utrum omnia adiectam essentiam possint praedicari de notionibus</head>
   				<p xml:id="wdrl1d33-d1e3806"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia adiectam essentiam <pc ana="#punctus"/> possint praedicari 
   					<lb ed="#P"/>de notionibus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quia essentia et notio conveniunt re et differunt 
   					<lb ed="#P"/>ratione <pc ana="#punctus"/> et modo significandi ideo quaecumque praedicantur de essentia secundum 
@@ -131,8 +131,8 @@
   					<lb ed="#P"/>de notionibus proprie <pc ana="#punctus"/> et secundum hoc iudica de proprietatibus <unclear>praedicentium</unclear></p>
   			</div>
   			<div xml:id="wdr-l1d33q7" type="quaestio">
-  				<head xml:id="wdrl1d33-Hd1e3904">Librum I, Distinctio 33, Quaestio 7</head>
-  				<head xml:id="wdrl1d33-Hd1e3907" type="questionTitle">utrum omnia personalia possint praedicari de notionibus</head>
+  				<head xml:id="wdrl1d33-Hd1e3904">Liber I, Distinctio 33, Quaestio 7</head>
+  				<head xml:id="wdrl1d33-Hd1e3907" type="question-title">utrum omnia personalia possint praedicari de notionibus</head>
   				<p xml:id="wdrl1d33-d1e3910"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia personalia possint praedicari de notionibus 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> essentia <pc ana="#punctus"/> persona <pc ana="#punctus"/> notio <pc ana="#punctus"/> praedicantur de se invicem propter unita<lb ed="#P"/>tem 
   					rei <pc ana="#punctus"/> et eorum attributa quae non determinant proprium modum 

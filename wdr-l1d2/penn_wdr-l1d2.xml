@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 2 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 2 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.06-dev-master">
-          <title>Librum I, Distinctio 2 [Penn Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 2 [Penn Transcription]</title>
           <date when="2015-06-15">June 15, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-06-15">June 15, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,15 +27,18 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-06-14" who="#JW" status="draft" n="2015.06">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-06-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -58,34 +59,34 @@
   </facsimile>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="24-v"/>
+        <cb ed="#P" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="wdr-l1d2">
-        <head>Librum I, Distinctio 2 [Penn Transcription]</head>
+        <head>Liber I, Distinctio 2 [Penn Transcription]</head>
         <div xml:id="wdr-l1d2q1" type="quaestio">
-          <head type="questionTitle">Utrum deus per essentiam sit unus</head>
-          <p xml:id="wdrl1d2-qudeap"><lb ed="#P"/>Queritur utrum deus per essentiam 
+          <head type="question-title">Utrum deus per essentiam sit unus</head>
+          <p xml:id="wdrl1d2-qudeap">
+            <lb ed="#P" n="16"/>Queritur utrum deus per essentiam 
             <lb ed="#P"/>sit unus <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia hoc dicit fides <g ref="#dot"/> et scriptura <g ref="#dot"/> hoc 
-            <lb ed="#P"/>etiam patet per rationem <g ref="#dot"/> quia in causis secundum <ref><name ref="#Aristotle">philosophum</name> 11 <title ref="#Aristotle">metaphysicae</title></ref> oportet esse statum <!-- breaks to next line --> ergo est aliqua prima</p>
+            <lb ed="#P"/>etiam patet per rationem <g ref="#dot"/> quia in causis secundum <ref><name ref="#Aristotle">philosophum</name> 11 <title ref="#Aristotle">metaphysicae</title></ref> oportet esse statum <!-- breaks to next line --> ergo est aliqua prima
+          </p>
         </div>
         <div xml:id="wdr-l1d2q2" type="quaestio">
-          <head type="questionTitle">Utrum in divina essentia sit aliqua multiplex attributorum</head>
-          <p xml:id="wdrl1d2-uidsdr"><lb ed="#P"/><g ref="#pilcrow"/>utrum in divina essentia 
+          <head type="question-title">Utrum in divina essentia sit aliqua multiplex attributorum</head>
+          <p xml:id="wdrl1d2-uidsdr">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum in divina essentia 
             <lb ed="#P"/>sit aliqua multitudo attributorum <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia 
             <lb ed="#P"/>perfectio in eo est omnium generum <g ref="#slash"/> secundum <name ref="#Aristotle">philosophum</name> <g ref="#dot"/> et <name ref="#Dionysius">dyonisium</name> <g ref="#slash"/> sed tamen idem 
             <lb ed="#P"/>sunt in deo secundum rem <g ref="#dot"/> Sed differunt ratione <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q3" type="quaestio">
-          <head type="questionTitle">Secundum quid accipiatur attributorum distinctio</head>
-          <p xml:id="wdrl1d2-sqadin"><lb ed="#P"/><g ref="#pilcrow"/>Secundum quid accipiatur attributorum dis<lb ed="#P"/>tinctio 
+          <head type="question-title">Secundum quid accipiatur attributorum distinctio</head>
+          <p xml:id="wdrl1d2-sqadin">
+            <lb ed="#P"/><g ref="#pilcrow"/>Secundum quid accipiatur attributorum dis<lb ed="#P"/>tinctio 
             <g ref="#dot"/> Responsio <g ref="#dot"/> secundum distinctionem rationis <g ref="#dot"/> non illam quae tantum 
             <lb ed="#P"/>est ex parte ratiocinantis <g ref="#dot"/> sed quae habet fundamentum in re <g ref="#dot"/> quamvis 
             <lb ed="#P"/>non eo modo possit intelligere sicut est in re <g ref="#dot"/> unde verissime 
@@ -93,16 +94,19 @@
             <lb ed="#P"/>rem <g ref="#dot"/> sed differunt rationibus propriis <g ref="#dot"/> exemplum de intellectu universalis</p>
         </div>
         <div xml:id="wdr-l1d2q4" type="quaestio">
-          <head type="questionTitle">Utrum in deo sit personarum pluralitas</head>
-          <p xml:id="wdrl1d2-uidhei"><lb ed="#P"/><g ref="#pilcrow"/>Utrum in deo sit personarum pluralitas <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia 
+          <head type="question-title">Utrum in deo sit personarum pluralitas</head>
+          <p xml:id="wdrl1d2-uidhei">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum in deo sit personarum pluralitas <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia 
             <lb ed="#P"/>summum bonum communicabile debet esse et diffusivum sui <g ref="#dot"/> quia 
             <lb ed="#P"/>hoc perfectionis est <g ref="#dot"/> <g ref="#slash"/> tamen sine sui divisibilitate scilicet essentiae quia hoc esset <!-- finishes on next line --> imperfectionis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q5" type="quaestio">
-          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
-          <p xml:id="wdrl1d2-utsdmp"><lb ed="#P"/><g ref="#pilcrow"/>utrum tantum sint tres personae <g ref="#dot"/>  
+          <head type="question-title">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <p xml:id="wdrl1d2-utsdmp">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum tantum sint tres personae <g ref="#dot"/>  
             <lb ed="#P"/>non plures nec pauciores <g ref="#dot"/> Responsio <g ref="#dot"/> secundum fidem non <g ref="#dot"/> <g ref="#slash"/> quod patet 
-            <cb ed="#P" n="24vb"/><lb ed="#P"/>ex origine <g ref="#dot"/> quia unus a nullo <g ref="#slash"/> a quo alius <g ref="#dot"/> alter ab 
+            <cb ed="#P" n="b"/> <!--24vb -->
+            <lb ed="#P"/>ex origine <g ref="#dot"/> quia unus a nullo <g ref="#slash"/> a quo alius <g ref="#dot"/> alter ab 
             <lb ed="#P"/>alio <g ref="#slash"/> a quo alius <g ref="#dot"/> alter ab alio <g ref="#slash"/> a quo nullus <g ref="#dot"/> <g ref="#slash"/> Item modi 
             <lb ed="#P"/>originandi <g ref="#slash"/> tantum duo sunt scilicet <unclear>naturae</unclear> et voluntatis <g ref="#slash"/> Item secundum 
             <lb ed="#P"/><name ref="#RichardOfStVictor">richardum</name> <g ref="#dot"/> si plures essent <g ref="#slash"/> non essent <corr><add place="aboveLine">ibi</add></corr> summa germanitas 
@@ -110,8 +114,9 @@
             <!-- finishes on next line --><g ref="#pilcrow"/>duo modo procedendi</p>
         </div>
         <div xml:id="wdr-l1d2q6" type="quaestio">
-          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
-          <p xml:id="wdrl1d2-upirpo"><lb ed="#P"/><g ref="#pilcrow"/>utrum personae in divinis <g ref="#slash"/> 
+          <head type="question-title">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <p xml:id="wdrl1d2-upirpo">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum personae in divinis <g ref="#slash"/> 
             <lb ed="#P"/>differant re <g ref="#dot"/> vel ratione tantum <g ref="#dot"/> Responsio differunt ratione 
             <lb ed="#P"/>non quae tantum est ex parte ratiocinantis <g ref="#dot"/> sed quae etiam res est <g ref="#dot"/> unde dicit 
             <lb ed="#P"/><name ref="#Augustine">augustinus</name> quod tres res sunt <g ref="#dot"/> <g ref="#slash"/> differunt autem relatione <g ref="#slash"/> secundum <name ref="#Boethius">boetium</name> 

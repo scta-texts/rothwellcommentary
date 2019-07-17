@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 27 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 27 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 27 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 27 [Penn Transcription]</title>
           <date when="2016-04-29">April 29, 2016</date>
         </edition>
       </editionStmt>
@@ -55,16 +55,16 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d27">
-  			<head xml:id="wdrl1d27-Hd1e3503">Librum I, Distinctio 27 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d27-Hd1e3503">Liber I, Distinctio 27 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d27q1" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3508" type="questionTitle">Utrum proprietates personales distinguantur ab invicem</head>
+  				<head xml:id="wdrl1d27-Hd1e3508" type="question-title">Utrum proprietates personales distinguantur ab invicem</head>
   				<p xml:id="wdrl1d27-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>ueritur utrum proprietates <unclear>personales <!-- possible corrected --></unclear> dis<lb ed="#P"/>tinguantur 
   					ab invicem <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic scilicet sicut rationes 
   					<lb ed="#P"/>distinguendi alia <pc ana="#punctus"/> sicut personae <unclear>dicere</unclear> <pc ana="#punctus"/> et per se ipsas <pc ana="#virgula"/> personae autem 
   					<lb ed="#P"/>sicut extrema distinctionis <pc ana="#virgula"/> et per ipsas distinguuntur</p>
   			</div>
   			<div xml:id="wdr-l1d27q2" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3546" type="questionTitle">Utrum esse patrem et generare significent eaedem proprietate</head>
+  				<head xml:id="wdrl1d27-Hd1e3546" type="question-title">Utrum esse patrem et generare significent eaedem proprietate</head>
   				<p xml:id="wdrl1d27-d1e3549"><cb ed="#P" n="35ra"/><lb ed="#P"/>utrum esse patrem et generare significent eaedem 
   					<lb ed="#P"/>proprietate <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in creaturis differunt <pc ana="#punctus"/> et in re significata 
   					<lb ed="#P"/>quia non convertuntur et in modo <pc ana="#punctus"/> significandi <pc ana="#punctus"/> sed in divinis quantum ad 
@@ -75,7 +75,7 @@
   					<lb ed="#P"/>esse patrem praedicatur de essentia <pc ana="#punctus"/> sed non generare <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d27q3" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3610" type="questionTitle">Utrum proprietas causet actum personalem vel econverso</head>
+  				<head xml:id="wdrl1d27-Hd1e3610" type="question-title">Utrum proprietas causet actum personalem vel econverso</head>
   				<p xml:id="wdrl1d27-d1e3613"><lb ed="#P"/>utrum proprietas causet actum personalem <pc ana="#punctus"/> vel econverso 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quamvis quidam dixerunt <pc ana="#punctus"/> quod actus generandi egre<lb ed="#P"/>ditur 
   					a patre mediante forma innascibilitas quae 
@@ -85,7 +85,7 @@
   					<lb ed="#P"/>egreditur <pc ana="#virgula"/> per aliquam formam <pc ana="#punctus"/> sed inquantum est relatio <pc ana="#punctus"/> sic consequitur</p>
   			</div>
   			<div xml:id="wdr-l1d27q4" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3656" type="questionTitle">Utrum verbum sit proprie in divinis</head>
+  				<head xml:id="wdrl1d27-Hd1e3656" type="question-title">Utrum verbum sit proprie in divinis</head>
   				<p xml:id="wdrl1d27-d1e3659"><lb ed="#P"/><pc ana="#pilcrow"/>utrum verbum sit proprie in divinis <pc ana="#punctus"/> Respondeo sic <ref><title ref="#io">Ioannes</title> 
   					<lb ed="#P"/>1</ref> Nota ergo secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> <name ref="#Anselm">anselmum</name> <pc ana="#punctus"/> et <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> quod triplex est verbum 
   					<lb ed="#P"/>in nobis scilicet intelligibile <pc ana="#punctus"/> <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> et sensibile <pc ana="#punctus"/> primum 
@@ -96,14 +96,14 @@
   					<lb ed="#P"/>secundo ipsum incarnari praevisum <pc ana="#punctus"/> cum tertio ipsum <unclear>actu</unclear> in<!-- drops -->carnatum</p>
   			</div>
   			<div xml:id="wdr-l1d27q5" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3743" type="questionTitle">Utrum ratio verbi praecedat sapientiam vel econverso</head>
+  				<head xml:id="wdrl1d27-Hd1e3743" type="question-title">Utrum ratio verbi praecedat sapientiam vel econverso</head>
   				<p xml:id="wdrl1d27-d1e3746"><lb ed="#P"/><pc ana="#pilcrow"/>utrum ratio verbi praecedat sapientiam <pc ana="#punctus"/> 
   					<lb ed="#P"/>vel econverso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cum prius sit speciem rei apud se habere 
   					<lb ed="#P"/>quam per speciem ipsam <pc ana="#punctus"/> acta actu cogitare prior est 
   					<lb ed="#P"/>sapientia verbo <pc ana="#punctus"/> secundum rationem intelligendi <pc ana="#punctus"/> non secundum rem <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d27q6" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3774" type="questionTitle">Utrum verbum in divinis dicatur personaliter vel essentialiter</head>
+  				<head xml:id="wdrl1d27-Hd1e3774" type="question-title">Utrum verbum in divinis dicatur personaliter vel essentialiter</head>
   				<p xml:id="wdrl1d27-d1e3777"><lb ed="#P"/><pc ana="#pilcrow"/>utrum verbum in divinis dicatur personaliter vel 
   					<lb ed="#P"/>essentialiter <pc ana="#punctus"/> Responsio ad completam rationem verbi tria concurrunt 
   					<lb ed="#P"/>primum est intellectus super intelligibile conversio <pc ana="#punctus"/> secundum quod illa 
@@ -117,7 +117,7 @@
   					<!-- drops --> sancti de verbo <pc ana="#punctus"/> non primo modo <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d27q7" type="quaestio">
-  				<head xml:id="wdrl1d27-Hd1e3861" type="questionTitle">Utrum importet relationem ad creaturam</head>
+  				<head xml:id="wdrl1d27-Hd1e3861" type="question-title">Utrum importet relationem ad creaturam</head>
   				<p xml:id="wdrl1d27-d1e3864"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>inportet</orig><reg>importet</reg></choice> relationem 
   					<lb ed="#P"/>ad creaturam <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> super <title>ioannes</title> habitualem scilicet non 
   					<lb ed="#P"/>actualem de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quia habet similitudinem cum patre inquantum 

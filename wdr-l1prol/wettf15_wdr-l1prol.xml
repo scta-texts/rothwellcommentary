@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Prologus [Aarau Transcription]</title>
+        <title>Liber I, Prologus [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
@@ -69,9 +69,9 @@
     </front>
     <body>
       <div xml:id="wdr-l1prol">
-        <head>Librum I, Prologus [Aarau Transcription]</head>
+        <head>Liber I, Prologus [Aarau Transcription]</head>
         <div xml:id="wdr-l1prolq1" type="quaestio">
-          <head type="questionTitle">Utrum theologia sit scientia</head>
+          <head type="question-title">Utrum theologia sit scientia</head>
           <p xml:id="wdrl1prol-qutvrs"><cb ed="#A" n="107va" select="kba-WettF0015_107v.json"/><lb ed="#A"/>Queritur utrum theologia sit scientia <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> proprie loquendo debet dici sapientia <g ref="#dot"/> quae 
             <lb ed="#A"/>secundum <name ref="#Augustine">augustinum</name> est de divinis <g ref="#dot"/> sed scientia de humana<lb ed="#A"/>nis 
@@ -80,13 +80,13 @@
             <lb ed="#A"/>secundum viam rationis superioris <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1prolq2" type="questio">
-          <head type="questionTitle">Utrum sit una scientia vel plures</head>
+          <head type="question-title">Utrum sit una scientia vel plures</head>
           <p xml:id="wdrl1prol-usuade"><lb ed="#A"/><g ref="#pilcrow"/>utrum sit una scientia <g ref="#dot"/> vel plures <g ref="#dot"/> Responsio una est simpliciter 
             <lb ed="#A"/>quia est de deo principaliter <g ref="#dot"/> et de aliis rebus inquantum parti<lb ed="#A"/>cipant 
             <lb ed="#A"/>aliquid divini esse</p>
         </div>
         <div xml:id="wdr-l1prolq3" type="quaestio">
-          <head type="questionTitle">Quid sit subiectum in theologia</head>
+          <head type="question-title">Quid sit subiectum in theologia</head>
           <p xml:id="wdrl1prol-qssise"><lb ed="#A"/><g ref="#pilcrow"/>Quid sit subiectum in theologya <g ref="#dot"/> Responsio <g ref="#dot"/> Deus est subiectum proprie 
             <lb ed="#A"/>loquendo <g ref="#slash"/> quia de illi principaliter intenditur <g ref="#dot"/> vel 
             <lb ed="#A"/>minus proprie omne illud dicendo subiectum de quo in scientia de<lb ed="#A"/>terminatur 
@@ -95,7 +95,7 @@
             <lb ed="#A"/>executionis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1prolq4" type="quaestio">
-          <head type="questionTitle">Utrum theologia sit scientia speculativa vel practica</head>
+          <head type="question-title">Utrum theologia sit scientia speculativa vel practica</head>
           <p xml:id="wdrl1prol-utsesp"><lb ed="#A"/><g ref="#pilcrow"/>Utrum theologia sit scientia speculativa <g ref="#slash"/> vel practica 
             <lb ed="#A"/>Responsio partim speculativa <g ref="#slash"/> partim practica <g ref="#dot"/> quia de ipsa est 
             <lb ed="#A"/>sapientia quae est habitus perficiens intellectum in extensi<lb ed="#A"/>one 
@@ -103,14 +103,14 @@
             <lb ed="#A"/>dici scientia affectiva <g ref="#dot"/> unde <name ref="#Paul">apostolus</name> dicit eam esse scientia pi<lb ed="#A"/>etatis</p>
         </div>
         <div xml:id="wdr-l1prolq5" type="quaestio">
-          <head type="questionTitle">Utrum sit scientia necessaria</head>
+          <head type="question-title">Utrum sit scientia necessaria</head>
           <p xml:id="wdrl1prol-usssne"><lb ed="#A"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
               <lb ed="#A"/>rebus prout exeunt a suo principio <g ref="#slash"/> hoc aut de ipsis prout 
               <lb ed="#A"/>redeunt in ipsum tamquam in suum finem <g ref="#slash"/> cognitio aut 
               <lb ed="#A"/>finis nostri nobis summe necessaria est <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1prolq6" type="quaestio">
-          <head type="questionTitle">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
+          <head type="question-title">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
           <p xml:id="wdrl1prol-uhsail"><lb ed="#A"/><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis per rationes 
             <lb ed="#A"/>et argumenta <g ref="#dot"/> Responsio <g ref="#dot"/> sic  <g ref="#slash"/> modestus scilicet quo suppositum ratio fidei <g ref="#dot"/> 
             <lb ed="#A"/>non quod proponatur <g ref="#slash"/> nec ad fidei probationem <g ref="#slash"/> sed ad decla<lb ed="#A"/>rationem 

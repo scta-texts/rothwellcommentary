@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 6 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 6 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 6 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 6 [Penn Transcription]</title>
           <date when="2016-05-06">May 06, 2016</date>
         </edition>
       </editionStmt>
@@ -55,24 +55,24 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d6">
-  			<head xml:id="wdrl4d6-Hd1e3503">Librum IV, Distinctio 6 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d6-Hd1e3503">Liber IV, Distinctio 6 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d6q1" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3508">Librum IV, Distinctio 6, Quaestio 1</head>
-  				<head xml:id="wdrl4d6-Hd1e3511" type="questionTitle">Utrum fides requiratur in baptizante</head>
+  				<head xml:id="wdrl4d6-Hd1e3508">Liber IV, Distinctio 6, Quaestio 1</head>
+  				<head xml:id="wdrl4d6-Hd1e3511" type="question-title">Utrum fides requiratur in baptizante</head>
   				<p xml:id="wdrl4d6-d1e3514"><lb ed="#P"/>Quaeritur utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>fides requiratur in baptizante Responsio <pc ana="#punctus"/> non 
   					<lb ed="#P"/>secundum <pc ana="#punctus"/> <name ref="#Bede">beda</name> <pc ana="#punctus"/> et <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> sed tantum intentio baptizandi</p>
   			</div>
   			<div xml:id="wdr-l4d6q2" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3542">Librum IV, Distinctio 6, Quaestio 2</head>
-  				<head xml:id="wdrl4d6-Hd1e3545" type="questionTitle">utrum requiratur fides baptizantis ad baptismi effectum</head>
+  				<head xml:id="wdrl4d6-Hd1e3542">Liber IV, Distinctio 6, Quaestio 2</head>
+  				<head xml:id="wdrl4d6-Hd1e3545" type="question-title">utrum requiratur fides baptizantis ad baptismi effectum</head>
   				<p xml:id="wdrl4d6-d1e3548"><lb ed="#P"/><pc ana="#pilcrow"/>utrum requiratur fides baptizantis ad baptismi 
   					<lb ed="#P"/>effectum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi ex proposito et fine 
   					<!-- drops --> <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> ad infidele vadat</p>
   			</div>
   			<div xml:id="wdr-l4d6q3" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3573">Librum IV, Distinctio 6, Quaestio 3</head>
-  				<head xml:id="wdrl4d6-Hd1e3576" type="questionTitle">utrum Intentio requiratur in baptizante</head>
+  				<head xml:id="wdrl4d6-Hd1e3573">Liber IV, Distinctio 6, Quaestio 3</head>
+  				<head xml:id="wdrl4d6-Hd1e3576" type="question-title">utrum Intentio requiratur in baptizante</head>
   				<p xml:id="wdrl4d6-d1e3579"><lb ed="#P"/><pc ana="#pilcrow"/>utrum Inten<lb ed="#P"/>tio 
   					requiratur in baptizante Responsio <pc ana="#punctus"/> Re<lb ed="#P"/>quiritur 
   					<pc ana="#punctus"/> materia <pc ana="#punctus"/> forma et intentio utrumque <unclear>cobul?as</unclear> <pc ana="#punctus"/> 
@@ -80,29 +80,29 @@
   					<lb ed="#P"/>nisi in aliquo medio coniungantur</p>
   			</div>
   			<div xml:id="wdr-l4d6q4" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3609">Librum IV, Distinctio 6, Quaestio 4</head>
-  				<head xml:id="wdrl4d6-Hd1e3612" type="questionTitle">Utrum requiratur recta intentio</head>
+  				<head xml:id="wdrl4d6-Hd1e3609">Liber IV, Distinctio 6, Quaestio 4</head>
+  				<head xml:id="wdrl4d6-Hd1e3612" type="question-title">Utrum requiratur recta intentio</head>
   				<p xml:id="wdrl4d6-d1e3615"><lb ed="#P"/><pc ana="#pilcrow"/>utrum requireatur recta intentio <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio requiritur recta <pc ana="#virgula"/> ad baptismum sed non ad sanc<lb ed="#P"/>tificandum</p>
   			</div>
   			<div xml:id="wdr-l4d6q5" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3632">Librum IV, Distinctio 6, Quaestio 5</head>
-  				<head xml:id="wdrl4d6-Hd1e3635" type="questionTitle">Utrum puer in materno utero possit baptizari</head>
+  				<head xml:id="wdrl4d6-Hd1e3632">Liber IV, Distinctio 6, Quaestio 5</head>
+  				<head xml:id="wdrl4d6-Hd1e3635" type="question-title">Utrum puer in materno utero possit baptizari</head>
   				<p xml:id="wdrl4d6-d1e3638"><lb ed="#P"/><pc ana="#pilcrow"/>utrum puer in materno <pc ana="#punctus"/> 
   					<lb ed="#P"/>utero possit baptizari <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> secundum <name ref="#IsidoreOfSeville">ysidorem</name> <pc ana="#punctus"/> et 
   					<lb ed="#P"/><name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> in littera <pc ana="#punctus"/> quia hoc sacramentum tantum renatorum 
   					<lb ed="#P"/>est <pc ana="#virgula"/> Item in utero soli deo notus est <pc ana="#punctus"/> non ecclesiae <pc ana="#punctus"/> nec sibi </p>
   			</div>
   			<div xml:id="wdr-l4d6q6" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3677">Librum IV, Distinctio 6, Quaestio 6</head>
-  				<head xml:id="wdrl4d6-Hd1e3680" type="questionTitle">utrum aliquis mutuo <unclear>mutuo</unclear> possit sanctificari</head>
+  				<head xml:id="wdrl4d6-Hd1e3677">Liber IV, Distinctio 6, Quaestio 6</head>
+  				<head xml:id="wdrl4d6-Hd1e3680" type="question-title">utrum aliquis mutuo <unclear>mutuo</unclear> possit sanctificari</head>
   				<p xml:id="wdrl4d6-d1e3686"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliquis <unclear>mutuo</unclear> possit sanctifi<lb ed="#P"/>cari 
   					<pc ana="#punctus"/> Responsio secundum legem <pc ana="#punctus"/> communem scilicet per baptismum <pc ana="#punctus"/> non <pc ana="#punctus"/> 
   					<!-- drops --> sed per privilegium gratiae potest</p>
   			</div>
   			<div xml:id="wdr-l4d6q7" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3710">Librum IV, Distinctio 6, Quaestio 7</head>
-  				<head xml:id="wdrl4d6-Hd1e3713" type="questionTitle">utrum sanctificati in utero teneatur ad baptizandum</head>
+  				<head xml:id="wdrl4d6-Hd1e3710">Liber IV, Distinctio 6, Quaestio 7</head>
+  				<head xml:id="wdrl4d6-Hd1e3713" type="question-title">utrum sanctificati in utero teneatur ad baptizandum</head>
   				<p xml:id="wdrl4d6-d1e3716"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sanc<lb ed="#P"/>tificati 
   					in utero teneatur ad baptizandum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> licet non propter remedium <pc ana="#punctus"/> tamen tenentur 
@@ -110,15 +110,15 @@
   					<choice><orig>inprimitur</orig><reg>imprimitur</reg></choice> et augmentum gratiae <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q8" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3756">Librum IV, Distinctio 6, Quaestio 8</head>
-  				<head xml:id="wdrl4d6-Hd1e3759" type="questionTitle">Utrum in baptizando requiratur fides</head>
+  				<head xml:id="wdrl4d6-Hd1e3756">Liber IV, Distinctio 6, Quaestio 8</head>
+  				<head xml:id="wdrl4d6-Hd1e3759" type="question-title">Utrum in baptizando requiratur fides</head>
   				<p xml:id="wdrl4d6-d1e3762"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in baptizando requiratur fides <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> in parvulis non <pc ana="#punctus"/> sed in adulto requiritur 
   					<lb ed="#P"/>non ad habendum sacramentum <pc ana="#punctus"/> sed rem eius <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q9" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3784">Librum IV, Distinctio 6, Quaestio 9</head>
-  				<head xml:id="wdrl4d6-Hd1e3787" type="questionTitle">utrum baptizando requiratur intentio et voluntas</head>
+  				<head xml:id="wdrl4d6-Hd1e3784">Liber IV, Distinctio 6, Quaestio 9</head>
+  				<head xml:id="wdrl4d6-Hd1e3787" type="question-title">utrum baptizando requiratur intentio et voluntas</head>
   				<p xml:id="wdrl4d6-d1e3790"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in baptizando requiratur inten<lb ed="#P"/>tio 
   					et voluntas <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in hiis <pc ana="#punctus"/> qui <pc ana="#punctus"/> 
   					<lb ed="#P"/>numquam <unclear>habuerunt</unclear> usum rationis <pc ana="#punctus"/> non requiritur <pc ana="#virgula"/> Sed 
@@ -129,16 +129,16 @@
   					<lb ed="#P"/>conditionata <pc ana="#punctus"/> <pc ana="#virgula"/> sed simplex violentia <pc ana="#punctus"/> totum irri<!-- drops -->tat <ref>extra de baptismo --&gt;</ref></p>
   			</div>
   			<div xml:id="wdr-l4d6q10" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3858">Librum IV, Distinctio 6, Quaestio 10</head>
-  				<head xml:id="wdrl4d6-Hd1e3861" type="questionTitle">Utrum baptismus debeat irritari</head>
+  				<head xml:id="wdrl4d6-Hd1e3858">Liber IV, Distinctio 6, Quaestio 10</head>
+  				<head xml:id="wdrl4d6-Hd1e3861" type="question-title">Utrum baptismus debeat irritari</head>
   				<p xml:id="wdrl4d6-d1e3864"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum baptismus de<lb ed="#P"/>beat 
   					irritari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#virgula"/> quia ca<lb ed="#P"/>racter 
   					est indelebilis <pc ana="#virgula"/> nec moribus scilicet originale 
   					<lb ed="#P"/>iteratur contra quem principaliter datur <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q11" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3889">Librum IV, Distinctio 6, Quaestio 11</head>
-  				<head xml:id="wdrl4d6-Hd1e3892" type="questionTitle">Utrum bonum sit baptismum differri usque ad ultimam aetatem</head>
+  				<head xml:id="wdrl4d6-Hd1e3889">Liber IV, Distinctio 6, Quaestio 11</head>
+  				<head xml:id="wdrl4d6-Hd1e3892" type="question-title">Utrum bonum sit baptismum differri usque ad ultimam aetatem</head>
   				<p xml:id="wdrl4d6-d1e3895"><lb ed="#P"/><pc ana="#pilcrow"/>utrum bonum sit baptismum differri <pc ana="#punctus"/> 
   					<lb ed="#P"/>usque ad ultimam aetatem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> sed 
   					<lb ed="#P"/>melius quod parvuli <pc ana="#punctus"/> propter <pc ana="#virgula"/> periculum mortis <pc ana="#punctus"/> 
@@ -146,15 +146,15 @@
   					<lb ed="#P"/>educationem <pc ana="#punctus"/> in hiis quae sunt christianae religionis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q12" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3938">Librum IV, Distinctio 6, Quaestio 12</head>
-  				<head xml:id="wdrl4d6-Hd1e3941" type="questionTitle">utrum parvuli debeant baptizari</head>
+  				<head xml:id="wdrl4d6-Hd1e3938">Liber IV, Distinctio 6, Quaestio 12</head>
+  				<head xml:id="wdrl4d6-Hd1e3941" type="question-title">utrum parvuli debeant baptizari</head>
   				<p xml:id="wdrl4d6-d1e3944"><lb ed="#P"/><pc ana="#pilcrow"/>utrum parvuli debeant baptizari 
   					<lb ed="#P"/>Responsio sic <pc ana="#punctus"/> secundum <pc ana="#punctus"/> <name ref="#Dionysius">dionysium</name> quia morbus communis parvulis 
   					<lb ed="#P"/>et adultis <pc ana="#virgula"/> et praeceptum est omnibus <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q13" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e3967">Librum IV, Distinctio 6, Quaestio 13</head>
-  				<head xml:id="wdrl4d6-Hd1e3970" type="questionTitle">Utrum catechismus baptismum praecedere</head> 
+  				<head xml:id="wdrl4d6-Hd1e3967">Liber IV, Distinctio 6, Quaestio 13</head>
+  				<head xml:id="wdrl4d6-Hd1e3970" type="question-title">Utrum catechismus baptismum praecedere</head> 
   				<p xml:id="wdrl4d6-d1e3973"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>chatecissmus</orig><reg>catechismus</reg></choice> debeat baptismum 
   					<lb ed="#P"/>praecedere Responsio sic <pc ana="#virgula"/> quia sacramentum haec 
   					<lb ed="#P"/>per virtutem fidei fit <pc ana="#punctuselevatus"/> ideo convenienter praecedit 
@@ -163,15 +163,15 @@
   					<lb ed="#P"/>ad observationem <pc ana="#punctus"/> et haec tria fiunt in <choice><orig>chatechismo</orig><reg>catechismo</reg></choice></p>
   			</div>
   			<div xml:id="wdr-l4d6q14" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e4024">Librum IV, Distinctio 6, Quaestio 14</head>
-  				<head xml:id="wdrl4d6-Hd1e4027" type="questionTitle">Utrum parvulus sit catechizandus</head>
+  				<head xml:id="wdrl4d6-Hd1e4024">Liber IV, Distinctio 6, Quaestio 14</head>
+  				<head xml:id="wdrl4d6-Hd1e4027" type="question-title">Utrum parvulus sit catechizandus</head>
   				<p xml:id="wdrl4d6-d1e4030"><lb ed="#P"/><pc ana="#pilcrow"/>utrum parvulus sit <choice><orig>cathezizandus</orig><reg>catechizandus</reg></choice> 
   					<lb ed="#P"/>Responsio sic <pc ana="#virgula"/> quia non fit ad eorum instructionem <pc ana="#virgula"/> 
   					<lb ed="#P"/>sed propter tria praedicta <pc ana="#punctus"/> quae faciunt per vicarium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d6q15" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e4056">Librum IV, Distinctio 6, Quaestio 15</head>
-  				<head xml:id="wdrl4d6-Hd1e4059" type="questionTitle">Utrum paterni sit interrogandi</head>
+  				<head xml:id="wdrl4d6-Hd1e4056">Liber IV, Distinctio 6, Quaestio 15</head>
+  				<head xml:id="wdrl4d6-Hd1e4059" type="question-title">Utrum paterni sit interrogandi</head>
   				<p xml:id="wdrl4d6-d1e4062"><lb ed="#P"/><pc ana="#pilcrow"/>utrum paterni sit interrogandi 
   					<cb ed="#P" n="110ra"/><lb ed="#P"/>Responsio sic <pc ana="#punctus"/> quia Respondent in persona parvuli <pc ana="#punctus"/> <pc ana="#virgula"/> vel 
   					<lb ed="#P"/>de sacramenti susceptione pro praesenti <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> 
@@ -179,15 +179,15 @@
   					<!-- drops --> <name ref="#Dionysius">dionysium</name></p>
   			</div>
   			<div xml:id="wdr-l4d6q16" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e4098">Librum IV, Distinctio 6, Quaestio 16</head>
-  				<head xml:id="wdrl4d6-Hd1e4101" type="questionTitle">utrum parvulo per eos obligetur</head>
+  				<head xml:id="wdrl4d6-Hd1e4098">Liber IV, Distinctio 6, Quaestio 16</head>
+  				<head xml:id="wdrl4d6-Hd1e4101" type="question-title">utrum parvulo per eos obligetur</head>
   				<p xml:id="wdrl4d6-d1e4104"><lb ed="#P"/><pc ana="#pilcrow"/>utrum parvulos per eos 
   					<lb ed="#P"/>obligetur Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> quia est votum 
   					<lb ed="#P"/>necessitatis propter <pc ana="#punctus"/> beneficium quod recepit</p>
   			</div>
   			<div xml:id="wdr-l4d6q17" type="quaestio">
-  				<head xml:id="wdrl4d6-Hd1e4124">Librum IV, Distinctio 6, Quaestio 17</head>
-  				<head xml:id="wdrl4d6-Hd1e4127" type="questionTitle">utrum exorcismus aliquid prosit</head>
+  				<head xml:id="wdrl4d6-Hd1e4124">Liber IV, Distinctio 6, Quaestio 17</head>
+  				<head xml:id="wdrl4d6-Hd1e4127" type="question-title">utrum exorcismus aliquid prosit</head>
   				<p xml:id="wdrl4d6-d1e4130"><lb ed="#P"/><pc ana="#pilcrow"/>utrum exorcismus aliquid prosit <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio sic <pc ana="#virgula"/> tamen diversae <unclear>fuerunt</unclear> opiniones aliquem 
   					<lb ed="#P"/>prodesse <pc ana="#punctus"/> sed convenienter satis dicitur secundum <name ref="#GregoryGreat">gregorium</name> <name><unclear>kab</unclear></name> et 

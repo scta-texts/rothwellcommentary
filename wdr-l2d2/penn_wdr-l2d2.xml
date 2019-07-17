@@ -6,13 +6,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum II, Distinctio 2 [Penn Transcription]</title>
+        <title>Liber II, Distinctio 2 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum II, Distinctio 2 [Penn Transcription]</title>
+          <title>Liber II, Distinctio 2 [Penn Transcription]</title>
           <date when="2017-12-11">December 11, 2017</date>
         </edition>
       </editionStmt>
@@ -56,10 +56,10 @@
     </front>
     <body>
       <div xml:id="wdr-l2d2">
-        <head>Librum II, Distinctio 2 [Penn Transcription]</head>
+        <head>Liber II, Distinctio 2 [Penn Transcription]</head>
         <div xml:id="wdr-l2d2q1" type="quaestio">
-          <head>Librum II, Distinctio 2, Quaestio 1</head>
-          <head type="questionTitle">Utrum angelus sit</head>
+          <head>Liber II, Distinctio 2, Quaestio 1</head>
+          <head type="question-title">Utrum angelus sit</head>
           <p>
             <lb ed="#P"/>Quaeritur utrum angelus sit. 
             <lb ed="#P"/>Responsio sic ut patet in scriptura ad completionem 
@@ -68,8 +68,8 @@
           </p>
         </div>
         <div xml:id="wdr-l2d2q2" type="quaestio">
-          <head>Librum II, Distinctio 2, Quaestio 2</head>
-          <head type="questionTitle">Quid sit angelis</head>
+          <head>Liber II, Distinctio 2, Quaestio 2</head>
+          <head type="question-title">Quid sit angelis</head>
           <p>
             <lb ed="#P"/><pc ana="#pilcrow"/>Quid sit angelus Responsio secundum 
             <ref><name>damascenus</name> libro ii</ref> <quote source="http://scta.info/resource/jddfo-l2c3">angelus est substantia intellectualis 

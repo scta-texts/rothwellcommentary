@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 45 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 45 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 45 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 45 [Penn Transcription]</title>
           <date when="2016-05-03">May 03, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d45">
-  			<head xml:id="wdrl1d45-Hd1e3503">Librum I, Distinctio 45 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d45-Hd1e3503">Liber I, Distinctio 45 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d45q1" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3508">Librum I, Distinctio 45, Quaestio 1</head>
-  				<head xml:id="wdrl1d45-Hd1e3511" type="questionTitle">Utrum voluntas sit in Deo</head>
+  				<head xml:id="wdrl1d45-Hd1e3508">Liber I, Distinctio 45, Quaestio 1</head>
+  				<head xml:id="wdrl1d45-Hd1e3511" type="question-title">Utrum voluntas sit in Deo</head>
   				<p xml:id="wdrl1d45-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum voluntas sit in deo <pc ana="#punctus"/> 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum scripturam <pc ana="#virgula"/> <del rend="strikethrough">not</del> <!-- something else here?? --> novum enim 
   					<lb ed="#P"/>natura in qua invenitur <unclear>cognitione</unclear> <pc ana="#punctus"/> invenitur etiam 
@@ -71,8 +71,8 @@
   					<lb ed="#P"/>omnia differunt in voluntate nostra</p>
   			</div>
   			<div xml:id="wdr-l1d45q2" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3598">Librum I, Distinctio 45, Quaestio 2</head>
-  				<head xml:id="wdrl1d45-Hd1e3601" type="questionTitle">Quid sit voluntas dei</head>
+  				<head xml:id="wdrl1d45-Hd1e3598">Liber I, Distinctio 45, Quaestio 2</head>
+  				<head xml:id="wdrl1d45-Hd1e3601" type="question-title">Quid sit voluntas dei</head>
   				<p xml:id="wdrl1d45-d1e3604"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit voluntas dei Responsio 
   					<lb ed="#P"/>voluntas proprie scilicet beneplaciti <pc ana="#virgula"/> idem est quod essentia 
   					<lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> et hoc in re <pc ana="#punctus"/> sed differt tantum 
@@ -81,8 +81,8 @@
   					<lb ed="#P"/>proprie scilicet signi etiam In re differt</p>
   			</div>
   			<div xml:id="wdr-l1d45q3" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3644">Librum I, Distinctio 45, Quaestio 3</head>
-  				<head xml:id="wdrl1d45-Hd1e3647" type="questionTitle">Respectu cuius obiecit sit</head>
+  				<head xml:id="wdrl1d45-Hd1e3644">Liber I, Distinctio 45, Quaestio 3</head>
+  				<head xml:id="wdrl1d45-Hd1e3647" type="question-title">Respectu cuius obiecit sit</head>
   				<p xml:id="wdrl1d45-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>Respectu cuius obiecti sit <pc ana="#punctus"/> Responsio 
   					<lb ed="#P"/>bonum increatum est volitum primum <pc ana="#punctus"/> et ratio 
   					<lb ed="#P"/>volendi et hoc est naturaliter volitum <pc ana="#punctus"/> <pc ana="#virgula"/> bonum autem 
@@ -90,8 +90,8 @@
   					<lb ed="#P"/>scilicet participat similitudinem boni increati <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q4" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3678">Librum I, Distinctio 45, Quaestio 4</head>
-  				<head xml:id="wdrl1d45-Hd1e3681" type="questionTitle">Utrum deus possit dici omnivolens sicut opus</head>
+  				<head xml:id="wdrl1d45-Hd1e3678">Liber I, Distinctio 45, Quaestio 4</head>
+  				<head xml:id="wdrl1d45-Hd1e3681" type="question-title">Utrum deus possit dici omnivolens sicut opus</head>
   				<p xml:id="wdrl1d45-d1e3684"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit dici omnivolens <pc ana="#punctus"/> sicut 
   					<lb ed="#P"/><unclear>opus</unclear> <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#virgula"/> quia non vult omne 
   					<lb ed="#P"/>volibile <pc ana="#punctus"/> ut sunt mala <pc ana="#punctus"/> nec omnia 
@@ -99,8 +99,8 @@
   					<lb ed="#P"/>scibilia <pc ana="#virgula"/> et possit omnia possibilia <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q5" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3724">Librum I, Distinctio 45, Quaestio 5</head>
-  				<head xml:id="wdrl1d45-Hd1e3727" type="questionTitle">Utrum voluntas divina sit proprium causa efficiens omnium</head>
+  				<head xml:id="wdrl1d45-Hd1e3724">Liber I, Distinctio 45, Quaestio 5</head>
+  				<head xml:id="wdrl1d45-Hd1e3727" type="question-title">Utrum voluntas divina sit proprium causa efficiens omnium</head>
   				<p xml:id="wdrl1d45-d1e3730"><lb ed="#P"/><pc ana="#pilcrow"/>utrum voluntas divina sit proprium 
   					<lb ed="#P"/>causa efficiens omnium <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum 
   					<lb ed="#P"/><name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> quamvis sint tres conditiones <pc ana="#punctus"/> quibus 
@@ -110,8 +110,8 @@
   					<!-- drops --> ponit effectum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q6" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3776">Librum I, Distinctio 45, Quaestio 6</head>
-  				<head xml:id="wdrl1d45-Hd1e3779" type="questionTitle">Utrum sit causa necessaria</head>
+  				<head xml:id="wdrl1d45-Hd1e3776">Liber I, Distinctio 45, Quaestio 6</head>
+  				<head xml:id="wdrl1d45-Hd1e3779" type="question-title">Utrum sit causa necessaria</head>
   				<p xml:id="wdrl1d45-d1e3782"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit causa <pc ana="#punctus"/> 
   					<lb ed="#P"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> Respondeo sic <pc ana="#punctus"/> non tamen <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> coac<lb ed="#P"/>tionis 
   					<pc ana="#punctus"/> sive <unclear>inevitabilitatis</unclear> quia numquam 
@@ -122,8 +122,8 @@
   					<lb ed="#P"/>potest esse contingens <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q7" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3844">Librum I, Distinctio 45, Quaestio 7</head>
-  				<head xml:id="wdrl1d45-Hd1e3847" type="questionTitle">Utrum sit causa propria et immediata omnium</head>
+  				<head xml:id="wdrl1d45-Hd1e3844">Liber I, Distinctio 45, Quaestio 7</head>
+  				<head xml:id="wdrl1d45-Hd1e3847" type="question-title">Utrum sit causa propria et immediata omnium</head>
   				<p xml:id="wdrl1d45-d1e3850"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit causa propria <pc ana="#punctus"/> et <sic>immedi<lb ed="#P"/>tata</sic> 
   					omnium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> propria est <pc ana="#punctus"/> quantum ad 
   					<lb ed="#P"/>productionem proprietatem <pc ana="#virgula"/> rei <pc ana="#virgula"/> sed non per appropria<lb ed="#P"/>tionem 
@@ -135,8 +135,8 @@
   			</div>
   			<!-- lacks normal division indicator -->
   			<div xml:id="wdr-l1d45q8" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3916">Librum I, Distinctio 45, Quaestio 8</head>
-  				<head xml:id="wdrl1d45-Hd1e3919" type="questionTitle">Utrum habeat aliquam causam motivam sui</head>
+  				<head xml:id="wdrl1d45-Hd1e3916">Liber I, Distinctio 45, Quaestio 8</head>
+  				<head xml:id="wdrl1d45-Hd1e3919" type="question-title">Utrum habeat aliquam causam motivam sui</head>
   				<p xml:id="wdrl1d45-d1e3922"><lb ed="#P"/><pc ana="#virgula"/><pc ana="#virgula"/>utrum habeat <pc ana="#punctus"/> 
   					<lb ed="#P"/>aliquam causam motiva sui <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
   					<lb ed="#P"/><name ref="#Augustine">augustinum</name> in littera <pc ana="#virgula"/> non <pc ana="#punctus"/> quia ipsa ut dicit <pc ana="#punctus"/> eset prima 
@@ -148,8 +148,8 @@
   					<lb ed="#P"/>volitae futura <ref>supra distinctione <unclear>42</unclear> questione 2</ref></p>
   			</div>
   			<div xml:id="wdr-l1d45q9" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e3999">Librum I, Distinctio 45, Quaestio 9</head>
-  				<head xml:id="wdrl1d45-Hd1e4002" type="questionTitle">De divisione voluntatis divinae in littera scilicet in voluntatem beneplaciti et in voluntatem signi</head>
+  				<head xml:id="wdrl1d45-Hd1e3999">Liber I, Distinctio 45, Quaestio 9</head>
+  				<head xml:id="wdrl1d45-Hd1e4002" type="question-title">De divisione voluntatis divinae in littera scilicet in voluntatem beneplaciti et in voluntatem signi</head>
   				<p xml:id="wdrl1d45-d1e4005"><lb ed="#P"/><pc ana="#pilcrow"/>De divisione voluntatis divinae 
   					<lb ed="#P"/>in littera <pc ana="#virgula"/> scilicet in voluntatem beneplaciti <pc ana="#punctus"/> 
   					<lb ed="#P"/>et in voluntatem signi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> bona 
@@ -159,16 +159,16 @@
   					<lb ed="#P"/>habere <pc ana="#virgula"/> sicut etiam dicitur <unclear>nasci</unclear> <pc ana="#virgula"/> quando punit <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q10" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e4056">Librum I, Distinctio 45, Quaestio 10</head>
-  				<head xml:id="wdrl1d45-Hd1e4059" type="questionTitle">De numero signorum voluntatis divinae</head>
+  				<head xml:id="wdrl1d45-Hd1e4056">Liber I, Distinctio 45, Quaestio 10</head>
+  				<head xml:id="wdrl1d45-Hd1e4059" type="question-title">De numero signorum voluntatis divinae</head>
   				<p xml:id="wdrl1d45-d1e4062"><lb ed="#P"/><pc ana="#pilcrow"/><lb ed="#P"/>Responsio in littera quod <num>v</num> unde <num>x</num> praecipit et 
   					<cb ed="#P" n="42rb"/><lb ed="#P"/>prohibet <pc ana="#virgula"/> permittit <pc ana="#virgula"/> consulit inplet <pc ana="#virgula"/> haec et 
   					<lb ed="#P"/>non plura a sanctis ponuntur <pc ana="#virgula"/> quia per haec 
   					<lb ed="#P"/>tantum <pc ana="#virgula"/> innotescit voluntas dei <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d45q11" type="quaestio">
-  				<head xml:id="wdrl1d45-Hd1e4097">Librum I, Distinctio 45, Quaestio 11</head>
-  				<head xml:id="wdrl1d45-Hd1e4100" type="questionTitle">Utrum sint vera signa ita quod deus semper illud velit quod significatur per illud</head>
+  				<head xml:id="wdrl1d45-Hd1e4097">Liber I, Distinctio 45, Quaestio 11</head>
+  				<head xml:id="wdrl1d45-Hd1e4100" type="question-title">Utrum sint vera signa ita quod deus semper illud velit quod significatur per illud</head>
   				<p xml:id="wdrl1d45-d1e4103"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sint vera signa <pc ana="#virgula"/> ita quod deus 
   					<lb ed="#P"/>semper illud velit <pc ana="#virgula"/> quod significatur per illdu <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> signa vera sunt <pc ana="#virgula"/> non <pc ana="#virgula"/> quia significent 

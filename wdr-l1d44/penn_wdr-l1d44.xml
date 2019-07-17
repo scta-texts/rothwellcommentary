@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 44 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 44 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 44 [Penn Transcription]</title>
+          <title>Liber I, Distinctio 44 [Penn Transcription]</title>
           <date when="2016-05-03">May 03, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l1d44">
-  			<head xml:id="wdrl1d44-Hd1e3503">Librum I, Distinctio 44 [Penn Transcription]</head>
+  			<head xml:id="wdrl1d44-Hd1e3503">Liber I, Distinctio 44 [Penn Transcription]</head>
   			<div xml:id="wdr-l1d44q1" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3508">Librum I, Distinctio 44, Quaestio 1</head>
-  				<head xml:id="wdrl1d44-Hd1e3511" type="questionTitle">Utrum deus singulas partes universi potuerint facere meliores</head>
+  				<head xml:id="wdrl1d44-Hd1e3508">Liber I, Distinctio 44, Quaestio 1</head>
+  				<head xml:id="wdrl1d44-Hd1e3511" type="question-title">Utrum deus singulas partes universi potuerint facere meliores</head>
   				<p xml:id="wdrl1d44-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus singulas partes universi <pc ana="#punctuselevatus"/> 
   					<lb ed="#P"/>potuerint facere meliores <pc ana="#punctus"/> <!-- omits Respondeo here --> Sic <pc ana="#punctus"/> <name ref="#Augustine">augustinus</name> in littera boni<lb ed="#P"/>tate 
   					scilicet accidentali <pc ana="#punctus"/> Sed non bonitate essentiali <pc ana="#punctus"/> ita quod 
@@ -66,8 +66,8 @@
   					<lb ed="#P"/>dicitur completam <pc ana="#punctus"/> licet aliam rem meliorem potuit facere</p>
   			</div>
   			<div xml:id="wdr-l1d44q2" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3553">Librum I, Distinctio 44, Quaestio 2</head>
-  				<head xml:id="wdrl1d44-Hd1e3556" type="questionTitle">Utrum totum universum potuerint facere melius</head>
+  				<head xml:id="wdrl1d44-Hd1e3553">Liber I, Distinctio 44, Quaestio 2</head>
+  				<head xml:id="wdrl1d44-Hd1e3556" type="question-title">Utrum totum universum potuerint facere melius</head>
   				<p xml:id="wdrl1d44-d1e3559"><lb ed="#P"/><pc ana="#pilcrow"/>utrum totum universum potuerit facere melius <pc ana="#punctus"/> Responsio
   					<!-- definite hand change here -->
   					<!-- <handShift/> --> <!-- uncomment when schema inlcudes handShfit -->
@@ -82,31 +82,31 @@
   					<lb ed="#P"/>essentiali <pc ana="#punctus"/> quia tunc aliud universum esset <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d44q3" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3637">Librum I, Distinctio 44, Quaestio 3</head>
-  				<head xml:id="wdrl1d44-Hd1e3640" type="questionTitle">utrum humanitas christi potuerit fieri melior</head>
+  				<head xml:id="wdrl1d44-Hd1e3637">Liber I, Distinctio 44, Quaestio 3</head>
+  				<head xml:id="wdrl1d44-Hd1e3640" type="question-title">utrum humanitas christi potuerit fieri melior</head>
   				<p xml:id="wdrl1d44-d1e3643"><lb ed="#P"/><pc ana="#pilcrow"/>utrum humanitas christi potuerit 
   					<lb ed="#P"/>fieri melior <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum se scilicet cum sit 
   					<lb ed="#P"/>creatura <pc ana="#virgula"/> quae finita est <pc ana="#punctus"/> sed inquantum unita <pc ana="#virgula"/> non <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d44q4" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3667">Librum I, Distinctio 44, Quaestio 4</head>
-  				<head xml:id="wdrl1d44-Hd1e3670" type="questionTitle">utrum beata virgine potuerit aliquid melius fieri</head>
+  				<head xml:id="wdrl1d44-Hd1e3667">Liber I, Distinctio 44, Quaestio 4</head>
+  				<head xml:id="wdrl1d44-Hd1e3670" type="question-title">utrum beata virgine potuerit aliquid melius fieri</head>
   				<p xml:id="wdrl1d44-d1e3673"><lb ed="#P"/>utrum beata virgine potuerit aliquid 
   					<lb ed="#P"/>melius <pc ana="#punctus"/> fieri <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum se scilicet sed non 
   					<lb ed="#P"/>secundum conditionem qua mater est <pc ana="#punctus"/> quia non potuit 
   					<!-- drops --> esse mater <unclear>meu?o?s</unclear></p>
   			</div>
   			<div xml:id="wdr-l1d44q5" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3700">Librum I, Distinctio 44, Quaestio 5</head>
-  				<head xml:id="wdrl1d44-Hd1e3703" type="questionTitle">utrum etiam beatitudine creata</head>
+  				<head xml:id="wdrl1d44-Hd1e3700">Liber I, Distinctio 44, Quaestio 5</head>
+  				<head xml:id="wdrl1d44-Hd1e3703" type="question-title">utrum etiam beatitudine creata</head>
   				<p xml:id="wdrl1d44-d1e3706"><lb ed="#P"/><pc ana="#pilcrow"/>utrum etiam beatitudine 
   					<lb ed="#P"/>creata <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quantum ad bonum participant 
   					<lb ed="#P"/>quod eis deus non <pc ana="#virgula"/> sed quantum ad modum participandi 
   					<!-- drops --> potuit</p>
   			</div>
   			<div xml:id="wdr-l1d44q6" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3727">Librum I, Distinctio 44, Quaestio 6</head>
-  				<head xml:id="wdrl1d44-Hd1e3730" type="questionTitle">Utrum universum potuerit facere ante quam fecit</head>
+  				<head xml:id="wdrl1d44-Hd1e3727">Liber I, Distinctio 44, Quaestio 6</head>
+  				<head xml:id="wdrl1d44-Hd1e3730" type="question-title">Utrum universum potuerit facere ante quam fecit</head>
   				<p xml:id="wdrl1d44-d1e3733"><lb ed="#P"/><pc ana="#pilcrow"/>utrum universum poteurit 
   					<lb ed="#P"/>facere ante quam fecit <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> duplex <pc ana="#punctus"/> est <pc ana="#punctus"/> quaetio <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia haec determinatio ante potest cadere sub pos<lb ed="#P"/>sibilitate 
@@ -118,16 +118,16 @@
   					<lb ed="#P"/>quia in aeternitate fieri non potuit <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d44q7" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3785">Librum I, Distinctio 44, Quaestio 7</head>
-  				<head xml:id="wdrl1d44-Hd1e3788" type="questionTitle">Utrum aliud universum facere possit</head>
+  				<head xml:id="wdrl1d44-Hd1e3785">Liber I, Distinctio 44, Quaestio 7</head>
+  				<head xml:id="wdrl1d44-Hd1e3788" type="question-title">Utrum aliud universum facere possit</head>
   				<p xml:id="wdrl1d44-d1e3791"><lb ed="#P"/><pc ana="#pilcrow"/>utrum aliud universum facere <seg type="correction">po<del rend="expunctuated">t</del>ssit <pc ana="#punctus"/></seg> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia posset alium mundum facere cum 
   					<lb ed="#P"/>isto <pc ana="#virgula"/> etiam <unclear>infinitos</unclear> <pc ana="#punctus"/> neutrum causam esset universum <pc ana="#punctus"/> 
   					<!-- drops --> secundum rationem nominis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l1d44q8" type="quaestio">
-  				<head xml:id="wdrl1d44-Hd1e3828">Librum I, Distinctio 44, Quaestio 8</head>
-  				<head xml:id="wdrl1d44-Hd1e3831" type="questionTitle">Utrum easdem partes huius universi facere possit adhuc</head>
+  				<head xml:id="wdrl1d44-Hd1e3828">Liber I, Distinctio 44, Quaestio 8</head>
+  				<head xml:id="wdrl1d44-Hd1e3831" type="question-title">Utrum easdem partes huius universi facere possit adhuc</head>
   				<p xml:id="wdrl1d44-d1e3834"><lb ed="#P"/><pc ana="#pilcrow"/>utrum easdem 
   					<lb ed="#P"/>partes huius universi facere possit adhuc 
   					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> non ex defectu potentiae sed quia res <pc ana="#punctus"/> 

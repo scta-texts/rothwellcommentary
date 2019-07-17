@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 2 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 2 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 2 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 2 [Penn Transcription]</title>
           <date when="2016-05-05">May 05, 2016</date>
         </edition>
       </editionStmt>
@@ -56,10 +56,10 @@
   	<body>
   		<!-- note; this distinction does not begin with normal "queritur" indication -->
   		<div xml:id="wdr-l4d2">
-  			<head xml:id="wdrl4d2-Hd1e3503">Librum IV, Distinctio 2 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d2-Hd1e3503">Liber IV, Distinctio 2 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d2q1" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4628">Librum IV, Distinctio 2, Quaestio 1</head>
-  				<head xml:id="wdrl4d2-Hd1e4631" type="questionTitle">Quo tempore sacramenta fuerint instituenda</head>
+  				<head xml:id="wdrl4d2-Hd1e4628">Liber IV, Distinctio 2, Quaestio 1</head>
+  				<head xml:id="wdrl4d2-Hd1e4631" type="question-title">Quo tempore sacramenta fuerint instituenda</head>
   				<p xml:id="wdrl4d2-d1e4634"><lb ed="#P"/><pc ana="#pilcrow"/>Quo tempore sacra<lb ed="#P"/>menta 
   					fuerint instituenda <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum conditio<lb ed="#P"/>nem 
   					morbi <pc ana="#punctus"/> et infirmi <pc ana="#punctus"/> diversis temporibus 
@@ -70,8 +70,8 @@
   					<lb ed="#P"/>magis prodesse <unclear>poter??vuti</unclear> <pc ana="#punctus"/> hoc etiam in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d2q2" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4693">Librum IV, Distinctio 2, Quaestio 2</head>
-  				<head xml:id="wdrl4d2-Hd1e4696" type="questionTitle">Quare tot sacramenta in nova lege et de distinctione eorum</head>
+  				<head xml:id="wdrl4d2-Hd1e4693">Liber IV, Distinctio 2, Quaestio 2</head>
+  				<head xml:id="wdrl4d2-Hd1e4696" type="question-title">Quare tot sacramenta in nova lege et de distinctione eorum</head>
   				<p xml:id="wdrl4d2-d1e4699"><lb ed="#P"/><pc ana="#pilcrow"/>Quare tot sacramenta in nova lege 
   					<lb ed="#P"/>et de distinctione eorum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sacramenta quia 
   					<lb ed="#P"/>medicinae sunt <pc ana="#virgula"/> contra defectus dantur <pc ana="#virgula"/> tria 
@@ -83,8 +83,8 @@
   					<!-- drops --> contra concupiscentiam <unclear>m?m</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d2q3" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4773">Librum IV, Distinctio 2, Quaestio 3</head>
-  				<head xml:id="wdrl4d2-Hd1e4776" type="questionTitle">Utrum omnia instituta contra defectum</head>
+  				<head xml:id="wdrl4d2-Hd1e4773">Liber IV, Distinctio 2, Quaestio 3</head>
+  				<head xml:id="wdrl4d2-Hd1e4776" type="question-title">Utrum omnia instituta contra defectum</head>
   				<p xml:id="wdrl4d2-d1e4779"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnia institu<lb ed="#P"/>ta 
   					contra defectum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> oportet enim esse aliquid propter 
   					<lb ed="#P"/>indigentiam <pc ana="#punctus"/> et deordinationem naturae <pc ana="#virgula"/> quod sen<lb ed="#P"/>sibilia 
@@ -93,16 +93,16 @@
   					<lb ed="#P"/>dicitur sive alicuius mali <pc ana="#punctus"/> sive privatio boni</p>
   			</div>
   			<div xml:id="wdr-l4d2q4" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4816">Librum IV, Distinctio 2, Quaestio 4</head>
-  				<head xml:id="wdrl4d2-Hd1e4819" type="questionTitle">Utrum sint contra defectum culpae tantum</head>
+  				<head xml:id="wdrl4d2-Hd1e4816">Liber IV, Distinctio 2, Quaestio 4</head>
+  				<head xml:id="wdrl4d2-Hd1e4819" type="question-title">Utrum sint contra defectum culpae tantum</head>
   				<p xml:id="wdrl4d2-d1e4822"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sint contra defectum cul<space unit="chars" quantity="1"/>pae tantum 
   					<lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sunt contra culpam et <unclear>sequaelam</unclear> culpae scilicet
   					<!-- possible <handShift> here back to previous hand -->
   					<cb ed="#P" n="107rb"/><lb ed="#P"/><choice><orig>penam</orig><reg>poenam</reg></choice> <pc ana="#virgula"/> ad modum medicinarum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d2q5" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4854">Librum IV, Distinctio 2, Quaestio 5</head>
-  				<head xml:id="wdrl4d2-Hd1e4857" type="questionTitle">Utrum antiqua sacramenta debuerint mutari in nova lege</head>
+  				<head xml:id="wdrl4d2-Hd1e4854">Liber IV, Distinctio 2, Quaestio 5</head>
+  				<head xml:id="wdrl4d2-Hd1e4857" type="question-title">Utrum antiqua sacramenta debuerint mutari in nova lege</head>
   				<p xml:id="wdrl4d2-d1e4860"><lb ed="#P"/><pc ana="#pilcrow"/>utrum antiqua sacramenta debuerint mutari 
   					<lb ed="#P"/>in nova lege <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> manente immobilis consilio me 
   					<lb ed="#P"/>dici <pc ana="#virgula"/> secundum diversas conditiones morbi <pc ana="#punctus"/> et infirmi <pc ana="#punctus"/> 
@@ -110,8 +110,8 @@
   					<!-- drops --> <ref><unclear>c</unclear> quaestione 1</ref></p>
   			</div>
   			<div xml:id="wdr-l4d2q6" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4896">Librum IV, Distinctio 2, Quaestio 6</head>
-  				<head xml:id="wdrl4d2-Hd1e4899" type="questionTitle">Utrum baptismus <name ref="#JohnTheBaptist">Iohannis</name> fuerit sacramentum</head>
+  				<head xml:id="wdrl4d2-Hd1e4896">Liber IV, Distinctio 2, Quaestio 6</head>
+  				<head xml:id="wdrl4d2-Hd1e4899" type="question-title">Utrum baptismus <name ref="#JohnTheBaptist">Iohannis</name> fuerit sacramentum</head>
   				<p xml:id="wdrl4d2-d1e4905"><lb ed="#P"/><pc ana="#pilcrow"/>utrum baptismus <name ref="#JohnTheBaptist">Iohannis</name> 
   					<lb ed="#P"/>fuerit sacramentum <pc ana="#punctus"/> Responsio large loquendo <pc ana="#punctus"/> sic 
   					<lb ed="#P"/>quia sacra rei signum scilicet baptismus christi sed stricte <pc ana="#punctus"/> non <pc ana="#punctus"/> 
@@ -120,8 +120,8 @@
   					ut circumcisio <unclear>oduct?r</unclear> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d2q7" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e4948">Librum IV, Distinctio 2, Quaestio 7</head>
-  				<head xml:id="wdrl4d2-Hd1e4951" type="questionTitle">A quo fuit institutus</head>
+  				<head xml:id="wdrl4d2-Hd1e4948">Liber IV, Distinctio 2, Quaestio 7</head>
+  				<head xml:id="wdrl4d2-Hd1e4951" type="question-title">A quo fuit institutus</head>
   				<p xml:id="wdrl4d2-d1e4954"><lb ed="#P"/><pc ana="#pilcrow"/>A quo <pc ana="#punctus"/> fuit in<lb ed="#P"/>stitutus 
   					<pc ana="#punctus"/> Responsio a deo non expresse <pc ana="#virgula"/> sed <unclear>occulte</unclear> per 
   					<lb ed="#P"/>ministrum scilicet <name ref="#JohnTheBaptist">Iohannem</name> <pc ana="#punctus"/> qui non solum fuit minister 
@@ -130,22 +130,22 @@
   					<!-- drops --> <unclear>tria</unclear> dictus est <name ref="#JohnTheBaptist">Iohanni</name> baptismus</p>
   			</div>
   			<div xml:id="wdr-l4d2q8" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e5006">Librum IV, Distinctio 2, Quaestio 8</head>
-  				<head xml:id="wdrl4d2-Hd1e5009" type="questionTitle">Utrum confertur gratiam</head>
+  				<head xml:id="wdrl4d2-Hd1e5006">Liber IV, Distinctio 2, Quaestio 8</head>
+  				<head xml:id="wdrl4d2-Hd1e5009" type="question-title">Utrum confertur gratiam</head>
   				<p xml:id="wdrl4d2-d1e5012"><lb ed="#P"/>Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia ad hoc non fuit institutus 
   					<lb ed="#P"/>sed ad praefigurandum baptismum christi et <unclear>assuere</unclear> faciendum 
   					<lb ed="#P"/>homines ad baptismum <pc ana="#punctus"/> de haec causae in littera <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d2q9" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e5034">Librum IV, Distinctio 2, Quaestio 9</head>
-  				<head xml:id="wdrl4d2-Hd1e5037" type="questionTitle">Utrum imprimebat caracterem</head>
+  				<head xml:id="wdrl4d2-Hd1e5034">Liber IV, Distinctio 2, Quaestio 9</head>
+  				<head xml:id="wdrl4d2-Hd1e5037" type="question-title">Utrum imprimebat caracterem</head>
   				<p xml:id="wdrl4d2-d1e5040"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>inprimebat</orig><reg>imprimebat</reg></choice> <choice><orig>karacterem</orig><reg>caracterem</reg></choice> <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non quia totum effectum suum habuit exterius 
   					<!-- drops --> in corpore et non in spiritu</p>
   			</div>
   			<div xml:id="wdr-l4d2q10" type="quaestio">
-  				<head xml:id="wdrl4d2-Hd1e5070">Librum IV, Distinctio 2, Quaestio 10</head>
-  				<head xml:id="wdrl4d2-Hd1e5073" type="questionTitle">utrum baptismati baptismo <name ref="#JohnTheBaptist">Iohannis</name> iterato debuerint baptizari baptismo christi</head>
+  				<head xml:id="wdrl4d2-Hd1e5070">Liber IV, Distinctio 2, Quaestio 10</head>
+  				<head xml:id="wdrl4d2-Hd1e5073" type="question-title">utrum baptismati baptismo <name ref="#JohnTheBaptist">Iohannis</name> iterato debuerint baptizari baptismo christi</head>
   				<p xml:id="wdrl4d2-d1e5079"><lb ed="#P"/><pc ana="#pilcrow"/>utrum baptismati <pc ana="#punctus"/> 
   					<lb ed="#P"/>baptismo <name ref="#JohnTheBaptist">Iohannis</name> iterato debuerint baptizari 
   					<lb ed="#P"/>baptismo christo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex <pc ana="#punctus"/> fuit opinio <pc ana="#punctus"/> una <pc ana="#punctus"/> 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 1 [Copenhagen, GKS 1363 Transcription]</title>
+        <title>Liber IV, Distinctio 1 [Copenhagen, GKS 1363 Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.09-dev-master">
-          <title>Librum IV, Distinctio 1 [Copenhagen Transcription]</title>
+          <title>Liber IV, Distinctio 1 [Copenhagen Transcription]</title>
           <date when="2015-09-09">September 09, 2015</date>
         </edition>
       </editionStmt>
@@ -97,9 +97,9 @@
     </front>
     <body>
       <div xml:id="wdr-l4d1">
-        <head>Librum IV, Distinctio 1 [Copenhagen, GKS 1363 Transcription]</head>
+        <head>Liber IV, Distinctio 1 [Copenhagen, GKS 1363 Transcription]</head>
         <div xml:id="wdr-l4d1q1" type="quaestio">
-          <head type="questionTitle">Quid sit sacramentum</head>
+          <head type="question-title">Quid sit sacramentum</head>
           <p xml:id="wdrl4d1-qqspeh"><cb ed="#D" n="1ra"/><lb ed="#D"/>Quaeritur quid sit 
             <lb ed="#D"/>sacramentum Responsio <name ref="#Augustine">augustinus</name> 
             <lb ed="#D"/><title ref="#CityOfGod">de civitate dei</title> et 
@@ -126,7 +126,7 @@
             <lb ed="#D"/>passio et huiusmodi <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q2" type="quaestio">
-          <head type="questionTitle">Ex quibus sacramentum consistit</head>
+          <head type="question-title">Ex quibus sacramentum consistit</head>
           <p xml:id="wdrl4d1-eqcsop"><lb ed="#D"/><g ref="#pilcrow"/>Ex quibus consistit Responsio in littera 
             <lb ed="#D"/>ex duobus scilicet rebus sensibili<lb ed="#D"/>bus 
             <g ref="#dot"/> primum est <unclear>contrariae</unclear> etiam veteribus secundum speciale 
@@ -136,14 +136,14 @@
             <lb ed="#D"/>obtinent principatum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q3" type="quaestio">
-          <head type="questionTitle">Quare sint instituta</head>
+          <head type="question-title">Quare sint instituta</head>
           <p xml:id="wdrl4d1-qsieam"><g ref="#pilcrow"/>Quare sint instituta Responsio 
             <lb ed="#D"/>in littera <g ref="#dot"/> ponitur triplex utilitas 
             <lb ed="#D"/>scilicet humiliatio eruditio <g ref="#dot"/> ex<lb ed="#D"/>ercitio 
             <g ref="#dot"/> Item adunatio in unum cultum <g ref="#dot"/> et <sic>agnito</sic> mutua</p>
         </div>
         <div xml:id="wdr-l4d1q4" type="quaestio">
-          <head type="questionTitle">utrum esse signum sit essentiale sacramento Responsio sic</head>
+          <head type="question-title">utrum esse signum sit essentiale sacramento Responsio sic</head>
           <p xml:id="wdrl4d1-uesagi"><lb ed="#D"/><g ref="#pilcrow"/>Utrum esse 
             <lb ed="#D"/>signum sit essentiale sacramento Responsio 
             <lb ed="#D"/>sic quia patet per diffinitiones <g ref="#dot"/> quia sa<lb ed="#D"/>cramenta 
@@ -155,20 +155,20 @@
             <lb ed="#D"/>interius <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q5" type="quaestio">
-          <head type="questionTitle">Utrum sacramenta novae legis contineant gratiam</head>
+          <head type="question-title">Utrum sacramenta novae legis contineant gratiam</head>
           <p xml:id="wdrl4d1-usnpqc"><lb ed="#D"/><g ref="#pilcrow"/>Utrum sacramenta novae 
             <lb ed="#D"/>legis continent <!-- omits the word gratiam --> Responsio proprie lo<lb ed="#D"/>quendo 
             non continent sed <choice><orig>methaphorice</orig><reg>metaphorice</reg></choice> 
             <lb ed="#D"/>scilicet per quadam consequentiam <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q6" type="quaestio">
-          <head type="questionTitle">Utrum efficiant gratiam</head>
+          <head type="question-title">Utrum efficiant gratiam</head>
           <!-- no break here; not recognized as another question -->
           <p xml:id="wdrl4d1-uegueg">utrum 
             <lb ed="#D"/>efficiant gratiam</p>
         </div>
         <div xml:id="wdr-l4d1q7" type="quaestio">
-          <head type="questionTitle">Utrum aliqua vis insit eis ad causandum gratiam</head>
+          <head type="question-title">Utrum aliqua vis insit eis ad causandum gratiam</head>
           <p xml:id="wdrl4d1-uavcte"><lb ed="#D"/><g ref="#pilcrow"/>Utrum aliqua vis insit eis 
             <lb ed="#D"/>ad <sic>dictum dum</sic> <g ref="#dot"/> Non efficiunt 
             <lb ed="#D"/>principaliter sed instrumentaliter id est <choice><orig>a<lb ed="#D"/>miniculando</orig><reg>ad<lb ed="#D"/>miniculando</reg></choice> 
@@ -183,7 +183,7 @@
             <lb ed="#D"/>tangat etc <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q8" type="quaestio">
-          <head type="questionTitle">Unde insit eis illa virtus</head>
+          <head type="question-title">Unde insit eis illa virtus</head>
           <p xml:id="wdrl4d1-uiecpc"><lb ed="#D"/><g ref="#pilcrow"/>unde insit eis illa virtus Responsio 
             <lb ed="#D"/>a passione christi ut dicit <ref><title>glossa Romanos</title> 
               <num>v</num></ref> et <ref><title ref="#io">ioannes</title> 19</ref> tamquam a causa meri<lb ed="#D"/>toria 
@@ -192,7 +192,7 @@
             modo conformatur passioni christi <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q9" type="quaestio">
-          <head type="questionTitle">Utrum sacramenta veteris legis iustificabant</head>
+          <head type="question-title">Utrum sacramenta veteris legis iustificabant</head>
           <p xml:id="wdrl4d1-usvqum"><lb ed="#D"/><g ref="#pilcrow"/>utrum sacramenta veteris legis 
             <lb ed="#D"/>iustificabant Responsio sic quantum 
             <lb ed="#D"/>ad opus operans quod est <sic>de numero</sic> 
@@ -202,7 +202,7 @@
             modo <g ref="#dot"/> sed <g ref="#dot"/> <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> quod utroque modo <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q10" type="quaestio">
-          <head type="questionTitle">Utrum eadem gratiam sit in virtutibus et sacramentis</head>
+          <head type="question-title">Utrum eadem gratiam sit in virtutibus et sacramentis</head>
           <p xml:id="wdrl4d1-uegsis"><lb ed="#D"/><g ref="#pilcrow"/>Utrum eadem gratiam sit in virtu<lb ed="#D"/>tibus 
             et sacramentis Responsio sicut 
             <lb ed="#D"/>una est anima diversae potentiae ita 
@@ -214,7 +214,7 @@
             secundum in sacramentis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q11" type="quaestio">
-          <head type="questionTitle">An fides parentum valebat parvulis ad remissionem peccati originalis ante circumcisionem</head>
+          <head type="question-title">An fides parentum valebat parvulis ad remissionem peccati originalis ante circumcisionem</head>
           <p xml:id="wdrl4d1-afphea"><lb ed="#D"/><g ref="#pilcrow"/>An fides parentum vale<cb ed="#D" n="1vb"/><lb ed="#D"/>bat 
             parvulis ad remissionem 
             <lb ed="#D"/>peccati originalis ante circumci<lb ed="#D"/>sionem 
@@ -231,14 +231,14 @@
             propria <g ref="#dot"/> quia habuit etiam actualia <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q12" type="quaestio">
-          <head type="questionTitle">Utrum requirebatur fides formata</head>
+          <head type="question-title">Utrum requirebatur fides formata</head>
           <p xml:id="wdrl4d1-urfepo"><lb ed="#D"/><g ref="#pilcrow"/>Utrum requirebatur 
             <lb ed="#D"/>fides formata Responsio non quia non 
             <lb ed="#D"/>habet virtutem salvandi ex par<lb ed="#D"/>te 
             subiecti <g ref="#dot"/> sed ex parte obiecti <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q13" type="quaestio">
-          <head type="questionTitle">An sufficiebat fides sine motu</head>
+          <head type="question-title">An sufficiebat fides sine motu</head>
           <p xml:id="wdrl4d1-asfshp"><lb ed="#D"/><g ref="#pilcrow"/>An sufficiebat fides sine 
             <lb ed="#D"/>motu Responsio non quia fides o<lb ed="#D"/>perabatur 
             per modum meriti sal<lb ed="#D"/>tem 
@@ -250,7 +250,7 @@
             hunc parvulum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q14" type="quaestio">
-          <head type="questionTitle">Utrum suffecerit motus interior sine signo exteriori</head>
+          <head type="question-title">Utrum suffecerit motus interior sine signo exteriori</head>
           <p xml:id="wdrl4d1-usmsqi"><lb ed="#D"/><g ref="#pilcrow"/>Utrum suffecerit motus 
             <lb ed="#D"/>interior sine signo exterio<lb ed="#D"/>ri 
             Responsio quidam dicunt quod non nec 
@@ -260,7 +260,7 @@
             <g ref="#dot"/> unde <name ref="#GregoryGreat">gregorius</name> supra quaestionem <num>ii</num> <!-- something possibly added below --></p>
         </div>
         <div xml:id="wdr-l4d1q15" type="quaestio">
-          <head type="questionTitle">Utrum in adultis esset necessaria virtus sacrificii</head>
+          <head type="question-title">Utrum in adultis esset necessaria virtus sacrificii</head>
           <p xml:id="wdrl4d1-uiapso"><lb ed="#D"/><g ref="#pilcrow"/>Utrum in adultis 
             <lb ed="#D"/>esset <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> virtus sacrificii Responsio 
             <lb ed="#D"/>Duae sunt opiniones <ref type="commentary" target="http://scta.info/resource/wdr-l4d1q14">ut su<lb ed="#D"/>pra quaestionem 14</ref> unde secunda dicit quod tantum e<lb ed="#D"/>rat 
@@ -272,7 +272,7 @@
             <lb ed="#D"/>quam propter salutem obtinendam <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q16" type="quaestio">
-          <head type="questionTitle">Quare fuerit instituta circumcisio</head>
+          <head type="question-title">Quare fuerit instituta circumcisio</head>
           <p xml:id="wdrl4d1-qfiffx"><lb ed="#D"/><g ref="#pilcrow"/>Quare fuerit instituta circumcisio <g ref="#dot"/> 
             <lb ed="#D"/>Responsio in remedium quod contulit 
             <lb ed="#D"/>et ostendit et in signum quasi carnali 
@@ -283,13 +283,13 @@
             <lb ed="#D"/>haec ex <ref><title>glossa genese</title> <num>xvii</num></ref></p>
         </div>
         <div xml:id="wdr-l4d1q17" type="quaestio">
-          <head type="questionTitle">Quare ante legem fuerit data</head>
+          <head type="question-title">Quare ante legem fuerit data</head>
           <p xml:id="wdrl4d1-qallde"><lb ed="#D"/><g ref="#pilcrow"/>Quare ante legem data Responsio 
             <lb ed="#D"/>ut per eam populus congregaretur 
             <lb ed="#D"/>cui lex danda erat <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q18" type="quaestio">
-          <head type="questionTitle">Quibus est data</head>
+          <head type="question-title">Quibus est data</head>
           <p xml:id="wdrl4d1-qednfc"><lb ed="#D"/><g ref="#pilcrow"/>Quibus est data Responsio illis de 
             <lb ed="#D"/>quibus christus nasciturus erat <g ref="#dot"/> quia 
             <lb ed="#D"/>eos decebat specialis sanctifi<cb ed="#D" n="2rb"/><lb ed="#D"/>catio 
@@ -300,7 +300,7 @@
             in quibus <!-- small homoeteleuton here at "filii" --> mansit lex <g ref="#dot"/> non filii <!-- drops line -->carnis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q19" type="quaestio">
-          <head type="questionTitle">Quae requiruntur ad integritatem eius</head>
+          <head type="question-title">Quae requiruntur ad integritatem eius</head>
           <p xml:id="wdrl4d1-qrahfp"><lb ed="#D"/><g ref="#pilcrow"/>Quae requiruntur 
             <lb ed="#D"/>ad integritatem eius Responsio secundum <name ref="#HughOfStVictor">hugo</name> <g ref="#dot"/> 
             <lb ed="#D"/>tria scilicet <corr>ma<add place="aboveLine">s</add>culus</corr> caro praeputii <g ref="#dot"/> 
@@ -314,7 +314,7 @@
             <lb ed="#D"/>fidem parentum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q20" type="quaestio">
-          <head type="questionTitle">Utrum in ea remittebatur culpa</head>
+          <head type="question-title">Utrum in ea remittebatur culpa</head>
           <p xml:id="wdrl4d1-uiedtp"><lb ed="#D"/><g ref="#pilcrow"/>utrum in ea remittebatur 
             <lb ed="#D"/>culpa Responsio in littera secundum <g ref="#dot"/> <name ref="#Augustine">augustinum</name> <g ref="#dot"/> 
             <lb ed="#D"/>et <name ref="#Jerome">Ieromus</name> <g ref="#dot"/> quod sic <g ref="#dot"/> sed principaliter 
@@ -322,7 +322,7 @@
             <lb ed="#D"/>non tamen debitum temporalis <choice><orig>penae</orig><reg>poenae</reg></choice> <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q21" type="quaestio">
-          <head type="questionTitle">Utrum gratiam conferebat</head>
+          <head type="question-title">Utrum gratiam conferebat</head>
           <p xml:id="wdrl4d1-ugcqcm"><lb ed="#D"/><g ref="#pilcrow"/>utrum gratiam conferebat Responsio 
             <lb ed="#D"/>plures sunt opiniones <g ref="#dot"/> sed communis 
             <lb ed="#D"/>est quod sic simpliciter inquantum scilicet gratia est 
@@ -333,14 +333,14 @@
             <lb ed="#D"/>quia conferebat modicam <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q22" type="quaestio">
-          <head type="questionTitle">Utrum imprimebat caracterem</head>
+          <head type="question-title">Utrum imprimebat caracterem</head>
           <p xml:id="wdrl4d1-uicstc"><cb ed="#D" n="2va"/><lb ed="#D"/><g ref="#pilcrow"/>utrum imprimebat caracterem 
             <lb ed="#D"/>Responsio non quia status illius populi carna<lb ed="#D"/>lis 
             erat <g ref="#dot"/> et ideo non habuit carac<lb ed="#D"/>terem 
             spiritualem <g ref="#dot"/> sed tantum carnalem <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l4d1q23" type="quaestio">
-          <head type="questionTitle">Utrum mutari debuerit in baptismum</head>
+          <head type="question-title">Utrum mutari debuerit in baptismum</head>
           <p xml:id="wdrl4d1-umdeis"><g ref="#pilcrow"/>Utrum mutari debuerit 
             <lb ed="#D"/>in baptismo Responsio sic quia baptismus perfecti<lb ed="#D"/>or 
             est <g ref="#dot"/> unde <name ref="#Augustine">augustinus</name> dicit quod alia insti<lb ed="#D"/>tuta 

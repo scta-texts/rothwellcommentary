@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 34 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 34 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 34 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 34 [Penn Transcription]</title>
           <date when="2016-05-19">May 19, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d34">
-  			<head xml:id="wdrl4d34-Hd1e3503">Librum IV, Distinctio 34 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d34-Hd1e3503">Liber IV, Distinctio 34 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d34q1" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3508">Librum IV, Distinctio 34, Quaestio 1</head>
-  				<head xml:id="wdrl4d34-Hd1e3511" type="questionTitle">Utrum matrimonium possit habere aliqua impedimenta</head>
+  				<head xml:id="wdrl4d34-Hd1e3508">Liber IV, Distinctio 34, Quaestio 1</head>
+  				<head xml:id="wdrl4d34-Hd1e3511" type="question-title">Utrum matrimonium possit habere aliqua impedimenta</head>
   				<p xml:id="wdrl4d34-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum matrimonium <pc ana="#punctus"/> 
   					<lb ed="#P"/>possit habere aliqua <choice><orig>inpedimenta</orig><reg>impedimenta</reg></choice> <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia non solum in divinis <pc ana="#punctus"/> 
@@ -79,8 +79,8 @@
   					<lb ed="#P"/>vetant <pc ana="#virgula"/> connubia iuncta <pc ana="#virgula"/> connubia iuncta retractat <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d34q2" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3683">Librum IV, Distinctio 34, Quaestio 2</head>
-  				<head xml:id="wdrl4d34-Hd1e3686" type="questionTitle">Utrum frigiditas impediat</head>
+  				<head xml:id="wdrl4d34-Hd1e3683">Liber IV, Distinctio 34, Quaestio 2</head>
+  				<head xml:id="wdrl4d34-Hd1e3686" type="question-title">Utrum frigiditas impediat</head>
   				<p xml:id="wdrl4d34-d1e3689"><lb ed="#P"/><pc ana="#pilcrow"/>utrum frigiditas <choice><orig>inpediat</orig><reg>impediat</reg></choice> <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> si praecedat matrimonium quia nemo 
   					<cb ed="#P" n="128rb"/><lb ed="#P"/>se potest obligare ad inpossibile <pc ana="#punctus"/> <pc ana="#virgula"/> In<lb ed="#P"/>tellige 
@@ -90,8 +90,8 @@
   					<lb ed="#P"/>sperari debeant <pc ana="#virgula"/> quaere <pc ana="#punctus"/> in summis</p>
   			</div>
   			<div xml:id="wdr-l4d34q3" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3754">Librum IV, Distinctio 34, Quaestio 3</head>
-  				<head xml:id="wdrl4d34-Hd1e3757" type="questionTitle">Utrum <unclear>arcatio</unclear> impediat</head>
+  				<head xml:id="wdrl4d34-Hd1e3754">Liber IV, Distinctio 34, Quaestio 3</head>
+  				<head xml:id="wdrl4d34-Hd1e3757" type="question-title">Utrum <unclear>arcatio</unclear> impediat</head>
   				<p xml:id="wdrl4d34-d1e3763"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <unclear>arcatio</unclear> <choice><orig>inpediat</orig><reg>impediat</reg></choice> <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia non potest se obligare ad impossibile 
   					<lb ed="#P"/>hoc autem intellige <pc ana="#virgula"/> si tanta est quod non potest 
@@ -101,8 +101,8 @@
   					<!-- drops --> si non <pc ana="#punctus"/> non debet reddi</p>
   			</div>
   			<div xml:id="wdr-l4d34q4" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3813">Librum IV, Distinctio 34, Quaestio 4</head>
-  				<head xml:id="wdrl4d34-Hd1e3816" type="questionTitle">Utrum maleficium impediat</head>
+  				<head xml:id="wdrl4d34-Hd1e3813">Liber IV, Distinctio 34, Quaestio 4</head>
+  				<head xml:id="wdrl4d34-Hd1e3816" type="question-title">Utrum maleficium impediat</head>
   				<p xml:id="wdrl4d34-d1e3819"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/><choice><sic>maleficiat</sic><corr>maleficium</corr></choice> impediat <pc ana="#virgula"/> Responsio convenienter <pc ana="#punctus"/> 
   					<lb ed="#P"/>dicitur quod sic <pc ana="#virgula"/> dummodo sit perpetuum <pc ana="#punctus"/> quod iudi<lb ed="#P"/>catur 
@@ -112,16 +112,16 @@
   					<lb ed="#P"/>temporale fuit <pc ana="#virgula"/> <choice><orig>inpedimentum</orig><reg>impedimentum</reg></choice></p>
   			</div>
   			<div xml:id="wdr-l4d34q5" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3875">Librum IV, Distinctio 34, Quaestio 5</head>
-  				<head xml:id="wdrl4d34-Hd1e3878" type="questionTitle">Utrum furia impediat</head>
+  				<head xml:id="wdrl4d34-Hd1e3875">Liber IV, Distinctio 34, Quaestio 5</head>
+  				<head xml:id="wdrl4d34-Hd1e3878" type="question-title">Utrum furia impediat</head>
   				<p xml:id="wdrl4d34-d1e3881"><lb ed="#P"/><pc ana="#pilcrow"/>utrum furia impediat <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
   					<lb ed="#P"/>sic <pc ana="#virgula"/> si praecedit matrimonium non habet lucida inter 
   					<lb ed="#P"/>valla <pc ana="#punctus"/> in quibus contrahere potest <pc ana="#punctus"/> Si autem 
   					<lb ed="#P"/>sequitur <pc ana="#virgula"/> matrimonium <pc ana="#punctus"/> non <pc ana="#virgula"/> dirimit ipsum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d34q6" type="quaestio">
-  				<head xml:id="wdrl4d34-Hd1e3914">Librum IV, Distinctio 34, Quaestio 6</head>
-  				<head xml:id="wdrl4d34-Hd1e3917" type="questionTitle">Utrum incestus cum sorore uxoris dirimat matrimonium</head>
+  				<head xml:id="wdrl4d34-Hd1e3914">Liber IV, Distinctio 34, Quaestio 6</head>
+  				<head xml:id="wdrl4d34-Hd1e3917" type="question-title">Utrum incestus cum sorore uxoris dirimat matrimonium</head>
   				<p xml:id="wdrl4d34-d1e3920"><lb ed="#P"/><pc ana="#pilcrow"/>utrum incestus cum sorore uxoris 
   					<lb ed="#P"/>dirimat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>sic committitur ante matrimonium <pc ana="#punctus"/> id est si in<lb ed="#P"/>cestus 

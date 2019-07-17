@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 6 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 6 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 6 [Penn Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 6 [Penn Transcription]</title>
           <date when="2015-07-05">July 05, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-07-05">July 05, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,38 +24,37 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-05" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-07-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="26-r"/>
+        <cb ed="#P" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="wdr-l1d6">
-        <head>Librum I, Distinctio 6 [Penn Transcription]</head>
+        <head xml:id="wdr-l1d6-Hd1e97">Liber I, Distinctio 6 [Penn Transcription]</head>
         <div xml:id="wdr-l1d6q1" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium necessitate</head>
+          <head xml:id="wdr-l1d6-Hd1e102" type="question-title">Utrum Pater genuerit Filium necessitate</head>
           <!-- this would be a good pargraph to tag with the subject tag of neccessitas because there is a significant discussion of the term here -->
-          <p><lb ed="#P"/>Queritur utrum pater genuerit 
+          <p xml:id="wdr-l1d6-d1e107">
+            <lb ed="#P" n="22"/>Queritur utrum pater genuerit 
             <lb ed="#P"/>filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio secundum <name ref="#Aristotle">philosophum</name> V <title ref="#Metaphysics">metaphysicae</title> et <name ref="#Averroes">commentatorem</name> 
             <lb ed="#P"/><mentioned><choice><orig>neccessarium</orig><reg>necessarium</reg></choice></mentioned> dicitur uno modo quod omnino et per se <corr><del rend="strikethrough">inm</del></corr> est immutabile 
             <lb ed="#P"/>et hoc tantum simpliciter est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> alio modo <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> indigentiae 
@@ -69,44 +63,56 @@
             <lb ed="#P"/>ut solem lucem <g ref="#dot"/> <g ref="#slash"/> <!--fancy slash --> primo modo pater filium genuerit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> 
             <lb ed="#P"/>sed non aliis modis <g ref="#dot"/> <g ref="#slash"/> tamen quia <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> communiter sonat in 
             <lb ed="#P"/>coactionem vel indigentiam et sic etiam haeretici ac<lb ed="#P"/>cipiebant 
-            ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name></p>
+            ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name>
+          </p>
         </div>
         <div xml:id="wdr-l1d6q2" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium voluntate</head>
+          <head xml:id="wdr-l1d6-Hd1e214" type="question-title">Utrum Pater genuerit Filium voluntate</head>
           <!-- subject tag for "voluntas" -->
-          <p><lb ed="#P"/><g ref="#pilcrow"/>utrum genuerit eum voluntate Responsio 
+          <p xml:id="wdr-l1d6-d1e219">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum genuerit eum voluntate Responsio 
             <lb ed="#P"/>quadruplex est voluntas scilicet antecedens <g ref="#dot"/> <corr>acce<del rend="expunctuated">n</del>dens</corr> <g ref="#dot"/> 
-            <cb ed="#P" n="26va"/><lb ed="#P"/>concomitans <g ref="#dot"/> et consequens <g ref="#dot"/> per primam placet opus fiendum <g ref="#dot"/> <g ref="#slash"/> ante<lb ed="#P"/>quam 
+            <pb ed="#P" n="26-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>concomitans <g ref="#dot"/> et consequens <g ref="#dot"/> per primam placet opus fiendum <g ref="#dot"/> <g ref="#slash"/> ante<lb ed="#P"/>quam 
             fiat <g ref="#dot"/> <sic>perfectam</sic> volumus aliquid quod ante non voluimus <g ref="#slash"/> ut 
             <lb ed="#P"/>dicitur in littera <g ref="#dot"/> per tertiam placet dum fit <g ref="#dot"/> per quartam <g ref="#slash"/> dum 
             <lb ed="#P"/>factum est <g ref="#dot"/> prima est in deo <g ref="#slash"/> tantum idem creaturarum <g ref="#dot"/> secunda respectu nullius 
             <lb ed="#P"/>tertia respectu omnium quae ab ipso procedunt <g ref="#dot"/> similiter et quarta <g ref="#dot"/> sic ergo 
             <lb ed="#P"/>posset concedi scilicet de tertia voluntate quod voluntate eum 
-            <lb ed="#P"/>genuerit <g ref="#slash"/> sed quia haeretici pro voluntate antecedente ac<!-- drops to next line -->ceperunt  <g ref="#slash"/> ideo negatur ab <name ref="#Augustine">augustino</name> in littera</p>
+            <lb ed="#P"/>genuerit <g ref="#slash"/> sed quia haeretici pro voluntate antecedente ac<!-- drops to next line -->ceperunt  <g ref="#slash"/> ideo negatur ab <name ref="#Augustine">augustino</name> in littera
+          </p>
         </div>
         <div xml:id="wdr-l1d6q3" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium natura</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit eum 
-            <lb ed="#P"/>natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit <name ref="#Augustine">augustinus</name> in littera <!-- drops to next line --> quia generare est actus naturae <g ref="#dot"/></p>
+          <head xml:id="wdr-l1d6-Hd1e303" type="question-title">Utrum Pater genuerit Filium natura</head>
+          <p xml:id="wdr-l1d6-d1e306">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit eum 
+            <lb ed="#P"/>natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit <name ref="#Augustine">augustinus</name> in littera <!-- drops to next line --> quia generare est actus naturae <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d6q4" type="quaestio">
-          <head type="questionTitle">Utrum Pater genuerit Filium secundum rationem exemplaris vel ideae</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit 
+          <head xml:id="wdr-l1d6-Hd1e329" type="question-title">Utrum Pater genuerit Filium secundum rationem exemplaris vel ideae</head>
+          <p xml:id="wdr-l1d6-d1e332">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit 
             <lb ed="#P"/>eum secundum rationem <sic>exemplaris</sic> vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> 
             <lb ed="#P"/>Responsio aliquid procedere secundum rationem exemplaris vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> dupliciter 
             <lb ed="#P"/>potest intelligi <g ref="#dot"/> vel ut exemplatum <g ref="#dot"/> vel ut ratio exemplandi alia <g ref="#dot"/> <g ref="#slash"/> 
             <lb ed="#P"/>primo modo procedit creatura <g ref="#dot"/> secundum modo filius ut <name ref="#Augustine">augustinus</name> <g ref="#dot"/> qui ne<lb ed="#P"/>gat 
-            <choice><orig>ydeas</orig><reg>ideas</reg></choice> esse <g ref="#slash"/> negat filium dei esse <g ref="#dot"/></p>
+            <choice><orig>ydeas</orig><reg>ideas</reg></choice> esse <g ref="#slash"/> negat filium dei esse <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d6q5" type="quaestio">
-          <head type="questionTitle">Utrum Pater et Filius spirent Spiritum Sanctum voluntate vel necessitate</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate 
+          <head xml:id="wdr-l1d6-Hd1e395" type="question-title">Utrum Pater et Filius spirent Spiritum Sanctum voluntate vel necessitate</head>
+          <p xml:id="wdr-l1d6-d1e398">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate 
             <lb ed="#P"/>vel <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio triplex est productio a natura vel a voluntate 
             <lb ed="#P"/>scilicet ante solum <g ref="#dot"/> sic filius <g ref="#dot"/> <g ref="#slash"/> vel a voluntate solum <g ref="#dot"/> 
             <lb ed="#P"/>sic creatura <g ref="#dot"/> vel ab utroque simul <g ref="#slash"/> sic spiritus sanctus <g ref="#dot"/> quia 
             <lb ed="#P"/>et procedit <g ref="#dot"/> ut amore secundum <name ref="#RichardOfStVictor">Richardum</name> <g ref="#dot"/> et etiam spirant eum naturali 
             <lb ed="#P"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> loquendo de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> immutabilitatis non indigen<lb ed="#P"/>tiae 
-            <g ref="#dot"/> vel violentiae vel expedientiae <!--following seems omitted in A --> alias voluntate esset deus non natura <g ref="#dot"/></p>
+            <g ref="#dot"/> vel violentiae vel expedientiae <!--following seems omitted in A --> alias vo<lb ed="#P"/>luntate 
+            esset deus non natura <g ref="#dot"/>
+          </p>
         </div>
       </div>
     </body>

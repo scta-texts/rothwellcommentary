@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 37 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 37 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 37 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 37 [Penn Transcription]</title>
           <date when="2016-05-20">May 20, 2016</date>
         </edition>
       </editionStmt>
@@ -55,18 +55,18 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d37">
-  			<head xml:id="wdrl4d37-Hd1e3503">Librum IV, Distinctio 37 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d37-Hd1e3503">Liber IV, Distinctio 37 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d37q1" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3508">Librum IV, Distinctio 37, Quaestio 1</head>
-  				<head xml:id="wdrl4d37-Hd1e3511" type="questionTitle">Utrum minor ordo impediat matrimonium</head>
+  				<head xml:id="wdrl4d37-Hd1e3508">Liber IV, Distinctio 37, Quaestio 1</head>
+  				<head xml:id="wdrl4d37-Hd1e3511" type="question-title">Utrum minor ordo impediat matrimonium</head>
   				<p xml:id="wdrl4d37-d1e3514"><lb ed="#P"/>Quaeritur utrum <unclear>minor <!-- possibily corrected --></unclear> ordo <choice><orig>in<lb ed="#P"/>pediat</orig><reg>im<lb ed="#P"/>pediat</reg></choice> 
   					matrimonium <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> secundum Iura <pc ana="#punctus"/> 
   					<lb ed="#P"/>quia non ordinantur immediate 
   					<lb ed="#P"/>ad sacramentum altaris sicut sacramenti <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d37q2" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3547">Librum IV, Distinctio 37, Quaestio 2</head>
-  				<head xml:id="wdrl4d37-Hd1e3550" type="questionTitle">Utrum ordo sacer impediat matrimonium</head>
+  				<head xml:id="wdrl4d37-Hd1e3547">Liber IV, Distinctio 37, Quaestio 2</head>
+  				<head xml:id="wdrl4d37-Hd1e3550" type="question-title">Utrum ordo sacer impediat matrimonium</head>
   				<p xml:id="wdrl4d37-d1e3553"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum ordo sacer <choice><orig>inpediat</orig><reg>impediat</reg></choice> 
   					<lb ed="#P"/>matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> Ita scilicet quod in ecclesia 
   					<lb ed="#P"/>occidentalis nec coniugatus ordinatur <pc ana="#virgula"/> nec 
@@ -78,8 +78,8 @@
   					<lb ed="#P"/>contracto utuntur quia votum non obstat</p>
   			</div>
   			<div xml:id="wdr-l4d37q3" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3612">Librum IV, Distinctio 37, Quaestio 3</head>
-  				<head xml:id="wdrl4d37-Hd1e3615" type="questionTitle">Utrum convenienter fuerit annexa ordini continentia</head>
+  				<head xml:id="wdrl4d37-Hd1e3612">Liber IV, Distinctio 37, Quaestio 3</head>
+  				<head xml:id="wdrl4d37-Hd1e3615" type="question-title">Utrum convenienter fuerit annexa ordini continentia</head>
   				<p xml:id="wdrl4d37-d1e3618"><lb ed="#P"/><pc ana="#pilcrow"/>utrum convenienter fuerit annexa 
   					<lb ed="#P"/>ordini continentia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic 
   					<lb ed="#P"/>propter mundiciam corporale <pc ana="#punctus"/> ad tractandum 
@@ -87,8 +87,8 @@
   					<!-- drops --> contemplationis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d37q4" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3644">Librum IV, Distinctio 37, Quaestio 4</head>
-  				<head xml:id="wdrl4d37-Hd1e3647" type="questionTitle">Utrum matrimonium impediat ordinem</head>
+  				<head xml:id="wdrl4d37-Hd1e3644">Liber IV, Distinctio 37, Quaestio 4</head>
+  				<head xml:id="wdrl4d37-Hd1e3647" type="question-title">Utrum matrimonium impediat ordinem</head>
   				<p xml:id="wdrl4d37-d1e3650"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium im<lb ed="#P"/>pediat 
   					ordinem <pc ana="#punctus"/> Responsio <choice><orig>Inpedit</orig><reg>Impedit</reg></choice> 
   					<cb ed="#P" n="129rb"/><lb ed="#P"/>executionem <pc ana="#punctus"/> nisi uxor consentiat <pc ana="#punctus"/> sed non 
@@ -98,8 +98,8 @@
   					matrimonio </p>
   			</div>
   			<div xml:id="wdr-l4d37q5" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3698">Librum IV, Distinctio 37, Quaestio 5</head>
-  				<head xml:id="wdrl4d37-Hd1e3701" type="questionTitle">Utrum in aliquo casu liceat uxorem occidere</head>
+  				<head xml:id="wdrl4d37-Hd1e3698">Liber IV, Distinctio 37, Quaestio 5</head>
+  				<head xml:id="wdrl4d37-Hd1e3701" type="question-title">Utrum in aliquo casu liceat uxorem occidere</head>
   				<p xml:id="wdrl4d37-d1e3704"><lb ed="#P"/>Responsio <pc ana="#punctus"/> in iudicio civili <pc ana="#virgula"/> non ecclesiastico <pc ana="#punctus"/> licet 
   					<lb ed="#P"/>adulteram occidere iudici <pc ana="#punctuselevatus"/> recte con<lb ed="#P"/>iunctam 
   					<pc ana="#virgula"/> et hoc procreare amore iustitiae 
@@ -108,8 +108,8 @@
   					<lb ed="#P"/>in aliquo casu <pc ana="#punctus"/> scilicet inventa in ipso actu <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d37q6" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3746">Librum IV, Distinctio 37, Quaestio 6</head>
-  				<head xml:id="wdrl4d37-Hd1e3749" type="questionTitle">Utrum maius sit peccatum occidere uxorem quam matrem</head>
+  				<head xml:id="wdrl4d37-Hd1e3746">Liber IV, Distinctio 37, Quaestio 6</head>
+  				<head xml:id="wdrl4d37-Hd1e3749" type="question-title">Utrum maius sit peccatum occidere uxorem quam matrem</head>
   				<p xml:id="wdrl4d37-d1e3752"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum maius sit peccatum occidere 
   					<lb ed="#P"/>uxorem quam matrem <pc ana="#punctus"/> Responsio occidere 
   					<lb ed="#P"/>matrem maius est peccatum <pc ana="#punctus"/> quia magis 
@@ -118,8 +118,8 @@
   					<lb ed="#P"/>refrenandum <sic>pronitatem</sic> occidendi <pc ana="#punctuselevatus"/></p>
   			</div>
   			<div xml:id="wdr-l4d37q7" type="quaestio">
-  				<head xml:id="wdrl4d37-Hd1e3795">Librum IV, Distinctio 37, Quaestio 7</head>
-  				<head xml:id="wdrl4d37-Hd1e3798" type="questionTitle">Utrum occisio uxoris impediat matrimonium</head>
+  				<head xml:id="wdrl4d37-Hd1e3795">Liber IV, Distinctio 37, Quaestio 7</head>
+  				<head xml:id="wdrl4d37-Hd1e3798" type="question-title">Utrum occisio uxoris impediat matrimonium</head>
   				<p xml:id="wdrl4d37-d1e3801"><lb ed="#P"/><pc ana="#pilcrow"/>utrum occisio uxoris <choice><orig>inpedi<lb ed="#P"/>at</orig><reg>impedi<lb ed="#P"/>at</reg></choice> 
   					matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> semper impedit conta<lb ed="#P"/>hendum 
   					<pc ana="#punctus"/> sive fiat persequando copulam <pc ana="#punctus"/> sive 

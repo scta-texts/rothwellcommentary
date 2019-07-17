@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 5 [Penn Transcription]</title>
+        <title>Liber I, Distinctio 5 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
-          <title>Librum I, Distinctio 5 [Penn Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 5 [Penn Transcription]</title>
           <date when="2015-07-04">July 04, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-07-04">July 04, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,15 +24,18 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-04" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-07-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -45,68 +43,75 @@
   
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="26-r"/>
+        <cb ed="#P" n="a"/>
       </div>
     </front>
     <body>
       <div xml:id="wdr-l1d5">
-        <head>Librum I, Distinctio 5 [Penn Transcription]</head>
+        <head xml:id="wdr-l1d5-Hd1e97">Liber I, Distinctio 5 [Penn Transcription]</head>
         <div xml:id="wdr-l1d5q1" type="quaestio">
-          <head type="questionTitle">Utrum essentia divina sit generalis</head>
-          <p><lb ed="#P"/>Queritur utrum essentia divina sit <sic>generalis</sic> 
+          <head xml:id="wdr-l1d5-Hd1e102" type="question-title">Utrum essentia divina sit generalis</head>
+          <p xml:id="wdr-l1d5-d1e105">
+            <lb ed="#P" n="16"/>Queritur utrum essentia divina sit <sic>generalis</sic> 
             <lb ed="#P"/>Responsio in littera quod non <g ref="#dot"/> quia actus et operationes tantum sup<lb ed="#P"/>positorum 
-            sunt <g ref="#dot"/> etiam in creaturis <g ref="#dot"/> unde suppositum per formam <!-- drops to next line --> agit <g ref="#dot"/> non ipsa forma <g ref="#dot"/></p>
+            sunt <g ref="#dot"/> etiam in creaturis <g ref="#dot"/> unde suppositum per formam <!-- drops to next line --> agit <g ref="#dot"/> non ipsa forma <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d5q2" type="quaestio">
-          <head type="questionTitle">Utrum concedendum sit quod essentia divina sit pater</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>utrum concedendum sit quod 
+          <head xml:id="wdr-l1d5-Hd1e133" type="question-title">Utrum concedendum sit quod essentia divina sit pater</head>
+          <p xml:id="wdr-l1d5-d1e136">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum concedendum sit quod 
             <lb ed="#P"/>essentia divina sit pater Responsio Si hoc nomen pater accipitur 
             <lb ed="#P"/><unclear>substantem</unclear> <g ref="#slash"/> vera est <g ref="#dot"/> quia sic habet 
             in se <g ref="#slash"/> intellectum suppositi 
             <lb ed="#P"/>cui in paternitas <g ref="#dot"/> et est praedicatio per <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> Si 
             <lb ed="#P"/>autem <unclear>adiectionem</unclear> accipitur <g ref="#slash"/> falsa est <g ref="#dot"/> quia <unclear>notatur</unclear> in esse paterni<lb ed="#P"/>tas 
-            essentiae <g ref="#dot"/> et fit praedicatio per inhaerentiam</p>
+            essentiae <g ref="#dot"/> et fit praedicatio per inhaerentiam
+          </p>
         </div>
         <div xml:id="wdr-l1d5q3" type="quaestio">
-          <head type="questionTitle">Utrum essentia possit dici genita</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum essentia possit <sic>de</sic> genita Responsio in creaturis 
+          <head xml:id="wdr-l1d5-Hd1e185" type="question-title">Utrum essentia possit dici genita</head>
+          <p xml:id="wdr-l1d5-d1e188">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum essentia possit <sic>de</sic> genita Responsio in creaturis 
             <lb ed="#P"/>quamvis suppositum primo et principaliter generetur tamen <space extent="oneWordLength"/> 
             <lb ed="#P"/>ex consequenti <g ref="#dot"/> quia inesse producitur <g ref="#dot"/> sed in divinis non generatur 
             <lb ed="#P"/>nisi suppositum <g ref="#dot"/> non essentia <g ref="#slash"/> quia eandem essentiam accipit <g ref="#dot"/>  
-            <lb ed="#P"/>nisi velis aliquid dicere generari id est per generationem communicari <g ref="#dot"/> <!-- drops to next line -->sed hic est inproprie <g ref="#dot"/> idem in littera</p>
+            <lb ed="#P"/>nisi velis aliquid dicere generari id est per generationem communicari <g ref="#dot"/> <!-- drops to next line -->sed hic est inproprie <g ref="#dot"/> idem in littera
+          </p>
         </div>
         <div xml:id="wdr-l1d5q4" type="quaestio">
-          <head type="questionTitle">Utrum possit dici essentia de essentia</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum possit 
+          <head xml:id="wdr-l1d5-Hd1e228" type="question-title">Utrum possit dici essentia de essentia</head>
+          <p xml:id="wdr-l1d5-d1e231">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum possit 
             <lb ed="#P"/><sic>de</sic> essentia de essentia Responsio non nisi cum magna im<lb ed="#P"/>proprietate 
             <g ref="#dot"/> Nota ergo <g ref="#dot"/> quod nominum quaedam sunt pure personalia 
             <lb ed="#P"/>et haec proprie supponunt pro persona <g ref="#dot"/> <g ref="#slash"/> quaedam pure essentialia 
-            <cb ed="#P" n="26rb"/><lb ed="#P"/>et haec supponant <g ref="#dot"/> pro sola essentia <g ref="#dot"/> <g ref="#slash"/> quaedam in medio modo se haben<lb ed="#P"/>tia 
+            <cb ed="#P" n="b"/> <!-- 26rb -->
+            <lb ed="#P"/>et haec supponant <g ref="#dot"/> pro sola essentia <g ref="#dot"/> <g ref="#slash"/> quaedam in medio modo se haben<lb ed="#P"/>tia 
             <g ref="#dot"/> vel propter <sic>co <!-- erasure here --> intellectum</sic> suppositi <g ref="#slash"/> ut concreta <g ref="#dot"/> vel 
             <lb ed="#P"/>alicuius actus vel modi qui personae convenit <g ref="#dot"/> ut abstracta <g ref="#dot"/> 
             <lb ed="#P"/>et haec magis vel minus proprie supponunt pro persona secundum 
-            <lb ed="#P"/>quod magis vel minus accedunt 
-            <cb ed="#A" n="109va"/><lb ed="#P"/>ad modum significandi 
+            <lb ed="#P"/>quod magis vel minus accedunt ad modum significandi 
             <lb ed="#P"/>personalem <g ref="#dot"/> <g ref="#slash"/> proprissime ergo supponit pro persona <g ref="#slash"/> nomen personae proprium <g ref="#dot"/> ut 
             <lb ed="#P"/>pater postea nomen quem ut <choice><orig>ypostasis</orig><reg>hypostasis</reg></choice> <g ref="#dot"/> <g ref="#slash"/> postea terminus 
             <lb ed="#P"/>naturalis concretus ut deus <g ref="#dot"/> postea huius potentia bonitas <g ref="#dot"/> etc postea 
-            <lb ed="#P"/>iste terminus substantia <g ref="#dot"/> ultimo autem et <corr><del rend="strikethrough">un</del></corr> improprissime <g ref="#dot"/> hoc terminus <g ref="#slash"/> essentia</p>
+            <lb ed="#P"/>iste terminus substantia <g ref="#dot"/> ultimo autem et <del rend="strikethrough">un</del> improprissime <g ref="#dot"/> hoc terminus <g ref="#slash"/> essentia
+          </p>
         </div>
         <div xml:id="wdr-l1d5q5" type="quaestio">
-          <head type="questionTitle">Utrum filius sit de substantia patris</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>utrum filius sit de substantia patris Responsio sic <g ref="#dot"/> sancti 
+          <head xml:id="wdr-l1d5-Hd1e338" type="question-title">Utrum filius sit de substantia patris</head>
+          <p xml:id="wdr-l1d5-d1e341">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum filius sit de substantia patris Responsio sic <g ref="#dot"/> sancti 
             <lb ed="#P"/>in littera <g ref="#dot"/> et accipitur ibi li <mentioned>de</mentioned> <g ref="#dot"/> non pure substantialiter <g ref="#dot"/> nec pure origi<lb ed="#P"/>naliter 
-            <g ref="#dot"/> sed mixtim <g ref="#dot"/> quia filius et consubstantialis est <unclear>patri</unclear> et <!-- drops to next line --> ab eo processit</p>
+            <g ref="#dot"/>sed mixtim <g ref="#dot"/> quia filius et consubstantialis est <unclear>patri</unclear> et <!-- drops to next line --> ab eo processit
+          </p>
         </div>
         <div xml:id="wdr-l1d5q6" type="quaestio">
-          <head type="questionTitle">Utrum filius sit de nihilo vel etiam pater possit dici esse de nihilo</head>
-          <p><lb ed="#P"/><g ref="#pilcrow"/>Utrum filius sit de <choice><orig>nichilo</orig><reg>nihilo</reg></choice> 
+          <head xml:id="wdr-l1d5-Hd1e375" type="question-title">Utrum filius sit de nihilo vel etiam pater possit dici esse de nihilo</head>
+          <p xml:id="wdr-l1d5-d1e378">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum filius sit de <choice><orig>nichilo</orig><reg>nihilo</reg></choice> 
             <lb ed="#P"/>vel etiam pater possit dici esse de <choice><orig>nichilo</orig><reg>nihilo</reg></choice> <g ref="#strikethrough"/> Responsio esse de 
             <lb ed="#P"/><choice><orig>nichilo</orig><reg>nihilo</reg></choice> <g ref="#slash"/> secundum <name ref="#Anselm"><unclear>anselmum</unclear></name> <g ref="#dot"/> tripliciter accipitur <g ref="#slash"/> quia <unclear>negatio</unclear> inclusa 
             <lb ed="#P"/>in <choice><orig>nichilo</orig><reg>nihilo</reg></choice> <g ref="#slash"/>si explicetur potest cadere super verbum 
@@ -114,7 +119,8 @@
             <lb ed="#P"/>sed iste modus <g ref="#slash"/>non est usitatus in scriptura <g ref="#dot"/> et ideo non debet dici sine 
             <lb ed="#P"/>explicatione <g ref="#dot"/> <g ref="#slash"/> aut negatio potest sequi verbum <g ref="#dot"/> et tunc li <mentioned>de</mentioned> <g ref="#dot"/> 
             <lb ed="#P"/>potest teneri materialiter <g ref="#dot"/> et sic de <choice><orig>nichilo</orig><reg>nihilo</reg></choice> nihil fit <g ref="#dot"/> <g ref="#slash"/> qui ut 
-            <lb ed="#P"/>ordinaliter et sic omnis <g ref="#dot"/> et sola creatura est de nihilo et sic <!-- drops to next line --> communiter accipitur</p>
+            <lb ed="#P"/>ordinaliter et sic omnis <g ref="#dot"/> et sola creatura est de nihilo et sic <!-- drops to next line --> communiter accipitur
+          </p>
         </div>
       </div>
     </body>

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 46 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 46 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 46 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 46 [Penn Transcription]</title>
           <date when="2016-05-24">May 24, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d46">
-  			<head xml:id="wdrl4d46-Hd1e3503">Librum IV, Distinctio 46 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d46-Hd1e3503">Liber IV, Distinctio 46 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d46q1" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3508">Librum IV, Distinctio 46, Quaestio 1</head>
-  				<head xml:id="wdrl4d46-Hd1e3511" type="questionTitle">Utrum iustitia sit in deo</head>
+  				<head xml:id="wdrl4d46-Hd1e3508">Liber IV, Distinctio 46, Quaestio 1</head>
+  				<head xml:id="wdrl4d46-Hd1e3511" type="question-title">Utrum iustitia sit in deo</head>
   				<p xml:id="wdrl4d46-d1e3514"><lb ed="#P"/>Quaeritur utrum iustitia sit in deo <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sed iustitia distributam quae att<lb ed="#P"/>endit 
   					aequalitatem proportionis iter recipien<lb ed="#P"/>tes 
@@ -73,8 +73,8 @@
   					<lb ed="#P"/>veritas tamen per comparationem ad regulam interiorem cui pro<!-- drops-->portionatur</p>
   			</div>
   			<div xml:id="wdr-l4d46q2" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3580">Librum IV, Distinctio 46, Quaestio 2</head>
-  				<head xml:id="wdrl4d46-Hd1e3583" type="questionTitle">Utrum deus agat iustus cum uno quam cum alio</head>
+  				<head xml:id="wdrl4d46-Hd1e3580">Liber IV, Distinctio 46, Quaestio 2</head>
+  				<head xml:id="wdrl4d46-Hd1e3583" type="question-title">Utrum deus agat iustus cum uno quam cum alio</head>
   				<p xml:id="wdrl4d46-d1e3586"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus agat iustus 
   					<lb ed="#P"/>cum uno quam cum alio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> si fiat 
   					<lb ed="#P"/>scilicet comparatio effectus ad effectum <pc ana="#punctus"/> sic <pc ana="#virgula"/> si fiat <pc ana="#punctus"/> 
@@ -84,24 +84,24 @@
   					<lb ed="#P"/>quia in omnibus perfecte tenet medium <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q3" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3630">Librum IV, Distinctio 46, Quaestio 3</head>
-  				<head xml:id="wdrl4d46-Hd1e3633" type="questionTitle">Utrum minima sit in deo</head>
+  				<head xml:id="wdrl4d46-Hd1e3630">Liber IV, Distinctio 46, Quaestio 3</head>
+  				<head xml:id="wdrl4d46-Hd1e3633" type="question-title">Utrum minima sit in deo</head>
   				<p xml:id="wdrl4d46-d1e3636"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum minima sit in deo <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic quantum 
   					<lb ed="#P"/>ad id quod est de substantia virtutis <pc ana="#punctus"/> quod est voluntas sub<lb ed="#P"/>veniendi 
   					<pc ana="#punctus"/> misero <pc ana="#punctus"/> sed non quantum ad quodam accidens 
   					<lb ed="#P"/>eius scilicet passio <pc ana="#virgula"/> annexam <pc ana="#punctus"/> sed sic est in nobis tantum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q4" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3667">Librum IV, Distinctio 46, Quaestio 4</head>
-  				<head xml:id="wdrl4d46-Hd1e3670" type="questionTitle">Qualiter in deo differant bonitas et miseria</head>
+  				<head xml:id="wdrl4d46-Hd1e3667">Liber IV, Distinctio 46, Quaestio 4</head>
+  				<head xml:id="wdrl4d46-Hd1e3670" type="question-title">Qualiter in deo differant bonitas et miseria</head>
   				<p xml:id="wdrl4d46-d1e3673"><lb ed="#P"/><pc ana="#pilcrow"/>Qualiter in deo differant bonitas 
   					<lb ed="#P"/>et miseria <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> miseria principaliter respicit terminem a quo 
   					<lb ed="#P"/>scilicet miserias quae aufertur bonitas terminem ad quem 
   					<!-- drops --> scilicet perfectionem quae datur</p>
   			</div>
   			<div xml:id="wdr-l4d46q5" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3692">Librum IV, Distinctio 46, Quaestio 5</head>
-  				<head xml:id="wdrl4d46-Hd1e3695" type="questionTitle">Utrum in omni opere sit misericordia et veritas</head>
+  				<head xml:id="wdrl4d46-Hd1e3692">Liber IV, Distinctio 46, Quaestio 5</head>
+  				<head xml:id="wdrl4d46-Hd1e3695" type="question-title">Utrum in omni opere sit misericordia et veritas</head>
   				<p xml:id="wdrl4d46-d1e3698"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in omni <subst><del rend="strikethrough">deum</del><add place="aboveLine">opere</add></subst> 
   					<lb ed="#P"/>sit <unclear>misericordia</unclear> et veritas <pc ana="#punctus"/> Responsio sic <pc ana="#punctus"/> secundum <title ref="#ps">psalmus</title> et 
   					<lb ed="#P"/><unclear>ulo <!-- likely mistake that should be "glossam" --></unclear> iidem et hoc si accipiantur generaltier <pc ana="#punctus"/> sive 
@@ -113,8 +113,8 @@
   					<!-- drops --> tribuendi secundum merita <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q6" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3759">Librum IV, Distinctio 46, Quaestio 6</head>
-  				<head xml:id="wdrl4d46-Hd1e3762" type="questionTitle">Quare magis appropriatur deo misericordia quam iustitia cum in omni opere eius simul sint</head>
+  				<head xml:id="wdrl4d46-Hd1e3759">Liber IV, Distinctio 46, Quaestio 6</head>
+  				<head xml:id="wdrl4d46-Hd1e3762" type="question-title">Quare magis appropriatur deo misericordia quam iustitia cum in omni opere eius simul sint</head>
   				<p xml:id="wdrl4d46-d1e3765"><lb ed="#P"/><pc ana="#pilcrow"/>Quare <pc ana="#punctus"/> 
   					<lb ed="#P"/>magis appropriatur deo misericordia quam iustitia 
   					<lb ed="#P"/>cum in omni opere eius simul sint <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
@@ -123,8 +123,8 @@
   					<lb ed="#P"/>misericordiae magis ei appropriatur <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q7" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3799">Librum IV, Distinctio 46, Quaestio 7</head>
-  				<head xml:id="wdrl4d46-Hd1e3802" type="questionTitle">Utrum deus opera iustitiae possit praeter mittere</head>
+  				<head xml:id="wdrl4d46-Hd1e3799">Liber IV, Distinctio 46, Quaestio 7</head>
+  				<head xml:id="wdrl4d46-Hd1e3802" type="question-title">Utrum deus opera iustitiae possit praeter mittere</head>
   				<p xml:id="wdrl4d46-d1e3805"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum deus opera iustitiae possit praeter 
   					<lb ed="#P"/>mittere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> scilicet ut aliquid fiat praeter 
   					<lb ed="#P"/>iustitiam <pc ana="#virgula"/> ut quando plus <choice><orig>inpedit</orig><reg>impedit</reg></choice> <pc ana="#virgula"/> de bono <pc ana="#punctus"/> 
@@ -133,8 +133,8 @@
   					<!-- drops --> non in primo</p>
   			</div>
   			<div xml:id="wdr-l4d46q8" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3853">Librum IV, Distinctio 46, Quaestio 8</head>
-  				<head xml:id="wdrl4d46-Hd1e3856" type="questionTitle">Utrum deus iuste peccatoribus poenam aeternam infligat</head>
+  				<head xml:id="wdrl4d46-Hd1e3853">Liber IV, Distinctio 46, Quaestio 8</head>
+  				<head xml:id="wdrl4d46-Hd1e3856" type="question-title">Utrum deus iuste peccatoribus poenam aeternam infligat</head>
   				<p xml:id="wdrl4d46-d1e3859"><cb ed="#P" n="134vb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus iuste peccatoribus <choice><orig>penam</orig><reg>poenam</reg></choice> 
   					<lb ed="#P"/>aeternam infligat <pc ana="#punctus"/> Responsio sic <pc ana="#virgula"/> et hoc 
   					<lb ed="#P"/>propter dispositionem peccatoris <pc ana="#punctus"/> a quo plus hanc 
@@ -143,8 +143,8 @@
   					<lb ed="#P"/>peccandi <pc ana="#punctus"/> si semper vixisset <pc ana="#virgula"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q9" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3906">Librum IV, Distinctio 46, Quaestio 9</head>
-  				<head xml:id="wdrl4d46-Hd1e3909" type="questionTitle">Utrum temporali poena aliquem iniuste puniat</head>
+  				<head xml:id="wdrl4d46-Hd1e3906">Liber IV, Distinctio 46, Quaestio 9</head>
+  				<head xml:id="wdrl4d46-Hd1e3909" type="question-title">Utrum temporali poena aliquem iniuste puniat</head>
   				<p xml:id="wdrl4d46-d1e3912"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum temporali pena aliquem in<lb ed="#P"/>iuste 
   					puniat <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia secundum <pc ana="#punctus"/> 
   					<lb ed="#P"/><name ref="#Jerome">Jeromum</name> quidquid patimur peccata nostra meruerunt 
@@ -152,16 +152,16 @@
   					<lb ed="#P"/>etiam aliquando medicina est secundum <name ref="#Aristotle">philosophum</name> et materia virtutis <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d46q10" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3952">Librum IV, Distinctio 46, Quaestio 10</head>
-  				<head xml:id="wdrl4d46-Hd1e3955" type="questionTitle">Utrum per misericordiam dei aliquid de poena dampnatorum relaxetur</head>
+  				<head xml:id="wdrl4d46-Hd1e3952">Liber IV, Distinctio 46, Quaestio 10</head>
+  				<head xml:id="wdrl4d46-Hd1e3955" type="question-title">Utrum per misericordiam dei aliquid de poena dampnatorum relaxetur</head>
   				<p xml:id="wdrl4d46-d1e3958"><lb ed="#P"/>Utrum per misericordia dei aliquid de <choice><orig>pena</orig><reg>poena</reg></choice> 
   					<lb ed="#P"/>dampnatorum relaxetur <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quantum 
   					<lb ed="#P"/>ad acerbitatem scilicet licet non quo ad durationem 
   					<!-- drops --> propter in dispositionem eorum</p>
   			</div>
   			<div xml:id="wdr-l4d46q11" type="quaestio">
-  				<head xml:id="wdrl4d46-Hd1e3985">Librum IV, Distinctio 46, Quaestio 11</head>
-  				<head xml:id="wdrl4d46-Hd1e3988" type="questionTitle">Utrum suffragia ecclesiae prosint damnatis ad diminutionem poenae</head>
+  				<head xml:id="wdrl4d46-Hd1e3985">Liber IV, Distinctio 46, Quaestio 11</head>
+  				<head xml:id="wdrl4d46-Hd1e3988" type="question-title">Utrum suffragia ecclesiae prosint damnatis ad diminutionem poenae</head>
   				<p xml:id="wdrl4d46-d1e3991"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>suffragia ecclesiae prosint <choice><orig>dampna<lb ed="#P"/>tis</orig><reg>damna<lb ed="#P"/>tis</reg></choice> 
   					ad diminutionem <choice><orig>penae</orig><reg>poenae</reg></choice> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> 

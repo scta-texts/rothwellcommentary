@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 2 [Aarau Transcription]</title>
+        <title>Liber I, Distinctio 2 [Aarau Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2015.06-dev-master">
-          <title>Librum I, Distinctio 2 [Aarau Transcription]</title>
+          <title>Liber I, Distinctio 2 [Aarau Transcription]</title>
           <date when="2015-06-14">June 14, 2015</date>
         </edition>
       </editionStmt>
@@ -69,22 +69,22 @@
     </front>
     <body>
       <div xml:id="wdr-l1d2">
-        <head>Librum I, Distinctio 2 [Aarau Transcription]</head>
+        <head>Liber I, Distinctio 2 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d2q1" type="quaestio">
-          <head type="questionTitle">Utrum deus per essentiam sit unus</head>
+          <head type="question-title">Utrum deus per essentiam sit unus</head>
           <p xml:id="wdrl1d2-qudeap"><lb ed="#A"/>Queritur utrum deus per essentiam sit unus <g ref="#dot"/> Responsio <g ref="#dot"/> Sic <g ref="#dot"/> quia 
             <lb ed="#A"/>hoc dicit fides <g ref="#slash"/> et scriptura <g ref="#slash"/> hoc etiam patet per rationem 
             <lb ed="#A"/>quia in causis <g ref="#slash"/> secundum <ref><name ref="#Aristotle">philosophum</name> 11 <title ref="#Aristotle">metaphysicae</title></ref> <g ref="#dot"/> oportet esse statum <g ref="#dot"/> ergo est aliqua 
             <lb ed="#A"/>prima <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q2" type="quaestio">
-          <head type="questionTitle">Utrum in divina essentia sit aliqua multiplex attributorum</head>
+          <head type="question-title">Utrum in divina essentia sit aliqua multiplex attributorum</head>
           <p xml:id="wdrl1d2-uidsdr"><lb ed="#A"/><g ref="#pilcrow"/>utrum in divina essentia sit aliqua multiplex attributorum <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia perfectio in eo est omnium generum <g ref="#slash"/> secundum <name ref="#Aristotle">philosophum</name> et <name ref="#Dionysius">Dyonisium</name> 
             <lb ed="#A"/>sed tamen idem sunt in deo secundum rem <g ref="#dot"/> sed differunt <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q3" type="quaestio">
-          <head type="questionTitle">Secundum quid accipiatur attributorum distinctio</head>
+          <head type="question-title">Secundum quid accipiatur attributorum distinctio</head>
           <p xml:id="wdrl1d2-sqadin"><lb ed="#A"/><g ref="#pilcrow"/>Secundum quid accipiatur attributorum distinctio <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> secundum distinctionem rationis <g ref="#dot"/> non illam quae tantum est ex parte 
             <lb ed="#A"/>ratiocinantis <g ref="#dot"/> sed quae habet <sic>fudamentum</sic> in re <g ref="#dot"/> quamvis non 
@@ -93,13 +93,13 @@
             <lb ed="#A"/>rem <g ref="#slash"/> sed differunt rationibus propriis <g ref="#dot"/> <g ref="#slash"/> Exemplum de intellectu naturalis</p>
         </div>
         <div xml:id="wdr-l1d2q4" type="quaestio">
-          <head type="questionTitle">Utrum in deo sit personarum pluralitas</head>
+          <head type="question-title">Utrum in deo sit personarum pluralitas</head>
           <p xml:id="wdrl1d2-uidhei"><lb ed="#A"/><g ref="#pilcrow"/>Utrum in deo sit personarum pluralitas <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia summum bonum 
             <lb ed="#A"/>communicabile debet esse et diffusivum sui quia hoc perfectionis 
             <lb ed="#A"/>est <g ref="#slash"/> tamen sui divisibilitate scilicet essentiae <g ref="#slash"/> quia hoc esset imperfectionis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q5" type="quaestio">
-          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <head type="question-title">Utrum tantum sint tres personae non plures neque pauciores</head>
           <p xml:id="wdrl1d2-utsdmp"><lb ed="#A"/><g ref="#pilcrow"/>utrum tantum sint tres personae non plures neque pauciores <g ref="#dot"/> 
             <lb ed="#A"/>Responsio <g ref="#dot"/> secundum fidem <g ref="#slash"/> non <g ref="#slash"/> quod patet ex origine <g ref="#dot"/> quia unus a nullo <g ref="#slash"/> 
             <lb ed="#A"/>a quo alius <g ref="#slash"/> aliter ab alio <g ref="#slash"/> a quo alius <g ref="#dot"/> <g ref="#slash"/> alter ab alio <g ref="#slash"/> a 
@@ -109,7 +109,7 @@
             <lb ed="#A"/>plures spiritus sancti <g ref="#slash"/> quia tantum sunt duo modo procedendi <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d2q6" type="quaestio">
-          <head type="questionTitle">Utrum tantum sint tres personae non plures neque pauciores</head>
+          <head type="question-title">Utrum tantum sint tres personae non plures neque pauciores</head>
           <p xml:id="wdrl1d2-upirpo"><lb ed="#A"/><g ref="#pilcrow"/>Utrum personae in divinis differant re <g ref="#slash"/> vel ratione tantum <g ref="#slash"/> Responsio <g ref="#dot"/> dif<lb ed="#A"/>ferunt 
             ratione <g ref="#slash"/> non quae tantum est ex parte ratiocinantis <g ref="#slash"/> 
             <lb ed="#A"/>sed quae etiam res est <g ref="#dot"/> unde dicit <name ref="#Augustine">augustinus</name> quod tres res sunt <g ref="#dot"/> Diffe<lb ed="#A"/>runt 

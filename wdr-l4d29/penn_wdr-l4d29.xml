@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 29 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 29 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 29 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 29 [Penn Transcription]</title>
           <date when="2016-05-18">May 18, 2016</date>
         </edition>
       </editionStmt>
@@ -55,18 +55,18 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d29">
-  			<head xml:id="wdrl4d29-Hd1e3503">Librum IV, Distinctio 29 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d29-Hd1e3503">Liber IV, Distinctio 29 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d29q1" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3508">Librum IV, Distinctio 29, Quaestio 1</head>
-  				<head xml:id="wdrl4d29-Hd1e3511" type="questionTitle">Utrum consensus possit cogi</head>
+  				<head xml:id="wdrl4d29-Hd1e3508">Liber IV, Distinctio 29, Quaestio 1</head>
+  				<head xml:id="wdrl4d29-Hd1e3511" type="question-title">Utrum consensus possit cogi</head>
   				<p xml:id="wdrl4d29-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum consensus possit cogi 
   					<lb ed="#P"/>Responsio absoluta coactione non <pc ana="#punctus"/> quia 
   					<lb ed="#P"/>voluntas libera est <pc ana="#punctus"/> conditionata tamen potest <pc ana="#virgula"/> scilicet per 
   					<lb ed="#P"/>metum <pc ana="#punctus"/> quod fit voluntarium <pc ana="#punctus"/> mixtum <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d29q2" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3540">Librum IV, Distinctio 29, Quaestio 2</head>
-  				<head xml:id="wdrl4d29-Hd1e3543" type="questionTitle">Utrum metus cadat inconstantem virum</head>
+  				<head xml:id="wdrl4d29-Hd1e3540">Liber IV, Distinctio 29, Quaestio 2</head>
+  				<head xml:id="wdrl4d29-Hd1e3543" type="question-title">Utrum metus cadat inconstantem virum</head>
   				<p xml:id="wdrl4d29-d1e3546"><lb ed="#P"/><pc ana="#pilcrow"/>utrum metus cadat in constantem 
   					<lb ed="#P"/>virum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> non tamen nisi sicut 
   					<lb ed="#P"/>debet <pc ana="#punctus"/> quia ex metu dimittit minus bonum <pc ana="#punctus"/> 
@@ -76,8 +76,8 @@
   					<!-- drops --> dimittat</p>
   			</div>
   			<div xml:id="wdr-l4d29q3" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3590">Librum IV, Distinctio 29, Quaestio 3</head>
-  				<head xml:id="wdrl4d29-Hd1e3593" type="questionTitle">Utrum consensus coactus impediat matrimonium</head>
+  				<head xml:id="wdrl4d29-Hd1e3590">Liber IV, Distinctio 29, Quaestio 3</head>
+  				<head xml:id="wdrl4d29-Hd1e3593" type="question-title">Utrum consensus coactus impediat matrimonium</head>
   				<p xml:id="wdrl4d29-d1e3596"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus coac<lb ed="#P"/>tus 
   					impediat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sola <pc ana="#punctus"/> 
   					<lb ed="#P"/>coactio conditionata <pc ana="#punctusfluxus"/> non absoluta <pc ana="#punctus"/> potest 
@@ -92,8 +92,8 @@
   					<lb ed="#P"/>in persona propria <pc ana="#punctus"/> sive liberorum sive uxoris</p>
   			</div>
   			<div xml:id="wdr-l4d29q4" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3676">Librum IV, Distinctio 29, Quaestio 4</head>
-  				<head xml:id="wdrl4d29-Hd1e3679" type="questionTitle">Utrum consensus talis cum Iuramento faciat matrimonium</head>
+  				<head xml:id="wdrl4d29-Hd1e3676">Liber IV, Distinctio 29, Quaestio 4</head>
+  				<head xml:id="wdrl4d29-Hd1e3679" type="question-title">Utrum consensus talis cum Iuramento faciat matrimonium</head>
   				<p xml:id="wdrl4d29-d1e3682"><lb ed="#P"/><pc ana="#pilcrow"/>utrum consensus talis cum Iura<lb ed="#P"/>mento 
   					faciat matrimonium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in iu<lb ed="#P"/>dicio 
   					fori non iudicatur <pc ana="#virgula"/> obligatorium iu<lb ed="#P"/>ramentum 
@@ -102,8 +102,8 @@
   					absolutionem a superiore <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d29q5" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3728">Librum IV, Distinctio 29, Quaestio 5</head>
-  				<head xml:id="wdrl4d29-Hd1e3731" type="questionTitle">Utrum tale matrimonium ratificetur per consensum sequentem</head>
+  				<head xml:id="wdrl4d29-Hd1e3728">Liber IV, Distinctio 29, Quaestio 5</head>
+  				<head xml:id="wdrl4d29-Hd1e3731" type="question-title">Utrum tale matrimonium ratificetur per consensum sequentem</head>
   				<p xml:id="wdrl4d29-d1e3734"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum tale meritorium ratificetur 
   					<cb ed="#P" n="126ra"/><lb ed="#P"/>per consensum sequentem <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio quamvis consensus coactus non faciat <pc ana="#punctus"/> matrimonium 
@@ -116,8 +116,8 @@
   					<lb ed="#P"/>ratificet <pc ana="#punctus"/> tamen in iudicio fori <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d29q6" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3789">Librum IV, Distinctio 29, Quaestio 6</head>
-  				<head xml:id="wdrl4d29-Hd1e3792" type="questionTitle">Utrum per copulam sequentem ratificetur tale matrimonium</head>
+  				<head xml:id="wdrl4d29-Hd1e3789">Liber IV, Distinctio 29, Quaestio 6</head>
+  				<head xml:id="wdrl4d29-Hd1e3792" type="question-title">Utrum per copulam sequentem ratificetur tale matrimonium</head>
   				<p xml:id="wdrl4d29-d1e3795"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per compulam sequentem 
   					<lb ed="#P"/>ratificetur tale matrimonium Responsio sic si habita 
   					<lb ed="#P"/>oportunitate reclamandi permittit se vol<lb ed="#P"/>untarie 
@@ -127,8 +127,8 @@
   					<!-- drops --> nisi vere consentiat <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d29q7" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3829">Librum IV, Distinctio 29, Quaestio 7</head>
-  				<head xml:id="wdrl4d29-Hd1e3832" type="questionTitle">Utrum pater possit cogere liberos ad contrahendum</head>
+  				<head xml:id="wdrl4d29-Hd1e3829">Liber IV, Distinctio 29, Quaestio 7</head>
+  				<head xml:id="wdrl4d29-Hd1e3832" type="question-title">Utrum pater possit cogere liberos ad contrahendum</head>
   				<p xml:id="wdrl4d29-d1e3835"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum <pc ana="#punctus"/> 
   					<lb ed="#P"/>pater possit cogere liberos ad con<lb ed="#P"/>trahendum 
   					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia requiritur 
@@ -139,8 +139,8 @@
   					<!-- drops --> parentibus <choice><orig>aquiescant</orig><reg>acquiescant</reg></choice></p>
   			</div>
   			<div xml:id="wdr-l4d29q8" type="quaestio">
-  				<head xml:id="wdrl4d29-Hd1e3880">Librum IV, Distinctio 29, Quaestio 8</head>
-  				<head xml:id="wdrl4d29-Hd1e3883" type="questionTitle">Utrum consensus tacitus filiae familias sufficiati</head>
+  				<head xml:id="wdrl4d29-Hd1e3880">Liber IV, Distinctio 29, Quaestio 8</head>
+  				<head xml:id="wdrl4d29-Hd1e3883" type="question-title">Utrum consensus tacitus filiae familias sufficiati</head>
   				<p xml:id="wdrl4d29-d1e3886"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum con<lb ed="#P"/>sensus 
   					tacitus filiae familias suffici<lb ed="#P"/>ati 
   					<pc ana="#virgula"/> Responsio sic ut dicit lex in littera cum 

@@ -5,13 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum IV, Distinctio 18 [Penn Transcription]</title>
+        <title>Liber IV, Distinctio 18 [Penn Transcription]</title>
         <author>William de Rothwell</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum IV, Distinctio 18 [Penn Transcription]</title>
+          <title>Liber IV, Distinctio 18 [Penn Transcription]</title>
           <date when="2016-05-16">May 16, 2016</date>
         </edition>
       </editionStmt>
@@ -55,10 +55,10 @@
     </front>
   	<body>
   		<div xml:id="wdr-l4d18">
-  			<head xml:id="wdrl4d18-Hd1e3503">Librum IV, Distinctio 18 [Penn Transcription]</head>
+  			<head xml:id="wdrl4d18-Hd1e3503">Liber IV, Distinctio 18 [Penn Transcription]</head>
   			<div xml:id="wdr-l4d18q1" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3508">Librum IV, Distinctio 18, Quaestio 1</head>
-  				<head xml:id="wdrl4d18-Hd1e3511" type="questionTitle">Utrum ecclesiae datae sint claves regni caelorum</head>
+  				<head xml:id="wdrl4d18-Hd1e3508">Liber IV, Distinctio 18, Quaestio 1</head>
+  				<head xml:id="wdrl4d18-Hd1e3511" type="question-title">Utrum ecclesiae datae sint claves regni caelorum</head>
   				<p xml:id="wdrl4d18-d1e3514"><lb ed="#P"/>Quaeritur utrum ecclesiae datae 
   					<lb ed="#P"/>sint claves regni caelorum <pc ana="#punctus"/> Responsio sic 
   					<lb ed="#P"/>sed nota <pc ana="#virgula"/> quod triplex est clausura scilicet universalis <pc ana="#punctus"/> 
@@ -73,16 +73,16 @@
   						<!-- drops --> distinctio 1 quaestio 7</ref></p>
   			</div>
   			<div xml:id="wdr-l4d18q2" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3597">Librum IV, Distinctio 18, Quaestio 2</head>
-  				<head xml:id="wdrl4d18-Hd1e3600" type="questionTitle">Quid sit calvis realiter</head>
+  				<head xml:id="wdrl4d18-Hd1e3597">Liber IV, Distinctio 18, Quaestio 2</head>
+  				<head xml:id="wdrl4d18-Hd1e3600" type="question-title">Quid sit calvis realiter</head>
   				<p xml:id="wdrl4d18-d1e3603"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit <pc ana="#virgula"/> 
   					<lb ed="#P"/>clavis realiter <pc ana="#punctus"/> Responsio clavis est <pc ana="#punctus"/> 
   					<lb ed="#P"/>potentia quaedam spiritualis supernaturaliter a deo data <pc ana="#punctus"/> 
   					<lb ed="#P"/>et infusa <pc ana="#punctus"/> non innata <pc ana="#punctus"/> nec acquisita <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q3" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3631">Librum IV, Distinctio 18, Quaestio 3</head>
-  				<head xml:id="wdrl4d18-Hd1e3634" type="questionTitle">Utrum potestas clavium data sit ad claudendum sit ad aperiendum</head>
+  				<head xml:id="wdrl4d18-Hd1e3631">Liber IV, Distinctio 18, Quaestio 3</head>
+  				<head xml:id="wdrl4d18-Hd1e3634" type="question-title">Utrum potestas clavium data sit ad claudendum sit ad aperiendum</head>
   				<p xml:id="wdrl4d18-d1e3637"><lb ed="#P"/><pc ana="#pilcrow"/>utrum potestas clavum data 
   					<lb ed="#P"/>sit ad claudendum <pc ana="#punctus"/> sicut ad aperiendum <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic in <choice><orig>euvangelia</orig><reg>evangelia</reg></choice> <pc ana="#punctus"/> et <pc ana="#punctus"/> in littera <pc ana="#punctus"/> <name ref="#Ambrose">ambrosius</name> <pc ana="#punctus"/> sed 
@@ -93,8 +93,8 @@
   					<pc ana="#punctus"/> <pc ana="#virgula"/> et excommunicando <pc ana="#virgula"/> quaeque <choice><orig>pena</orig><reg>poena</reg></choice> dampni <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q4" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3711">Librum IV, Distinctio 18, Quaestio 4</head>
-  				<head xml:id="wdrl4d18-Hd1e3714" type="questionTitle">utrum potestas clavium sit etiam ad confitendum</head>
+  				<head xml:id="wdrl4d18-Hd1e3711">Liber IV, Distinctio 18, Quaestio 4</head>
+  				<head xml:id="wdrl4d18-Hd1e3714" type="question-title">utrum potestas clavium sit etiam ad confitendum</head>
   				<p xml:id="wdrl4d18-d1e3717"><lb ed="#P"/><pc ana="#pilcrow"/>utrum potestas clavium sit etiam 
   					<lb ed="#P"/>ad <choice><sic>confitiendum</sic><corr>confitendum</corr></choice> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> potest dici quod una 
   					<lb ed="#P"/>et eadem res est <pc ana="#punctus"/> caracter ordinis <pc ana="#punctus"/> <seg>potestas<!-- p looks like "per" --></seg> 
@@ -107,8 +107,8 @@
   					<!-- drops --> indurat</p>
   			</div>
   			<div xml:id="wdr-l4d18q5" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3798">Librum IV, Distinctio 18, Quaestio 5</head>
-  				<head xml:id="wdrl4d18-Hd1e3801" type="questionTitle">Quod sint claves et quae sint</head>
+  				<head xml:id="wdrl4d18-Hd1e3798">Liber IV, Distinctio 18, Quaestio 5</head>
+  				<head xml:id="wdrl4d18-Hd1e3801" type="question-title">Quod sint claves et quae sint</head>
   				<p xml:id="wdrl4d18-d1e3804"><lb ed="#P"/><pc ana="#pilcrow"/>Quod sint cla<lb ed="#P"/>ves et quae sint <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> tamen una 
   					<lb ed="#P"/>est <pc ana="#virgula"/> in radice <pc ana="#virgula"/> quae est potestas iu<lb ed="#P"/>dicandi 
   					in foro animarum <pc ana="#punctus"/> sed duae <ref>glossa 
@@ -122,8 +122,8 @@
   					<lb ed="#P"/>si potestas iurisdictionis accidit clavi quia dat <unclear>materiam</unclear></p>
   			</div>
   			<div xml:id="wdr-l4d18q6" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3889">Librum IV, Distinctio 18, Quaestio 6</head>
-  				<head xml:id="wdrl4d18-Hd1e3892" type="questionTitle">Utrum per claves remittatur culpa</head>
+  				<head xml:id="wdrl4d18-Hd1e3889">Liber IV, Distinctio 18, Quaestio 6</head>
+  				<head xml:id="wdrl4d18-Hd1e3892" type="question-title">Utrum per claves remittatur culpa</head>
   				<p xml:id="wdrl4d18-d1e3895"><lb ed="#P"/><pc ana="#pilcrow"/>utrum per claves re<lb ed="#P"/>mittatur 
   					culpa <pc ana="#punctus"/> Responsio sic <pc ana="#virgula"/> multiplex fuit 
   					<lb ed="#P"/>opinio <pc ana="#virgula"/> quidam quod tantum ostendebat hoc tangitur 
@@ -137,16 +137,16 @@
   					<!-- drops --> virtute clavium</p>
   			</div>
   			<div xml:id="wdr-l4d18q7" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3957">Librum IV, Distinctio 18, Quaestio 7</head>
-  				<head xml:id="wdrl4d18-Hd1e3960" type="questionTitle">Utrum macula possit remitti</head>
+  				<head xml:id="wdrl4d18-Hd1e3957">Liber IV, Distinctio 18, Quaestio 7</head>
+  				<head xml:id="wdrl4d18-Hd1e3960" type="question-title">Utrum macula possit remitti</head>
   				<p xml:id="wdrl4d18-d1e3963"><lb ed="#P"/><pc ana="#pilcrow"/>utrum macula 
   					<lb ed="#P"/>possit remitti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia gratia 
   					<lb ed="#P"/>redditur quae est similitudo dei <pc ana="#punctus"/> macula 
   					<lb ed="#P"/>autem dissimilitudo dei <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q8" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e3987">Librum IV, Distinctio 18, Quaestio 8</head>
-  				<head xml:id="wdrl4d18-Hd1e3990" type="questionTitle">Utrum macula peccati sit aliquid</head>
+  				<head xml:id="wdrl4d18-Hd1e3987">Liber IV, Distinctio 18, Quaestio 8</head>
+  				<head xml:id="wdrl4d18-Hd1e3990" type="question-title">Utrum macula peccati sit aliquid</head>
   				<p xml:id="wdrl4d18-d1e3993"><lb ed="#P"/><pc ana="#pilcrow"/>utrum macula peccati sit alqiuid 
   					<lb ed="#P"/>Responsio inquantum est dissimilitudo dei <pc ana="#punctus"/> quae 
   					<lb ed="#P"/>per aversionem causatur sic <choice><orig>nichil</orig><reg>nihil</reg></choice> dicit positive <pc ana="#punctus"/> sed 
@@ -154,8 +154,8 @@
   					<lb ed="#P"/>ad creaturam <pc ana="#punctus"/> sic aliquid positive est <pc ana="#punctus"/> primum tamen prin<!-- drops -->cipalius est <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q9" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4030">Librum IV, Distinctio 18, Quaestio 9</head>
-  				<head xml:id="wdrl4d18-Hd1e4033" type="questionTitle">Utrum absolvatur quis per claves a poena temporali</head>
+  				<head xml:id="wdrl4d18-Hd1e4030">Liber IV, Distinctio 18, Quaestio 9</head>
+  				<head xml:id="wdrl4d18-Hd1e4033" type="question-title">Utrum absolvatur quis per claves a poena temporali</head>
   				<p xml:id="wdrl4d18-d1e4036"><lb ed="#P"/><pc ana="#pilcrow"/>utrum absolvatur <pc ana="#punctus"/> 
   					<lb ed="#P"/>quis per claves a <choice><orig>pena</orig><reg>poena</reg></choice> temporali 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quidam dixerunt <pc ana="#virgula"/> et falso quod absolvit 
@@ -168,23 +168,23 @@
   					<lb ed="#P"/>et recompensatur de communi thesauro ecclesiae</p>
   			</div>
   			<div xml:id="wdr-l4d18q10" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4118">Librum IV, Distinctio 18, Quaestio 10</head>
-  				<head xml:id="wdrl4d18-Hd1e4121" type="questionTitle">Utrum sacerdos possit uti potestate clavium pro sua voluntate</head>
+  				<head xml:id="wdrl4d18-Hd1e4118">Liber IV, Distinctio 18, Quaestio 10</head>
+  				<head xml:id="wdrl4d18-Hd1e4121" type="question-title">Utrum sacerdos possit uti potestate clavium pro sua voluntate</head>
   				<p xml:id="wdrl4d18-d1e4124"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sacerdos possit uti 
   					<lb ed="#P"/>potestate clavium <pc ana="#virgula"/> pro sua voluntate 
   					<cb ed="#P" n="119rb"/><lb ed="#P"/>Responsio <pc ana="#punctus"/> non sed discrete tatum <pc ana="#virgula"/> possunt uti secundum <name ref="#Augustine">augustinum</name> 
   					<lb ed="#P"/>in littera <pc ana="#punctus"/> Item <name>guillelmus</name> falsas <choice><orig>penitentias</orig><reg>poenitentias</reg></choice> dicimus etc <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q11" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4163">Librum IV, Distinctio 18, Quaestio 11</head>
-  				<head xml:id="wdrl4d18-Hd1e4166" type="questionTitle">Utrum excommunicatio debeat fieri ab ecclesiae</head>
+  				<head xml:id="wdrl4d18-Hd1e4163">Liber IV, Distinctio 18, Quaestio 11</head>
+  				<head xml:id="wdrl4d18-Hd1e4166" type="question-title">Utrum excommunicatio debeat fieri ab ecclesiae</head>
   				<p xml:id="wdrl4d18-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum excommunicatio debeat fieri ab ecclesia 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic scilicet ad correctionem <pc ana="#virgula"/> exemplum <ref><title ref="#Icor">prima corinthios</title> <num>v</num></ref> 
   					<lb ed="#P"/><ref><title ref="#mt">matthaeus</title> <sic><title ref="#mt">matthaeus</title></sic> <num>xviii</num></ref> <pc ana="#punctus"/> <quote xml:id="wdrl4d18-Qd1e4201" ana="#mt18_17">sit tibi quasi <choice><orig>euthnicus</orig><reg>ethnicus</reg></choice></quote></p>
   			</div>
   			<div xml:id="wdr-l4d18q12" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4212">Librum IV, Distinctio 18, Quaestio 12</head>
-  				<head xml:id="wdrl4d18-Hd1e4215" type="questionTitle">Utrum excommunicatio iniuste lata teneat</head>
+  				<head xml:id="wdrl4d18-Hd1e4212">Liber IV, Distinctio 18, Quaestio 12</head>
+  				<head xml:id="wdrl4d18-Hd1e4215" type="question-title">Utrum excommunicatio iniuste lata teneat</head>
   				<p xml:id="wdrl4d18-d1e4218"><lb ed="#P"/><pc ana="#pilcrow"/>utrum excommunicatio iniuste lata 
   					<lb ed="#P"/>teneat <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> semper timenda est et tenenda <pc ana="#punctus"/> 
   					<lb ed="#P"/>nisi in tribus casibus scilicet si non habet auctoritatem excommunicandi 
@@ -192,8 +192,8 @@
   					error exprimitur in sententia <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q13" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4244">Librum IV, Distinctio 18, Quaestio 13</head>
-  				<head xml:id="wdrl4d18-Hd1e4247" type="questionTitle">Utrum quibus sacerdos possit ex communicare subditum suum</head>
+  				<head xml:id="wdrl4d18-Hd1e4244">Liber IV, Distinctio 18, Quaestio 13</head>
+  				<head xml:id="wdrl4d18-Hd1e4247" type="question-title">Utrum quibus sacerdos possit ex communicare subditum suum</head>
   				<p xml:id="wdrl4d18-d1e4250"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quibus sacerdos possit ex communi<lb ed="#P"/>care 
   					subditum suum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#punctus"/> quia excommuni<lb ed="#P"/>catio 
   					spectat ad forum iudicii <pc ana="#punctus"/> quod est inter ho<lb ed="#P"/>minem 
@@ -206,8 +206,8 @@
   					<lb ed="#P"/>etiam maiori <pc ana="#punctus"/> sed sine <choice><orig>sollempnitate</orig><reg>sollemnitate</reg></choice> <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q14" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4315">Librum IV, Distinctio 18, Quaestio 14</head>
-  				<head xml:id="wdrl4d18-Hd1e4318" type="questionTitle">Utrum quilibet presbyter possit subditos suos ab excommunicatione absolvere</head>
+  				<head xml:id="wdrl4d18-Hd1e4315">Liber IV, Distinctio 18, Quaestio 14</head>
+  				<head xml:id="wdrl4d18-Hd1e4318" type="question-title">Utrum quilibet presbyter possit subditos suos ab excommunicatione absolvere</head>
   				<p xml:id="wdrl4d18-d1e4321"><lb ed="#P"/><pc ana="#pilcrow"/>utrum quilibet presbyter possit subditors 
   					<lb ed="#P"/>suos ab excommunicatione absolvere 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> a maiori excommunicatione potest tantum 
@@ -216,39 +216,39 @@
   					potest absolvere</p>
   			</div>
   			<div xml:id="wdr-l4d18q15" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4353">Librum IV, Distinctio 18, Quaestio 15</head>
-  				<head xml:id="wdrl4d18-Hd1e4356" type="questionTitle">Utrum sacerdos suspensus vel excommunicatus possit excommunicare et absolvere</head>
+  				<head xml:id="wdrl4d18-Hd1e4353">Liber IV, Distinctio 18, Quaestio 15</head>
+  				<head xml:id="wdrl4d18-Hd1e4356" type="question-title">Utrum sacerdos suspensus vel excommunicatus possit excommunicare et absolvere</head>
   				<p xml:id="wdrl4d18-d1e4359"><pc ana="#pilcrow"/>Utrum sacerdos suspensus vel excommuni<lb ed="#P"/>catus 
   					possit excommunicare et absolvere <pc ana="#punctus"/> 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> non quia non habet potestatem iurisdictionis 
   					<lb ed="#P"/>liberam <pc ana="#punctus"/> sed ligatam <pc ana="#virgula"/> quia non habet exaequationem</p>
   			</div>
   			<div xml:id="wdr-l4d18q16" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4381">Librum IV, Distinctio 18, Quaestio 16</head>
-  				<head xml:id="wdrl4d18-Hd1e4384" type="questionTitle">Utrum superior ab inferiora possit excommunicari</head>
+  				<head xml:id="wdrl4d18-Hd1e4381">Liber IV, Distinctio 18, Quaestio 16</head>
+  				<head xml:id="wdrl4d18-Hd1e4384" type="question-title">Utrum superior ab inferiora possit excommunicari</head>
   				<p xml:id="wdrl4d18-d1e4387"><lb ed="#P"/><pc ana="#pilcrow"/>utrum superior ab inferiora possit 
   					<lb ed="#P"/>excommunicari <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> nec se ipsum nec aequa<lb ed="#P"/>lem 
   					<pc ana="#punctus"/> quia iurisdictio est tantum respectu inferioris <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q17" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4408">Librum IV, Distinctio 18, Quaestio 17</head>
-  				<head xml:id="wdrl4d18-Hd1e4411" type="questionTitle">Utrum universitas aliqua possit excommunicari</head>
+  				<head xml:id="wdrl4d18-Hd1e4408">Liber IV, Distinctio 18, Quaestio 17</head>
+  				<head xml:id="wdrl4d18-Hd1e4411" type="question-title">Utrum universitas aliqua possit excommunicari</head>
   				<p xml:id="wdrl4d18-d1e4414"><lb ed="#P"/><pc ana="#pilcrow"/>utrum universitas aliqua pos<cb ed="#P" n="119va"/><lb ed="#P"/>sit 
   					excommunicari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non secundum <pc ana="#punctus"/> <ref>glossam <pc ana="#punctus"/> <name ref="#Augustine">augustini</name> 
   						<lb ed="#P"/><title>matthaeus</title> <num>xiii</num></ref> quia difficile et rarum est totam 
   					<lb ed="#P"/>multitudinem in peccato mortali convenire</p>
   			</div>
   			<div xml:id="wdr-l4d18q18" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4448">Librum IV, Distinctio 18, Quaestio 18</head>
-  				<head xml:id="wdrl4d18-Hd1e4451" type="questionTitle">Utrum semel excommunicatio possit amplius excommunicari</head>
+  				<head xml:id="wdrl4d18-Hd1e4448">Liber IV, Distinctio 18, Quaestio 18</head>
+  				<head xml:id="wdrl4d18-Hd1e4451" type="question-title">Utrum semel excommunicatio possit amplius excommunicari</head>
   				<p xml:id="wdrl4d18-d1e4454"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum semel excommunicatio possit am<lb ed="#P"/>plius 
   					excommunicari <pc ana="#punctus"/> Responsio quam ad separationem 
   					<lb ed="#P"/>ab ecclesiae non sed quantum ad elongationem ab ea 
   					<lb ed="#P"/>sive detentionem extra sic potest <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q19" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4472">Librum IV, Distinctio 18, Quaestio 19</head>
-  				<head xml:id="wdrl4d18-Hd1e4475" type="questionTitle">Utrum excommunicato communicans debeat excommunicatus reputari</head>
+  				<head xml:id="wdrl4d18-Hd1e4472">Liber IV, Distinctio 18, Quaestio 19</head>
+  				<head xml:id="wdrl4d18-Hd1e4475" type="question-title">Utrum excommunicato communicans debeat excommunicatus reputari</head>
   				<p xml:id="wdrl4d18-d1e4478"><lb ed="#P"/><pc ana="#pilcrow"/>utrum excommunicato communicans debeat 
   					<lb ed="#P"/>excommunicatus reputari <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic scilicet 
   					<lb ed="#P"/>maiori <pc ana="#punctus"/> si est excommunicatus cum participantibus 
@@ -256,8 +256,8 @@
   					<!-- drops --> minorem <pc ana="#punctus"/></p>
   			</div>
   			<div xml:id="wdr-l4d18q20" type="quaestio">
-  				<head xml:id="wdrl4d18-Hd1e4504">Librum IV, Distinctio 18, Quaestio 20</head>
-  				<head xml:id="wdrl4d18-Hd1e4507" type="questionTitle">Utrum semper sit mortale peccatum communicare excommunicato</head>
+  				<head xml:id="wdrl4d18-Hd1e4504">Liber IV, Distinctio 18, Quaestio 20</head>
+  				<head xml:id="wdrl4d18-Hd1e4507" type="question-title">Utrum semper sit mortale peccatum communicare excommunicato</head>
   				<p xml:id="wdrl4d18-d1e4510"><lb ed="#P"/><pc ana="#pilcrow"/>Responsio semper sit mortale 
   					<lb ed="#P"/>peccatum communicare excommunicato <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> 
   					<lb ed="#P"/>si participat scienter in divinis <pc ana="#punctus"/> et in sacramen<lb ed="#P"/>tis 
