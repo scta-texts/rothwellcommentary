@@ -54,7 +54,7 @@
           <head xml:id="wdr-l1d6-Hd1e102" type="question-title">Utrum Pater genuerit Filium necessitate</head>
           <!-- this would be a good pargraph to tag with the subject tag of neccessitas because there is a significant discussion of the term here -->
           <p xml:id="wdr-l1d6-d1e107">
-            <lb ed="#P" n="22"/>Queritur utrum pater genuerit 
+            <lb ed="#P" n="55"/>Queritur utrum pater genuerit 
             <lb ed="#P"/>filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio secundum <name ref="#Aristotle">philosophum</name> V <title ref="#Metaphysics">metaphysicae</title> et <name ref="#Averroes">commentatorem</name> 
             <lb ed="#P"/><mentioned><choice><orig>neccessarium</orig><reg>necessarium</reg></choice></mentioned> dicitur uno modo quod omnino et per se <corr><del rend="strikethrough">inm</del></corr> est immutabile 
             <lb ed="#P"/>et hoc tantum simpliciter est <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> alio modo <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> indigentiae 
