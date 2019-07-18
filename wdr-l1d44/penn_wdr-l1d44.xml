@@ -77,7 +77,8 @@
             <lb ed="#P"/>ordo <pc ana="#virgula"/> et proportio partium ad invicem <pc ana="#virgula"/> exemplum decythara <pc ana="#virgula"/> 
             <lb ed="#P"/>potuit tam fieri melius aliquorum partium a <unclear>conditione <!-- possible corrected --></unclear> <pc ana="#punctus"/> sed 
             <lb ed="#P"/>non esset omne idem <pc ana="#virgula"/> cum isto <pc ana="#virgula"/> sed istud haberet sed 
-            <lb ed="#P"/>ad illud <pc ana="#punctus"/> ut pars ad totum <pc ana="#virgula"/> accidentali scilicet sed non 
+            <lb ed="#P"/>ad illud <pc ana="#punctus"/> ut pars ad totum <pc type="virgula">/</pc> similiter etiam potuit fieri 
+            <lb ed="#P"/>melius omnium partium melioratione <pc ana="#virgula"/> accidentali scilicet sed non 
             <lb ed="#P"/>essentiali <pc ana="#punctus"/> quia tunc aliud universum esset <pc ana="#punctus"/>
           </p>
         </div>
@@ -119,7 +120,7 @@
             <lb ed="#P"/>quia haec determinatio ante potest cadere sub pos<lb ed="#P" break="no"/>sibilitate 
             <pc ana="#punctus"/> et tunc <pc ana="#punctus"/> stat pro duratione <pc ana="#punctus"/> quae esse 
             <lb ed="#P"/>potuit <pc ana="#virgula"/> et sic verum est quod potuit ante <pc ana="#punctuselevatus"/> 
-            quia potuit facere tempus mille annorum prius 
+            <lb ed="#P"/>quia potuit facere tempus mille annorum prius 
             <lb ed="#P"/>isto tempore <pc ana="#virgula"/> vel potest stare pro duratione quae 
             <lb ed="#P"/>fuit aeternitas <pc ana="#punctus"/> et sic non potuit amore <pc ana="#punctus"/> 
             <lb ed="#P"/>quia in aeternitate fieri non potuit <pc ana="#punctus"/>

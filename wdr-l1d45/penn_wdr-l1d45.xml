@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d45-Hd1e3508">Liber I, Distinctio 45, Quaestio 1</head>
           <head xml:id="wdrl1d45-Hd1e3511" type="question-title">Utrum voluntas sit in Deo</head>
           <p xml:id="wdrl1d45-d1e3514">
-            <lb ed="#P" n="38"/><pc ana="#pilcrow"/>Quaeritur utrum voluntas sit in deo <pc ana="#punctus"/> 
+            <lb ed="#P" n="40"/><pc ana="#pilcrow"/>Quaeritur utrum voluntas sit in deo <pc ana="#punctus"/> 
             <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#virgula"/> secundum scripturam <pc ana="#virgula"/> <del rend="strikethrough">not</del> <!-- something else here?? --> novum enim 
             <lb ed="#P"/>natura in qua invenitur <unclear>cognitione</unclear> <pc ana="#punctus"/> invenitur etiam 
             <lb ed="#P"/>voluntas et dilectio <pc ana="#virgula"/> quae apprehensionem 
