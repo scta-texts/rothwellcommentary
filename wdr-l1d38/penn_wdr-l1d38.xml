@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d38-Hd1e3508">Liber I, Distinctio 38, Quaestio 1</head>
           <head xml:id="wdrl1d38-Hd1e3511" type="question-title">Utrum scientia dei sit causa rerum </head>
           <p xml:id="wdrl1d38-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum scientia dei sit causa rerum Respondeo <pc ana="#punctus"/> in littera <pc ana="#punctus"/> 
+            <lb ed="#P" n="7"/><pc ana="#pilcrow"/>Quaeritur utrum scientia dei sit causa rerum Respondeo <pc ana="#punctus"/> in littera <pc ana="#punctus"/> 
             <lb ed="#P"/>sic <pc ana="#punctus"/> scientia scilicet practica <pc ana="#punctus"/> quae <choice><orig>inportat</orig><reg>importat</reg></choice> etiam beneplacitum <pc ana="#punctus"/> in 
             <lb ed="#P"/>littera <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> ideo res futurae sunt <pc ana="#virgula"/> quia deus eas novit <pc ana="#punctus"/> 
             <lb ed="#P"/>et quo ad scientiam est causa exemplaris <pc ana="#punctus"/> quoad beneplacitum est 

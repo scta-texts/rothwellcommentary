@@ -53,7 +53,7 @@
         <div xml:id="wdr-l1d27q1" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3508" type="question-title">Utrum proprietates personales distinguantur ab invicem</head>
           <p xml:id="wdrl1d27-d1e3511">
-            <lb ed="#P"/><pc ana="#pilcrow"/>ueritur utrum proprietates <unclear>personales <!-- possible corrected --></unclear> dis<lb ed="#P" break="no"/>tinguantur 
+            <lb ed="#P" n="61"/><pc ana="#pilcrow"/>ueritur utrum proprietates <unclear>personales <!-- possible corrected --></unclear> dis<lb ed="#P" break="no"/>tinguantur 
             ab invicem <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic scilicet sicut rationes 
             <lb ed="#P"/>distinguendi alia <pc ana="#punctus"/> sicut personae <unclear>dicere</unclear> <pc ana="#punctus"/> et per se ipsas <pc ana="#virgula"/> personae autem 
             <lb ed="#P"/>sicut extrema distinctionis <pc ana="#virgula"/> et per ipsas distinguuntur

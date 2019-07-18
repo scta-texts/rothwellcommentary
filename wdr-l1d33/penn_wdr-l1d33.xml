@@ -43,7 +43,7 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#P" n="36-vb"/>
+        <pb ed="#P" n="36-v"/>
         <cb ed="#P" n="b"/>
       </div>
     </front>
@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d33-Hd1e3508">Liber I, Distinctio 33, Quaestio 1</head>
           <head xml:id="wdrl1d33-Hd1e3511" type="question-title">Utrum peccatum sit contrarie opinari circa notiones</head>
           <p xml:id="wdrl1d33-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum <del rend="expunctuated">ut</del> peccatum sit contrarie opinari circa notiones 
+            <lb ed="#P" n="63"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum <del rend="expunctuated">ut</del> peccatum sit contrarie opinari circa notiones 
             <lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> si enim est de pertinentibus <choice><orig>neccessario</orig><reg>necessario</reg></choice> ad reli<lb ed="#P" break="no"/>gionem 
             fidei et morum <pc ana="#punctus"/> sic non nis per accidens scilicet ratione 
             <lb ed="#P"/>praesumptionis vel huiusmodi <pc ana="#punctus"/> Si autem sit de pertinentibus ad 

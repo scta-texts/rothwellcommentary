@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d36-Hd1e3508">Liber I, Distinctio 36, Quaestio 1</head>
           <head xml:id="wdrl1d36-Hd1e3511" type="question-title">Utrum deus cognoscat mala</head>
           <p xml:id="wdrl1d36-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus cognoscat mala 
+            <lb ed="#P" n="61"/><pc ana="#pilcrow"/>Quaeritur utrum deus cognoscat mala 
             <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum sanctos in littera <pc ana="#punctus"/> non per speciem propriam quia pura 
             <lb ed="#P"/>privatio est <pc ana="#punctus"/> sed per ydenam boni contrarii per amlitiam pri<lb ed="#P" break="no"/>vatur 
             aliquando autem dicitur ea nescire id est non approbare <pc ana="#punctus"/> <ref><name ref="#Cassiodorus">cassiodorus</name> 

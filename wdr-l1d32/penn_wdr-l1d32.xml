@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d32-Hd1e3508">Liber I, Distinctio 32, Quaestio 1</head>
           <head xml:id="wdrl1d32-Hd1e3511" type="question-title">Utrum pater et filius diligant se spiritum sancto</head>
           <p xml:id="wdrl1d32-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pater et filius diligant 
+            <lb ed="#P" n="21"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pater et filius diligant 
             <lb ed="#P"/>se spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et <name ref="#HughOfStVictor">hugo de sancto victore</name> 
             <lb ed="#P"/>construuntur <unclear>ablativi</unclear> <unclear>quaestio</unclear> in habitudine effectus formalis id est 
             <lb ed="#P"/><seg type="correction">denominant<del rend="expunctuated">o</del>is</seg> ut effectus dicatur large <pc ana="#punctus"/> et est sensus <unclear>dil</unclear> se 

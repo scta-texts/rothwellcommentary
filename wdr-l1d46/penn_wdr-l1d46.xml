@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d46-Hd1e3508">Liber I, Distinctio 46, Quaestio 1</head>
           <head xml:id="wdrl1d46-Hd1e3511" type="question-title">Utrum deus velit omnes homines salvari</head>
           <p xml:id="wdrl1d46-d1e3514">
-            <lb ed="#P"/>Quaeritur utrum deus velit <pc ana="#punctus"/> 
+            <lb ed="#P" n="46"/>Quaeritur utrum deus velit <pc ana="#punctus"/> 
             <lb ed="#P"/>omnes homines salvari <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum 
             <lb ed="#P"/><name ref="#Paul">apostolum</name> <ref ana="#Itim2_4"><title ref="#Itim">I timotheum</title> <sic>1</sic></ref> et haec secundum <name ref="#JohnDamascenus">damascenum</name> voluntate antecedente 
             <lb ed="#P"/>non consequente <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera de omnibus qui sal<lb ed="#P" break="no"/>vantur 

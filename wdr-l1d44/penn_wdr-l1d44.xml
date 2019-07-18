@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d44-Hd1e3508">Liber I, Distinctio 44, Quaestio 1</head>
           <head xml:id="wdrl1d44-Hd1e3511" type="question-title">Utrum deus singulas partes universi potuerint facere meliores</head>
           <p xml:id="wdrl1d44-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus singulas partes universi <pc ana="#punctuselevatus"/> 
+            <lb ed="#P" n="61"/><pc ana="#pilcrow"/>Quaeritur utrum deus singulas partes universi <pc ana="#punctuselevatus"/> 
             <lb ed="#P"/>potuerint facere meliores <pc ana="#punctus"/> <!-- omits Respondeo here --> Sic <pc ana="#punctus"/> <name ref="#Augustine">augustinus</name> in littera boni<lb ed="#P" break="no"/>tate 
             scilicet accidentali <pc ana="#punctus"/> Sed non bonitate essentiali <pc ana="#punctus"/> ita quod 
             <lb ed="#P"/>maneret eadem res <pc ana="#punctus"/> quia bonitas essentialis <pc ana="#punctus"/> est ultima 

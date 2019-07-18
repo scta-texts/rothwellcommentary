@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d34-Hd1e3508">Liber I, Distinctio 34, Quaestio 1</head>
           <head xml:id="wdrl1d34-Hd1e3511" type="question-title">Utrum essentia sit idem re cum persona</head>
           <p xml:id="wdrl1d34-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum essentia sit idem re cum persona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quod 
+            <lb ed="#P" n="7"/><pc ana="#pilcrow"/>Queritur utrum essentia sit idem re cum persona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quod 
             <lb ed="#P"/>sic probat <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> per sanctos et hoc propter naturae simplicitatem differunt 
             <lb ed="#P"/>autem ratione <pc ana="#punctus"/> propter differentem modum se habendi scilicet ut absolvunt 
             <!-- drops --> et relatum <pc ana="#punctus"/>

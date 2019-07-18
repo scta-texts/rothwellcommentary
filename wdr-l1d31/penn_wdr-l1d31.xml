@@ -54,10 +54,10 @@
           <head xml:id="wdrl1d31-Hd1e3508">Liber I, Distinctio 31, Quaestio 1</head>
           <head xml:id="wdrl1d31-Hd1e3511" type="question-title">Utrum aequalitas aliquid ponat in deo</head>
           <p xml:id="wdrl1d31-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum aequali<lb ed="#P" break="no"/>tas 
+            <lb ed="#P" n="28"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum aequali<lb ed="#P" break="no"/>tas 
             aliquid ponat in deo <pc ana="#punctus"/> Responsio inaequalitate sunt duo 
             <lb ed="#P"/>scilicet res et id in quo res fundatur scilicet una <subst><del rend="expunctuated">qualitas</del> 
-              <lb ed="#P"/><add place="inLine">quantitas</add></subst> virtualis quia aequalitas secundum <name ref="#Aristotle">philosophum</name> <pc ana="#virgula"/> causantur 
+            <lb ed="#P"/><add place="inLine">quantitas</add></subst> virtualis quia aequalitas secundum <name ref="#Aristotle">philosophum</name> <pc ana="#virgula"/> causantur 
             <lb ed="#P"/>ab uno <seg type="correction">inquan<add>ti</add>tate</seg> et quantum ad primum nihil ponit <pc ana="#punctus"/> quia non ponit 
             <lb ed="#P"/>aliquem rem <!-- check earlier version of relatus and respectum; they might be "rem" --> reale <pc ana="#punctus"/> cum realiter nullus res insit essentiae 
             <lb ed="#P"/>nec communiter tribus personis <pc ana="#punctus"/> inquantum ad secundum <pc ana="#punctus"/> secundum quosdam ponit aliud <pc ana="#punctus"/> 

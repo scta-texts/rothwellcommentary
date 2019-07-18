@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d42-Hd1e3508">Liber I, Distinctio 42, Quaestio 1</head>
           <head xml:id="wdrl1d42-Hd1e3511" type="question-title">Utrum in deo sit persona</head>
           <p xml:id="wdrl1d42-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Queritur <add place="marginLeft">utrum</add> in deo sit potentia <pc ana="#punctus"/> Respondeo sic scilicet potentia <sic>actam <!-- should be activa --></sic> 
+            <lb ed="#P" n="18"/><pc ana="#pilcrow"/>Queritur <add place="marginLeft">utrum</add> in deo sit potentia <pc ana="#punctus"/> Respondeo sic scilicet potentia <sic>actam <!-- should be activa --></sic> 
             <lb ed="#P"/>quia purus actus est <pc ana="#punctus"/> et ideo etiam sive aliqua potentia passiva <pc ana="#punctus"/>
           </p>
         </div>

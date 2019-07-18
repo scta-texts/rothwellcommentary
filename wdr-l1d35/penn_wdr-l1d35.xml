@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d35-Hd1e3508">Liber I, Distinctio 35, Quaestio 1</head>
           <head xml:id="wdrl1d35-Hd1e3511" type="question-title">Utrum in deo sit scientia</head>
           <p xml:id="wdrl1d35-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum in deo sit scientia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic large 
+            <lb ed="#P" n="23"/><pc ana="#pilcrow"/>Quaeritur utrum in deo sit scientia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic large 
             <lb ed="#P"/>scilicet vocando scientiam qualibet cognitione increatam <pc ana="#punctus"/> quia proprius 
             <lb ed="#P"/>sapientia est qui in eo <subst><del rend="strikethrough">inperfectio</del> <add place="inLine">imperfectio</add></subst> <pc ana="#punctus"/> Item ipse operatur 
             <!-- drops --> ex intentione finis

@@ -53,7 +53,7 @@
         <div xml:id="wdr-l1d26q1" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3508" type="question-title">Utrum ypostasis sit in deo</head>
           <p xml:id="wdrl1d26-d1e3511">
-            <lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum ypostasis sit in deo 
+            <lb ed="#P" n="44"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum ypostasis sit in deo 
             <lb ed="#P"/>Resondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia secundum <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> Graeci dicunt in deo unam substantiam <pc ana="#punctus"/> 
             <lb ed="#P"/>tres ypostases <pc ana="#punctus"/> significat ergo substantiam singularem <pc ana="#punctus"/> In divi<lb ed="#P" break="no"/>nis 
             autem quamvis non sit universale et particulare <pc ana="#virgula"/> tamen est ibi aliquid 

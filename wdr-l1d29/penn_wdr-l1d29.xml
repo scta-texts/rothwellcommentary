@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d29-Hd1e3508">Liber I, Distinctio 29, Quaestio 1</head>
           <head xml:id="wdrl1d29-Hd1e3511" type="question-title">Utrum una persona sit principium alterius</head>
           <p xml:id="wdrl1d29-d1e3514">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum 
+            <lb ed="#P" n="14"/><pc ana="#pilcrow"/>Queritur utrum 
             <lb ed="#P"/>una persona sit principium alterius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundudm <name ref="#Augustine">augustinum</name> 
             <lb ed="#P"/>in littera <pc ana="#punctus"/> quia una oritur ab <subst><del rend="strikethrough">alia</del> <add place="inLine">altera</add></subst> <pc ana="#punctus"/> Non tamen potest 
             <lb ed="#P"/>una dici causa alterius <pc ana="#punctus"/> quia causa dicit ordinem essentialiter differen<lb ed="#P" break="no"/>tium 

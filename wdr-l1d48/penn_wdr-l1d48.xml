@@ -54,7 +54,7 @@
           <head xml:id="wdrl1d48-Hd1e3508">Liber I, Distinctio 48, Quaestio 1</head>
           <head xml:id="wdrl1d48-Hd1e3511" type="question-title">Utrum voluntas humana possit formari divinae</head>
           <p xml:id="wdrl1d48-d1e3514">
-            <lb ed="#P"/>Quaeritur utrum <pc ana="#punctus"/> 
+            <lb ed="#P" n="53"/>Quaeritur utrum <pc ana="#punctus"/> 
             <lb ed="#P"/>voluntas humana <pc ana="#virgula"/> possit <seg type="correction">for<lb ed="#P" break="no"/>m<del rend="expunctuated">c</del>ari</seg> divinae Resonsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sicut con<lb ed="#P" break="no"/>formatur 
             aliquid habens aliquid per participationem <pc ana="#punctus"/> ei 
             <lb ed="#P"/>in quo illud est <unclear>mec?am</unclear> <pc ana="#punctus"/> ut album albedi<lb ed="#P" break="no"/>ni 
