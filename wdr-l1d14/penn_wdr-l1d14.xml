@@ -68,7 +68,7 @@
           <head xml:id="wdrl1d14-Hd1e3567" type="question-title">Quid sit temporalis processio Spiritus Sancti</head>
           <p xml:id="wdrl1d14-d1e3570">
             <lb ed="#P"/>Quid sit temporalis processio 
-            spiritus sancti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> processio temporalis est <pc ana="#virgula"/> <unclear>qnt</unclear> 
+            <lb ed="#P"/>spiritus sancti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> processio temporalis est <pc ana="#virgula"/> <unclear>qnt</unclear> 
             <lb ed="#P"/>qua spiritus sanctus a patre et filio ad sanctificandum creaturam 
             <lb ed="#P"/>procedit <unclear>hic</unclear> sumuntur ex verbo <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> et <unclear>causa</unclear> geritur 
             <lb ed="#P"/>hi tres a quo <pc ana="#punctus"/> a ad quod <pc ana="#punctus"/> et effectus scilicet sanctificatio

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-04-25">April 25, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,111 +24,124 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="33-r"/>
+        <cb ed="#P" n="b"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="33rb"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d23">
-  			<head xml:id="wdrl1d23-Hd1e3503">Liber I, Distinctio 23 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d23q1" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e3508" type="question-title">Utrum nomen personae Deo conveniat</head>
-  				<p xml:id="wdrl1d23-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum 
-  					<lb ed="#P"/>nomen personae deo conveniat <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> licet non quantum ad id a quibus 
-  					<lb ed="#P"/><choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#punctus"/> quia <unclear>alarnali</unclear> sono <choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#punctus"/> 
-  					<lb ed="#P"/>tamen cui <choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#virgula"/> est suppositum nullae rationalis distinctum</p>
-  			</div>
-  			<div xml:id="wdr-l1d23q2" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e3561" type="question-title">Utrum significet substantiam vel relationem</head>
-  				<p xml:id="wdrl1d23-d1e3564"><lb ed="#P"/><pc ana="#pilcrow"/>utrum significet substantiam 
-  					<lb ed="#P"/>vel relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> multae sunt opiniones <pc ana="#punctus"/> Nam quidam 
-  					<lb ed="#P"/>dixerunt esse aequivocum <pc ana="#punctus"/> et aliquando significare substantiam <pc ana="#punctus"/> aliquando personam 
-  					<lb ed="#P"/>aliquando proprietatem <pc ana="#punctus"/> ut <ref><name>magister</name> <unclear>7</unclear> 5 distinctione</ref> <pc ana="#virgula"/> <pc ana="#punctus"/> alii qui aequivocum 
-  					<lb ed="#P"/>ex usu quia ante quaestionem haereticorum significabat substantiam <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Sed ex tunc relationem <pc ana="#punctus"/> <pc ana="#virgula"/> alii <pc ana="#punctus"/> quod ex adiuncto <del rend="strikethrough">eqc</del> aequi<lb ed="#P"/>vocum 
-  					<pc ana="#punctus"/> quia per se et in singulari significat substantiam <pc ana="#punctus"/> Cum terminis 
-  					<lb ed="#P"/>distinctis et in <unclear>pluraliter</unclear> relationem <pc ana="#virgula"/> alii dicunt quod unicum 
-  					<lb ed="#P"/>et quod substantiam significat principium et in recto <pc ana="#punctus"/> relationem secundario <pc ana="#punctus"/> et 
-  					<lb ed="#P"/>in obliquus dicitur enim personam <unclear>q</unclear> per se una <pc ana="#punctus"/> quorum primum dicit distinc<lb ed="#P"/>tionem 
-  					secundum unitatem <pc ana="#punctus"/> <pc ana="#virgula"/> alii quod econverso scilicet essentia <seg type="correction">secondari<add place="aboveLine">o</add><del rend="expunctuated">a</del></seg> et in 
-  					<lb ed="#P"/>obliquo <pc ana="#punctus"/> relationem <pc ana="#virgula"/> principialiter et <unclear>in</unclear> in recto <pc ana="#punctus"/> unde dicitur esse 
-  					<lb ed="#P"/>rationalis nullae individua substantia <pc ana="#punctus"/> <pc ana="#virgula"/> alii communius dicunt <pc ana="#punctus"/> quod significat 
-  					<lb ed="#P"/>relationem <pc ana="#punctus"/> sed per modum substantiae <pc ana="#punctus"/> significat enim personae secundum <name ref="#Boethius">boetium</name> substantiam 
-  					<lb ed="#P"/>rationalem individuam <pc ana="#punctus"/> sive distinctam quorum ultimum <unclear>q</unclear> 
-  					<lb ed="#P"/>formale et completum est <del rend="expunctuated">est</del> personae <pc ana="#punctus"/> et licet significet essentiam tamquam 
-  					<lb ed="#P"/>a quo inponitur sub positum tamen <pc ana="#virgula"/> <unclear>tantum??</unclear> id cui <unclear>m</unclear></p>
-  			</div>
-  			<div xml:id="wdr-l1d23q3" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e3716" type="question-title">utrum persona possit praedicari in plurali</head>
-  				<p xml:id="wdrl1d23-d1e3719"><lb ed="#P"/><pc ana="#pilcrow"/>utrum persona possit praedicari in plurali Respondeo 
-  					<lb ed="#P"/>sic In symbolo <pc ana="#punctus"/> <pc ana="#virgula"/> quia id cui <choice><orig>inpositum</orig><reg>impositum</reg></choice> est scilciet sup<lb ed="#P"/>positum 
-  					naturae intellectualis proprietate incommunicabili 
-  					<cb ed="#P" n="33va"/><lb ed="#P"/>distinctum <pc ana="#punctus"/> plurificatur ergo nomen eius</p>
-  			</div>
-  			<div xml:id="wdr-l1d23q4" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e3746" type="question-title">Qualiter distinguantur illa <unclear>minor</unclear> vocabula 
-  					scilicet essentia subsistentia substantia persona et 4 in graeco illis 
-  					<foreign>Corkidentia</foreign> scilicet <foreign xml:lang="gr"><choice><orig>ysya</orig><reg>ousia</reg></choice></foreign> <foreign>ulyasis</foreign> <foreign>ypostasis</foreign> et <foreign>prosopon</foreign></head>
-  				<p xml:id="wdrl1d23-d1e3771"><lb ed="#P"/><pc ana="#pilcrow"/>Qualiter distinguantur illa <pc ana="#punctus"/> <unclear>minor</unclear> vocabula 
-  					<lb ed="#P"/>scilicet essentia <pc ana="#punctus"/> subsistentia <pc ana="#punctus"/> substantia <pc ana="#punctus"/> persona <pc ana="#punctus"/> et 4 <pc ana="#punctus"/> in graeco <pc ana="#punctus"/> illis 
-  					<lb ed="#P"/><foreign>Corkidentia</foreign> scilicet <foreign xml:lang="gr"><choice><orig>ysya</orig><reg>ousia</reg></choice></foreign> <pc ana="#punctus"/> <foreign>ulyasis</foreign> <pc ana="#punctus"/> <foreign>ypo<lb ed="#P"/>stasis</foreign> <pc ana="#punctus"/> 
-  					et <foreign>prosopon</foreign> Respondeo adversis materia assignatur 
-  					<lb ed="#P"/>dicitur <pc ana="#virgula"/> secundum <name ref="#Boethius">boetium</name> enim in communem <pc ana="#pilcrow"/> super praedicta primum videtur 
-  					<lb ed="#P"/>nominare nullam gravis generalissimi in genere substantiae secundum 
-  					<lb ed="#P"/>naturam gravis sub alterum <pc ana="#punctus"/> vel specie specialissime <pc ana="#punctus"/> <unclear>Tamen</unclear> 
-  					<lb ed="#P"/>individui <pc ana="#punctus"/> <pc ana="#virgula"/> quartum individuum rationale tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum <unclear>prae<lb ed="#P"/>psitivum</unclear> 
-  					nullo <pc ana="#punctus"/> primum significat substantiam subiecti id est ipsam nullam substantiae <pc ana="#punctus"/> 
-  					<lb ed="#P"/>secundum substantiam subiectam id est rem nullae <pc ana="#virgula"/> et hic inquantum nullae communi 
-  					<lb ed="#P"/>substat <pc ana="#punctus"/> <pc ana="#virgula"/> tertium autem illud idem <pc ana="#virgula"/> inquantum substat accidentibus <pc ana="#punctus"/> <pc ana="#virgula"/> 
-  					<lb ed="#P"/>quartum <pc ana="#punctus"/> inquantum substat in nulla rationali <pc ana="#punctus"/> et eius accidentibus <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> 
-  					<lb ed="#P"/>alii communius <pc ana="#punctus"/> quod in omni creatura nulla simplici <pc ana="#punctus"/> est invenire 
-  					<lb ed="#P"/>quid communicabilem <pc ana="#punctus"/> <seg type="correction">incommunicabile<del rend="expunctuated">m</del></seg>  <pc ana="#punctus"/> <pc ana="#virgula"/> communicabile dicitur scilicet ipsum 
-  					<lb ed="#P"/>quo est <pc ana="#punctus"/> et haec est essentia et ipsum quod est <pc ana="#punctus"/> et haec est subsistentia <pc ana="#punctus"/> 
-  					<lb ed="#P"/>sic se habet deitas et deus <pc ana="#punctus"/> <pc ana="#virgula"/> Incommunicabile dicitur aut indistin<lb ed="#P"/>guibile 
-  					quibus licet proprietatibus et haec est substantia <pc ana="#punctus"/> aut indistinc<lb ed="#P"/>tum 
-  					proprietatibus dignitatis <pc ana="#punctus"/> et haec est persona <pc ana="#punctus"/> haec solum ratione 
-  					<lb ed="#P"/>differunt in divinis <pc ana="#punctus"/> hodie tamen ex usu <pc ana="#punctuselevatus"/> substantia ponitur secundo 
-  					<!-- drops --> loco et subsistentia tertio <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d23q5" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e3958" type="question-title">Utrum possit dici tres substantiae</head>
-  				<p xml:id="wdrl1d23-d1e3961"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres 
-  					<lb ed="#P"/>substantiae <pc ana="#punctus"/> Responsio substantia dupliciter dicitur scilicet a duplici actu substantiae <pc ana="#punctus"/> qui sunt 
-  					<lb ed="#P"/>per se subsistere  et substare proprietatibus quod est individuorum <pc ana="#punctus"/> primo 
-  					<lb ed="#P"/>modo accepta substantia in divinis <pc ana="#virgula"/> dicit quid absolutum scilicet essentiam 
-  					<lb ed="#P"/>Secundum modo ypostasum <pc ana="#punctus"/> secundo modo posset dici in plurali <pc ana="#punctus"/> et 
-  					<lb ed="#P"/>sic ponuntu antiqui <pc ana="#punctus"/> <name ref="#Hillary">Hillarius</name> et <name ref="#Boethius">boetius</name> <pc ana="#punctus"/> Sed ex usu iam 
-  					<lb ed="#P"/>appropriant est essentiae <pc ana="#punctus"/> propter haereticos <pc ana="#punctus"/> unde non <subst><del rend="strikethrough">dicit</del> <add place="aboveLine">debet</add></subst> modo dici 
-  					<!-- drops line --> tres substantiae <pc ana="#punctus"/> <unclear>Idem <name>Iohannes</name></unclear></p>
-  			</div>
-  			<div xml:id="wdr-l1d23q6" type="quaestio">
-  				<head xml:id="wdrl1d23-Hd1e4025" type="question-title">Utrum possit dici tres essentiae</head>
-  				<p xml:id="wdrl1d23-d1e4028"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres <pc ana="#punctus"/> 
-  					<lb ed="#P"/>essentiae <pc ana="#punctus"/> Respondeo non <pc ana="#punctus"/> quia per hoc significaretur plurificatio formae 
-  					<lb ed="#P"/>divinae <pc ana="#punctus"/> Sed illa quae se habent per modum accidentium plurifica<!--drops-->tionem recipiunt
-  							<!-- drops again --> <ref>supra distinctio 2 quaestio 6</ref></p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d23">
+        <head xml:id="wdrl1d23-Hd1e3503">Liber I, Distinctio 23 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d23q1" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e3508" type="question-title">Utrum nomen personae Deo conveniat</head>
+          <p xml:id="wdrl1d23-d1e3511">
+            <lb ed="#P" n="43"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum 
+            <lb ed="#P"/>nomen personae deo conveniat <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> licet non quantum ad id a quibus 
+            <lb ed="#P"/><choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#punctus"/> quia <unclear>alarnali</unclear> sono <choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#punctus"/> 
+            <lb ed="#P"/>tamen cui <choice><orig>inpositum</orig><reg>impositum</reg></choice> est <pc ana="#virgula"/> est suppositum nullae rationalis distinctum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d23q2" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e3561" type="question-title">Utrum significet substantiam vel relationem</head>
+          <p xml:id="wdrl1d23-d1e3564">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum significet substantiam 
+            <lb ed="#P"/>vel relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> multae sunt opiniones <pc ana="#punctus"/> Nam quidam 
+            <lb ed="#P"/>dixerunt esse aequivocum <pc ana="#punctus"/> et aliquando significare substantiam <pc ana="#punctus"/> aliquando personam 
+            <lb ed="#P"/>aliquando proprietatem <pc ana="#punctus"/> ut <ref><name>magister</name> <unclear>7</unclear> 5 distinctione</ref> <pc ana="#virgula"/> <pc ana="#punctus"/> alii qui aequivocum 
+            <lb ed="#P"/>ex usu quia ante quaestionem haereticorum significabat substantiam <pc ana="#punctus"/> 
+            <lb ed="#P"/>Sed ex tunc relationem <pc ana="#punctus"/> <pc ana="#virgula"/> alii <pc ana="#punctus"/> quod ex adiuncto <del rend="strikethrough">eqc</del> aequi<lb ed="#P" break="no"/>vocum 
+            <pc ana="#punctus"/> quia per se et in singulari significat substantiam <pc ana="#punctus"/> Cum terminis 
+            <lb ed="#P"/>distinctis et in <unclear>pluraliter</unclear> relationem <pc ana="#virgula"/> alii dicunt quod unicum 
+            <lb ed="#P"/>et quod substantiam significat principium et in recto <pc ana="#punctus"/> relationem secundario <pc ana="#punctus"/> et 
+            <lb ed="#P"/>in obliquus dicitur enim personam <unclear>q</unclear> per se una <pc ana="#punctus"/> quorum primum dicit distinc<lb ed="#P" break="no"/>tionem 
+            secundum unitatem <pc ana="#punctus"/> <pc ana="#virgula"/> alii quod econverso scilicet essentia <seg type="correction">secondari<add place="aboveLine">o</add><del rend="expunctuated">a</del></seg> et in 
+            <lb ed="#P"/>obliquo <pc ana="#punctus"/> relationem <pc ana="#virgula"/> principialiter et <unclear>in</unclear> in recto <pc ana="#punctus"/> unde dicitur esse 
+            <lb ed="#P"/>rationalis nullae individua substantia <pc ana="#punctus"/> <pc ana="#virgula"/> alii communius dicunt <pc ana="#punctus"/> quod significat 
+            <lb ed="#P"/>relationem <pc ana="#punctus"/> sed per modum substantiae <pc ana="#punctus"/> significat enim personae secundum <name ref="#Boethius">boetium</name> substantiam 
+            <lb ed="#P"/>rationalem individuam <pc ana="#punctus"/> sive distinctam quorum ultimum <unclear>q</unclear> 
+            <lb ed="#P"/>formale et completum est <del rend="expunctuated">est</del> personae <pc ana="#punctus"/> et licet significet essentiam tamquam 
+            <lb ed="#P"/>a quo inponitur sub positum tamen <pc ana="#virgula"/> <unclear>tantum??</unclear> id cui <unclear>m</unclear>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d23q3" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e3716" type="question-title">utrum persona possit praedicari in plurali</head>
+          <p xml:id="wdrl1d23-d1e3719">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum persona possit praedicari in plurali Respondeo 
+            <lb ed="#P"/>sic In symbolo <pc ana="#punctus"/> <pc ana="#virgula"/> quia id cui <choice><orig>inpositum</orig><reg>impositum</reg></choice> est scilciet sup<lb ed="#P" break="no"/>positum 
+            naturae intellectualis proprietate incommunicabili 
+            <pb ed="#P" n="33-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>distinctum <pc ana="#punctus"/> plurificatur ergo nomen eius
+          </p>
+        </div>
+        <div xml:id="wdr-l1d23q4" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e3746" type="question-title">Qualiter distinguantur illa <unclear>minor</unclear> vocabula 
+            scilicet essentia subsistentia substantia persona et 4 in graeco illis 
+            <foreign>Corkidentia</foreign> scilicet <foreign xml:lang="gr"><choice><orig>ysya</orig><reg>ousia</reg></choice></foreign> <foreign>ulyasis</foreign> <foreign>ypostasis</foreign> et <foreign>prosopon</foreign></head>
+          <p xml:id="wdrl1d23-d1e3771">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Qualiter distinguantur illa <pc ana="#punctus"/> <unclear>minor</unclear> vocabula 
+            <lb ed="#P"/>scilicet essentia <pc ana="#punctus"/> subsistentia <pc ana="#punctus"/> substantia <pc ana="#punctus"/> persona <pc ana="#punctus"/> et 4 <pc ana="#punctus"/> in graeco <pc ana="#punctus"/> illis 
+            <lb ed="#P"/><foreign>Corkidentia</foreign> scilicet <foreign xml:lang="gr"><choice><orig>ysya</orig><reg>ousia</reg></choice></foreign> <pc ana="#punctus"/> <foreign>ulyasis</foreign> <pc ana="#punctus"/> <foreign>ypo<lb ed="#P" break="no"/>stasis</foreign> 
+            <pc ana="#punctus"/> et <foreign>prosopon</foreign> Respondeo adversis materia assignatur 
+            <lb ed="#P"/>dicitur <pc ana="#virgula"/> secundum <name ref="#Boethius">boetium</name> enim in communem <pc ana="#pilcrow"/> super praedicta primum videtur 
+            <lb ed="#P"/>nominare nullam gravis generalissimi in genere substantiae secundum 
+            <lb ed="#P"/>naturam gravis sub alterum <pc ana="#punctus"/> vel specie specialissime <pc ana="#punctus"/> <unclear>Tamen</unclear> 
+            <lb ed="#P"/>individui <pc ana="#punctus"/> <pc ana="#virgula"/> quartum individuum rationale tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum <unclear>prae<lb ed="#P" break="no"/>psitivum</unclear> 
+            nullo <pc ana="#punctus"/> primum significat substantiam subiecti id est ipsam nullam substantiae <pc ana="#punctus"/> 
+            <lb ed="#P"/>secundum substantiam subiectam id est rem nullae <pc ana="#virgula"/> et hic inquantum nullae communi 
+            <lb ed="#P"/>substat <pc ana="#punctus"/> <pc ana="#virgula"/> tertium autem illud idem <pc ana="#virgula"/> inquantum substat accidentibus <pc ana="#punctus"/> <pc ana="#virgula"/> 
+            <lb ed="#P"/>quartum <pc ana="#punctus"/> inquantum substat in nulla rationali <pc ana="#punctus"/> et eius accidentibus <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> 
+            <lb ed="#P"/>alii communius <pc ana="#punctus"/> quod in omni creatura nulla simplici <pc ana="#punctus"/> est invenire 
+            <lb ed="#P"/>quid communicabilem <pc ana="#punctus"/> <seg type="correction">incommunicabile<del rend="expunctuated">m</del></seg>  <pc ana="#punctus"/> <pc ana="#virgula"/> communicabile dicitur scilicet ipsum 
+            <lb ed="#P"/>quo est <pc ana="#punctus"/> et haec est essentia et ipsum quod est <pc ana="#punctus"/> et haec est subsistentia <pc ana="#punctus"/> 
+            <lb ed="#P"/>sic se habet deitas et deus <pc ana="#punctus"/> <pc ana="#virgula"/> Incommunicabile dicitur aut indistin<lb ed="#P" break="no"/>guibile 
+            quibus licet proprietatibus et haec est substantia <pc ana="#punctus"/> aut indistinc<lb ed="#P" break="no"/>tum 
+            proprietatibus dignitatis <pc ana="#punctus"/> et haec est persona <pc ana="#punctus"/> haec solum ratione 
+            <lb ed="#P"/>differunt in divinis <pc ana="#punctus"/> hodie tamen ex usu <pc ana="#punctuselevatus"/> substantia ponitur secundo 
+            <!-- drops --> loco et subsistentia tertio <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d23q5" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e3958" type="question-title">Utrum possit dici tres substantiae</head>
+          <p xml:id="wdrl1d23-d1e3961">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres 
+            <lb ed="#P"/>substantiae <pc ana="#punctus"/> Responsio substantia dupliciter dicitur scilicet a duplici actu substantiae <pc ana="#punctus"/> qui sunt 
+            <lb ed="#P"/>per se subsistere  et substare proprietatibus quod est individuorum <pc ana="#punctus"/> primo 
+            <lb ed="#P"/>modo accepta substantia in divinis <pc ana="#virgula"/> dicit quid absolutum scilicet essentiam 
+            <lb ed="#P"/>Secundum modo ypostasum <pc ana="#punctus"/> secundo modo posset dici in plurali <pc ana="#punctus"/> et 
+            <lb ed="#P"/>sic ponuntu antiqui <pc ana="#punctus"/> <name ref="#Hillary">Hillarius</name> et <name ref="#Boethius">boetius</name> <pc ana="#punctus"/> Sed ex usu iam 
+            <lb ed="#P"/>appropriant est essentiae <pc ana="#punctus"/> propter haereticos <pc ana="#punctus"/> unde non <subst><del rend="strikethrough">dicit</del> <add place="aboveLine">debet</add></subst> modo dici 
+            <!-- drops line --> tres substantiae <pc ana="#punctus"/> <unclear>Idem <name>Iohannes</name></unclear>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d23q6" type="quaestio">
+          <head xml:id="wdrl1d23-Hd1e4025" type="question-title">Utrum possit dici tres essentiae</head>
+          <p xml:id="wdrl1d23-d1e4028">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici tres <pc ana="#punctus"/> 
+            <lb ed="#P"/>essentiae <pc ana="#punctus"/> Respondeo non <pc ana="#punctus"/> quia per hoc significaretur plurificatio formae 
+            <lb ed="#P"/>divinae <pc ana="#punctus"/> Sed illa quae se habent per modum accidentium plurifica<!--drops-->tionem recipiunt
+                <!-- drops again --> <ref>supra distinctio 2 quaestio 6</ref>
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

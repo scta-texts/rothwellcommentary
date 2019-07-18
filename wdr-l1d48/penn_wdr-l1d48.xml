@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-04">May 04, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,140 +24,157 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="43-r"/>
+        <cb ed="#P" n="b"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="43rb"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d48">
-  			<head xml:id="wdrl1d48-Hd1e3503">Liber I, Distinctio 48 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d48q1" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3508">Liber I, Distinctio 48, Quaestio 1</head>
-  				<head xml:id="wdrl1d48-Hd1e3511" type="question-title">Utrum voluntas humana possit formari divinae</head>
-  				<p xml:id="wdrl1d48-d1e3514"><lb ed="#P"/>Quaeritur utrum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>voluntas humana <pc ana="#virgula"/> possit <seg type="correction">for<lb ed="#P"/>m<del rend="expunctuated">c</del>ari</seg> divinae Resonsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sicut con<lb ed="#P"/>formatur 
-  					aliquid habens aliquid per participationem <pc ana="#punctus"/> ei 
-  					<lb ed="#P"/>in quo illud est <unclear>mec?am</unclear> <pc ana="#punctus"/> ut album albedi<lb ed="#P"/>ni 
-  					<pc ana="#punctus"/> rectitudo enim in nostra voluntate est <pc ana="#punctus"/> 
-  					<lb ed="#P"/>per participationem <pc ana="#punctus"/> in deo per essentiam <pc ana="#punctus"/> et est haec con<lb ed="#P"/>formitas 
-  					<pc ana="#virgula"/> proportionalitatis <pc ana="#virgula"/> tantum <pc ana="#virgula"/> non propor<lb ed="#P"/>tionis 
-  					<pc ana="#punctus"/> quia sicut se voluntas dei recte 
-  					<lb ed="#P"/>se habet <pc ana="#virgula"/> ad suum volitum <pc ana="#virgula"/> sic modo suo <pc ana="#punctus"/> 
-  					<lb ed="#P"/>nostra voluntas ad suum volitum <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d48q2" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3589">Liber I, Distinctio 48, Quaestio 2</head>
-  				<head xml:id="wdrl1d48-Hd1e3592" type="question-title">utrum omnes teneamur ad huius conformitatem</head>
-  				<p xml:id="wdrl1d48-d1e3595"><lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes teneamur ad huius <pc ana="#punctus"/> 
-  					<lb ed="#P"/>conformitatem <pc ana="#pilcrow"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia tenemur 
-  					<lb ed="#P"/>ei obedire <pc ana="#virgula"/> <unclear>Q?o</unclear> super illud <title><unclear>psalmis</unclear></title> <pc ana="#punctus"/> non <name>adae</name> sit 
-  					<lb ed="#P"/><choice><orig>michi</orig><reg>mihi</reg></choice> cor parvum <pc ana="#punctus"/> dicit voluntas dei illa 
-  					<lb ed="#P"/>est <pc ana="#virgula"/> cui nos oportet conformari <pc ana="#punctus"/> est autem hoc 
-  					<lb ed="#P"/>praeceptum generale <pc ana="#virgula"/> ad praecepta omnia affirmativa <pc ana="#punctus"/> 
-  					<cb ed="#P" n="43va"/><lb ed="#P"/>et negativa et ideo transgressio eius non facit speciale 
-  					<!-- drops --> peccatum</p>
-  			</div>
-  			<div xml:id="wdr-l1d48q3" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3658">Liber I, Distinctio 48, Quaestio 3</head>
-  				<head xml:id="wdrl1d48-Hd1e3661" type="question-title">Utrum teneamur conformari informari volendi scilicet ex caritate</head>
-  				<p xml:id="wdrl1d48-d1e3664"><lb ed="#P"/><pc ana="#pilcrow"/>utrum teneamur confor<lb ed="#P"/>mari 
-  					in forma volendi scilciet ex cari<lb ed="#P"/>tate 
-  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> conditionaliter tenemur scilicet si vo<lb ed="#P"/>lumus 
-  					habere <pc ana="#virgula"/> mercedem operis <pc ana="#virgula"/> Sed de absoluvta 
-  					tentione scilicet quod alias incurramus 
-  					<pc ana="#pilcrow"/>offensam distinguendum est <pc ana="#virgula"/> quia ad conformita<lb ed="#P"/>tem 
-  					in actui non tenemur quis <pc ana="#virgula"/> nisi habita 
-  					<lb ed="#P"/>caritate <pc ana="#virgula"/> nec tunc semper in quolibet actu <pc ana="#punctus"/> sed 
-  					<lb ed="#P"/>quando actu <pc ana="#virgula"/> cogitat dei beneficentia <pc ana="#punctus"/> tenetur 
-  					<lb ed="#P"/>diligere <pc ana="#virgula"/> a <unclear>for??urtatione</unclear> autem in habitu non 
-  					<lb ed="#P"/>tenemur <pc ana="#virgula"/> quis directe <pc ana="#virgula"/> sed indirecte 
-  					<lb ed="#P"/>tenemur <pc ana="#virgula"/> enim non semper <pc ana="#virgula"/> sed quando actu beneficentia dei re<lb ed="#P"/>cogitat 
-  					<pc ana="#virgula"/> se ad caritatem <unclear>praepare</unclear> <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d48q4" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3738">Liber I, Distinctio 48, Quaestio 4</head>
-  				<head xml:id="wdrl1d48-Hd1e3741" type="question-title">utrum teneamur conformari in volito</head>
-  				<p xml:id="wdrl1d48-d1e3744"><lb ed="#P"/><pc ana="#pilcrow"/>utrum teneamur conformari 
-  					<lb ed="#P"/>in volito <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> voluntate sensualitatis 
-  					<lb ed="#P"/>non tenemur <pc ana="#virgula"/> non voluntate naturali <pc ana="#virgula"/> etiam ipsius 
-  					<lb ed="#P"/>rationis <pc ana="#virgula"/> quia utraque determinata est ad unum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>neque etiam voluntate deliberatam conditionali <pc ana="#punctus"/> quia il<lb ed="#P"/>la 
-  					non est simpliciter voluntas sed absoluta etiam 
-  					<lb ed="#P"/>non tenemur <pc ana="#virgula"/> si ignotum est <pc ana="#punctus"/> Sed si notum <pc ana="#punctus"/> sed tamen 
-  					<lb ed="#P"/>deus <pc ana="#virgula"/> non vult illud simpliciter <pc ana="#virgula"/> et absolute 
-  					<lb ed="#P"/>ut sententiam <unclear>comminationis</unclear> <pc ana="#virgula"/> non tenemur velle <pc ana="#punctus"/> 
-  					<lb ed="#P"/>sed si absolute vult <pc ana="#virgula"/> tunc tenemur <pc ana="#virgula"/> si con<lb ed="#P"/>gruit 
-  					nobis velle <pc ana="#punctus"/> et tale est quod in se bo<lb ed="#P"/>num 
-  					est <pc ana="#punctus"/> et nobis bonum <pc ana="#virgula"/> alias non tenemur <unclear>et</unclear> 
-  					<lb ed="#P"/>quia deus non vult aliud velle <pc ana="#virgula"/> exemplum <name ref="#Avicenna">avicenna</name> 
-  					<lb ed="#P"/>in littera <pc ana="#virgula"/> de morte patris <pc ana="#pilcrow"/> quidam tamen 
-  					<lb ed="#P"/>simpliciter dicunt quod tenemur velle illud <pc ana="#punctus"/> quod 
-  					<lb ed="#P"/>scimus deum velle <pc ana="#virgula"/> sed conditionaliter possumus 
-  					<lb ed="#P"/>oppositum velle <pc ana="#virgula"/> sed primum verius est <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d48q5" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3852">Liber I, Distinctio 48, Quaestio 5</head>
-  				<head xml:id="wdrl1d48-Hd1e3855" type="question-title">Utrum sit semper iusta voluntas quae conformatur voluntati divinae in volito</head>
-  				<p xml:id="wdrl1d48-d1e3858"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit semper iusta voluntas 
-  					<lb ed="#P"/>quae conformatur voluntati divinae 
-  					<lb ed="#P"/>in volito <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#virgula"/> sed tantum quae confor<lb ed="#P"/>matur 
-  					ei <pc ana="#virgula"/> quo ad formam actus volendi <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d48q6" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3882">Liber I, Distinctio 48, Quaestio 6</head>
-  				<head xml:id="wdrl1d48-Hd1e3885" type="question-title">Utrum sancti debuerint velle passionem christi</head>
-  				<p xml:id="wdrl1d48-d1e3888"><lb ed="#P"/>utrum sancti debuerint velle passionem <pc ana="#punctus"/> 
-  					<lb ed="#P"/>christi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> in comparatione scilicet ad finem <pc ana="#punctus"/> 
-  					<lb ed="#P"/>id est in redemptionem mundi <pc ana="#punctus"/> quia sic bona 
-  					<lb ed="#P"/>fuit <pc ana="#virgula"/> sed non secundum se <pc ana="#virgula"/> et absolute <pc ana="#virgula"/> inquantum 
-  					<!-- drops --> passio idem in littera</p>
-  			</div>
-  			<div xml:id="wdr-l1d48q7" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3923">Liber I, Distinctio 48, Quaestio 7</head>
-  				<head xml:id="wdrl1d48-Hd1e3926" type="question-title">utrum dyabolus voluerit pati christum</head>
-  				<p xml:id="wdrl1d48-d1e3929"><lb ed="#P"/><pc ana="#pilcrow"/>utrum dyabolus <pc ana="#punctus"/> 
-  					<lb ed="#P"/>voluerit pati christum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> a principio 
-  					<lb ed="#P"/>voluit <pc ana="#virgula"/> circa finem noluit <pc ana="#punctus"/> quia per aliqua signa <pc ana="#punctus"/> 
-  					<!-- drops --> effectum passionis coniecturavit</p>
-  			</div>
-  			<div xml:id="wdr-l1d48q8" type="quaestio">
-  				<head xml:id="wdrl1d48-Hd1e3956">Liber I, Distinctio 48, Quaestio 8</head>
-  				<head xml:id="wdrl1d48-Hd1e3959" type="question-title">Utrum sancti velint poenas reproborum</head>
-  				<p xml:id="wdrl1d48-d1e3962"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>sancti velint <choice><orig>penas</orig><reg>poenas</reg></choice> reproborum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> <del rend="strikethrough">siex</del> sancti <pc ana="#punctus"/> sive in caelo <pc ana="#punctus"/> sive in mundo 
-  					<lb ed="#P"/>volunt salutem reproborum in via <pc ana="#punctus"/> nisi quorum 
-  					<lb ed="#P"/>esset eis <pc ana="#punctus"/> revelata dampnatio <pc ana="#punctus"/> sed tunc 
-  					<lb ed="#P"/>adhuc conditionaliter hanc vellent <pc ana="#virgula"/> sed damp<lb ed="#P"/>natorum 
-  					<pc ana="#virgula"/> in inferno <pc ana="#virgula"/> <choice><orig>penas</orig><reg>poenas</reg></choice> volunt absolute 
-  					<lb ed="#P"/>per comparationem ad iustitiam <pc ana="#virgula"/> punientis <pc ana="#virgula"/> sed 
-  					<lb ed="#P"/>non quantum <pc ana="#virgula"/> ad <unclear>m?ai?</unclear> patientis <pc ana="#virgula"/> quae non 
-  					<lb ed="#P"/>ad <choice><orig>penas</orig><reg>poenas</reg></choice> <pc ana="#punctus"/> sed ad gloriam aeternam et beati<lb ed="#P"/>tudinem 
-  					creata <pc ana="#virgula"/> est <pc ana="#virgula"/> ad quam nocet perducat <pc ana="#punctus"/> 
-  					<lb ed="#P"/>deus qui est benedictus in saecula saeculorum 
-  					<lb ed="#P"/>amen</p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d48">
+        <head xml:id="wdrl1d48-Hd1e3503">Liber I, Distinctio 48 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d48q1" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3508">Liber I, Distinctio 48, Quaestio 1</head>
+          <head xml:id="wdrl1d48-Hd1e3511" type="question-title">Utrum voluntas humana possit formari divinae</head>
+          <p xml:id="wdrl1d48-d1e3514">
+            <lb ed="#P"/>Quaeritur utrum <pc ana="#punctus"/> 
+            <lb ed="#P"/>voluntas humana <pc ana="#virgula"/> possit <seg type="correction">for<lb ed="#P" break="no"/>m<del rend="expunctuated">c</del>ari</seg> divinae Resonsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> sicut con<lb ed="#P" break="no"/>formatur 
+            aliquid habens aliquid per participationem <pc ana="#punctus"/> ei 
+            <lb ed="#P"/>in quo illud est <unclear>mec?am</unclear> <pc ana="#punctus"/> ut album albedi<lb ed="#P" break="no"/>ni 
+            <pc ana="#punctus"/> rectitudo enim in nostra voluntate est <pc ana="#punctus"/> 
+            <lb ed="#P"/>per participationem <pc ana="#punctus"/> in deo per essentiam <pc ana="#punctus"/> et est haec con<lb ed="#P" break="no"/>formitas 
+            <pc ana="#virgula"/> proportionalitatis <pc ana="#virgula"/> tantum <pc ana="#virgula"/> non propor<lb ed="#P" break="no"/>tionis 
+            <pc ana="#punctus"/> quia sicut se voluntas dei recte 
+            <lb ed="#P"/>se habet <pc ana="#virgula"/> ad suum volitum <pc ana="#virgula"/> sic modo suo <pc ana="#punctus"/> 
+            <lb ed="#P"/>nostra voluntas ad suum volitum <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q2" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3589">Liber I, Distinctio 48, Quaestio 2</head>
+          <head xml:id="wdrl1d48-Hd1e3592" type="question-title">utrum omnes teneamur ad huius conformitatem</head>
+          <p xml:id="wdrl1d48-d1e3595">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum omnes teneamur ad huius <pc ana="#punctus"/> 
+            <lb ed="#P"/>conformitatem <pc ana="#pilcrow"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia tenemur 
+            <lb ed="#P"/>ei obedire <pc ana="#virgula"/> <unclear>Q?o</unclear> super illud <title><unclear>psalmis</unclear></title> <pc ana="#punctus"/> non <name>adae</name> sit 
+            <lb ed="#P"/><choice><orig>michi</orig><reg>mihi</reg></choice> cor parvum <pc ana="#punctus"/> dicit voluntas dei illa 
+            <lb ed="#P"/>est <pc ana="#virgula"/> cui nos oportet conformari <pc ana="#punctus"/> est autem hoc 
+            <lb ed="#P"/>praeceptum generale <pc ana="#virgula"/> ad praecepta omnia affirmativa <pc ana="#punctus"/> 
+            <pb ed="#P" n="43-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>et negativa et ideo transgressio eius non facit speciale 
+            <!-- drops --> peccatum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q3" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3658">Liber I, Distinctio 48, Quaestio 3</head>
+          <head xml:id="wdrl1d48-Hd1e3661" type="question-title">Utrum teneamur conformari informari volendi scilicet ex caritate</head>
+          <p xml:id="wdrl1d48-d1e3664">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum teneamur confor<lb ed="#P" break="no"/>mari 
+            in forma volendi scilciet ex cari<lb ed="#P" break="no"/>tate 
+            <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> conditionaliter tenemur scilicet si vo<lb ed="#P" break="no"/>lumus 
+            habere <pc ana="#virgula"/> mercedem operis <pc ana="#virgula"/> Sed de absoluvta 
+            tentione scilicet quod alias incurramus 
+            <pc ana="#pilcrow"/>offensam distinguendum est <pc ana="#virgula"/> quia ad conformita<lb ed="#P" break="no"/>tem 
+            in actui non tenemur quis <pc ana="#virgula"/> nisi habita 
+            <lb ed="#P"/>caritate <pc ana="#virgula"/> nec tunc semper in quolibet actu <pc ana="#punctus"/> sed 
+            <lb ed="#P"/>quando actu <pc ana="#virgula"/> cogitat dei beneficentia <pc ana="#punctus"/> tenetur 
+            <lb ed="#P"/>diligere <pc ana="#virgula"/> a <unclear>for??urtatione</unclear> autem in habitu non 
+            <lb ed="#P"/>tenemur <pc ana="#virgula"/> quis directe <pc ana="#virgula"/> sed indirecte 
+            <lb ed="#P"/>tenemur <pc ana="#virgula"/> enim non semper <pc ana="#virgula"/> sed quando actu beneficentia dei re<lb ed="#P" break="no"/>cogitat 
+            <pc ana="#virgula"/> se ad caritatem <unclear>praepare</unclear> <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q4" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3738">Liber I, Distinctio 48, Quaestio 4</head>
+          <head xml:id="wdrl1d48-Hd1e3741" type="question-title">utrum teneamur conformari in volito</head>
+          <p xml:id="wdrl1d48-d1e3744">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum teneamur conformari 
+            <lb ed="#P"/>in volito <pc ana="#virgula"/> Responsio <pc ana="#punctus"/> voluntate sensualitatis 
+            <lb ed="#P"/>non tenemur <pc ana="#virgula"/> non voluntate naturali <pc ana="#virgula"/> etiam ipsius 
+            <lb ed="#P"/>rationis <pc ana="#virgula"/> quia utraque determinata est ad unum <pc ana="#punctus"/> 
+            <lb ed="#P"/>neque etiam voluntate deliberatam conditionali <pc ana="#punctus"/> quia il<lb ed="#P" break="no"/>la 
+            non est simpliciter voluntas sed absoluta etiam 
+            <lb ed="#P"/>non tenemur <pc ana="#virgula"/> si ignotum est <pc ana="#punctus"/> Sed si notum <pc ana="#punctus"/> sed tamen 
+            <lb ed="#P"/>deus <pc ana="#virgula"/> non vult illud simpliciter <pc ana="#virgula"/> et absolute 
+            <lb ed="#P"/>ut sententiam <unclear>comminationis</unclear> <pc ana="#virgula"/> non tenemur velle <pc ana="#punctus"/> 
+            <lb ed="#P"/>sed si absolute vult <pc ana="#virgula"/> tunc tenemur <pc ana="#virgula"/> si con<lb ed="#P" break="no"/>gruit 
+            nobis velle <pc ana="#punctus"/> et tale est quod in se bo<lb ed="#P" break="no"/>num 
+            est <pc ana="#punctus"/> et nobis bonum <pc ana="#virgula"/> alias non tenemur <unclear>et</unclear> 
+            <lb ed="#P"/>quia deus non vult aliud velle <pc ana="#virgula"/> exemplum <name ref="#Avicenna">avicenna</name> 
+            <lb ed="#P"/>in littera <pc ana="#virgula"/> de morte patris <pc ana="#pilcrow"/> quidam tamen 
+            <lb ed="#P"/>simpliciter dicunt quod tenemur velle illud <pc ana="#punctus"/> quod 
+            <lb ed="#P"/>scimus deum velle <pc ana="#virgula"/> sed conditionaliter possumus 
+            <lb ed="#P"/>oppositum velle <pc ana="#virgula"/> sed primum verius est <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q5" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3852">Liber I, Distinctio 48, Quaestio 5</head>
+          <head xml:id="wdrl1d48-Hd1e3855" type="question-title">Utrum sit semper iusta voluntas quae conformatur voluntati divinae in volito</head>
+          <p xml:id="wdrl1d48-d1e3858">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit semper iusta voluntas 
+            <lb ed="#P"/>quae conformatur voluntati divinae 
+            <lb ed="#P"/>in volito <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non <pc ana="#virgula"/> sed tantum quae confor<lb ed="#P" break="no"/>matur 
+            ei <pc ana="#virgula"/> quo ad formam actus volendi <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q6" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3882">Liber I, Distinctio 48, Quaestio 6</head>
+          <head xml:id="wdrl1d48-Hd1e3885" type="question-title">Utrum sancti debuerint velle passionem christi</head>
+          <p xml:id="wdrl1d48-d1e3888">
+            <lb ed="#P"/>utrum sancti debuerint velle passionem <pc ana="#punctus"/> 
+            <lb ed="#P"/>christi <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> in comparatione scilicet ad finem <pc ana="#punctus"/> 
+            <lb ed="#P"/>id est in redemptionem mundi <pc ana="#punctus"/> quia sic bona 
+            <lb ed="#P"/>fuit <pc ana="#virgula"/> sed non secundum se <pc ana="#virgula"/> et absolute <pc ana="#virgula"/> inquantum 
+            <!-- drops --> passio idem in littera
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q7" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3923">Liber I, Distinctio 48, Quaestio 7</head>
+          <head xml:id="wdrl1d48-Hd1e3926" type="question-title">utrum dyabolus voluerit pati christum</head>
+          <p xml:id="wdrl1d48-d1e3929">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dyabolus <pc ana="#punctus"/> 
+            <lb ed="#P"/>voluerit pati christum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> a principio 
+            <lb ed="#P"/>voluit <pc ana="#virgula"/> circa finem noluit <pc ana="#punctus"/> quia per aliqua signa <pc ana="#punctus"/> 
+            <!-- drops --> effectum passionis coniecturavit
+          </p>
+        </div>
+        <div xml:id="wdr-l1d48q8" type="quaestio">
+          <head xml:id="wdrl1d48-Hd1e3956">Liber I, Distinctio 48, Quaestio 8</head>
+          <head xml:id="wdrl1d48-Hd1e3959" type="question-title">Utrum sancti velint poenas reproborum</head>
+          <p xml:id="wdrl1d48-d1e3962">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <pc ana="#punctus"/> 
+            <lb ed="#P"/>sancti velint <choice><orig>penas</orig><reg>poenas</reg></choice> reproborum <pc ana="#punctus"/> 
+            <lb ed="#P"/>Responsio <pc ana="#punctus"/> <del rend="strikethrough">siex</del> sancti <pc ana="#punctus"/> sive in caelo <pc ana="#punctus"/> sive in mundo 
+            <lb ed="#P"/>volunt salutem reproborum in via <pc ana="#punctus"/> nisi quorum 
+            <lb ed="#P"/>esset eis <pc ana="#punctus"/> revelata dampnatio <pc ana="#punctus"/> sed tunc 
+            <lb ed="#P"/>adhuc conditionaliter hanc vellent <pc ana="#virgula"/> sed damp<lb ed="#P" break="no"/>natorum 
+            <pc ana="#virgula"/> in inferno <pc ana="#virgula"/> <choice><orig>penas</orig><reg>poenas</reg></choice> volunt absolute 
+            <lb ed="#P"/>per comparationem ad iustitiam <pc ana="#virgula"/> punientis <pc ana="#virgula"/> sed 
+            <lb ed="#P"/>non quantum <pc ana="#virgula"/> ad <unclear>m?ai?</unclear> patientis <pc ana="#virgula"/> quae non 
+            <lb ed="#P"/>ad <choice><orig>penas</orig><reg>poenas</reg></choice> <pc ana="#punctus"/> sed ad gloriam aeternam et beati<lb ed="#P" break="no"/>tudinem 
+            creata <pc ana="#virgula"/> est <pc ana="#virgula"/> ad quam nocet perducat <pc ana="#punctus"/> 
+            <lb ed="#P"/>deus qui est benedictus in saecula saeculorum 
+            <lb ed="#P"/>amen
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

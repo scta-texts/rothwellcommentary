@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -102,7 +99,7 @@
             <lb ed="#P"/>in omnibus suis effectibus inquantum veritas bonitas et huiusmodi <g ref="#dot"/> 
             <lb ed="#P"/>unde dicit <name ref="#JohnDamascenus">damascenus</name> <g ref="#dot"/> omnibus existendi deum <g ref="#dot"/> cognitio ab ipsa 
             <lb ed="#P"/>naturaliter est <unclear>inserta</unclear> <g ref="#dot"/> Sed in ratione speciali <g ref="#dot"/> qua <unclear>dicitur</unclear> deus <g ref="#dot"/> vel 
-            <lb ed="#P"/>summum bonum <g ref="#dot"/> sic non est per se notum <g ref="#dot"/> sed vel est cognitio <unclear>demonstratio<lb ed="#P"/>nis</unclear> 
+            <lb ed="#P"/>summum bonum <g ref="#dot"/> sic non est per se notum <g ref="#dot"/> sed vel est cognitio <unclear>demonstratio<lb ed="#P" break="no"/>nis</unclear> 
             inquantum ratiocinando <g ref="#slash"/> per effectum cognoscimus causam 
             <lb ed="#P"/>vel articulis fidei inquantum scilicet simpliciter assentimus <!-- break to next line --> <g ref="#pilcrow"/> ipsum esse</p>
         </div>
@@ -113,7 +110,7 @@
             <lb ed="#P"/>creaturam <g ref="#dot"/> et qualiter <g ref="#dot"/> Responsio <g ref="#dot"/> sic secundum <name ref="#Paul">apostolus</name> <g ref="#dot"/> <g ref="#slash"/> quia in via <g ref="#dot"/> 
             <lb ed="#P"/><unclear>causam</unclear> cognoscitur per effectum <g ref="#dot"/> <g ref="#slash"/> sed in patria erit econverso id est tribus 
             <lb ed="#P"/>autem modis devenimus in cognitione dei in praesenti secundum <name ref="#Dionysius">dyonisium</name> 
-            <lb ed="#P"/>scilicet per remotionem <g ref="#dot"/> per eminentiam <g ref="#dot"/> per causam <g ref="#dot"/> <g ref="#slash"/> quia crea<lb ed="#P"/>tura 
+            <lb ed="#P"/>scilicet per remotionem <g ref="#dot"/> per eminentiam <g ref="#dot"/> per causam <g ref="#dot"/> <g ref="#slash"/> quia crea<lb ed="#P" break="no"/>tura 
             est ens productum ab alio <g ref="#dot"/> <unclear>de?no</unclear> <g ref="#dot"/> hii etiam modi 
             <lb ed="#P"/>in litera ab <name ref="#Ambrose">ambrosorum</name> scilicet per causam id est per eminentiam alius <g ref="#dot"/> <!-- drops to the next line --> <g ref="#pilcrow"/> et etiam per remotionem</p> 
         </div>
@@ -134,17 +131,17 @@
           <p xml:id="wdrl1d3-uiobss">
             <lb ed="#P"/><pc type="#pilcrow"/>utrum in omni creatura <g ref="#dot"/> sit 
             <lb ed="#P"/>vestigium creatoris <g ref="#dot"/> Responsio <g ref="#dot"/> quod sic <g ref="#dot"/> secundum <name ref="#Augustine">augustinus</name> in littera <g ref="#dot"/> Item 
-            <lb ed="#P"/><name ref="#Augustine">augustinum</name> <title>super Genese</title> omnis creatura gerit vestigium crea<lb ed="#P"/>toris 
-            <g ref="#dot"/> et est similis ei <g ref="#dot"/> <!-- strange mark --> <g ref="#dot"/> Sed nota quod vestigiu est simil<lb ed="#P"/>tudo 
+            <lb ed="#P"/><name ref="#Augustine">augustinum</name> <title>super Genese</title> omnis creatura gerit vestigium crea<lb ed="#P" break="no"/>toris 
+            <g ref="#dot"/> et est similis ei <g ref="#dot"/> <!-- strange mark --> <g ref="#dot"/> Sed nota quod vestigiu est simil<lb ed="#P" break="no"/>tudo 
             quaedam indistincte repraesentans ut similitudo 
             <lb ed="#P"/>pedis quae repraesentat speciem <unclear>aliis</unclear> <g ref="#dot"/> sed non <corr><del rend="expunctuated">d</del></corr> individuum 
             <lb ed="#P"/><g ref="#dot"/> <choice><orig>ymago</orig><reg>imago</reg></choice> autem est similitudo distincta <g ref="#dot"/> ut faciei quae 
-            <lb ed="#P"/>repraesentat individuum <g ref="#dot"/> prima repraesentat <unclear>naturam</unclear> <unclear>commu<lb ed="#P"/>nem</unclear> 
+            <lb ed="#P"/>repraesentat individuum <g ref="#dot"/> prima repraesentat <unclear>naturam</unclear> <unclear>commu<lb ed="#P" break="no"/>nem</unclear> 
             <space extent="oneWordLength"/> personas <g ref="#dot"/> est autem vestigium <unclear>haec <!-- hoc? --></unclear> secundum <name ref="#Augustine">augustinum</name> in 
             <lb ed="#P"/>littera <g ref="#dot"/> in unitate id est in modo <g ref="#dot"/> specie <g ref="#dot"/> et ordine <g ref="#dot"/> Item numero <g ref="#dot"/> 
             <lb ed="#P"/>pondere <g ref="#dot"/> et in littera <g ref="#dot"/> unitas est qua in se terminatur <g ref="#slash"/> quod refertur 
             <lb ed="#P"/>ad modum secundum ad mensuram <g ref="#dot"/> species quam ab aliis distinguntur <g ref="#dot"/> 
-            <lb ed="#P"/>quod refertur ad numerum <g ref="#dot"/> <g ref="#slash"/> ordo quo <corr><del rend="expunctuated">ad</del></corr> in finem refertur quod re<lb ed="#P"/>fertur 
+            <lb ed="#P"/>quod refertur ad numerum <g ref="#dot"/> <g ref="#slash"/> ordo quo <corr><del rend="expunctuated">ad</del></corr> in finem refertur quod re<lb ed="#P" break="no"/>fertur 
             ad pondus <!-- weird character --> primum appropriatur potentiae patris <g ref="#dot"/> <g ref="#slash"/> secundum <g ref="#dot"/> 
             <lb ed="#P"/>sapientiae filii <g ref="#dot"/> tertium bonitati spiritus sancti <g ref="#dot"/>
           </p>
@@ -153,13 +150,13 @@
           <head type="question-title">Quibus conveniat cognitio per vestigium</head>
           <p xml:id="wdrl1d3-qccieb">
             <lb ed="#P"/><g ref="#pilcrow"/>Quibus conveniat cognitio per vestigium 
-            <lb ed="#P"/>Responsio nota quod aliud est cognoscere per vestigium <g ref="#slash"/> aliud investi<lb ed="#P"/>gio 
+            <lb ed="#P"/>Responsio nota quod aliud est cognoscere per vestigium <g ref="#slash"/> aliud investi<lb ed="#P" break="no"/>gio 
             <g ref="#dot"/> <g ref="#slash"/> Item quod uno modo est medium <g ref="#dot"/> alio modo ab <unclear>abm</unclear> <g ref="#dot"/> 
             <lb ed="#P"/><unclear>Nota</unclear> quod <unclear>cog?uo</unclear> <g ref="#dot"/> per vestigium incipit a creatura et terminatur 
             <lb ed="#P"/>ad deum <g ref="#dot"/> <g ref="#slash"/> homo ergo viator cognoscit in vestigio <g ref="#dot"/> et 
             <lb ed="#P"/>per vestigium <g ref="#dot"/> <g ref="#slash"/> angelus vel homo comprehensor in vestigio <g ref="#slash"/> 
             <lb ed="#P"/>nec per vestigium <g ref="#dot"/> <g ref="#slash"/> brutum nec in vestigio <g ref="#slash"/> nec per vestigium <g ref="#dot"/> 
-            <lb ed="#P"/>exemplum de <choice><orig>hiis</orig><reg>his</reg></choice> omnibus <g ref="#slash"/> in cognitione faciei alicuius in spe<lb ed="#P"/>culo 
+            <lb ed="#P"/>exemplum de <choice><orig>hiis</orig><reg>his</reg></choice> omnibus <g ref="#slash"/> in cognitione faciei alicuius in spe<lb ed="#P" break="no"/>culo 
             scilicet inter notum et ignotum <g ref="#slash"/> et brutum
           </p>
         </div>
@@ -179,7 +176,7 @@
             <cb ed="#P" n="b"/> <!-- 25rb -->
             <lb ed="#P"/><g ref="#pilcrow"/>utrum sit in sola parte superiori rationis <g ref="#dot"/> 
             <lb ed="#P"/>Responsio cum ratio superior et inferior <g ref="#dot"/> una sit et eadem <g ref="#slash"/> 
-            <lb ed="#P"/>secundum <del rend="expunctuated">subiectum</del> substantiam <g ref="#dot"/> differens tantum penes officium <g ref="#dot"/> ideo ipsa to<lb ed="#P"/>ta 
+            <lb ed="#P"/>secundum <del rend="expunctuated">subiectum</del> substantiam <g ref="#dot"/> differens tantum penes officium <g ref="#dot"/> ideo ipsa to<lb ed="#P" break="no"/>ta 
             secundum substantiam est <choice><orig>ymago</orig><reg>imago</reg></choice> <g ref="#dot"/> sicut tabula <g ref="#dot"/> <g ref="#slash"/> secundum <space extent="oneWordLength"/> 
             <lb ed="#P"/>considerandi superiora quibus informatur <g ref="#slash"/> <choice><orig>ymago</orig><reg>imago</reg></choice> dicitur proprie <g ref="#dot"/> 
             <lb ed="#P"/>sicut pictura <g ref="#dot"/> unde <name ref="#Augustine">augustinus</name> in <title>littera</title> <g ref="#dot"/> <choice><orig>ymago</orig><reg>imago</reg></choice> dei ibi quaerenda et 
@@ -194,16 +191,16 @@
             <lb ed="#P"/>earum abinvicem <g ref="#dot"/> ac consubstantialitate Responsio Nota 
             <lb ed="#P"/>primo quod <choice><orig>ymago</orig><reg>imago</reg></choice> <unclear>assignatur</unclear> penes potentias naturales <g ref="#dot"/> <g ref="#slash"/> et accipiatur 
             <lb ed="#P"/>potentia large <g ref="#slash"/> quaelibet naturalis animae proprietas <g ref="#dot"/> sive in suscipiendo 
-            <lb ed="#P"/>sive in retinendo sive operando <g ref="#dot"/> <g ref="#slash"/> vocatur ergo hic me<lb ed="#P"/>moria 
+            <lb ed="#P"/>sive in retinendo sive operando <g ref="#dot"/> <g ref="#slash"/> vocatur ergo hic me<lb ed="#P" break="no"/>moria 
             virtus animae <g ref="#slash"/> continens species intelligibiles quia 
             <lb ed="#P"/>intellectus secundum <name ref="#Aristotle">philosophus</name> est locus specierum <g ref="#dot"/> proprie autem secundum quod <corr><del rend="expunctuated">con</del></corr> 
             <lb ed="#P"/>continet species innatas scilicet similitudinem veri et boni <g ref="#dot"/> quae 
             <lb ed="#P"/>species concreatae sunt non autem acquisitarum specierum <g ref="#slash"/> nisi 
             <lb ed="#P"/>large sumendo <g ref="#dot"/> <g ref="#slash"/> quia vero intellectus immaterialis est reflectitur 
             <lb ed="#P"/>supra speciem receptam <g ref="#dot"/> et sic oritur intelligentia <g ref="#dot"/> <g ref="#slash"/> huius 
-            <lb ed="#P"/>vero reflexionem consequitur voluntas <g ref="#dot"/> secundum quam affi<lb ed="#P"/>citur 
+            <lb ed="#P"/>vero reflexionem consequitur voluntas <g ref="#dot"/> secundum quam affi<lb ed="#P" break="no"/>citur 
             circa rem intellectam <g ref="#dot"/> <g ref="#slash"/> et sic patent partes 
-            <lb ed="#P"/><choice><orig>ymaginis</orig><reg>imaginis</reg></choice> et ordo partium et origo <g ref="#dot"/> actus etiam in<lb ed="#P"/>tuendi 
+            <lb ed="#P"/><choice><orig>ymaginis</orig><reg>imaginis</reg></choice> et ordo partium et origo <g ref="#dot"/> actus etiam in<lb ed="#P" break="no"/>tuendi 
             species et conservandi eas <g ref="#slash"/> cum uterque sit 
             <lb ed="#P"/><unclear>cogitantem</unclear> potentiae <g ref="#slash"/> sunt eiusdem potentiae secundum essentiam <g ref="#dot"/> differentis 
             <lb ed="#P"/>tantum sive <unclear>distinctae <!-- distincte --></unclear> <g ref="#slash"/> penes duo officia <g ref="#dot"/> voluntas <!-- break onto next line --> autem specialis potentia est.
@@ -227,8 +224,8 @@
         <div xml:id="wdr-l1d3q11" type="quaestio">
           <head type="question-title">Utrum potentiae imaginis semper sint coniunctae suis actibus</head>
           <p xml:id="wdrl1d3-upieno">
-            <lb ed="#P"/><g ref="#pilcrow"/>utrum potentiae <choice><orig>yma<lb ed="#P"/>ginis</orig><reg>ima<lb ed="#P"/>ginis</reg></choice> 
-            semper sint coniunctae suis actibus Responsio respec<lb ed="#P"/>tu 
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum potentiae <choice><orig>yma<lb ed="#P" break="no"/>ginis</orig><reg>ima<lb ed="#P" break="no"/>ginis</reg></choice> 
+            semper sint coniunctae suis actibus Responsio respec<lb ed="#P" break="no"/>tu 
             specierum innatarum vel rerum animae per essentiam praesentium 
             <lb ed="#P"/>ut est deus <g ref="#dot"/> et ipsa anima <g ref="#dot"/> sic semper sunt in actu naturali scilicet 
             <lb ed="#P"/>non deliberatio <g ref="#dot"/> <g ref="#slash"/> sed idem specierum acquisitarum <g ref="#punctuselevatus"/> <unclear>non</unclear> <g ref="#dot"/> Item nec 
@@ -238,16 +235,16 @@
         <div xml:id="wdr-l1d3q12" type="quaestio">
           <head type="question-title">Respectu quorum obiectorum assignetur imago</head>
           <p xml:id="wdrl1d3-rqocee">
-            <lb ed="#P"/><g ref="#pilcrow"/>Respectu quorum obiectorum assignetur <choice><orig>yma<lb ed="#P"/>go</orig><reg>ima<lb ed="#P"/>go</reg></choice> 
-            <g ref="#dot"/> Responsio <choice><orig>ymago</orig><reg>imago</reg></choice> est similitudo expressa haec autem atten<lb ed="#P"/>ditur 
-            in tribus praecipue scilicet in ordinata partium dis<lb ed="#P"/>tinctione 
+            <lb ed="#P"/><g ref="#pilcrow"/>Respectu quorum obiectorum assignetur <choice><orig>yma<lb ed="#P" break="no"/>go</orig><reg>ima<lb ed="#P" break="no"/>go</reg></choice> 
+            <g ref="#dot"/> Responsio <choice><orig>ymago</orig><reg>imago</reg></choice> est similitudo expressa haec autem atten<lb ed="#P" break="no"/>ditur 
+            in tribus praecipue scilicet in ordinata partium dis<lb ed="#P" break="no"/>tinctione 
             <g ref="#dot"/> In debita lineamentorum figuratione <g ref="#dot"/> et 
             <lb ed="#P"/>in congrua coloris vivacitate <g ref="#dot"/> Secundum hoc <choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis 
             <lb ed="#P"/>large dici potest <g ref="#slash"/> idem quorum obiectorum <g ref="#slash"/> quantum scilicet ad ordinem 
-            <lb ed="#P"/>et aequalitatem potentiarum inter se <g ref="#slash"/> <g ref="#dot"/> Sed quo ad modum disti<lb ed="#P"/>nctionis 
+            <lb ed="#P"/>et aequalitatem potentiarum inter se <g ref="#slash"/> <g ref="#dot"/> Sed quo ad modum disti<lb ed="#P" break="no"/>nctionis 
             <g ref="#dot"/> qui est in origine unius ab uno <g ref="#dot"/> et duorum ab 
             <lb ed="#P"/>uno <g ref="#dot"/> et aequalitatem potentiarum inter se <g ref="#slash"/> et in comparatione ad 
-            <lb ed="#P"/>obiecta <g ref="#dot"/> sic magis proprie dicitur <choice><orig>ymago</orig><reg>imago</reg></choice> in sui ipsius consi<lb ed="#P"/>deratione 
+            <lb ed="#P"/>obiecta <g ref="#dot"/> sic magis proprie dicitur <choice><orig>ymago</orig><reg>imago</reg></choice> in sui ipsius consi<lb ed="#P" break="no"/>deratione 
             <g ref="#dot"/> proprissime vero attenditur respectu dei <g ref="#dot"/> quia per illud obiectum 
             <lb ed="#P"/>maxime informatur et <del rend="strikethrough">assatur</del> assimilatur <g ref="#dot"/> et hoc perfectius est 
             <lb ed="#P"/>unde <name ref="#Augustine">augustinus</name> in <title>littera</title> <unclear>oriens</unclear> eo <choice><orig>ymago</orig><reg>imago</reg></choice> dei est <g ref="#slash"/> quo capax <!-- drops to next line -->eius est
@@ -256,11 +253,11 @@
         <div xml:id="wdr-l1d3q13" type="quaestio">
           <head type="question-title">De ordine partium huius imaginis</head>
           <p xml:id="wdrl1d3-dopisi">
-            <lb ed="#P"/><g ref="#pilcrow"/>De ordine partium huius <choice><orig>yma<lb ed="#P"/>ginis</orig><reg>ima<lb ed="#P"/>ginis</reg></choice> 
+            <lb ed="#P"/><g ref="#pilcrow"/>De ordine partium huius <choice><orig>yma<lb ed="#P" break="no"/>ginis</orig><reg>ima<lb ed="#P" break="no"/>ginis</reg></choice> 
             <g ref="#dot"/> quae est mens <g ref="#dot"/> notitia <g ref="#dot"/> et amore <g ref="#dot"/> hanc 
             <lb ed="#P"/>etiam ponit <name ref="#Augustine">augustinus</name> in <title>littera</title> Responsio mens et memoria idem specierum 
             <lb ed="#P"/>innatarum semper praecedit sequitur notitia vel intelligentia 
-            <lb ed="#P"/>non secundum potentias <g ref="#dot"/> sed secundum actus <g ref="#dot"/> Sed respectu specierum acquisitarum pro<lb ed="#P"/>ut 
+            <lb ed="#P"/>non secundum potentias <g ref="#dot"/> sed secundum actus <g ref="#dot"/> Sed respectu specierum acquisitarum pro<lb ed="#P" break="no"/>ut 
             sunt in <unclear>fieri</unclear> <g ref="#dot"/> sic praecedit intelligentia voluntatem voluntas 
             <lb ed="#P"/>memoriam <g ref="#dot"/> Sed prout sunt in esse <g ref="#dot"/> secundum viam conversionis 
             <lb ed="#P"/>animae super species prius acceptas <g ref="#punctuselevatus"/> idem est ordo sicut in <!-- drops to next line --> speciebus innatis <g ref="#dot"/></p>
@@ -276,10 +273,10 @@
           <head type="question-title">Quae sit diversitas harum imaginum inter se</head>
           <p xml:id="wdrl1d3-qsdeas">
             <lb ed="#P"/><g ref="#pilcrow"/>Quae sit diversitas 
-            <lb ed="#P"/>harum <choice><orig>ymaginum</orig><reg>imaginum</reg></choice> inter se <g ref="#dot"/> Responsio multipliciter dis<lb ed="#P"/>tinguuntur 
+            <lb ed="#P"/>harum <choice><orig>ymaginum</orig><reg>imaginum</reg></choice> inter se <g ref="#dot"/> Responsio multipliciter dis<lb ed="#P" break="no"/>tinguuntur 
             <g ref="#dot"/> sed die <g ref="#dot"/> quod prima <choice><orig>ymago</orig><reg>imago</reg></choice> accipitur penes 
             <cb ed="#P" n="b"/> <!-- 25vb -->
-            <lb ed="#P"/>tres potentias materiales <g ref="#dot"/> Sed secunda <g ref="#dot"/> penes unam potentiam scilicet men<lb ed="#P"/>tem 
+            <lb ed="#P"/>tres potentias materiales <g ref="#dot"/> Sed secunda <g ref="#dot"/> penes unam potentiam scilicet men<lb ed="#P" break="no"/>tem 
             quae est supremum in anima <g ref="#dot"/> et duos actus eius connaturales 
             et quasi habituales <g ref="#slash"/> <sic>se se</sic> consequentes <g ref="#dot"/> qui sunt notitia et amor 
             unde <name ref="#Augustine">augustinus</name> in <title>littera</title> <g ref="#dot"/> mens enim novit et amat se

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-01">May 01, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,119 +24,129 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="36-r"/>
+        <cb ed="#P" n="a"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="36ra"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d31">
-  			<head xml:id="wdrl1d31-Hd1e3503">Liber I, Distinctio 31 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d31q1" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3508">Liber I, Distinctio 31, Quaestio 1</head>
-  				<head xml:id="wdrl1d31-Hd1e3511" type="question-title">Utrum aequalitas aliquid ponat in deo</head>
-  				<p xml:id="wdrl1d31-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum aequali<lb ed="#P"/>tas 
-  					aliquid ponat in deo <pc ana="#punctus"/> Responsio inaequalitate sunt duo 
-  					<lb ed="#P"/>scilicet res et id in quo res fundatur scilicet una <subst><del rend="expunctuated">qualitas</del> 
-  						<lb ed="#P"/><add place="inLine">quantitas</add></subst> virtualis quia aequalitas secundum <name ref="#Aristotle">philosophum</name> <pc ana="#virgula"/> causantur 
-  					<lb ed="#P"/>ab uno <seg type="correction">inquan<add>ti</add>tate</seg> et quantum ad primum nihil ponit <pc ana="#punctus"/> quia non ponit 
-  					<lb ed="#P"/>aliquem rem <!-- check earlier version of relatus and respectum; they might be "rem" --> reale <pc ana="#punctus"/> cum realiter nullus res insit essentiae 
-  					<lb ed="#P"/>nec communiter tribus personis <pc ana="#punctus"/> inquantum ad secundum <pc ana="#punctus"/> secundum quosdam ponit aliud <pc ana="#punctus"/> 
-  					<lb ed="#P"/>secundum alios <pc ana="#punctus"/> <pc ana="#virgula"/> non secundum <seg type="correction">du<add place="aboveLine">a</add><del rend="expunctuated">o</del></seg> oppiniones de unitate <ref>supra distinctio 7 
-  						<!-- drops --> 4 quaestione 4</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d31q2" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3587">Liber I, Distinctio 31, Quaestio 2</head>
-  				<head xml:id="wdrl1d31-Hd1e3590" type="question-title">utrum significet relationem vel substantiam</head>
-  				<p xml:id="wdrl1d31-d1e3593"><cb ed="#P" n="36rb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum significet relationem vel substantiam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> aequalitas dicitur 
-  					<lb ed="#P"/>plurium differentium quantitas unde <choice><orig>inportat</orig><reg>importat</reg></choice> distinctionem 
-  					<lb ed="#P"/>personalem <pc ana="#punctus"/> et essentiae unitatem <pc ana="#punctus"/> dicunt ergo quaedam <pc ana="#punctus"/> quod <unclear>huius</unclear> nomina <pc ana="#punctus"/> in 
-  					<lb ed="#P"/>concreto <pc ana="#punctus"/> principaliter significant distinctionem personarum secundario <pc ana="#punctus"/> unitate 
-  					<lb ed="#P"/>substantiae sed in abstracto econverso <pc ana="#punctus"/> <pc ana="#virgula"/> contra abstractum et concretum idem signifi<lb ed="#P"/>cant 
-  					<pc ana="#punctus"/> alii <pc ana="#punctus"/> quod utrumque principaliter significat unitatem substantiae <pc ana="#punctus"/> et alterum 
-  					<lb ed="#P"/>secundario <pc ana="#punctus"/> contra praesens essentiam <pc ana="#punctus"/> personae non referuntur alii dicunt melius quod 
-  					<lb ed="#P"/>aequalitas significat unitatem substantiae indirecte tamquam id aliquo im<lb ed="#P"/>ponitur 
-  					nomen <pc ana="#punctus"/> Sed principaliter relationem quandam essentialem non personalem 
-  					<lb ed="#P"/>ab huius unitatem creatam <pc ana="#punctus"/> quam personae referuntur ad invicem</p>
-  			</div>
-  			<div xml:id="wdr-l1d31q3" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3667">Liber I, Distinctio 31, Quaestio 3</head>
-  				<head xml:id="wdrl1d31-Hd1e3670" type="question-title">De appropriatis secundum Hilarium in littera qui dicit quod aeternitas est in patre species in imagine usus immunere</head>
-  				<p xml:id="wdrl1d31-d1e3673"><lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#HilaryOfPoitiers">hylarium</name> in littera qui dicit quod aeternitas 
-  					<lb ed="#P"/>est in patre species in <choice><orig>ymagine</orig><reg>imagine</reg></choice> usus immunere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> tri<lb ed="#P"/>plex 
-  					est non appropriationis in divinis <pc ana="#punctus"/> una propter manifestationem 
-  					<lb ed="#P"/>ex parte nostri <pc ana="#punctus"/> alia ad excludendum errorem <pc ana="#punctus"/> ut potentia patri <pc ana="#punctus"/> 
-  					<lb ed="#P"/>ne credatur <unclear>infimus</unclear> <pc ana="#punctus"/> ut dicit <ref><name ref="#Lombard">magister</name> infima 34 distinctione</ref> <pc ana="#punctus"/> <pc ana="#virgula"/> tertia et po<lb ed="#P"/>tentissima 
-  					propter maiorem similitudinem cum proprio illius personae <pc ana="#punctus"/> et sic 
-  					<lb ed="#P"/>aeternitas appropriatur patri <pc ana="#punctus"/> quia caret principio sic cum innasci<lb ed="#P"/>bilitate 
-  					conventi <pc ana="#punctus"/> Item persona <unclear>mensura</unclear> est aqua fluunt aliquae mensurae <pc ana="#punctus"/> Item 
-  					<lb ed="#P"/>species secundum quod dicit speciositatem <pc ana="#punctus"/> convenit cum ratione <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Inquantum nullo est forma quae est principium cognitionis <pc ana="#virgula"/> sic convenit cum verbo <pc ana="#virgula"/> 
-  					<lb ed="#P"/>propter rationem manifestationis <pc ana="#punctus"/> praeterea secundum <name ref="#Augustine">augustinus</name> ad pulchritudinem 
-  					<lb ed="#P"/>requiruntur duo scilicet proportionata commensuratio membrorum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et venustas coloris <pc ana="#punctus"/> <name ref="#Aristotle">philosophus</name> addit tertium <pc ana="#punctus"/> quod est debi<lb ed="#P"/>ta 
-  					magnitudo <pc ana="#punctus"/> filio autem summa aequalitas vel proportio <pc ana="#virgula"/> quia 
-  					<lb ed="#P"/><choice><orig>ymago</orig><reg>imago</reg></choice> <pc ana="#punctus"/> Item est per modum naturae splendor gloriae <pc ana="#punctus"/> et candor 
-  					<lb ed="#P"/><ref>m et 2 tertio ??</ref> quod filius <pc ana="#punctus"/> prodit per modum naturae <pc ana="#punctus"/> ergo habet eadem 
-  					<lb ed="#P"/><unclear>m?ur</unclear> cum patre <pc ana="#virgula"/> <!-- fancy --> uti autem large <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> est assumere aliquid 
-  					<lb ed="#P"/>in facultatem voluntatis <pc ana="#punctus"/> et sic etiam sumit <name ref="#Augustine">augustinus</name> illius frui et uti 
-  					<lb ed="#P"/>cum gaudio <pc ana="#punctus"/> stricte autem est <pc ana="#punctus"/> id quid in usum venit referre in 
-  					<lb ed="#P"/>finem <pc ana="#punctus"/> primo modo <pc ana="#virgula"/> etiam una utitur altera et sic appropriatur spiritui sancto 
-  					<lb ed="#P"/>propter modum processionis <pc ana="#punctus"/> quia pro modo amoris <pc ana="#punctus"/> Secundo modo est 
-  					<lb ed="#P"/>usus creaturarum <pc ana="#punctus"/> et sic etiam appropriatur ei <pc ana="#punctus"/> propter effectum scilicet appropria<lb ed="#P"/>tum 
-  					<pc ana="#punctus"/> quia uti effectus proprius caritatis <pc ana="#punctus"/> quae appropriatur ei <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d31q4" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3868">Liber I, Distinctio 31, Quaestio 4</head>
-  				<head xml:id="wdrl1d31-Hd1e3871" type="question-title">De appropriatis secundum Augustinum in littera qui dicit quod in patre est unitas in filio aequalitas in spiritu sancto aequalitatis unitatis </head>
-  				<p xml:id="wdrl1d31-d1e3874"><lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#Augustine">augustinum</name> in littera qui dicit quod in patre est unitas <pc ana="#punctus"/> 
-  					<lb ed="#P"/>in filio aequalitas in spiritu sancto aequalitatis unitatis<cb ed="#P" n="36va"/><lb ed="#P"/>que 
-  					concordia <pc ana="#punctus"/> Resopnsio <pc ana="#punctus"/> unitas patri appropriatur <pc ana="#punctus"/> quia pater<lb ed="#P"/>nitates 
-  					generales intentiones <pc ana="#punctus"/> quae sunt unum <pc ana="#punctus"/> verum <pc ana="#punctus"/> bonum 
-  					<lb ed="#P"/>et prima innumeris <pc ana="#punctus"/> Item est principium <subst><del rend="strikethrough">angelorum</del> <add place="aliorum">aliorum</add></subst> numerorum <pc ana="#virgula"/> <!-- fancy --> 
-  					<lb ed="#P"/>aequalitas aut filio <pc ana="#punctus"/> quia inquantum filius <pc ana="#punctus"/> habet eandem naturam <pc ana="#punctus"/> <pc ana="#virgula"/> 
-  					<lb ed="#P"/>Inquantum <choice><orig>ymago</orig><reg>imago</reg></choice> indifferens est <pc ana="#punctus"/> Inquantum verbum <pc ana="#virgula"/> perfecta 
-  					<lb ed="#P"/>similitudo est perfectione dicentem manifestans <pc ana="#virgula"/> Inter patrem 
-  					<lb ed="#P"/>et filium autem est triplex concordia <pc ana="#punctus"/> una in amore essentiali <pc ana="#punctus"/> altera 
-  					<lb ed="#P"/>in amore notionali scilicet in communi spiratione <pc ana="#punctus"/> tertia in amore 
-  					<lb ed="#P"/>personali scilicet spiritu sancto <pc ana="#punctus"/> persona communis est tribus <pc ana="#punctus"/> Sed appropriatur spiritu sancto 
-  					<lb ed="#P"/>secunda est notio patris et filii tantum <pc ana="#punctus"/> nulla appropriata quia quaestione 
-  					<lb ed="#P"/>proprium est <pc ana="#punctus"/> tertia est proprium spiritus sanctus immo est spiritus sanctus et non appropriatur</p> 
-  			</div>
-  			<div xml:id="wdr-l1d31q5" type="quaestio">
-  				<head xml:id="wdrl1d31-Hd1e3978">Liber I, Distinctio 31, Quaestio 5</head>
-  				<head xml:id="wdrl1d31-Hd1e3981" type="question-title">De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem aequalia propter filium connexa propter spiritum sanctum</head>
-  				<p xml:id="wdrl1d31-d1e3987"><lb ed="#P"/><pc ana="#pilcrow"/>De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem <pc ana="#punctus"/> 
-  					<lb ed="#P"/>aequalia <pc ana="#punctus"/> propter filium connexa propter spiritum <del rend="strikethrough">sum</del> sanctum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Si 
-  					<lb ed="#P"/>li <mentioned>omnia</mentioned> distribuit pro rebus increatis <pc ana="#punctus"/> tunc li <pc ana="#punctus"/> <mentioned>propter</mentioned> notat 
-  					<lb ed="#P"/>tantum causam formalem appropriatam non propria et est sensus omnia etc 
-  					<lb ed="#P"/>id est propter unitatem quae appropriatur patri <pc ana="#punctus"/> si autem etiam destribuit 
-  					<lb ed="#P"/>pro rebus creatis <pc ana="#punctus"/> tunc vocat etiam causam extra rem <seg type="correction">appropri<add place="aboveLine">a</add>tam</seg> patri 
-  					<lb ed="#P"/>Ratio appropriationis potest sumi <pc ana="#punctus"/> vel ex numero personarum quia pater prima persona 
-  					<lb ed="#P"/>secundum rationem originis <pc ana="#punctus"/> filius <pc ana="#punctus"/> Secunda aequalitas aute ad minus 
-  					<lb ed="#P"/>inter duo <pc ana="#punctus"/> spiritus sancti tertia concordia aut tria complectitur alia ratio 
-  					<!-- drops --> <ref target="http://scta.info/resource/wdrl1d31-d1e3874">Supra quaestio 4</ref></p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d31">
+        <head xml:id="wdrl1d31-Hd1e3503">Liber I, Distinctio 31 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d31q1" type="quaestio">
+          <head xml:id="wdrl1d31-Hd1e3508">Liber I, Distinctio 31, Quaestio 1</head>
+          <head xml:id="wdrl1d31-Hd1e3511" type="question-title">Utrum aequalitas aliquid ponat in deo</head>
+          <p xml:id="wdrl1d31-d1e3514">
+            <lb ed="#P"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum aequali<lb ed="#P" break="no"/>tas 
+            aliquid ponat in deo <pc ana="#punctus"/> Responsio inaequalitate sunt duo 
+            <lb ed="#P"/>scilicet res et id in quo res fundatur scilicet una <subst><del rend="expunctuated">qualitas</del> 
+              <lb ed="#P"/><add place="inLine">quantitas</add></subst> virtualis quia aequalitas secundum <name ref="#Aristotle">philosophum</name> <pc ana="#virgula"/> causantur 
+            <lb ed="#P"/>ab uno <seg type="correction">inquan<add>ti</add>tate</seg> et quantum ad primum nihil ponit <pc ana="#punctus"/> quia non ponit 
+            <lb ed="#P"/>aliquem rem <!-- check earlier version of relatus and respectum; they might be "rem" --> reale <pc ana="#punctus"/> cum realiter nullus res insit essentiae 
+            <lb ed="#P"/>nec communiter tribus personis <pc ana="#punctus"/> inquantum ad secundum <pc ana="#punctus"/> secundum quosdam ponit aliud <pc ana="#punctus"/> 
+            <lb ed="#P"/>secundum alios <pc ana="#punctus"/> <pc ana="#virgula"/> non secundum <seg type="correction">du<add place="aboveLine">a</add><del rend="expunctuated">o</del></seg> oppiniones de unitate <ref>supra distinctio 7 
+              <!-- drops --> 4 quaestione 4</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d31q2" type="quaestio">
+          <head xml:id="wdrl1d31-Hd1e3587">Liber I, Distinctio 31, Quaestio 2</head>
+          <head xml:id="wdrl1d31-Hd1e3590" type="question-title">utrum significet relationem vel substantiam</head>
+          <p xml:id="wdrl1d31-d1e3593">
+            <cb ed="#P" n="b"/> <!-- 36rb -->
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum significet relationem vel substantiam <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> aequalitas dicitur 
+            <lb ed="#P"/>plurium differentium quantitas unde <choice><orig>inportat</orig><reg>importat</reg></choice> distinctionem 
+            <lb ed="#P"/>personalem <pc ana="#punctus"/> et essentiae unitatem <pc ana="#punctus"/> dicunt ergo quaedam <pc ana="#punctus"/> quod <unclear>huius</unclear> nomina <pc ana="#punctus"/> in 
+            <lb ed="#P"/>concreto <pc ana="#punctus"/> principaliter significant distinctionem personarum secundario <pc ana="#punctus"/> unitate 
+            <lb ed="#P"/>substantiae sed in abstracto econverso <pc ana="#punctus"/> <pc ana="#virgula"/> contra abstractum et concretum idem signifi<lb ed="#P" break="no"/>cant 
+            <pc ana="#punctus"/> alii <pc ana="#punctus"/> quod utrumque principaliter significat unitatem substantiae <pc ana="#punctus"/> et alterum 
+            <lb ed="#P"/>secundario <pc ana="#punctus"/> contra praesens essentiam <pc ana="#punctus"/> personae non referuntur alii dicunt melius quod 
+            <lb ed="#P"/>aequalitas significat unitatem substantiae indirecte tamquam id aliquo im<lb ed="#P" break="no"/>ponitur 
+            nomen <pc ana="#punctus"/> Sed principaliter relationem quandam essentialem non personalem 
+            <lb ed="#P"/>ab huius unitatem creatam <pc ana="#punctus"/> quam personae referuntur ad invicem
+          </p>
+        </div>
+        <div xml:id="wdr-l1d31q3" type="quaestio">
+          <head xml:id="wdrl1d31-Hd1e3667">Liber I, Distinctio 31, Quaestio 3</head>
+          <head xml:id="wdrl1d31-Hd1e3670" type="question-title">De appropriatis secundum Hilarium in littera qui dicit quod aeternitas est in patre species in imagine usus immunere</head>
+          <p xml:id="wdrl1d31-d1e3673">
+            <lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#HilaryOfPoitiers">hylarium</name> in littera qui dicit quod aeternitas 
+            <lb ed="#P"/>est in patre species in <choice><orig>ymagine</orig><reg>imagine</reg></choice> usus immunere <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> tri<lb ed="#P" break="no"/>plex 
+            est non appropriationis in divinis <pc ana="#punctus"/> una propter manifestationem 
+            <lb ed="#P"/>ex parte nostri <pc ana="#punctus"/> alia ad excludendum errorem <pc ana="#punctus"/> ut potentia patri <pc ana="#punctus"/> 
+            <lb ed="#P"/>ne credatur <unclear>infimus</unclear> <pc ana="#punctus"/> ut dicit <ref><name ref="#Lombard">magister</name> infima 34 distinctione</ref> <pc ana="#punctus"/> <pc ana="#virgula"/> tertia et po<lb ed="#P" break="no"/>tentissima 
+            propter maiorem similitudinem cum proprio illius personae <pc ana="#punctus"/> et sic 
+            <lb ed="#P"/>aeternitas appropriatur patri <pc ana="#punctus"/> quia caret principio sic cum innasci<lb ed="#P" break="no"/>bilitate 
+            conventi <pc ana="#punctus"/> Item persona <unclear>mensura</unclear> est aqua fluunt aliquae mensurae <pc ana="#punctus"/> Item 
+            <lb ed="#P"/>species secundum quod dicit speciositatem <pc ana="#punctus"/> convenit cum ratione <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> <pc ana="#punctus"/> 
+            <lb ed="#P"/>Inquantum nullo est forma quae est principium cognitionis <pc ana="#virgula"/> sic convenit cum verbo <pc ana="#virgula"/> 
+            <lb ed="#P"/>propter rationem manifestationis <pc ana="#punctus"/> praeterea secundum <name ref="#Augustine">augustinus</name> ad pulchritudinem 
+            <lb ed="#P"/>requiruntur duo scilicet proportionata commensuratio membrorum <pc ana="#punctus"/> 
+            <lb ed="#P"/>et venustas coloris <pc ana="#punctus"/> <name ref="#Aristotle">philosophus</name> addit tertium <pc ana="#punctus"/> quod est debi<lb ed="#P" break="no"/>ta 
+            magnitudo <pc ana="#punctus"/> filio autem summa aequalitas vel proportio <pc ana="#virgula"/> quia 
+            <lb ed="#P"/><choice><orig>ymago</orig><reg>imago</reg></choice> <pc ana="#punctus"/> Item est per modum naturae splendor gloriae <pc ana="#punctus"/> et candor 
+            <lb ed="#P"/><ref>m et 2 tertio ??</ref> quod filius <pc ana="#punctus"/> prodit per modum naturae <pc ana="#punctus"/> ergo habet eadem 
+            <lb ed="#P"/><unclear>m?ur</unclear> cum patre <pc ana="#virgula"/> <!-- fancy --> uti autem large <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> est assumere aliquid 
+            <lb ed="#P"/>in facultatem voluntatis <pc ana="#punctus"/> et sic etiam sumit <name ref="#Augustine">augustinus</name> illius frui et uti 
+            <lb ed="#P"/>cum gaudio <pc ana="#punctus"/> stricte autem est <pc ana="#punctus"/> id quid in usum venit referre in 
+            <lb ed="#P"/>finem <pc ana="#punctus"/> primo modo <pc ana="#virgula"/> etiam una utitur altera et sic appropriatur spiritui sancto 
+            <lb ed="#P"/>propter modum processionis <pc ana="#punctus"/> quia pro modo amoris <pc ana="#punctus"/> Secundo modo est 
+            <lb ed="#P"/>usus creaturarum <pc ana="#punctus"/> et sic etiam appropriatur ei <pc ana="#punctus"/> propter effectum scilicet appropria<lb ed="#P" break="no"/>tum 
+            <pc ana="#punctus"/> quia uti effectus proprius caritatis <pc ana="#punctus"/> quae appropriatur ei <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d31q4" type="quaestio">
+          <head xml:id="wdrl1d31-Hd1e3868">Liber I, Distinctio 31, Quaestio 4</head>
+          <head xml:id="wdrl1d31-Hd1e3871" type="question-title">De appropriatis secundum Augustinum in littera qui dicit quod in patre est unitas in filio aequalitas in spiritu sancto aequalitatis unitatis </head>
+          <p xml:id="wdrl1d31-d1e3874">
+            <lb ed="#P"/><pc ana="#pilcrow"/>De appropriatis secundum <name ref="#Augustine">augustinum</name> in littera qui dicit quod in patre est unitas <pc ana="#punctus"/> 
+            <lb ed="#P"/>in filio aequalitas in spiritu sancto aequalitatis unitatis<pb ed="#P" n="36-v"/><cb ed="#P" n="a"/><lb ed="#P" break="no"/>que 
+            concordia <pc ana="#punctus"/> Resopnsio <pc ana="#punctus"/> unitas patri appropriatur <pc ana="#punctus"/> quia pater<lb ed="#P" break="no"/>nitates 
+            generales intentiones <pc ana="#punctus"/> quae sunt unum <pc ana="#punctus"/> verum <pc ana="#punctus"/> bonum 
+            <lb ed="#P"/>et prima innumeris <pc ana="#punctus"/> Item est principium <subst><del rend="strikethrough">angelorum</del> <add place="aliorum">aliorum</add></subst> numerorum <pc ana="#virgula"/> <!-- fancy --> 
+            <lb ed="#P"/>aequalitas aut filio <pc ana="#punctus"/> quia inquantum filius <pc ana="#punctus"/> habet eandem naturam <pc ana="#punctus"/> <pc ana="#virgula"/> 
+            <lb ed="#P"/>Inquantum <choice><orig>ymago</orig><reg>imago</reg></choice> indifferens est <pc ana="#punctus"/> Inquantum verbum <pc ana="#virgula"/> perfecta 
+            <lb ed="#P"/>similitudo est perfectione dicentem manifestans <pc ana="#virgula"/> Inter patrem 
+            <lb ed="#P"/>et filium autem est triplex concordia <pc ana="#punctus"/> una in amore essentiali <pc ana="#punctus"/> altera 
+            <lb ed="#P"/>in amore notionali scilicet in communi spiratione <pc ana="#punctus"/> tertia in amore 
+            <lb ed="#P"/>personali scilicet spiritu sancto <pc ana="#punctus"/> persona communis est tribus <pc ana="#punctus"/> Sed appropriatur spiritu sancto 
+            <lb ed="#P"/>secunda est notio patris et filii tantum <pc ana="#punctus"/> nulla appropriata quia quaestione 
+            <lb ed="#P"/>proprium est <pc ana="#punctus"/> tertia est proprium spiritus sanctus immo est spiritus sanctus et non appropriatur
+          </p> 
+        </div>
+        <div xml:id="wdr-l1d31q5" type="quaestio">
+          <head xml:id="wdrl1d31-Hd1e3978">Liber I, Distinctio 31, Quaestio 5</head>
+          <head xml:id="wdrl1d31-Hd1e3981" type="question-title">De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem aequalia propter filium connexa propter spiritum sanctum</head>
+          <p xml:id="wdrl1d31-d1e3987">
+            <lb ed="#P"/><pc ana="#pilcrow"/>De verbo <name ref="#Augustine">Augustinus</name> in littera quo dicit omnia esse unum patrem <pc ana="#punctus"/> 
+            <lb ed="#P"/>aequalia <pc ana="#punctus"/> propter filium connexa propter spiritum <del rend="strikethrough">sum</del> sanctum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Si 
+            <lb ed="#P"/>li <mentioned>omnia</mentioned> distribuit pro rebus increatis <pc ana="#punctus"/> tunc li <pc ana="#punctus"/> <mentioned>propter</mentioned> notat 
+            <lb ed="#P"/>tantum causam formalem appropriatam non propria et est sensus omnia etc 
+            <lb ed="#P"/>id est propter unitatem quae appropriatur patri <pc ana="#punctus"/> si autem etiam destribuit 
+            <lb ed="#P"/>pro rebus creatis <pc ana="#punctus"/> tunc vocat etiam causam extra rem <seg type="correction">appropri<add place="aboveLine">a</add>tam</seg> patri 
+            <lb ed="#P"/>Ratio appropriationis potest sumi <pc ana="#punctus"/> vel ex numero personarum quia pater prima persona 
+            <lb ed="#P"/>secundum rationem originis <pc ana="#punctus"/> filius <pc ana="#punctus"/> Secunda aequalitas aute ad minus 
+            <lb ed="#P"/>inter duo <pc ana="#punctus"/> spiritus sancti tertia concordia aut tria complectitur alia ratio 
+            <!-- drops --> <ref target="http://scta.info/resource/wdrl1d31-d1e3874">Supra quaestio 4</ref>
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

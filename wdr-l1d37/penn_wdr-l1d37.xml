@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-02">May 02, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,195 +24,229 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="37-v"/>
+        <cb ed="#P" n="b"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="37vb"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d37">
-  			<head xml:id="wdrl1d37-Hd1e3503">Liber I, Distinctio 37 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d37q1" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3508">Liber I, Distinctio 37, Quaestio 1</head>
-  				<head xml:id="wdrl1d37-Hd1e3511" type="question-title">Utrum deus sit in omnibus rebus</head>
-  				<p xml:id="wdrl1d37-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus sit in omnibus rebus <pc ana="#punctus"/> Respondeo 
-  					<lb ed="#P"/>sic secundum sanctos in littera quia dei operatio est in omnibus rebus 
-  					<lb ed="#P"/>conservando eas secundum <name>Guillemus</name> <pc ana="#punctus"/> Sed idem est dei operatio <pc ana="#punctus"/> virtus et 
-  					<lb ed="#P"/>essentia et praeterea cum infinitus sit non aliquo termini 
-  					<!-- drops -->ante</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q2" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3540">Liber I, Distinctio 37, Quaestio 2</head>
-  				<head xml:id="wdrl1d37-Hd1e3543" type="question-title">utrum aequaliter sit in omnibus rebus</head>
-  				<p xml:id="wdrl1d37-d1e3546"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <del rend="strikethrough">q</del> aequaliter sit in omnibus rebus 
-  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic quantum ad rem praesentiae dei ad creaturam <pc ana="#punctus"/> Sed non 
-  					<lb ed="#P"/>quantum ad effectum influentiae in ipsam <pc ana="#punctus"/> In quibusdam autem non 
-  					<lb ed="#P"/>est dicendus esse simpliciter sed cum determinatione scilicet <del rend="erasure">sed</del> inquantum 
-  					<lb ed="#P"/>creaturae sunt <pc ana="#punctus"/> ut sunt illa quae sonant in defectum 
-  					<lb ed="#P"/>et vilitatem <pc ana="#punctus"/> vel spiritualem <pc ana="#punctus"/> vel naturalem <pc ana="#punctus"/> vel vulgarem 
-  					<lb ed="#P"/>ut <choice><orig>dyabolus</orig><reg>diabolus</reg></choice> <pc ana="#punctus"/> peccator <pc ana="#punctus"/> infernus <pc ana="#punctus"/> <unclear>lutum</unclear> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q3" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3607">Liber I, Distinctio 37, Quaestio 3</head>
-  				<head xml:id="wdrl1d37-Hd1e3610" type="question-title">Quod vel quibus modis deus sit in rebus</head>
-  				<p xml:id="wdrl1d37-d1e3613"><lb ed="#P"/><pc ana="#pilcrow"/>Quod vel quibus modis deus sit in rebus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <ref><name ref="#Lombard">magister</name> <pc ana="#punctus"/> 
-  					<lb ed="#P"/>in littera</ref> <num>v</num> modis tribus generaliter in omni re scilicet per essentiam 
-  					<lb ed="#P"/>praesentiam <pc ana="#punctus"/> et potentiam <pc ana="#punctus"/> Item specialem quo est in sanctis omnibus per 
-  					<lb ed="#P"/>gratiam <pc ana="#punctus"/> Item singularem quo est in christo <pc ana="#punctus"/> per unionem <pc ana="#punctus"/> <ref><title ref="#ps">psalmos</title> <num>4</num></ref> 
-  					<lb ed="#P"/>ponit <del rend="strikethrough">r</del> etiam <name ref="#GregoryGreat">Gregorius</name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> omnes creaturae a deo sunt <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Solae creaturae rationales sunt in deum redeunt <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Sola natura humana <pc ana="#punctus"/> deo personaliter unitur quo ad ultimum 
-  					<lb ed="#P"/>modum dicitur deus esse in christo per visionem quam ad secundum in 
-  					<lb ed="#P"/>sanctis per gratiam quo alquid primum in omnibus rebus <pc ana="#punctus"/> per praesen<lb ed="#P"/>tiam 
-  					scilicet inquantum extra <pc ana="#punctus"/> assistit cuilibet rei <pc ana="#punctuselevatus"/> per potentiam <pc ana="#punctus"/> 
-  					<lb ed="#P"/>inquantum ipsam rem totam cum servat et influit <unclear>u</unclear>
-  					<cb ed="#P" n="38va"/><lb ed="#P"/>per essentiam inquantum ipsam totam rei essentiam <pc ana="#virgula"/> intra penetrat</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q4" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3712">Liber I, Distinctio 37, Quaestio 4</head>
-  				<head xml:id="wdrl1d37-Hd1e3715" type="question-title">Utrum deus sit ubique</head>
-  				<p xml:id="wdrl1d37-d1e3718"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit ubique <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Large accipiendo sic est 
-  					<lb ed="#P"/>ubique id est <unclear>inonum</unclear> re <pc ana="#punctus"/> Sed stricte id <unclear>monum</unclear> loco scilicet per praesen<lb ed="#P"/>tiam 
-  					<pc ana="#punctus"/> sed non per continentiam <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> Deus ubique est <pc ana="#punctus"/> quia nusquam 
-  					<lb ed="#P"/>absens est <pc ana="#punctus"/> In se ipso nullo est <pc ana="#punctus"/> quia non continetur hiis <pc ana="#punctus"/> quibus 
-  					<lb ed="#P"/>praesens est <pc ana="#punctus"/> et dicitur haec praesentia <pc ana="#punctus"/> in trina loci repletio <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q5" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3772">Liber I, Distinctio 37, Quaestio 5</head>
-  				<head xml:id="wdrl1d37-Hd1e3775" type="question-title">utrum esse ubique ei soli conveniat</head>
-  				<p xml:id="wdrl1d37-d1e3778"><lb ed="#P"/><pc ana="#pilcrow"/>utrum esse ubique ei soli conveniat <pc ana="#punctus"/> Respondeo sic <pc ana="#punctus"/> per se scilicet quia 
-  					<lb ed="#P"/>convenit ei naturalis ratione suae essentiae ita quod nullus locus potest esse 
-  					<lb ed="#P"/>sine ipso <pc ana="#punctus"/> unde <name ref="#Ambrose">Ambrorum</name> in littera <pc ana="#punctus"/> per hoc probat spiritum sanctum 
-  					<lb ed="#P"/>esse deum <pc ana="#punctus"/> aliis autem convenit <pc ana="#punctus"/> vel convenire posset per accidens <pc ana="#punctus"/> 
-  					<lb ed="#P"/>ut primae materiae scilicet per partes <pc ana="#punctus"/> et <unclear>uli?us</unclear> <pc ana="#punctus"/> et enti <pc ana="#punctus"/> si non esset 
-  					<!-- drops --> unicus locus <pc ana="#punctus"/> unius rei</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q6" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3827">Liber I, Distinctio 37, Quaestio 6</head>
-  				<head xml:id="wdrl1d37-Hd1e3830" type="question-title">utrum conveniat ei ab aeterno</head>
-  				<p xml:id="wdrl1d37-d1e3833"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum conveniat ei ab aeter<lb ed="#P"/>no 
-  					<pc ana="#punctus"/> Responde non sive <mentioned>ubique</mentioned> accipiatur large <pc ana="#punctus"/> sive stricte <pc ana="#punctus"/> 
-  					<lb ed="#P"/><unclear>Sententia</unclear> <unclear>prop?iam</unclear> quia utroque modo dicit rem ad creaturam actu existentem</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q7" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3860">Liber I, Distinctio 37, Quaestio 7</head>
-  				<head xml:id="wdrl1d37-Hd1e3863" type="question-title">utrum deus sit localis</head>
-  				<p xml:id="wdrl1d37-d1e3866"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit localis <pc ana="#punctus"/> Respondeo non ut dicit <name ref="#IsidoreOfSeville">ysidorus</name> <pc ana="#punctus"/> quia 
-  					<lb ed="#P"/>locale dicitur secundum <name ref="#Anselm">anselmum</name> quod sequitur leges loci <pc ana="#punctus"/> quae sunt <unclear>continere</unclear> 
-  					<lb ed="#P"/>locatur <pc ana="#punctus"/> mensurare <pc ana="#punctus"/> salvare <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> et 
-  					<lb ed="#P"/><name ref="#Boethius">boetius</name> dicunt <pc ana="#punctus"/> quod non est in loco <pc ana="#punctus"/> et hoc per continentiam <pc ana="#punctus"/> sed tamen 
-  					<!-- drops -->per praesentiam <ref type="commentary" target="http://scta.info/resource/wdrl1d37-d1e3718">supra quaestio 4</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q8" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3923">Liber I, Distinctio 37, Quaestio 8</head>
-  				<head xml:id="wdrl1d37-Hd1e3926" type="question-title">utrum deus sit mutabilis de loco ad locum</head>
-  				<p xml:id="wdrl1d37-d1e3929"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit mutabi<lb ed="#P"/>lis 
-  					de loco ad locum <pc ana="#punctus"/> Respondeo non <name ref="#Boethius">Boetius</name> deus stabilis ma<lb ed="#P"/>nens 
-  					<pc ana="#punctus"/> dat cuncta moveri <pc ana="#punctus"/> Sed solum causaliter dicitur 
-  					<lb ed="#P"/>moveri <pc ana="#punctus"/> et <choice><orig>methaphorice</orig><reg>metaphorice</reg></choice> sicut dicutur ex altari in corde 
-  					<lb ed="#P"/>hominis et huiusmodi quod fit mutione alterius tantum <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q9" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3965">Liber I, Distinctio 37, Quaestio 9</head>
-  				<head xml:id="wdrl1d37-Hd1e3968" type="question-title">utrum sit extra omnem locum</head>
-  				<p xml:id="wdrl1d37-d1e3971"><lb ed="#P"/><pc ana="#pilcrow"/>utru msit extra omnem locum <pc ana="#punctus"/> Responde sic ut dicit <name>Guillelmus</name> 
-  					<lb ed="#P"/>scilicet quod sit extra omnia <pc ana="#punctus"/> haec intellige non per distantiam 
-  					<lb ed="#P"/><unclear>sic?us</unclear> <pc ana="#punctus"/> sed per independentiam et indeterminationem suae immensita<!-- drops -->tis</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q10" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e3997">Liber I, Distinctio 37, Quaestio 10</head>
-  				<head xml:id="wdrl1d37-Hd1e4000" type="question-title">utrum angelus sit in loco</head>
-  				<p xml:id="wdrl1d37-d1e4003"><lb ed="#P"/><pc ana="#pilcrow"/>utrum angelus sit in loco <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> philosophi <pc ana="#punctus"/> 
-  					<lb ed="#P"/>antiqui ponebant angelos sive intellectualis nullo modo 
-  					<lb ed="#P"/>esse in loco <pc ana="#punctus"/> nullo per essentiam <pc ana="#punctus"/> nec per <del rend="strikethrough">ro</del> operationem <pc ana="#punctus"/> sed tantum movere 
-  					<lb ed="#P"/>animam alicuius orbis <pc ana="#punctus"/> desiderant movet desiderantem 
-  					<lb ed="#P"/>animam <pc ana="#punctus"/> Sed fides est incontrarium <pc ana="#punctus"/> quae ponit angelos circa 
-  					<lb ed="#P"/>nos operari <pc ana="#punctus"/> Quidam autem theologorum <pc ana="#punctus"/> dicunt eos 
-  					<lb ed="#P"/>tantum per operationem esse etiam per essentiam <pc ana="#punctus"/> alii communius dicunt eas in loco 
-  					<lb ed="#P"/>esse et per essentiam <pc ana="#punctus"/> sed differentur tantum <pc ana="#punctus"/> non <unclear>circumscriptive</unclear> dicit <name ref="#Lombard">magister</name> 
-  					<lb ed="#P"/>in littera <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> dicit quod cum sunt in caelo non sunt 
-  					<cb ed="#P" n="38vb"/><lb ed="#P"/>in terra <pc ana="#punctus"/> hiis etiam dicta aliorum sanctorum scilicet <name ref="#Augustine">augustinus</name> et <name ref="#Bede">bede</name> <pc ana="#punctus"/> etc <pc ana="#punctus"/> 
-  					<lb ed="#P"/>magis concordant <pc ana="#virgula"/> <pc ana="#punctus"/> nota ergo secundum <ref><name ref="#Aristotle">philosophum</name> libro <title ref="#Physics">physicorum</title></ref> 
-  					<lb ed="#P"/>quod locus proprie est superficies corporis rem ambientis <pc ana="#punctus"/> esse 
-  					<lb ed="#P"/>ergo in loco proprie requirit tria scilicet commensurationem <pc ana="#punctus"/> determinationem <pc ana="#punctus"/> 
-  					<lb ed="#P"/>id est quod <del rend="strikethrough">hic</del> sit hic et non alibi <pc ana="#punctus"/> praesentialitatem <pc ana="#punctus"/> et hoc 
-  					<lb ed="#P"/>modo corpora sunt in loco <pc ana="#punctus"/> et dicuntur circumscriptive habent duo 
-  					<lb ed="#P"/>ultima <pc ana="#punctus"/> et ideo dicuntur tantum distincte esse in loco id est ita hic quod non 
-  					<lb ed="#P"/>alibi <pc ana="#punctus"/> sed deus tantum habet tertium in loco <ref>supra distinctio <!--  likely error here --> quaestio 4 2 7</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q11" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e4142">Liber I, Distinctio 37, Quaestio 11</head>
-  				<head xml:id="wdrl1d37-Hd1e4145" type="question-title">utrum possit esse in pluribus locis simul</head>
-  				<p xml:id="wdrl1d37-d1e4148"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit esse in pluribus locis simul <pc ana="#punctus"/> Responsio non quia essentiae 
-  					<lb ed="#P"/>finitae <pc ana="#punctus"/> <pc ana="#virgula"/> et diffinitive est in loco <pc ana="#punctus"/> dicunt sunt quidam <pc ana="#punctus"/> quod per essentiam tantum 
-  					<lb ed="#P"/>est in uno loco in particulari propter simplicitatem et inde effluit 
-  					<lb ed="#P"/>in loca proxima per <unclear>virtutem</unclear> <pc ana="#punctus"/> quando vult <pc ana="#punctus"/> exemplum de ada<lb ed="#P"/>mante 
-  					<pc ana="#punctus"/> alii autem quod potest esse etiam in loco quarto <pc ana="#punctus"/> ita quod in 
-  					<lb ed="#P"/>qualibet parte totus <pc ana="#punctus"/> ad modum animae in corpore <pc ana="#punctus"/> et etiam in parvo <pc ana="#punctus"/> 
-  					<lb ed="#P"/>vel in magno secundum quod <unclear>voluerit</unclear> <pc ana="#punctus"/> et etiam si non operetur in loco <pc ana="#punctus"/> tamen 
-  					<lb ed="#P"/>oportet quod vitanto sit <pc ana="#punctus"/> in quarto voluerit operari <pc ana="#punctus"/> Nota autem 
-  					<lb ed="#P"/>potest esse in maiori quam possit immediate movere <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q12" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e4215">Liber I, Distinctio 37, Quaestio 12</head>
-  				<head xml:id="wdrl1d37-Hd1e4218" type="question-title">utrum plures possunt summa in eodem loco esse</head>
-  				<p xml:id="wdrl1d37-d1e4221"><lb ed="#P"/><pc ana="#pilcrow"/>Respondeo 
-  					<lb ed="#P"/>non <pc ana="#punctus"/> et haec sive determinetur eis lociis secundum terminem substantiae <pc ana="#punctus"/> sive secundum terminem 
-  					<lb ed="#P"/>virtualis quantitatis <pc ana="#punctus"/> sive secundum terminem operationis <pc ana="#punctus"/> quia quilibet eorum 
-  					<lb ed="#P"/>per se sufficiens est in huius operatione et superflueret alteratio</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q13" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e4244">Liber I, Distinctio 37, Quaestio 13</head>
-  				<head xml:id="wdrl1d37-Hd1e4247" type="question-title">utrum moveatur angelus de loco ad locum</head>
-  				<p xml:id="wdrl1d37-d1e4250"><lb ed="#P"/><pc ana="#pilcrow"/>utrum moveatur angelus de loco ad locum Respondeo 
-  					<lb ed="#P"/>sic <pc ana="#punctus"/> qui invenitur in diversis locis <pc ana="#punctus"/>ut in caelo <pc ana="#punctus"/> etin terra <pc ana="#punctus"/> 
-  					<lb ed="#P"/>alios tamen duos motus <pc ana="#virgula"/> non locales dicuntur <pc ana="#punctus"/> habere <unclear>sanctis 
-  						<lb ed="#P"/>spiritus</unclear> motum spiritum alium illuminationum <pc ana="#punctus"/> qui triplex est secundum <name ref="#Dionysius">dyonisium</name> scilicet 
-  					<lb ed="#P"/>circularis <pc ana="#punctus"/> rectus <pc ana="#punctus"/> et obliquus <pc ana="#punctus"/> alium motum <seg type="correction">vicissitu<del rend="strikethrough">unt</del><lb ed="#P"/>dinum</seg> 
-  					<pc ana="#punctus"/> secundum cognitionem vespertinam rerum diversarum <pc ana="#punctus"/> et diver<!-- drops -->sas <pc ana="#punctus"/> affectiones</p>
-  			</div>
-  			<div xml:id="wdr-l1d37q14" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e4310">Liber I, Distinctio 37, Quaestio 14</head>
-  				<head xml:id="wdrl1d37-Hd1e4313" type="question-title">utrum in motu locali transeat medium</head>
-  				<p xml:id="wdrl1d37-d1e4316"><lb ed="#P"/><pc ana="#pilcrow"/>utrum in motu locali <pc ana="#punctus"/> 
-  					<lb ed="#P"/>transeat medium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi habeat aliquid operari 
-  					<lb ed="#P"/>in medio <pc ana="#punctus"/> unde dicunt motum eius subitum <pc ana="#punctus"/> sic illuminante 
-  					<lb ed="#P"/>aeris <pc ana="#punctus"/> alii autem quod fit per medium <pc ana="#punctus"/> et quod est successivus <pc ana="#punctus"/> 
-  					<lb ed="#P"/>non tamen commensurando se medio <pc ana="#punctus"/> potest se tamen semper facere 
-  					<lb ed="#P"/>totum in loco proportionato suae virtuti <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d37q15" type="quaestio">
-  				<head xml:id="wdrl1d37-Hd1e4360">Liber I, Distinctio 37, Quaestio 15</head>
-  				<head xml:id="wdrl1d37-Hd1e4363" type="question-title">Utrum motus eius sit in tempore vel subito</head>
-  				<p xml:id="wdrl1d37-d1e4366"><lb ed="#P"/><pc ana="#pilcrow"/>utrum motus eius sit in tempore vel subito <pc ana="#punctus"/> Responsio 
-  					<lb ed="#P"/>quidam quod sine corpore assumpto <pc ana="#punctus"/> tamen est subitus <pc ana="#punctus"/> id est <unclear>in</unclear> 
-  					<cb ed="#P" n="39ra"/><lb ed="#P"/>nunc et quod inter terminos tantum est quaedam successio vicissitu<lb ed="#P"/>dinum 
-  					<pc ana="#punctus"/> alii quod successivus et in tempore semper <pc ana="#punctus"/> et hoc propter 
-  					<lb ed="#P"/>virtutem finitam <pc ana="#punctus"/> et distantiam terminorum <pc ana="#punctus"/> quae motum 
-  					<lb ed="#P"/>retardant <pc ana="#punctus"/> alii quod utroque modo moveri potest <pc ana="#punctus"/> sed subito 
-  					<lb ed="#P"/>tantum in locum sibi <unclear>immediatum</unclear> <pc ana="#punctus"/> successive autem <pc ana="#punctus"/> etiam 
-  					<lb ed="#P"/>in rem motum <pc ana="#punctus"/> et etiam minus celerius altero secundum maiorem virtutem</p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d37">
+        <head xml:id="wdrl1d37-Hd1e3503">Liber I, Distinctio 37 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d37q1" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3508">Liber I, Distinctio 37, Quaestio 1</head>
+          <head xml:id="wdrl1d37-Hd1e3511" type="question-title">Utrum deus sit in omnibus rebus</head>
+          <p xml:id="wdrl1d37-d1e3514">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum deus sit in omnibus rebus <pc ana="#punctus"/> Respondeo 
+            <lb ed="#P"/>sic secundum sanctos in littera quia dei operatio est in omnibus rebus 
+            <lb ed="#P"/>conservando eas secundum <name>Guillemus</name> <pc ana="#punctus"/> Sed idem est dei operatio <pc ana="#punctus"/> virtus et 
+            <lb ed="#P"/>essentia et praeterea cum infinitus sit non aliquo termini 
+            <!-- drops -->ante
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q2" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3540">Liber I, Distinctio 37, Quaestio 2</head>
+          <head xml:id="wdrl1d37-Hd1e3543" type="question-title">utrum aequaliter sit in omnibus rebus</head>
+          <p xml:id="wdrl1d37-d1e3546">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <del rend="strikethrough">q</del> aequaliter sit in omnibus rebus 
+            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic quantum ad rem praesentiae dei ad creaturam <pc ana="#punctus"/> Sed non 
+            <lb ed="#P"/>quantum ad effectum influentiae in ipsam <pc ana="#punctus"/> In quibusdam autem non 
+            <lb ed="#P"/>est dicendus esse simpliciter sed cum determinatione scilicet <del rend="erasure">sed</del> inquantum 
+            <lb ed="#P"/>creaturae sunt <pc ana="#punctus"/> ut sunt illa quae sonant in defectum 
+            <lb ed="#P"/>et vilitatem <pc ana="#punctus"/> vel spiritualem <pc ana="#punctus"/> vel naturalem <pc ana="#punctus"/> vel vulgarem 
+            <lb ed="#P"/>ut <choice><orig>dyabolus</orig><reg>diabolus</reg></choice> <pc ana="#punctus"/> peccator <pc ana="#punctus"/> infernus <pc ana="#punctus"/> <unclear>lutum</unclear> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q3" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3607">Liber I, Distinctio 37, Quaestio 3</head>
+          <head xml:id="wdrl1d37-Hd1e3610" type="question-title">Quod vel quibus modis deus sit in rebus</head>
+          <p xml:id="wdrl1d37-d1e3613">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quod vel quibus modis deus sit in rebus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <ref><name ref="#Lombard">magister</name> <pc ana="#punctus"/> 
+            <lb ed="#P"/>in littera</ref> <num>v</num> modis tribus generaliter in omni re scilicet per essentiam 
+            <lb ed="#P"/>praesentiam <pc ana="#punctus"/> et potentiam <pc ana="#punctus"/> Item specialem quo est in sanctis omnibus per 
+            <lb ed="#P"/>gratiam <pc ana="#punctus"/> Item singularem quo est in christo <pc ana="#punctus"/> per unionem <pc ana="#punctus"/> <ref><title ref="#ps">psalmos</title> <num>4</num></ref> 
+            <lb ed="#P"/>ponit <del rend="strikethrough">r</del> etiam <name ref="#GregoryGreat">Gregorius</name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> omnes creaturae a deo sunt <pc ana="#punctus"/> 
+            <lb ed="#P"/>Solae creaturae rationales sunt in deum redeunt <pc ana="#punctus"/> 
+            <lb ed="#P"/>Sola natura humana <pc ana="#punctus"/> deo personaliter unitur quo ad ultimum 
+            <lb ed="#P"/>modum dicitur deus esse in christo per visionem quam ad secundum in 
+            <lb ed="#P"/>sanctis per gratiam quo alquid primum in omnibus rebus <pc ana="#punctus"/> per praesen<lb ed="#P" break="no"/>tiam 
+            scilicet inquantum extra <pc ana="#punctus"/> assistit cuilibet rei <pc ana="#punctuselevatus"/> per potentiam <pc ana="#punctus"/> 
+            <lb ed="#P"/>inquantum ipsam rem totam cum servat et influit <unclear>u</unclear>
+            <pb ed="#P" n="38-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>per essentiam inquantum ipsam totam rei essentiam <pc ana="#virgula"/> intra penetrat
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q4" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3712">Liber I, Distinctio 37, Quaestio 4</head>
+          <head xml:id="wdrl1d37-Hd1e3715" type="question-title">Utrum deus sit ubique</head>
+          <p xml:id="wdrl1d37-d1e3718">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit ubique <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Large accipiendo sic est 
+            <lb ed="#P"/>ubique id est <unclear>inonum</unclear> re <pc ana="#punctus"/> Sed stricte id <unclear>monum</unclear> loco scilicet per praesen<lb ed="#P" break="no"/>tiam 
+            <pc ana="#punctus"/> sed non per continentiam <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> Deus ubique est <pc ana="#punctus"/> quia nusquam 
+            <lb ed="#P"/>absens est <pc ana="#punctus"/> In se ipso nullo est <pc ana="#punctus"/> quia non continetur hiis <pc ana="#punctus"/> quibus 
+            <lb ed="#P"/>praesens est <pc ana="#punctus"/> et dicitur haec praesentia <pc ana="#punctus"/> in trina loci repletio <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q5" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3772">Liber I, Distinctio 37, Quaestio 5</head>
+          <head xml:id="wdrl1d37-Hd1e3775" type="question-title">utrum esse ubique ei soli conveniat</head>
+          <p xml:id="wdrl1d37-d1e3778">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum esse ubique ei soli conveniat <pc ana="#punctus"/> Respondeo sic <pc ana="#punctus"/> per se scilicet quia 
+            <lb ed="#P"/>convenit ei naturalis ratione suae essentiae ita quod nullus locus potest esse 
+            <lb ed="#P"/>sine ipso <pc ana="#punctus"/> unde <name ref="#Ambrose">Ambrorum</name> in littera <pc ana="#punctus"/> per hoc probat spiritum sanctum 
+            <lb ed="#P"/>esse deum <pc ana="#punctus"/> aliis autem convenit <pc ana="#punctus"/> vel convenire posset per accidens <pc ana="#punctus"/> 
+            <lb ed="#P"/>ut primae materiae scilicet per partes <pc ana="#punctus"/> et <unclear>uli?us</unclear> <pc ana="#punctus"/> et enti <pc ana="#punctus"/> si non esset 
+            <!-- drops --> unicus locus <pc ana="#punctus"/> unius rei
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q6" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3827">Liber I, Distinctio 37, Quaestio 6</head>
+          <head xml:id="wdrl1d37-Hd1e3830" type="question-title">utrum conveniat ei ab aeterno</head>
+          <p xml:id="wdrl1d37-d1e3833">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum conveniat ei ab aeter<lb ed="#P" break="no"/>no 
+            <pc ana="#punctus"/> Responde non sive <mentioned>ubique</mentioned> accipiatur large <pc ana="#punctus"/> sive stricte <pc ana="#punctus"/> 
+            <lb ed="#P"/><unclear>Sententia</unclear> <unclear>prop?iam</unclear> quia utroque modo dicit rem ad creaturam actu existentem
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q7" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3860">Liber I, Distinctio 37, Quaestio 7</head>
+          <head xml:id="wdrl1d37-Hd1e3863" type="question-title">utrum deus sit localis</head>
+          <p xml:id="wdrl1d37-d1e3866">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit localis <pc ana="#punctus"/> Respondeo non ut dicit <name ref="#IsidoreOfSeville">ysidorus</name> <pc ana="#punctus"/> quia 
+            <lb ed="#P"/>locale dicitur secundum <name ref="#Anselm">anselmum</name> quod sequitur leges loci <pc ana="#punctus"/> quae sunt <unclear>continere</unclear> 
+            <lb ed="#P"/>locatur <pc ana="#punctus"/> mensurare <pc ana="#punctus"/> salvare <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> et 
+            <lb ed="#P"/><name ref="#Boethius">boetius</name> dicunt <pc ana="#punctus"/> quod non est in loco <pc ana="#punctus"/> et hoc per continentiam <pc ana="#punctus"/> sed tamen 
+            <!-- drops -->per praesentiam <ref type="commentary" target="http://scta.info/resource/wdrl1d37-d1e3718">supra quaestio 4</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q8" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3923">Liber I, Distinctio 37, Quaestio 8</head>
+          <head xml:id="wdrl1d37-Hd1e3926" type="question-title">utrum deus sit mutabilis de loco ad locum</head>
+          <p xml:id="wdrl1d37-d1e3929">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum deus sit mutabi<lb ed="#P" break="no"/>lis 
+            de loco ad locum <pc ana="#punctus"/> Respondeo non <name ref="#Boethius">Boetius</name> deus stabilis ma<lb ed="#P" break="no"/>nens 
+            <pc ana="#punctus"/> dat cuncta moveri <pc ana="#punctus"/> Sed solum causaliter dicitur 
+            <lb ed="#P"/>moveri <pc ana="#punctus"/> et <choice><orig>methaphorice</orig><reg>metaphorice</reg></choice> sicut dicutur ex altari in corde 
+            <lb ed="#P"/>hominis et huiusmodi quod fit mutione alterius tantum <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q9" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3965">Liber I, Distinctio 37, Quaestio 9</head>
+          <head xml:id="wdrl1d37-Hd1e3968" type="question-title">utrum sit extra omnem locum</head>
+          <p xml:id="wdrl1d37-d1e3971">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utru msit extra omnem locum <pc ana="#punctus"/> Responde sic ut dicit <name>Guillelmus</name> 
+            <lb ed="#P"/>scilicet quod sit extra omnia <pc ana="#punctus"/> haec intellige non per distantiam 
+            <lb ed="#P"/><unclear>sic?us</unclear> <pc ana="#punctus"/> sed per independentiam et indeterminationem suae immensita<!-- drops -->tis
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q10" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e3997">Liber I, Distinctio 37, Quaestio 10</head>
+          <head xml:id="wdrl1d37-Hd1e4000" type="question-title">utrum angelus sit in loco</head>
+          <p xml:id="wdrl1d37-d1e4003">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum angelus sit in loco <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> philosophi <pc ana="#punctus"/> 
+            <lb ed="#P"/>antiqui ponebant angelos sive intellectualis nullo modo 
+            <lb ed="#P"/>esse in loco <pc ana="#punctus"/> nullo per essentiam <pc ana="#punctus"/> nec per <del rend="strikethrough">ro</del> operationem <pc ana="#punctus"/> sed tantum movere 
+            <lb ed="#P"/>animam alicuius orbis <pc ana="#punctus"/> desiderant movet desiderantem 
+            <lb ed="#P"/>animam <pc ana="#punctus"/> Sed fides est incontrarium <pc ana="#punctus"/> quae ponit angelos circa 
+            <lb ed="#P"/>nos operari <pc ana="#punctus"/> Quidam autem theologorum <pc ana="#punctus"/> dicunt eos 
+            <lb ed="#P"/>tantum per operationem esse etiam per essentiam <pc ana="#punctus"/> alii communius dicunt eas in loco 
+            <lb ed="#P"/>esse et per essentiam <pc ana="#punctus"/> sed differentur tantum <pc ana="#punctus"/> non <unclear>circumscriptive</unclear> dicit <name ref="#Lombard">magister</name> 
+            <lb ed="#P"/>in littera <pc ana="#punctus"/> unde <name ref="#Augustine">augustinus</name> dicit quod cum sunt in caelo non sunt 
+            <cb ed="#P" n="b"/> <!-- 38vb -->
+            <lb ed="#P"/>in terra <pc ana="#punctus"/> hiis etiam dicta aliorum sanctorum scilicet <name ref="#Augustine">augustinus</name> et <name ref="#Bede">bede</name> <pc ana="#punctus"/> etc <pc ana="#punctus"/> 
+            <lb ed="#P"/>magis concordant <pc ana="#virgula"/> <pc ana="#punctus"/> nota ergo secundum <ref><name ref="#Aristotle">philosophum</name> libro <title ref="#Physics">physicorum</title></ref> 
+            <lb ed="#P"/>quod locus proprie est superficies corporis rem ambientis <pc ana="#punctus"/> esse 
+            <lb ed="#P"/>ergo in loco proprie requirit tria scilicet commensurationem <pc ana="#punctus"/> determinationem <pc ana="#punctus"/> 
+            <lb ed="#P"/>id est quod <del rend="strikethrough">hic</del> sit hic et non alibi <pc ana="#punctus"/> praesentialitatem <pc ana="#punctus"/> et hoc 
+            <lb ed="#P"/>modo corpora sunt in loco <pc ana="#punctus"/> et dicuntur circumscriptive habent duo 
+            <lb ed="#P"/>ultima <pc ana="#punctus"/> et ideo dicuntur tantum distincte esse in loco id est ita hic quod non 
+            <lb ed="#P"/>alibi <pc ana="#punctus"/> sed deus tantum habet tertium in loco <ref>supra distinctio <!--  likely error here --> quaestio 4 2 7</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q11" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e4142">Liber I, Distinctio 37, Quaestio 11</head>
+          <head xml:id="wdrl1d37-Hd1e4145" type="question-title">utrum possit esse in pluribus locis simul</head>
+          <p xml:id="wdrl1d37-d1e4148">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit esse in pluribus locis simul <pc ana="#punctus"/> Responsio non quia essentiae 
+            <lb ed="#P"/>finitae <pc ana="#punctus"/> <pc ana="#virgula"/> et diffinitive est in loco <pc ana="#punctus"/> dicunt sunt quidam <pc ana="#punctus"/> quod per essentiam tantum 
+            <lb ed="#P"/>est in uno loco in particulari propter simplicitatem et inde effluit 
+            <lb ed="#P"/>in loca proxima per <unclear>virtutem</unclear> <pc ana="#punctus"/> quando vult <pc ana="#punctus"/> exemplum de ada<lb ed="#P" break="no"/>mante 
+            <pc ana="#punctus"/> alii autem quod potest esse etiam in loco quarto <pc ana="#punctus"/> ita quod in 
+            <lb ed="#P"/>qualibet parte totus <pc ana="#punctus"/> ad modum animae in corpore <pc ana="#punctus"/> et etiam in parvo <pc ana="#punctus"/> 
+            <lb ed="#P"/>vel in magno secundum quod <unclear>voluerit</unclear> <pc ana="#punctus"/> et etiam si non operetur in loco <pc ana="#punctus"/> tamen 
+            <lb ed="#P"/>oportet quod vitanto sit <pc ana="#punctus"/> in quarto voluerit operari <pc ana="#punctus"/> Nota autem 
+            <lb ed="#P"/>potest esse in maiori quam possit immediate movere <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q12" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e4215">Liber I, Distinctio 37, Quaestio 12</head>
+          <head xml:id="wdrl1d37-Hd1e4218" type="question-title">utrum plures possunt summa in eodem loco esse</head>
+          <p xml:id="wdrl1d37-d1e4221">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Respondeo 
+            <lb ed="#P"/>non <pc ana="#punctus"/> et haec sive determinetur eis lociis secundum terminem substantiae <pc ana="#punctus"/> sive secundum terminem 
+            <lb ed="#P"/>virtualis quantitatis <pc ana="#punctus"/> sive secundum terminem operationis <pc ana="#punctus"/> quia quilibet eorum 
+            <lb ed="#P"/>per se sufficiens est in huius operatione et superflueret alteratio
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q13" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e4244">Liber I, Distinctio 37, Quaestio 13</head>
+          <head xml:id="wdrl1d37-Hd1e4247" type="question-title">utrum moveatur angelus de loco ad locum</head>
+          <p xml:id="wdrl1d37-d1e4250">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum moveatur angelus de loco ad locum Respondeo 
+            <lb ed="#P"/>sic <pc ana="#punctus"/> qui invenitur in diversis locis <pc ana="#punctus"/>ut in caelo <pc ana="#punctus"/> etin terra <pc ana="#punctus"/> 
+            <lb ed="#P"/>alios tamen duos motus <pc ana="#virgula"/> non locales dicuntur <pc ana="#punctus"/> habere <unclear>sanctis 
+              <lb ed="#P"/>spiritus</unclear> motum spiritum alium illuminationum <pc ana="#punctus"/> qui triplex est secundum <name ref="#Dionysius">dyonisium</name> scilicet 
+            <lb ed="#P"/>circularis <pc ana="#punctus"/> rectus <pc ana="#punctus"/> et obliquus <pc ana="#punctus"/> alium motum <seg type="correction">vicissitu<del rend="strikethrough">unt</del><lb ed="#P" break="no"/>dinum</seg> 
+            <pc ana="#punctus"/> secundum cognitionem vespertinam rerum diversarum <pc ana="#punctus"/> et diver<!-- drops -->sas <pc ana="#punctus"/> affectiones
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q14" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e4310">Liber I, Distinctio 37, Quaestio 14</head>
+          <head xml:id="wdrl1d37-Hd1e4313" type="question-title">utrum in motu locali transeat medium</head>
+          <p xml:id="wdrl1d37-d1e4316">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum in motu locali <pc ana="#punctus"/> 
+            <lb ed="#P"/>transeat medium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam <pc ana="#punctus"/> non <pc ana="#punctus"/> nisi habeat aliquid operari 
+            <lb ed="#P"/>in medio <pc ana="#punctus"/> unde dicunt motum eius subitum <pc ana="#punctus"/> sic illuminante 
+            <lb ed="#P"/>aeris <pc ana="#punctus"/> alii autem quod fit per medium <pc ana="#punctus"/> et quod est successivus <pc ana="#punctus"/> 
+            <lb ed="#P"/>non tamen commensurando se medio <pc ana="#punctus"/> potest se tamen semper facere 
+            <lb ed="#P"/>totum in loco proportionato suae virtuti <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d37q15" type="quaestio">
+          <head xml:id="wdrl1d37-Hd1e4360">Liber I, Distinctio 37, Quaestio 15</head>
+          <head xml:id="wdrl1d37-Hd1e4363" type="question-title">Utrum motus eius sit in tempore vel subito</head>
+          <p xml:id="wdrl1d37-d1e4366">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum motus eius sit in tempore vel subito <pc ana="#punctus"/> Responsio 
+            <lb ed="#P"/>quidam quod sine corpore assumpto <pc ana="#punctus"/> tamen est subitus <pc ana="#punctus"/> id est <unclear>in</unclear> 
+            <pb ed="#P" n="39-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>nunc et quod inter terminos tantum est quaedam successio vicissitu<lb ed="#P" break="no"/>dinum 
+            <pc ana="#punctus"/> alii quod successivus et in tempore semper <pc ana="#punctus"/> et hoc propter 
+            <lb ed="#P"/>virtutem finitam <pc ana="#punctus"/> et distantiam terminorum <pc ana="#punctus"/> quae motum 
+            <lb ed="#P"/>retardant <pc ana="#punctus"/> alii quod utroque modo moveri potest <pc ana="#punctus"/> sed subito 
+            <lb ed="#P"/>tantum in locum sibi <unclear>immediatum</unclear> <pc ana="#punctus"/> successive autem <pc ana="#punctus"/> etiam 
+            <lb ed="#P"/>in rem motum <pc ana="#punctus"/> et etiam minus celerius altero secundum maiorem virtutem
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

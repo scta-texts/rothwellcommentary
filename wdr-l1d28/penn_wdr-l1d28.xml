@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-04-30">April 30, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,102 +24,119 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="35-r"/>
+        <cb ed="#P" n="b"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="35rb"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d28">
-  			<head xml:id="wdrl1d28-Hd1e3503">Liber I, Distinctio 28 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d128q1" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3508" type="question-title">Utrum plures proprietates sint in persona patris</head>
-  				<p xml:id="wdrl1d28-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>Responsio sic secundum <ref><name ref="#Augustine">augustinum</name> in littera</ref> <ref>sententia distinctione 16 quaestione 10</ref> Sed 
-  					<lb ed="#P"/><unclear>m</unclear> nota <pc ana="#virgula"/> quod plures proprietates unius personae <pc ana="#punctus"/> comparatae ad subiectum 
-  					<lb ed="#P"/>in quo sunt <pc ana="#virgula"/> nec inter se <pc ana="#punctus"/> nullo in subiecto differunt <pc ana="#punctus"/> quia nulla 
-  					<lb ed="#P"/>est relata appositio <pc ana="#punctus"/> Sed per comparationem ad <unclear>abm</unclear> cuius sunt 
-  					<lb ed="#P"/>sic differunt <pc ana="#punctus"/> <ref>supra distinctio 16 quaestio <unclear>9</unclear></ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d128q2" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3560" type="question-title">utrum solum tres</head>
-  				<p xml:id="wdrl1d28-d1e3563"><lb ed="#P"/><pc ana="#pilcrow"/>utrum solum tres <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia pater non et ab alio 
-  					<lb ed="#P"/>Sed alii ab eo <pc ana="#punctus"/> per modum nuaturae <pc ana="#punctus"/> filius <pc ana="#punctus"/> per modum voluntatis 
-  					<lb ed="#P"/>spiritus scilicet <pc ana="#virgula"/> quae requiruntur ad notionem <ref>supra distinctio 12 quaestio 6</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d128q3" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3592" type="question-title">utrum propter eas possit dici pater trinus</head>
-  				<p xml:id="wdrl1d28-d1e3595"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum propter eas possit dici pater trinus 
-  					Responsio <del rend="strikethrough">quod</del> non quia tantum proprietas personalis suppositum constituit <pc ana="#punctus"/> et 
-  					<lb ed="#P"/>numerat ipsum <pc ana="#punctus"/> et talium tantum una est in patre scilicet paternitas</p>
-  			</div>
-  			<div xml:id="wdr-l1d128q4" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3612" type="question-title">utrum innascibilitas sit in genere relationis</head>
-  				<p xml:id="wdrl1d28-d1e3615"><lb ed="#P"/><pc ana="#pilcrow"/>utrum innascibilitas sit in genere relationis <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> per se non sed ad illud reditur <ref>supra distinctio 16 quaestio <unclear>10</unclear></ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d128q5" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3632" type="question-title">Utrum sit notio patris</head>
-  				<p xml:id="wdrl1d28-d1e3635"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum sit notio patris <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sit accipiatur privative 
-  					<lb ed="#P"/>Sic in divinis non convenit <pc ana="#punctus"/> Si negative <pc ana="#punctus"/> tunc si dicit <del rend="strikethrough">nego</del> ne<lb ed="#P"/>gatione 
-  					in genere id est ens ab alio <pc ana="#virgula"/> <del rend="strikethrough">n</del> non per generationem <pc ana="#punctus"/> sic convenit 
-  					<lb ed="#P"/>spiritui sancto si autem negationem simpliciter hic dicitur vel <unclear>p?am</unclear> <pc ana="#punctus"/> sic 
-  					<lb ed="#P"/>convenit essentiae nec est notio <pc ana="#punctus"/> vel fundatam super contrarium scilicet super 
-  					<lb ed="#P"/>rationem universalis principii sic conventi patri <pc ana="#punctus"/> et est notio <pc ana="#punctus"/> quia ipso 
-  					<!-- drop --> est principium non de principio</p>
-  			</div>
-  			<div xml:id="wdr-l1d128q6" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3687" type="question-title">Utrum sit idem quod paternitas</head>
-  				<p xml:id="wdrl1d28-d1e3690"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit idem quod 
-  					<lb ed="#P"/>paternitas <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> quia unum dicitur ne<lb ed="#P"/>gantem 
-  					alio positive <pc ana="#punctus"/> <pc ana="#virgula"/> unum per comparationem ad principium 
-  					<lb ed="#P"/>aliud per comparationem ad id quod est ex principio</p>
-  			</div>
-  			<div xml:id="wdr-l1d128q7" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3718" type="question-title">Utrum constituat personam patris</head>
-  				<p xml:id="wdrl1d28-d1e3721"><lb ed="#P"/><pc ana="#pilcrow"/>utrum constituat personam patris <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non quia ne<cb ed="#P" n="35va"/><lb ed="#P"/>gative 
-  					dicitur <pc ana="#virgula"/> non positive <pc ana="#punctus"/> licet supra positionem fundetur <pc ana="#punctus"/> similiter nec 
-  					<lb ed="#P"/>communis spiratio <pc ana="#punctus"/> quia non est propria utraque nullo harum praesupponit 
-  					<!-- drops --> paternitatem</p>
-  			</div>
-  			<div xml:id="wdr-l1d128q8" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3749" type="question-title">Utrum imago quae est in deo praedicetur essentialiter vel personaliter tantum</head>
-  				<p xml:id="wdrl1d28-d1e3752"><lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>ymago</orig><reg>imago</reg></choice> quae est 
-  					<lb ed="#P"/>in deo praedicetur essentialiter vel personaliter tantum <pc ana="#punctus"/> Responsio personaliter 
-  					<lb ed="#P"/>tantum scilicet pro filio secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et hoc secundum quod proprie accipitur 
-  					<lb ed="#P"/><choice><orig>ymago</orig><reg>imago</reg></choice> pro eo quod ad alterius imitationem producitur 
-  					<lb ed="#P"/>Sed communiter loquendo secundum quod accipitur etiam pro eo <pc ana="#virgula"/> ad cuius imi<lb ed="#P"/>tationem 
-  					alterum producitur sic etiam essentialiter homo ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> dei <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d128q9" type="quaestio">
-  				<head xml:id="wdrl1d28-Hd1e3799" type="question-title">Utrum solus filius sit imago et non spiritus sanctus</head>
-  				<p xml:id="wdrl1d28-d1e3802"><lb ed="#P"/><pc ana="#pilcrow"/>utrum solus filius sit <choice><orig>ymago</orig><reg>imago</reg></choice> <pc ana="#punctus"/> et non spiritus sanctus 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> <pc ana="#virgula"/> <pc ana="#punctus"/> quia filius procedit ab uno spiritu 
-  					<lb ed="#P"/>sancto a duobus <pc ana="#punctus"/> Item filius per modum naturae <pc ana="#punctus"/> quae magis tendit 
-  					<lb ed="#P"/>ad similitudinem quam voluntas <pc ana="#punctus"/> Item quia filus cum patre 
-  					<lb ed="#P"/>convenit in habitudine quasi exteriori etiam <pc ana="#punctus"/> principiando alteram 
-  					<!-- drops --> personam haec est ratio <name ref="#RichardOfStVictor">Ricardi de sancto victore</name></p>
-  			</div>
-  			
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d28">
+        <head xml:id="wdrl1d28-Hd1e3503">Liber I, Distinctio 28 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d128q1" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3508" type="question-title">Utrum plures proprietates sint in persona patris</head>
+          <p xml:id="wdrl1d28-d1e3511">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Responsio sic secundum <ref><name ref="#Augustine">augustinum</name> in littera</ref> <ref>sententia distinctione 16 quaestione 10</ref> Sed 
+            <lb ed="#P"/><unclear>m</unclear> nota <pc ana="#virgula"/> quod plures proprietates unius personae <pc ana="#punctus"/> comparatae ad subiectum 
+            <lb ed="#P"/>in quo sunt <pc ana="#virgula"/> nec inter se <pc ana="#punctus"/> nullo in subiecto differunt <pc ana="#punctus"/> quia nulla 
+            <lb ed="#P"/>est relata appositio <pc ana="#punctus"/> Sed per comparationem ad <unclear>abm</unclear> cuius sunt 
+            <lb ed="#P"/>sic differunt <pc ana="#punctus"/> <ref>supra distinctio 16 quaestio <unclear>9</unclear></ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q2" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3560" type="question-title">utrum solum tres</head>
+          <p xml:id="wdrl1d28-d1e3563">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum solum tres <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia pater non et ab alio 
+            <lb ed="#P"/>Sed alii ab eo <pc ana="#punctus"/> per modum nuaturae <pc ana="#punctus"/> filius <pc ana="#punctus"/> per modum voluntatis 
+            <lb ed="#P"/>spiritus scilicet <pc ana="#virgula"/> quae requiruntur ad notionem <ref>supra distinctio 12 quaestio 6</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q3" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3592" type="question-title">utrum propter eas possit dici pater trinus</head>
+          <p xml:id="wdrl1d28-d1e3595">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum propter eas possit dici pater trinus 
+            Responsio <del rend="strikethrough">quod</del> non quia tantum proprietas personalis suppositum constituit <pc ana="#punctus"/> et 
+            <lb ed="#P"/>numerat ipsum <pc ana="#punctus"/> et talium tantum una est in patre scilicet paternitas
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q4" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3612" type="question-title">utrum innascibilitas sit in genere relationis</head>
+          <p xml:id="wdrl1d28-d1e3615">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum innascibilitas sit in genere relationis <pc ana="#punctus"/> 
+            <lb ed="#P"/>Responsio <pc ana="#punctus"/> per se non sed ad illud reditur <ref>supra distinctio 16 quaestio <unclear>10</unclear></ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q5" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3632" type="question-title">Utrum sit notio patris</head>
+          <p xml:id="wdrl1d28-d1e3635">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum sit notio patris <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sit accipiatur privative 
+            <lb ed="#P"/>Sic in divinis non convenit <pc ana="#punctus"/> Si negative <pc ana="#punctus"/> tunc si dicit <del rend="strikethrough">nego</del> ne<lb ed="#P" break="no"/>gatione 
+            in genere id est ens ab alio <pc ana="#virgula"/> <del rend="strikethrough">n</del> non per generationem <pc ana="#punctus"/> sic convenit 
+            <lb ed="#P"/>spiritui sancto si autem negationem simpliciter hic dicitur vel <unclear>p?am</unclear> <pc ana="#punctus"/> sic 
+            <lb ed="#P"/>convenit essentiae nec est notio <pc ana="#punctus"/> vel fundatam super contrarium scilicet super 
+            <lb ed="#P"/>rationem universalis principii sic conventi patri <pc ana="#punctus"/> et est notio <pc ana="#punctus"/> quia ipso 
+            <!-- drop --> est principium non de principio
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q6" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3687" type="question-title">Utrum sit idem quod paternitas</head>
+          <p xml:id="wdrl1d28-d1e3690">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit idem quod 
+            <lb ed="#P"/>paternitas <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> quia unum dicitur ne<lb ed="#P" break="no"/>gantem 
+            alio positive <pc ana="#punctus"/> <pc ana="#virgula"/> unum per comparationem ad principium 
+            <lb ed="#P"/>aliud per comparationem ad id quod est ex principio
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q7" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3718" type="question-title">Utrum constituat personam patris</head>
+          <p xml:id="wdrl1d28-d1e3721">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum constituat personam patris <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non quia ne<pb ed="#P" n="35-v"/><cb ed="#P" n="a"/><lb ed="#P" break="no"/>gative 
+            dicitur <pc ana="#virgula"/> non positive <pc ana="#punctus"/> licet supra positionem fundetur <pc ana="#punctus"/> similiter nec 
+            <lb ed="#P"/>communis spiratio <pc ana="#punctus"/> quia non est propria utraque nullo harum praesupponit 
+            <!-- drops --> paternitatem
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q8" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3749" type="question-title">Utrum imago quae est in deo praedicetur essentialiter vel personaliter tantum</head>
+          <p xml:id="wdrl1d28-d1e3752">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>ymago</orig><reg>imago</reg></choice> quae est 
+            <lb ed="#P"/>in deo praedicetur essentialiter vel personaliter tantum <pc ana="#punctus"/> Responsio personaliter 
+            <lb ed="#P"/>tantum scilicet pro filio secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et hoc secundum quod proprie accipitur 
+            <lb ed="#P"/><choice><orig>ymago</orig><reg>imago</reg></choice> pro eo quod ad alterius imitationem producitur 
+            <lb ed="#P"/>Sed communiter loquendo secundum quod accipitur etiam pro eo <pc ana="#virgula"/> ad cuius imi<lb ed="#P" break="no"/>tationem 
+            alterum producitur sic etiam essentialiter homo ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> dei <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d128q9" type="quaestio">
+          <head xml:id="wdrl1d28-Hd1e3799" type="question-title">Utrum solus filius sit imago et non spiritus sanctus</head>
+          <p xml:id="wdrl1d28-d1e3802">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum solus filius sit <choice><orig>ymago</orig><reg>imago</reg></choice> <pc ana="#punctus"/> et non spiritus sanctus 
+            <lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> <pc ana="#virgula"/> <pc ana="#punctus"/> quia filius procedit ab uno spiritu 
+            <lb ed="#P"/>sancto a duobus <pc ana="#punctus"/> Item filius per modum naturae <pc ana="#punctus"/> quae magis tendit 
+            <lb ed="#P"/>ad similitudinem quam voluntas <pc ana="#punctus"/> Item quia filus cum patre 
+            <lb ed="#P"/>convenit in habitudine quasi exteriori etiam <pc ana="#punctus"/> principiando alteram 
+            <!-- drops --> personam haec est ratio <name ref="#RichardOfStVictor">Ricardi de sancto victore</name>
+          </p>
+        </div>
+        
+      </div>
+    </body>
   </text>
 </TEI>

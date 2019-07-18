@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-03">May 03, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,148 +24,172 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="40-v"/>
+        <cb ed="#P" n="a"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="40va"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d42">
-  			<head xml:id="wdrl1d42-Hd1e3503">Liber I, Distinctio 42 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d42q1" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3508">Liber I, Distinctio 42, Quaestio 1</head>
-  				<head xml:id="wdrl1d42-Hd1e3511" type="question-title">Utrum in deo sit persona</head>
-  				<p xml:id="wdrl1d42-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur <add place="marginLeft">utrum</add> in deo sit potentia <pc ana="#punctus"/> Respondeo sic scilicet potentia <sic>actam <!-- should be activa --></sic> 
-  					<lb ed="#P"/>quia purus actus est <pc ana="#punctus"/> et ideo etiam sive aliqua potentia passiva <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d42q2" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3537">Liber I, Distinctio 42, Quaestio 2</head>
-  				<head xml:id="wdrl1d42-Hd1e3540" type="question-title">Utrum una vel plurales</head>
-  				<p xml:id="wdrl1d42-d1e3543"><lb ed="#P"/><pc ana="#pilcrow"/>utrum una vel plurales <pc ana="#punctus"/> Responsio simpliciter loquendo <pc ana="#punctus"/> una 
-  					<lb ed="#P"/>est quia <unclear>n?adice</unclear> est una <pc ana="#punctus"/> sicut etiam esse est unum <pc ana="#punctus"/> similiter etiam secundum quod 
-  					<lb ed="#P"/>coniuncta est actui exteriori adhuc una est <pc ana="#punctus"/> unde 
-  					<lb ed="#P"/>eadem est potentia creandi <pc ana="#punctus"/> et gubernandi mundum <pc ana="#punctus"/> Sed ab 
-  					<lb ed="#P"/>actu interiori potest recipiere multiplicitatem aliquam <pc ana="#punctus"/> unde 
-  					<lb ed="#P"/>illae potentiae differunt praesens modum se habendi <unclear>absoluunt</unclear> 
-  					<lb ed="#P"/>et relatum <pc ana="#punctus"/> sicut et actus eorum <pc ana="#punctus"/> ut potentia intelligendi <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et generandi <pc ana="#punctus"/> similiter potentia creandi et generandi</p>
-  			</div>
-  			<div xml:id="wdr-l1d42q3" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3598">Liber I, Distinctio 42, Quaestio 3</head>
-  				<head xml:id="wdrl1d42-Hd1e3601" type="question-title">utrum potentia sit aequalis suae scientiae et voluntati</head>
-  				<p xml:id="wdrl1d42-d1e3604"><lb ed="#P"/><pc ana="#pilcrow"/>utrum potentia sit aequais suae scientiae et voluntati 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum id quod sunt <pc ana="#punctus"/> sicut idem sunt <pc ana="#punctus"/> Similiter etiam quod quantum 
-  					<lb ed="#P"/>ad actus ad quos sunt <pc ana="#punctus"/> aequalia sunt <pc ana="#punctus"/> quia se omnino 
-  					<lb ed="#P"/>continent <pc ana="#punctus"/> deus enim potest scire et nullae quicquid scit et vult 
-  					<lb ed="#P"/>et econverso <pc ana="#punctus"/> secundum obiecta autem respectu quorum sunt <pc ana="#punctus"/> sic maior est 
-  					<lb ed="#P"/>scientia simplicis intellectione <pc ana="#punctus"/> duobus aliis <pc ana="#punctus"/> Sed potentia 
-  					<lb ed="#P"/>maior <pc ana="#punctus"/> quam scientia approbationis <pc ana="#punctus"/> scientia autem visionis et potentia 
-  					<lb ed="#P"/>habent se ut excedentia <pc ana="#punctus"/> et excessa <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d42q4" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3656">Liber I, Distinctio 42, Quaestio 4</head>
-  				<head xml:id="wdrl1d42-Hd1e3659" type="question-title">utrum deus sit omnipotens</head>
-  				<p xml:id="wdrl1d42-d1e3662"><cb ed="#P" n="40vb"/><lb ed="#P"/>utrum deus sit omnipotens <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia habet potentia 
-  					<lb ed="#P"/>activam respectu omnium <lb ed="#P"/> quamvis nihil possit recipere vel pati 
-  					<lb ed="#P"/>quia <unclear>potus</unclear> est in potentiae id est <ref>1a quesetione 6</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d42q5" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3689">Liber I, Distinctio 42, Quaestio 5</head>
-  				<head xml:id="wdrl1d42-Hd1e3692" type="question-title">Utrum deus possit mala</head>
-  				<p xml:id="wdrl1d42-d1e3695"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit mala <pc ana="#punctus"/> Responsio secundum sanctos non potest 
-  					<lb ed="#P"/>malum culpae <pc ana="#punctus"/> quia hic est aversio a deo <pc ana="#punctus"/> deus autem a se 
-  					<lb ed="#P"/>averti non potest <pc ana="#punctus"/> nec esse causa eius potest <pc ana="#punctus"/> potest tamen malum 
-  					<!-- drops --> <choice><orig>penae</orig><reg>poenae</reg></choice> inquantum iustum est</p>
-  			</div>
-  			<div xml:id="wdr-l1d42q6" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3726">Liber I, Distinctio 42, Quaestio 6</head>
-  				<head xml:id="wdrl1d42-Hd1e3729" type="question-title">utrum possit quacumque bona creaturae possibilia</head>
-  				<p xml:id="wdrl1d42-d1e3732"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit 
-  					<lb ed="#P"/>quacumque bona creaturae possibilia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam accidens 
-  					<lb ed="#P"/>pertinent ad posse simpliciter sine ut posse vivere <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et intelligere et huiusmmodi sine imperfectione <pc ana="#punctus"/> quidam cum imperfectione 
-  					<lb ed="#P"/>aliqua naturali <pc ana="#punctus"/> non tamen penali <pc ana="#punctus"/> ut viciosa <pc ana="#punctus"/> ut <unclear>posse</unclear> <pc ana="#punctus"/> 
-  					<lb ed="#P"/>currere <pc ana="#punctus"/> comedere <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> quidam cum <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> penai 
-  					<lb ed="#P"/>non viciosa <pc ana="#punctus"/> ut posse mori <pc ana="#punctus"/> quidam cum <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> 
-  					<lb ed="#P"/>viciosa <pc ana="#punctus"/> ut posse peccare <pc ana="#punctus"/> primum posse est in deo 
-  					<lb ed="#P"/>et ab eo totaliter in creatura <pc ana="#punctus"/> Secundum non in deo <pc ana="#punctus"/> sed ab 
-  					<lb ed="#P"/>eo totaliter in creatura <pc ana="#punctus"/> unde hos actus non efficit 
-  					<lb ed="#P"/>in se <pc ana="#punctus"/> sed in creatura <pc ana="#punctus"/> ut dicit in littera <pc ana="#punctus"/> tertium non est 
-  					<lb ed="#P"/>in deo sed a deo increatura <pc ana="#punctus"/> non totaliter <pc ana="#punctus"/> sed partim ab alia 
-  					<lb ed="#P"/>causa scilicet peccato <pc ana="#punctus"/> quartum nec est in deo <pc ana="#punctus"/> nec a deo aliquo modo <pc ana="#punctus"/> quantum 
-  					<lb ed="#P"/>ad vitium sed quantum ad posse <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d42q7" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3841">Liber I, Distinctio 42, Quaestio 7</head>
-  				<head xml:id="wdrl1d42-Hd1e3844" type="question-title">utrum deus possit impossibilia per se scilicet secundum naturam</head>
-  				<p xml:id="wdrl1d42-d1e3847"><lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit <choice><orig>inpossibilia</orig><reg>impossibilia</reg></choice> per se scilicet secundum naturam 
-  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> scilicet quae sunt contraria cursui naturae <pc ana="#punctus"/> quia plus potest 
-  					<lb ed="#P"/><sic>adiderit<!-- possible correction here --></sic> naturae posse <pc ana="#punctus"/> Sed non potest ea <pc ana="#punctus"/> quae sunt contraria 
-  					<lb ed="#P"/>naturali obiective naturae a creatore <unclear>in?dice</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> ut quae sunt in potentia contraria 
-  					<lb ed="#P"/>in deficienti <pc ana="#punctus"/> ut principia scientiarum <pc ana="#punctus"/> et virtutum <pc ana="#punctus"/> et omnia 
-  					<lb ed="#P"/>quae habent ratione exemplarem expressam in mente divina <pc ana="#punctus"/> unde non 
-  					<lb ed="#P"/>potest facere iustitiam esse malam <pc ana="#punctus"/> et duo et tria non esse <num>v</num> 
-  					<lb ed="#P"/>unde nec contraria simul eidem et secundum idem in esse <pc ana="#punctus"/> ut communiter dicitur <pc ana="#punctus"/> 
-  					<lb ed="#P"/>quia sequitur contradictio cum unum destruat alterum</p>
-  			</div>
-  			<div xml:id="wdr-l1d42q8" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3918">Liber I, Distinctio 42, Quaestio 8</head>
-  				<head xml:id="wdrl1d42-Hd1e3921" type="question-title">utrum possit incompossibilia id est opposita simul</head>
-  				<p xml:id="wdrl1d42-d1e3924"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit incompossibilia id est opposita simul 
-  					<lb ed="#P"/>Respondeo non <pc ana="#punctus"/> non ex defectu potentiae quia sic nihil est ei inpossibile 
-  					<lb ed="#P"/>sed quia nulla potentia quia sequeretur</p>
-  			</div>
-  			<div xml:id="wdr-l1d42q9" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3938">Liber I, Distinctio 42, Quaestio 9</head>
-  				<head xml:id="wdrl1d42-Hd1e3941" type="question-title">Potest esse utriusque susceptibilis idem nec esse nec non esse</head>
-  				<p xml:id="wdrl1d42-d1e3944"><lb ed="#P"/><pc ana="#pilcrow"/>Potest esse utriusque susceptibilis <pc ana="#punctus"/> idem nec esse <pc ana="#punctus"/> nec non 
-  					<lb ed="#P"/>esse <pc ana="#punctus"/> omnis autem potentia est ad esse vel ad non esse <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d42q10" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e3962">Liber I, Distinctio 42, Quaestio 10</head>
-  				<head xml:id="wdrl1d42-Hd1e3965" type="question-title">Utrum possit impossibilia accidens ut mundum non fuisse</head>
-  				<p xml:id="wdrl1d42-d1e3968"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum possit impossibilia accidens ut mundum 
-  					<cb ed="#P" n="41ra"/><lb ed="#P"/>non fuisse <pc ana="#punctus"/> Responsio non secundum <name ref="#Augustine">augustinum</name> et etiam <name ref="#Jerome">Jeromum</name> <pc ana="#punctus"/> quia nihil relinquitur ibi 
-  					<lb ed="#P"/>de potentia scilicet in praeterito <pc ana="#punctus"/> inquam deus possit agere <pc ana="#punctus"/> unde cum 
-  					<lb ed="#P"/>nihil fit <pc ana="#virgula"/> non potest se deus ad ipsum habere <pc ana="#punctus"/> ut cessans ab 
-  					<lb ed="#P"/>influendo <pc ana="#punctus"/> vel destruendo vel aliquid efficiendo</p>
-  			</div>
-  			<div xml:id="wdr-l1d42q11" type="quaestio">
-  				<head xml:id="wdrl1d42-Hd1e4008">Liber I, Distinctio 42, Quaestio 11</head>
-  				<head xml:id="wdrl1d42-Hd1e4011" type="question-title">Secundum quid dicatur aliquid possibile vel impossibile simpliciter utrum secundum causas superiores vel inferiores</head>
-  				<p xml:id="wdrl1d42-d1e4014"><lb ed="#P"/><pc ana="#pilcrow"/>Secundum quid dicatur aliquid possibile <pc ana="#punctus"/> vel impossi<lb ed="#P"/>bile 
-  					simpliciter utrum secundum causas superiores <pc ana="#punctus"/> vel inferiores 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> quidam dicuntur impossibilia ex natura propria a privatione 
-  					<lb ed="#P"/>omnis potentiae <pc ana="#punctus"/> ut praeteritum non fuisse <pc ana="#punctus"/> quid simul esse et non esse <pc ana="#punctus"/> 
-  					<lb ed="#P"/>quaedam autem non extra natura propria <pc ana="#punctus"/> sed quantum ad aliquam potentiam <pc ana="#punctus"/> ut 
-  					<lb ed="#P"/>solem stare <pc ana="#punctus"/> et horum quaedam sunt a potentia dei activa imme<lb ed="#P"/>diate 
-  					<pc ana="#punctus"/> ut creatio mundi <pc ana="#punctus"/> quaedam mediante potentia <pc ana="#punctus"/> 
-  					<lb ed="#P"/>passiva creaturae <pc ana="#punctus"/> ut iustificatio impii <pc ana="#punctus"/> creatio animarum <pc ana="#punctus"/> quae 
-  					<lb ed="#P"/>meandia mediante activa et passiva <pc ana="#punctus"/> potentia creaturae <pc ana="#punctus"/> 
-  					<lb ed="#P"/>ut effectus naturales <pc ana="#punctus"/> In primis ergo <pc ana="#virgula"/> secundum causas superiores <pc ana="#virgula"/> iudi<lb ed="#P"/>catur 
-  					simpliciter possibile <pc ana="#punctus"/> in secundis secundum utrasque simul <pc ana="#punctus"/> sed 
-  					<!-- drops -->in tertiis secundum eas inferiores</p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d42">
+        <head xml:id="wdrl1d42-Hd1e3503">Liber I, Distinctio 42 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d42q1" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3508">Liber I, Distinctio 42, Quaestio 1</head>
+          <head xml:id="wdrl1d42-Hd1e3511" type="question-title">Utrum in deo sit persona</head>
+          <p xml:id="wdrl1d42-d1e3514">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Queritur <add place="marginLeft">utrum</add> in deo sit potentia <pc ana="#punctus"/> Respondeo sic scilicet potentia <sic>actam <!-- should be activa --></sic> 
+            <lb ed="#P"/>quia purus actus est <pc ana="#punctus"/> et ideo etiam sive aliqua potentia passiva <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q2" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3537">Liber I, Distinctio 42, Quaestio 2</head>
+          <head xml:id="wdrl1d42-Hd1e3540" type="question-title">Utrum una vel plurales</head>
+          <p xml:id="wdrl1d42-d1e3543">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum una vel plurales <pc ana="#punctus"/> Responsio simpliciter loquendo <pc ana="#punctus"/> una 
+            <lb ed="#P"/>est quia <unclear>n?adice</unclear> est una <pc ana="#punctus"/> sicut etiam esse est unum <pc ana="#punctus"/> similiter etiam secundum quod 
+            <lb ed="#P"/>coniuncta est actui exteriori adhuc una est <pc ana="#punctus"/> unde 
+            <lb ed="#P"/>eadem est potentia creandi <pc ana="#punctus"/> et gubernandi mundum <pc ana="#punctus"/> Sed ab 
+            <lb ed="#P"/>actu interiori potest recipiere multiplicitatem aliquam <pc ana="#punctus"/> unde 
+            <lb ed="#P"/>illae potentiae differunt praesens modum se habendi <unclear>absoluunt</unclear> 
+            <lb ed="#P"/>et relatum <pc ana="#punctus"/> sicut et actus eorum <pc ana="#punctus"/> ut potentia intelligendi <pc ana="#punctus"/> 
+            <lb ed="#P"/>et generandi <pc ana="#punctus"/> similiter potentia creandi et generandi
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q3" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3598">Liber I, Distinctio 42, Quaestio 3</head>
+          <head xml:id="wdrl1d42-Hd1e3601" type="question-title">utrum potentia sit aequalis suae scientiae et voluntati</head>
+          <p xml:id="wdrl1d42-d1e3604">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum potentia sit aequais suae scientiae et voluntati 
+            <lb ed="#P"/>Responsio <pc ana="#punctus"/> secundum id quod sunt <pc ana="#punctus"/> sicut idem sunt <pc ana="#punctus"/> Similiter etiam quod quantum 
+            <lb ed="#P"/>ad actus ad quos sunt <pc ana="#punctus"/> aequalia sunt <pc ana="#punctus"/> quia se omnino 
+            <lb ed="#P"/>continent <pc ana="#punctus"/> deus enim potest scire et nullae quicquid scit et vult 
+            <lb ed="#P"/>et econverso <pc ana="#punctus"/> secundum obiecta autem respectu quorum sunt <pc ana="#punctus"/> sic maior est 
+            <lb ed="#P"/>scientia simplicis intellectione <pc ana="#punctus"/> duobus aliis <pc ana="#punctus"/> Sed potentia 
+            <lb ed="#P"/>maior <pc ana="#punctus"/> quam scientia approbationis <pc ana="#punctus"/> scientia autem visionis et potentia 
+            <lb ed="#P"/>habent se ut excedentia <pc ana="#punctus"/> et excessa <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q4" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3656">Liber I, Distinctio 42, Quaestio 4</head>
+          <head xml:id="wdrl1d42-Hd1e3659" type="question-title">utrum deus sit omnipotens</head>
+          <p xml:id="wdrl1d42-d1e3662">
+            <cb ed="#P" n="b"/><!-- 40vb -->
+            <lb ed="#P"/>utrum deus sit omnipotens <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia habet potentia 
+            <lb ed="#P"/>activam respectu omnium <lb ed="#P"/> quamvis nihil possit recipere vel pati 
+            <lb ed="#P"/>quia <unclear>potus</unclear> est in potentiae id est <ref>1a quesetione 6</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q5" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3689">Liber I, Distinctio 42, Quaestio 5</head>
+          <head xml:id="wdrl1d42-Hd1e3692" type="question-title">Utrum deus possit mala</head>
+          <p xml:id="wdrl1d42-d1e3695">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit mala <pc ana="#punctus"/> Responsio secundum sanctos non potest 
+            <lb ed="#P"/>malum culpae <pc ana="#punctus"/> quia hic est aversio a deo <pc ana="#punctus"/> deus autem a se 
+            <lb ed="#P"/>averti non potest <pc ana="#punctus"/> nec esse causa eius potest <pc ana="#punctus"/> potest tamen malum 
+            <!-- drops --> <choice><orig>penae</orig><reg>poenae</reg></choice> inquantum iustum est
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q6" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3726">Liber I, Distinctio 42, Quaestio 6</head>
+          <head xml:id="wdrl1d42-Hd1e3729" type="question-title">utrum possit quacumque bona creaturae possibilia</head>
+          <p xml:id="wdrl1d42-d1e3732">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit 
+            <lb ed="#P"/>quacumque bona creaturae possibilia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quidam accidens 
+            <lb ed="#P"/>pertinent ad posse simpliciter sine ut posse vivere <pc ana="#punctus"/> 
+            <lb ed="#P"/>et intelligere et huiusmmodi sine imperfectione <pc ana="#punctus"/> quidam cum imperfectione 
+            <lb ed="#P"/>aliqua naturali <pc ana="#punctus"/> non tamen penali <pc ana="#punctus"/> ut viciosa <pc ana="#punctus"/> ut <unclear>posse</unclear> <pc ana="#punctus"/> 
+            <lb ed="#P"/>currere <pc ana="#punctus"/> comedere <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> quidam cum <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> penai 
+            <lb ed="#P"/>non viciosa <pc ana="#punctus"/> ut posse mori <pc ana="#punctus"/> quidam cum <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> 
+            <lb ed="#P"/>viciosa <pc ana="#punctus"/> ut posse peccare <pc ana="#punctus"/> primum posse est in deo 
+            <lb ed="#P"/>et ab eo totaliter in creatura <pc ana="#punctus"/> Secundum non in deo <pc ana="#punctus"/> sed ab 
+            <lb ed="#P"/>eo totaliter in creatura <pc ana="#punctus"/> unde hos actus non efficit 
+            <lb ed="#P"/>in se <pc ana="#punctus"/> sed in creatura <pc ana="#punctus"/> ut dicit in littera <pc ana="#punctus"/> tertium non est 
+            <lb ed="#P"/>in deo sed a deo increatura <pc ana="#punctus"/> non totaliter <pc ana="#punctus"/> sed partim ab alia 
+            <lb ed="#P"/>causa scilicet peccato <pc ana="#punctus"/> quartum nec est in deo <pc ana="#punctus"/> nec a deo aliquo modo <pc ana="#punctus"/> quantum 
+            <lb ed="#P"/>ad vitium sed quantum ad posse <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q7" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3841">Liber I, Distinctio 42, Quaestio 7</head>
+          <head xml:id="wdrl1d42-Hd1e3844" type="question-title">utrum deus possit impossibilia per se scilicet secundum naturam</head>
+          <p xml:id="wdrl1d42-d1e3847">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum deus possit <choice><orig>inpossibilia</orig><reg>impossibilia</reg></choice> per se scilicet secundum naturam 
+            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> scilicet quae sunt contraria cursui naturae <pc ana="#punctus"/> quia plus potest 
+            <lb ed="#P"/><sic>adiderit<!-- possible correction here --></sic> naturae posse <pc ana="#punctus"/> Sed non potest ea <pc ana="#punctus"/> quae sunt contraria 
+            <lb ed="#P"/>naturali obiective naturae a creatore <unclear>in?dice</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> ut quae sunt in potentia contraria 
+            <lb ed="#P"/>in deficienti <pc ana="#punctus"/> ut principia scientiarum <pc ana="#punctus"/> et virtutum <pc ana="#punctus"/> et omnia 
+            <lb ed="#P"/>quae habent ratione exemplarem expressam in mente divina <pc ana="#punctus"/> unde non 
+            <lb ed="#P"/>potest facere iustitiam esse malam <pc ana="#punctus"/> et duo et tria non esse <num>v</num> 
+            <lb ed="#P"/>unde nec contraria simul eidem et secundum idem in esse <pc ana="#punctus"/> ut communiter dicitur <pc ana="#punctus"/> 
+            <lb ed="#P"/>quia sequitur contradictio cum unum destruat alterum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q8" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3918">Liber I, Distinctio 42, Quaestio 8</head>
+          <head xml:id="wdrl1d42-Hd1e3921" type="question-title">utrum possit incompossibilia id est opposita simul</head>
+          <p xml:id="wdrl1d42-d1e3924">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit incompossibilia id est opposita simul 
+            <lb ed="#P"/>Respondeo non <pc ana="#punctus"/> non ex defectu potentiae quia sic nihil est ei inpossibile 
+            <lb ed="#P"/>sed quia nulla potentia quia sequeretur
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q9" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3938">Liber I, Distinctio 42, Quaestio 9</head>
+          <head xml:id="wdrl1d42-Hd1e3941" type="question-title">Potest esse utriusque susceptibilis idem nec esse nec non esse</head>
+          <p xml:id="wdrl1d42-d1e3944">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Potest esse utriusque susceptibilis <pc ana="#punctus"/> idem nec esse <pc ana="#punctus"/> nec non 
+            <lb ed="#P"/>esse <pc ana="#punctus"/> omnis autem potentia est ad esse vel ad non esse <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q10" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e3962">Liber I, Distinctio 42, Quaestio 10</head>
+          <head xml:id="wdrl1d42-Hd1e3965" type="question-title">Utrum possit impossibilia accidens ut mundum non fuisse</head>
+          <p xml:id="wdrl1d42-d1e3968">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum possit impossibilia accidens ut mundum 
+            <pb ed="#P" n="41-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>non fuisse <pc ana="#punctus"/> Responsio non secundum <name ref="#Augustine">augustinum</name> et etiam <name ref="#Jerome">Jeromum</name> <pc ana="#punctus"/> quia nihil relinquitur ibi 
+            <lb ed="#P"/>de potentia scilicet in praeterito <pc ana="#punctus"/> inquam deus possit agere <pc ana="#punctus"/> unde cum 
+            <lb ed="#P"/>nihil fit <pc ana="#virgula"/> non potest se deus ad ipsum habere <pc ana="#punctus"/> ut cessans ab 
+            <lb ed="#P"/>influendo <pc ana="#punctus"/> vel destruendo vel aliquid efficiendo
+          </p>
+        </div>
+        <div xml:id="wdr-l1d42q11" type="quaestio">
+          <head xml:id="wdrl1d42-Hd1e4008">Liber I, Distinctio 42, Quaestio 11</head>
+          <head xml:id="wdrl1d42-Hd1e4011" type="question-title">Secundum quid dicatur aliquid possibile vel impossibile simpliciter utrum secundum causas superiores vel inferiores</head>
+          <p xml:id="wdrl1d42-d1e4014">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Secundum quid dicatur aliquid possibile <pc ana="#punctus"/> vel impossi<lb ed="#P" break="no"/>bile 
+            simpliciter utrum secundum causas superiores <pc ana="#punctus"/> vel inferiores 
+            <lb ed="#P"/>Responsio <pc ana="#punctus"/> quidam dicuntur impossibilia ex natura propria a privatione 
+            <lb ed="#P"/>omnis potentiae <pc ana="#punctus"/> ut praeteritum non fuisse <pc ana="#punctus"/> quid simul esse et non esse <pc ana="#punctus"/> 
+            <lb ed="#P"/>quaedam autem non extra natura propria <pc ana="#punctus"/> sed quantum ad aliquam potentiam <pc ana="#punctus"/> ut 
+            <lb ed="#P"/>solem stare <pc ana="#punctus"/> et horum quaedam sunt a potentia dei activa imme<lb ed="#P" break="no"/>diate 
+            <pc ana="#punctus"/> ut creatio mundi <pc ana="#punctus"/> quaedam mediante potentia <pc ana="#punctus"/> 
+            <lb ed="#P"/>passiva creaturae <pc ana="#punctus"/> ut iustificatio impii <pc ana="#punctus"/> creatio animarum <pc ana="#punctus"/> quae 
+            <lb ed="#P"/>meandia mediante activa et passiva <pc ana="#punctus"/> potentia creaturae <pc ana="#punctus"/> 
+            <lb ed="#P"/>ut effectus naturales <pc ana="#punctus"/> In primis ergo <pc ana="#virgula"/> secundum causas superiores <pc ana="#virgula"/> iudi<lb ed="#P" break="no"/>catur 
+            simpliciter possibile <pc ana="#punctus"/> in secundis secundum utrasque simul <pc ana="#punctus"/> sed 
+            <!-- drops -->in tertiis secundum eas inferiores
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

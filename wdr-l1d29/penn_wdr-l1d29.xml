@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-01">May 01, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,107 +24,123 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="35-v"/>
+        <cb ed="#P" n="a"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="35va"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d29">
-  			<head xml:id="wdrl1d29-Hd1e3503">Liber I, Distinctio 29 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d29q1" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3508">Liber I, Distinctio 29, Quaestio 1</head>
-  				<head xml:id="wdrl1d29-Hd1e3511" type="question-title">Utrum una persona sit principium alterius</head>
-  				<p xml:id="wdrl1d29-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum 
-  					<lb ed="#P"/>una persona sit principium alterius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundudm <name ref="#Augustine">augustinum</name> 
-  					<lb ed="#P"/>in littera <pc ana="#punctus"/> quia una oritur ab <subst><del rend="strikethrough">alia</del> <add place="inLine">altera</add></subst> <pc ana="#punctus"/> Non tamen potest 
-  					<lb ed="#P"/>una dici causa alterius <pc ana="#punctus"/> quia causa dicit ordinem essentialiter differen<lb ed="#P"/>tium 
-  					non autem principium</p>
-  			</div>
-  			<div xml:id="wdr-l1d29q2" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3554">Liber I, Distinctio 29, Quaestio 2</head>
-  				<head xml:id="wdrl1d29-Hd1e3557" type="question-title">Utrum dicatur univoce principium respectu personae et idem respectu creaturae</head>
-  				<p xml:id="wdrl1d29-d1e3560"><lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur univoce principium respectu personae et idem 
-  					<lb ed="#P"/>respectu creaturae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non nec etiam aequivoce pure <pc ana="#punctus"/> sed ana<lb ed="#P"/>logice 
-  					<pc ana="#punctus"/> <name ref="#BasilOfCasarea">Basilius</name> <pc ana="#punctus"/> filius <pc ana="#punctuselevatus"/> accipere a patre quem habet 
-  					<!-- drops --> cum omni creaturae</p>
-  			</div>
-  			<div xml:id="wdr-l1d29q3" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3590">Liber I, Distinctio 29, Quaestio 3</head>
-  				<head xml:id="wdrl1d29-Hd1e3593" type="question-title">De quo dicatur per prius</head>
-  				<p xml:id="wdrl1d29-d1e3596"><lb ed="#P"/><pc ana="#pilcrow"/>De quo dicatur 
-  					<lb ed="#P"/>per prius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> de principio est loqui dupliciter vel secundum id quod est 
-  					<lb ed="#P"/>principium et sic per prius secundum intellectum dicitur idem creaturarum <pc ana="#punctus"/> sicut 
-  					<lb ed="#P"/>secundum modum intelligendi prior est essentia quam personam vel secundum or<lb ed="#P"/>dinem 
-  					ad id cuius est principium sic econverso <pc ana="#punctus"/> quia processio personarum 
-  					<lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> est ratio et causa processionis creaturarum <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d29q4" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3628">Liber I, Distinctio 29, Quaestio 4</head>
-  				<head xml:id="wdrl1d29-Hd1e3631" type="question-title">Utrum dicatur per prius secundum quod dicitur respectu filii vel respectu spiritus sancti</head>
-  				<p xml:id="wdrl1d29-d1e3634"><lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur per prius secundum quod dicitur respectu filli <pc ana="#punctus"/> 
-  					<lb ed="#P"/>vel respectu spiritus sancti <pc ana="#punctus"/> Responsio quantum ad rationem originis communem 
-  					<lb ed="#P"/>sic aequaliter <pc ana="#punctus"/> quantum ad rationem specialem <pc ana="#punctus"/> sic secundum modum intelli<lb ed="#P"/>gendi 
-  					solum <pc ana="#punctus"/> proprius respectu filii <pc ana="#punctus"/> qui procedit per modum 
-  					<lb ed="#P"/>naturae <pc ana="#punctus"/> et ab uno <pc ana="#punctus"/> spiritus sanctus ab duobus <pc ana="#punctus"/> sed unum est prius dicit 
-  					<lb ed="#P"/>duobus <!-- in itial drop which is then deleted and replaced with the first word of this line  --> <del rend="strikethrough">duobus</del></p>
-  			</div>
-  			<div xml:id="wdr-l1d29q5" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3677">Liber I, Distinctio 29, Quaestio 5</head>
-  				<head xml:id="wdrl1d29-Hd1e3680" type="question-title">Utrum una notione pater et filius sint principium spiritus sancti</head>
-  				<p xml:id="wdrl1d29-d1e3683"><cb ed="#P" n="35vb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum una notione <pc ana="#punctus"/> pater et filius sint 
-  					<lb ed="#P"/>principium spiritus sancti Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> in littera <pc ana="#punctus"/> quia in divinis 
-  					<lb ed="#P"/>non est <unclear>multipl??o</unclear> <unclear>materialis</unclear> et in <unclear>sopposita</unclear> <pc ana="#virgula"/> sunt unius essentiae 
-  					<lb ed="#P"/>nec ista etiam potest esse formalis <pc ana="#punctus"/> quia eiusdem rationis est utrumque</p>
-  			</div>
-  			<div xml:id="wdr-l1d29q6" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3721">Liber I, Distinctio 29, Quaestio 6</head>
-  				<head xml:id="wdrl1d29-Hd1e3724" type="question-title">Utrum una notione pater et filius sint principium spiritus sancti</head>
-  				<p xml:id="wdrl1d29-d1e3727"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sunt unum principium spiritus sancti Respondeo sic 
-  					<lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> Sed quam unitate <pc ana="#punctus"/> diversae sunt opi<lb ed="#P"/>niones 
-  					<pc ana="#punctus"/> Quidam dixerunt quod intrinsece proporitionis seu 
-  					<lb ed="#P"/>habitudinis ad spiritum sanctum <pc ana="#punctus"/> quidam quod unitate naturae <pc ana="#punctus"/> <name ref="#Anselm">anslemus</name> 
-  					<lb ed="#P"/>eo quod unus deus sunt <pc ana="#punctus"/> spirant <pc ana="#punctus"/> spiritus sanctus quidam quod uni<lb ed="#P"/>tate 
-  					notionis <pc ana="#punctus"/> Sed melius dicendum est coniungendo haec duo 
-  					<lb ed="#P"/>sic quod sunt unum unitate <unclear>spirativae</unclear> potentiae in qua 
-  					<lb ed="#P"/>utraque unitas importatur unde sensus est <pc ana="#punctus"/> Sunt unum 
-  					<lb ed="#P"/>principium spiritus sancti id est unus deus <pc ana="#virgula"/> uniformiter spi<!-- drops -->rans spiritum sanctum</p>
-  			</div>
-  			<div xml:id="wdr-l1d29q7" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3785">Liber I, Distinctio 29, Quaestio 7</head>
-  				<head xml:id="wdrl1d29-Hd1e3788" type="question-title">utrum possent dici idem principium spiritus sancti</head>
-  				<p xml:id="wdrl1d29-d1e3791"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possent dici 
-  					<lb ed="#P"/>idem principium spiritus sancti <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia hic <unclear>pro nomen</unclear> idem 
-  					<lb ed="#P"/>refert idem suppositum non tantum eandem formam supposita</p>
-  			</div>
-  			<div xml:id="wdr-l1d29q8" type="quaestio">
-  				<head xml:id="wdrl1d29-Hd1e3813">Liber I, Distinctio 29, Quaestio 8</head>
-  				<head xml:id="wdrl1d29-Hd1e3816" type="question-title">Quid significet principium cum dicitur principium de principio</head>
-  				<p xml:id="wdrl1d29-d1e3819"><lb ed="#P"/><pc ana="#pilcrow"/>Quid significet principium cum dicitur principium de 
-  					<lb ed="#P"/>principio <pc ana="#punctus"/> Responsio secundum significationem accipitur communiter ad substantia <pc ana="#punctus"/> et no<lb ed="#P"/>tionem 
-  					<pc ana="#punctus"/> secundum suppositionem nec personaliter et hic aut pro persona filii <pc ana="#punctus"/> aut 
-  					<lb ed="#P"/>spiritus sancti in recto <pc ana="#punctus"/> aut pro persona patris aut filii in ob<!-- drops -->liquo</p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d29">
+        <head xml:id="wdrl1d29-Hd1e3503">Liber I, Distinctio 29 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d29q1" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3508">Liber I, Distinctio 29, Quaestio 1</head>
+          <head xml:id="wdrl1d29-Hd1e3511" type="question-title">Utrum una persona sit principium alterius</head>
+          <p xml:id="wdrl1d29-d1e3514">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Queritur utrum 
+            <lb ed="#P"/>una persona sit principium alterius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundudm <name ref="#Augustine">augustinum</name> 
+            <lb ed="#P"/>in littera <pc ana="#punctus"/> quia una oritur ab <subst><del rend="strikethrough">alia</del> <add place="inLine">altera</add></subst> <pc ana="#punctus"/> Non tamen potest 
+            <lb ed="#P"/>una dici causa alterius <pc ana="#punctus"/> quia causa dicit ordinem essentialiter differen<lb ed="#P" break="no"/>tium 
+            non autem principium
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q2" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3554">Liber I, Distinctio 29, Quaestio 2</head>
+          <head xml:id="wdrl1d29-Hd1e3557" type="question-title">Utrum dicatur univoce principium respectu personae et idem respectu creaturae</head>
+          <p xml:id="wdrl1d29-d1e3560">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur univoce principium respectu personae et idem 
+            <lb ed="#P"/>respectu creaturae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non nec etiam aequivoce pure <pc ana="#punctus"/> sed ana<lb ed="#P" break="no"/>logice 
+            <pc ana="#punctus"/> <name ref="#BasilOfCasarea">Basilius</name> <pc ana="#punctus"/> filius <pc ana="#punctuselevatus"/> accipere a patre quem habet 
+            <!-- drops --> cum omni creaturae
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q3" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3590">Liber I, Distinctio 29, Quaestio 3</head>
+          <head xml:id="wdrl1d29-Hd1e3593" type="question-title">De quo dicatur per prius</head>
+          <p xml:id="wdrl1d29-d1e3596">
+            <lb ed="#P"/><pc ana="#pilcrow"/>De quo dicatur 
+            <lb ed="#P"/>per prius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> de principio est loqui dupliciter vel secundum id quod est 
+            <lb ed="#P"/>principium et sic per prius secundum intellectum dicitur idem creaturarum <pc ana="#punctus"/> sicut 
+            <lb ed="#P"/>secundum modum intelligendi prior est essentia quam personam vel secundum or<lb ed="#P" break="no"/>dinem 
+            ad id cuius est principium sic econverso <pc ana="#punctus"/> quia processio personarum 
+            <lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> est ratio et causa processionis creaturarum <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q4" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3628">Liber I, Distinctio 29, Quaestio 4</head>
+          <head xml:id="wdrl1d29-Hd1e3631" type="question-title">Utrum dicatur per prius secundum quod dicitur respectu filii vel respectu spiritus sancti</head>
+          <p xml:id="wdrl1d29-d1e3634">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur per prius secundum quod dicitur respectu filli <pc ana="#punctus"/> 
+            <lb ed="#P"/>vel respectu spiritus sancti <pc ana="#punctus"/> Responsio quantum ad rationem originis communem 
+            <lb ed="#P"/>sic aequaliter <pc ana="#punctus"/> quantum ad rationem specialem <pc ana="#punctus"/> sic secundum modum intelli<lb ed="#P" break="no"/>gendi 
+            solum <pc ana="#punctus"/> proprius respectu filii <pc ana="#punctus"/> qui procedit per modum 
+            <lb ed="#P"/>naturae <pc ana="#punctus"/> et ab uno <pc ana="#punctus"/> spiritus sanctus ab duobus <pc ana="#punctus"/> sed unum est prius dicit 
+            <lb ed="#P"/>duobus <!-- in itial drop which is then deleted and replaced with the first word of this line  --> <del rend="strikethrough">duobus</del>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q5" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3677">Liber I, Distinctio 29, Quaestio 5</head>
+          <head xml:id="wdrl1d29-Hd1e3680" type="question-title">Utrum una notione pater et filius sint principium spiritus sancti</head>
+          <p xml:id="wdrl1d29-d1e3683">
+            <cb ed="#P" n="b"/><!-- 35vb -->
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum una notione <pc ana="#punctus"/> pater et filius sint 
+            <lb ed="#P"/>principium spiritus sancti Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> in littera <pc ana="#punctus"/> quia in divinis 
+            <lb ed="#P"/>non est <unclear>multipl??o</unclear> <unclear>materialis</unclear> et in <unclear>sopposita</unclear> <pc ana="#virgula"/> sunt unius essentiae 
+            <lb ed="#P"/>nec ista etiam potest esse formalis <pc ana="#punctus"/> quia eiusdem rationis est utrumque
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q6" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3721">Liber I, Distinctio 29, Quaestio 6</head>
+          <head xml:id="wdrl1d29-Hd1e3724" type="question-title">Utrum una notione pater et filius sint principium spiritus sancti</head>
+          <p xml:id="wdrl1d29-d1e3727">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sunt unum principium spiritus sancti Respondeo sic 
+            <lb ed="#P"/>secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> Sed quam unitate <pc ana="#punctus"/> diversae sunt opi<lb ed="#P" break="no"/>niones 
+            <pc ana="#punctus"/> Quidam dixerunt quod intrinsece proporitionis seu 
+            <lb ed="#P"/>habitudinis ad spiritum sanctum <pc ana="#punctus"/> quidam quod unitate naturae <pc ana="#punctus"/> <name ref="#Anselm">anslemus</name> 
+            <lb ed="#P"/>eo quod unus deus sunt <pc ana="#punctus"/> spirant <pc ana="#punctus"/> spiritus sanctus quidam quod uni<lb ed="#P" break="no"/>tate 
+            notionis <pc ana="#punctus"/> Sed melius dicendum est coniungendo haec duo 
+            <lb ed="#P"/>sic quod sunt unum unitate <unclear>spirativae</unclear> potentiae in qua 
+            <lb ed="#P"/>utraque unitas importatur unde sensus est <pc ana="#punctus"/> Sunt unum 
+            <lb ed="#P"/>principium spiritus sancti id est unus deus <pc ana="#virgula"/> uniformiter spi<!-- drops -->rans spiritum sanctum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q7" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3785">Liber I, Distinctio 29, Quaestio 7</head>
+          <head xml:id="wdrl1d29-Hd1e3788" type="question-title">utrum possent dici idem principium spiritus sancti</head>
+          <p xml:id="wdrl1d29-d1e3791">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possent dici 
+            <lb ed="#P"/>idem principium spiritus sancti <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia hic <unclear>pro nomen</unclear> idem 
+            <lb ed="#P"/>refert idem suppositum non tantum eandem formam supposita
+          </p>
+        </div>
+        <div xml:id="wdr-l1d29q8" type="quaestio">
+          <head xml:id="wdrl1d29-Hd1e3813">Liber I, Distinctio 29, Quaestio 8</head>
+          <head xml:id="wdrl1d29-Hd1e3816" type="question-title">Quid significet principium cum dicitur principium de principio</head>
+          <p xml:id="wdrl1d29-d1e3819">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quid significet principium cum dicitur principium de 
+            <lb ed="#P"/>principio <pc ana="#punctus"/> Responsio secundum significationem accipitur communiter ad substantia <pc ana="#punctus"/> et no<lb ed="#P" break="no"/>tionem 
+            <pc ana="#punctus"/> secundum suppositionem nec personaliter et hic aut pro persona filii <pc ana="#punctus"/> aut 
+            <lb ed="#P"/>spiritus sancti in recto <pc ana="#punctus"/> aut pro persona patris aut filii in ob<!-- drops -->liquo
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

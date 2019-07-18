@@ -85,14 +85,15 @@
           <head type="question-title">Utrum concedendum sit quod deus genuit deum</head>
           <p xml:id="wdrl1d4-ucsfip">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum concedendum sit quod deus genuit deum <g ref="#dot"/> 
-            <lb ed="#P"/>Responsio in littera <g ref="#dot"/> quod sic <g ref="#dot"/> et in symbolo <g ref="#dot"/> quia iste terminus <mentioned>deus</mentioned> si<lb ed="#P"/>gnificat 
+            <lb ed="#P"/>Responsio in littera <g ref="#dot"/> quod sic <g ref="#dot"/> et in symbolo <g ref="#dot"/> quia iste terminus <mentioned>deus</mentioned> si<lb ed="#P" break="no"/>gnificat 
             naturam in supposito <g ref="#dot"/> et per verbum notionale <mentioned>genuit</mentioned> 
             <lb ed="#P"/>restringitur ad standum pro persona patris in subiecto et pro persona <!-- drops to next line -->filii in praedicato
           </p>
         </div>
         <div xml:id="wdr-l1d4q3" type="quaestio">
           <head type="question-title">Utrum concedendum sit quod genuerit se deum</head>
-          <p xml:id="wdrl1d4-ucsdid"><lb ed="#P"/><g ref="#pilcrow"/>Utrum concedendum sit quod 
+          <p xml:id="wdrl1d4-ucsdid">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum concedendum sit quod 
             <lb ed="#P"/>genuerit se deum vel alium deum <g ref="#dot"/> Responsio in littera <g ref="#dot"/> quod 
             <lb ed="#P"/>utraque neganda <g ref="#dot"/> quia se <unclear>reciprocum</unclear> est et ideo refert idem 
             <lb ed="#P"/>suppositum <g ref="#dot"/> alius autem relatum diversitatis substantiae est <g ref="#slash"/> in generali <g ref="#dot"/> 
@@ -100,17 +101,19 @@
         </div>
         <div xml:id="wdr-l1d4q4" type="quaestio">
           <head type="question-title">Utrum genuerit deum qui est deus pater aut non</head>
-          <p xml:id="wdrl1d4-ugddil"><lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit deum qui est deus pater <g ref="#dot"/> aut non <g ref="#dot"/> 
+          <p xml:id="wdrl1d4-ugddil">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit deum qui est deus pater <g ref="#dot"/> aut non <g ref="#dot"/> 
             <lb ed="#P"/>Responsio cum dicitur qui est deus pater <g ref="#dot"/> aut est <choice><orig>appositam</orig><reg>oppositam</reg></choice> <unclear>constrictio</unclear> <g ref="#dot"/> 
             <lb ed="#P"/>et sic falsa <g ref="#dot"/> aut non <g ref="#slash"/> sed qui illius subintellectum tenetur <unclear>relatae</unclear> 
             <lb ed="#P"/>non <sic>implicatem</sic> sicut in priori sensu <g ref="#dot"/> et sic est vera <g ref="#dot"/> idem sensus differt <!-- drops to next line --> in littera</p>
         </div>
         <div xml:id="wdr-l1d4q5" type="quaestio">
           <head type="question-title">Utrum possit fieri praedicatio <unclear>affirmativa</unclear> in divinis</head>
-          <p xml:id="wdrl1d4-upfmit"><lb ed="#P"/><g ref="#pilcrow"/>utrum possit fieri praedicatio 
+          <p xml:id="wdrl1d4-upfmit">
+            <lb ed="#P"/><g ref="#pilcrow"/>utrum possit fieri praedicatio 
             <lb ed="#P"/><unclear>affirmativa</unclear> in divinis Responsio <corr><del rend="expunctuated">ndtea</del></corr> quaedam est praedicatio 
             <lb ed="#P"/>per <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> <g ref="#dot"/> ut cum praedicatur idem de <corr><del rend="expunctuated">esse</del> <add>se</add></corr> <g ref="#dot"/> vel distinctio eius 
-            <lb ed="#P"/>et haec est in divinis <g ref="#dot"/> quia non dicit compositionem realem <g ref="#dot"/> Item praedi<lb ed="#P"/>catio 
+            <lb ed="#P"/>et haec est in divinis <g ref="#dot"/> quia non dicit compositionem realem <g ref="#dot"/> Item praedi<lb ed="#P" break="no"/>catio 
             per inhaerentiam quae dicit denominationem extrinsecam <g ref="#slash"/> 
             <lb ed="#P"/>etiam convenit divinis <g ref="#dot"/> ut <unclear>cum</unclear> dicitur creator <g ref="#dot"/> quia etiam non dicit compositionem 
             <lb ed="#P"/>in deo <g ref="#dot"/> sed praedicatio per inhaerentiam intrinsecam non convenit 
@@ -118,19 +121,22 @@
         </div>
         <div xml:id="wdr-l1d4q6" type="quaestio">
           <head type="question-title">An persona vere praedicetur de essentia</head>
-          <p xml:id="wdrl1d4-apveep"><lb ed="#P"/>an persona vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter omnimo<lb ed="#P"/>dam 
+          <p xml:id="wdrl1d4-apveep">
+            <lb ed="#P"/>an persona vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter omnimo<lb ed="#P" break="no"/>dam 
             <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae et personae</p>
         </div>
         <div xml:id="wdr-l1d4q7" type="quaestio">
           <head type="question-title">Utrum trinitas vere praedicetur de essentia</head>
-          <p xml:id="wdrl1d4-utvail"><lb ed="#P"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio 
+          <p xml:id="wdrl1d4-utvail">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio 
             <pb ed="#P" n="26-r"/>
             <cb ed="#P" n="a"/>
             <lb ed="#P"/>sic <g ref="#dot"/> propter omnimodam <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trini<!-- drops to next line -->tatem <g ref="#dot"/> idem <name ref="#Augustine">augustinus</name> in littera</p>
         </div>
         <div xml:id="wdr-l1d4q8" type="quaestio">
           <head type="question-title">Pro quo supponat iste terminus deus</head>
-          <p xml:id="wdrl1d4-pqshvv"><lb ed="#P"/><g ref="#pilcrow"/>Pro quo supponat 
+          <p xml:id="wdrl1d4-pqshvv">
+            <lb ed="#P"/><g ref="#pilcrow"/>Pro quo supponat 
             <lb ed="#P"/>iste terminus <mentioned>deus</mentioned> Responsio quidam dixerunt <g ref="#dot"/> quod cum sit terminus communis <g ref="#slash"/> 
             <lb ed="#P"/>concretus significans essentiam communem pluribus suppositis <g ref="#dot"/> quod 
             <lb ed="#P"/>supponit naturaliter pro supposito <unclear>naturae</unclear> illius <g ref="#dot"/> sed accidentaliter 
@@ -139,7 +145,7 @@
             <lb ed="#P"/>in suppositis et ipse habet naturam termini discreti accidentaliter 
             <lb ed="#P"/>tamen pro persona <g ref="#slash"/> propter <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> ipsorum alii dicunt <g ref="#dot"/> quod habet 
             <lb ed="#P"/>naturam termini discreti ex parte naturae significatae <g ref="#dot"/> sed naturam termini communis ex 
-            <lb ed="#P"/>parte suppositorum <g ref="#dot"/> et indifferenter pro utroque potest suppo<lb ed="#P"/>nere 
+            <lb ed="#P"/>parte suppositorum <g ref="#dot"/> et indifferenter pro utroque potest suppo<lb ed="#P" break="no"/>nere 
             <unclear>principaliter</unclear> tamen pro natura et hoc videtur verius</p>
         </div>
         <div xml:id="wdr-l1d4q9" type="quaestio">

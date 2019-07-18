@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-05-02">May 02, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,101 +24,115 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="39-r"/>
+        <cb ed="#P" n="a"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="39ra"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d38">
-  			<head xml:id="wdrl1d38-Hd1e3503">Liber I, Distinctio 38 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d38q1" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3508">Liber I, Distinctio 38, Quaestio 1</head>
-  				<head xml:id="wdrl1d38-Hd1e3511" type="question-title">Utrum scientia dei sit causa rerum </head>
-  				<p xml:id="wdrl1d38-d1e3514"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum scientia dei sit causa rerum Respondeo <pc ana="#punctus"/> in littera <pc ana="#punctus"/> 
-  					<lb ed="#P"/>sic <pc ana="#punctus"/> scientia scilicet practica <pc ana="#punctus"/> quae <choice><orig>inportat</orig><reg>importat</reg></choice> etiam beneplacitum <pc ana="#punctus"/> in 
-  					<lb ed="#P"/>littera <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> ideo res futurae sunt <pc ana="#virgula"/> quia deus eas novit <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et quo ad scientiam est causa exemplaris <pc ana="#punctus"/> quoad beneplacitum est 
-  					<lb ed="#P"/>efficiens simplex autem notitia <pc ana="#punctus"/> non est causa</p>
-  			</div>
-  			<div xml:id="wdr-l1d38q2" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3561">Liber I, Distinctio 38, Quaestio 2</head>
-  				<head xml:id="wdrl1d38-Hd1e3564" type="question-title">utrum praescientia dei si causata a rebus</head>
-  				<p xml:id="wdrl1d38-d1e3567"><lb ed="#P"/><pc ana="#pilcrow"/>utrum praescientia dei sit causata a rebus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Res non 
-  					<lb ed="#P"/>snt causa essendi <pc ana="#punctus"/> praescientiae dei <pc ana="#punctus"/> nisi forte ut dicit <name ref="#Lombard">magister</name> in littera 
-  					<lb ed="#P"/>sine qua non <pc ana="#punctus"/> <del rend="strikethrough">intellige</del> et hoc intellige ex parte scibilitatis 
-  					<lb ed="#P"/>rerurm <pc ana="#punctus"/> non scientis <pc ana="#punctus"/> sunt tamen causa nominandi quia praescientia 
-  					<lb ed="#P"/>nominantur <pc ana="#virgula"/> ex ordine ad res futuras</p>
-  			</div>
-  			<div xml:id="wdr-l1d38q3" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3607">Liber I, Distinctio 38, Quaestio 3</head>
-  				<head xml:id="wdrl1d38-Hd1e3610" type="question-title">utrum scientia dei sit on solum rerum sed etiam enunciabilium</head>
-  				<p xml:id="wdrl1d38-d1e3613"><lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia dei sit <pc ana="#punctus"/> non solum rerum sed etiam enunciabi<lb ed="#P"/>lium 
-  					<pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> sed tamen modo simplici non complexo <pc ana="#punctus"/> Ipse non 
-  					<lb ed="#P"/>per ideae est <choice><orig>ydea</orig><reg>idea</reg></choice> et quantitas rerum et esse earum <pc ana="#punctus"/> cuius ap<lb ed="#P"/>praehensio 
-  					pertinet ad intellectum componentem</p>
-  			</div>
-  			<div xml:id="wdr-l1d38q4" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3646">Liber I, Distinctio 38, Quaestio 4</head>
-  				<head xml:id="wdrl1d38-Hd1e3649" type="question-title">utrum uniformis sit scientia dei de omnibus</head>
-  				<p xml:id="wdrl1d38-d1e3652"><lb ed="#P"/><pc ana="#pilcrow"/>utrum uniformis sit scientia dei de omnibus <pc ana="#punctus"/> Respondeo 
-  					<lb ed="#P"/>sic <pc ana="#punctus"/> a parte scientis scilicet quamvis diversi <unclear>sunt</unclear> modi 
-  					<!-- drops --> scitorum</p>
-  			</div>
-  			<div xml:id="wdr-l1d38q5" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3672">Liber I, Distinctio 38, Quaestio 5</head>
-  				<head xml:id="wdrl1d38-Hd1e3675" type="question-title">Utrum scientia Dei imponat rebus necessitatem infallibilem</head>
-  				<p xml:id="wdrl1d38-d1e3678"><lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia dei imponat rebus 
-  					<lb ed="#P"/><choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> infallibilem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Boethius">boetium</name> libro <title ref="#Consolation">de consolatione</title> duplex 
-  					<lb ed="#P"/>est <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> <pc ana="#punctus"/> absoluta et condionata <pc ana="#punctus"/> ut si aliquem 
-  					<lb ed="#P"/>scio ambulare <pc ana="#punctus"/> ipsum ambulare <choice><orig>neccesse</orig><reg>necesse</reg></choice> est <pc ana="#punctus"/> primam <pc ana="#punctus"/> vocat 
-  					<lb ed="#P"/><name ref="#Anselm">anselmus</name> <pc ana="#punctus"/> antecedentem <pc ana="#punctus"/> secunda consequentem <pc ana="#punctus"/> primam vocant doc<lb ed="#P"/>tores 
-  					<choice><orig>neccessitatem</orig><reg>necessitate</reg></choice> consequentiae <pc ana="#punctus"/> primo modo non omnia 
-  					<lb ed="#P"/>praescita habent <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> <pc ana="#punctus"/> secundo modo habent <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d38q6" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3764">Liber I, Distinctio 38, Quaestio 6</head>
-  				<head xml:id="wdrl1d38-Hd1e3767" type="question-title">Utrum sit necessariorum tantum vel etiam contingentium</head>
-  				<p xml:id="wdrl1d38-d1e3770"><lb ed="#P"/><pc ana="#pilcrow"/>utrum sit <choice><orig>neccessariorum</orig><reg>necessariorum</reg></choice> tantum vel etiam contingentium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
-  					<lb ed="#P"/>etiam contingentium est quae scilicet in natura sua contingentia sunt <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et scit ea contingentia esse <pc ana="#punctus"/> <choice><orig>Nichilominus</orig><reg>Nihilominus</reg></choice> <sic><choice><orig>Nichilominus</orig><reg>Nihilominus</reg></choice></sic> tamen scientia 
-  					<lb ed="#P"/>qua hic scit <pc ana="#punctus"/> immutabilis est ex parte dei <pc ana="#punctus"/> unde dicit <ref><name ref="#Boethius">boetius</name> 
-  						<lb ed="#P"/><title>consolatio</title></ref> quod futura contingentia <pc ana="#punctus"/> ad intuitum relata <pc ana="#punctus"/> 
-  					<lb ed="#P"/>divinum <pc ana="#punctus"/> <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> sunt <pc ana="#punctus"/> quia ei praesentia <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d38q7" type="quaestio">
-  				<head xml:id="wdrl1d38-Hd1e3843">Liber I, Distinctio 38, Quaestio 7</head>
-  				<head xml:id="wdrl1d38-Hd1e3846" type="question-title">utrum scientia vel praescientia die habeat esse necessariam</head>
-  				<p xml:id="wdrl1d38-d1e3849"><cb ed="#P" n="39rb"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia vel praescientia dei <pc ana="#punctus"/> habeat esse <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex 
-  					<lb ed="#P"/>est opinio <pc ana="#punctus"/> quidam enim dicunt quod non <pc ana="#punctus"/> quia cum dicitur deus praescit <pc ana="#punctus"/> vel 
-  					<lb ed="#P"/>praescivit aliquod contingens duo <choice><orig>inportantur</orig><reg>importantur</reg></choice> scilicet actus aeternus <pc ana="#punctus"/> 
-  					<lb ed="#P"/>et obiectum futurum <pc ana="#punctus"/> quod est contingens <pc ana="#punctus"/> et ideo <unclear>tot</unclear> iudicandum est 
-  					<lb ed="#P"/>contingens <pc ana="#punctus"/> exemplum de parte totius copulati <pc ana="#punctus"/> falsa haec autem 
-  					<lb ed="#P"/>contingentia non est in deo <pc ana="#punctus"/> sed in re <pc ana="#punctus"/> respectu cuius dicitur praescientia <pc ana="#punctus"/> alii <unclear>vero</unclear> 
-  					<lb ed="#P"/>nullo modo concedunt <pc ana="#punctus"/> quod scire <del rend="strikethrough">scit</del> sit contingens <pc ana="#punctus"/> vel ex parte 
-  					<lb ed="#P"/>scientis <pc ana="#punctus"/> vel scibilis <pc ana="#punctus"/> quamvis enim in se sit contingens <pc ana="#punctus"/> non 
-  					<!-- drops --> respectu scientiae dei <ref>substantia quaestione 6</ref></p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d38">
+        <head xml:id="wdrl1d38-Hd1e3503">Liber I, Distinctio 38 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d38q1" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3508">Liber I, Distinctio 38, Quaestio 1</head>
+          <head xml:id="wdrl1d38-Hd1e3511" type="question-title">Utrum scientia dei sit causa rerum </head>
+          <p xml:id="wdrl1d38-d1e3514">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur utrum scientia dei sit causa rerum Respondeo <pc ana="#punctus"/> in littera <pc ana="#punctus"/> 
+            <lb ed="#P"/>sic <pc ana="#punctus"/> scientia scilicet practica <pc ana="#punctus"/> quae <choice><orig>inportat</orig><reg>importat</reg></choice> etiam beneplacitum <pc ana="#punctus"/> in 
+            <lb ed="#P"/>littera <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> ideo res futurae sunt <pc ana="#virgula"/> quia deus eas novit <pc ana="#punctus"/> 
+            <lb ed="#P"/>et quo ad scientiam est causa exemplaris <pc ana="#punctus"/> quoad beneplacitum est 
+            <lb ed="#P"/>efficiens simplex autem notitia <pc ana="#punctus"/> non est causa
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q2" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3561">Liber I, Distinctio 38, Quaestio 2</head>
+          <head xml:id="wdrl1d38-Hd1e3564" type="question-title">utrum praescientia dei si causata a rebus</head>
+          <p xml:id="wdrl1d38-d1e3567">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum praescientia dei sit causata a rebus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Res non 
+            <lb ed="#P"/>snt causa essendi <pc ana="#punctus"/> praescientiae dei <pc ana="#punctus"/> nisi forte ut dicit <name ref="#Lombard">magister</name> in littera 
+            <lb ed="#P"/>sine qua non <pc ana="#punctus"/> <del rend="strikethrough">intellige</del> et hoc intellige ex parte scibilitatis 
+            <lb ed="#P"/>rerurm <pc ana="#punctus"/> non scientis <pc ana="#punctus"/> sunt tamen causa nominandi quia praescientia 
+            <lb ed="#P"/>nominantur <pc ana="#virgula"/> ex ordine ad res futuras
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q3" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3607">Liber I, Distinctio 38, Quaestio 3</head>
+          <head xml:id="wdrl1d38-Hd1e3610" type="question-title">utrum scientia dei sit on solum rerum sed etiam enunciabilium</head>
+          <p xml:id="wdrl1d38-d1e3613">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia dei sit <pc ana="#punctus"/> non solum rerum sed etiam enunciabi<lb ed="#P" break="no"/>lium 
+            <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> sed tamen modo simplici non complexo <pc ana="#punctus"/> Ipse non 
+            <lb ed="#P"/>per ideae est <choice><orig>ydea</orig><reg>idea</reg></choice> et quantitas rerum et esse earum <pc ana="#punctus"/> cuius ap<lb ed="#P" break="no"/>praehensio 
+            pertinet ad intellectum componentem
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q4" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3646">Liber I, Distinctio 38, Quaestio 4</head>
+          <head xml:id="wdrl1d38-Hd1e3649" type="question-title">utrum uniformis sit scientia dei de omnibus</head>
+          <p xml:id="wdrl1d38-d1e3652">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum uniformis sit scientia dei de omnibus <pc ana="#punctus"/> Respondeo 
+            <lb ed="#P"/>sic <pc ana="#punctus"/> a parte scientis scilicet quamvis diversi <unclear>sunt</unclear> modi 
+            <!-- drops --> scitorum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q5" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3672">Liber I, Distinctio 38, Quaestio 5</head>
+          <head xml:id="wdrl1d38-Hd1e3675" type="question-title">Utrum scientia Dei imponat rebus necessitatem infallibilem</head>
+          <p xml:id="wdrl1d38-d1e3678">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia dei imponat rebus 
+            <lb ed="#P"/><choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> infallibilem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Boethius">boetium</name> libro <title ref="#Consolation">de consolatione</title> duplex 
+            <lb ed="#P"/>est <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> <pc ana="#punctus"/> absoluta et condionata <pc ana="#punctus"/> ut si aliquem 
+            <lb ed="#P"/>scio ambulare <pc ana="#punctus"/> ipsum ambulare <choice><orig>neccesse</orig><reg>necesse</reg></choice> est <pc ana="#punctus"/> primam <pc ana="#punctus"/> vocat 
+            <lb ed="#P"/><name ref="#Anselm">anselmus</name> <pc ana="#punctus"/> antecedentem <pc ana="#punctus"/> secunda consequentem <pc ana="#punctus"/> primam vocant doc<lb ed="#P" break="no"/>tores 
+            <choice><orig>neccessitatem</orig><reg>necessitate</reg></choice> consequentiae <pc ana="#punctus"/> primo modo non omnia 
+            <lb ed="#P"/>praescita habent <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> <pc ana="#punctus"/> secundo modo habent <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q6" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3764">Liber I, Distinctio 38, Quaestio 6</head>
+          <head xml:id="wdrl1d38-Hd1e3767" type="question-title">Utrum sit necessariorum tantum vel etiam contingentium</head>
+          <p xml:id="wdrl1d38-d1e3770">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit <choice><orig>neccessariorum</orig><reg>necessariorum</reg></choice> tantum vel etiam contingentium <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> 
+            <lb ed="#P"/>etiam contingentium est quae scilicet in natura sua contingentia sunt <pc ana="#punctus"/> 
+            <lb ed="#P"/>et scit ea contingentia esse <pc ana="#punctus"/> <choice><orig>Nichilominus</orig><reg>Nihilominus</reg></choice> <sic><choice><orig>Nichilominus</orig><reg>Nihilominus</reg></choice></sic> tamen scientia 
+            <lb ed="#P"/>qua hic scit <pc ana="#punctus"/> immutabilis est ex parte dei <pc ana="#punctus"/> unde dicit <ref><name ref="#Boethius">boetius</name> 
+            <lb ed="#P"/><title>consolatio</title></ref> quod futura contingentia <pc ana="#punctus"/> ad intuitum relata <pc ana="#punctus"/> 
+            <lb ed="#P"/>divinum <pc ana="#punctus"/> <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> sunt <pc ana="#punctus"/> quia ei praesentia <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d38q7" type="quaestio">
+          <head xml:id="wdrl1d38-Hd1e3843">Liber I, Distinctio 38, Quaestio 7</head>
+          <head xml:id="wdrl1d38-Hd1e3846" type="question-title">utrum scientia vel praescientia die habeat esse necessariam</head>
+          <p xml:id="wdrl1d38-d1e3849">
+            <cb ed="#P" n="b"/> <!-- 39rb -->
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia vel praescientia dei <pc ana="#punctus"/> habeat esse <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex 
+            <lb ed="#P"/>est opinio <pc ana="#punctus"/> quidam enim dicunt quod non <pc ana="#punctus"/> quia cum dicitur deus praescit <pc ana="#punctus"/> vel 
+            <lb ed="#P"/>praescivit aliquod contingens duo <choice><orig>inportantur</orig><reg>importantur</reg></choice> scilicet actus aeternus <pc ana="#punctus"/> 
+            <lb ed="#P"/>et obiectum futurum <pc ana="#punctus"/> quod est contingens <pc ana="#punctus"/> et ideo <unclear>tot</unclear> iudicandum est 
+            <lb ed="#P"/>contingens <pc ana="#punctus"/> exemplum de parte totius copulati <pc ana="#punctus"/> falsa haec autem 
+            <lb ed="#P"/>contingentia non est in deo <pc ana="#punctus"/> sed in re <pc ana="#punctus"/> respectu cuius dicitur praescientia <pc ana="#punctus"/> alii <unclear>vero</unclear> 
+            <lb ed="#P"/>nullo modo concedunt <pc ana="#punctus"/> quod scire <del rend="strikethrough">scit</del> sit contingens <pc ana="#punctus"/> vel ex parte 
+            <lb ed="#P"/>scientis <pc ana="#punctus"/> vel scibilis <pc ana="#punctus"/> quamvis enim in se sit contingens <pc ana="#punctus"/> non 
+            <!-- drops --> respectu scientiae dei <ref>substantia quaestione 6</ref>
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>
