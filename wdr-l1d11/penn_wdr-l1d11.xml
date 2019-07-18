@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,34 +7,35 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber I, Distinctio 11 [Pen Transcription]</title>
           <date when="2016-04-11">April 11, 2016</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-04-11">April 11, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-        	<witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
+          <witness xml:id="P" n="penn">Philadelphia, University of Pennsylvania, ms. codex 686</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -45,59 +43,68 @@
   
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-      	<cb ed="#P" n="28rb"/>
+        <pb ed="#P" n="28-r"/>
+        <cb ed="#P" n="b"/>
       </div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d11">
-  			<head xml:id="wdrl1d11-Hd1e3503">Liber I, Distinctio 11 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d11q1" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3508" type="question-title">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
-  				<p xml:id="wdrl1d11-d1e3511"><lb ed="#P"/>Queritur si spiritus sanctus 
-  					<lb ed="#P"/>procedat a patre et filio Responsio sic <pc ana="#punctus"/> alias si a fi<lb ed="#P"/>lio 
-  					non procederet <pc ana="#virgula"/> non distingueretur ab eo <pc ana="#punctus"/> quia inter eos 
-  					<lb ed="#P"/>non esset oppositio relationis <pc ana="#virgula"/> quae sola distinguit in divinis</p>
-  			</div>
-  			<div xml:id="wdr-l1d11q2" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3535" type="question-title">Utrum procedat ab eis secundum quod unum sunt</head>
-  				<p xml:id="wdrl1d11-d1e3538"><lb ed="#P"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt 
-  					<lb ed="#P"/>Responsio sic scilicet secundum quod unum sunt <unclear>communi</unclear> voluntate 
-  					<lb ed="#P"/>plures tamen pluralitate <pc ana="#punctus"/> unde <unclear>supposita</unclear> spirantia sunt plura <pc ana="#punctus"/> 
-  					<lb ed="#P"/>una tamen est forma sive principium quo spirant scilicet concors <!--drops line--> voluntas</p>
-  			</div>
-  			<div xml:id="wdr-l1d11q3" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3560" type="question-title">Utrum illa unitas sit essentia vel notionis</head>
-  				<p xml:id="wdrl1d11-d1e3563"><g ref="#pilcrow"/>Utrum illa unitas sit 
-  					<lb ed="#P"/>essentiae vel notionis <pc ana="#punctus"/> Responsio unitas est notionis communis 
-  					<lb ed="#P"/>duabus personis <pc ana="#punctus"/> quae tamen praesupponit unitatem essentiae 
-  					<lb ed="#P"/>diversi <unclear><choice><orig>ii</orig><reg>duo</reg></choice></unclear> actus <pc ana="#virgula"/> a diversis potentiis operantis 
-  					<lb ed="#P"/>secundum rationem egrediuntur <pc ana="#virgula"/> secundum quod diversa attribuunt deo 
-  					<lb ed="#P"/>ut scientia <pc ana="#punctus"/> <unclear>volubilis</unclear> etc <pc ana="#punctus"/> quamvis una sit essentia et similiter 
-  					<lb ed="#P"/>est de actibus notionalibus <pc ana="#punctus"/> vel unius vel duarum 
-  					<lb ed="#P"/>personarum <pc ana="#punctus"/> unde potentia spiratam <pc ana="#punctuselevatus"/> dicit essentiam <pc ana="#virgula"/> sub <sic>rationis</sic> notionis 
-  					<lb ed="#P"/>duarum personarum</p>
-  			</div>
-  			<div xml:id="wdr-l1d11q4" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3614" type="question-title">Utrum Pater et Filius debeant dici unus spirator vel plures</head>
-  				<p xml:id="wdrl1d11-d1e3617"><cb ed="#P" n="28va"/><lb ed="#P"/><pc ana="#pilcrow"/>utrum pater et filius debeant dici unus 
-  					<lb ed="#P"/>spirator vel plures Responsio plures debent dici quia ac<lb ed="#P"/>tus 
-  					numerantur secundum supposita <pc ana="#virgula"/> saltem secundum modum intelligendi 
-  					<!-- drops to next line --> substantia <ref>distinctione 9 quaestione 6 <!-- cross ref ? --></ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d11q5" type="quaestio">
-  				<head xml:id="wdrl1d11-Hd1e3637" type="question-title">Quid sit ipsa vis spirativa in eis</head>
-  				<p xml:id="wdrl1d11-d1e3640"><lb ed="#P"/><g ref="#pilcrow"/>Quid sit ipsa vis 
-  					<lb ed="#P"/>spiratam in eis Responsio Cum dico potentia spiratam <pc ana="#punctus"/> 
-  					<lb ed="#P"/>primum pertinet ad essentiam secundum ad notionem <pc ana="#punctus"/> unde dicit 
-  					<lb ed="#P"/>essentiale <pc ana="#virgula"/> tractum ad significationem <unclear>pluralem <!-- personalem --></unclear> duarum personarum 
-  					<!-- drops line --> substantia <ref>quaestione 3</ref></p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d11">
+        <head xml:id="wdrl1d11-Hd1e3503">Liber I, Distinctio 11 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d11q1" type="quaestio">
+          <head xml:id="wdrl1d11-Hd1e3508" type="question-title">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
+          <p xml:id="wdrl1d11-d1e3511">
+            <lb ed="#P" n="50"/>Queritur si spiritus sanctus 
+            <lb ed="#P"/>procedat a patre et filio Responsio sic <pc ana="#punctus"/> alias si a fi<lb ed="#P" break="no"/>lio 
+            non procederet <pc ana="#virgula"/> non distingueretur ab eo <pc ana="#punctus"/> quia inter eos 
+            <lb ed="#P"/>non esset oppositio relationis <pc ana="#virgula"/> quae sola distinguit in divinis
+          </p>
+        </div>
+        <div xml:id="wdr-l1d11q2" type="quaestio">
+          <head xml:id="wdrl1d11-Hd1e3535" type="question-title">Utrum procedat ab eis secundum quod unum sunt</head>
+          <p xml:id="wdrl1d11-d1e3538">
+            <lb ed="#P"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt 
+            <lb ed="#P"/>Responsio sic scilicet secundum quod unum sunt <unclear>communi</unclear> voluntate 
+            <lb ed="#P"/>plures tamen pluralitate <pc ana="#punctus"/> unde <unclear>supposita</unclear> spirantia sunt plura <pc ana="#punctus"/> 
+            <lb ed="#P"/>una tamen est forma sive principium quo spirant scilicet concors <!--drops line--> voluntas
+          </p>
+        </div>
+        <div xml:id="wdr-l1d11q3" type="quaestio">
+          <head xml:id="wdrl1d11-Hd1e3560" type="question-title">Utrum illa unitas sit essentia vel notionis</head>
+          <p xml:id="wdrl1d11-d1e3563">
+            <g ref="#pilcrow"/>Utrum illa unitas sit 
+            <lb ed="#P"/>essentiae vel notionis <pc ana="#punctus"/> Responsio unitas est notionis communis 
+            <lb ed="#P"/>duabus personis <pc ana="#punctus"/> quae tamen praesupponit unitatem essentiae 
+            <lb ed="#P"/>diversi <unclear><choice><orig>ii</orig><reg>duo</reg></choice></unclear> actus <pc ana="#virgula"/> a diversis potentiis operantis 
+            <lb ed="#P"/>secundum rationem egrediuntur <pc ana="#virgula"/> secundum quod diversa attribuunt deo 
+            <lb ed="#P"/>ut scientia <pc ana="#punctus"/> <unclear>volubilis</unclear> etc <pc ana="#punctus"/> quamvis una sit essentia et similiter 
+            <lb ed="#P"/>est de actibus notionalibus <pc ana="#punctus"/> vel unius vel duarum 
+            <lb ed="#P"/>personarum <pc ana="#punctus"/> unde potentia spiratam <pc ana="#punctuselevatus"/> dicit essentiam <pc ana="#virgula"/> sub <sic>rationis</sic> notionis 
+            <lb ed="#P"/>duarum personarum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d11q4" type="quaestio">
+          <head xml:id="wdrl1d11-Hd1e3614" type="question-title">Utrum Pater et Filius debeant dici unus spirator vel plures</head>
+          <p xml:id="wdrl1d11-d1e3617">
+            <pb ed="#P" n="28-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater et filius debeant dici unus 
+            <lb ed="#P"/>spirator vel plures Responsio plures debent dici quia ac<lb ed="#P" break="no"/>tus 
+            numerantur secundum supposita <pc ana="#virgula"/> saltem secundum modum intelligendi 
+            <!-- drops to next line --> substantia <ref>distinctione 9 quaestione 6 <!-- cross ref ? --></ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d11q5" type="quaestio">
+          <head xml:id="wdrl1d11-Hd1e3637" type="question-title">Quid sit ipsa vis spirativa in eis</head>
+          <p xml:id="wdrl1d11-d1e3640">
+            <lb ed="#P"/><g ref="#pilcrow"/>Quid sit ipsa vis 
+            <lb ed="#P"/>spiratam in eis Responsio Cum dico potentia spiratam <pc ana="#punctus"/> 
+            <lb ed="#P"/>primum pertinet ad essentiam secundum ad notionem <pc ana="#punctus"/> unde dicit 
+            <lb ed="#P"/>essentiale <pc ana="#virgula"/> tractum ad significationem <unclear>pluralem <!-- personalem --></unclear> duarum personarum 
+            <!-- drops line --> substantia <ref>quaestione 3</ref>
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>

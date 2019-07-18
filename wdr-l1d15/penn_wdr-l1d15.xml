@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,12 +13,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2016-04-14">April 14, 2016</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,15 +24,18 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2016-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -45,162 +43,190 @@
   
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="29-r"/>
+        <cb ed="#P" n="b"/>
       </div>
-    	<div xml:id="starts-on">
-    		<cb ed="#P" n="29rb"/>
-    	</div>
     </front>
-  	<body>
-  		<div xml:id="wdr-l1d15">
-  			<head xml:id="wdrl1d15-Hd1e3503">Liber I, Distinctio 15 [Penn Transcription]</head>
-  			<div xml:id="wdr-l1d15q1" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3508" type="question-title">Utrum missio sit in divinis</head>
-  				<p xml:id="wdrl1d15-d1e3511"><lb ed="#P"/><pc ana="#pilcrow"/>Quaeritur 
-  					<lb ed="#P"/>utrum missio sit in divinis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> Sic <pc ana="#punctus"/> ut patet 
-  					<lb ed="#P"/><del rend="strikethrough">inser</del> per sacramenta <unclear>sempiternam</unclear> est tamen ibi <unclear>transumptive</unclear> <pc ana="#punctus"/> 
-  					<lb ed="#P"/>In missione tamen propria sicut est in creaturis reperiuntur 
-  					<lb ed="#P"/>4 scilicet <unclear>mittentis</unclear> auctoritas <pc ana="#virgula"/>  separatio vel diversitas 
-  					<lb ed="#P"/>missi a mittente <pc ana="#punctus"/> loci mutatio mutio <pc ana="#punctus"/> et <unclear>effectus</unclear> 
-  					<lb ed="#P"/>aliquis illud respectu termini ad quem primum et ultimum conveniunt missi<lb ed="#P"/>one 
-  					divinae <pc ana="#punctus"/> quia sunt perfectionis <pc ana="#punctus"/> <pc ana="#virgula"/> autem non <pc ana="#punctus"/> quia sunt in 
-  					<!-- drops line --> perfectionis</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q2" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3575" type="question-title">Quid sit missio</head>
-  				<p xml:id="wdrl1d15-d1e3578"><lb ed="#P"/><pc ana="#pilcrow"/>Quid sit missio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
-  					<lb ed="#P"/><name ref="#Augustine">augustinum</name> vel <title ref="#CityOfGod">de civitate</title> et quasi idem in littera <pc ana="#punctus"/> <unclear>otcti</unclear> <pc ana="#virgula"/> est cognosci quid ab 
-  					<lb ed="#P"/>alio sit et est data per eam <pc ana="#punctus"/> non per essentiam <pc ana="#punctus"/> hic descriptio <pc ana="#punctus"/> 
-  					<lb ed="#P"/>quia per hoc quod aliqua persona manifestatur aliter in aliquo effectu 
-  					<lb ed="#P"/>sibi appropriato <pc ana="#virgula"/> detur ei mitti <pc ana="#punctus"/> et intelligere de cognitione non 
-  					<lb ed="#P"/>simplici <pc ana="#punctus"/> sed approbatam <pc ana="#punctus"/> vel experimentali</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q3" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3629" type="question-title">Quid significet nomen missionis; utrum sit nomen essentiale vel notionale</head>
-  				<p xml:id="wdrl1d15-d1e3632"><lb ed="#P"/><pc ana="#pilcrow"/>Quid significet nomen missionis <pc ana="#punctus"/> utrum 
-  					<lb ed="#P"/>sit nomen essentiale <pc ana="#punctus"/> vel notionale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nominum 
-  					<cb ed="#P" n="29va"/><lb ed="#P"/>quaedam sunt pure essentialia <pc ana="#punctus"/> ut <mentioned>deus</mentioned> <pc ana="#punctus"/> <mentioned>essentia</mentioned> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam 
-  					<lb ed="#P"/>pure personalia <pc ana="#punctus"/> ut <mentioned>pater</mentioned> <mentioned>filius</mentioned> et huiusmodi quaedam mixta <pc ana="#punctus"/> ex intellectu 
-  					<lb ed="#P"/>personali et essentiali <pc ana="#punctus"/> ut <mentioned>potentia generandi</mentioned> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> et tale est hic nomen 
-  					<lb ed="#P"/><mentioned>missio</mentioned> <pc ana="#punctus"/> et <mentioned>missus</mentioned> <pc ana="#punctus"/> et <mentioned>mittere</mentioned> <pc ana="#punctus"/> et <mentioned>mittere</mentioned> <pc ana="#punctus"/> et similia <pc ana="#punctus"/> quia <choice><orig>inportant</orig><reg>important</reg></choice> relationem 
-  					<lb ed="#P"/>personae missae ad principium a quo <pc ana="#punctus"/> qui est notionalis <pc ana="#punctus"/> <choice><orig>Inpor<lb ed="#P"/>tant</orig><reg>Impor<lb ed="#P"/>tant</reg></choice> 
-  					etiam relationem causae ad effectum connotatur in creatura 
-  					<lb ed="#P"/>qui est essentialis <pc ana="#virgula"/> Dicunt etiam quidam <pc ana="#punctus"/> quod primum <del rend="strikethrough">r</del> relationem importat per prius <pc ana="#punctus"/> 
-  					<lb ed="#P"/>quia <del rend="strikethrough">est</del> aeternis est <pc ana="#punctus"/> alii autem quod secundum per prius cum nomen 
-  					<lb ed="#P"/>ab effectum temporali <unclear>potus <choice><orig>inpositum</orig><reg>impositum</reg></choice></unclear> sit <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d15q4" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3774" type="question-title">Utrum spiritus sanctus mittatur a se ipso</head>
-  				<p xml:id="wdrl1d15-d1e3777"><lb ed="#P"/>Utrum spiritus sanctus mittatur a se ipso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> mis<lb ed="#P"/>sio 
-  					<choice><orig>inportat</orig><reg>importat</reg></choice> duo scilicet emanatio alicuius ab aliquo <pc ana="#punctus"/> <pc ana="#virgula"/> 
-  					<lb ed="#P"/>et emanationis in creatura per effectum manifestationem <pc ana="#punctus"/> <pc ana="#virgula"/> 
-  					<lb ed="#P"/>secundum hoc eum dicitur quis mitti a se <pc ana="#virgula"/> potest notari causalitas 
-  					<lb ed="#P"/>idem utriusque horum vel idem secundum tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum hoc 
-  					<lb ed="#P"/>sunt duae opiniones <pc ana="#virgula"/> <pc ana="#punctus"/> quidam enim dicunt quod immittente requiritur 
-  					<lb ed="#P"/>semper auctoritas idem utriusque istorum <pc ana="#punctus"/> unde dicunt aliquem 
-  					<lb ed="#P"/>a se mitti in proprie dici <pc ana="#punctus"/> <pc ana="#virgula"/> alii autem <unclear>communius</unclear> cum <name ref="#Lombard">magister</name> in 
-  					<lb ed="#P"/>littera <pc ana="#punctus"/> quibus concordant magis dicta sanctorum <pc ana="#punctus"/> dicunt <pc ana="#punctus"/> quodam suf<lb ed="#P"/>ficit 
-  					ad veritatem <name ref="#Jerome"><unclear>Ieronis <!-- Ioannis?? --></unclear></name> quod alterum scilicet secundum tantum sit amit<lb ed="#P"/>tente 
-  					<pc ana="#punctus"/> exemplum <pc ana="#punctus"/> cum dicitur <unclear>scut??</unclear> <unclear>et</unclear> a me fieri album <pc ana="#punctus"/> unde 
-  					<lb ed="#P"/>dicunt quod persona a se potes mitti</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q5" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3876" type="question-title">Utrum Spiritus Sanctus a se ipso in detur</head>
-  				<p xml:id="wdrl1d15-d1e3879"><lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus a se ipso in detur <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> 
-  					<lb ed="#P"/>sic secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> tamen dare aliquid aliquando dicit solam 
-  					<lb ed="#P"/>communicationem <pc ana="#punctus"/> aliquando etiam emanationem <pc ana="#punctus"/> <pc ana="#virgula"/> aliquando etiam transla<lb ed="#P"/>tionem 
-  					<pc ana="#punctus"/> ut amicus dat se ispum <pc ana="#punctus"/> amorem suum  et ex<lb ed="#P"/>terius 
-  					donum <pc ana="#virgula"/> primo modo potest dici quemlibet persona dare se ipsam <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Secundo modo <pc ana="#virgula"/> una alteram <pc ana="#punctus"/> tertio modo persona quemlibet donum creatum</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q6" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e3927" type="question-title">utrum spiritus mittatur cum filio</head>
-  				<p xml:id="wdrl1d15-d1e3930"><lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus mittatur cum filio <pc ana="#punctus"/> Responsio quidam 
-  					<lb ed="#P"/>dicunt <pc ana="#punctus"/> <unclear>quod</unclear> filius psotest venire <pc ana="#punctus"/> et mitti <pc ana="#punctus"/> sine spiritu sancto 
-  					<lb ed="#P"/>et econverso <pc ana="#punctus"/> quia secundum eos <pc ana="#punctus"/> haec possunt fieri sine dono gratiae gra<lb ed="#P"/>tum 
-  					facientis <pc ana="#punctus"/> <pc ana="#virgula"/> Sed contra est <del rend="strikethrough">quia dicuntur</del> mitti quia dicuntur 
-  					<lb ed="#P"/>ut sint novo modo in creatura <ref>Supra distinctio 14 quaestio 5 2 
-  						<lb ed="#P"/>7 1</ref> aliquo quod potest mitti unus sine altero <pc ana="#punctus"/> ille 
-  					<cb ed="#P" n="29vb"/><lb ed="#P"/>scilicet qui manifestatur in effectu sibi appropriato <pc ana="#punctus"/> Sed non 
-  					<lb ed="#P"/>venire <pc ana="#punctus"/> sicut nec uterque sine patre <pc ana="#punctus"/> alii verius dicunt <pc ana="#punctus"/> quod 
-  					<lb ed="#P"/>neuter vel mitti vel venire potest sine altero <pc ana="#punctus"/> in visibili 
-  					<lb ed="#P"/>scilicet missione quia non veniunt nisi missi <pc ana="#punctus"/> Nota etiam quod venire 
-  					<lb ed="#P"/>dicit <unclear>relatum ad terminem in quem </unclear> <pc ana="#punctus"/> et non a principio a quo sed mitti utrumque</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q7" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4008" type="question-title">utrum utrique ipsorum aequaliter conveniat missio</head>
-  				<p xml:id="wdrl1d15-d1e4011"><lb ed="#P"/><pc ana="#pilcrow"/>utrum utrique ipsorum aequaliter conveniat missio 
-  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic quantum ad rationem missionis communem <pc ana="#punctus"/> sed non 
-  					<lb ed="#P"/>propriam <pc ana="#punctus"/> quia nec emanatio est eiusdem communis proprie scilicet per 
-  					<lb ed="#P"/>modum nullae et doni <pc ana="#punctus"/> <pc ana="#virgula"/> nec etiam <del rend="strikethrough">em</del> manifestatio in effectum 
-  					<!-- drops to next line --> scilicet cognitionis et amoris</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q8" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4041" type="question-title">Utrum filius mittatur a spiritu sancto</head>
-  				<p xml:id="wdrl1d15-d1e4044"><lb ed="#P"/><pc ana="#pilcrow"/>utrum filius mit<lb ed="#P"/>tatur 
-  					a spiritu sancto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <title ref="#is">ysa</title> 48 <quote xml:id="wdrl1d15-Qd1e4060" ana="#is48_16">misit me 
-  						<lb ed="#P"/>dominus et spiritus eius</quote> <pc ana="#punctus"/> Idem <name ref="#Augustine">augustinus</name> et <name ref="#Ambrose">ambrosius</name> in littera <pc ana="#punctus"/> hoc autem 
-  					<lb ed="#P"/>quidam verum esset tantum de missione ad praedicandum <pc ana="#punctus"/> et 
-  					<lb ed="#P"/>non in carnem <pc ana="#punctus"/> vel in mentem <pc ana="#punctus"/> quia haec duae conveniunt 
-  					<lb ed="#P"/>ei <pc ana="#punctus"/> secundum quod deus <pc ana="#punctus"/> et spiritus sic spiritus scilicet non habet auctoritatem in eum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>alii melius dicunt <pc ana="#punctus"/> quo de omnibus intelligitur quia sufficit 
-  					<lb ed="#P"/>secundum eos ad missionem causalitas respectu effectus <ref type="commentary" target="http://scta.info/resource/wdr-l1d15q4">supra quaestio 4</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d15q9" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4108" type="question-title">Utrum filius <sic>mitatur</sic> sine dono gratiae gratum facientis</head>
-  				<p xml:id="wdrl1d15-d1e4114"><lb ed="#P"/><pc ana="#pilcrow"/>utrum filius <sic>mitatur</sic> sine dono gratiae gratum 
-  					<lb ed="#P"/>facientis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia finis ultimus missionis 
-  					<lb ed="#P"/>utriusque personae idem est scilicet sanctificatio creaturae rationalis <pc ana="#punctus"/> 
-  					<lb ed="#P"/>quae perfectione non potest fieri sine illuminatione intellectus practica 
-  					<lb ed="#P"/>scilicet et <choice><orig>inflamatione</orig><reg>inflammatione</reg></choice> affectus <pc ana="#punctus"/> nunquam autem frustrantur 
-  					<!-- drops line --> fine sue completo</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q10" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4153" type="question-title">Utrum patri conveniat mitti</head>
-  				<p xml:id="wdrl1d15-d1e4156"><lb ed="#P"/><pc ana="#pilcrow"/>utrum patri conveniat mitti <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> non <pc ana="#punctus"/> quia non habet principium 
-  					<lb ed="#P"/>a quo sit ut dicit <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> mitti autem est cognosci quod ab 
-  					<lb ed="#P"/>alio sit secundum <name ref="#Augustine">augustinus</name> nihilominus cum venire potest <ref type="commentary" target="http://scta.info/resource/wdrl1d15-d1e3930">supra quaestio 6</ref></p>
-  			</div>
-  			<div xml:id="wdr-l1d15q11" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4194" type="question-title">Ad quos fiat missio</head>
-  				<p xml:id="wdrl1d15-d1e4197"><lb ed="#P"/><pc ana="#pilcrow"/>ad quos fiat missio <pc ana="#punctus"/> Responsio tantum fit ad crea<lb ed="#P"/>turam 
-  					rationalem quae sola susceptibilis est sanctificationis 
-  					<lb ed="#P"/>per gratiam gratum facientem <pc ana="#punctus"/> <unclear>Item</unclear> fit ad angelos secundum <name ref="#Augustine">augustinus</name> 
-  					<lb ed="#P"/>in littera <pc ana="#punctus"/> et ad beatos in patria <pc ana="#punctus"/> quia eis aliqua manifestamur 
-  					<lb ed="#P"/>sub nova ratione <pc ana="#punctus"/> seu consideratione non autem aliqui quam sic de 
-  					<lb ed="#P"/>novo <pc ana="#virgula"/> ut deum incipere diligere plus quam prius <pc ana="#punctus"/></p>
-  				<p xml:id="wdrl1d15-d1e4233"><pc ana="#pilcrow"/>Item fit ad sanctos in via <pc ana="#punctus"/> ut <del rend="strikethrough">a plures</del> ad apostolos 
-  					<cb ed="#P" n="30ra"/><lb ed="#P"/>in die pentecostes <pc ana="#punctus"/> haec fieri dicitur non secundum <add place="aboveLine">in</add>tensionem in 
-  					<lb ed="#P"/>eadem speciei <pc ana="#punctus"/> sed ad novum aliquem actum vel u<lb ed="#P"/>sum 
-  					alterius speciei <pc ana="#punctus"/> ad christum autem secundum nullam humanam 
-  					<lb ed="#P"/>potest dici facta in visibilis missio <pc ana="#punctus"/> et filium <del rend="strikethrough">per sapiam</del> 
-  					<lb ed="#P"/>per sapientiam <pc ana="#punctus"/> et spiritus sanctus per gratiam <pc ana="#punctus"/> et hic <unclear>im</unclear> stanti 
-  					<lb ed="#P"/>conceptionis quia natura christi humana naturaliter gratiam 
-  					<lb ed="#P"/>praecessit <pc ana="#punctus"/> quamvis non tempore postea autem tantum visibili 
-  					<lb ed="#P"/>missio a deum factum est <pc ana="#punctus"/> quia non proficit in gratia et sapientia</p>
-  			</div>
-  			<div xml:id="wdr-l1d15q12" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4290" type="question-title">Utrum fiat maior post incarnationem quam ante</head>
-  				<p xml:id="wdrl1d15-d1e4293"><lb ed="#P"/><pc ana="#pilcrow"/>utrum fiat maior post incarnationem 
-  					<lb ed="#P"/>quam ante <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum <ref><name ref="#Augustine">augustinus</name> <del rend="strikethrough">in littera</del> <title>super illud 
-  						<lb ed="#P"/>Iohannes</title> vii</ref> notandum erat spiritus datus etc <pc ana="#punctus"/> et hic intelli<lb ed="#P"/>ge
-  					quantum a deos ad quos fit missio <pc ana="#virgula"/> generaliter 
-  					<lb ed="#P"/>loquendo <pc ana="#punctus"/> quia nunc magis sunt disposita <pc ana="#punctus"/> sed quantum 
-  					<lb ed="#P"/>ad deum aequalis est <pc ana="#punctus"/> quantum etiam aliquas <subst><del rend="strikethrough">spirituales</del><add place="inLine">personas</add></subst> 
-  					<lb ed="#P"/>spirituales <pc ana="#virgula"/> habent se sicut excedentia et excessa <pc ana="#punctus"/></p>
-  			</div>
-  			<div xml:id="wdr-l1d15q13" type="quaestio">
-  				<head xml:id="wdrl1d15-Hd1e4349" type="question-title">Utrum possit dici aliqua missio aeterna</head>
-  				<p xml:id="wdrl1d15-d1e4352"><lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici aliqua missio aeterna 
-  					<lb ed="#P"/>Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia secundum <name ref="#Augustine">augustinus</name> filius non dicitur missus <pc ana="#virgula"/> eo quod de 
-  					<lb ed="#P"/>patre natus <pc ana="#punctus"/> quia missio duo includit scilicet relationem 
-  					<lb ed="#P"/>aeternum <pc ana="#punctus"/> et temporalem <pc ana="#punctus"/> et non sufficit alterum tantum scilicet respectus 
-  					<!-- drops line --> aeternus <pc ana="#punctus"/></p>
-  			</div>
-  		</div>
-  	</body>
+    <body>
+      <div xml:id="wdr-l1d15">
+        <head xml:id="wdrl1d15-Hd1e3503">Liber I, Distinctio 15 [Penn Transcription]</head>
+        <div xml:id="wdr-l1d15q1" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3508" type="question-title">Utrum missio sit in divinis</head>
+          <p xml:id="wdrl1d15-d1e3511">
+            <lb ed="#P" n="51"/><pc ana="#pilcrow"/>Quaeritur 
+            <lb ed="#P"/>utrum missio sit in divinis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> Sic <pc ana="#punctus"/> ut patet 
+            <lb ed="#P"/><del rend="strikethrough">inser</del> per sacramenta <unclear>sempiternam</unclear> est tamen ibi <unclear>transumptive</unclear> <pc ana="#punctus"/> 
+            <lb ed="#P"/>In missione tamen propria sicut est in creaturis reperiuntur 
+            <lb ed="#P"/>4 scilicet <unclear>mittentis</unclear> auctoritas <pc ana="#virgula"/>  separatio vel diversitas 
+            <lb ed="#P"/>missi a mittente <pc ana="#punctus"/> loci mutatio mutio <pc ana="#punctus"/> et <unclear>effectus</unclear> 
+            <lb ed="#P"/>aliquis illud respectu termini ad quem primum et ultimum conveniunt missi<lb ed="#P" break="no"/>one 
+            divinae <pc ana="#punctus"/> quia sunt perfectionis <pc ana="#punctus"/> <pc ana="#virgula"/> autem non <pc ana="#punctus"/> quia sunt in 
+            <!-- drops line --> perfectionis
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q2" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3575" type="question-title">Quid sit missio</head>
+          <p xml:id="wdrl1d15-d1e3578">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quid sit missio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
+            <lb ed="#P"/><name ref="#Augustine">augustinum</name> vel <title ref="#CityOfGod">de civitate</title> et quasi idem in littera <pc ana="#punctus"/> <unclear>otcti</unclear> <pc ana="#virgula"/> est cognosci quid ab 
+            <lb ed="#P"/>alio sit et est data per eam <pc ana="#punctus"/> non per essentiam <pc ana="#punctus"/> hic descriptio <pc ana="#punctus"/> 
+            <lb ed="#P"/>quia per hoc quod aliqua persona manifestatur aliter in aliquo effectu 
+            <lb ed="#P"/>sibi appropriato <pc ana="#virgula"/> detur ei mitti <pc ana="#punctus"/> et intelligere de cognitione non 
+            <lb ed="#P"/>simplici <pc ana="#punctus"/> sed approbatam <pc ana="#punctus"/> vel experimentali
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q3" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3629" type="question-title">Quid significet nomen missionis; utrum sit nomen essentiale vel notionale</head>
+          <p xml:id="wdrl1d15-d1e3632">
+            <lb ed="#P"/><pc ana="#pilcrow"/>Quid significet nomen missionis <pc ana="#punctus"/> utrum 
+            <lb ed="#P"/>sit nomen essentiale <pc ana="#punctus"/> vel notionale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> nominum 
+            <pb ed="#P" n="29-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>quaedam sunt pure essentialia <pc ana="#punctus"/> ut <mentioned>deus</mentioned> <pc ana="#punctus"/> <mentioned>essentia</mentioned> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam 
+            <lb ed="#P"/>pure personalia <pc ana="#punctus"/> ut <mentioned>pater</mentioned> <mentioned>filius</mentioned> et huiusmodi quaedam mixta <pc ana="#punctus"/> ex intellectu 
+            <lb ed="#P"/>personali et essentiali <pc ana="#punctus"/> ut <mentioned>potentia generandi</mentioned> <pc ana="#punctus"/> et huiusmodi <pc ana="#punctus"/> et tale est hic nomen 
+            <lb ed="#P"/><mentioned>missio</mentioned> <pc ana="#punctus"/> et <mentioned>missus</mentioned> <pc ana="#punctus"/> et <mentioned>mittere</mentioned> <pc ana="#punctus"/> et <mentioned>mittere</mentioned> <pc ana="#punctus"/> et similia <pc ana="#punctus"/> quia <choice><orig>inportant</orig><reg>important</reg></choice> relationem 
+            <lb ed="#P"/>personae missae ad principium a quo <pc ana="#punctus"/> qui est notionalis <pc ana="#punctus"/> <choice><orig>Inpor<lb ed="#P" break="no"/>tant</orig><reg>Impor<lb ed="#P" break="no"/>tant</reg></choice> 
+            etiam relationem causae ad effectum connotatur in creatura 
+            <lb ed="#P"/>qui est essentialis <pc ana="#virgula"/> Dicunt etiam quidam <pc ana="#punctus"/> quod primum <del rend="strikethrough">r</del> relationem importat per prius <pc ana="#punctus"/> 
+            <lb ed="#P"/>quia <del rend="strikethrough">est</del> aeternis est <pc ana="#punctus"/> alii autem quod secundum per prius cum nomen 
+            <lb ed="#P"/>ab effectum temporali <unclear>potus <choice><orig>inpositum</orig><reg>impositum</reg></choice></unclear> sit <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q4" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3774" type="question-title">Utrum spiritus sanctus mittatur a se ipso</head>
+          <p xml:id="wdrl1d15-d1e3777">
+            <lb ed="#P"/>Utrum spiritus sanctus mittatur a se ipso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> mis<lb ed="#P" break="no"/>sio 
+            <choice><orig>inportat</orig><reg>importat</reg></choice> duo scilicet emanatio alicuius ab aliquo <pc ana="#punctus"/> <pc ana="#virgula"/> 
+            <lb ed="#P"/>et emanationis in creatura per effectum manifestationem <pc ana="#punctus"/> <pc ana="#virgula"/> 
+            <lb ed="#P"/>secundum hoc eum dicitur quis mitti a se <pc ana="#virgula"/> potest notari causalitas 
+            <lb ed="#P"/>idem utriusque horum vel idem secundum tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum hoc 
+            <lb ed="#P"/>sunt duae opiniones <pc ana="#virgula"/> <pc ana="#punctus"/> quidam enim dicunt quod immittente requiritur 
+            <lb ed="#P"/>semper auctoritas idem utriusque istorum <pc ana="#punctus"/> unde dicunt aliquem 
+            <lb ed="#P"/>a se mitti in proprie dici <pc ana="#punctus"/> <pc ana="#virgula"/> alii autem <unclear>communius</unclear> cum <name ref="#Lombard">magister</name> in 
+            <lb ed="#P"/>littera <pc ana="#punctus"/> quibus concordant magis dicta sanctorum <pc ana="#punctus"/> dicunt <pc ana="#punctus"/> quodam suf<lb ed="#P" break="no"/>ficit 
+            ad veritatem <name ref="#Jerome"><unclear>Ieronis <!-- Ioannis?? --></unclear></name> quod alterum scilicet secundum tantum sit amit<lb ed="#P" break="no"/>tente 
+            <pc ana="#punctus"/> exemplum <pc ana="#punctus"/> cum dicitur <unclear>scut??</unclear> <unclear>et</unclear> a me fieri album <pc ana="#punctus"/> unde 
+            <lb ed="#P"/>dicunt quod persona a se potes mitti
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q5" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3876" type="question-title">Utrum Spiritus Sanctus a se ipso in detur</head>
+          <p xml:id="wdrl1d15-d1e3879">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus a se ipso in detur <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> 
+            <lb ed="#P"/>sic secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> tamen dare aliquid aliquando dicit solam 
+            <lb ed="#P"/>communicationem <pc ana="#punctus"/> aliquando etiam emanationem <pc ana="#punctus"/> <pc ana="#virgula"/> aliquando etiam transla<lb ed="#P" break="no"/>tionem 
+            <pc ana="#punctus"/> ut amicus dat se ispum <pc ana="#punctus"/> amorem suum  et ex<lb ed="#P" break="no"/>terius 
+            donum <pc ana="#virgula"/> primo modo potest dici quemlibet persona dare se ipsam <pc ana="#punctus"/> 
+            <lb ed="#P"/>Secundo modo <pc ana="#virgula"/> una alteram <pc ana="#punctus"/> tertio modo persona quemlibet donum creatum
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q6" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e3927" type="question-title">utrum spiritus mittatur cum filio</head>
+          <p xml:id="wdrl1d15-d1e3930">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus mittatur cum filio <pc ana="#punctus"/> Responsio quidam 
+            <lb ed="#P"/>dicunt <pc ana="#punctus"/> <unclear>quod</unclear> filius psotest venire <pc ana="#punctus"/> et mitti <pc ana="#punctus"/> sine spiritu sancto 
+            <lb ed="#P"/>et econverso <pc ana="#punctus"/> quia secundum eos <pc ana="#punctus"/> haec possunt fieri sine dono gratiae gra<lb ed="#P" break="no"/>tum 
+            facientis <pc ana="#punctus"/> <pc ana="#virgula"/> Sed contra est <del rend="strikethrough">quia dicuntur</del> mitti quia dicuntur 
+            <lb ed="#P"/>ut sint novo modo in creatura <ref>Supra distinctio 14 quaestio 5 2 
+              <lb ed="#P"/>7 1</ref> aliquo quod potest mitti unus sine altero <pc ana="#punctus"/> ille 
+            <cb ed="#P" n="b"/> <!-- 29vb-->
+            <lb ed="#P"/>scilicet qui manifestatur in effectu sibi appropriato <pc ana="#punctus"/> Sed non 
+            <lb ed="#P"/>venire <pc ana="#punctus"/> sicut nec uterque sine patre <pc ana="#punctus"/> alii verius dicunt <pc ana="#punctus"/> quod 
+            <lb ed="#P"/>neuter vel mitti vel venire potest sine altero <pc ana="#punctus"/> in visibili 
+            <lb ed="#P"/>scilicet missione quia non veniunt nisi missi <pc ana="#punctus"/> Nota etiam quod venire 
+            <lb ed="#P"/>dicit <unclear>relatum ad terminem in quem </unclear> <pc ana="#punctus"/> et non a principio a quo sed mitti utrumque
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q7" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4008" type="question-title">utrum utrique ipsorum aequaliter conveniat missio</head>
+          <p xml:id="wdrl1d15-d1e4011">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum utrique ipsorum aequaliter conveniat missio 
+            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic quantum ad rationem missionis communem <pc ana="#punctus"/> sed non 
+            <lb ed="#P"/>propriam <pc ana="#punctus"/> quia nec emanatio est eiusdem communis proprie scilicet per 
+            <lb ed="#P"/>modum nullae et doni <pc ana="#punctus"/> <pc ana="#virgula"/> nec etiam <del rend="strikethrough">em</del> manifestatio in effectum 
+            <!-- drops to next line --> scilicet cognitionis et amoris
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q8" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4041" type="question-title">Utrum filius mittatur a spiritu sancto</head>
+          <p xml:id="wdrl1d15-d1e4044">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum filius mit<lb ed="#P" break="no"/>tatur 
+            a spiritu sancto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <title ref="#is">ysa</title> 48 <quote xml:id="wdrl1d15-Qd1e4060" ana="#is48_16">misit me 
+            <lb ed="#P"/>dominus et spiritus eius</quote> <pc ana="#punctus"/> Idem <name ref="#Augustine">augustinus</name> et <name ref="#Ambrose">ambrosius</name> in littera <pc ana="#punctus"/> hoc autem 
+            <lb ed="#P"/>quidam verum esset tantum de missione ad praedicandum <pc ana="#punctus"/> et 
+            <lb ed="#P"/>non in carnem <pc ana="#punctus"/> vel in mentem <pc ana="#punctus"/> quia haec duae conveniunt 
+            <lb ed="#P"/>ei <pc ana="#punctus"/> secundum quod deus <pc ana="#punctus"/> et spiritus sic spiritus scilicet non habet auctoritatem in eum <pc ana="#punctus"/> 
+            <lb ed="#P"/>alii melius dicunt <pc ana="#punctus"/> quo de omnibus intelligitur quia sufficit 
+            <lb ed="#P"/>secundum eos ad missionem causalitas respectu effectus <ref type="commentary" target="http://scta.info/resource/wdr-l1d15q4">supra quaestio 4</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q9" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4108" type="question-title">Utrum filius <sic>mitatur</sic> sine dono gratiae gratum facientis</head>
+          <p xml:id="wdrl1d15-d1e4114">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum filius <sic>mitatur</sic> sine dono gratiae gratum 
+            <lb ed="#P"/>facientis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia finis ultimus missionis 
+            <lb ed="#P"/>utriusque personae idem est scilicet sanctificatio creaturae rationalis <pc ana="#punctus"/> 
+            <lb ed="#P"/>quae perfectione non potest fieri sine illuminatione intellectus practica 
+            <lb ed="#P"/>scilicet et <choice><orig>inflamatione</orig><reg>inflammatione</reg></choice> affectus <pc ana="#punctus"/> nunquam autem frustrantur 
+            <!-- drops line --> fine sue completo
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q10" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4153" type="question-title">Utrum patri conveniat mitti</head>
+          <p xml:id="wdrl1d15-d1e4156">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum patri conveniat mitti <pc ana="#punctus"/> 
+            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> non <pc ana="#punctus"/> quia non habet principium 
+            <lb ed="#P"/>a quo sit ut dicit <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> mitti autem est cognosci quod ab 
+            <lb ed="#P"/>alio sit secundum <name ref="#Augustine">augustinus</name> nihilominus cum venire potest <ref type="commentary" target="http://scta.info/resource/wdrl1d15-d1e3930">supra quaestio 6</ref>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q11" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4194" type="question-title">Ad quos fiat missio</head>
+          <p xml:id="wdrl1d15-d1e4197">
+            <lb ed="#P"/><pc ana="#pilcrow"/>ad quos fiat missio <pc ana="#punctus"/> Responsio tantum fit ad crea<lb ed="#P" break="no"/>turam 
+            rationalem quae sola susceptibilis est sanctificationis 
+            <lb ed="#P"/>per gratiam gratum facientem <pc ana="#punctus"/> <unclear>Item</unclear> fit ad angelos secundum <name ref="#Augustine">augustinus</name> 
+            <lb ed="#P"/>in littera <pc ana="#punctus"/> et ad beatos in patria <pc ana="#punctus"/> quia eis aliqua manifestamur 
+            <lb ed="#P"/>sub nova ratione <pc ana="#punctus"/> seu consideratione non autem aliqui quam sic de 
+            <lb ed="#P"/>novo <pc ana="#virgula"/> ut deum incipere diligere plus quam prius <pc ana="#punctus"/></p>
+          <p xml:id="wdrl1d15-d1e4233"><pc ana="#pilcrow"/>Item fit ad sanctos in via <pc ana="#punctus"/> ut <del rend="strikethrough">a plures</del> ad apostolos 
+            <pb ed="#P" n="30-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#P"/>in die pentecostes <pc ana="#punctus"/> haec fieri dicitur non secundum <add place="aboveLine">in</add>tensionem in 
+            <lb ed="#P"/>eadem speciei <pc ana="#punctus"/> sed ad novum aliquem actum vel u<lb ed="#P" break="no"/>sum 
+            alterius speciei <pc ana="#punctus"/> ad christum autem secundum nullam humanam 
+            <lb ed="#P"/>potest dici facta in visibilis missio <pc ana="#punctus"/> et filium <del rend="strikethrough">per sapiam</del> 
+            <lb ed="#P"/>per sapientiam <pc ana="#punctus"/> et spiritus sanctus per gratiam <pc ana="#punctus"/> et hic <unclear>im</unclear> stanti 
+            <lb ed="#P"/>conceptionis quia natura christi humana naturaliter gratiam 
+            <lb ed="#P"/>praecessit <pc ana="#punctus"/> quamvis non tempore postea autem tantum visibili 
+            <lb ed="#P"/>missio a deum factum est <pc ana="#punctus"/> quia non proficit in gratia et sapientia
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q12" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4290" type="question-title">Utrum fiat maior post incarnationem quam ante</head>
+          <p xml:id="wdrl1d15-d1e4293">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum fiat maior post incarnationem 
+            <lb ed="#P"/>quam ante <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum <ref><name ref="#Augustine">augustinus</name> <del rend="strikethrough">in littera</del> <title>super illud 
+            <lb ed="#P"/>Iohannes</title> vii</ref> notandum erat spiritus datus etc <pc ana="#punctus"/> et hic intelli<lb ed="#P" break="no"/>ge
+            quantum a deos ad quos fit missio <pc ana="#virgula"/> generaliter 
+            <lb ed="#P"/>loquendo <pc ana="#punctus"/> quia nunc magis sunt disposita <pc ana="#punctus"/> sed quantum 
+            <lb ed="#P"/>ad deum aequalis est <pc ana="#punctus"/> quantum etiam aliquas <subst><del rend="strikethrough">spirituales</del><add place="inLine">personas</add></subst> 
+            <lb ed="#P"/>spirituales <pc ana="#virgula"/> habent se sicut excedentia et excessa <pc ana="#punctus"/>
+          </p>
+        </div>
+        <div xml:id="wdr-l1d15q13" type="quaestio">
+          <head xml:id="wdrl1d15-Hd1e4349" type="question-title">Utrum possit dici aliqua missio aeterna</head>
+          <p xml:id="wdrl1d15-d1e4352">
+            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici aliqua missio aeterna 
+            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> non <pc ana="#punctus"/> quia secundum <name ref="#Augustine">augustinus</name> filius non dicitur missus <pc ana="#virgula"/> eo quod de 
+            <lb ed="#P"/>patre natus <pc ana="#punctus"/> quia missio duo includit scilicet relationem 
+            <lb ed="#P"/>aeternum <pc ana="#punctus"/> et temporalem <pc ana="#punctus"/> et non sufficit alterum tantum scilicet respectus 
+            <!-- drops line --> aeternus <pc ana="#punctus"/>
+          </p>
+        </div>
+      </div>
+    </body>
   </text>
 </TEI>
