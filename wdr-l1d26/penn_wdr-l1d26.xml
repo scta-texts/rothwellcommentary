@@ -114,7 +114,8 @@
         <div xml:id="wdr-l1d26q5" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3812" type="question-title">Utrum proprietates ponant reale aliquid in personis</head>
           <p xml:id="wdrl1d26-d1e3815">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Responde sic secundum communem sententiam catholicorum <title ref="#io"><unclear>Ioannes</unclear></title> <pc ana="#punctus"/>Non tantum 
+            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum proprietates ponant reale aliquid in personis
+            <lb ed="#P"/>Respondeo sic secundum communem sententiam catholicorum <title ref="#io"><unclear>Ioannes</unclear></title> <pc ana="#punctus"/>Non tantum 
             <lb ed="#P"/>personarum <subst><del rend="strikethrough">nominum</del> <add>nomina</add></subst> <pc ana="#punctus"/> sed etiam proprietates confitemur <pc ana="#punctus"/> Quam<lb ed="#P" break="no"/>vis 
             <unclear>mcl?o</unclear> enim in deo secundum rationem generis nihil ponat in subiecto 
             <lb ed="#P"/>tamen istae ponunt aliquid scilicet ex ratione speciali quia habent aliquid 
@@ -128,7 +129,7 @@
             <lb ed="#P"/>ad orandae <pc ana="#punctus"/> quod est contra <name>Gilbertum</name> iste etiam de hoc errore coniuctus 
             <lb ed="#P"/>fuit a <name ref="#Bernard"><unclear>sancto Bernardo <!-- not precisely sure about Bernard ref --></unclear></name> In concilio <unclear>Remensi</unclear> <pc ana="#punctus"/> alii ut <name>praeposi<lb ed="#P" break="no"/>tinus</name> 
             dixerunt quod non sunt proprietates <pc ana="#virgula"/> et nisi ipse personae re <pc ana="#punctus"/> 
-            et ratione <pc ana="#punctus"/> et quod personae se ipsis distinguntur <pc ana="#virgula"/> et quod in abstracto 
+            <lb ed="#P"/>et ratione <pc ana="#punctus"/> et quod personae se ipsis distinguntur <pc ana="#virgula"/> et quod in abstracto 
             <lb ed="#P"/>significantur hoc est secundum modum <unclear>enphaticae</unclear> leonis <pc ana="#punctus"/> ut 
             <cb ed="#P" n="b"/> <!-- 34vb -->
             <lb ed="#P"/>rogo benignitate tuam id est te benignum <pc ana="#punctus"/> Sed contra est <pc ana="#punctus"/> 
