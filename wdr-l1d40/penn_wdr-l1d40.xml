@@ -152,7 +152,7 @@
             <lb ed="#P"/>est certus est scilicet quod tot <seg type="correction">sa<add place="aboveLine">l</add>vabuntur</seg> <name ref="#Augustine">augustinus</name> in littera certus est 
             <lb ed="#P"/>electorum numerus <pc ana="#punctus"/> quia non potest augeri vel minui <pc ana="#punctus"/> Sed numerus 
             <lb ed="#P"/>materialis a parte dei certus est <pc ana="#punctus"/> Sed in comparatione ad <unclear>numera<lb ed="#P" break="no"/>tos</unclear> 
-            <lb ed="#P"/>mutari potest <pc ana="#punctus"/> Sed non mutabuntur
+            mutari potest <pc ana="#punctus"/> Sed non mutabuntur
           </p>
         </div>
         <div xml:id="wdr-l1d40q8" type="quaestio">
