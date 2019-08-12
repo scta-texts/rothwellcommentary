@@ -88,7 +88,7 @@
   				<head xml:id="wdrl4d26-Hd1e3650" type="question-title">Utrum matrimonium et usus eius fuerit in praecepto ante peccatum</head>
   				<p xml:id="wdrl4d26-d1e3653"><lb ed="#P"/><pc ana="#pilcrow"/>utrum matrimonium et usus eius <pc ana="#punctus"/> 
   					<lb ed="#P"/>fuerit in praecepto <pc ana="#punctus"/> ante peccatum <pc ana="#punctus"/> 
-  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#gen">genese</title> primo</ref> <quote xml:id="wdrl4d26-Qd1e3677" ana="#gen1_22">crescite et multiplicamini</quote> <pc ana="#virgula"/> et hoc 
+  					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#gen">genese</title> primo</ref> <quote xml:id="wdrl4d26-Qd1e3677" source="http://scta.info/resource/gen1_22">crescite et multiplicamini</quote> <pc ana="#virgula"/> et hoc 
   					<lb ed="#P"/>propter multiplicationem speciei <pc ana="#punctus"/> et ad complendum <unclear>numerum <!-- possibily <sic>matrimonium</sic> --></unclear> electorum</p>
   			</div>
   			<div xml:id="wdr-l4d26q5" type="quaestio">

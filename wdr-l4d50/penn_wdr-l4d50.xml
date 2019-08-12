@@ -135,7 +135,7 @@
   				<head xml:id="wdrl4d50-Hd1e3874" type="question-title">Utrum reprobi utantur scientia acquisita in hoc mundo</head>
   				<p xml:id="wdrl4d50-d1e3877"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum reprobi utantur <pc ana="#punctus"/> 
   					<lb ed="#P"/>scientia acquista <pc ana="#punctus"/> in hoc mun<lb ed="#P"/>do 
-  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <ref><title ref="#lc">lucas</title> <num>xvi</num></ref> <quote xml:id="wdrl4d50-Qd1e3901" ana="#lc16_25">fili recordare</quote> 
+  					<pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <ref><title ref="#lc">lucas</title> <num>xvi</num></ref> <quote xml:id="wdrl4d50-Qd1e3901" source="http://scta.info/resource/lc16_25">fili recordare</quote> 
   					<lb ed="#P"/>etc Non tamen inquantum est causa 
   					<lb ed="#P"/>laetitiae <pc ana="#virgula"/> et perfectio cognoscentis <pc ana="#punctus"/> sed 
   					<lb ed="#P"/>inquantum est causa tristitiae <pc ana="#punctus"/> quia con<lb ed="#P"/>siderabunt 

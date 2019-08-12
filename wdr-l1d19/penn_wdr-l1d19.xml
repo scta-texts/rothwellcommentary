@@ -87,7 +87,7 @@
           <head xml:id="wdrl1d19-Hd1e3658" type="question-title">Utrum una persona sit in alia</head>
           <p xml:id="wdrl1d19-d1e3661">
             <lb ed="#P"/><pc ana="#pilcrow"/>utrum una persona 
-            <lb ed="#P"/>sit in alia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#io">Iohannis</title> <num>xiiii</num></ref> <quote xml:id="wdrl1d19-Qd1e3681" ana="#io14_10">non credis 
+            <lb ed="#P"/>sit in alia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> <ref><title ref="#io">Iohannis</title> <num>xiiii</num></ref> <quote xml:id="wdrl1d19-Qd1e3681" source="http://scta.info/resource/io14_10">non credis 
             <lb ed="#P"/>quia ego in patre</quote> etc <pc ana="#punctus"/> unam autem personam esse in alia 
             <lb ed="#P"/>duo <choice><orig>inportat</orig><reg>importat</reg></choice> scilicet essentiae unitatem <pc ana="#punctus"/> secundum <name ref="#Ambrose">ambrosum</name> <pc ana="#punctus"/> 
             <lb ed="#P"/>et <name ref="#Augustine">augustinum</name> in littera et relationem habitudinem originis <pc ana="#punctus"/> secundum 

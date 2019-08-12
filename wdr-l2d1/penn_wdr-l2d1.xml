@@ -191,7 +191,7 @@
   				<head>Liber II, Distinctio 1, Quaestio 11</head>
   				<head type="question-title">Utrum Dei bonitas fit finis omnium operum dei</head>
   				<p><lb ed="#P"/><pc ana="#pilcrow"/>utrum dei bonitas fit finis <pc ana="#punctus"/> omnium 
-  					<lb ed="#P"/>operum dei <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <ref><title ana="#prov">proverbi</title> 16</ref> <quote ana="#prov16_4"><sic>universam</sic> 
+  					<lb ed="#P"/>operum dei <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <ref><title ana="#prov">proverbi</title> 16</ref> <quote source="http://scta.info/resource/prov16_4"><sic>universam</sic> 
   					<lb ed="#P"/>propter semetipsum operatus est <sic>deus</sic></quote> <pc type="virgula">/</pc> et intellige hoc 
   					<lb ed="#P"/>de fine <pc type="virgula">/</pc> ultimo et communi proximus <pc type="virgula">/</pc> autem <pc ana="#punctus"/> et proprius <pc ana="#punctus"/> est 
   					<lb ed="#P"/>operatio rei <pc ana="#punctus"/> finem etiam illum omnia <choice><orig>consecuntur</orig><reg>consequuntur</reg></choice> <pc type="virgula">/</pc> scilicet 

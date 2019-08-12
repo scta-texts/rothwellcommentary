@@ -230,7 +230,7 @@
   					<lb ed="#P"/>eos et specialis decebat sanctificio <pc ana="#punctus"/> et specialis 
   					<lb ed="#P"/>distinctio <pc ana="#virgula"/> quamvis tamen alii non tenerentur <pc ana="#virgula"/> 
   					<lb ed="#P"/>tamen eis profuit scilicet <unclear cert="high">per se litis</unclear> ut <name>Achior</name>  
-  					<lb ed="#P"/><ref ana="#iudt14_6"><title ref="#iudt">Iudith</title> <num>xiiii</num></ref> <pc ana="#punctus"/> <pc ana="#virgula"/> Item nota quod tantum filii promis<lb ed="#P"/>sionis 
+  					<lb ed="#P"/><ref target="http://scta.info/resource/iudt14_6"><title ref="#iudt">Iudith</title> <num>xiiii</num></ref> <pc ana="#punctus"/> <pc ana="#virgula"/> Item nota quod tantum filii promis<lb ed="#P"/>sionis 
   					dicuntur filii in quibus mansit lex 
   					<!-- drops --> non filii carnis</p>
   			</div>

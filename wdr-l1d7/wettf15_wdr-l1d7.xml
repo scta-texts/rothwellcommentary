@@ -117,7 +117,7 @@
           <head type="question-title">Utrum potentia generandi includatur in omnipotentia Dei</head>
           <p xml:id="wdrl1d7-upgtpc"><lb ed="#A"/><g ref="#pilcrow"/>Utrum potentia generandi includatur in omnipotentia 
             <lb ed="#A"/>dei Responsio Si omnis facit distributionem <choice><orig>acomodam</orig><reg>accommodam</reg></choice> 
-            <lb ed="#A"/>ut <ref><title ref="#io">Ioannes</title> 1</ref> <quote ana="#io1_3">Omnia per ipsum facta sunt</quote> <g ref="#slash"/> sic non includitur 
+            <lb ed="#A"/>ut <ref><title ref="#io">Ioannes</title> 1</ref> <quote source="http://scta.info/resource/io1_3">Omnia per ipsum facta sunt</quote> <g ref="#slash"/> sic non includitur 
             <lb ed="#A"/>si autem facit naturalem <g ref="#slash"/> ut cum dividitur omne ens in tem<lb ed="#A"/>porale 
             et aeternum <g ref="#slash"/> sic includitur non tamen per comparationem <!-- drops to next line --> ad eundem actum</p>
         </div>

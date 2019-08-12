@@ -131,7 +131,7 @@
             <lb ed="#P"/>regni providetia <pc ana="#punctus"/> quidam tam naturas <del rend="strikethrough">mles</del> universales generum 
             <lb ed="#P"/>et specierum et non particularia alii vero etiam particularia naturae rationalis 
             <lb ed="#P"/>tantum <pc ana="#punctus"/> et non alia <pc ana="#punctus"/> Sed fides ponit omnia regi dei provi<lb ed="#P" break="no"/>dentia 
-            <pc ana="#punctus"/> <ref><title ref="#sap">Sapientia</title> <num>xii</num></ref> <quote xml:id="wdrl1d39-Qd1e3877" ana="#sap6_8">Aequaliter est illi cura de omnibus</quote> et 
+            <pc ana="#punctus"/> <ref><title ref="#sap">Sapientia</title> <num>xii</num></ref> <quote xml:id="wdrl1d39-Qd1e3877" source="http://scta.info/resource/sap6_8">Aequaliter est illi cura de omnibus</quote> et 
             <lb ed="#P"/>effectus tamen providentiae <pc ana="#virgula"/> magis iuget circa rationalia quia non 
             <lb ed="#P"/>solum quantum ad esse naturae <pc ana="#punctus"/> sed etiam esse <unclear>morale</unclear> et quicquid excidit 
             <lb ed="#P"/>ab uno ordine <add place="aboveLine">per</add> <seg type="correction">providentia<add place="aboveLine">m</add></seg> ordinatur ad aliud bonum

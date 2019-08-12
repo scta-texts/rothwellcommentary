@@ -103,7 +103,7 @@
           <head xml:id="wdrl1d40-Hd1e3796" type="question-title">Utrum sit aeterna vel temporalis</head>
           <p xml:id="wdrl1d40-d1e3799">
             <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit aeterna vel temporalis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Aeterna est <ref><title ref="#eph">ephesios</title> 
-            <lb ed="#P"/>1</ref> <quote xml:id="wdrl1d40-Qd1e3814" ana="#eph1_4">elegit nos in ipso ante mundi constitutionem</quote> <pc ana="#punctus"/> quia trai quae im<lb ed="#P" break="no"/>portat 
+            <lb ed="#P"/>1</ref> <quote xml:id="wdrl1d40-Qd1e3814" source="http://scta.info/resource/eph1_4">elegit nos in ipso ante mundi constitutionem</quote> <pc ana="#punctus"/> quia trai quae im<lb ed="#P" break="no"/>portat 
             <pc ana="#punctus"/> omnia aeterna sunt <pc ana="#punctus"/> quae sunt divina dispositio <pc ana="#punctus"/> quae est principale 
             <lb ed="#P"/>significatum <pc ana="#punctus"/> temporale connotant ut futurum <pc ana="#punctus"/> et ordo antecessionis 
             <!-- drops --> significati ad connotatum

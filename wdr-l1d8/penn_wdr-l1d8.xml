@@ -59,7 +59,7 @@
             <lb ed="#P"/>esse est deo proprium <g ref="#dot"/> <g ref="#slash"/> <!-- fancyslash --> vel dicit quod si accipiatur esse secundum 
             <pb ed="#P" n="27-r"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/>perfectam rationem <g ref="#slash"/> sic soli deo convenit <ref xml:id="wdr-l1d8-Rd1e141"><title ref="#ex">exodus</title> <space extent="oneWordLength"/></ref> <quote xml:id="wdr-l1d8-Qd1e147" ana="#ex3_14">qui est misit 
+            <lb ed="#P"/>perfectam rationem <g ref="#slash"/> sic soli deo convenit <ref xml:id="wdr-l1d8-Rd1e141"><title ref="#ex">exodus</title> <space extent="oneWordLength"/></ref> <quote xml:id="wdr-l1d8-Qd1e147" source="http://scta.info/resource/ex3_14">qui est misit 
             <lb ed="#P"/>me</quote> etc <g ref="#dot"/> et <ref xml:id="wdr-l1d8-Rd1e155"><name ref="#Jerome">Ieromus</name> in littera</ref> quod solus deus vere essentia nomen tenuit 
             <lb ed="#P"/>quia solus habet esse non contractum <g ref="#dot"/> et per immixtum potentia <g ref="#dot"/> et non parti<lb ed="#P"/>cipant 
             <g ref="#dot"/>alia autem <subst><del rend="strikethrough">inperfectum</del><add place="inLine">inperfecte</add></subst>  <g ref="#dot"/> quia habent <g ref="#slash"/> secundum <!-- drops to next line -->horum opposita

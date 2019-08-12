@@ -180,7 +180,7 @@
   				<head xml:id="wdrl4d18-Hd1e4166" type="question-title">Utrum excommunicatio debeat fieri ab ecclesiae</head>
   				<p xml:id="wdrl4d18-d1e4169"><lb ed="#P"/><pc ana="#pilcrow"/>Utrum excommunicatio debeat fieri ab ecclesia 
   					<lb ed="#P"/>Responsio <pc ana="#punctus"/> sic scilicet ad correctionem <pc ana="#virgula"/> exemplum <ref><title ref="#Icor">prima corinthios</title> <num>v</num></ref> 
-  					<lb ed="#P"/><ref><title ref="#mt">matthaeus</title> <sic><title ref="#mt">matthaeus</title></sic> <num>xviii</num></ref> <pc ana="#punctus"/> <quote xml:id="wdrl4d18-Qd1e4201" ana="#mt18_17">sit tibi quasi <choice><orig>euthnicus</orig><reg>ethnicus</reg></choice></quote></p>
+  					<lb ed="#P"/><ref><title ref="#mt">matthaeus</title> <sic><title ref="#mt">matthaeus</title></sic> <num>xviii</num></ref> <pc ana="#punctus"/> <quote xml:id="wdrl4d18-Qd1e4201" source="http://scta.info/resource/mt18_17">sit tibi quasi <choice><orig>euthnicus</orig><reg>ethnicus</reg></choice></quote></p>
   			</div>
   			<div xml:id="wdr-l4d18q12" type="quaestio">
   				<head xml:id="wdrl4d18-Hd1e4212">Liber IV, Distinctio 18, Quaestio 12</head>
