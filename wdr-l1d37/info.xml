@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <body>
+    <div xml:id="wdr-l1d37">
+      <head xml:id="wdrl1d37-Hd1e3503">Liber I, Distinctio 37 [Penn Transcription]</head>
+      <div xml:id="wdr-l1d37q1" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3508">Liber I, Distinctio 37, Quaestio 1</head>
+        <head xml:id="wdrl1d37-Hd1e3511" type="question-title">Utrum deus sit in omnibus
+          rebus</head>
+        <p xml:id="wdrl1d37-d1e3514">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91088-Dd1e148"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q2" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3540">Liber I, Distinctio 37, Quaestio 2</head>
+        <head xml:id="wdrl1d37-Hd1e3543" type="question-title">utrum aequaliter sit in omnibus
+          rebus</head>
+        <p xml:id="wdrl1d37-d1e3546">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91088-Dd1e448"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q3" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3607">Liber I, Distinctio 37, Quaestio 3</head>
+        <head xml:id="wdrl1d37-Hd1e3610" type="question-title">Quod vel quibus modis deus sit in
+          rebus</head>
+        <p xml:id="wdrl1d37-d1e3613">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91088-Dd1e585"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q4" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3712">Liber I, Distinctio 37, Quaestio 4</head>
+        <head xml:id="wdrl1d37-Hd1e3715" type="question-title">Utrum deus sit ubique</head>
+        <p xml:id="wdrl1d37-d1e3718">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91888-Dd1e122"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q5" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3772">Liber I, Distinctio 37, Quaestio 5</head>
+        <head xml:id="wdrl1d37-Hd1e3775" type="question-title">utrum esse ubique ei soli
+          conveniat</head>
+        <p xml:id="wdrl1d37-d1e3778">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91888-Dd1e363"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q6" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3827">Liber I, Distinctio 37, Quaestio 6</head>
+        <head xml:id="wdrl1d37-Hd1e3830" type="question-title">utrum conveniat ei ab aeterno</head>
+        <p xml:id="wdrl1d37-d1e3833">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e91888-Dd1e572"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q7" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3860">Liber I, Distinctio 37, Quaestio 7</head>
+        <head xml:id="wdrl1d37-Hd1e3863" type="question-title">utrum deus sit localis</head>
+        <p xml:id="wdrl1d37-d1e3866">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e92541-Dd1e124"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q8" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3923">Liber I, Distinctio 37, Quaestio 8</head>
+        <head xml:id="wdrl1d37-Hd1e3926" type="question-title">utrum deus sit mutabilis de loco ad
+          locum</head>
+        <p xml:id="wdrl1d37-d1e3929">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e92541-Dd1e320"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q9" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3965">Liber I, Distinctio 37, Quaestio 9</head>
+        <head xml:id="wdrl1d37-Hd1e3968" type="question-title">utrum sit extra omnem locum</head>
+        <p xml:id="wdrl1d37-d1e3971">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e92541-Dd1e486"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q10" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e3997">Liber I, Distinctio 37, Quaestio 10</head>
+        <head xml:id="wdrl1d37-Hd1e4000" type="question-title">utrum angelus sit in loco</head>
+        <p xml:id="wdrl1d37-d1e4003">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e93079-Dd1e126"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q11" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e4142">Liber I, Distinctio 37, Quaestio 11</head>
+        <head xml:id="wdrl1d37-Hd1e4145" type="question-title">utrum possit esse in pluribus locis
+          simul</head>
+        <p xml:id="wdrl1d37-d1e4148">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e93079-Dd1e657"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q12" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e4215">Liber I, Distinctio 37, Quaestio 12</head>
+        <head xml:id="wdrl1d37-Hd1e4218" type="question-title">utrum plures possunt summa in eodem
+          loco esse</head>
+        <p xml:id="wdrl1d37-d1e4221">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e93079-Dd1e991"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q13" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e4244">Liber I, Distinctio 37, Quaestio 13</head>
+        <head xml:id="wdrl1d37-Hd1e4247" type="question-title">utrum moveatur angelus de loco ad
+          locum</head>
+        <p xml:id="wdrl1d37-d1e4250">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e94186-Dd1e126"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q14" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e4310">Liber I, Distinctio 37, Quaestio 14</head>
+        <head xml:id="wdrl1d37-Hd1e4313" type="question-title">utrum in motu locali transeat
+          medium</head>
+        <p xml:id="wdrl1d37-d1e4316">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e94186-Dd1e651"/>
+          </assertions>
+        </p>
+      </div>
+      <div xml:id="wdr-l1d37q15" type="quaestio">
+        <head xml:id="wdrl1d37-Hd1e4360">Liber I, Distinctio 37, Quaestio 15</head>
+        <head xml:id="wdrl1d37-Hd1e4363" type="question-title">Utrum motus eius sit in tempore vel
+          subito</head>
+        <p xml:id="wdrl1d37-d1e4366">
+          <assertions>
+            <assertion property="isRelatedTo" target="http://scta.info/resource/pdt7y6-e94186-Dd1e970"/>
+          </assertions>
+        </p>
+      </div>
+    </div>
+  </body>
+</info>
