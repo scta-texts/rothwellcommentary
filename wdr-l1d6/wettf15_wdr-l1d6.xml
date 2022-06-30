@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,51 +7,44 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
-          <title>Liber I, Distinctio 6 [Aarau Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 6</title>
           <date when="2015-07-05">July 05, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-07-05">July 05, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+          <witness xml:id="A" n="wettf15">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-05" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-07-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <cb ed="#A" n="109va" select="kba-WettF0015_109v.json"/>
+        <pb ed="#A" n="109-v"/>
+        <cb ed="#A" n="a"/>
       </div>
     </front>
     <body>
@@ -64,57 +54,60 @@
           <head type="question-title">Utrum Pater genuerit Filium necessitate</head>
           <!-- this would be a good pargraph to tag with the subject tag of neccessitas because there is a significant discussion of the term here -->
           <p xml:id="wdr-l1d6-d1e107">
-            <lb ed="#A"/>Queritur utrum pater genuerit filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio 
-            <lb ed="#A"/>secundum <name ref="#Aristotle">philosophum</name> V <title ref="#Metaphysics">metaphysicae</title> et <name ref="#Averroes">commentatorem</name> <mentioned><choice><orig>Neccessarium</orig><reg>Necessarium</reg></choice></mentioned> dicitur uno 
-            <lb ed="#A"/>modo quod omnino et per se est immutabile et hoc tantum simpliciter est 
-            <lb ed="#A"/><choice><orig>neccessarium</orig><reg>necessarium</reg></choice> <g ref="#dot"/> <g ref="#slash"/> alio modo <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> indigentiae <g ref="#dot"/> <g ref="#slash"/> tertio modo 
-            <lb ed="#A"/>violentiae scilicet coactionis vel prohibitionis <g ref="#dot"/> <g ref="#slash"/> quarto modo 
-            <lb ed="#A"/>expedientiae <g ref="#dot"/> <g ref="#slash"/> quinto modo immutabilitatis ut solem 
-            <lb ed="#A"/>lucem <g ref="#dot"/> <g ref="#slash"/> Primo modo Pater Filium genuerit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> sed non aliis 
-            <lb ed="#A"/>modis <g ref="#slash"/> tamen quia <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> communiter sonat in coactio<lb ed="#A"/>nem 
-            vel indigentiam et sic etiam haeretici accipiebant <g ref="#dot"/> 
-            <lb ed="#A"/>ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name>
+            <lb ed="#A" n="19"/>Queritur utrum pater genuerit filium <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Responsio 
+            <lb ed="#A" n="20"/>secundum <name ref="#Aristotle">philosophum</name> V <title ref="#Metaphysics">metaphysicae</title> et <name ref="#Averroes">commentatorem</name> <mentioned><choice><orig>Neccessarium</orig><reg>Necessarium</reg></choice></mentioned> dicitur uno 
+            <lb ed="#A" n="21"/>modo quod omnino et per se est immutabile et hoc tantum simpliciter est 
+            <lb ed="#A" n="22"/><choice><orig>neccessarium</orig><reg>necessarium</reg></choice> <g ref="#dot"/> <g ref="#slash"/> alio modo <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> indigentiae <g ref="#dot"/> <g ref="#slash"/> tertio modo 
+            <lb ed="#A" n="23"/>violentiae scilicet coactionis vel prohibitionis <g ref="#dot"/> <g ref="#slash"/> quarto modo 
+            <lb ed="#A" n="24"/>expedientiae <g ref="#dot"/> <g ref="#slash"/> quinto modo immutabilitatis ut solem 
+            <lb ed="#A" n="25"/>lucem <g ref="#dot"/> <g ref="#slash"/> Primo modo Pater Filium genuerit <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> sed non aliis 
+            <lb ed="#A" n="26"/>modis <g ref="#slash"/> tamen quia <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> communiter sonat in 
+            coactio<lb ed="#A" n="27" break="no"/>nem vel indigentiam et sic etiam haeretici accipiebant <g ref="#dot"/> 
+            <lb ed="#A" n="28"/>ideo communiter negatur a sanctis <g ref="#dot"/> etiam in litera <name ref="#Augustine">augustini</name>
           </p>
         </div>
         <div xml:id="wdr-l1d6q2" type="quaestio">
           <head type="question-title">Utrum Pater genuerit Filium voluntate</head>
           <!-- subject tag for "voluntas" -->
           <p xml:id="wdr-l1d6-d1e219">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum voluntate Responsio Quadruplex est voluntas scilicet antece<lb ed="#A"/>dens 
-            <g ref="#dot"/> accedens <g ref="#dot"/> concomitans <g ref="#dot"/> et consequens <g ref="#dot"/> <g ref="#slash"/> Per primam 
-            <lb ed="#A"/>placet opus fiendum antequam fiat <g ref="#dot"/> Per secundam volumus 
-            <lb ed="#A"/>aliquid quod ante non voluimus <g ref="#dot"/> ut dicitur in littera Per tertiam placet 
-            <lb ed="#A"/>opus dum fit <g ref="#dot"/> Per quartam dum factum est <g ref="#dot"/> <g ref="#slash"/> prima est in deo 
-            <lb ed="#A"/>tantum respectu creaturarum <g ref="#dot"/> secunda respectu nullius <g ref="#dot"/> tertia respectu omnium quae ab ip<lb ed="#A"/>so 
-            procedunt <g ref="#dot"/> similiter et quarta <g ref="#dot"/> sic ergo posset concedi scilicet 
-            <lb ed="#A"/>de tertia voluntate <g ref="#slash"/> quod voluntate eum genuerit <g ref="#slash"/> sed quia haeretici pro 
-            <lb ed="#A"/>voluntate antecedente acceperunt <g ref="#slash"/> ideo negatur ab <name ref="#Augustine">augustino</name> 
-            <lb ed="#A"/>in littera <g ref="#dot"/></p>
+            <lb ed="#A" n="29"/><g ref="#pilcrow"/>Utrum genuerit eum voluntate Responsio Quadruplex est voluntas scilicet 
+            antece<lb ed="#A" n="30" break="no"/>dens <g ref="#dot"/> accedens <g ref="#dot"/> concomitans <g ref="#dot"/> et consequens <g ref="#dot"/> <g ref="#slash"/> Per primam 
+            <lb ed="#A" n="31"/>placet opus fiendum antequam fiat <g ref="#dot"/> Per secundam volumus 
+            <lb ed="#A" n="32"/>aliquid quod ante non voluimus <g ref="#dot"/> ut dicitur in littera Per tertiam placet 
+            <lb ed="#A" n="33"/>opus dum fit <g ref="#dot"/> Per quartam dum factum est <g ref="#dot"/> <g ref="#slash"/> prima est in deo 
+            <lb ed="#A" n="34"/>tantum respectu creaturarum <g ref="#dot"/> secunda respectu nullius <g ref="#dot"/> tertia respectu omnium quae ab 
+            ip<lb ed="#A" n="35" break="no"/>so procedunt <g ref="#dot"/> similiter et quarta <g ref="#dot"/> sic ergo posset concedi scilicet 
+            <lb ed="#A" n="36"/>de tertia voluntate <g ref="#slash"/> quod voluntate eum genuerit <g ref="#slash"/> sed quia haeretici pro 
+            <lb ed="#A" n="37"/>voluntate antecedente acceperunt <g ref="#slash"/> ideo negatur ab <name ref="#Augustine">augustino</name> 
+            <lb ed="#A" n="38"/>in littera <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q3" type="quaestio">
           <head type="question-title">Utrum Pater genuerit Filium natura</head>
           <p xml:id="wdr-l1d6-d1e306">
-            <cb ed="#A" n="109vb" select="kba-WettF0015_109v.json"/><lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit 
-            <lb ed="#A"/><name ref="#Augustine">augustinus</name> in littera quia generare est actus naturae <g ref="#dot"/></p>
+            <cb ed="#A" n="b"/><!-- 109vb -->
+            <lb ed="#A" n="39"/><g ref="#pilcrow"/>Utrum genuerit eum natura Responsio sic <g ref="#dot"/> quia est natura filius <g ref="#dot"/> ut dicit 
+            <lb ed="#A" n="40"/><name ref="#Augustine">augustinus</name> in littera quia generare est actus naturae <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q4" type="quaestio">
           <head type="question-title">Utrum Pater genuerit Filium secundum rationem exemplaris vel ideae</head>
           <p xml:id="wdr-l1d6-d1e332">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum genuerit eum secundum rationem <sic>exemplaris</sic> vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> Responsio 
-            <lb ed="#A"/>aliquid procedere secundum rationem exemplaris vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> dupliciter potest intel<lb ed="#A"/>ligi 
-            scilicet vel ut exemplatum <g ref="#dot"/> vel ut ratio exemplandi alia <g ref="#dot"/> <g ref="#slash"/> primo modo 
-            <lb ed="#A"/>procedit creatura <g ref="#dot"/> secundum modo filius <g ref="#dot"/> unde <name ref="#Augustine">augustinus</name> Qui negat <choice><orig>yde<lb ed="#A"/>as</orig><reg>ide<lb ed="#A"/>as</reg></choice> 
+            <lb ed="#A" n="41"/><g ref="#pilcrow"/>Utrum genuerit eum secundum rationem <sic>exemplaris</sic> vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> Responsio 
+            <lb ed="#A" n="42"/>aliquid procedere secundum rationem exemplaris vel <choice><orig>ydeae</orig><reg>ideae</reg></choice> dupliciter potest 
+            intel<lb ed="#A" n="43" break="no"/>ligi scilicet vel ut exemplatum <g ref="#dot"/> vel ut ratio exemplandi alia <g ref="#dot"/> <g ref="#slash"/> primo modo 
+            <lb ed="#A" n="44"/>procedit creatura <g ref="#dot"/> secundum modo filius <g ref="#dot"/> unde <name ref="#Augustine">augustinus</name> Qui negat <choice><orig>
+            yde<lb ed="#A" n="45" break="no"/>as </orig><reg>
+            ide<lb ed="#A" n="45" break="no"/>as </reg></choice> 
             esse <g ref="#slash"/> negat filium dei esse <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d6q5" type="quaestio">
           <head type="question-title">Utrum Pater et Filius spirent Spiritum Sanctum voluntate vel necessitate</head>
           <p xml:id="wdr-l1d6-d1e398">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate vel <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> 
-            <lb ed="#A"/>Responsio Triplex est productio a natura vel a voluntate <g ref="#dot"/> <g ref="#slash"/> scilicet a natura solum <g ref="#dot"/> 
-            <lb ed="#A"/>sic filius <g ref="#dot"/> vel a voluntate solum <g ref="#slash"/> sic creatura <g ref="#dot"/> <g ref="#slash"/> vel ab utroque 
-            <lb ed="#A"/>simul <g ref="#slash"/> sic spiritus sanctus <g ref="#dot"/> quia et procedit ut amore secundum <name ref="#RichardOfStVictor">Richardum</name> <g ref="#dot"/> 
-            <lb ed="#A"/>et etiam spirant eum naturali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> loquendo de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
-            <lb ed="#A"/>immutabilitatis non indigentiae <g ref="#slash"/> vel violentiae <g ref="#slash"/> vel expe<!-- drops to next line -->dientiae
+            <lb ed="#A" n="46"/><g ref="#pilcrow"/>Utrum pater et filius spirent sanctum voluntate vel <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> 
+            <lb ed="#A" n="47"/>Responsio Triplex est productio a natura vel a voluntate <g ref="#dot"/> <g ref="#slash"/> scilicet a natura solum <g ref="#dot"/> 
+            <lb ed="#A" n="48"/>sic filius <g ref="#dot"/> vel a voluntate solum <g ref="#slash"/> sic creatura <g ref="#dot"/> <g ref="#slash"/> vel ab utroque 
+            <lb ed="#A" n="49"/>simul <g ref="#slash"/> sic spiritus sanctus <g ref="#dot"/> quia et procedit ut amore secundum <name ref="#RichardOfStVictor">Richardum</name> <g ref="#dot"/> 
+            <lb ed="#A" n="50"/>et etiam spirant eum naturali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#dot"/> loquendo de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
+            <lb ed="#A" n="51"/>immutabilitatis non indigentiae <g ref="#slash"/> vel violentiae <g ref="#slash"/> vel expe<!-- drops to next line -->dientiae
           </p>
         </div>
       </div>

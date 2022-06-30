@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,51 +7,44 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
-          <title>Liber I, Distinctio 9 [Aarau Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 9</title>
           <date when="2015-07-18">July 18, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-07-18">July 18, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+          <witness xml:id="A" n="wettf15">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-18" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-07-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <cb ed="#A" n="110va" select="kba-WettF0015_110v.json"/>
+        <pb ed="#A" n="110-v"/>
+        <cb ed="#A" n="a"/>
       </div>
     </front>
     <body>
@@ -63,76 +53,78 @@
         <div xml:id="wdr-l1d9q1" type="quaestio">
           <head type="question-title">Utrum propter generationem distinguatur Pater a Filio</head>
           <p xml:id="wdr-l1d9-d1e105">
-            <lb ed="#A"/>Quaeritur utrum propter generationem distinguatur pater 
-            <lb ed="#A"/>a filio personaliter Responsio sic <g ref="#dot"/> <g ref="#slash"/> quia essentia non generatur 
-            Sed <choice><orig>ypostasis</orig><reg>hypostasis</reg></choice> <g ref="#dot"/> nulla autem res seipsa gignit <g ref="#slash"/> secundum <name ref="#Augustine">augustinum</name> <g ref="#dot"/>
+            <lb ed="#A" n="36"/>Quaeritur utrum propter generationem distinguatur pater 
+            <lb ed="#A" n="37"/>a filio personaliter Responsio sic <g ref="#dot"/> <g ref="#slash"/> quia essentia non generatur sed 
+            <lb ed="#A" n="38"/><choice><orig>ypostasis</orig><reg>hypostasis</reg></choice> <g ref="#dot"/> nulla autem res seipsa gignit <g ref="#slash"/> secundum <name ref="#Augustine">augustinum</name> <g ref="#dot"/>
           </p>
         </div>
         <div xml:id="wdr-l1d9q2" type="quaestio">
           <head type="question-title">Utrum Filius possit dici alius a Patre</head>
           <p xml:id="wdr-l1d9-d1e147">
-            <cb ed="#A" n="110vb" select="kba-WettF0015_110v.json"/>
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum filius possit dici alius a patre Responsio sic <g ref="#dot"/> sed non aliud hoc 
-            <lb ed="#A"/><name ref="#Augustine">augustinum</name> in littera quia aliud significat diversitatem substantialem in essentia scilicet 
-            <lb ed="#A"/>propter neutrum genus quod indistinctum est <g ref="#slash"/> sicut essentia <g ref="#dot"/> <g ref="#slash"/> et quia 
-            <lb ed="#A"/>adiectam in neutro genere tantum <unclear>substantiantur</unclear> alius autem 
-            <lb ed="#A"/>dicit diversitatem tantum in persona <g ref="#dot"/> <g ref="#slash"/> quia masculum genus distinc<lb ed="#A"/>tum 
-            est <g ref="#slash"/> et <unclear>adiectem</unclear> tantum tenetur <g ref="#dot"/> unde alius dicit diversitatem  <!-- drops line --> secundum naturam termini sibi iuncti</p>
+            <cb ed="#A" n="b"/> <!-- 110vb -->
+            <lb ed="#A" n="39"/><g ref="#pilcrow"/>Utrum filius possit dici alius a patre Responsio sic <g ref="#dot"/> sed non aliud hoc 
+            <lb ed="#A" n="40"/><name ref="#Augustine">augustinum</name> in littera quia aliud significat diversitatem substantialem in essentia scilicet 
+            <lb ed="#A" n="41"/>propter neutrum genus quod indistinctum est <g ref="#slash"/> sicut essentia <g ref="#dot"/> <g ref="#slash"/> et quia 
+            <lb ed="#A" n="42"/>adiectam in neutro genere tantum <unclear>substantiantur</unclear> alius autem 
+            <lb ed="#A" n="43"/>dicit diversitatem tantum in persona <g ref="#dot"/> <g ref="#slash"/> quia masculum genus 
+            distinc<lb ed="#A" n="44" break="no"/>tum est <g ref="#slash"/> et <unclear>adiectem</unclear> tantum tenetur <g ref="#dot"/> unde alius dicit diversitatem  <!-- drops line --> secundum naturam termini sibi iuncti</p>
         </div>
         <div xml:id="wdr-l1d9q3" type="quaestio">
           <head type="question-title">Utrum Pater sit prior Filio</head>
           <p xml:id="wdr-l1d9-d1e200">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater sit prior filio Responsio <name ref="#Ambrose">Ambrosiorum</name> 
-            <lb ed="#A"/>in littera <g ref="#dot"/> quod non <g ref="#dot"/> quia nec est prioritas in essentia <g ref="#slash"/> quae una est <g ref="#dot"/> 
-            <lb ed="#A"/>nec in relatione <g ref="#slash"/> quia relata sunt simul natura <g ref="#dot"/> <g ref="#slash"/> nec in <choice><orig>ypostasibus</orig><reg>hypostasibus</reg></choice> 
-            <lb ed="#A"/>secundum rem <g ref="#dot"/> licet secundum intellectum prius intelligatur pater in se <g ref="#slash"/> quam in <!-- drop line --> relatione ad filium <g ref="#dot"/></p>
+            <lb ed="#A" n="45"/><g ref="#pilcrow"/>Utrum pater sit prior filio Responsio <name ref="#Ambrose">Ambrosiorum</name> 
+            <lb ed="#A" n="46"/>in littera <g ref="#dot"/> quod non <g ref="#dot"/> quia nec est prioritas in essentia <g ref="#slash"/> quae una est <g ref="#dot"/> 
+            <lb ed="#A" n="47"/>nec in relatione <g ref="#slash"/> quia relata sunt simul natura <g ref="#dot"/> <g ref="#slash"/> nec in <choice><orig>ypostasibus</orig><reg>hypostasibus</reg></choice> 
+            <lb ed="#A" n="48"/>secundum rem <g ref="#dot"/> licet secundum intellectum prius intelligatur pater in se <g ref="#slash"/> quam in <!-- drop line --> relatione ad filium <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d9q4" type="quaestio">
           <head type="question-title">Utrum Filius sit prior Spiritu Sancto</head>
           <p xml:id="wdr-l1d9-d1e257">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum filius sit prior spiritu sancto <g ref="dot"/> 
-            <lb ed="#A"/>Responsio non <g ref="#dot"/> quia ibi nihil est prius aut posterius secundum <name ref="#Athanasius">athanasium</name> <g ref="#dot"/> nam nec 
-            <lb ed="#A"/>prior est in essentia <g ref="#slash"/> nec propter spirationem <g ref="#slash"/> quia secundum hanc corollative 
-            <lb ed="#A"/>dicitur <g ref="#slash"/> nec ratione filiationis <g ref="#slash"/> quia sic <choice><orig>ymago</orig><reg>imago</reg></choice> dicitur <g ref="#slash"/> qua cum 
-            <lb ed="#A"/>patre convenit in natura <g ref="#slash"/> et modo naturae scilicet alterum de se spirando <g ref="#dot"/></p>
+            <lb ed="#A" n="49"/><g ref="#pilcrow"/>Utrum filius sit prior spiritu sancto <g ref="dot"/> 
+            <lb ed="#A" n="50"/>Responsio non <g ref="#dot"/> quia ibi nihil est prius aut posterius secundum <name ref="#Athanasius">athanasium</name> <g ref="#dot"/> nam nec 
+            <lb ed="#A" n="51"/>prior est in essentia <g ref="#slash"/> nec propter spirationem <g ref="#slash"/> quia secundum hanc corollative 
+            <lb ed="#A" n="52"/>dicitur <g ref="#slash"/> nec ratione filiationis <g ref="#slash"/> quia sic <choice><orig>ymago</orig><reg>imago</reg></choice> dicitur <g ref="#slash"/> qua cum 
+            <lb ed="#A" n="53"/>patre convenit in natura <g ref="#slash"/> et modo naturae scilicet alterum de se spirando <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d9q5" type="quaestio">
           <head type="question-title">Utrum generatio Filii sit aeterna</head>
           <p xml:id="wdr-l1d9-d1e318">
-            <lb ed="#A"/><g ref="#pilcrow"/>utrum generatio filii sit aeterna Responsio <name ref="#Augustine">augustinus</name> in littera sic <g ref="#dot"/> <g ref="#slash"/> quia cum 
-            sit de substantia patris <g ref="#slash"/> non potuisset incepisse sine muta<!-- drops line -->tione</p>
+            <lb ed="#A" n="54"/><g ref="#pilcrow"/>utrum generatio filii sit aeterna Responsio <name ref="#Augustine">augustinus</name> in littera sic <g ref="#dot"/> <g ref="#slash"/> quia cum 
+            <lb ed="#A" n="55"/>sit de substantia patris <g ref="#slash"/> non potuisset incepisse sine muta<!-- drops line -->tione</p>
         </div>
         <div xml:id="wdr-l1d9q6" type="quaestio">
           <head type="question-title">Utrum Pater et Filius possint dici plures aeterni</head>
           <p xml:id="wdr-l1d9-d1e348">
-            <lb ed="#A"/><g ref="#pilcrow"/>Utrum pater et filius possint dici plures aeterni Responsio non 
-            <lb ed="#A"/>si aeternus tenetur <unclear>substantem</unclear> <g ref="#dot"/> <g ref="#slash"/> Si autem <unclear>adiectem</unclear> tenetur <g ref="#slash"/> potest dici 
-            <lb ed="#A"/><g ref="#slash"/>unde <unclear>notat</unclear> generaliter quod termini pure stabiles substantiales non possunt de personis 
-            in plurali <g ref="#dot"/> ut deus <g ref="#dot"/> quia significaretur diversitas 
-            <lb ed="#A"/>essentiae <g ref="#dot"/> <g ref="#slash"/> termini per modum accidentium se habentes bene possunt 
-            <lb ed="#A"/>et debent <g ref="#dot"/> ut verba <g ref="#dot"/> et particula <g ref="#dot"/> et nomina verbalia ut sunt 
-            <lb ed="#A"/>existentes <g ref="#slash"/> spiratores <g ref="#dot"/> <g ref="#slash"/> qui vero aliquando accipiuntur substan<lb ed="#A"/>tive 
-            <g ref="#slash"/> aliquando <unclear>adiectem</unclear> <g ref="#slash"/> ut nomina significantia proprietates 
-            <lb ed="#A"/><unclear>consequentes</unclear> essentiam secundum modum intelligendi ut est aeternitas <g ref="#dot"/> 
-            <lb ed="#A"/>bonitas <g ref="#dot"/> et huiusmodi <g ref="#dot"/> isti secundum hoc possunt dici in singulari vel in plurali <!-- drops line --> secundum quod tunc accipiuntur</p>
+            <lb ed="#A" n="56"/><g ref="#pilcrow"/>Utrum pater et filius possint dici plures aeterni Responsio non 
+            <lb ed="#A" n="57"/>si aeternus tenetur <unclear>substantem</unclear> <g ref="#dot"/> <g ref="#slash"/> Si autem <unclear>adiectem</unclear> tenetur <g ref="#slash"/> potest dici 
+            <lb ed="#A" n="58"/><g ref="#slash"/>unde <unclear>notat</unclear> generaliter quod termini pure stabiles substantiales non possunt 
+            <lb ed="#A" n="59"/> dici de personis in plurali <g ref="#dot"/> ut deus <g ref="#dot"/> quia significaretur diversitas 
+            <lb ed="#A" n="60"/>essentiae <g ref="#dot"/> <g ref="#slash"/> termini per modum accidentium se habentes bene possunt 
+            <lb ed="#A" n="61"/>et debent <g ref="#dot"/> ut verba <g ref="#dot"/> et particula <g ref="#dot"/> et nomina verbalia ut sunt 
+            <lb ed="#A" n="62"/>existentes <g ref="#slash"/> spiratores <g ref="#dot"/> <g ref="#slash"/> qui vero aliquando accipiuntur 
+            substan<lb ed="#A" n="63" break="no"/>tive <g ref="#slash"/> aliquando <unclear>adiectem</unclear> <g ref="#slash"/> ut nomina significantia proprietates 
+            <lb ed="#A" n="64"/><unclear>consequentes</unclear> essentiam secundum modum intelligendi ut est aeternitas <g ref="#dot"/> 
+            <lb ed="#A" n="65"/>bonitas <g ref="#dot"/> et huiusmodi <g ref="#dot"/> isti secundum hoc possunt dici in singulari vel in plurali <!-- drops line --> secundum quod tunc accipiuntur</p>
         </div>
         <div xml:id="wdr-l1d9q7" type="quaestio">
           <head type="question-title">Utrum generatio Filii sit semper in fieri</head>
-          <p  xml:id="wdr-l1d9-d1e450">
-            <g ref="#pilcrow"/>Utrum generatio filii sit semper in fieri <g ref="#dot"/> vel in 
-            <lb ed="#A"/>facto esse Responsio Generatio filii aeterna est <g ref="#dot"/> et ideo nec in fieri <g ref="#dot"/> nec 
-            <lb ed="#A"/>in facto esse <g ref="#dot"/> sed in esse invariabili <g ref="#slash"/> non ullo motu vel mu<!-- drops line -->tatione</p>
+          <p xml:id="wdr-l1d9-d1e450">
+            <lb ed="#A" n="66"/><g ref="#pilcrow"/>Utrum generatio filii sit semper in fieri <g ref="#dot"/> vel in 
+            <lb ed="#A" n="67"/>facto esse Responsio Generatio filii aeterna est <g ref="#dot"/> et ideo nec in fieri <g ref="#dot"/> nec 
+            <lb ed="#A" n="68"/>in facto esse <g ref="#dot"/> sed in esse invariabili <g ref="#slash"/> non ullo motu vel mu<!-- drops line -->tatione
+          </p>
         </div>
         <div xml:id="wdr-l1d9q8" type="quaestio">
           <head type="question-title">Utrum significetur melius vel ut in esse vel ut in fieri</head>
-          <p xml:id="wdr-l1d9-d1e483"><lb ed="#A"/><g ref="#pilcrow"/>Utrum significetur melius vel ut in esse <g ref="#dot"/> vel ut in fieri 
-            <lb ed="#A"/>Responsio <g ref="#dot"/> secundum <name ref="#GregoryGreat">gregorium</name> et <name>augustinum</name> in littera <g ref="#dot"/> melius dicitur semper natus est <g ref="#dot"/> in quo 
-            <lb ed="#A"/>notatur nativitas et permanens <g ref="#dot"/> et perfecta <g ref="#dot"/> <g ref="#slash"/> praeteritum enim per<lb ed="#A"/>fectum 
-            secundum quod exponitur per est <g ref="#dot"/> notatur terminus praesens <g ref="#slash"/> licet actus 
-            <lb ed="#A"/>sit praeteritus <g ref="#dot"/> <g ref="#slash"/> semper ullo nasci dicit praesentialitatem et ideo hoc 
-            <lb ed="#A"/>etiam potest dici secundum <name ref="#Origen">originem</name> <g ref="#dot"/> in littera <g ref="#dot"/> <g ref="#slash"/> tantum non dicit perfectionem <g ref="#dot"/> et ideo negat 
-            <lb ed="#A"/>eam <name ref="#GregoryGreat">gregorius</name> in littera <g ref="#dot"/> et ideo primum melius et expressius dicitur <g ref="#slash"/> per futurum 
-            <lb ed="#A"/>autem non potest significari <g ref="#dot"/> quia nec perfectionem <g ref="#dot"/> nec actualitatem dicit <g ref="#dot"/>
+          <p xml:id="wdr-l1d9-d1e483">
+            <lb ed="#A" n="69"/><g ref="#pilcrow"/>Utrum significetur melius vel ut in esse <g ref="#dot"/> vel ut in fieri 
+            <lb ed="#A" n="70"/>Responsio <g ref="#dot"/> secundum <name ref="#GregoryGreat">gregorium</name> et <name>augustinum</name> in littera <g ref="#dot"/> melius dicitur semper natus est <g ref="#dot"/> in quo 
+            <lb ed="#A" n="71"/>notatur nativitas et permanens <g ref="#dot"/> et perfecta <g ref="#dot"/> <g ref="#slash"/> praeteritum enim 
+            per<lb ed="#A" n="72" break="no"/>fectum secundum quod exponitur per est <g ref="#dot"/> notatur terminus praesens <g ref="#slash"/> licet actus 
+            <lb ed="#A" n="73"/>sit praeteritus <g ref="#dot"/> <g ref="#slash"/> semper ullo nasci dicit praesentialitatem et ideo hoc 
+            <lb ed="#A" n="74"/>etiam potest dici secundum <name ref="#Origen">originem</name> <g ref="#dot"/> in littera <g ref="#dot"/> <g ref="#slash"/> tantum non dicit perfectionem <g ref="#dot"/> et ideo negat 
+            <lb ed="#A" n="75"/>eam <name ref="#GregoryGreat">gregorius</name> in littera <g ref="#dot"/> et ideo primum melius et expressius dicitur <g ref="#slash"/> per futurum 
+            <lb ed="#A" n="76"/>autem non potest significari <g ref="#dot"/> quia nec perfectionem <g ref="#dot"/> nec actualitatem dicit <g ref="#dot"/>
           </p>
         </div>
       </div>

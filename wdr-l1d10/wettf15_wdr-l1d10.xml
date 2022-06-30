@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,51 +7,44 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.07-dev-master">
-          <title>Liber I, Distinctio 10 [Aarau Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 10</title>
           <date when="2015-07-26">July 26, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-07-26">July 26, 2015</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="wettf15" xml:base="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
+          <witness xml:id="A" n="wettf15">Aarau, Aargauer Kantonsbibliothek, MsWettF 15</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-07-26" who="#JW" status="draft" n="2015.07">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-07-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
-  
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
-          xpointer="worksCited"/>
-        <xi:include
-          href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
-          xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <cb ed="#A" n="111ra" select="kba-WettF0015_111r.json"/>
+        <pb ed="#A" n="111-r"/>
+        <cb ed="#A" n="a"/>
       </div>
     </front>
     <body>
@@ -62,57 +52,65 @@
         <head>Liber I, Distinctio 10 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d10q1" type="quaestio">
           <head type="question-title">Utrum in divinis sint plures modis procedendi quam duo</head>
-          <p><lb ed="#A"/>Quaeritur utrum in divinis sint plures modi procedendi 
-            <lb ed="#A"/>quam duo Responsio non quia sola relatio in divinis distinguit 
-            <lb ed="#A"/>hanc autem relationem oportet esse originis <g ref="#dot"/> determinatam <g ref="#dot"/> habentem 
-            <lb ed="#A"/>perfectionem alicuius dignitatis et sine <choice><orig>hiis</orig><reg>his</reg></choice> non fit distinctio 
-            <lb ed="#A"/>personae <g ref="#dot"/> <g ref="#slash"/> hiis autem servatis <g ref="#slash"/> non potest esse processio <g ref="#slash"/> nisi per modum 
-            <lb ed="#A"/>naturae vel voluntatis</p>
+          <p>
+            <lb ed="#A" n="1"/>Quaeritur utrum in divinis sint plures modi procedendi 
+            <lb ed="#A" n="2"/>quam duo Responsio non quia sola relatio in divinis distinguit 
+            <lb ed="#A" n="3"/>hanc autem relationem oportet esse originis <g ref="#dot"/> determinatam <g ref="#dot"/> habentem 
+            <lb ed="#A" n="4"/>perfectionem alicuius dignitatis et sine <choice><orig>hiis</orig><reg>his</reg></choice> non fit distinctio 
+            <lb ed="#A" n="5"/>personae <g ref="#dot"/> <g ref="#slash"/> hiis autem servatis <g ref="#slash"/> non potest esse processio <g ref="#slash"/> nisi per modum 
+            <lb ed="#A" n="6"/>naturae vel voluntatis</p>
         </div>
         <div xml:id="wdr-l1d10q2" type="quaestio">
           <head type="question-title">Utrum spiritus sanctus procedat ut amore patris et filii</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Responsio spiritus sanctus procedat ut amore patris et filii Responsio 
-            <lb ed="#A"/>sic <g ref="#dot"/> secundum <name ref="#Jerome">Ieromum</name> et <name ref="#Augustine">augustinum</name> in littera <g ref="#dot"/> quia bonum increatum dicitur diffundit 
-            <lb ed="#A"/>se sicut et bonum creatum scilicet per modum naturae et voluntatis <g ref="#slash"/> et iterum pater 
-            <lb ed="#A"/>et filius secundum quod sunt distinctae personae <g ref="#slash"/> non sunt sine amore <g ref="#dot"/> 
-            <lb ed="#A"/>Ille autem non potest esse accidens <g ref="#dot"/> ergo substantia</p>
+          <p>
+            <lb ed="#A" n="7"/><g ref="#pilcrow"/>Responsio spiritus sanctus procedat ut amore patris et filii Responsio 
+            <lb ed="#A" n="8"/>sic <g ref="#dot"/> secundum <name ref="#Jerome">Ieromum</name> et <name ref="#Augustine">augustinum</name> in littera <g ref="#dot"/> quia bonum increatum dicitur diffundit 
+            <lb ed="#A" n="9"/>se sicut et bonum creatum scilicet per modum naturae et voluntatis <g ref="#slash"/> et iterum pater 
+            <lb ed="#A" n="10"/>et filius secundum quod sunt distinctae personae <g ref="#slash"/> non sunt sine amore <g ref="#dot"/> 
+            <lb ed="#A" n="11"/>Ille autem non potest esse accidens <g ref="#dot"/> ergo substantia</p>
         </div>
         <div xml:id="wdr-l1d10q3" type="quaestio">
           <head type="question-title">utrum spiritus sanctus sit caritas sive amor proprie vel appropriate tantum</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit caritas sive amore proprie vel appropri<lb ed="#A"/>ate 
-            tantum Responsio Triplex amor est in divinis scilicet essentialis quo 
-            <lb ed="#A"/>unum sunt <g ref="#slash"/> naturaliter se diligendo <g ref="#slash"/> <!-- fancy slash --> notionalis quo unum sunt in 
-            <lb ed="#A"/>spirando <g ref="#slash"/> qui est communis spiratio <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> personalis <g ref="#dot"/> quo convertuntur 
-            <lb ed="#A"/>in amore spirato scilicet spiritu sancto <g ref="#dot"/> <g ref="#slash"/> primus intellectualiter cum dicitur 
-            <lb ed="#A"/>Pater diligit se <g ref="#dot"/> filius <g ref="#dot"/> diligit <g ref="#dot"/> se etc et hic communis est tribus <g ref="#dot"/> <g ref="#slash"/> secundis 
-            <lb ed="#A"/>cum dicitur pater et ilius diligunt se spiritu sancto <g ref="#dot"/> et tantum est est in patre 
-            <lb ed="#A"/>et filio <g ref="#dot"/> <g ref="#slash"/> tertius cum dicitur spiritus sanctus amore est <g ref="#dot"/> et hic proprius 
-            <lb ed="#A"/>est spiritui sancto <g ref="#dot"/> immo ipse est spiritus sanctus <g ref="#dot"/> <g ref="#slash"/> primus nullo appropria<lb ed="#A"/>tur 
-            ei propter maiorem similitudinem <g ref="#slash"/> secundus autem non appropriatur ei hoc 
-            <lb ed="#A"/>habentur hinc inde ab <name ref="#Augustine">augustino</name> in littera</p>
+          <p>
+            <lb ed="#A" n="12"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit caritas sive amore proprie vel 
+            appropri<lb ed="#A" n="13" break="no"/>ate tantum Responsio Triplex amor est in divinis scilicet essentialis quo 
+            <lb ed="#A" n="14"/>unum sunt <g ref="#slash"/> naturaliter se diligendo <g ref="#slash"/> <!-- fancy slash --> notionalis quo unum sunt in 
+            <lb ed="#A" n="15"/>spirando <g ref="#slash"/> qui est communis spiratio <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> personalis <g ref="#dot"/> quo convertuntur 
+            <lb ed="#A" n="16"/>in amore spirato scilicet spiritu sancto <g ref="#dot"/> <g ref="#slash"/> primus intellectualiter cum dicitur 
+            <lb ed="#A" n="17"/>Pater diligit se <g ref="#dot"/> filius <g ref="#dot"/> diligit <g ref="#dot"/> se etc et hic communis est tribus <g ref="#dot"/> <g ref="#slash"/> secundis 
+            <lb ed="#A" n="18"/>cum dicitur pater et ilius diligunt se spiritu sancto <g ref="#dot"/> et tantum est est in patre 
+            <lb ed="#A" n="19"/>et filio <g ref="#dot"/> <g ref="#slash"/> tertius cum dicitur spiritus sanctus amore est <g ref="#dot"/> et hic proprius 
+            <lb ed="#A" n="20"/>est spiritui sancto <g ref="#dot"/> immo ipse est spiritus sanctus <g ref="#dot"/> <g ref="#slash"/> primus nullo 
+            appropria<lb ed="#A" n="21" break="no"/>tur ei propter maiorem similitudinem <g ref="#slash"/> secundus autem non appropriatur ei hoc 
+            <lb ed="#A" n="22"/>habentur hinc inde ab <name ref="#Augustine">augustino</name> in littera</p>
         </div>
         <div xml:id="wdr-l1d10q4" type="quaestio">
           <head type="question-title">Utrum procedat a patre in filium et econverso</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum procedat a patre in filium et econverso Responsio sic scilicet secundum quod aliquid 
-            <lb ed="#A"/>dicitur procedere in aliud tamquam in obiectum <g ref="#slash"/> seu termen actionis <g ref="#dot"/> 
-            <lb ed="#A"/>quia sic obiectum nihil recipit ab operante <g ref="#dot"/> Unde <name ref="#Jerome">Jeromus</name> in littera <g ref="#dot"/> 
-            <lb ed="#A"/>quod est dilectio quam habet pater in filium <g ref="#slash"/> et filius in patrem <g ref="#dot"/> 
-            <lb ed="#A"/>Quidam tamen nolunt hoc concedere <g ref="#slash"/> quia non invenitur expressum <g ref="#dot"/> 
-            <lb ed="#A"/><g ref="#slash"/>Secundum autem quod dicitur aliquid procedere in aliud tamquam in subiectum <g ref="#slash"/> sic neu<!--drops line-->trum verum est</p>
+          <p>
+            <lb ed="#A" n="23"/><g ref="#pilcrow"/>Utrum procedat a patre in filium et econverso Responsio sic scilicet secundum quod aliquid 
+            <lb ed="#A" n="24"/>dicitur procedere in aliud tamquam in obiectum <g ref="#slash"/> seu termen actionis <g ref="#dot"/> 
+            <lb ed="#A" n="25"/>quia sic obiectum nihil recipit ab operante <g ref="#dot"/> Unde <name ref="#Jerome">Jeromus</name> in littera <g ref="#dot"/> 
+            <lb ed="#A" n="26"/>quod est dilectio quam habet pater in filium <g ref="#slash"/> et filius in patrem <g ref="#dot"/> 
+            <lb ed="#A" n="27"/>Quidam tamen nolunt hoc concedere <g ref="#slash"/> quia non invenitur expressum <g ref="#dot"/> 
+            <lb ed="#A" n="28"/><g ref="#slash"/>Secundum autem quod dicitur aliquid procedere in aliud tamquam in subiectum <g ref="#slash"/> sic neu<!--drops line-->trum verum est</p>
         </div>
         <div xml:id="wdr-l1d10q5" type="quaestio">
           <head type="question-title">Utrum Spiritus Sanctus sit unio sive nexus patris et filii</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit unio sive nexus pa<lb ed="#A"/>tris 
-            et filii Responsio sic <g ref="#dot"/> et hoc habet ex modo procedendi quia procedit 
-            <lb ed="#A"/>ut amore <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> ex ipsa autem processione habet quod est subsistens 
-            <lb ed="#A"/>persona propter oppositum relationis <g ref="#dot"/></p>
+          <p>
+            <lb ed="#A" n="29"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit unio sive nexus 
+            pa<lb ed="#A" n="30" break="no"/>tris et filii Responsio sic <g ref="#dot"/> et hoc habet ex modo procedendi quia procedit 
+            <lb ed="#A" n="31"/>ut amore <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> ex ipsa autem processione habet quod est subsistens 
+            <lb ed="#A" n="32"/>persona propter oppositum relationis <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d10q6" type="quaestio">
           <head type="question-title">Quare tertiae personae appropriatur hoc nomen spiritus sanctus</head>
-          <p><lb ed="#A"/><g ref="#pilcrow"/>Quare tertiae personae appropriatur hoc nomen spiritus sanctus Responsio prout est <unclear>o?o</unclear> 
-            <lb ed="#A"/>sic toti trinitati convenit <g ref="#dot"/> <g ref="#slash"/> sed prout est quasi una dicto <g ref="#slash"/> sic 
-            <lb ed="#A"/>usu ecclesiae appropriatur spiritui sancto propter modum amoris 
-            <lb ed="#A"/>procedendi qui spiritualis est <g ref="#slash"/> generatio autem in nobis corporalis Item a<!-- drops next line -->mor nos spirituales facit</p>
+          <p>
+            <lb ed="#A" n="33"/><g ref="#pilcrow"/>Quare tertiae personae appropriatur hoc nomen spiritus sanctus Responsio prout est <unclear>o?o</unclear> 
+            <lb ed="#A" n="34"/>sic toti trinitati convenit <g ref="#dot"/> <g ref="#slash"/> sed prout est quasi una dicto <g ref="#slash"/> sic 
+            <lb ed="#A" n="35"/>usu ecclesiae appropriatur spiritui sancto propter modum amoris 
+            <lb ed="#A" n="36"/>procedendi qui spiritualis est <g ref="#slash"/> generatio autem in nobis corporalis Item a<!-- drops next line -->mor nos spirituales facit
+          </p>
         </div>
       </div>
     </body>
