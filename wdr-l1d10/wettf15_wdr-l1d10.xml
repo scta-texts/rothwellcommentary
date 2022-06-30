@@ -52,7 +52,7 @@
         <head>Liber I, Distinctio 10 [Aarau Transcription]</head>
         <div xml:id="wdr-l1d10q1" type="quaestio">
           <head type="question-title">Utrum in divinis sint plures modis procedendi quam duo</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e97">
             <lb ed="#A" n="1"/>Quaeritur utrum in divinis sint plures modi procedendi 
             <lb ed="#A" n="2"/>quam duo Responsio non quia sola relatio in divinis distinguit 
             <lb ed="#A" n="3"/>hanc autem relationem oportet esse originis <g ref="#dot"/> determinatam <g ref="#dot"/> habentem 
@@ -62,7 +62,7 @@
         </div>
         <div xml:id="wdr-l1d10q2" type="quaestio">
           <head type="question-title">Utrum spiritus sanctus procedat ut amore patris et filii</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e144">
             <lb ed="#A" n="7"/><g ref="#pilcrow"/>Responsio spiritus sanctus procedat ut amore patris et filii Responsio 
             <lb ed="#A" n="8"/>sic <g ref="#dot"/> secundum <name ref="#Jerome">Ieromum</name> et <name ref="#Augustine">augustinum</name> in littera <g ref="#dot"/> quia bonum increatum dicitur diffundit 
             <lb ed="#A" n="9"/>se sicut et bonum creatum scilicet per modum naturae et voluntatis <g ref="#slash"/> et iterum pater 
@@ -71,7 +71,7 @@
         </div>
         <div xml:id="wdr-l1d10q3" type="quaestio">
           <head type="question-title">utrum spiritus sanctus sit caritas sive amor proprie vel appropriate tantum</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e188">
             <lb ed="#A" n="12"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit caritas sive amore proprie vel 
             appropri<lb ed="#A" n="13" break="no"/>ate tantum Responsio Triplex amor est in divinis scilicet essentialis quo 
             <lb ed="#A" n="14"/>unum sunt <g ref="#slash"/> naturaliter se diligendo <g ref="#slash"/> <!-- fancy slash --> notionalis quo unum sunt in 
@@ -86,7 +86,7 @@
         </div>
         <div xml:id="wdr-l1d10q4" type="quaestio">
           <head type="question-title">Utrum procedat a patre in filium et econverso</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e263">
             <lb ed="#A" n="23"/><g ref="#pilcrow"/>Utrum procedat a patre in filium et econverso Responsio sic scilicet secundum quod aliquid 
             <lb ed="#A" n="24"/>dicitur procedere in aliud tamquam in obiectum <g ref="#slash"/> seu termen actionis <g ref="#dot"/> 
             <lb ed="#A" n="25"/>quia sic obiectum nihil recipit ab operante <g ref="#dot"/> Unde <name ref="#Jerome">Jeromus</name> in littera <g ref="#dot"/> 
@@ -96,7 +96,7 @@
         </div>
         <div xml:id="wdr-l1d10q5" type="quaestio">
           <head type="question-title">Utrum Spiritus Sanctus sit unio sive nexus patris et filii</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e312">
             <lb ed="#A" n="29"/><g ref="#pilcrow"/>Utrum spiritus sanctus sit unio sive nexus 
             pa<lb ed="#A" n="30" break="no"/>tris et filii Responsio sic <g ref="#dot"/> et hoc habet ex modo procedendi quia procedit 
             <lb ed="#A" n="31"/>ut amore <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> ex ipsa autem processione habet quod est subsistens 
@@ -105,7 +105,7 @@
         </div>
         <div xml:id="wdr-l1d10q6" type="quaestio">
           <head type="question-title">Quare tertiae personae appropriatur hoc nomen spiritus sanctus</head>
-          <p>
+          <p xml:id="wdr-l1d10-d1e341">
             <lb ed="#A" n="33"/><g ref="#pilcrow"/>Quare tertiae personae appropriatur hoc nomen spiritus sanctus Responsio prout est <unclear>o?o</unclear> 
             <lb ed="#A" n="34"/>sic toti trinitati convenit <g ref="#dot"/> <g ref="#slash"/> sed prout est quasi una dicto <g ref="#slash"/> sic 
             <lb ed="#A" n="35"/>usu ecclesiae appropriatur spiritui sancto propter modum amoris 

@@ -143,16 +143,17 @@
         </div>
         <div xml:id="wdr-l1d8q10" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e3987" type="question-title">Utrum omnis creatura sit mutabilis</head>
-          <p xml:id="wdrl1d8-d1e3990">Utrum omnis creatura sit mutabilis Responsio Si dicitur mutabile 
-            <lb ed="#A" n="70"/>a <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> mutationis <g ref="#slash"/> sic non omnis creatura est mutabiliter 
-            <lb ed="#A" n="71"/>si autem a possibilitate <g ref="#slash"/> sic dicitur vel a possibilitate propinqua scilicet supposito 
-            <lb ed="#A" n="72"/>ordine universi et influentia causae primae sic iterum 
-            <lb ed="#A" n="73"/>non omnis <g ref="#dot"/> vel <unclear>a possibilitate</unclear> remota scilicet subtracta influentia 
-            <lb ed="#A" n="74"/>causae primae sic omnis creatura est mutabilis</p>
+          <p xml:id="wdrl1d8-d1e3990">
+            <lb ed="#A" n="70"/>Utrum omnis creatura sit mutabilis Responsio Si dicitur mutabile 
+            <lb ed="#A" n="71"/>a <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> mutationis <g ref="#slash"/> sic non omnis creatura est mutabiliter 
+            <lb ed="#A" n="72"/>si autem a possibilitate <g ref="#slash"/> sic dicitur vel a possibilitate propinqua scilicet supposito 
+            <lb ed="#A" n="73"/>ordine universi et influentia causae primae sic iterum 
+            <lb ed="#A" n="74"/>non omnis <g ref="#dot"/> vel <unclear>a possibilitate</unclear> remota scilicet subtracta influentia 
+            <lb ed="#A" n="75"/>causae primae sic omnis creatura est mutabilis</p>
         </div>
         <div xml:id="wdr-l1d8q11" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e4022" type="question-title">Utrum in Deo sit summa simplicitas</head>
-          <p xml:id="wdrl1d8-d1e4025"><lb ed="#A" n="75"/><g ref="#pilcrow"/>utrum in deo sit summa simplicitas Responsio sic secundum <name ref="#Augustine">augustinum</name> 
+          <p xml:id="wdrl1d8-d1e4025"><lb ed="#A" n="76"/><g ref="#pilcrow"/>utrum in deo sit summa simplicitas Responsio sic secundum <name ref="#Augustine">augustinum</name> 
             <pb ed="#A" n="110-v"/>
             <cb ed="#A" n="a"/>
             <lb ed="#A" n="1"/>in littera <g ref="#slash"/> quia ex partibus non componitur nec ipse alii componitur <g ref="#dot"/>  
@@ -162,49 +163,49 @@
           <head xml:id="wdrl1d8-Hd1e4049" type="question-title">Utrum Deus sit in praedicamento substantiae</head>
           <p xml:id="wdrl1d8-d1e4052"><lb ed="#A" n="3"/><g ref="#pilcrow"/>utrum deus sit in praedicamento substantiae Responsio non immo 
             <lb ed="#A" n="4"/>in nullo praedicamento <g ref="#slash"/> quia omne tale est compositum Dicitur 
-            tamen substantia in quantum substantia dicit quid per se subsistens <g ref="#slash"/> non 
-            de<lb ed="#A" n="5" break="no"/>pendens ab alio <g ref="#slash"/> non autem in quantum dicitur a substando <g ref="#dot"/> 
-            <lb ed="#A" n="6"/>unde <name ref="#Augustine">augustinus</name> in littera quod abusive dicitur substantia <g ref="#dot"/></p>
+            <lb ed="#A" n="5"/>tamen substantia in quantum substantia dicit quid per se subsistens <g ref="#slash"/> non 
+            de<lb ed="#A" n="6" break="no"/>pendens ab alio <g ref="#slash"/> non autem in quantum dicitur a substando <g ref="#dot"/> 
+            <lb ed="#A" n="7"/>unde <name ref="#Augustine">augustinus</name> in littera quod abusive dicitur substantia <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d8q13" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e4079" type="question-title">Utrum alia praedicamenta a substantia praedicentur de Deo</head>
-          <p xml:id="wdrl1d8-d1e4082"><lb ed="#A" n="7"/><g ref="#pilcrow"/>utrum alia praedicamenta a substantia praedicentur de deo Responsio 
-            <lb ed="#A" n="8"/>Secundum <unclear><name ref="#GregoryGreat">gregoius</name></unclear> tantum duo praedicata dicuntur de deo <g ref="#slash"/> secundum <name ref="#Boethius">boetium</name> 
-            <lb ed="#A" n="9"/>et <name ref="#Augustine">augustinum</name> scilicet substantia <g ref="#dot"/> et relatio <g ref="#dot"/> quia non dicunt aliquid imperfectionis 
-            <lb ed="#A" n="10"/>quod patet de substantia <g ref="#dot"/> <g ref="#slash"/> relatio etiam dicit relatum ad aliud <g ref="#dot"/> Alia autem 
-            <lb ed="#A" n="11"/>praedicata dicunt dependentiam ad subiectum <g ref="#dot"/> <g ref="#slash"/> quaedam tamen 
-            <lb ed="#A" n="12"/>illorum secundum speciem dicuntur de deo <g ref="#dot"/> licet non secundum <unclear><name ref="#GregoryGreat">gregorium</name></unclear> scilicet quae in 
-            <lb ed="#A" n="13"/>specie dicunt aliquam perfectionem <g ref="#slash"/> ut iustitia fortitudo 
-            <lb ed="#A" n="14"/>etc <g ref="#dot"/> non tamen sunt species illorum praedicatorum secundum quod <!-- drops to next line --> dicuntur de deo <g ref="#dot"/></p>
+          <p xml:id="wdrl1d8-d1e4082"><lb ed="#A" n="8"/><g ref="#pilcrow"/>utrum alia praedicamenta a substantia praedicentur de deo Responsio 
+            <lb ed="#A" n="9"/>Secundum <unclear><name ref="#GregoryGreat">gregoius</name></unclear> tantum duo praedicata dicuntur de deo <g ref="#slash"/> secundum <name ref="#Boethius">boetium</name> 
+            <lb ed="#A" n="10"/>et <name ref="#Augustine">augustinum</name> scilicet substantia <g ref="#dot"/> et relatio <g ref="#dot"/> quia non dicunt aliquid imperfectionis 
+            <lb ed="#A" n="11"/>quod patet de substantia <g ref="#dot"/> <g ref="#slash"/> relatio etiam dicit relatum ad aliud <g ref="#dot"/> Alia autem 
+            <lb ed="#A" n="12"/>praedicata dicunt dependentiam ad subiectum <g ref="#dot"/> <g ref="#slash"/> quaedam tamen 
+            <lb ed="#A" n="13"/>illorum secundum speciem dicuntur de deo <g ref="#dot"/> licet non secundum <unclear><name ref="#GregoryGreat">gregorium</name></unclear> scilicet quae in 
+            <lb ed="#A" n="14"/>specie dicunt aliquam perfectionem <g ref="#slash"/> ut iustitia fortitudo 
+            <lb ed="#A" n="15"/>etc <g ref="#dot"/> non tamen sunt species illorum praedicatorum secundum quod <!-- drops to next line --> dicuntur de deo <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d8q14" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e4147" type="question-title">Utrum aliqua creatura sit simplex</head>
-          <p xml:id="wdrl1d8-d1e4150"><lb ed="#A" n="15"/><g ref="#pilcrow"/>Utrum aliqua creatura sit simplex Responsio 
-            <lb ed="#A" n="16"/>solus deus est pure simplex ut dictum est <g ref="#dot"/> <g ref="#slash"/> aliae autem quaedam 
-            <lb ed="#A" n="17"/>creaturae simplices dicuntur in suo genere <g ref="#slash"/> vel respectu magis 
-            <lb ed="#A" n="18"/>compositorum <g ref="#dot"/> licet omnes ad minus duas habeant 
-            com<lb ed="#A" n="19" break="no"/>positiones scilicet alicuius additi super ens compositae <g ref="#dot"/> <g ref="#slash"/> et relationis ad <!-- drops line --> suam causam</p>
+          <p xml:id="wdrl1d8-d1e4150"><lb ed="#A" n="16"/><g ref="#pilcrow"/>Utrum aliqua creatura sit simplex Responsio 
+            <lb ed="#A" n="17"/>solus deus est pure simplex ut dictum est <g ref="#dot"/> <g ref="#slash"/> aliae autem quaedam 
+            <lb ed="#A" n="18"/>creaturae simplices dicuntur in suo genere <g ref="#slash"/> vel respectu magis 
+            <lb ed="#A" n="19"/>compositorum <g ref="#dot"/> licet omnes ad minus duas habeant 
+            com<lb ed="#A" n="20" break="no"/>positiones scilicet alicuius additi super ens compositae <g ref="#dot"/> <g ref="#slash"/> et relationis ad <!-- drops line --> suam causam</p>
         </div>
         <div xml:id="wdr-l1d8q15" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e4181" type="question-title">Utrum anima sit simplex</head>
-          <p xml:id="wdrl1d8-d1e4184"><lb ed="#A" n="20"/><g ref="#pilcrow"/>utrum anima sit simplex Responsio Duplex est 
-            <lb ed="#A" n="21"/>opinio circa compositionem animae <g ref="#dot"/> Quidam dicunt <sic>eam</sic> compositam 
-            <lb ed="#A" n="22"/>ex materia spirituali et forma <g ref="#dot"/> ut dicit <name><unclear>avicebron</unclear></name> <g ref="#dot"/> eo quod habet 
-            <lb ed="#A" n="23"/>proprietates materiae <g ref="#dot"/> ut recipere <g ref="#dot"/> <g ref="#slash"/> alii dicunt compositam 
-            <lb ed="#A" n="24"/>ex <corr><add place="aboveLine">eo</add></corr> quod est id est quiditate <g ref="#dot"/> et esse scilicet actuali <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> Sed dicit quod 
-            <lb ed="#A" n="25"/>est composita compositione prioris formae <g ref="#slash"/> et sequentis id est 
-            de<lb ed="#A" n="26" break="no"/>terminantis cum determinata <g ref="#dot"/> ut esse <g ref="#slash"/> vivere <g ref="#slash"/> sentire <g ref="#slash"/> et <!-- drops lie --> intelligere <g ref="#dot"/></p>
+          <p xml:id="wdrl1d8-d1e4184"><lb ed="#A" n="21"/><g ref="#pilcrow"/>utrum anima sit simplex Responsio Duplex est 
+            <lb ed="#A" n="22"/>opinio circa compositionem animae <g ref="#dot"/> Quidam dicunt <sic>eam</sic> compositam 
+            <lb ed="#A" n="23"/>ex materia spirituali et forma <g ref="#dot"/> ut dicit <name><unclear>avicebron</unclear></name> <g ref="#dot"/> eo quod habet 
+            <lb ed="#A" n="24"/>proprietates materiae <g ref="#dot"/> ut recipere <g ref="#dot"/> <g ref="#slash"/> alii dicunt compositam 
+            <lb ed="#A" n="25"/>ex <corr><add place="aboveLine">eo</add></corr> quod est id est quiditate <g ref="#dot"/> et esse scilicet actuali <g ref="#dot"/> <g ref="#slash"/> <!-- fancy slash --> Sed dicit quod 
+            <lb ed="#A" n="26"/>est composita compositione prioris formae <g ref="#slash"/> et sequentis id est 
+            de<lb ed="#A" n="27" break="no"/>terminantis cum determinata <g ref="#dot"/> ut esse <g ref="#slash"/> vivere <g ref="#slash"/> sentire <g ref="#slash"/> et <!-- drops lie --> intelligere <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d8q16" type="quaestio">
           <head xml:id="wdrl1d8-Hd1e4253" type="question-title">Utrum anima tota sit in qualibet parte corporis</head>
-          <p xml:id="wdrl1d8-d1e4256"><lb ed="#A" n="27"/><g ref="#pilcrow"/>utrum anima tota sit in qualibet parte 
-            cor<lb ed="#A" n="28" break="no"/>poris Responsio anima secundum essentiam simplex est <g ref="#slash"/> et sic est forma corporis 
-            <lb ed="#A" n="29"/>et totius <g ref="#slash"/> et partium aequaliter <g ref="#dot"/> et sic est in toto corpore tota  
-            <lb ed="#A" n="30"/> et in qualibet parte <g ref="#dot"/> hoc <name ref="#Augustine">augustinus</name> in littera <g ref="#slash"/> <!-- fancy --> secundum potentias autem multiplex est <g ref="#dot"/> et 
-            <lb ed="#A" n="31"/>per has est motor corporis <g ref="#dot"/> et sic non est in qualibet parte 
-            <lb ed="#A" n="32"/>tota <g ref="#dot"/> sed secundum diversas potentias in diversis partibus <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> Secundum 
-            <lb ed="#A" n="33"/>tamen intentionem <name ref="#Aristotle">aristotelis</name> magis videtur dicendum quod secundum essentiam tantum 
-            <lb ed="#A" n="34"/>sit in corde <g ref="#dot"/> et inde vitam effluit vitam in totum corpus <g ref="#dot"/></p>
+          <p xml:id="wdrl1d8-d1e4256"><lb ed="#A" n="28"/><g ref="#pilcrow"/>utrum anima tota sit in qualibet parte 
+            cor<lb ed="#A" n="29" break="no"/>poris Responsio anima secundum essentiam simplex est <g ref="#slash"/> et sic est forma corporis 
+            <lb ed="#A" n="30"/>et totius <g ref="#slash"/> et partium aequaliter <g ref="#dot"/> et sic est in toto corpore tota  
+            <lb ed="#A" n="31"/> et in qualibet parte <g ref="#dot"/> hoc <name ref="#Augustine">augustinus</name> in littera <g ref="#slash"/> <!-- fancy --> secundum potentias autem multiplex est <g ref="#dot"/> et 
+            <lb ed="#A" n="32"/>per has est motor corporis <g ref="#dot"/> et sic non est in qualibet parte 
+            <lb ed="#A" n="33"/>tota <g ref="#dot"/> sed secundum diversas potentias in diversis partibus <g ref="#dot"/> <g ref="#slash"/> <!-- fancy --> Secundum 
+            <lb ed="#A" n="34"/>tamen intentionem <name ref="#Aristotle">aristotelis</name> magis videtur dicendum quod secundum essentiam tantum 
+            <lb ed="#A" n="35"/>sit in corde <g ref="#dot"/> et inde vitam effluit vitam in totum corpus <g ref="#dot"/></p>
         </div> 
       </div>
     </body>
