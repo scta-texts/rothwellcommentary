@@ -98,7 +98,8 @@
         </div>
         <div xml:id="wdr-l1prolq5" type="quaestio">
           <head type="question-title">Utrum sit scientia necessaria</head>
-          <p xml:id="wdrl1prol-usssne"><lb ed="#A" n="26"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
+          <p xml:id="wdrl1prol-usssne">
+            <lb ed="#A" n="26"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
               <lb ed="#A" n="27"/>rebus prout exeunt a suo principio <g ref="#slash"/> hoc aut de ipsis prout 
               <lb ed="#A" n="28"/>redeunt in ipsum tamquam in suum finem <g ref="#slash"/> cognitio aut 
               <lb ed="#A" n="29"/>finis nostri nobis summe necessaria est <g ref="#dot"/></p>

@@ -108,7 +108,8 @@
         </div>
         <div xml:id="wdr-l1d1q4" type="quaestio">
           <head type="question-title">Utrum angeli vel sancti in patria utantur</head>
-          <p xml:id="wdrl1d1-uavnah">utrum angeli vel sancti in patria utantur <g ref="#slash"/> Responsio <g ref="#dot"/> sic <g ref="#slash"/> tali 
+          <p xml:id="wdrl1d1-uavnah">
+            <lb ed="#A"/>utrum angeli vel sancti in patria utantur <g ref="#slash"/> Responsio <g ref="#dot"/> sic <g ref="#slash"/> tali 
             <lb ed="#A" n="56"/>usu scilicet qui non importat imperfectionem <unclear>ut</unclear> est usus <unclear>virtutis</unclear> <g ref="#slash"/> sed 
             <lb ed="#A" n="57"/>non imperfectio ut hic <g ref="#dot"/> unde referunt ad habitum <g ref="#slash"/> non ad 
             <lb ed="#A" n="58"/>habendum <g ref="#dot"/></p>
