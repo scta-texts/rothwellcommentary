@@ -112,8 +112,8 @@
           <head type="question-title">Utrum trinitas vere praedicetur de essentia</head>
           <p>
             <cb ed="#A" n="b"/> <!-- 109rb -->
-            <lb ed="#A" n="39"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter omni<lb ed="#A" n="40"/>modam 
-            <lb ed="#A" n="41"/><choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trinitatem Idem <name ref="#Augustine">augustinus</name></p>
+            <lb ed="#A" n="39"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter 
+            omni<lb ed="#A" n="40" break="no"/>modam <lb ed="#A" n="41"/><choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trinitatem Idem <name ref="#Augustine">augustinus</name></p>
         </div>
         <div xml:id="wdr-l1d4q8" type="quaestio">
           <head type="question-title">Pro quo supponat iste terminus deus</head>
