@@ -70,9 +70,9 @@
     </front>
     <body>
       <div xml:id="wdr-l1d4">
-        <head>Liber I, Distinctio 4 [Penn Transcription]</head>
+        <head xml:id="wdr-l1d4-Hd1e90">Liber I, Distinctio 4 [Penn Transcription]</head>
         <div xml:id="wdr-l1d4q1" type="quaestio">
-          <head type="question-title">Utrum generatio in divinis sit</head>
+          <head xml:id="wdr-l1d4-Hd1e94" type="question-title">Utrum generatio in divinis sit</head>
           <p xml:id="wdrl1d4-qughei">
             <lb ed="#P" n="38"/>Queritur utrum generatio in divinis sit Responsio sic <g ref="#dot"/> 
             <lb ed="#P"/>quia diffusio sive multiplicatio sui est perfectionis <g ref="#dot"/> et ideo 
@@ -82,7 +82,7 @@
           </p> 
         </div>
         <div xml:id="wdr-l1d4q2" type="quaestio">
-          <head type="question-title">Utrum concedendum sit quod deus genuit deum</head>
+          <head xml:id="wdr-l1d4-Hd1e141" type="question-title">Utrum concedendum sit quod deus genuit deum</head>
           <p xml:id="wdrl1d4-ucsfip">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum concedendum sit quod deus genuit deum <g ref="#dot"/> 
             <lb ed="#P"/>Responsio in littera <g ref="#dot"/> quod sic <g ref="#dot"/> et in symbolo <g ref="#dot"/> quia iste terminus <mentioned>deus</mentioned> si<lb ed="#P" break="no"/>gnificat 
@@ -91,7 +91,7 @@
           </p>
         </div>
         <div xml:id="wdr-l1d4q3" type="quaestio">
-          <head type="question-title">Utrum concedendum sit quod genuerit se deum</head>
+          <head xml:id="wdr-l1d4-Hd1e178" type="question-title">Utrum concedendum sit quod genuerit se deum</head>
           <p xml:id="wdrl1d4-ucsdid">
             <lb ed="#P"/><g ref="#pilcrow"/>Utrum concedendum sit quod 
             <lb ed="#P"/>genuerit se deum vel alium deum <g ref="#dot"/> Responsio in littera <g ref="#dot"/> quod 
@@ -100,7 +100,7 @@
             <lb ed="#P"/>et determinatur per hunc terminum <mentioned>deum</mentioned> <g ref="#dot"/> et ideo dicit diversum in deitate</p>
         </div>
         <div xml:id="wdr-l1d4q4" type="quaestio">
-          <head type="question-title">Utrum genuerit deum qui est deus pater aut non</head>
+          <head xml:id="wdr-l1d4-Hd1e222" type="question-title">Utrum genuerit deum qui est deus pater aut non</head>
           <p xml:id="wdrl1d4-ugddil">
             <lb ed="#P"/><g ref="#pilcrow"/>Utrum genuerit deum qui est deus pater <g ref="#dot"/> aut non <g ref="#dot"/> 
             <lb ed="#P"/>Responsio cum dicitur qui est deus pater <g ref="#dot"/> aut est <choice><orig>appositam</orig><reg>oppositam</reg></choice> <unclear>constrictio</unclear> <g ref="#dot"/> 
@@ -108,7 +108,7 @@
             <lb ed="#P"/>non <sic>implicatem</sic> sicut in priori sensu <g ref="#dot"/> et sic est vera <g ref="#dot"/> idem sensus differt <!-- drops to next line --> in littera</p>
         </div>
         <div xml:id="wdr-l1d4q5" type="quaestio">
-          <head type="question-title">Utrum possit fieri praedicatio <unclear>affirmativa</unclear> in divinis</head>
+          <head xml:id="wdr-l1d4-Hd1e265" type="question-title">Utrum possit fieri praedicatio <unclear>affirmativa</unclear> in divinis</head>
           <p xml:id="wdrl1d4-upfmit">
             <lb ed="#P"/><g ref="#pilcrow"/>utrum possit fieri praedicatio 
             <lb ed="#P"/><unclear>affirmativa</unclear> in divinis Responsio <corr><del rend="expunctuated">ndtea</del></corr> quaedam est praedicatio 
@@ -120,13 +120,13 @@
             <lb ed="#P"/>secundum rem <g ref="#dot"/> sed secundum modum intelligendi tantum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d4q6" type="quaestio">
-          <head type="question-title">An persona vere praedicetur de essentia</head>
+          <head xml:id="wdr-l1d4-Hd1e324" type="question-title">An persona vere praedicetur de essentia</head>
           <p xml:id="wdrl1d4-apveep">
             <lb ed="#P"/>an persona vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter omnimo<lb ed="#P" break="no"/>dam 
             <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae et personae</p>
         </div>
         <div xml:id="wdr-l1d4q7" type="quaestio">
-          <head type="question-title">Utrum trinitas vere praedicetur de essentia</head>
+          <head xml:id="wdr-l1d4-Hd1e345" type="question-title">Utrum trinitas vere praedicetur de essentia</head>
           <p xml:id="wdrl1d4-utvail">
             <lb ed="#P"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio 
             <pb ed="#P" n="26-r"/>
@@ -134,7 +134,7 @@
             <lb ed="#P"/>sic <g ref="#dot"/> propter omnimodam <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trini<!-- drops to next line -->tatem <g ref="#dot"/> idem <name ref="#Augustine">augustinus</name> in littera</p>
         </div>
         <div xml:id="wdr-l1d4q8" type="quaestio">
-          <head type="question-title">Pro quo supponat iste terminus deus</head>
+          <head xml:id="wdr-l1d4-Hd1e373" type="question-title">Pro quo supponat iste terminus deus</head>
           <p xml:id="wdrl1d4-pqshvv">
             <lb ed="#P"/><g ref="#pilcrow"/>Pro quo supponat 
             <lb ed="#P"/>iste terminus <mentioned>deus</mentioned> Responsio quidam dixerunt <g ref="#dot"/> quod cum sit terminus communis <g ref="#slash"/> 
@@ -149,7 +149,7 @@
             <unclear>principaliter</unclear> tamen pro natura et hoc videtur verius</p>
         </div>
         <div xml:id="wdr-l1d4q9" type="quaestio">
-          <head type="question-title">Utrum habeat plurale</head> <!-- plurale might be corrected to "plura" -->
+          <head xml:id="wdr-l1d4-Hd1e458" type="question-title">Utrum habeat plurale</head> <!-- plurale might be corrected to "plura" -->
           <p xml:id="wdrl1d4-uhpiem">
             <lb ed="#P"/><g ref="#pilcrow"/>Utrum habeat plurale Responsio quando <sic>nuncupatem</sic> sumitur 
             <lb ed="#P"/>vel <sic>participatem</sic> sic habet plurale <g ref="#dot"/> Sed quando naturaliter sumitur 
