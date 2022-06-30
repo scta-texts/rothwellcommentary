@@ -95,49 +95,52 @@
             <lb ed="#A" n="49"/>voluntatis quodammodo assumi <unclear>post?</unclear> <g ref="#slash"/> vel operando ut opera nostra 
             <lb ed="#A" n="50"/>bona <g ref="#slash"/> vel tolerando ut mala <choice><orig>penae</orig><reg>poenae</reg></choice> propriae et culpae 
             <lb ed="#A" n="51"/>alienae <g ref="#slash"/> vel respuendo ut culpam propriam <g ref="#slash"/> vel approbando 
-            ut bona aliena <g ref="#dot"/></p>
+            <lb ed="#A" n="52"/>ut bona aliena <g ref="#dot"/>
+          </p>
         </div>
         <div xml:id="wdr-l1d1q3" type="quaestio">
           <head type="question-title">Utrum deus utatur aliquod</head>
-          <p xml:id="wdrl1d1-uduqnu"><lb ed="#A" n="52"/><g ref="#pilcrow"/>Utrum deus utatur aliquod <g ref="#slash"/> Responsio quod sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> sed ipse 
-            <lb ed="#A" n="53"/>non refert ad finem extra se <g ref="#dot"/> sicut fit in usus nostro <g ref="#dot"/> unde 
-            <lb ed="#A" n="54"/>non est motus in eo <g ref="#slash"/> sed in nobis quando nobis utitur</p>
+          <p xml:id="wdrl1d1-uduqnu">
+            <lb ed="#A" n="53"/><g ref="#pilcrow"/>Utrum deus utatur aliquod <g ref="#slash"/> Responsio quod sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> sed ipse 
+            <lb ed="#A" n="54"/>non refert ad finem extra se <g ref="#dot"/> sicut fit in usus nostro <g ref="#dot"/> unde 
+            <lb ed="#A" n="55"/>non est motus in eo <g ref="#slash"/> sed in nobis quando nobis utitur
+          </p>
         </div>
         <div xml:id="wdr-l1d1q4" type="quaestio">
           <head type="question-title">Utrum angeli vel sancti in patria utantur</head>
           <p xml:id="wdrl1d1-uavnah">utrum angeli vel sancti in patria utantur <g ref="#slash"/> Responsio <g ref="#dot"/> sic <g ref="#slash"/> tali 
-            <lb ed="#A" n="55"/>usu scilicet qui non importat imperfectionem <unclear>ut</unclear> est usus <unclear>virtutis</unclear> <g ref="#slash"/> sed 
-            <lb ed="#A" n="56"/>non imperfectio ut hic <g ref="#dot"/> unde referunt ad habitum <g ref="#slash"/> non ad 
-            <lb ed="#A" n="57"/>habendum <g ref="#dot"/></p>
+            <lb ed="#A" n="56"/>usu scilicet qui non importat imperfectionem <unclear>ut</unclear> est usus <unclear>virtutis</unclear> <g ref="#slash"/> sed 
+            <lb ed="#A" n="57"/>non imperfectio ut hic <g ref="#dot"/> unde referunt ad habitum <g ref="#slash"/> non ad 
+            <lb ed="#A" n="58"/>habendum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q5" type="quaestio">
           <head type="question-title">Quid sit frui vel cuius potentia sit actus</head>
-          <p xml:id="wdrl1d1-qsfifc"><lb ed="#A" n="58"/>Quid sit frui <g ref="#slash"/> vel cuius potentiae sit actus <g ref="#slash"/> et cuius virtutis <g ref="#dot"/> Responsio 
-            <lb ed="#A" n="59"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est amore inhaerere alicui rei propter se 
-            <lb ed="#A" n="60"/>ipsam <g ref="#dot"/> hoc est generalis <g ref="#dot"/> Item <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est uti est 
-            gau<lb ed="#A" n="61" break="no"/>dio non adhuc spei <g ref="#dot"/> sed iam rei <g ref="#dot"/> hoc est magis stricta <g ref="#dot"/> 
-            <lb ed="#A" n="62"/>Est autem actus voluntatis quae est perfectissima potentia <g ref="#slash"/> quia sola libera 
-            <lb ed="#A" n="63"/>est <g ref="#dot"/> et est respectu finis <g ref="#slash"/> tamen secundum quod includit in se cognitione 
-            ratio<lb ed="#A" n="64" break="no"/>nis <g ref="#dot"/>Et est secundum perfectissimam virtutem scilicet caritatem quae 
-            imme<lb ed="#A" n="65" break="no"/>diatius fruibili coniungit</p>
+          <p xml:id="wdrl1d1-qsfifc"><lb ed="#A" n="59"/>Quid sit frui <g ref="#slash"/> vel cuius potentiae sit actus <g ref="#slash"/> et cuius virtutis <g ref="#dot"/> Responsio 
+            <lb ed="#A" n="60"/><ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est amore inhaerere alicui rei propter se 
+            <lb ed="#A" n="61"/>ipsam <g ref="#dot"/> hoc est generalis <g ref="#dot"/> Item <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> frui est uti est 
+            gau<lb ed="#A" n="62" break="no"/>dio non adhuc spei <g ref="#dot"/> sed iam rei <g ref="#dot"/> hoc est magis stricta <g ref="#dot"/> 
+            <lb ed="#A" n="63"/>Est autem actus voluntatis quae est perfectissima potentia <g ref="#slash"/> quia sola libera 
+            <lb ed="#A" n="64"/>est <g ref="#dot"/> et est respectu finis <g ref="#slash"/> tamen secundum quod includit in se cognitione 
+            ratio<lb ed="#A" n="65" break="no"/>nis <g ref="#dot"/>Et est secundum perfectissimam virtutem scilicet caritatem quae 
+            imme<lb ed="#A" n="66" break="no"/>diatius fruibili coniungit</p>
         </div>
         <div xml:id="wdr-l1d1q6" type="quaestio">
           <head type="question-title">Utrum solo deo sit fruendum</head>
-          <p xml:id="wdrl1d1-usdbef"><lb ed="#A" n="66"/><g ref="#pilcrow"/>Utrum solo deo sit fruendum <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> quia 
-            <lb ed="#A" n="67"/>ipse solus est ultimus finis <g ref="#dot"/> Effective tamen fruimur potentia 
-            <lb ed="#A" n="68"/>Dispositive habitu caritatis formaliter ipsa fruitione vel 
-            <lb ed="#A" n="69"/>beatitudine creata <g ref="#dot"/> Sed solo deo tamquam obiecto et fine <g ref="#dot"/></p>
+          <p xml:id="wdrl1d1-usdbef"><lb ed="#A" n="67"/><g ref="#pilcrow"/>Utrum solo deo sit fruendum <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <ref><name ref="#Augustine">augustinus</name> in <title>littera</title></ref> <g ref="#dot"/> quia 
+            <lb ed="#A" n="68"/>ipse solus est ultimus finis <g ref="#dot"/> Effective tamen fruimur potentia 
+            <lb ed="#A" n="69"/>Dispositive habitu caritatis formaliter ipsa fruitione vel 
+            <lb ed="#A" n="70"/>beatitudine creata <g ref="#dot"/> Sed solo deo tamquam obiecto et fine <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q7" type="quaestio">
           <head type="question-title">Utrum uno actu fruitionis fruemur tribus personis</head> 
-          <p xml:id="wdrl1d1-uuaeci"><lb ed="#A" n="70"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus personis <g ref="#dot"/> 
-            <lb ed="#A" n="71"/>Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia in eis est una ratio obiecti <g ref="#slash"/> fruitionis <g ref="#slash"/> et 
-            fi<lb ed="#A" n="72" break="no"/>nis <g ref="#slash"/>et una est cognitio ipsorum <g ref="#dot"/></p>
+          <p xml:id="wdrl1d1-uuaeci"><lb ed="#A" n="71"/><g ref="#pilcrow"/>utrum uno actu fruitionis fruemur tribus personis <g ref="#dot"/> 
+            <lb ed="#A" n="72"/>Responsio <g ref="#dot"/> sic <g ref="#dot"/> quia in eis est una ratio obiecti <g ref="#slash"/> fruitionis <g ref="#slash"/> et 
+            fi<lb ed="#A" n="73" break="no"/>nis <g ref="#slash"/>et una est cognitio ipsorum <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1d1q8" type="quaestio">
           <head type="question-title">Quibus conveniat fruitio vel quibus modis</head>
-          <p xml:id="wdrl1d1-qcfsqd"><lb ed="#A" n="73"/><g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#slash"/> vel quibus modis <g ref="#dot"/> Responsio <g ref="#dot"/> ad fruitionem 
-            <lb ed="#A" n="74"/>tria requiruntur ut patet in diffinitione eius scilicet coniunctio delectio 
+          <p xml:id="wdrl1d1-qcfsqd"><lb ed="#A" n="74"/><g ref="#pilcrow"/>Quibus conveniat fruitio <g ref="#slash"/> vel quibus modis <g ref="#dot"/> Responsio <g ref="#dot"/> ad fruitionem 
+            <lb ed="#A" n="75"/>tria requiruntur ut patet in diffinitione eius scilicet coniunctio delectio 
             <pb ed="#A" n="108-r"/>
             <cb ed="#A" n="a"/>
             <lb ed="#A" n="1"/>quietatio <g ref="#slash"/>quietatio autem potest esse secundum appetitum rectae rationis 
