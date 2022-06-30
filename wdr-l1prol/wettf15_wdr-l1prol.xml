@@ -75,40 +75,41 @@
           <head type="question-title">Utrum sit una scientia vel plures</head>
           <p xml:id="wdrl1prol-usuade"><lb ed="#A" n="11"/><g ref="#pilcrow"/>utrum sit una scientia <g ref="#dot"/> vel plures <g ref="#dot"/> Responsio una est simpliciter 
             <lb ed="#A" n="12"/>quia est de deo principaliter <g ref="#dot"/> et de aliis rebus inquantum 
-            parti<lb ed="#A" n="13" break="no"/>cipant <lb ed="#A" n="14"/>aliquid divini esse</p>
+            parti<lb ed="#A" n="13" break="no"/>cipant aliquid divini esse</p>
         </div>
         <div xml:id="wdr-l1prolq3" type="quaestio">
           <head type="question-title">Quid sit subiectum in theologia</head>
-          <p xml:id="wdrl1prol-qssise"><lb ed="#A" n="15"/><g ref="#pilcrow"/>Quid sit subiectum in theologya <g ref="#dot"/> Responsio <g ref="#dot"/> Deus est subiectum proprie 
-            <lb ed="#A" n="16"/>loquendo <g ref="#slash"/> quia de illi principaliter intenditur <g ref="#dot"/> vel 
-            <lb ed="#A" n="17"/>minus proprie omne illud dicendo subiectum de quo in scientia 
-            de<lb ed="#A" n="18" break="no"/>terminatur <g ref="#slash"/> sic <unclear cert="high">omnes</unclear> res divinae <unclear cert="high">sunt</unclear> subiectum <g ref="#slash"/> inquantum esse 
-            div<lb ed="#A" n="19" break="no"/>num participant <g ref="#dot"/> primum subiectum est intentionis <g ref="#dot"/> secundum 
-            <lb ed="#A" n="20"/>executionis <g ref="#dot"/></p>
+          <p xml:id="wdrl1prol-qssise">
+            <lb ed="#A" n="14"/><g ref="#pilcrow"/>Quid sit subiectum in theologya <g ref="#dot"/> Responsio <g ref="#dot"/> Deus est subiectum proprie 
+            <lb ed="#A" n="15"/>loquendo <g ref="#slash"/> quia de illi principaliter intenditur <g ref="#dot"/> vel 
+            <lb ed="#A" n="16"/>minus proprie omne illud dicendo subiectum de quo in scientia 
+            de<lb ed="#A" n="17" break="no"/>terminatur <g ref="#slash"/> sic <unclear cert="high">omnes</unclear> res divinae <unclear cert="high">sunt</unclear> subiectum <g ref="#slash"/> inquantum esse 
+            div<lb ed="#A" n="18" break="no"/>num participant <g ref="#dot"/> primum subiectum est intentionis <g ref="#dot"/> secundum 
+            <lb ed="#A" n="19"/>executionis <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1prolq4" type="quaestio">
           <head type="question-title">Utrum theologia sit scientia speculativa vel practica</head>
-          <p xml:id="wdrl1prol-utsesp"><lb ed="#A" n="21"/><g ref="#pilcrow"/>Utrum theologia sit scientia speculativa <g ref="#slash"/> vel practica 
-            <lb ed="#A" n="22"/>Responsio partim speculativa <g ref="#slash"/> partim practica <g ref="#dot"/> quia de ipsa est 
-            <lb ed="#A" n="23"/>sapientia quae est habitus perficiens intellectum in 
-            extensi<lb ed="#A" n="24" break="no"/>one ad affectum <g ref="#slash"/>secudum quod excitat affectionem <g ref="#slash"/> unde potest 
-            <lb ed="#A" n="25"/>dici scientia affectiva <g ref="#dot"/> unde <name ref="#Paul">apostolus</name> dicit eam esse scientia 
-            pi<lb ed="#A" n="26" break="no"/>etatis </p>
+          <p xml:id="wdrl1prol-utsesp"><lb ed="#A" n="20"/><g ref="#pilcrow"/>Utrum theologia sit scientia speculativa <g ref="#slash"/> vel practica 
+            <lb ed="#A" n="21"/>Responsio partim speculativa <g ref="#slash"/> partim practica <g ref="#dot"/> quia de ipsa est 
+            <lb ed="#A" n="22"/>sapientia quae est habitus perficiens intellectum in 
+            extensi<lb ed="#A" n="23" break="no"/>one ad affectum <g ref="#slash"/>secudum quod excitat affectionem <g ref="#slash"/> unde potest 
+            <lb ed="#A" n="24"/>dici scientia affectiva <g ref="#dot"/> unde <name ref="#Paul">apostolus</name> dicit eam esse scientia 
+            pi<lb ed="#A" n="25" break="no"/>etatis </p>
         </div>
         <div xml:id="wdr-l1prolq5" type="quaestio">
           <head type="question-title">Utrum sit scientia necessaria</head>
-          <p xml:id="wdrl1prol-usssne"><lb ed="#A" n="27"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
-              <lb ed="#A" n="28"/>rebus prout exeunt a suo principio <g ref="#slash"/> hoc aut de ipsis prout 
-              <lb ed="#A" n="29"/>redeunt in ipsum tamquam in suum finem <g ref="#slash"/> cognitio aut 
-              <lb ed="#A" n="30"/>finis nostri nobis summe necessaria est <g ref="#dot"/></p>
+          <p xml:id="wdrl1prol-usssne"><lb ed="#A" n="26"/><g ref="#pilcrow"/>utrum sit scientia necessaria <g ref="#dot"/> Responsio <g ref="#dot"/> sic <g ref="#dot"/> <g ref="#slash"/> quia aliae scientia sunt de 
+              <lb ed="#A" n="27"/>rebus prout exeunt a suo principio <g ref="#slash"/> hoc aut de ipsis prout 
+              <lb ed="#A" n="28"/>redeunt in ipsum tamquam in suum finem <g ref="#slash"/> cognitio aut 
+              <lb ed="#A" n="29"/>finis nostri nobis summe necessaria est <g ref="#dot"/></p>
         </div>
         <div xml:id="wdr-l1prolq6" type="quaestio">
           <head type="question-title">Utrum huic scientia conveniat modus inquisitionis per rationes et argumenta</head>
-          <p xml:id="wdrl1prol-uhsail"><lb ed="#A" n="31"/><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis per rationes 
-            <lb ed="#A" n="32"/>et argumenta <g ref="#dot"/> Responsio <g ref="#dot"/> sic  <g ref="#slash"/> modestus scilicet quo suppositum ratio fidei <g ref="#dot"/> 
-            <lb ed="#A" n="33"/>non quod proponatur <g ref="#slash"/> nec ad fidei probationem <g ref="#slash"/> sed ad 
-            decla<lb ed="#A" n="34" break="no"/>rationem fidelibus <g ref="#slash"/>et ad defensionem contra 
-            in<lb ed="#A" n="35" break="no"/>fideles haec omnia <ref><name ref="#Augustine">augustinus</name> 2 <unclear>de in littera</unclear></ref></p>
+          <p xml:id="wdrl1prol-uhsail"><lb ed="#A" n="30"/><g ref="#pilcrow"/>Utrum huic scientia conveniat modus inquisitionis per rationes 
+            <lb ed="#A" n="31"/>et argumenta <g ref="#dot"/> Responsio <g ref="#dot"/> sic  <g ref="#slash"/> modestus scilicet quo suppositum ratio fidei <g ref="#dot"/> 
+            <lb ed="#A" n="32"/>non quod proponatur <g ref="#slash"/> nec ad fidei probationem <g ref="#slash"/> sed ad 
+            decla<lb ed="#A" n="33" break="no"/>rationem fidelibus <g ref="#slash"/>et ad defensionem contra 
+            in<lb ed="#A" n="34" break="no"/>fideles haec omnia <ref><name ref="#Augustine">augustinus</name> 2 <unclear>de in littera</unclear></ref></p>
         </div>
       </div>
     </body>
