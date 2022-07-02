@@ -113,7 +113,7 @@
           <p xml:id="wdrl1d4-utvail">
             <cb ed="#A" n="b"/> <!-- 109rb -->
             <lb ed="#A" n="39"/><g ref="#pilcrow"/>Utrum trinitas vere praedicetur de essentia Responsio sic <g ref="#dot"/> propter 
-            omni<lb ed="#A" n="40" break="no"/>modam <lb ed="#A" n="41"/><choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trinitatem Idem <name xml:id="wdr-l1d4-Nd1e367" ref="#Augustine">augustinus</name></p>
+            omni<lb ed="#A" n="40" break="no"/>modam <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> essentiae ad totam trinitatem Idem <name xml:id="wdr-l1d4-Nd1e367" ref="#Augustine">augustinus</name></p>
         </div>
         <div xml:id="wdr-l1d4q8" type="quaestio">
           <head xml:id="wdr-l1d4-Hd1e373" type="question-title">Pro quo supponat iste terminus deus</head>
