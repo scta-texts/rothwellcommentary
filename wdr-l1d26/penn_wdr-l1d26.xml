@@ -54,59 +54,59 @@
           <head xml:id="wdrl1d26-Hd1e3508" type="question-title">Utrum ypostasis sit in deo</head>
           <p xml:id="wdrl1d26-d1e3511">
             <lb ed="#P" n="44"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum ypostasis sit in deo 
-            <lb ed="#P"/>Resondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia secundum <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> Graeci dicunt in deo unam substantiam <pc ana="#punctus"/> 
-            <lb ed="#P"/>tres ypostases <pc ana="#punctus"/> significat ergo substantiam singularem <pc ana="#punctus"/> In divi<lb ed="#P" break="no"/>nis 
+            <lb ed="#P" n="45"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia secundum <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> Graeci dicunt in deo unam substantiam <pc ana="#punctus"/> 
+            <lb ed="#P" n="46"/>tres ypostases <pc ana="#punctus"/> significat ergo substantiam singularem <pc ana="#punctus"/> In divi<lb ed="#P" break="no" n="47"/>nis 
             autem quamvis non sit universale et particulare <pc ana="#virgula"/> tamen est ibi aliquid 
-            <lb ed="#P"/>ad horum similitudinem scilicet substantia communis quae essentia et substantia singularis 
-            <lb ed="#P"/>quae est ypostasis <pc ana="#punctus"/> Nota etiam quod quantum ad id cui nomen 
-            <lb ed="#P"/><choice><orig>inponitur</orig><reg>imponitur</reg></choice> quod eset res per se subsistens <pc ana="#punctus"/> proprius est ypostasis 
-            <lb ed="#P"/>in deo verius <pc ana="#punctus"/> sed <del rend="strikethrough">ad</del> quantum ad id aliquo <choice><orig>inponitur</orig><reg>imponitur</reg></choice> scilicet a subsistendo 
-            <lb ed="#P"/>sic proprius in creaturis <pc ana="#punctus"/> quia persona in divinis substat proprietatibus 
-            <lb ed="#P"/>tantum secundum modum intelligendi
+            <lb ed="#P" n="48"/>ad horum similitudinem scilicet substantia communis quae essentia et substantia singularis 
+            <lb ed="#P" n="49"/>quae est ypostasis <pc ana="#punctus"/> Nota etiam quod quantum ad id cui nomen 
+            <lb ed="#P" n="50"/><choice><orig>inponitur</orig><reg>imponitur</reg></choice> quod eset res per se subsistens <pc ana="#punctus"/> proprius est ypostasis 
+            <lb ed="#P" n="51"/>in deo verius <pc ana="#punctus"/> sed <del rend="strikethrough">ad</del> quantum ad id aliquo <choice><orig>inponitur</orig><reg>imponitur</reg></choice> scilicet a subsistendo 
+            <lb ed="#P" n="52"/>sic proprius in creaturis <pc ana="#punctus"/> quia persona in divinis substat proprietatibus 
+            <lb ed="#P" n="53"/>tantum secundum modum intelligendi
           </p>
         </div>
         <div xml:id="wdr-l1d26q2" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3582" type="question-title">Utrum idem sit ypostasis et persona in quo differat in deo res naturae suppositum ypostasis et persona</head>
           <p xml:id="wdrl1d26-d1e3585">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum in deum sit ypostasis et persona in quo differat in deo 
-            <lb ed="#P"/>res <unclear>naturae</unclear> suppositum ypostasis <pc ana="#punctus"/> et persona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> id quod 
-            <lb ed="#P"/>in deo est loco personae substantiae <pc ana="#punctuselevatus"/> <unclear>relatam</unclear> habet ad naturam communem <pc ana="#punctus"/> et ad proprie<lb ed="#P" break="no"/>tates 
+            <lb ed="#P" n="54"/><pc ana="#pilcrow"/>utrum in deum sit ypostasis et persona in quo differat in deo 
+            <lb ed="#P" n="55"/>res <unclear>naturae</unclear> suppositum ypostasis <pc ana="#punctus"/> et persona <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> id quod 
+            <lb ed="#P" n="56"/>in deo est loco personae substantiae <pc ana="#punctuselevatus"/> <unclear>relatam</unclear> habet ad naturam communem <pc ana="#punctus"/> et ad proprie<lb ed="#P" break="no" n="57"/>tates 
             quibus distinguitur quantum ad primum relatam <pc ana="#punctus"/> significatur dupliciter 
-            <lb ed="#P"/>vel secundum esse rei <pc ana="#punctus"/> sic dicitur res <unclear>naturae <!-- distinction from nullae is ambiguous --></unclear> <pc ana="#punctus"/> vel secundum esse rationes <pc ana="#punctus"/> sic dicitur 
-            <lb ed="#P"/>suppositum quod est nomen se intentionis <pc ana="#punctus"/> secundum relatam ad proprietates 
-            <lb ed="#P"/>potest significari <subst><del rend="strikethrough">dicitur</del> <add place="inLine">dicit</add></subst> vel ut distinctum proprietatem cuiusque 
-            <lb ed="#P"/>naturae generalis <pc ana="#punctus"/> et sic dicitur ypostasis <pc ana="#punctus"/> vel proprietatibus pertinen<lb ed="#P" break="no"/>tibus 
+            <lb ed="#P" n="58"/>vel secundum esse rei <pc ana="#punctus"/> sic dicitur res <unclear>naturae <!-- distinction from nullae is ambiguous --></unclear> <pc ana="#punctus"/> vel secundum esse rationes <pc ana="#punctus"/> sic dicitur 
+            <lb ed="#P" n="59"/>suppositum quod est nomen se intentionis <pc ana="#punctus"/> secundum relatam ad proprietates 
+            <lb ed="#P" n="60"/>potest significari <subst><del rend="strikethrough">dicitur</del> <add place="inLine">dicit</add></subst> vel ut distinctum proprietatem cuiusque 
+            <lb ed="#P" n="61"/>naturae generalis <pc ana="#punctus"/> et sic dicitur ypostasis <pc ana="#punctus"/> vel proprietatibus pertinen<lb ed="#P" break="no" n="62"/>tibus 
             ad dignitatem naturae rationalis specialiter sic dicitur persona <pc ana="#virgula"/> unde 
-            <lb ed="#P"/>persona et ypostasis in deo tantum in modo significandi differunt <pc ana="#punctus"/> non in re
+            <lb ed="#P" n="63"/>persona et ypostasis in deo tantum in modo significandi differunt <pc ana="#punctus"/> non in re
           </p>
         </div>
         <div xml:id="wdr-l1d26q3" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3660" type="question-title">Utrum ypostasis significet substantiam vel notionem</head>
           <p xml:id="wdrl1d26-d1e3663">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum ypostasis significet substantiam vel <subst><del rend="strikethrough">natum</del> 
-            <lb ed="#P"/><add place="inLine">notionem</add></subst> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> significat <unclear>prima</unclear> substantiam quae tamen in intellectum suo <pc ana="#punctus"/> 
+            <lb ed="#P" n="64"/><pc ana="#pilcrow"/>utrum ypostasis significet substantiam vel <subst><del rend="strikethrough">natum</del> 
+            <lb ed="#P" n="65"/><add place="inLine">notionem</add></subst> <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> significat <unclear>prima</unclear> substantiam quae tamen in intellectum suo <pc ana="#punctus"/> 
             <pb ed="#P" n="34-v"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/>claudit <unclear>mutua</unclear> communem <pc ana="#punctus"/> proprietatem et haec tria in deo differunt 
-            <lb ed="#P"/>tantum ratione <pc ana="#punctus"/> Inter haec autem proprietas est <unclear>quaestio</unclear> ultima forma 
-            <lb ed="#P"/>completiva <pc ana="#punctus"/> unde simpliciter dicitur significare notionem <pc ana="#punctus"/> <pc ana="#virgula"/> significat 
-            <lb ed="#P"/>tamen notionem <pc ana="#punctus"/> <pc ana="#virgula"/> ut in determinatam <pc ana="#punctus"/> sed persona determinata in genere 
-            <lb ed="#P"/>naturae rationalis <pc ana="#punctus"/> sed pater determinatam in specie <pc ana="#punctus"/>
+            <lb ed="#P" n="1"/>claudit <unclear>mutua</unclear> communem <pc ana="#punctus"/> proprietatem et haec tria in deo differunt 
+            <lb ed="#P" n="2"/>tantum ratione <pc ana="#punctus"/> Inter haec autem proprietas est <unclear>quaestio</unclear> ultima forma 
+            <lb ed="#P" n="3"/>completiva <pc ana="#punctus"/> unde simpliciter dicitur significare notionem <pc ana="#punctus"/> <pc ana="#virgula"/> significat 
+            <lb ed="#P" n="4"/>tamen notionem <pc ana="#punctus"/> <pc ana="#virgula"/> ut in determinatam <pc ana="#punctus"/> sed persona determinata in genere 
+            <lb ed="#P" n="5"/>naturae rationalis <pc ana="#punctus"/> sed pater determinatam in specie <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d26q4" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3728" type="question-title">Utrum circumscriptis proprietatibus remaneant in divinis ypostases distinctae</head>
           <p xml:id="wdrl1d26-d1e3731">
-            <lb ed="#P"/>utrum circumscriptis proprietatibus remaneant 
-            <lb ed="#P"/>in divinis ypostases distinctae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex est 
-            <lb ed="#P"/>opinion <pc ana="#punctus"/> Quidam enim dicunt <pc ana="#punctus"/> et unde <pc ana="#punctus"/> quod non quia in divinis non 
-            <lb ed="#P"/>distinguntur ypostases nisi proprietatibus realis <pc ana="#punctus"/> et illae sunt 
-            <lb ed="#P"/>omnino idem cum ipsis ypostasibus factum <pc ana="#punctus"/> nec abstrahi 
-            <lb ed="#P"/>possint secundum intellectum <pc ana="#punctus"/> quia nec sicut naturale a particularibus 
-            <lb ed="#P"/>nec sicut forma a materia <pc ana="#punctus"/> ut quantitas a quanto <pc ana="#punctus"/> et hoc propter omnino 
-            <lb ed="#P"/><unclear>dam</unclear> simplicitatem nihilominus tamen eis non intellectis <pc ana="#punctus"/> potest intelligi deus 
-            <lb ed="#P"/>unus <pc ana="#punctus"/> propria personalitate <pc ana="#punctus"/> alii autem dicunt <pc ana="#punctus"/> quod manerent <unclear>dis<lb ed="#P" break="no"/>tincte <!--ae --></unclear> 
-            <unclear>indeterminate <!-- ae --></unclear> id est tres aliquid subsistentes <pc ana="#punctus"/> qui distin<lb ed="#P" break="no"/>guerentur 
+            <lb ed="#P" n="6"/>utrum circumscriptis proprietatibus remaneant 
+            <lb ed="#P" n="7"/>in divinis ypostases distinctae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> duplex est 
+            <lb ed="#P" n="8"/>opinion <pc ana="#punctus"/> Quidam enim dicunt <pc ana="#punctus"/> et unde <pc ana="#punctus"/> quod non quia in divinis non 
+            <lb ed="#P" n="9"/>distinguntur ypostases nisi proprietatibus realis <pc ana="#punctus"/> et illae sunt 
+            <lb ed="#P" n="10"/>omnino idem cum ipsis ypostasibus factum <pc ana="#punctus"/> nec abstrahi 
+            <lb ed="#P" n="11"/>possint secundum intellectum <pc ana="#punctus"/> quia nec sicut naturale a particularibus 
+            <lb ed="#P" n="12"/>nec sicut forma a materia <pc ana="#punctus"/> ut quantitas a quanto <pc ana="#punctus"/> et hoc propter omnino 
+            <lb ed="#P" n="13"/><unclear>dam</unclear> simplicitatem nihilominus tamen eis non intellectis <pc ana="#punctus"/> potest intelligi deus 
+            <lb ed="#P" n="14"/>unus <pc ana="#punctus"/> propria personalitate <pc ana="#punctus"/> alii autem dicunt <pc ana="#punctus"/> quod manerent <unclear>dis<lb ed="#P" break="no" n="15"/>tincte <!--ae --></unclear> 
+            <unclear>indeterminate <!-- ae --></unclear> id est tres aliquid subsistentes <pc ana="#punctus"/> qui distin<lb ed="#P" break="no" n="16"/>guerentur 
             se ipsis <pc ana="#punctus"/> sed non tres huius novum <pc ana="#punctus"/> pater <pc ana="#punctus"/> filius <pc ana="#punctus"/> et spiritus sanctus
           
           </p>
@@ -114,79 +114,79 @@
         <div xml:id="wdr-l1d26q5" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3812" type="question-title">Utrum proprietates ponant reale aliquid in personis</head>
           <p xml:id="wdrl1d26-d1e3815">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum proprietates ponant reale aliquid in personis
-            <lb ed="#P"/>Respondeo sic secundum communem sententiam catholicorum <title ref="#io"><unclear>Ioannes</unclear></title> <pc ana="#punctus"/>Non tantum 
-            <lb ed="#P"/>personarum <subst><del rend="strikethrough">nominum</del> <add>nomina</add></subst> <pc ana="#punctus"/> sed etiam proprietates confitemur <pc ana="#punctus"/> Quam<lb ed="#P" break="no"/>vis 
+            <lb ed="#P" n="17"/><pc ana="#pilcrow"/>Utrum proprietates ponant reale aliquid in personis
+            <lb ed="#P" n="18"/>Respondeo sic secundum communem sententiam catholicorum <title ref="#io"><unclear>Ioannes</unclear></title> <pc ana="#punctus"/>Non tantum 
+            <lb ed="#P" n="19"/>personarum <subst><del rend="strikethrough">nominum</del> <add>nomina</add></subst> <pc ana="#punctus"/> sed etiam proprietates confitemur <pc ana="#punctus"/> Quam<lb ed="#P" break="no" n="20"/>vis 
             <unclear>mcl?o</unclear> enim in deo secundum rationem generis nihil ponat in subiecto 
-            <lb ed="#P"/>tamen istae ponunt aliquid scilicet ex ratione speciali quia habent aliquid 
-            <lb ed="#P"/>reale super quod fundantur scilicet communicationem naturae <pc ana="#punctus"/> ab invicem 
-            <lb ed="#P"/>et realiter differunt <pc ana="#punctuselevatus"/> quia accipiuntur praesens diversos mo<lb ed="#P" break="no"/>dos 
+            <lb ed="#P" n="21"/>tamen istae ponunt aliquid scilicet ex ratione speciali quia habent aliquid 
+            <lb ed="#P" n="22"/>reale super quod fundantur scilicet communicationem naturae <pc ana="#punctus"/> ab invicem 
+            <lb ed="#P" n="23"/>et realiter differunt <pc ana="#punctuselevatus"/> quia accipiuntur praesens diversos mo<lb ed="#P" break="no" n="24"/>dos 
             se habendi <pc ana="#punctus"/> <pc ana="#virgula"/> Realiter autem a persona in qua sunt non 
-            <lb ed="#P"/>differunt <pc ana="#punctus"/> quia persona omnino simplex est <pc ana="#punctus"/> <name>Gillebertus tamen por<lb ed="#P" break="no"/>tetanus</name> 
+            <lb ed="#P" n="25"/>differunt <pc ana="#punctus"/> quia persona omnino simplex est <pc ana="#punctus"/> <name>Gillebertus tamen por<lb ed="#P" break="no" n="26"/>tetanus</name> 
             dixit propiretates nihil ponere sed tantum extrinsecus 
-            <lb ed="#P"/>existere scilicet ex mutua habitudine unius personae ad alteram 
-            <lb ed="#P"/>Sed contra est <pc ana="#punctus"/> quia tunc proprietates non essent deus <pc ana="#punctus"/> nec 
-            <lb ed="#P"/>ad orandae <pc ana="#punctus"/> quod est contra <name>Gilbertum</name> iste etiam de hoc errore coniuctus 
-            <lb ed="#P"/>fuit a <name ref="#Bernard"><unclear>sancto Bernardo <!-- not precisely sure about Bernard ref --></unclear></name> In concilio <unclear>Remensi</unclear> <pc ana="#punctus"/> alii ut <name>praeposi<lb ed="#P" break="no"/>tinus</name> 
+            <lb ed="#P" n="27"/>existere scilicet ex mutua habitudine unius personae ad alteram 
+            <lb ed="#P" n="28"/>Sed contra est <pc ana="#punctus"/> quia tunc proprietates non essent deus <pc ana="#punctus"/> nec 
+            <lb ed="#P" n="29"/>ad orandae <pc ana="#punctus"/> quod est contra <name>Gilbertum</name> iste etiam de hoc errore coniuctus 
+            <lb ed="#P" n="30"/>fuit a <name ref="#Bernard"><unclear>sancto Bernardo <!-- not precisely sure about Bernard ref --></unclear></name> In concilio <unclear>Remensi</unclear> <pc ana="#punctus"/> alii ut <name>praeposi<lb ed="#P" break="no" n="31"/>tinus</name> 
             dixerunt quod non sunt proprietates <pc ana="#virgula"/> et nisi ipse personae re <pc ana="#punctus"/> 
-            <lb ed="#P"/>et ratione <pc ana="#punctus"/> et quod personae se ipsis distinguntur <pc ana="#virgula"/> et quod in abstracto 
-            <lb ed="#P"/>significantur hoc est secundum modum <unclear>enphaticae</unclear> leonis <pc ana="#punctus"/> ut 
+            <lb ed="#P" n="32"/>et ratione <pc ana="#punctus"/> et quod personae se ipsis distinguntur <pc ana="#virgula"/> et quod in abstracto 
+            <lb ed="#P" n="33"/>significantur hoc est secundum modum <unclear>enphaticae</unclear> leonis <pc ana="#punctus"/> ut 
             <cb ed="#P" n="b"/> <!-- 34vb -->
-            <lb ed="#P"/>rogo benignitate tuam id est te benignum <pc ana="#punctus"/> Sed contra est <pc ana="#punctus"/> 
-            <lb ed="#P"/>quia sic una praedicaretur de altera <pc ana="#punctus"/> ut paternitas de 
+            <lb ed="#P" n="34"/>rogo benignitate tuam id est te benignum <pc ana="#punctus"/> Sed contra est <pc ana="#punctus"/> 
+            <lb ed="#P" n="35"/>quia sic una praedicaretur de altera <pc ana="#punctus"/> ut paternitas de 
             <!-- drops --> innascibilitate quod est contra <name ref="#Augustine">augustinum</name>
           </p>
         </div>
         <div xml:id="wdr-l1d26q6" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3944" type="question-title">Quid significent proprietates divinae</head>
           <p xml:id="wdrl1d26-d1e3947">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quid significent 
-            <lb ed="#P"/>proprietates divinae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cum secundum <name ref="#Boethius">boetium</name> et <name ref="#Augustine">augustinus</name> 
-            <lb ed="#P"/>tantum duo praedicta sint in divinis <pc ana="#punctus"/> proprietates non 
-            <lb ed="#P"/>significant substantiam <pc ana="#punctus"/> licet relationem <pc ana="#punctus"/> non inquantum est accidens <pc ana="#punctus"/> 
-            <lb ed="#P"/>autem inquantum dependens a suo <unclear>?orle</unclear> quia ipsum est 
-            <lb ed="#P"/>subiectum suum <pc ana="#punctus"/> sed inquantum opositionis seu distinctionis prin<!-- drops -->cipium
+            <lb ed="#P" n="36"/><pc ana="#pilcrow"/>Quid significent 
+            <lb ed="#P" n="37"/>proprietates divinae <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cum secundum <name ref="#Boethius">boetium</name> et <name ref="#Augustine">augustinus</name> 
+            <lb ed="#P" n="38"/>tantum duo praedicta sint in divinis <pc ana="#punctus"/> proprietates non 
+            <lb ed="#P" n="39"/>significant substantiam <pc ana="#punctus"/> licet relationem <pc ana="#punctus"/> non inquantum est accidens <pc ana="#punctus"/> 
+            <lb ed="#P" n="40"/>autem inquantum dependens a suo <unclear>?orle</unclear> quia ipsum est 
+            <lb ed="#P" n="41"/>subiectum suum <pc ana="#punctus"/> sed inquantum opositionis seu distinctionis prin<!-- drops -->cipium
           </p>
         </div>
         <div xml:id="wdr-l1d26q7" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e3992" type="question-title">utrum eis personae distinguamur et qualiter</head>
           <p xml:id="wdrl1d26-d1e3995">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum eis personae distinguamur 
-            <lb ed="#P"/>et qualiter <pc ana="#punctus"/> Responsio quidam <choice><orig>dycunt</orig><reg>dicunt</reg></choice> quod non sunt principium 
-            <lb ed="#P"/>distinguendi hoc tantum distinctionem innotescendi sed quod 
-            <lb ed="#P"/>se ipsis distinguuntur personae <pc ana="#punctus"/> ut prima genera <pc ana="#punctus"/> Sed communiter et vere 
-            <lb ed="#P"/>dicitur quod principium distinguendi personas inquantum dicunt principium 
-            <lb ed="#P"/>originis <pc ana="#punctus"/> nam praesens absolutum non potest fieri distinctio
+            <lb ed="#P" n="42"/><pc ana="#pilcrow"/>utrum eis personae distinguamur 
+            <lb ed="#P" n="43"/>et qualiter <pc ana="#punctus"/> Responsio quidam <choice><orig>dycunt</orig><reg>dicunt</reg></choice> quod non sunt principium 
+            <lb ed="#P" n="44"/>distinguendi hoc tantum distinctionem innotescendi sed quod 
+            <lb ed="#P" n="45"/>se ipsis distinguuntur personae <pc ana="#punctus"/> ut prima genera <pc ana="#punctus"/> Sed communiter et vere 
+            <lb ed="#P" n="46"/>dicitur quod principium distinguendi personas inquantum dicunt principium 
+            <lb ed="#P" n="47"/>originis <pc ana="#punctus"/> nam praesens absolutum non potest fieri distinctio
           </p>
         </div>
         <div xml:id="wdr-l1d26q8" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e4028" type="question-title">Quid sit notio</head>
           <p xml:id="wdrl1d26-d1e4031">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quid sit notio <pc ana="#punctus"/> Responsio notio ut hic sumitur 
-            <lb ed="#P"/>appellatur formale principium cogendi per quam propria et 
-            <lb ed="#P"/>distincta habetur <unclear>cog?us alio?us</unclear> personae <pc ana="#punctus"/>
+            <lb ed="#P" n="48"/><pc ana="#pilcrow"/>Quid sit notio <pc ana="#punctus"/> Responsio notio ut hic sumitur 
+            <lb ed="#P" n="49"/>appellatur formale principium cogendi per quam propria et 
+            <lb ed="#P" n="50"/>distincta habetur <unclear>cog?us alio?us</unclear> personae <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d26q9" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e4050" type="question-title">In quo differant proprietas notio et relatio</head>
           <p xml:id="wdrl1d26-d1e4053">
-            <lb ed="#P"/><pc ana="#pilcrow"/>In quo differant proprietas <pc ana="#punctus"/> notio et relatio 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> quia proprietas dicitur inquantum personam distinguit <pc ana="#punctus"/> notio 
-            <lb ed="#P"/>inquantum per eam personam innotescit Relatio inquantum refertu ad aliena <!-- goes off into margin here -->
+            <lb ed="#P" n="51"/><pc ana="#pilcrow"/>In quo differant proprietas <pc ana="#punctus"/> notio et relatio 
+            <lb ed="#P" n="52"/>Responsio <pc ana="#punctus"/> quia proprietas dicitur inquantum personam distinguit <pc ana="#punctus"/> notio 
+            <lb ed="#P" n="53"/>inquantum per eam personam innotescit Relatio inquantum refertu ad aliena <!-- goes off into margin here -->
           </p>
         </div>
         <div xml:id="wdr-l1d26q10" type="quaestio">
           <head xml:id="wdrl1d26-Hd1e4073" type="question-title">De numero notionum relationum et proprietatum</head>
           <p xml:id="wdrl1d26-d1e4076">
-            <lb ed="#P"/><pc ana="#pilcrow"/>De numero notionum relationum et proprietatum <pc ana="#punctus"/> 
-            <lb ed="#P"/>Responsio <num>v</num> sunt notiones scilicet paternitas <pc ana="#punctus"/> filiatio <pc ana="#punctus"/> 
-            <lb ed="#P"/>procession innascibilitas <pc ana="#punctus"/> et communis spiratio <pc ana="#punctus"/> Tres in 
-            <lb ed="#P"/>pater <pc ana="#punctus"/> duae in filio <pc ana="#punctus"/> harum <num>4</num> sunt relationes 
-            <lb ed="#P"/>quia innascibilitas proprie non est relatio nisi sicut negatio <unclear>reditur</unclear> 
-            <lb ed="#P"/>ad idem genus cum affirmatione sibi apposita <pc ana="#punctus"/> tres harum 
-            <lb ed="#P"/>tantum sunt proprietates personales scilicet paternitas <pc ana="#punctus"/> filiatio <pc ana="#punctus"/> 
-            <lb ed="#P"/>et processio <pc ana="#punctus"/> communis nullo spiratio non est proprietas simpliciter 
-            <lb ed="#P"/>licet respectu alicuius scilicet spiritus sancti
+            <lb ed="#P" n="54"/><pc ana="#pilcrow"/>De numero notionum relationum et proprietatum <pc ana="#punctus"/> 
+            <lb ed="#P" n="55"/>Responsio <num>v</num> sunt notiones scilicet paternitas <pc ana="#punctus"/> filiatio <pc ana="#punctus"/> 
+            <lb ed="#P" n="56"/>procession innascibilitas <pc ana="#punctus"/> et communis spiratio <pc ana="#punctus"/> Tres in 
+            <lb ed="#P" n="57"/>pater <pc ana="#punctus"/> duae in filio <pc ana="#punctus"/> harum <num>4</num> sunt relationes 
+            <lb ed="#P" n="58"/>quia innascibilitas proprie non est relatio nisi sicut negatio <unclear>reditur</unclear> 
+            <lb ed="#P" n="59"/>ad idem genus cum affirmatione sibi apposita <pc ana="#punctus"/> tres harum 
+            <lb ed="#P" n="60"/>tantum sunt proprietates personales scilicet paternitas <pc ana="#punctus"/> filiatio <pc ana="#punctus"/> 
+            <lb ed="#P" n="61"/>et processio <pc ana="#punctus"/> communis nullo spiratio non est proprietas simpliciter 
+            <lb ed="#P" n="62"/>licet respectu alicuius scilicet spiritus sancti
           </p>
         </div>
       </div>

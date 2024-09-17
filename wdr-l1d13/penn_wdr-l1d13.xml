@@ -53,22 +53,22 @@
         <div xml:id="wdr-l1d13q1" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3508" type="question-title">Utrum processio sit in divinis</head>
           <p xml:id="wdrl1d13-d1e3511">
-            <lb ed="#P" n="25"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pro<lb ed="#P" break="no"/>cessio 
-            sit in divinis Responsio sic <pc ana="#punctus"/> quae scilicet est processio in<lb ed="#P" break="no"/>itialis 
+            <lb ed="#P" n="25"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pro<lb ed="#P" break="no" n="26"/>cessio 
+            sit in divinis Responsio sic <pc ana="#punctus"/> quae scilicet est processio in<lb ed="#P" break="no" n="27"/>itialis 
             <pc ana="#punctus"/> ut principiati a principio <pc ana="#punctus"/> ut lineae a puncto <pc ana="#punctus"/> <pc ana="#virgula"/> 
-            <lb ed="#P"/>localis autem processio <pc ana="#punctus"/> vel causalis non est ibi proprie sed transumptive 
-            <lb ed="#P"/>scilicet quo ad determinationem et distinctionem originis <pc ana="#punctus"/> non 
-            <lb ed="#P"/>quo adversitatem essentiae <pc ana="#punctus"/>
+            <lb ed="#P" n="28"/>localis autem processio <pc ana="#punctus"/> vel causalis non est ibi proprie sed transumptive 
+            <lb ed="#P" n="29"/>scilicet quo ad determinationem et distinctionem originis <pc ana="#punctus"/> non 
+            <lb ed="#P" n="30"/>quo adversitatem essentiae <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d13q2" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3548" type="question-title">Utrum procedere sit proprium Spiritui Sancto</head>
           <p xml:id="wdrl1d13-d1e3551">
-            <pc ana="#pilcrow"/>Utrum procedere sit proprium spiritui sancto <pc ana="#punctus"/> Responsio secundum 
-            <lb ed="#P"/>rationem <unclear>consequentiae</unclear> est <pc ana="#punctus"/> etiam ad generationem filii <pc ana="#punctus"/> <pc ana="#virgula"/> quia tantum dicit emanationem 
-            <lb ed="#P"/>ab altero <pc ana="#punctus"/> appropriatur tamen spiritui sancto hoc nomen quia pro<cb ed="#P" n="b"/><!--28vb--><lb ed="#P" break="no"/>cessio 
+            <lb ed="#P" n="31"/><pc ana="#pilcrow"/>Utrum procedere sit proprium spiritui sancto <pc ana="#punctus"/> Responsio secundum 
+            <lb ed="#P" n="32"/>rationem <unclear>consequentiae</unclear> est <pc ana="#punctus"/> etiam ad generationem filii <pc ana="#punctus"/> <pc ana="#virgula"/> quia tantum dicit emanationem 
+            <lb ed="#P" n="33"/>ab altero <pc ana="#punctus"/> appropriatur tamen spiritui sancto hoc nomen quia pro<cb ed="#P" n="b"/><!--28vb--><lb ed="#P" break="no" n="34"/>cessio 
             spiritus sancti non addit spiritualem differentiam processionis nobis 
-            <lb ed="#P"/>notam supra processionem convenienter dictam sicut facit pro<lb ed="#P" break="no"/>cessio 
+            <lb ed="#P" n="35"/>notam supra processionem convenienter dictam sicut facit pro<lb ed="#P" break="no" n="36"/>cessio 
             filii <pc ana="#punctus"/> <unclear>exemplum</unclear> huius de accidente <unclear>sibi</unclear> <pc ana="#virgula"/> et proprio <pc ana="#punctus"/> et similiter 
             <!-- drop line --> de proprio et diffinitione
           </p> 
@@ -76,16 +76,16 @@
         <div xml:id="wdr-l1d13q3" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3611" type="question-title">utrum realiter diversae sint processiones generatio et processio</head>
           <p xml:id="wdrl1d13-d1e3614">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum realiter diversae sint 
-            <lb ed="#P"/>processiones <pc ana="#virgula"/> generatio et processio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Sic quia diver<lb ed="#P" break="no"/>sa 
+            <lb ed="#P" n="37"/><pc ana="#pilcrow"/>utrum realiter diversae sint 
+            <lb ed="#P" n="38"/>processiones <pc ana="#virgula"/> generatio et processio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> Sic quia diver<lb ed="#P" break="no" n="39"/>sa 
             supposita secunda rem constituunt <pc ana="#punctus"/> Sed quidam dicunt 
-            <lb ed="#P"/>quod differunt se ipsis sicut <del rend="expunctuated">pre</del> <unclear>pi</unclear> dicere ut rationale 
-            <lb ed="#P"/>et irrationale <pc ana="#punctus"/> alii autem quod per supposita <pc ana="#punctus"/> et formas sup<lb ed="#P" break="no"/>positorum 
+            <lb ed="#P" n="40"/>quod differunt se ipsis sicut <del rend="expunctuated">pre</del> <unclear>pi</unclear> dicere ut rationale 
+            <lb ed="#P" n="41"/>et irrationale <pc ana="#punctus"/> alii autem quod per supposita <pc ana="#punctus"/> et formas sup<lb ed="#P" break="no" n="42"/>positorum 
             inquantum principia actuum <pc ana="#punctus"/> ut generatio ab uno 
-            <lb ed="#P"/>solo <pc ana="#virgula"/> et per formam propriam processio a duobus et per 
-            <lb ed="#P"/>formam communem <pc ana="#punctus"/> concordando utrumque dicit <pc ana="#punctus"/> quod differunt se 
-            <lb ed="#P"/>ipsis formaliter <pc ana="#punctus"/> quia diversas habent rationes formales reales <pc ana="#punctus"/> 
-            <lb ed="#P"/>Sed non se ipsis originaliter <pc ana="#punctus"/> Sed penes suppositas 
+            <lb ed="#P" n="43"/>solo <pc ana="#virgula"/> et per formam propriam processio a duobus et per 
+            <lb ed="#P" n="44"/>formam communem <pc ana="#punctus"/> concordando utrumque dicit <pc ana="#punctus"/> quod differunt se 
+            <lb ed="#P" n="45"/>ipsis formaliter <pc ana="#punctus"/> quia diversas habent rationes formales reales <pc ana="#punctus"/> 
+            <lb ed="#P" n="46"/>Sed non se ipsis originaliter <pc ana="#punctus"/> Sed penes suppositas 
             formas <pc ana="#virgula"/> a quibus hii actus egrediuntur scilicet paternitatem <!-- drops --> 
             et <unclear cert="high">communem</unclear> spirationem
           </p>
@@ -93,36 +93,36 @@
         <div xml:id="wdr-l1d13q4" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3690" type="question-title">Utrum processio Spiritus Sancti possit dici generatio</head>
           <p xml:id="wdrl1d13-d1e3693">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum processio spiritus 
-            <lb ed="#P"/>sancti possit dici generatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quod non <pc ana="#punctus"/> 
-            <lb ed="#P"/>quia processio dividitur contra generationem <pc ana="#punctus"/> <pc ana="#virgula"/> quia generatio est emanatio 
-            <lb ed="#P"/>per modum naturae processio per modum voluntatis <pc ana="#punctus"/>
+            <lb ed="#P" n="47"/><pc ana="#pilcrow"/>utrum processio spiritus 
+            <lb ed="#P" n="48"/>sancti possit dici generatio <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quod non <pc ana="#punctus"/> 
+            <lb ed="#P" n="49"/>quia processio dividitur contra generationem <pc ana="#punctus"/> <pc ana="#virgula"/> quia generatio est emanatio 
+            <lb ed="#P" n="50"/>per modum naturae processio per modum voluntatis <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d13q5" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3719" type="question-title">Utrum Spiritus Sanctus possit dici ingenitus</head>
           <p xml:id="wdrl1d13-d1e3722">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus possit dici ingenitus <pc ana="#punctus"/> Responsio 
-            <lb ed="#P"/>ingenitum <pc ana="#virgula"/> potest accipi privatem et sic non cadit in divinis <pc ana="#punctus"/> <pc ana="#virgula"/> 
-            <lb ed="#P"/>vel <unclear>negantem <!-- possible correction here --></unclear> <pc ana="#punctus"/> et hoc dupliciter vel negatione in genere aliquo determin<lb ed="#P" break="no"/>ato 
+            <lb ed="#P" n="51"/><pc ana="#pilcrow"/>utrum spiritus sanctus possit dici ingenitus <pc ana="#punctus"/> Responsio 
+            <lb ed="#P" n="52"/>ingenitum <pc ana="#virgula"/> potest accipi privatem et sic non cadit in divinis <pc ana="#punctus"/> <pc ana="#virgula"/> 
+            <lb ed="#P" n="53"/>vel <unclear>negantem <!-- possible correction here --></unclear> <pc ana="#punctus"/> et hoc dupliciter vel negatione in genere aliquo determin<lb ed="#P" break="no" n="54"/>ato 
             <pc ana="#punctus"/>quae relinquit aliquid <pc ana="#virgula"/> et tollit esse ab <unclear><name ref="#Augustine">augustino</name></unclear> per generationem solum <pc ana="#punctus"/> 
-            <lb ed="#P"/>et sic convenit spiritui sancto <pc ana="#punctus"/> et sic dicit eum <name ref="#Jerome">Ieromus</name> <pc ana="#punctus"/> in littera ingenitum <pc ana="#punctus"/> 
-            <lb ed="#P"/>vel negatione extra gradus <pc ana="#punctus"/> quae tollit esse ab alio simpliciter sic 
-            <lb ed="#P"/>tantum pater ingenitus <pc ana="#punctus"/> et sic <name rend="#Augustine">augustinus</name> in littera dicit spiritum sanctum nec genitum  
+            <lb ed="#P" n="55"/>et sic convenit spiritui sancto <pc ana="#punctus"/> et sic dicit eum <name ref="#Jerome">Ieromus</name> <pc ana="#punctus"/> in littera ingenitum <pc ana="#punctus"/> 
+            <lb ed="#P" n="56"/>vel negatione extra gradus <pc ana="#punctus"/> quae tollit esse ab alio simpliciter sic 
+            <lb ed="#P" n="57"/>tantum pater ingenitus <pc ana="#punctus"/> et sic <name rend="#Augustine">augustinus</name> in littera dicit spiritum sanctum nec genitum  
             <!-- drops line --> debere dici <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d13q6" type="quaestio">
           <head xml:id="wdrl1d13-Hd1e3775" type="question-title">Utrum ingenitum dicat aliquam notionem in Spiritu Sancto</head>
           <p xml:id="wdrl1d13-d1e3778">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum ingenitum dicat 
-            <lb ed="#P"/>aliquam notionem in spiritu sancto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> notio dicitur <pc ana="#virgula"/> id 
-            <lb ed="#P"/>quod est principium innotescendi persona quid notionem igitur tria requiruntur 
-            <lb ed="#P"/>primum <pc ana="#virgula"/> quod sit proprietas aliquam determinata <pc ana="#punctus"/> quia generalem non 
-            <lb ed="#P"/>distinguit <pc ana="#punctus"/> Secundum quod sit proprietas regula <pc ana="#punctus"/> quia sola 
-            <lb ed="#P"/>relatio originis distinguit in divinis <pc ana="#punctus"/> Tertium <pc ana="#punctus"/> quod sit proprie<lb ed="#P" break="no"/>tas 
+            <lb ed="#P" n="58"/><pc ana="#pilcrow"/>utrum ingenitum dicat 
+            <lb ed="#P" n="59"/>aliquam notionem in spiritu sancto <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> notio dicitur <pc ana="#virgula"/> id 
+            <lb ed="#P" n="60"/>quod est principium innotescendi persona quid notionem igitur tria requiruntur 
+            <lb ed="#P" n="61"/>primum <pc ana="#virgula"/> quod sit proprietas aliquam determinata <pc ana="#punctus"/> quia generalem non 
+            <lb ed="#P" n="62"/>distinguit <pc ana="#punctus"/> Secundum quod sit proprietas regula <pc ana="#punctus"/> quia sola 
+            <lb ed="#P" n="63"/>relatio originis distinguit in divinis <pc ana="#punctus"/> Tertium <pc ana="#punctus"/> quod sit proprie<lb ed="#P" break="no" n="64"/>tas 
             ad dignitatem aliquam pertinens <pc ana="#punctus"/> quia ergo esse ab alio non 
-            <lb ed="#P"/>per generationem nullam dignitatem <choice><orig>inportat</orig><reg>importat</reg></choice> <pc ana="#punctus"/> sic autem dicitur in<pb ed="#P" n="29-r"/><cb ed="#P" n="a"/><lb ed="#P" break="no"/>genitus 
+            <lb ed="#P" n="65"/>per generationem nullam dignitatem <choice><orig>inportat</orig><reg>importat</reg></choice> <pc ana="#punctus"/> sic autem dicitur in<pb ed="#P" n="29-r"/><cb ed="#P" n="a"/><lb ed="#P" break="no" n="1"/>genitus 
             de spiritu sancto <pc ana="#punctus"/> ideo nullam notionem ponit in ea
           </p>
         </div>

@@ -53,10 +53,10 @@
         <div xml:id="wdr-l1d27q1" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3508" type="question-title">Utrum proprietates personales distinguantur ab invicem</head>
           <p xml:id="wdrl1d27-d1e3511">
-            <lb ed="#P" n="63"/><pc ana="#pilcrow"/>ueritur utrum proprietates <unclear>personales <!-- possible corrected --></unclear> dis<lb ed="#P" break="no"/>tinguantur 
+            <lb ed="#P" n="63"/><pc ana="#pilcrow"/>ueritur utrum proprietates <unclear>personales <!-- possible corrected --></unclear> dis<lb ed="#P" break="no" n="64"/>tinguantur 
             ab invicem <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic scilicet sicut rationes 
-            <lb ed="#P"/>distinguendi alia <pc ana="#punctus"/> sicut personae <unclear>dicere</unclear> <pc ana="#punctus"/> et per se ipsas <pc ana="#virgula"/> personae autem 
-            <lb ed="#P"/>sicut extrema distinctionis <pc ana="#virgula"/> et per ipsas distinguuntur
+            <lb ed="#P" n="65"/>distinguendi alia <pc ana="#punctus"/> sicut personae <unclear>dicere</unclear> <pc ana="#punctus"/> et per se ipsas <pc ana="#virgula"/> personae autem 
+            <lb ed="#P" n="66"/>sicut extrema distinctionis <pc ana="#virgula"/> et per ipsas distinguuntur
           </p>
         </div>
         <div xml:id="wdr-l1d27q2" type="quaestio">
@@ -64,73 +64,73 @@
           <p xml:id="wdrl1d27-d1e3549">
             <pb ed="#P" n="35-r"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/>utrum esse patrem et generare significent eaedem 
-            <lb ed="#P"/>proprietate <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in creaturis differunt <pc ana="#punctus"/> et in re significata 
-            <lb ed="#P"/>quia non convertuntur et in modo <pc ana="#punctus"/> significandi <pc ana="#punctus"/> sed in divinis quantum ad 
-            <lb ed="#P"/>rem significatam non differunt <pc ana="#punctus"/> unde ad invicem praedicantur <pc ana="#punctus"/> et 
-            <lb ed="#P"/>concrete <pc ana="#punctus"/> ut pater generat <pc ana="#punctus"/> et abstracte ut paternitas est 
-            <lb ed="#P"/>generatio <pc ana="#punctus"/> <pc ana="#virgula"/> Sed in modo significandi differunt <pc ana="#punctus"/> quia esse patrem <pc ana="#virgula"/> significat 
-            <lb ed="#P"/>proprietatem in ypostasi <pc ana="#punctus"/> generare <pc ana="#virgula"/> proprietatem solam <pc ana="#punctus"/> unde 
-            <lb ed="#P"/>esse patrem praedicatur de essentia <pc ana="#punctus"/> sed non generare <pc ana="#punctus"/>
+            <lb ed="#P" n="1"/>utrum esse patrem et generare significent eaedem 
+            <lb ed="#P" n="2"/>proprietate <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> in creaturis differunt <pc ana="#punctus"/> et in re significata 
+            <lb ed="#P" n="3"/>quia non convertuntur et in modo <pc ana="#punctus"/> significandi <pc ana="#punctus"/> sed in divinis quantum ad 
+            <lb ed="#P" n="4"/>rem significatam non differunt <pc ana="#punctus"/> unde ad invicem praedicantur <pc ana="#punctus"/> et 
+            <lb ed="#P" n="5"/>concrete <pc ana="#punctus"/> ut pater generat <pc ana="#punctus"/> et abstracte ut paternitas est 
+            <lb ed="#P" n="6"/>generatio <pc ana="#punctus"/> <pc ana="#virgula"/> Sed in modo significandi differunt <pc ana="#punctus"/> quia esse patrem <pc ana="#virgula"/> significat 
+            <lb ed="#P" n="7"/>proprietatem in ypostasi <pc ana="#punctus"/> generare <pc ana="#virgula"/> proprietatem solam <pc ana="#punctus"/> unde 
+            <lb ed="#P" n="8"/>esse patrem praedicatur de essentia <pc ana="#punctus"/> sed non generare <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d27q3" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3610" type="question-title">Utrum proprietas causet actum personalem vel econverso</head>
           <p xml:id="wdrl1d27-d1e3613">
-            <lb ed="#P"/>utrum proprietas causet actum personalem <pc ana="#punctus"/> vel econverso 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> quamvis quidam dixerunt <pc ana="#punctus"/> quod actus generandi egre<lb ed="#P" break="no"/>ditur 
+            <lb ed="#P" n="9"/>utrum proprietas causet actum personalem <pc ana="#punctus"/> vel econverso 
+            <lb ed="#P" n="10"/>Responsio <pc ana="#punctus"/> quamvis quidam dixerunt <pc ana="#punctus"/> quod actus generandi egre<lb ed="#P" break="no" n="11"/>ditur 
             a patre mediante forma innascibilitas quae 
-            <lb ed="#P"/>dicit fontalis plenitudinis rationem <pc ana="#punctus"/> tamen melius dictum alii <pc ana="#punctus"/> 
-            <lb ed="#P"/>quod paternitas inquantum est personae distinctam <pc ana="#punctuselevatus"/> sic praecedit secundum 
-            <lb ed="#P"/>intellectum <pc ana="#virgula"/> actum generationis <pc ana="#punctus"/> quia omnis actus a supposita 
-            <lb ed="#P"/>egreditur <pc ana="#virgula"/> per aliquam formam <pc ana="#punctus"/> sed inquantum est relatio <pc ana="#punctus"/> sic consequitur
+            <lb ed="#P" n="12"/>dicit fontalis plenitudinis rationem <pc ana="#punctus"/> tamen melius dictum alii <pc ana="#punctus"/> 
+            <lb ed="#P" n="13"/>quod paternitas inquantum est personae distinctam <pc ana="#punctuselevatus"/> sic praecedit secundum 
+            <lb ed="#P" n="14"/>intellectum <pc ana="#virgula"/> actum generationis <pc ana="#punctus"/> quia omnis actus a supposita 
+            <lb ed="#P" n="15"/>egreditur <pc ana="#virgula"/> per aliquam formam <pc ana="#punctus"/> sed inquantum est relatio <pc ana="#punctus"/> sic consequitur
           </p>
         </div>
         <div xml:id="wdr-l1d27q4" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3656" type="question-title">Utrum verbum sit proprie in divinis</head>
           <p xml:id="wdrl1d27-d1e3659">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum verbum sit proprie in divinis <pc ana="#punctus"/> Respondeo sic <ref><title ref="#io">Ioannes</title> 
-            <lb ed="#P"/>1</ref> Nota ergo secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> <name ref="#Anselm">anselmum</name> <pc ana="#punctus"/> et <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> quod triplex est verbum 
-            <lb ed="#P"/>in nobis scilicet intelligibile <pc ana="#punctus"/> <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> et sensibile <pc ana="#punctus"/> primum 
-            <lb ed="#P"/>est <pc ana="#virgula"/> quo rem ipsam per suam speciem cogitamus <pc ana="#punctus"/> Secundum <pc ana="#punctus"/> quo 
-            <lb ed="#P"/>speciem vocis exprimendae <choice><orig>aput</orig><reg>apud</reg></choice> nos formamus <pc ana="#punctus"/> tertium 
-            <lb ed="#P"/>quo vocem ipsam proferimus <pc ana="#punctus"/> cum primo autem verbo secundum 
-            <lb ed="#P"/>sanctos maxime similitudinem habet verbum aeternaliter genitum <pc ana="#punctus"/> cum 
-            <lb ed="#P"/>secundo ipsum incarnari praevisum <pc ana="#punctus"/> cum tertio ipsum <unclear>actu</unclear> in<!-- drops -->carnatum
+            <lb ed="#P" n="16"/><pc ana="#pilcrow"/>utrum verbum sit proprie in divinis <pc ana="#punctus"/> Respondeo sic <ref><title ref="#io">Ioannes</title> 
+            <lb ed="#P" n="17"/>1</ref> Nota ergo secundum <name ref="#Augustine">augustinum</name> <pc ana="#punctus"/> <name ref="#Anselm">anselmum</name> <pc ana="#punctus"/> et <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> quod triplex est verbum 
+            <lb ed="#P" n="18"/>in nobis scilicet intelligibile <pc ana="#punctus"/> <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> et sensibile <pc ana="#punctus"/> primum 
+            <lb ed="#P" n="19"/>est <pc ana="#virgula"/> quo rem ipsam per suam speciem cogitamus <pc ana="#punctus"/> Secundum <pc ana="#punctus"/> quo 
+            <lb ed="#P" n="20"/>speciem vocis exprimendae <choice><orig>aput</orig><reg>apud</reg></choice> nos formamus <pc ana="#punctus"/> tertium 
+            <lb ed="#P" n="21"/>quo vocem ipsam proferimus <pc ana="#punctus"/> cum primo autem verbo secundum 
+            <lb ed="#P" n="22"/>sanctos maxime similitudinem habet verbum aeternaliter genitum <pc ana="#punctus"/> cum 
+            <lb ed="#P" n="23"/>secundo ipsum incarnari praevisum <pc ana="#punctus"/> cum tertio ipsum <unclear>actu</unclear> in<!-- drops -->carnatum
           </p>
         </div>
         <div xml:id="wdr-l1d27q5" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3743" type="question-title">Utrum ratio verbi praecedat sapientiam vel econverso</head>
           <p xml:id="wdrl1d27-d1e3746">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum ratio verbi praecedat sapientiam <pc ana="#punctus"/> 
-            <lb ed="#P"/>vel econverso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cum prius sit speciem rei apud se habere 
-            <lb ed="#P"/>quam per speciem ipsam <pc ana="#punctus"/> acta actu cogitare prior est 
-            <lb ed="#P"/>sapientia verbo <pc ana="#punctus"/> secundum rationem intelligendi <pc ana="#punctus"/> non secundum rem <pc ana="#punctus"/>
+            <lb ed="#P" n="24"/><pc ana="#pilcrow"/>utrum ratio verbi praecedat sapientiam <pc ana="#punctus"/> 
+            <lb ed="#P" n="25"/>vel econverso <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> cum prius sit speciem rei apud se habere 
+            <lb ed="#P" n="26"/>quam per speciem ipsam <pc ana="#punctus"/> acta actu cogitare prior est 
+            <lb ed="#P" n="27"/>sapientia verbo <pc ana="#punctus"/> secundum rationem intelligendi <pc ana="#punctus"/> non secundum rem <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d27q6" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3774" type="question-title">Utrum verbum in divinis dicatur personaliter vel essentialiter</head>
           <p xml:id="wdrl1d27-d1e3777">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum verbum in divinis dicatur personaliter vel 
-            <lb ed="#P"/>essentialiter <pc ana="#punctus"/> Responsio ad completam rationem verbi tria concurrunt 
-            <lb ed="#P"/>primum est intellectus super intelligibile conversio <pc ana="#punctus"/> secundum quod illa 
-            <lb ed="#P"/>conversio non tantum sit habitualis <pc ana="#virgula"/> sicut in scientia <pc ana="#punctus"/> sed actu<lb ed="#P" break="no"/>alis 
+            <lb ed="#P" n="28"/><pc ana="#pilcrow"/>utrum verbum in divinis dicatur personaliter vel 
+            <lb ed="#P" n="29"/>essentialiter <pc ana="#punctus"/> Responsio ad completam rationem verbi tria concurrunt 
+            <lb ed="#P" n="30"/>primum est intellectus super intelligibile conversio <pc ana="#punctus"/> secundum quod illa 
+            <lb ed="#P" n="31"/>conversio non tantum sit habitualis <pc ana="#virgula"/> sicut in scientia <pc ana="#punctus"/> sed actu<lb ed="#P" break="no" n="32"/>alis 
             <pc ana="#punctus"/> et illa est naturalis operatio intellectus <pc ana="#punctus"/> unde et procedit 
-            <lb ed="#P"/>in similitudine naturae operantis <pc ana="#punctus"/> tertium ordo ad mani<cb ed="#P" n="b"/><!--35rb --><lb ed="#P" break="no"/>festandum 
+            <lb ed="#P" n="33"/>in similitudine naturae operantis <pc ana="#punctus"/> tertium ordo ad mani<cb ed="#P" n="b"/><!--35rb --><lb ed="#P" break="no" n="34"/>festandum 
             se in illo <pc ana="#punctus"/> vel sibi <pc ana="#punctus"/> vel alteri <pc ana="#punctus"/> primum convenit essentiae 
-            <lb ed="#P"/>et cuilibet personae <pc ana="#punctus"/> <pc ana="#virgula"/> secundum tantum filio <pc ana="#punctus"/> <pc ana="#virgula"/> de primo <name ref="#Anselm">anslemus</name> <pc ana="#punctus"/> quaelibet persona dicit 
-            <lb ed="#P"/>se <pc ana="#virgula"/> et quamlibet aliam <pc ana="#punctus"/> quantum ad secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> <quote source="http://scta.info/resource/adt-l15-d1e1886">Non dicitur verbum 
-            <lb ed="#P"/>nisi filius nec donum nisis spiritus sanctus</quote> <pc ana="#punctus"/> Et esto modo convenienter locuntur 
+            <lb ed="#P" n="35"/>et cuilibet personae <pc ana="#punctus"/> <pc ana="#virgula"/> secundum tantum filio <pc ana="#punctus"/> <pc ana="#virgula"/> de primo <name ref="#Anselm">anslemus</name> <pc ana="#punctus"/> quaelibet persona dicit 
+            <lb ed="#P" n="36"/>se <pc ana="#virgula"/> et quamlibet aliam <pc ana="#punctus"/> quantum ad secundum <pc ana="#punctus"/> <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> <quote source="http://scta.info/resource/adt-l15-d1e1886">Non dicitur verbum 
+            <lb ed="#P" n="37"/>nisi filius nec donum nisis spiritus sanctus</quote> <pc ana="#punctus"/> Et esto modo convenienter locuntur 
             <!-- drops --> sancti de verbo <pc ana="#punctus"/> non primo modo <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d27q7" type="quaestio">
           <head xml:id="wdrl1d27-Hd1e3861" type="question-title">Utrum importet relationem ad creaturam</head>
           <p xml:id="wdrl1d27-d1e3864">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <choice><orig>inportet</orig><reg>importet</reg></choice> relationem 
-            <lb ed="#P"/>ad creaturam <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> super <title>ioannes</title> habitualem scilicet non 
-            <lb ed="#P"/>actualem de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quia habet similitudinem cum patre inquantum 
-            <lb ed="#P"/>est <choice><orig>ymago</orig><reg>imago</reg></choice> eius <pc ana="#punctus"/> cum creaturis <pc ana="#virgula"/> inquantum exemplar earum <pc ana="#punctus"/>
+            <lb ed="#P" n="38"/><pc ana="#pilcrow"/>utrum <choice><orig>inportet</orig><reg>importet</reg></choice> relationem 
+            <lb ed="#P" n="39"/>ad creaturam <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> super <title>ioannes</title> habitualem scilicet non 
+            <lb ed="#P" n="40"/>actualem de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quia habet similitudinem cum patre inquantum 
+            <lb ed="#P" n="41"/>est <choice><orig>ymago</orig><reg>imago</reg></choice> eius <pc ana="#punctus"/> cum creaturis <pc ana="#virgula"/> inquantum exemplar earum <pc ana="#punctus"/>
           </p>
         </div>
       </div>

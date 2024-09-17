@@ -55,32 +55,32 @@
           <head xml:id="wdrl1d11-Hd1e3508" type="question-title">Queritur si Spiritus Sanctus procedat a Patre et Filio</head>
           <p xml:id="wdrl1d11-d1e3511">
             <lb ed="#P" n="50"/>Queritur si spiritus sanctus 
-            <lb ed="#P"/>procedat a patre et filio Responsio sic <pc ana="#punctus"/> alias si a fi<lb ed="#P" break="no"/>lio 
+            <lb ed="#P" n="51"/>procedat a patre et filio Responsio sic <pc ana="#punctus"/> alias si a fi<lb ed="#P" break="no" n="52"/>lio 
             non procederet <pc ana="#virgula"/> non distingueretur ab eo <pc ana="#punctus"/> quia inter eos 
-            <lb ed="#P"/>non esset oppositio relationis <pc ana="#virgula"/> quae sola distinguit in divinis
+            <lb ed="#P" n="53"/>non esset oppositio relationis <pc ana="#virgula"/> quae sola distinguit in divinis
           </p>
         </div>
         <div xml:id="wdr-l1d11q2" type="quaestio">
           <head xml:id="wdrl1d11-Hd1e3535" type="question-title">Utrum procedat ab eis secundum quod unum sunt</head>
           <p xml:id="wdrl1d11-d1e3538">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt 
-            <lb ed="#P"/>Responsio sic scilicet secundum quod unum sunt <unclear>communi</unclear> voluntate 
-            <lb ed="#P"/>plures tamen pluralitate <pc ana="#punctus"/> unde <unclear>supposita</unclear> spirantia sunt plura <pc ana="#punctus"/> 
-            <lb ed="#P"/>una tamen est forma sive principium quo spirant scilicet concors <!--drops line--> voluntas
+            <lb ed="#P" n="54"/><g ref="#pilcrow"/>Utrum procedat ab eis secundum quod unum sunt 
+            <lb ed="#P" n="55"/>Responsio sic scilicet secundum quod unum sunt <unclear>communi</unclear> voluntate 
+            <lb ed="#P" n="56"/>plures tamen pluralitate <pc ana="#punctus"/> unde <unclear>supposita</unclear> spirantia sunt plura <pc ana="#punctus"/> 
+            <lb ed="#P" n="57"/>una tamen est forma sive principium quo spirant scilicet concors <!--drops line--> voluntas
           </p>
         </div>
         <div xml:id="wdr-l1d11q3" type="quaestio">
           <head xml:id="wdrl1d11-Hd1e3560" type="question-title">Utrum illa unitas sit essentia vel notionis</head>
           <p xml:id="wdrl1d11-d1e3563">
             <g ref="#pilcrow"/>Utrum illa unitas sit 
-            <lb ed="#P"/>essentiae vel notionis <pc ana="#punctus"/> Responsio unitas est notionis communis 
-            <lb ed="#P"/>duabus personis <pc ana="#punctus"/> quae tamen praesupponit unitatem essentiae 
-            <lb ed="#P"/>diversi <unclear><choice><orig>ii</orig><reg>duo</reg></choice></unclear> actus <pc ana="#virgula"/> a diversis potentiis operantis 
-            <lb ed="#P"/>secundum rationem egrediuntur <pc ana="#virgula"/> secundum quod diversa attribuunt deo 
-            <lb ed="#P"/>ut scientia <pc ana="#punctus"/> <unclear>volubilis</unclear> etc <pc ana="#punctus"/> quamvis una sit essentia et similiter 
-            <lb ed="#P"/>est de actibus notionalibus <pc ana="#punctus"/> vel unius vel duarum 
-            <lb ed="#P"/>personarum <pc ana="#punctus"/> unde potentia spiratam <pc ana="#punctuselevatus"/> dicit essentiam <pc ana="#virgula"/> sub <sic>rationis</sic> notionis 
-            <lb ed="#P"/>duarum personarum
+            <lb ed="#P" n="58"/>essentiae vel notionis <pc ana="#punctus"/> Responsio unitas est notionis communis 
+            <lb ed="#P" n="59"/>duabus personis <pc ana="#punctus"/> quae tamen praesupponit unitatem essentiae 
+            <lb ed="#P" n="60"/>diversi <unclear><choice><orig>ii</orig><reg>duo</reg></choice></unclear> actus <pc ana="#virgula"/> a diversis potentiis operantis 
+            <lb ed="#P" n="61"/>secundum rationem egrediuntur <pc ana="#virgula"/> secundum quod diversa attribuunt deo 
+            <lb ed="#P" n="62"/>ut scientia <pc ana="#punctus"/> <unclear>volubilis</unclear> etc <pc ana="#punctus"/> quamvis una sit essentia et similiter 
+            <lb ed="#P" n="63"/>est de actibus notionalibus <pc ana="#punctus"/> vel unius vel duarum 
+            <lb ed="#P" n="64"/>personarum <pc ana="#punctus"/> unde potentia spiratam <pc ana="#punctuselevatus"/> dicit essentiam <pc ana="#virgula"/> sub <sic>rationis</sic> notionis 
+            <lb ed="#P" n="65"/>duarum personarum
           </p>
         </div>
         <div xml:id="wdr-l1d11q4" type="quaestio">
@@ -88,8 +88,8 @@
           <p xml:id="wdrl1d11-d1e3617">
             <pb ed="#P" n="28-v"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater et filius debeant dici unus 
-            <lb ed="#P"/>spirator vel plures Responsio plures debent dici quia ac<lb ed="#P" break="no"/>tus 
+            <lb ed="#P" n="1"/><pc ana="#pilcrow"/>utrum pater et filius debeant dici unus 
+            <lb ed="#P" n="2"/>spirator vel plures Responsio plures debent dici quia ac<lb ed="#P" break="no" n="3"/>tus 
             numerantur secundum supposita <pc ana="#virgula"/> saltem secundum modum intelligendi 
             <!-- drops to next line --> substantia <ref>distinctione 9 quaestione 6 <!-- cross ref ? --></ref>
           </p>
@@ -97,10 +97,10 @@
         <div xml:id="wdr-l1d11q5" type="quaestio">
           <head xml:id="wdrl1d11-Hd1e3637" type="question-title">Quid sit ipsa vis spirativa in eis</head>
           <p xml:id="wdrl1d11-d1e3640">
-            <lb ed="#P"/><g ref="#pilcrow"/>Quid sit ipsa vis 
-            <lb ed="#P"/>spiratam in eis Responsio Cum dico potentia spiratam <pc ana="#punctus"/> 
-            <lb ed="#P"/>primum pertinet ad essentiam secundum ad notionem <pc ana="#punctus"/> unde dicit 
-            <lb ed="#P"/>essentiale <pc ana="#virgula"/> tractum ad significationem <unclear>pluralem <!-- personalem --></unclear> duarum personarum 
+            <lb ed="#P" n="4"/><g ref="#pilcrow"/>Quid sit ipsa vis 
+            <lb ed="#P" n="5"/>spiratam in eis Responsio Cum dico potentia spiratam <pc ana="#punctus"/> 
+            <lb ed="#P" n="6"/>primum pertinet ad essentiam secundum ad notionem <pc ana="#punctus"/> unde dicit 
+            <lb ed="#P" n="7"/>essentiale <pc ana="#virgula"/> tractum ad significationem <unclear>pluralem <!-- personalem --></unclear> duarum personarum 
             <!-- drops line --> substantia <ref>quaestione 3</ref>
           </p>
         </div>

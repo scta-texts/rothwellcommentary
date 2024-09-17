@@ -54,94 +54,94 @@
           <head xml:id="wdrl1d14-Hd1e3508" type="question-title">Utrum aliqua processio spiritus sancti sit temporalis</head>
           <p xml:id="wdrl1d14-d1e3511">
             <lb ed="#P" n="2"/>Quaeritur utrum aliqua processio spiritus sancti sit 
-            <lb ed="#P"/>temporalis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustinus">augustinus</name> et <name ref="#Bede">bedam</name> in littera <pc ana="#virgula"/> quia quam<lb ed="#P" break="no"/>vis 
-            spiritus sancti processio <pc ana="#virgula"/> qui procedit ut amor sit aeter<lb ed="#P" break="no"/>na 
+            <lb ed="#P" n="3"/>temporalis <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustinus">augustinus</name> et <name ref="#Bede">bedam</name> in littera <pc ana="#virgula"/> quia quam<lb ed="#P" break="no" n="4"/>vis 
+            spiritus sancti processio <pc ana="#virgula"/> qui procedit ut amor sit aeter<lb ed="#P" break="no" n="5"/>na 
             inquantum scilicet <unclear>procedit</unclear> in aliquam tamquam in obiectum tantum 
-            <lb ed="#P"/>quia hoc respectu personarum animarum <pc ana="#punctus"/> quae aeternae sunt <pc ana="#punctus"/> <pc ana="#virgula"/> tantum etiam temporalis est 
-            <lb ed="#P"/>inquantum procedit in aliquid etiam tamquam in subiectum <unclear>sulorp<lb ed="#P" break="no"/>tibile</unclear> 
+            <lb ed="#P" n="6"/>quia hoc respectu personarum animarum <pc ana="#punctus"/> quae aeternae sunt <pc ana="#punctus"/> <pc ana="#virgula"/> tantum etiam temporalis est 
+            <lb ed="#P" n="7"/>inquantum procedit in aliquid etiam tamquam in subiectum <unclear>sulorp<lb ed="#P" break="no" n="8"/>tibile</unclear> 
             quia illud subiectum non est nec temporale <pc ana="#virgula"/> extra qua tamen processione 
-            <lb ed="#P"/>causatur in creatura novus res realis in spiritu autem <!-- drops line --> 
+            <lb ed="#P" n="9"/>causatur in creatura novus res realis in spiritu autem <!-- drops line --> 
             sancto secundum rationem
           </p>
         </div>
         <div xml:id="wdr-l1d14q2" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3567" type="question-title">Quid sit temporalis processio Spiritus Sancti</head>
           <p xml:id="wdrl1d14-d1e3570">
-            <lb ed="#P"/>Quid sit temporalis processio 
-            <lb ed="#P"/>spiritus sancti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> processio temporalis est <pc ana="#virgula"/> <unclear>qnt</unclear> 
-            <lb ed="#P"/>qua spiritus sanctus a patre et filio ad sanctificandum creaturam 
-            <lb ed="#P"/>procedit <unclear>hic</unclear> sumuntur ex verbo <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> et <unclear>causa</unclear> geritur 
-            <lb ed="#P"/>hi tres a quo <pc ana="#punctus"/> a ad quod <pc ana="#punctus"/> et effectus scilicet sanctificatio
+            <lb ed="#P" n="10"/>Quid sit temporalis processio 
+            <lb ed="#P" n="11"/>spiritus sancti <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum <name ref="#Lombard">magister</name> in littera <pc ana="#punctus"/> processio temporalis est <pc ana="#virgula"/> <unclear>qnt</unclear> 
+            <lb ed="#P" n="12"/>qua spiritus sanctus a patre et filio ad sanctificandum creaturam 
+            <lb ed="#P" n="13"/>procedit <unclear>hic</unclear> sumuntur ex verbo <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> et <unclear>causa</unclear> geritur 
+            <lb ed="#P" n="14"/>hi tres a quo <pc ana="#punctus"/> a ad quod <pc ana="#punctus"/> et effectus scilicet sanctificatio
           </p>
         </div>
         <div xml:id="wdr-l1d14q3" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3616" type="question-title">Utrum etiam filio conveniat processio temporalis</head>
           <p xml:id="wdrl1d14-d1e3619">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum etiam filio conveniat processio temporalis <pc ana="#punctus"/> Respondeo 
-            <lb ed="#P"/>sic <pc ana="#punctus"/> conveniat loquendo scilicet inquantum processio tantum <choice><orig>inportat</orig><reg>importat</reg></choice> 
-            <lb ed="#P"/>tantum ad principium a quo <pc ana="#punctus"/> sed stricte et proprie tantum conveniat <pc ana="#punctus"/> 
-            <lb ed="#P"/>spiritui sancto quia sic dicit idem ad principium a quo <pc ana="#punctus"/> et ad <unclear>termini</unclear> 
-            <lb ed="#P"/>quem <pc ana="#virgula"/> nullo filius ab aeterno procedit ut tendens in alterum <pc ana="#punctus"/> 
-            <lb ed="#P"/>sicut <unclear>spiritui sancto</unclear> quod tamen includit processio temporalis etiam aeternam 
+            <lb ed="#P" n="15"/><pc ana="#pilcrow"/>Utrum etiam filio conveniat processio temporalis <pc ana="#punctus"/> Respondeo 
+            <lb ed="#P" n="16"/>sic <pc ana="#punctus"/> conveniat loquendo scilicet inquantum processio tantum <choice><orig>inportat</orig><reg>importat</reg></choice> 
+            <lb ed="#P" n="17"/>tantum ad principium a quo <pc ana="#punctus"/> sed stricte et proprie tantum conveniat <pc ana="#punctus"/> 
+            <lb ed="#P" n="18"/>spiritui sancto quia sic dicit idem ad principium a quo <pc ana="#punctus"/> et ad <unclear>termini</unclear> 
+            <lb ed="#P" n="19"/>quem <pc ana="#virgula"/> nullo filius ab aeterno procedit ut tendens in alterum <pc ana="#punctus"/> 
+            <lb ed="#P" n="20"/>sicut <unclear>spiritui sancto</unclear> quod tamen includit processio temporalis etiam aeternam 
             <!-- drops --> includit
           </p>
         </div>
         <div xml:id="wdr-l1d14q4" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3667" type="question-title">Qualiter distinguatur a processione aeterna</head>
           <p xml:id="wdrl1d14-d1e3670">
-            <lb ed="#P"/>Qualiter distinguatur 
-            <lb ed="#P"/>a processione aeterna <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> processio <pc ana="#punctus"/> minor <pc ana="#punctus"/> modis 
-            <lb ed="#P"/>geminatur scilicet aut geminatione eorum <unclear>acribus</unclear> procedit <pc ana="#punctus"/> 
-            <lb ed="#P"/>ut filii dei a patre et a matre <pc ana="#punctus"/> <pc ana="#virgula"/> geminatione modorum 
-            <lb ed="#P"/>procedendi ut notitiae et amoris a mente <pc ana="#punctus"/> <pc ana="#virgula"/> geminatione 
-            <lb ed="#P"/>procedentium <pc ana="#punctus"/> ut geminorum ab eodem patre et matre <pc ana="#punctus"/> <pc ana="#virgula"/> gemi<lb ed="#P" break="no"/>natione 
+            <lb ed="#P" n="21"/>Qualiter distinguatur 
+            <lb ed="#P" n="22"/>a processione aeterna <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> processio <pc ana="#punctus"/> minor <pc ana="#punctus"/> modis 
+            <lb ed="#P" n="23"/>geminatur scilicet aut geminatione eorum <unclear>acribus</unclear> procedit <pc ana="#punctus"/> 
+            <lb ed="#P" n="24"/>ut filii dei a patre et a matre <pc ana="#punctus"/> <pc ana="#virgula"/> geminatione modorum 
+            <lb ed="#P" n="25"/>procedendi ut notitiae et amoris a mente <pc ana="#punctus"/> <pc ana="#virgula"/> geminatione 
+            <lb ed="#P" n="26"/>procedentium <pc ana="#punctus"/> ut geminorum ab eodem patre et matre <pc ana="#punctus"/> <pc ana="#virgula"/> gemi<lb ed="#P" break="no" n="27"/>natione 
             terminorum <pc ana="#punctus"/> ut actus dilectionis quo quis diligit 
-            <lb ed="#P"/>deum et proximum propter deum <pc ana="#punctus"/> et hic non oportet differre essentialiter 
-            <lb ed="#P"/>exemplum de actu lucidandi illuminandi liquefaciendi et hic ultimo 
-            <lb ed="#P"/>modo geminatur processio spiritu sancti scilicet aeterna qua proce<lb ed="#P" break="no"/>dit 
+            <lb ed="#P" n="28"/>deum et proximum propter deum <pc ana="#punctus"/> et hic non oportet differre essentialiter 
+            <lb ed="#P" n="29"/>exemplum de actu lucidandi illuminandi liquefaciendi et hic ultimo 
+            <lb ed="#P" n="30"/>modo geminatur processio spiritu sancti scilicet aeterna qua proce<lb ed="#P" break="no" n="31"/>dit 
             a patre in filium et econverso et temporalis qua in creaturam 
-            <lb ed="#P"/>ab utroque in qua tamen non etiam sicut accidens in subiecto nisi secundum 
-            <lb ed="#P"/>dona sua <pc ana="#punctus"/> sed secundum se in ea <pc ana="#punctus"/> ut motor in moto
+            <lb ed="#P" n="32"/>ab utroque in qua tamen non etiam sicut accidens in subiecto nisi secundum 
+            <lb ed="#P" n="33"/>dona sua <pc ana="#punctus"/> sed secundum se in ea <pc ana="#punctus"/> ut motor in moto
           </p>
         </div>
         <div xml:id="wdr-l1d14q5" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3741" type="question-title">Utrum Spiritus Santus personaliter detur</head>
           <p xml:id="wdrl1d14-d1e3744">
             <cb ed="#P" n="b"/> <!-- 29rb -->
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus personaliter detur <pc ana="#punctus"/> Respondeo sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> 
-            <lb ed="#P"/>et <name ref="#Ambrose">ambrosiorum</name> in littera <pc ana="#punctus"/> quia cum aliquo modo <unclear>fatemur</unclear> deo etiam in 
-            <lb ed="#P"/>hac vita licet <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> secundum <name ref="#Augustine">augustinus</name> <ref>Supra distinctio 1 quaestio 1 4</ref> ad hanc 
-            <lb ed="#P"/>autem <unclear>requiritur</unclear> praesentia <unclear>triplicibilis</unclear> <pc ana="#punctus"/> ut <unclear>fruibile</unclear> est spiritus sanctus scilicet 
-            <lb ed="#P"/>et domum eius scilicet amore <pc ana="#punctus"/> qui nos disponit <pc ana="#punctus"/> et quo 
+            <lb ed="#P" n="34"/><pc ana="#pilcrow"/>utrum spiritus sanctus personaliter detur <pc ana="#punctus"/> Respondeo sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> 
+            <lb ed="#P" n="35"/>et <name ref="#Ambrose">ambrosiorum</name> in littera <pc ana="#punctus"/> quia cum aliquo modo <unclear>fatemur</unclear> deo etiam in 
+            <lb ed="#P" n="36"/>hac vita licet <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> secundum <name ref="#Augustine">augustinus</name> <ref>Supra distinctio 1 quaestio 1 4</ref> ad hanc 
+            <lb ed="#P" n="37"/>autem <unclear>requiritur</unclear> praesentia <unclear>triplicibilis</unclear> <pc ana="#punctus"/> ut <unclear>fruibile</unclear> est spiritus sanctus scilicet 
+            <lb ed="#P" n="38"/>et domum eius scilicet amore <pc ana="#punctus"/> qui nos disponit <pc ana="#punctus"/> et quo 
             <!-- drops line --> inhaereamus ei <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d14q6" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3813" type="question-title">Quid detur per prius scilicet ipse vel dona eius</head>
           <p xml:id="wdrl1d14-d1e3816">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quid detur per prius 
-            <lb ed="#P"/>scilicet ipse vel dona eius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ex parte suscipientis 
-            <lb ed="#P"/>priora sunt dona quia disponunt <pc ana="#punctus"/> secundum respectu finis qui 
-            <lb ed="#P"/>prius intenditur <pc ana="#punctus"/> sic ipse s<del>i</del>piritus <pc ana="#punctus"/> sanctus est hic ordo nullae 
+            <lb ed="#P" n="39"/><pc ana="#pilcrow"/>Quid detur per prius 
+            <lb ed="#P" n="40"/>scilicet ipse vel dona eius <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> ex parte suscipientis 
+            <lb ed="#P" n="41"/>priora sunt dona quia disponunt <pc ana="#punctus"/> secundum respectu finis qui 
+            <lb ed="#P" n="42"/>prius intenditur <pc ana="#punctus"/> sic ipse s<del>i</del>piritus <pc ana="#punctus"/> sanctus est hic ordo nullae 
             <!-- drops line here --> non temporis <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d14q7" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3848" type="question-title">Utrum cum spiritu sancto semper detur dona gratiae gratum facientis</head>
           <p xml:id="wdrl1d14-d1e3851">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum cum spiritu sancto semper 
-            <lb ed="#P"/>detur <pc ana="#virgula"/> dona gratiae gratum facientis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
-            <lb ed="#P"/>quia secundum <name ref="#Augustine">augustinus</name> in littera temporaliter procedit ad sanctificandum 
-            <lb ed="#P"/>creaturam <pc ana="#punctus"/> In hiis enim donis coniungimur ei ut nostro fini 
-            <lb ed="#P"/>non sic autem et per gratis data <pc ana="#punctus"/>
+            <lb ed="#P" n="43"/><pc ana="#pilcrow"/>utrum cum spiritu sancto semper 
+            <lb ed="#P" n="44"/>detur <pc ana="#virgula"/> dona gratiae gratum facientis <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
+            <lb ed="#P" n="45"/>quia secundum <name ref="#Augustine">augustinus</name> in littera temporaliter procedit ad sanctificandum 
+            <lb ed="#P" n="46"/>creaturam <pc ana="#punctus"/> In hiis enim donis coniungimur ei ut nostro fini 
+            <lb ed="#P" n="47"/>non sic autem et per gratis data <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d14q8" type="quaestio">
           <head xml:id="wdrl1d14-Hd1e3880" type="question-title">Utrum Spiritus Sanctus detur a viris sanctis</head>
           <p xml:id="wdrl1d14-d1e3883">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus detur a viris sanctis <pc ana="#pilcrow"/> Respondeo <pc ana="#punctus"/> 
-            <lb ed="#P"/>non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> nisi ministerio tantum <pc ana="#punctus"/> ut dici vel <unclear>inpetrando</unclear> 
-            <lb ed="#P"/>non autem auctoritate <pc ana="#virgula"/> nec etiam gratiam possit dare <pc ana="#punctus"/> quia est
+            <lb ed="#P" n="48"/><pc ana="#pilcrow"/>utrum spiritus sanctus detur a viris sanctis <pc ana="#pilcrow"/> Respondeo <pc ana="#punctus"/> 
+            <lb ed="#P" n="49"/>non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> nisi ministerio tantum <pc ana="#punctus"/> ut dici vel <unclear>inpetrando</unclear> 
+            <lb ed="#P" n="50"/>non autem auctoritate <pc ana="#virgula"/> nec etiam gratiam possit dare <pc ana="#punctus"/> quia est
           </p>
         </div>
       </div>

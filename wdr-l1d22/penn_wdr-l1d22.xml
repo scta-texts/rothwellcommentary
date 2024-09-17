@@ -54,63 +54,63 @@
           <head xml:id="wdrl1d22-Hd1e3508" type="question-title">Utrum deus sit nominabilis</head>
           <p xml:id="wdrl1d22-d1e3511">
             <lb ed="#P" n="7"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum deus sit nominabilis <pc ana="#punctus"/> Responsio 
-            <lb ed="#P"/>sic <pc ana="#punctus"/> <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> tamen <pc ana="#punctus"/> sicut etiam <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> cognoscitur a nobis
+            <lb ed="#P" n="8"/>sic <pc ana="#punctus"/> <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> tamen <pc ana="#punctus"/> sicut etiam <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> cognoscitur a nobis
           </p>
         </div>
         <div xml:id="wdr-l1d22q2" type="quaestio">
           <head xml:id="wdrl1d22-Hd1e3542" type="question-title">Utrum nominari debeat uno tantum nomine vel pluribus</head>
           <p xml:id="wdrl1d22-d1e3545">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum nominari debeat uno tantum nomine vel 
-            <lb ed="#P"/>pluribus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> pluribus potest nominari <pc ana="#punctus"/> quia quamvis sit 
-            <lb ed="#P"/>unitas essentiae est tamen pluralitas personarum quae re differunt <pc ana="#punctus"/> et 
-            <lb ed="#P"/>similiter plurales notiones <pc ana="#virgula"/> quae secundum proprias rationes differunt <pc ana="#punctus"/> 
-            <lb ed="#P"/><ref type="commentary" target="http://scta.info/resource/wdr-l1d7">supra distinctio 7</ref> et ita essentia potest significari sub rationibus diversis <pc ana="#punctus"/> 
-            <lb ed="#P"/>et similiter in comparatione ad nos tribus modis nominatur 
-            <lb ed="#P"/>secundum <name ref="#Dionysius">dyonisium</name> scilicet per remotionem <pc ana="#punctus"/> ut immensus <pc ana="#punctus"/> per emi<lb ed="#P" break="no"/>nentiam 
+            <lb ed="#P" n="9"/><pc ana="#pilcrow"/>utrum nominari debeat uno tantum nomine vel 
+            <lb ed="#P" n="10"/>pluribus <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> pluribus potest nominari <pc ana="#punctus"/> quia quamvis sit 
+            <lb ed="#P" n="11"/>unitas essentiae est tamen pluralitas personarum quae re differunt <pc ana="#punctus"/> et 
+            <lb ed="#P" n="12"/>similiter plurales notiones <pc ana="#virgula"/> quae secundum proprias rationes differunt <pc ana="#punctus"/> 
+            <lb ed="#P" n="13"/><ref type="commentary" target="http://scta.info/resource/wdr-l1d7">supra distinctio 7</ref> et ita essentia potest significari sub rationibus diversis <pc ana="#punctus"/> 
+            <lb ed="#P" n="14"/>et similiter in comparatione ad nos tribus modis nominatur 
+            <lb ed="#P" n="15"/>secundum <name ref="#Dionysius">dyonisium</name> scilicet per remotionem <pc ana="#punctus"/> ut immensus <pc ana="#punctus"/> per emi<lb ed="#P" break="no" n="16"/>nentiam 
             <pc ana="#punctus"/> ut lux <pc ana="#punctus"/> vita <pc ana="#punctus"/> <pc ana="#virgula"/> per causalitatem ut creator
           </p>
         </div>
         <div xml:id="wdr-l1d22q3" type="quaestio">
           <head xml:id="wdrl1d22-Hd1e3601" type="question-title">Utrum proprie vel transumptive nominetur</head>
           <p xml:id="wdrl1d22-d1e3604">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum proprie <pc ana="#punctus"/> vel transumptive nominetur 
-            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> omnia scilicet et haec quam ad translationem vocis 
-            <lb ed="#P"/>sed non omnia translatione significationis <pc ana="#punctus"/> immo quaedam sunt 
-            <lb ed="#P"/>quorum veritas proprius est in deo <pc ana="#punctus"/> et proprius terminis in creatura <pc ana="#punctus"/> 
-            <lb ed="#P"/>et ideo etiam per prius de deo dicuntur ut sapientia et bonitas 
-            <lb ed="#P"/>quaedam quorum sola similitudo est in deo <pc ana="#punctus"/> ut leo <pc ana="#punctus"/> agnus 
-            <lb ed="#P"/>et huiusmodi <pc ana="#punctus"/> et haec proprie dicuntur transferri quaedam autem <pc ana="#virgula"/> quae tantum 
-            <lb ed="#P"/>deo conveniunt <pc ana="#virgula"/> et oppositum creaturae ut aeternus <pc ana="#punctus"/> immensus 
-            <lb ed="#P"/>et haec non transferuntur ad creaturam nec <del rend="strikethrough">es</del> econverso <pc ana="#punctus"/>
+            <lb ed="#P" n="17"/><pc ana="#pilcrow"/>utrum proprie <pc ana="#punctus"/> vel transumptive nominetur 
+            <lb ed="#P" n="18"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> omnia scilicet et haec quam ad translationem vocis 
+            <lb ed="#P" n="19"/>sed non omnia translatione significationis <pc ana="#punctus"/> immo quaedam sunt 
+            <lb ed="#P" n="20"/>quorum veritas proprius est in deo <pc ana="#punctus"/> et proprius terminis in creatura <pc ana="#punctus"/> 
+            <lb ed="#P" n="21"/>et ideo etiam per prius de deo dicuntur ut sapientia et bonitas 
+            <lb ed="#P" n="22"/>quaedam quorum sola similitudo est in deo <pc ana="#punctus"/> ut leo <pc ana="#punctus"/> agnus 
+            <lb ed="#P" n="23"/>et huiusmodi <pc ana="#punctus"/> et haec proprie dicuntur transferri quaedam autem <pc ana="#virgula"/> quae tantum 
+            <lb ed="#P" n="24"/>deo conveniunt <pc ana="#virgula"/> et oppositum creaturae ut aeternus <pc ana="#punctus"/> immensus 
+            <lb ed="#P" n="25"/>et haec non transferuntur ad creaturam nec <del rend="strikethrough">es</del> econverso <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d22q4" type="quaestio">
           <head xml:id="wdrl1d22-Hd1e3659" type="question-title">Secundum quod genus praedicamenti nominetur</head>
           <p xml:id="wdrl1d22-d1e3662">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Secundum quid genus praedicamenti nominetur <pc ana="#punctus"/> 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> quantum ad id quod significatur secundum se absolute <pc ana="#punctus"/> sic omnia 
-            <lb ed="#P"/>significant substantiam <pc ana="#punctus"/> quia essentiam divinam <pc ana="#punctus"/> <pc ana="#virgula"/> quantum ad modum se 
-            <lb ed="#P"/>habendi scilicet absolutum <pc ana="#punctus"/> et respectum <pc ana="#punctus"/> sic sunt ibi 
-            <lb ed="#P"/>secundum sanctos <pc ana="#punctus"/> tantum duo praedicamenta scilicet substantia et <subst><del rend="expunctuated">ratio</del> <add place="inLine">relatio</add></subst> <pc ana="#punctus"/> <pc ana="#virgula"/> Sed quantum 
-            <lb ed="#P"/>ad modum intelligendi ex parte nostri <pc ana="#punctuselevatus"/> sic sunt ibi 
-            <lb ed="#P"/>omnia genera secundum diversa attributa <pc ana="#punctus"/>
+            <lb ed="#P" n="26"/><pc ana="#pilcrow"/>Secundum quid genus praedicamenti nominetur <pc ana="#punctus"/> 
+            <lb ed="#P" n="27"/>Responsio <pc ana="#punctus"/> quantum ad id quod significatur secundum se absolute <pc ana="#punctus"/> sic omnia 
+            <lb ed="#P" n="28"/>significant substantiam <pc ana="#punctus"/> quia essentiam divinam <pc ana="#punctus"/> <pc ana="#virgula"/> quantum ad modum se 
+            <lb ed="#P" n="29"/>habendi scilicet absolutum <pc ana="#punctus"/> et respectum <pc ana="#punctus"/> sic sunt ibi 
+            <lb ed="#P" n="30"/>secundum sanctos <pc ana="#punctus"/> tantum duo praedicamenta scilicet substantia et <subst><del rend="expunctuated">ratio</del> <add place="inLine">relatio</add></subst> <pc ana="#punctus"/> <pc ana="#virgula"/> Sed quantum 
+            <lb ed="#P" n="31"/>ad modum intelligendi ex parte nostri <pc ana="#punctuselevatus"/> sic sunt ibi 
+            <lb ed="#P" n="32"/>omnia genera secundum diversa attributa <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d22q5" type="quaestio">
           <head xml:id="wdrl1d22-Hd1e3718" type="question-title">De divisione nominum divinorum secundum Ambrosiorum in littera scilicet quod nominum divinorum quaedam exprimunt 
             proprietatem quaedam essentiam quaedam translative dicuntur</head>
           <p xml:id="wdrl1d22-d1e3721">
-            <lb ed="#P"/><pc ana="#pilcrow"/>De divisione nominum divinorum secundum <name ref="#Ambrose">ambrosiorum</name> 
+            <lb ed="#P" n="33"/><pc ana="#pilcrow"/>De divisione nominum divinorum secundum <name ref="#Ambrose">ambrosiorum</name> 
             <cb ed="#P" n="b"/> <!-- 33rb -->
-            <lb ed="#P"/>in littera scilicet quod nominum divinorum quaedam exprimunt 
-            <lb ed="#P"/>proprietatem quaedam essentiam quaedam translative dicuntur <pc ana="#punctus"/> 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> sufficiens est <pc ana="#punctus"/> et concordat cum <name ref="#Augustine">augustino</name> <pc ana="#punctus"/> et <name ref="#Dionysius">dyonisius <!-- unsure --></name> <pc ana="#punctus"/> <pc ana="#virgula"/> Item 
-            <lb ed="#P"/>secundum <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> nominum divinorum quaedam significant <name ref="#Pelagius">pelagus</name> 
-            <lb ed="#P"/>essentiae vel substantiae infinitum <pc ana="#punctus"/> ut qui est <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam opinionem <pc ana="#punctus"/> 
-            <lb ed="#P"/>ut deus <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam ea quae sunt circa substantiam <pc ana="#punctus"/> ut sapiens <pc ana="#punctus"/> 
-            <lb ed="#P"/>bonus <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam habitudinem ad creaturas <pc ana="#punctus"/> ut creator 
-            <lb ed="#P"/>dominus <pc ana="#punctus"/> quaedam vero figant quid non ut <seg type="correction">incorpore<add place="aboveLine">us</add><del rend="expunctuated">tur</del></seg> infinitiis 
-            <lb ed="#P"/><pc ana="#virgula"/> <!-- fancy --> Nota <ref>supra distinctio 9 quaestio 6</ref> quae nomina possint dici <del rend="strikethrough">de</del> de pluribus 
+            <lb ed="#P" n="34"/>in littera scilicet quod nominum divinorum quaedam exprimunt 
+            <lb ed="#P" n="35"/>proprietatem quaedam essentiam quaedam translative dicuntur <pc ana="#punctus"/> 
+            <lb ed="#P" n="36"/>Responsio <pc ana="#punctus"/> sufficiens est <pc ana="#punctus"/> et concordat cum <name ref="#Augustine">augustino</name> <pc ana="#punctus"/> et <name ref="#Dionysius">dyonisius <!-- unsure --></name> <pc ana="#punctus"/> <pc ana="#virgula"/> Item 
+            <lb ed="#P" n="37"/>secundum <name ref="#JohnDamascenus">damascenus</name> <pc ana="#punctus"/> nominum divinorum quaedam significant <name ref="#Pelagius">pelagus</name> 
+            <lb ed="#P" n="38"/>essentiae vel substantiae infinitum <pc ana="#punctus"/> ut qui est <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam opinionem <pc ana="#punctus"/> 
+            <lb ed="#P" n="39"/>ut deus <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam ea quae sunt circa substantiam <pc ana="#punctus"/> ut sapiens <pc ana="#punctus"/> 
+            <lb ed="#P" n="40"/>bonus <pc ana="#punctus"/> <pc ana="#virgula"/> quaedam habitudinem ad creaturas <pc ana="#punctus"/> ut creator 
+            <lb ed="#P" n="41"/>dominus <pc ana="#punctus"/> quaedam vero figant quid non ut <seg type="correction">incorpore<add place="aboveLine">us</add><del rend="expunctuated">tur</del></seg> infinitiis 
+            <lb ed="#P" n="42"/><pc ana="#virgula"/> <!-- fancy --> Nota <ref>supra distinctio 9 quaestio 6</ref> quae nomina possint dici <del rend="strikethrough">de</del> de pluribus 
             <!-- drops --> personis in plurali <pc ana="#punctus"/> et quae non
           </p>
         </div>

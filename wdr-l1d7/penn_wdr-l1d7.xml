@@ -55,80 +55,80 @@
           <head xml:id="wdr-l1d7-Hd1e102" type="question-title">Utrum in Patre sit potentia generandi</head>
           <p xml:id="wdrl1d7-quienp">
             <lb ed="#P" n="24"/>Queritur utrum in patre <add place="aboveLine">sit</add> potentia generandi Responsio sic 
-            <lb ed="#P"/>quia aliquid perfectionis et nobilitatis dicit scilicet potentiam ad <corr><del rend="strikethrough">coniei</del></corr> 
-            <lb ed="#P"/><unclear>communicationem</unclear> naturae per actum naturae <g ref="#dot"/> <unclear>coniuncta</unclear> tamen semper est suo actui <g ref="#dot"/> <!-- drop to next line --> quia inperfecta esse non potest <g ref="#dot"/>
+            <lb ed="#P" n="25"/>quia aliquid perfectionis et nobilitatis dicit scilicet potentiam ad <corr><del rend="strikethrough">coniei</del></corr> 
+            <lb ed="#P" n="26"/><unclear>communicationem</unclear> naturae per actum naturae <g ref="#dot"/> <unclear>coniuncta</unclear> tamen semper est suo actui <g ref="#dot"/> <!-- drop to next line --> quia inperfecta esse non potest <g ref="#dot"/>
           </p>
         </div>
         <div xml:id="wdr-l1d7q2" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e138" type="question-title">Utrum sit in Patre potentia generandi plures filios</head>
           <p xml:id="wdrl1d7-usirid">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum sit in patre potentia 
-            <lb ed="#P"/>generandi plures filios Responsio non quia unum perfectum 
-            <lb ed="#P"/>generavit <g ref="#dot"/> et de tota substantia sua <g ref="#dot"/> <g ref="#slash"/> quorum opposita sunt in 
-            <lb ed="#P"/>patre carnali <g ref="#dot"/> praecipue autem quia ille filius in nullo 
-            <lb ed="#P"/>differt ab isto <g ref="#dot"/> quia sola relatio ibi distinguit
+            <lb ed="#P" n="27"/><g ref="#pilcrow"/>Utrum sit in patre potentia 
+            <lb ed="#P" n="28"/>generandi plures filios Responsio non quia unum perfectum 
+            <lb ed="#P" n="29"/>generavit <g ref="#dot"/> et de tota substantia sua <g ref="#dot"/> <g ref="#slash"/> quorum opposita sunt in 
+            <lb ed="#P" n="30"/>patre carnali <g ref="#dot"/> praecipue autem quia ille filius in nullo 
+            <lb ed="#P" n="31"/>differt ab isto <g ref="#dot"/> quia sola relatio ibi distinguit
           </p>
         </div>
         <div xml:id="wdr-l1d7q3" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e169" type="question-title">Quid sit illa potentia generandi, an sit quid vel ad aliquid</head>
           <p xml:id="wdrl1d7-qsiddg">
-            <lb ed="#P"/>Quid sit illa potentia <g ref="#dot"/> an sit quid vel <!-- omits "ad" here --> aliquid 
-            <lb ed="#P"/>Responsio quamvis quidam <del rend="expunctuated">dicunt</del> <add place="inLine">dicant</add> quod ipsa potentia 
+            <lb ed="#P" n="32"/>Quid sit illa potentia <g ref="#dot"/> an sit quid vel <!-- omits "ad" here --> aliquid 
+            <lb ed="#P" n="33"/>Responsio quamvis quidam <del rend="expunctuated">dicunt</del> <add place="inLine">dicant</add> quod ipsa potentia 
             <cb ed="#P" n="b"/> <!-- 26vb -->
-            <lb ed="#P"/>in radice essentialis sit secundum inclinationem ad actum <g ref="#slash"/> personalis 
-            <lb ed="#P"/>quidam autem <g ref="#slash"/> quod solum personalis cum dicat rationem originis 
-            <lb ed="#P"/>personae <g ref="#dot"/> <g ref="#slash"/> verius tamen dicendum est <g ref="#dot"/> <g ref="#slash"/> quod potentia pertinet ad essentia ge<lb ed="#P"/>nerandi 
+            <lb ed="#P" n="34"/>in radice essentialis sit secundum inclinationem ad actum <g ref="#slash"/> personalis 
+            <lb ed="#P" n="35"/>quidam autem <g ref="#slash"/> quod solum personalis cum dicat rationem originis 
+            <lb ed="#P" n="36"/>personae <g ref="#dot"/> <g ref="#slash"/> verius tamen dicendum est <g ref="#dot"/> <g ref="#slash"/> quod potentia pertinet ad essentia ge<lb ed="#P" n="37" break="no"/>nerandi 
             <g ref="#dot"/> ad relationem <g ref="#dot"/> unde ipsum coniunctum <g ref="#slash"/> est essentiale 
-            <lb ed="#P"/>tactum ad personam ut cum dicitur deus generans
+            <lb ed="#P" n="38"/>tactum ad personam ut cum dicitur deus generans
           </p>
         </div>
         <div xml:id="wdr-l1d7q4" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e227" type="question-title">Utrum potentia generandi sit in Filio</head>
           <p xml:id="wdrl1d7-upgess">
-            <lb ed="#P"/><g ref="#pilcorw"/>utrum potentia generandi <g ref="#dot"/> sit in filio Responsio hoc 
-            <lb ed="#P"/>gerundium generandi <g ref="#dot"/> potest esse gerundium verbi activi <g ref="#dot"/> vel 
-            <lb ed="#P"/>passivi <g ref="#dot"/> vel temporalis <g ref="#dot"/> <g ref="#slash"/> pro modo est in solo patre <g ref="#dot"/> secundo 
-            <lb ed="#P"/>modo in solo filio <g ref="#dot"/> <g ref="#slash"/> tertio modo in patre et filio et spiritu sancto
+            <lb ed="#P" n="39"/><g ref="#pilcorw"/>utrum potentia generandi <g ref="#dot"/> sit in filio Responsio hoc 
+            <lb ed="#P" n="40"/>gerundium generandi <g ref="#dot"/> potest esse gerundium verbi activi <g ref="#dot"/> vel 
+            <lb ed="#P" n="41"/>passivi <g ref="#dot"/> vel temporalis <g ref="#dot"/> <g ref="#slash"/> pro modo est in solo patre <g ref="#dot"/> secundo 
+            <lb ed="#P" n="42"/>modo in solo filio <g ref="#dot"/> <g ref="#slash"/> tertio modo in patre et filio et spiritu sancto
           </p>
         </div>
         <div xml:id="wdr-l1d7q5" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e266" type="question-title">Utrum Filius possit generare</head>
           <p xml:id="wdrl1d7-ufpdid">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum filius possit generare Responsio non nec hoc 
-            <lb ed="#P"/>est ex impotentia <g ref="#dot"/> sed proprietate relationis quae sola distinguit <!-- drops to next line -->in divinis
+            <lb ed="#P" n="43"/><g ref="#pilcrow"/>Utrum filius possit generare Responsio non nec hoc 
+            <lb ed="#P" n="44"/>est ex impotentia <g ref="#dot"/> sed proprietate relationis quae sola distinguit <!-- drops to next line -->in divinis
           </p>
         </div>
         <div xml:id="wdr-l1d7q6" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e284" type="question-title">Utrum eadem sit potentia creandi et generandi</head>
           <p xml:id="wdrl1d7-ueseis">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum eadem sit potentia creandi 
-            <lb ed="#P"/>et generandi Responsio potentia est medium inter essentiam et 
-            <lb ed="#P"/>operationem secundum rationem intelligendi <g ref="#dot"/> ex parte igitur essentiae 
-            <lb ed="#P"/>eadem est <g ref="#slash"/> ex parte operationum habet distinctionem exemplum 
-            <lb ed="#P"/>de potentia lucendi <g ref="#dot"/> illuminandi etc in sole <g ref="#dot"/>
+            <lb ed="#P" n="45"/><g ref="#pilcrow"/>Utrum eadem sit potentia creandi 
+            <lb ed="#P" n="46"/>et generandi Responsio potentia est medium inter essentiam et 
+            <lb ed="#P" n="47"/>operationem secundum rationem intelligendi <g ref="#dot"/> ex parte igitur essentiae 
+            <lb ed="#P" n="48"/>eadem est <g ref="#slash"/> ex parte operationum habet distinctionem exemplum 
+            <lb ed="#P" n="49"/>de potentia lucendi <g ref="#dot"/> illuminandi etc in sole <g ref="#dot"/>
           </p>
         </div>
         <div xml:id="wdr-l1d7q7" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e313" type="question-title">Utrum dicatur univoce vel aequivoce nomen potentiae de utraque</head>
           <p xml:id="wdrl1d7-udusmi">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum dicatur univoce vel aequivoce nomen 
-            <lb ed="#P"/>potentiae de utraque <g ref="#dot"/> Responsio per comparationem ad essentiam <g ref="#dot"/> univoce 
-            <lb ed="#P"/>dicitur quia una est in radice <g ref="#dot"/> per comparationem <g ref="#slash"/> ad actum 
-            <lb ed="#P"/>duae <g ref="#dot"/> et analogice non aequivoce dicitur nam aliquid generale 
-            <lb ed="#P"/>habet scilicet communem modum <sic>procedendi</sic> <g ref="#dot"/> <g ref="#slash"/> et per prius dicitur de 
-            <lb ed="#P"/>aeterna productione <g ref="#slash"/> per posterius de temporali <g ref="#dot"/> quia potentia 
-            <lb ed="#P"/>idem aeterni actus prior est <g ref="#slash"/> quam idem temporalis saltem <!-- drops to next line --> secundum modum intelligendi
+            <lb ed="#P" n="50"/><g ref="#pilcrow"/>Utrum dicatur univoce vel aequivoce nomen 
+            <lb ed="#P" n="51"/>potentiae de utraque <g ref="#dot"/> Responsio per comparationem ad essentiam <g ref="#dot"/> univoce 
+            <lb ed="#P" n="52"/>dicitur quia una est in radice <g ref="#dot"/> per comparationem <g ref="#slash"/> ad actum 
+            <lb ed="#P" n="53"/>duae <g ref="#dot"/> et analogice non aequivoce dicitur nam aliquid generale 
+            <lb ed="#P" n="54"/>habet scilicet communem modum <sic>procedendi</sic> <g ref="#dot"/> <g ref="#slash"/> et per prius dicitur de 
+            <lb ed="#P" n="55"/>aeterna productione <g ref="#slash"/> per posterius de temporali <g ref="#dot"/> quia potentia 
+            <lb ed="#P" n="56"/>idem aeterni actus prior est <g ref="#slash"/> quam idem temporalis saltem <!-- drops to next line --> secundum modum intelligendi
           </p>
         </div>
         <div xml:id="wdr-l1d7q8" type="quaestio">
           <head xml:id="wdr-l1d7-Hd1e365" type="question-title">Utrum potentia generandi includatur in omnipotentia Dei</head>
           <p xml:id="wdrl1d7-upgtpc">
-            <lb ed="#P"/><g ref="#pilcrow"/>utrum potentia generandi 
-            <lb ed="#P"/>includatur in <choice><orig>omni potentia</orig><reg>omnipotentia</reg></choice> dei Responsio Si omnis facit 
-            <lb ed="#P"/>distributionem <choice><orig>acomodam</orig><reg>accommodam</reg></choice> <g ref="#dot"/> ut <ref xml:id="wdr-l1d7-Rd1e392"><title ref="#io">Ioannes</title> 1</ref> <quote xml:id="wdr-l1d7-Qd1e397" source="http://scta.info/resource/io1_3">omnia per ipsum 
-            <lb ed="#P"/>facta sunt</quote> <g ref="#slash"/> sic non includitur Si autem facit naturalem <g ref="#dot"/> ut 
-            <lb ed="#P"/>cum dividitur omne ens in temporale et aeternum <g ref="#slash"/> sic <unclear>includitur <!-- abbreviations doesn't seem quite finished --></unclear> 
-            <lb ed="#P"/>non tamen per comparationem ad eundem actum
+            <lb ed="#P" n="57"/><g ref="#pilcrow"/>utrum potentia generandi 
+            <lb ed="#P" n="58"/>includatur in <choice><orig>omni potentia</orig><reg>omnipotentia</reg></choice> dei Responsio Si omnis facit 
+            <lb ed="#P" n="59"/>distributionem <choice><orig>acomodam</orig><reg>accommodam</reg></choice> <g ref="#dot"/> ut <ref xml:id="wdr-l1d7-Rd1e392"><title ref="#io">Ioannes</title> 1</ref> <quote xml:id="wdr-l1d7-Qd1e397" source="http://scta.info/resource/io1_3">omnia per ipsum 
+            <lb ed="#P" n="60"/>facta sunt</quote> <g ref="#slash"/> sic non includitur Si autem facit naturalem <g ref="#dot"/> ut 
+            <lb ed="#P" n="61"/>cum dividitur omne ens in temporale et aeternum <g ref="#slash"/> sic <unclear>includitur <!-- abbreviations doesn't seem quite finished --></unclear> 
+            <lb ed="#P" n="62"/>non tamen per comparationem ad eundem actum
           </p>
         </div>
       </div>

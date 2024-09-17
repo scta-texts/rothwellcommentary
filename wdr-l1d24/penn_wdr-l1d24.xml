@@ -54,66 +54,67 @@
           <head xml:id="wdrl1d24-Hd1e3508" type="question-title">Utrum unum vere possit dici de deo</head>
           <p xml:id="wdrl1d24-d1e3511">
             <lb ed="#P" n="31"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum unum <pc ana="#punctus"/> 
-            <lb ed="#P"/>Respondeo 
-            <lb ed="#P"/>sic <pc ana="#punctus"/> quia secundum <pc ana="#punctus"/> <name ref="#Aristotle">philosophum</name> <pc ana="#punctus"/> unitas est in divinis esse <pc ana="#virgula"/> et eius 
+            <lb ed="#P" n="32"/>Respondeo 
+            <lb ed="#P" n="33"/>sic <pc ana="#punctus"/> quia secundum <pc ana="#punctus"/> <name ref="#Aristotle">philosophum</name> <pc ana="#punctus"/> unitas est in divinis esse <pc ana="#virgula"/> et eius 
             <cb ed="#P" n="b"/> <!-- 33vb -->
-            <lb ed="#P"/>quod est <pc ana="#punctus"/> deus autem maxime in diversis est <pc ana="#punctus"/> nulla aliquid in eo praeter 
+            <lb ed="#P" n="34"/>quod est <pc ana="#punctus"/> deus autem maxime in diversis est <pc ana="#punctus"/> nulla aliquid in eo praeter 
             <!-- drops --> rationem suae indivisibilitatis
           </p>
         </div>
         <div xml:id="wdr-l1d24q2" type="quaestio">
           <head xml:id="wdrl1d24-Hd1e3549" type="question-title">Utrum unum aliquid dicat secundum positivum vel secundum privationem</head>
           <p xml:id="wdrl1d24-d1e3552">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum unum aliquid 
-            <lb ed="#P"/>dicat secundum positivum <pc ana="#punctus"/> vel secundum privationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
-            <lb ed="#P"/>rationem essendi ponit aliquid <pc ana="#punctus"/> secundum ratione ut innotescendi dicit 
-            <lb ed="#P"/><del rend="strikethrough">uvari</del> privationem <pc ana="#punctus"/> quia divino notio est sensu <pc ana="#punctus"/> unde dicit 
-            <lb ed="#P"/><name ref="#Aristotle">philosophus</name> <pc ana="#punctus"/> quod unum <del rend="strikethrough">in divinis</del> indivisum in se et divisum 
-            <lb ed="#P"/>ab aliis <pc ana="#punctus"/> Nota etiam quod duplex est unitas scilicet illa quae convertitur 
-            <lb ed="#P"/>cum ente <pc ana="#punctus"/> et alia quae est principium <subst><del rend="strikethrough"> meriti</del> <add place="inLine">numeri</add></subst> <pc ana="#punctus"/> Item notitia quod 
-            <lb ed="#P"/>in divinis est unitas essentialis <pc ana="#punctus"/> quae fundatur super una essentia 
-            <lb ed="#P"/>et personalis quae fundatur super proprietatem una personae constitutiva
+            <lb ed="#P" n="35"/><pc ana="#pilcrow"/>utrum unum aliquid 
+            <lb ed="#P" n="36"/>dicat secundum positivum <pc ana="#punctus"/> vel secundum privationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> secundum 
+            <lb ed="#P" n="37"/>rationem essendi ponit aliquid <pc ana="#punctus"/> secundum ratione ut innotescendi dicit 
+            <lb ed="#P" n="38"/><del rend="strikethrough">uvari</del> privationem <pc ana="#punctus"/> quia divino notio est sensu <pc ana="#punctus"/> unde dicit 
+            <lb ed="#P" n="39"/><name ref="#Aristotle">philosophus</name> <pc ana="#punctus"/> quod unum <del rend="strikethrough">in divinis</del> indivisum in se et divisum 
+            <lb ed="#P" n="40"/>ab aliis <pc ana="#punctus"/> Nota etiam quod duplex est unitas scilicet illa quae convertitur 
+            <lb ed="#P" n="41"/>cum ente <pc ana="#punctus"/> et alia quae est principium <subst><del rend="strikethrough"> meriti</del> <add place="inLine">numeri</add></subst> <pc ana="#punctus"/> Item notitia quod 
+            <lb ed="#P" n="42"/>in divinis est unitas essentialis <pc ana="#punctus"/> quae fundatur super una essentia 
+            <lb ed="#P" n="43"/>et personalis quae fundatur super proprietatem una personae constitutiva
           </p>
         </div>
         <div xml:id="wdr-l1d24q3" type="quaestio">
           <head xml:id="wdrl1d24-Hd1e3616" type="question-title">utrum unum in deo dicat substantiam <pc ana="#punctus"/> vel relationem</head>
           <p xml:id="wdrl1d24-d1e3621">
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> substantia <unclear>pro omnino</unclear> duplex unitas essentialis <pc ana="#punctus"/> et personalis <pc ana="#punctus"/> Item si 
-            <lb ed="#P"/>unum per se accipiatur <pc ana="#punctus"/> Sic in neutro supponit essentiam <pc ana="#punctus"/> 
-            <lb ed="#P"/>in masculino personam <pc ana="#punctus"/> Si aliis terminis ad iungitur <pc ana="#virgula"/> sic sup<lb ed="#P" break="no"/>ponit 
+            <lb ed="#P" n="44"/> <pc type="pilcrow"/> utrum unum in deo dicat substantiam <pc type="punctus"/> vel relationem
+            <lb ed="#P" n="45"/>Responsio <pc ana="#punctus"/> substantia <unclear>pro omnino</unclear> duplex unitas essentialis <pc ana="#punctus"/> et personalis <pc ana="#punctus"/> Item si 
+            <lb ed="#P" n="46"/>unum per se accipiatur <pc ana="#punctus"/> Sic in neutro supponit essentiam <pc ana="#punctus"/> 
+            <lb ed="#P" n="47"/>in masculino personam <pc ana="#punctus"/> Si aliis terminis ad iungitur <pc ana="#virgula"/> sic sup<lb ed="#P" break="no" n="48"/>ponit 
             sed exigentiam ad iuncti <pc ana="#punctus"/> <pc ana="#virgula"/> per se tamen principaliter 
-            <lb ed="#P"/>significat substantiam <pc ana="#punctus"/> sicut etiam ens per se sumptum <pc ana="#punctus"/> Nota etiam quod uni<lb ed="#P" break="no"/>tas 
+            <lb ed="#P" n="49"/>significat substantiam <pc ana="#punctus"/> sicut etiam ens per se sumptum <pc ana="#punctus"/> Nota etiam quod uni<lb ed="#P" break="no" n="50"/>tas 
             <del rend="strikethrough">aequalis</del> et essentialis <pc ana="#punctus"/> et personalis non ponunt numerum <pc ana="#punctus"/> 
-            <lb ed="#P"/>quia non differunt re sed ratione solum <pc ana="#punctus"/>
+            <lb ed="#P" n="51"/>quia non differunt re sed ratione solum <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d24q4" type="quaestio">
           <head xml:id="wdrl1d24-Hd1e3676" type="question-title">Utrum termini numerales et distinctivi possint praedicari de deo</head>
           <p xml:id="wdrl1d24-d1e3679">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum termini numerales et distinctivi possint 
-            <lb ed="#P"/>praedicari de deo <pc ana="#punctus"/> Responsio in deo non est numerus secundum <name ref="#Bothius">boetium</name> <pc ana="#punctus"/> quia <choice><orig>in<lb ed="#P" break="no"/>portat</orig><reg>im<lb ed="#P" break="no"/>portat</reg></choice> 
+            <lb ed="#P" n="52"/><pc ana="#pilcrow"/>utrum termini numerales et distinctivi possint 
+            <lb ed="#P" n="53"/>praedicari de deo <pc ana="#punctus"/> Responsio in deo non est numerus secundum <name ref="#Bothius">boetium</name> <pc ana="#punctus"/> quia <choice><orig>in<lb ed="#P" break="no" n="54"/>portat</orig><reg>im<lb ed="#P" break="no" n="54"/>portat</reg></choice> 
             distinctionem et separationem <pc ana="#punctus"/> sed numerus secundum quid tantum <pc ana="#punctus"/> 
-            <lb ed="#P"/>ut numerus personarum et proprietatum <pc ana="#punctus"/> qui tantum distinctionem importat <pc ana="#punctuselevatus"/> 
-            <lb ed="#P"/>sine separatione <pc ana="#punctus"/> et similiter etiam termini numerales non simpliciter <pc ana="#punctus"/> sed cum 
-            <lb ed="#P"/>de terminatione de deo dicuntur <unclear>ut</unclear> terminos personae <num>v</num> notiones
+            <lb ed="#P" n="55"/>ut numerus personarum et proprietatum <pc ana="#punctus"/> qui tantum distinctionem importat <pc ana="#punctuselevatus"/> 
+            <lb ed="#P" n="56"/>sine separatione <pc ana="#punctus"/> et similiter etiam termini numerales non simpliciter <pc ana="#punctus"/> sed cum 
+            <lb ed="#P" n="57"/>de terminatione de deo dicuntur <unclear>ut</unclear> terminos personae <num>v</num> notiones
           </p>
         </div>
         <div xml:id="wdr-l1d24q5" type="quaestio">
           <head xml:id="wdrl1d24-Hd1e3733" type="question-title">utrum praedicentur secundum positivum secundum privationem tantum</head>
           <p xml:id="wdrl1d24-d1e3736">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum praedicentur secundum positivum secundum privationem tantum <pc ana="#punctus"/> 
-            <lb ed="#P"/>Responsio quidam cum <name ref="#Lombard">magistro</name> in littera quod tantum privative <pc ana="#punctus"/> alii 
-            <lb ed="#P"/>communius quod positive <pc ana="#punctus"/> quia termini distincti fundantur dandae 
-            <lb ed="#P"/>deo fundantur super <unclear>foras</unclear> aliquas quae sunt principia 
-            <lb ed="#P"/>distinguendi <pc ana="#punctus"/> relatas scilicet non absolutas <pc ana="#punctus"/> unde nihil po<lb ed="#P" break="no"/>nunt 
+            <lb ed="#P" n="58"/><pc ana="#pilcrow"/>utrum praedicentur secundum positivum secundum privationem tantum <pc ana="#punctus"/> 
+            <lb ed="#P" n="59"/>Responsio quidam cum <name ref="#Lombard">magistro</name> in littera quod tantum privative <pc ana="#punctus"/> alii 
+            <lb ed="#P" n="60"/>communius quod positive <pc ana="#punctus"/> quia termini distincti fundantur dandae 
+            <lb ed="#P" n="61"/>deo fundantur super <unclear>foras</unclear> aliquas quae sunt principia 
+            <lb ed="#P" n="62"/>distinguendi <pc ana="#punctus"/> relatas scilicet non absolutas <pc ana="#punctus"/> unde nihil po<lb ed="#P" break="no" n="63"/>nunt 
             sui generis scilicet quantitatis sed alterius scilicet relationis
           </p>
         </div>
         <div xml:id="wdr-l1d24q6" type="quaestio">
           <head xml:id="wdrl1d24-Hd1e3772" type="question-title">utrum dicatur secundum substantiam vel secundum relationem</head>
           <p xml:id="wdrl1d24-d1e3775">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur secundum substantiam vel secundum relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> vel 
-            <lb ed="#P"/>relationem dicuntur <pc ana="#punctus"/> quia dicunt realem aliquam distinc<lb ed="#P" break="no"/>tionem 
+            <lb ed="#P" n="64"/><pc ana="#pilcrow"/>utrum dicatur secundum substantiam vel secundum relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> vel 
+            <lb ed="#P" n="65"/>relationem dicuntur <pc ana="#punctus"/> quia dicunt realem aliquam distinc<lb ed="#P" break="no" n="66"/>tionem 
             <pc ana="#punctus"/> significat aut relationem non distincte sed <unclear>indistincte</unclear>
           </p>
         </div>
@@ -122,12 +123,12 @@
           <p xml:id="wdrl1d24-d1e3801">
             <pb ed="#P" n="34-r"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum hoc nomen trinitas dicatur secundum 
-            <lb ed="#P"/>substantiam <pc ana="#punctus"/> vel relationem <pc ana="#pilcrow"/> Responsio Inplicat inse unitatem 
-            <lb ed="#P"/>essentiae et pluralitate personarum unde <name ref="#IsidoreOfSeville">ysido</name> in littera <pc ana="#punctus"/> dicit quod tri<lb ed="#P" break="no"/>nitas 
+            <lb ed="#P" n="1"/><pc ana="#pilcrow"/>utrum hoc nomen trinitas dicatur secundum 
+            <lb ed="#P" n="2"/>substantiam <pc ana="#punctus"/> vel relationem <pc ana="#pilcrow"/> Responsio Inplicat inse unitatem 
+            <lb ed="#P" n="3"/>essentiae et pluralitate personarum unde <name ref="#IsidoreOfSeville">ysido</name> in littera <pc ana="#punctus"/> dicit quod tri<lb ed="#P" break="no" n="4"/>nitas 
             est trium unitas <pc ana="#punctus"/> tamen principaliter pertinet ad 
-            <lb ed="#P"/>personas <pc ana="#punctus"/> quantum ad in positivum nominis quamvis non sit pure personalis 
-            <lb ed="#P"/>et significat relationem <unclear>in plurali</unclear> <seg type="correction">et significat <del rend="strikethrough">relationem plicitam</del> <!-- looks like this corrected part was orginally going to be a drop down, but then a mistake was made, so the text was moved to front of the line and the next section was moved to the next line. --></seg>
+            <lb ed="#P" n="5"/>personas <pc ana="#punctus"/> quantum ad in positivum nominis quamvis non sit pure personalis 
+            <lb ed="#P" n="6"/>et significat relationem <unclear>in plurali</unclear> <seg type="correction">et significat <del rend="strikethrough">relationem plicitam</del> <!-- looks like this corrected part was orginally going to be a drop down, but then a mistake was made, so the text was moved to front of the line and the next section was moved to the next line. --></seg>
           </p>
         </div>
       </div>

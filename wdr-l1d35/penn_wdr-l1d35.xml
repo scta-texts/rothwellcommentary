@@ -55,8 +55,8 @@
           <head xml:id="wdrl1d35-Hd1e3511" type="question-title">Utrum in deo sit scientia</head>
           <p xml:id="wdrl1d35-d1e3514">
             <lb ed="#P" n="23"/><pc ana="#pilcrow"/>Quaeritur utrum in deo sit scientia <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic large 
-            <lb ed="#P"/>scilicet vocando scientiam qualibet cognitione increatam <pc ana="#punctus"/> quia proprius 
-            <lb ed="#P"/>sapientia est qui in eo <subst><del rend="strikethrough">inperfectio</del> <add place="inLine">imperfectio</add></subst> <pc ana="#punctus"/> Item ipse operatur 
+            <lb ed="#P" n="24"/>scilicet vocando scientiam qualibet cognitione increatam <pc ana="#punctus"/> quia proprius 
+            <lb ed="#P" n="25"/>sapientia est qui in eo <subst><del rend="strikethrough">inperfectio</del> <add place="inLine">imperfectio</add></subst> <pc ana="#punctus"/> Item ipse operatur 
             <!-- drops --> ex intentione finis
           </p>
         </div>
@@ -64,11 +64,11 @@
           <head xml:id="wdrl1d35-Hd1e3544">Liber I, Distinctio 35, Quaestio 2</head>
           <head xml:id="wdrl1d35-Hd1e3547" type="question-title">utrum <unclear>connotet</unclear> aliquid in creatura</head>
           <p xml:id="wdrl1d35-d1e3553">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <unclear>connotet</unclear> aliquid 
-            <lb ed="#P"/>in creatura <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> scientia dei generaliter non dicit rem nisi 
-            <lb ed="#P"/>ad scibile <pc ana="#punctus"/> quod potest esse vel deus vel creatura <pc ana="#punctus"/> qui tamen 
-            <lb ed="#P"/>res nihil addit secundum rem in ipsa essentia <pc ana="#punctus"/> Sed scientia dei de 
-            <lb ed="#P"/>creaturis <pc ana="#punctus"/> illa connotat rem ad creaturam <pc ana="#punctus"/> sed <unclear>nil?<lb ed="#P" break="no"/>m</unclear> 
+            <lb ed="#P" n="26"/><pc ana="#pilcrow"/>utrum <unclear>connotet</unclear> aliquid 
+            <lb ed="#P" n="27"/>in creatura <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> scientia dei generaliter non dicit rem nisi 
+            <lb ed="#P" n="28"/>ad scibile <pc ana="#punctus"/> quod potest esse vel deus vel creatura <pc ana="#punctus"/> qui tamen 
+            <lb ed="#P" n="29"/>res nihil addit secundum rem in ipsa essentia <pc ana="#punctus"/> Sed scientia dei de 
+            <lb ed="#P" n="30"/>creaturis <pc ana="#punctus"/> illa connotat rem ad creaturam <pc ana="#punctus"/> sed <unclear>nil?<lb ed="#P" break="no" n="31"/>m</unclear> 
             creatura <pc ana="#punctus"/> quia cognitione sui eam cognoscit
           </p>
         </div>
@@ -76,70 +76,70 @@
           <head xml:id="wdrl1d35-Hd1e3595">Liber I, Distinctio 35, Quaestio 3</head>
           <head xml:id="wdrl1d35-Hd1e3598" type="question-title">Quare scientia praeteritorum in deo non appellatur memoria sic scientia futurorum praescientia</head>
           <p xml:id="wdrl1d35-d1e3601">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Quare scientia praetitorum in deo non appellatur 
-            <lb ed="#P"/>memoria sic scientia futurorum praescientia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quia scientia non 
-            <lb ed="#P"/>dicit dependentiam a rebus futuris sicut memoria 
-            <lb ed="#P"/>a praeteritis <pc ana="#virgula"/> <!-- fancy --> Nota etiam <unclear>hoc</unclear> in littera <pc ana="#punctus"/> quod scientia per comparationem 
+            <lb ed="#P" n="32"/><pc ana="#pilcrow"/>Quare scientia praetitorum in deo non appellatur 
+            <lb ed="#P" n="33"/>memoria sic scientia futurorum praescientia <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quia scientia non 
+            <lb ed="#P" n="34"/>dicit dependentiam a rebus futuris sicut memoria 
+            <lb ed="#P" n="35"/>a praeteritis <pc ana="#virgula"/> <!-- fancy --> Nota etiam <unclear>hoc</unclear> in littera <pc ana="#punctus"/> quod scientia per comparationem 
             <cb ed="#P" n="b"/> <!-- 37vb -->
-            <lb ed="#P"/>ad res scitas <pc ana="#virgula"/> multipliciter nominatur <pc ana="#punctus"/> qui respectu omnium genera<lb ed="#P" break="no"/>liter 
+            <lb ed="#P" n="36"/>ad res scitas <pc ana="#virgula"/> multipliciter nominatur <pc ana="#punctus"/> qui respectu omnium genera<lb ed="#P" break="no" n="37"/>liter 
             scilicet aeternorum et temporalium dicitur scientia <pc ana="#punctus"/> sed respectu temporalium 
-            <lb ed="#P"/>futurorum dicitur praescientia sive bonorum <pc ana="#punctus"/> sive malorum <pc ana="#punctus"/> respectu bo<lb ed="#P" break="no"/>norum 
+            <lb ed="#P" n="38"/>futurorum dicitur praescientia sive bonorum <pc ana="#punctus"/> sive malorum <pc ana="#punctus"/> respectu bo<lb ed="#P" break="no" n="39"/>norum 
             autem tantum <pc ana="#punctus"/> quorum scilicet ipse est causa <pc ana="#punctus"/> sic quantum ad bona naturae 
-            <lb ed="#P"/>rationalis dicitur praedestinatio <pc ana="#punctus"/> quantum ad bona cuiuslibet creaturae 
-            <lb ed="#P"/>generaliter fiendae scilicet sic dicitur dispositio <pc ana="#punctus"/> vel iam factae <pc ana="#punctus"/> sic 
-            <lb ed="#P"/>dicitur providentia quae consistit in regimine rerum <pc ana="#punctus"/> <unclear>hoc</unclear> in littera 
-            <lb ed="#P"/><name ref="#Lombard">magister</name> <pc ana="#punctus"/> quantum ad medium <unclear>autem</unclear> sciendi <pc ana="#punctus"/> sic dicitur sapientia <pc ana="#punctus"/>
+            <lb ed="#P" n="40"/>rationalis dicitur praedestinatio <pc ana="#punctus"/> quantum ad bona cuiuslibet creaturae 
+            <lb ed="#P" n="41"/>generaliter fiendae scilicet sic dicitur dispositio <pc ana="#punctus"/> vel iam factae <pc ana="#punctus"/> sic 
+            <lb ed="#P" n="42"/>dicitur providentia quae consistit in regimine rerum <pc ana="#punctus"/> <unclear>hoc</unclear> in littera 
+            <lb ed="#P" n="43"/><name ref="#Lombard">magister</name> <pc ana="#punctus"/> quantum ad medium <unclear>autem</unclear> sciendi <pc ana="#punctus"/> sic dicitur sapientia <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d35q4" type="quaestio">
           <head xml:id="wdrl1d35-Hd1e3686">Liber I, Distinctio 35, Quaestio 4</head>
           <head xml:id="wdrl1d35-Hd1e3689" type="question-title">utrum dicatur univoce cum scientia nostra</head>
           <p xml:id="wdrl1d35-d1e3692">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur univoce cum scientia nostra <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non nec 
-            <lb ed="#P"/>etiam aequivoce <pc ana="#punctus"/> quia nec una essentia est participata secundum diversum 
-            <lb ed="#P"/>esse indivisis suppositis <pc ana="#punctus"/> sed tamen aliqua convenientia est <pc ana="#punctus"/> quia 
-            <lb ed="#P"/>utrobique certa est cognitio <pc ana="#punctus"/> unde analogice dicitur scilicet per imitationem
+            <lb ed="#P" n="44"/><pc ana="#pilcrow"/>utrum dicatur univoce cum scientia nostra <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non nec 
+            <lb ed="#P" n="45"/>etiam aequivoce <pc ana="#punctus"/> quia nec una essentia est participata secundum diversum 
+            <lb ed="#P" n="46"/>esse indivisis suppositis <pc ana="#punctus"/> sed tamen aliqua convenientia est <pc ana="#punctus"/> quia 
+            <lb ed="#P" n="47"/>utrobique certa est cognitio <pc ana="#punctus"/> unde analogice dicitur scilicet per imitationem
           </p>
         </div>
         <div xml:id="wdr-l1d35q5" type="quaestio">
           <head xml:id="wdrl1d35-Hd1e3720">Liber I, Distinctio 35, Quaestio 5</head>
           <head xml:id="wdrl1d35-Hd1e3723" type="question-title">utrum cognoscat aliud a se</head>
           <p xml:id="wdrl1d35-d1e3726">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum cognoscat aliud a se <pc ana="#punctus"/> Respondeo non quantum ad in<lb ed="#P" break="no"/>telligibile 
+            <lb ed="#P" n="48"/><pc ana="#pilcrow"/>utrum cognoscat aliud a se <pc ana="#punctus"/> Respondeo non quantum ad in<lb ed="#P" break="no" n="49"/>telligibile 
             scilicet primum quod est species rei in intellectu sic loquitur 
-            <lb ed="#P"/><ref><name ref="#Aristotle">philosophus</name> <num>xi</num> <title ref="#Metaphysics">metaphysicae</title></ref> Sed tamen omnia alia intelligit ut 
-            <lb ed="#P"/>intelligibile secundum exemplum de visibili <pc ana="#punctus"/>
+            <lb ed="#P" n="50"/><ref><name ref="#Aristotle">philosophus</name> <num>xi</num> <title ref="#Metaphysics">metaphysicae</title></ref> Sed tamen omnia alia intelligit ut 
+            <lb ed="#P" n="51"/>intelligibile secundum exemplum de visibili <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d35q6" type="quaestio">
           <head xml:id="wdrl1d35-Hd1e3753">Liber I, Distinctio 35, Quaestio 6</head>
           <head xml:id="wdrl1d35-Hd1e3756" type="question-title">Utrum scientia eius sit de omnibus certa et propria</head>
           <p xml:id="wdrl1d35-d1e3759">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum scientia eius sit de omnibus certa et propria <pc ana="#punctus"/> 
-            <lb ed="#P"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia cognoscit omnes causas rei <pc ana="#punctus"/> communes et proprias <pc ana="#punctus"/> 
-            <lb ed="#P"/>quia omnium causa est <pc ana="#punctus"/> <ref><name ref="#Averroes">commentatorem</name> <pc ana="#punctus"/> tamen <title>super metaphysica</title></ref> dixit cognitio<lb ed="#P" break="no"/>nem 
+            <lb ed="#P" n="52"/><pc ana="#pilcrow"/>utrum scientia eius sit de omnibus certa et propria <pc ana="#punctus"/> 
+            <lb ed="#P" n="53"/>Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> quia cognoscit omnes causas rei <pc ana="#punctus"/> communes et proprias <pc ana="#punctus"/> 
+            <lb ed="#P" n="54"/>quia omnium causa est <pc ana="#punctus"/> <ref><name ref="#Averroes">commentatorem</name> <pc ana="#punctus"/> tamen <title>super metaphysica</title></ref> dixit cognitio<lb ed="#P" break="no" n="55"/>nem 
             dei tantum esse realiter in universali scilicet inquantum sunt <pc ana="#punctus"/> quia secundum hoc 
-            <lb ed="#P"/>etiam causa eorum est sed non determinatam huius <pc ana="#punctus"/> vel illius <pc ana="#punctus"/>
+            <lb ed="#P" n="56"/>etiam causa eorum est sed non determinatam huius <pc ana="#punctus"/> vel illius <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d35q7" type="quaestio">
           <head xml:id="wdrl1d35-Hd1e3803">Liber I, Distinctio 35, Quaestio 7</head>
           <head xml:id="wdrl1d35-Hd1e3806" type="question-title">Utrum sit universalis et particularis</head>
           <p xml:id="wdrl1d35-d1e3809">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit universalis et particularis Respondeo non secundum <ref><name ref="#Averroes">commentatorem</name> <pc ana="#punctus"/> super 
-            <lb ed="#P"/><num>xi</num> <title>metaphysicae</title></ref> quia haec sunt <unclear>dicere</unclear> scientiae ex parte medii <pc ana="#punctus"/> 
-            <lb ed="#P"/>scientiae dico <pc ana="#virgula"/> quae accipitur <subst><del rend="expunctuated">del</del> <add place="aboveLine">a</add></subst> rebus secundum diversa media <pc ana="#punctus"/> non 
-            <lb ed="#P"/>autem scientiae causatis res <pc ana="#punctus"/> quia omnia cognoscit parvum <pc ana="#punctus"/> quod nec 
-            <lb ed="#P"/>est universale <pc ana="#punctus"/> nec particulare quia nil  <!-- look above to correct earlier instance of "nil" --> addibile nec additum
+            <lb ed="#P" n="57"/><pc ana="#pilcrow"/>utrum sit universalis et particularis Respondeo non secundum <ref><name ref="#Averroes">commentatorem</name> <pc ana="#punctus"/> super 
+            <lb ed="#P" n="58"/><num>xi</num> <title>metaphysicae</title></ref> quia haec sunt <unclear>dicere</unclear> scientiae ex parte medii <pc ana="#punctus"/> 
+            <lb ed="#P" n="59"/>scientiae dico <pc ana="#virgula"/> quae accipitur <subst><del rend="expunctuated">del</del> <add place="aboveLine">a</add></subst> rebus secundum diversa media <pc ana="#punctus"/> non 
+            <lb ed="#P" n="60"/>autem scientiae causatis res <pc ana="#punctus"/> quia omnia cognoscit parvum <pc ana="#punctus"/> quod nec 
+            <lb ed="#P" n="61"/>est universale <pc ana="#punctus"/> nec particulare quia nil  <!-- look above to correct earlier instance of "nil" --> addibile nec additum
           </p>
         </div>
         <div xml:id="wdr-l1d35q8" type="quaestio">
           <head xml:id="wdrl1d35-Hd1e3862">Liber I, Distinctio 35, Quaestio 8</head>
           <head xml:id="wdrl1d35-Hd1e3865" type="question-title">utrum sit in actu solum vel in habitu</head>
           <p xml:id="wdrl1d35-d1e3868">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit in actu solum <pc ana="#punctus"/> vel in habitu <pc ana="#punctus"/> Respondeo 
-            <lb ed="#P"/>non in potentia <pc ana="#punctus"/> nec in dispositione nec in habit <pc ana="#punctus"/> sed solum in actu <pc ana="#punctus"/> 
-            <lb ed="#P"/>quia haec sola perfecta est <pc ana="#punctus"/> nec deus in aliquo exiit de 
+            <lb ed="#P" n="62"/><pc ana="#pilcrow"/>utrum sit in actu solum <pc ana="#punctus"/> vel in habitu <pc ana="#punctus"/> Respondeo 
+            <lb ed="#P" n="63"/>non in potentia <pc ana="#punctus"/> nec in dispositione nec in habit <pc ana="#punctus"/> sed solum in actu <pc ana="#punctus"/> 
+            <lb ed="#P" n="64"/>quia haec sola perfecta est <pc ana="#punctus"/> nec deus in aliquo exiit de 
             <!-- drops line -->potentia ad actum
           </p>
         </div>

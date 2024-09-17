@@ -55,107 +55,107 @@
           <head xml:id="wdrl1d18-Hd1e3508" type="question-title">Utrum donum dictum de spiritu sancto sit essentiale nomen vel personale</head>
           <p xml:id="wdrl1d18-d1e3511">
             <lb ed="#P" n="59"/><pc ana="#pilcrow"/>Quaeritur utrum donum dictum de spiritu sancto sit 
-            <lb ed="#P"/>essentiale nomen vel personale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> personale es proprie loquendo <pc ana="#virgula"/> 
-            <lb ed="#P"/>quia dicit aptitudinem secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> haec autem est 
+            <lb ed="#P" n="60"/>essentiale nomen vel personale <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> personale es proprie loquendo <pc ana="#virgula"/> 
+            <lb ed="#P" n="61"/>quia dicit aptitudinem secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> haec autem est 
             <!-- drops line --> quia ab alio procedit
           </p>
         </div>
         <div xml:id="wdr-l1d18q2" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3537" type="question-title">Utrum Spiritus Sanctus eodem sit deus quo donum</head>
           <p xml:id="wdrl1d18-d1e3540">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus eodem sit 
-            <lb ed="#P"/>deus quo donum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> loquendo scilicet de 
-            <lb ed="#P"/><choice><orig>ydemptitate</orig><reg>identitate</reg></choice> rei <pc ana="#punctus"/> quia in divinis essentia et proprietas sunt 
-            <lb ed="#P"/>idem re <pc ana="#punctus"/> si autem quaeritur de <choice><orig><seg type="correction"><del rend="expunctuated">d</del>y<del rend="expunctuated">a</del>demptitate</seg></orig><reg>identitate</reg></choice> nominis <pc ana="#punctus"/> sic 
-            <lb ed="#P"/>non eodem <pc ana="#virgula"/> formaliter loquendo <pc ana="#punctus"/> quia de <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> deus est 
+            <lb ed="#P" n="62"/><pc ana="#pilcrow"/>utrum spiritus sanctus eodem sit 
+            <lb ed="#P" n="63"/>deus quo donum <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> loquendo scilicet de 
+            <lb ed="#P" n="64"/><choice><orig>ydemptitate</orig><reg>identitate</reg></choice> rei <pc ana="#punctus"/> quia in divinis essentia et proprietas sunt 
+            <lb ed="#P" n="65"/>idem re <pc ana="#punctus"/> si autem quaeritur de <choice><orig><seg type="correction"><del rend="expunctuated">d</del>y<del rend="expunctuated">a</del>demptitate</seg></orig><reg>identitate</reg></choice> nominis <pc ana="#punctus"/> sic 
+            <lb ed="#P" n="66"/>non eodem <pc ana="#virgula"/> formaliter loquendo <pc ana="#punctus"/> quia de <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> deus est 
             <pb ed="#P" n="31-v"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/>proprietate donum <pc ana="#punctus"/> <pc ana="#virgula"/> Sed in ratione principii sicut <unclear>od??m</unclear> 
-            <lb ed="#P"/>scilicet eadem processione habet utrumque <unclear>hic</unclear> <ref><name ref="#Ambrose">ambrosius</name> in littera</ref>
+            <lb ed="#P" n="1"/>proprietate donum <pc ana="#punctus"/> <pc ana="#virgula"/> Sed in ratione principii sicut <unclear>od??m</unclear> 
+            <lb ed="#P" n="2"/>scilicet eadem processione habet utrumque <unclear>hic</unclear> <ref><name ref="#Ambrose">ambrosius</name> in littera</ref>
           </p>
         </div>
         <div xml:id="wdr-l1d18q3" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3618" type="question-title">Utrum <unclear>proprium?</unclear> sit spiritus sancti esse donum</head>
           <p xml:id="wdrl1d18-d1e3624">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum <unclear>proprium?</unclear> sit spiritus sancti esse donum <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
-            <lb ed="#P"/>secundum <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> in littera <pc ana="#punctus"/> quia donum dicit <unclear>ematiationum</unclear> <del rend="strikethrough">aus</del> per 
-            <lb ed="#P"/>modum liberalitatis sine tempore <pc ana="#virgula"/> quia nomen est <pc ana="#punctus"/> et cum aptitudine ut detur 
-            <lb ed="#P"/>hoc autem conveniunt spiritui sancto <pc ana="#punctus"/> qui procedit ut amor <pc ana="#punctus"/> amor 
-            <lb ed="#P"/>autem principium <pc ana="#punctus"/> principium est omnis liberalis donationis <ref type="commentary" target="http://scta.info/resource/wdr-l1d10">supra distinctio 10</ref>
+            <lb ed="#P" n="3"/><pc ana="#pilcrow"/>utrum <unclear>proprium?</unclear> sit spiritus sancti esse donum <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
+            <lb ed="#P" n="4"/>secundum <name ref="#Augustine">augustinus</name> <pc ana="#punctus"/> in littera <pc ana="#punctus"/> quia donum dicit <unclear>ematiationum</unclear> <del rend="strikethrough">aus</del> per 
+            <lb ed="#P" n="5"/>modum liberalitatis sine tempore <pc ana="#virgula"/> quia nomen est <pc ana="#punctus"/> et cum aptitudine ut detur 
+            <lb ed="#P" n="6"/>hoc autem conveniunt spiritui sancto <pc ana="#punctus"/> qui procedit ut amor <pc ana="#punctus"/> amor 
+            <lb ed="#P" n="7"/>autem principium <pc ana="#punctus"/> principium est omnis liberalis donationis <ref type="commentary" target="http://scta.info/resource/wdr-l1d10">supra distinctio 10</ref>
           </p>
         </div>
         <div xml:id="wdr-l1d18q4" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3675" type="question-title">utrum conveniat ei ab aeterno</head>
           <p xml:id="wdrl1d18-d1e3678">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum conveniat ei ab aeterno <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera 
-            <lb ed="#P"/>quia tantum dicit aptitudine ut detur <pc ana="#punctus"/> <pc ana="#virgula"/> datum autem dicit actum 
-            <lb ed="#P"/>unde secundum <name ref="#Augustine">augustinus</name> hoc <unclear>con??it</unclear> ei ex tempore <pc ana="#virgula"/>
+            <lb ed="#P" n="8"/><pc ana="#pilcrow"/>utrum conveniat ei ab aeterno <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera 
+            <lb ed="#P" n="9"/>quia tantum dicit aptitudine ut detur <pc ana="#punctus"/> <pc ana="#virgula"/> datum autem dicit actum 
+            <lb ed="#P" n="10"/>unde secundum <name ref="#Augustine">augustinus</name> hoc <unclear>con??it</unclear> ei ex tempore <pc ana="#virgula"/>
           </p>
         </div>
         <div xml:id="wdr-l1d18q5" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3713" type="question-title">Quid magis conveniat spiritui sancto scilicet donum vel datum</head>
-          <p xml:id="wdrl1d18-d1e3716"><lb ed="#P"/>
+          <p xml:id="wdrl1d18-d1e3716"><lb ed="#P" n="11"/>
             <pc ana="#pilcrow"/>Quid magis conveniat spiritui sancto scilicet donum vel datum 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> donum <pc ana="#punctus"/> qui ab aeterno convenit <pc ana="#punctus"/> <pc ana="#virgula"/> Item ratio est <pc ana="#virgula"/> quia datus est
+            <lb ed="#P" n="12"/>Responsio <pc ana="#punctus"/> donum <pc ana="#punctus"/> qui ab aeterno convenit <pc ana="#punctus"/> <pc ana="#virgula"/> Item ratio est <pc ana="#virgula"/> quia datus est
           </p>
         </div>
         <div xml:id="wdr-l1d18q6" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3737" type="question-title">Utrum per Spiritum Sanctum dentur alia dona</head>
           <p xml:id="wdrl1d18-d1e3740">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum per spiritum sanctum dentur alia dona <pc ana="#punctus"/> 
-            <lb ed="#P"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quia ratio liberalis donationis 
-            <lb ed="#P"/>amor est <pc ana="#punctus"/> <pc ana="#virgula"/> et hic intellige secundum quod haec propositio per notat habi<lb ed="#P" break="no"/>tudinem 
+            <lb ed="#P" n="13"/><pc ana="#pilcrow"/>utrum per spiritum sanctum dentur alia dona <pc ana="#punctus"/> 
+            <lb ed="#P" n="14"/>Responsio <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quia ratio liberalis donationis 
+            <lb ed="#P" n="15"/>amor est <pc ana="#punctus"/> <pc ana="#virgula"/> et hic intellige secundum quod haec propositio per notat habi<lb ed="#P" break="no" n="16"/>tudinem 
             solius causae <pc ana="#punctus"/> si autem dicit etiam <unclear>concomitantiatur</unclear> sic <pc ana="#punctus"/> non <pc ana="#punctuselevatus"/> 
-            <lb ed="#P"/><unclear>verium</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> quia etiam indignis spiritu sancto <pc ana="#virgula"/> dantur multa dona 
-            <lb ed="#P"/>eius <pc ana="#punctus"/> ut dicit <name ref="#IsidoreOfSeville">ysidorus</name> <pc ana="#punctus"/> ut prophetia <pc ana="#punctus"/>
+            <lb ed="#P" n="17"/><unclear>verium</unclear> <pc ana="#punctus"/> <pc ana="#virgula"/> quia etiam indignis spiritu sancto <pc ana="#virgula"/> dantur multa dona 
+            <lb ed="#P" n="18"/>eius <pc ana="#punctus"/> ut dicit <name ref="#IsidoreOfSeville">ysidorus</name> <pc ana="#punctus"/> ut prophetia <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d18q7" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3802" type="question-title">Utrum univoce dicatur ratio <unclear>donandii</unclear> de ipso et de donis eius</head>
           <p xml:id="wdrl1d18-d1e3808">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum univoce dicatur ratio <unclear>donandi</unclear> de ipso 
-            <lb ed="#P"/>et de donis eius <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> nullo etiam aequivoce <pc ana="#punctus"/> licet analogice 
-            <lb ed="#P"/>quia per prius de dono increato <pc ana="#punctus"/> cum non solum sit donum <pc ana="#punctus"/> sed 
-            <lb ed="#P"/>etiam ratio <subst><del rend="strikethrough">dona</del> <add place="inline">donandi</add></subst> <unclear>prop?terius</unclear> de creato <pc ana="#punctus"/> quod est donum tantum
+            <lb ed="#P" n="19"/><pc ana="#pilcrow"/>utrum univoce dicatur ratio <unclear>donandi</unclear> de ipso 
+            <lb ed="#P" n="20"/>et de donis eius <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> nullo etiam aequivoce <pc ana="#punctus"/> licet analogice 
+            <lb ed="#P" n="21"/>quia per prius de dono increato <pc ana="#punctus"/> cum non solum sit donum <pc ana="#punctus"/> sed 
+            <lb ed="#P" n="22"/>etiam ratio <subst><del rend="strikethrough">dona</del> <add place="inline">donandi</add></subst> <unclear>prop?terius</unclear> de creato <pc ana="#punctus"/> quod est donum tantum
           </p>
         </div>
         <div xml:id="wdr-l1d18q8" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3849" type="question-title">utrum ratione relationis ad creaturam possit Spiritus Sanctus dici donum vel spe creaturae</head>
           <p xml:id="wdrl1d18-d1e3852">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum ratione relationis ad creaturam possit 
-            <lb ed="#P"/>spiritus sanctus dici donum <pc ana="#punctus"/> vel spe <subst><del rend="strikethrough">creturae</del> <add place="inLine">creaturae</add></subst> 
-            <lb ed="#P"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> sed non spiritus sanctos noster <pc ana="#punctus"/> quia nomen personae est secundum usum 
-            <lb ed="#P"/>loquendi <name><unclear>h</unclear></name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> <pc ana="#punctus"/> Nota ergo quod deus secundum naturam divinam 
-            <lb ed="#P"/>non habet relationem sive habitudinem ad creaturam <pc ana="#punctus"/> nisi in ratione 
-            <lb ed="#P"/>principii vel causae vel efficientis vel exemplaris <pc ana="#punctus"/> vel finalis <pc ana="#punctus"/> 
-            <lb ed="#P"/>illis ergo nominibus divinis qui nulla important habitudinem 
-            <lb ed="#P"/>ad creaturam ut nomina personalis <pc ana="#punctus"/> aut non dicunt modum 
-            <lb ed="#P"/>formae inhaerentis <pc ana="#virgula"/> ut abstracta essentialia <pc ana="#punctus"/> hiis non proprie 
-            <lb ed="#P"/>additur nostrum et huius pro nomina <pc ana="#punctus"/> licet aliquando in proprie dicatur 
-            <lb ed="#P"/>et per causam <pc ana="#punctus"/> ut cum deus omnis essentia vel sapientia vel huiusmodi 
+            <lb ed="#P" n="23"/><pc ana="#pilcrow"/>utrum ratione relationis ad creaturam possit 
+            <lb ed="#P" n="24"/>spiritus sanctus dici donum <pc ana="#punctus"/> vel spe <subst><del rend="strikethrough">creturae</del> <add place="inLine">creaturae</add></subst> 
+            <lb ed="#P" n="25"/><pc ana="#punctus"/> Responsio <pc ana="#punctus"/> sic <pc ana="#virgula"/> sed non spiritus sanctos noster <pc ana="#punctus"/> quia nomen personae est secundum usum 
+            <lb ed="#P" n="26"/>loquendi <name><unclear>h</unclear></name> in littera <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> <pc ana="#punctus"/> Nota ergo quod deus secundum naturam divinam 
+            <lb ed="#P" n="27"/>non habet relationem sive habitudinem ad creaturam <pc ana="#punctus"/> nisi in ratione 
+            <lb ed="#P" n="28"/>principii vel causae vel efficientis vel exemplaris <pc ana="#punctus"/> vel finalis <pc ana="#punctus"/> 
+            <lb ed="#P" n="29"/>illis ergo nominibus divinis qui nulla important habitudinem 
+            <lb ed="#P" n="30"/>ad creaturam ut nomina personalis <pc ana="#punctus"/> aut non dicunt modum 
+            <lb ed="#P" n="31"/>formae inhaerentis <pc ana="#virgula"/> ut abstracta essentialia <pc ana="#punctus"/> hiis non proprie 
+            <lb ed="#P" n="32"/>additur nostrum et huius pro nomina <pc ana="#punctus"/> licet aliquando in proprie dicatur 
+            <lb ed="#P" n="33"/>et per causam <pc ana="#punctus"/> ut cum deus omnis essentia vel sapientia vel huiusmodi 
             <cb ed="#P" n="b"/> <!-- 31vb -->
-            <lb ed="#P"/>est et hoc efficienter vel exemplariter <pc ana="#punctus"/> In omnibus autem illis <pc ana="#punctus"/> quae impor<lb ed="#P" break="no"/>tant 
+            <lb ed="#P" n="34"/>est et hoc efficienter vel exemplariter <pc ana="#punctus"/> In omnibus autem illis <pc ana="#punctus"/> quae impor<lb ed="#P" break="no" n="35"/>tant 
             vel rationem sive relationem causae efficientis ut creator <pc ana="#punctus"/> 
-            <lb ed="#P"/>et deus cuius nomen imponitur ab operatione quamvis sit essentiae 
-            <lb ed="#P"/>vel finalis ut refugium gloria et huiusmodi <pc ana="#punctus"/> vel exemplaris ut 
-            <lb ed="#P"/>iustitia veritas <pc ana="#punctus"/> <choice><orig>hiis</orig><reg>his</reg></choice> convenienter <unclear>add??</unclear> nostrum <pc ana="#punctus"/>
+            <lb ed="#P" n="36"/>et deus cuius nomen imponitur ab operatione quamvis sit essentiae 
+            <lb ed="#P" n="37"/>vel finalis ut refugium gloria et huiusmodi <pc ana="#punctus"/> vel exemplaris ut 
+            <lb ed="#P" n="38"/>iustitia veritas <pc ana="#punctus"/> <choice><orig>hiis</orig><reg>his</reg></choice> convenienter <unclear>add??</unclear> nostrum <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d18q9" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3962" type="question-title">Utrum possit dici filius noster</head>
           <p xml:id="wdrl1d18-d1e3965">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum possit dici filius noster <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non 
-            <lb ed="#P"/>secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> quia sic ad solum patrem refertur secundum <name ref="#Augustine">augustinus</name> 
-            <lb ed="#P"/>pater noster tamen etiam proprie dici potest essentialiter accipiendo quia sic 
+            <lb ed="#P" n="39"/><pc ana="#pilcrow"/>utrum possit dici filius noster <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non 
+            <lb ed="#P" n="40"/>secundum <ref><name ref="#Augustine">augustinus</name> in littera</ref> <pc ana="#punctus"/> quia sic ad solum patrem refertur secundum <name ref="#Augustine">augustinus</name> 
+            <lb ed="#P" n="41"/>pater noster tamen etiam proprie dici potest essentialiter accipiendo quia sic 
             <!-- drops --> etiam refertur ad nos
           </p>
         </div>
         <div xml:id="wdr-l1d18q10" type="quaestio">
           <head xml:id="wdrl1d18-Hd1e3994" type="question-title">utrum spiritus scilicet referatur ad personam ut ad eum cui detur</head>
           <p xml:id="wdrl1d18-d1e3997">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus referatur 
-            <lb ed="#P"/>ad personam <pc ana="#punctus"/> ut ad eum cui detur <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> quia pater 
-            <lb ed="#P"/>et filius una spirant spiritum sanctum oportet <pc ana="#virgula"/> autem differentiam esse inter 
+            <lb ed="#P" n="42"/><pc ana="#pilcrow"/>utrum spiritus sanctus referatur 
+            <lb ed="#P" n="43"/>ad personam <pc ana="#punctus"/> ut ad eum cui detur <pc ana="#punctus"/> Responsio non <pc ana="#punctus"/> quia pater 
+            <lb ed="#P" n="44"/>et filius una spirant spiritum sanctum oportet <pc ana="#virgula"/> autem differentiam esse inter 
             <!-- drops --> dantem et cui datur
           </p>
         </div>

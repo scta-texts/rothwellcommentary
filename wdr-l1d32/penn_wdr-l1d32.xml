@@ -55,16 +55,16 @@
           <head xml:id="wdrl1d32-Hd1e3511" type="question-title">Utrum pater et filius diligant se spiritum sancto</head>
           <p xml:id="wdrl1d32-d1e3514">
             <lb ed="#P" n="22"/><pc ana="#pilcrow"/><sic>ueritur</sic> utrum pater et filius diligant 
-            <lb ed="#P"/>se spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et <name ref="#HughOfStVictor">hugo de sancto victore</name> 
-            <lb ed="#P"/>construuntur <unclear>ablativi</unclear> <unclear>quaestio</unclear> in habitudine effectus formalis id est 
-            <lb ed="#P"/><seg type="correction">denominant<del rend="expunctuated">o</del>is</seg> ut effectus dicatur large <pc ana="#punctus"/> et est sensus <unclear>dil</unclear> se 
-            <lb ed="#P"/><unclear>spiritus sanctus</unclear> id est spirant <unclear>spiritus sanctus</unclear> ut amorem unius in alterum <pc ana="#punctus"/> 
-            <lb ed="#P"/>et secundum hoc pater et filius <pc ana="#punctus"/> nihil accipiunt a spiritu sancto <pc ana="#punctus"/> nisi secundum denomina<lb ed="#P" break="no"/>tionem 
+            <lb ed="#P" n="23"/>se spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> et <name ref="#HughOfStVictor">hugo de sancto victore</name> 
+            <lb ed="#P" n="24"/>construuntur <unclear>ablativi</unclear> <unclear>quaestio</unclear> in habitudine effectus formalis id est 
+            <lb ed="#P" n="25"/><seg type="correction">denominant<del rend="expunctuated">o</del>is</seg> ut effectus dicatur large <pc ana="#punctus"/> et est sensus <unclear>dil</unclear> se 
+            <lb ed="#P" n="26"/><unclear>spiritus sanctus</unclear> id est spirant <unclear>spiritus sanctus</unclear> ut amorem unius in alterum <pc ana="#punctus"/> 
+            <lb ed="#P" n="27"/>et secundum hoc pater et filius <pc ana="#punctus"/> nihil accipiunt a spiritu sancto <pc ana="#punctus"/> nisi secundum denomina<lb ed="#P" break="no" n="28"/>tionem 
             <pc ana="#punctus"/> simile est sicut dicitur <pc ana="#punctus"/> Isti locuntur sibi verbis <pc ana="#punctus"/> tamen multae 
-            <lb ed="#P"/>fuerunt opiniones circa hoc <pc ana="#punctus"/> quidam dixerunt <name ref="#Augustine"><unclear>augustinus</unclear></name> dictum 
-            <lb ed="#P"/>hoc retractasse in simili scilicet de sapientia genita <pc ana="#punctus"/> alii quod per pro<lb ed="#P" break="no"/>prietatem 
+            <lb ed="#P" n="29"/>fuerunt opiniones circa hoc <pc ana="#punctus"/> quidam dixerunt <name ref="#Augustine"><unclear>augustinus</unclear></name> dictum 
+            <lb ed="#P" n="30"/>hoc retractasse in simili scilicet de sapientia genita <pc ana="#punctus"/> alii quod per pro<lb ed="#P" break="no" n="31"/>prietatem 
             <pc ana="#punctus"/>sed ablativis constituitur in ratione signi <pc ana="#punctus"/> <name ref="#WilliamOfAuxerre">Guillemus 
-              <lb ed="#P"/>Altissiodorensis</name> quod in ratione formae sicut dicitur <pc ana="#punctus"/> isti sunt albi albe<lb ed="#P" break="no"/>dine 
+              <lb ed="#P" n="32"/>Altissiodorensis</name> quod in ratione formae sicut dicitur <pc ana="#punctus"/> isti sunt albi albe<lb ed="#P" break="no" n="33"/>dine 
             <pc ana="#punctus"/> Sed prima opinio non tenetur quae verior est <pc ana="#punctus"/>
           </p>
         </div>
@@ -72,12 +72,12 @@
           <head xml:id="wdrl1d32-Hd1e3619">Liber I, Distinctio 32, Quaestio 2</head>
           <head xml:id="wdrl1d32-Hd1e3622" type="question-title">Utrum pater diligat se spiritu sancto</head>
           <p xml:id="wdrl1d32-d1e3625">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater <del rend="strikethrough">de</del> diligat se spiritu sancto Responsio <pc ana="#punctus"/> sic di<lb ed="#P" break="no"/>lectione 
+            <lb ed="#P" n="34"/><pc ana="#pilcrow"/>utrum pater <del rend="strikethrough">de</del> diligat se spiritu sancto Responsio <pc ana="#punctus"/> sic di<lb ed="#P" break="no" n="35"/>lectione 
             <pc ana="#punctus"/> si personali sive notionali <pc ana="#punctus"/> sed non essentiali <sic>essentiali</sic> quia hoc duplex 
             <cb ed="#P" n="b"/> <!-- 36vb -->
-            <lb ed="#P"/>dilectio est in divinis secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> diligere enim notionale 
-            <lb ed="#P"/>non aliud quam amorem suum spirare <pc ana="#punctus"/> et est pater terminus huius spi<lb ed="#P" break="no"/>rationis 
-            secundum rationem <pc ana="#punctus"/> filius secundum rem respectu patris <pc ana="#punctus"/> quia actus volun<lb ed="#P" break="no"/>tatis 
+            <lb ed="#P" n="36"/>dilectio est in divinis secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> diligere enim notionale 
+            <lb ed="#P" n="37"/>non aliud quam amorem suum spirare <pc ana="#punctus"/> et est pater terminus huius spi<lb ed="#P" break="no" n="38"/>rationis 
+            secundum rationem <pc ana="#punctus"/> filius secundum rem respectu patris <pc ana="#punctus"/> quia actus volun<lb ed="#P" break="no" n="39"/>tatis 
             potest reflecti super diligentem <pc ana="#punctus"/>
           </p>
         </div>
@@ -85,10 +85,10 @@
           <head xml:id="wdrl1d32-Hd1e3671">Liber I, Distinctio 32, Quaestio 3</head>
           <head xml:id="wdrl1d32-Hd1e3674" type="question-title">utrum pater diligat spiritum sanctum spiritu sancto</head>
           <p xml:id="wdrl1d32-d1e3677">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater diligat spiritum sanctum spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
-            <lb ed="#P"/>amore scilicet notionali <pc ana="#punctus"/> non essentiali <pc ana="#punctus"/> et tunc per actum diligendi 
-            <lb ed="#P"/>accusatum et <unclear>ab?tm</unclear> <pc ana="#punctus"/> idem significatur <pc ana="#punctus"/> sed diversimode vel ut 
-            <lb ed="#P"/>operatio <pc ana="#punctus"/> ut <unclear>res</unclear> <pc ana="#punctus"/> ut medium vel ratio <pc ana="#punctus"/> Simile est cum dicitur et 
+            <lb ed="#P" n="40"/><pc ana="#pilcrow"/>utrum pater diligat spiritum sanctum spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic 
+            <lb ed="#P" n="41"/>amore scilicet notionali <pc ana="#punctus"/> non essentiali <pc ana="#punctus"/> et tunc per actum diligendi 
+            <lb ed="#P" n="42"/>accusatum et <unclear>ab?tm</unclear> <pc ana="#punctus"/> idem significatur <pc ana="#punctus"/> sed diversimode vel ut 
+            <lb ed="#P" n="43"/>operatio <pc ana="#punctus"/> ut <unclear>res</unclear> <pc ana="#punctus"/> ut medium vel ratio <pc ana="#punctus"/> Simile est cum dicitur et 
             <!-- drops --> intelligo me intelligere
           </p>
         </div>
@@ -96,53 +96,53 @@
           <head xml:id="wdrl1d32-Hd1e3719">Liber I, Distinctio 32, Quaestio 4</head>
           <head xml:id="wdrl1d32-Hd1e3722" type="question-title">utrum spiritus sanctus diligat se se ipso</head>
           <p xml:id="wdrl1d32-d1e3725">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum spiritus sanctus 
-            <lb ed="#P"/>diligat se se ipso <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> amore essentiali <pc ana="#punctus"/> non tamen 
-            <lb ed="#P"/>a se ipso <pc ana="#punctus"/> sed non notionali <pc ana="#punctus"/> quia vitali amore recipitur 
-            <lb ed="#P"/>eius a diligente emanatio secundum rem <pc ana="#punctus"/> non tantum secundum modum in<!-- drops -->telligendi
+            <lb ed="#P" n="44"/><pc ana="#pilcrow"/>utrum spiritus sanctus 
+            <lb ed="#P" n="45"/>diligat se se ipso <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic <pc ana="#punctus"/> amore essentiali <pc ana="#punctus"/> non tamen 
+            <lb ed="#P" n="46"/>a se ipso <pc ana="#punctus"/> sed non notionali <pc ana="#punctus"/> quia vitali amore recipitur 
+            <lb ed="#P" n="47"/>eius a diligente emanatio secundum rem <pc ana="#punctus"/> non tantum secundum modum in<!-- drops -->telligendi
           </p>
         </div>
         <div xml:id="wdr-l1d32q5" type="quaestio">
           <head xml:id="wdrl1d32-Hd1e3757">Liber I, Distinctio 32, Quaestio 5</head>
           <head xml:id="wdrl1d32-Hd1e3760" type="question-title">utrum pater et filius diligant <unclear>nominaliter</unclear> spiritu sancto</head>
           <p xml:id="wdrl1d32-d1e3766">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater et filius diligant <unclear>nominaliter</unclear> 
-            <lb ed="#P"/>spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum sanctos in littera <ref>supra distinctio x <!-- might be something else here --></ref> et 
-            <lb ed="#P"/>hoc amore sive dilectione essentiali <pc ana="#punctus"/> et <unclear>notatur</unclear> habitudo causae appro<lb ed="#P" break="no"/>priate 
+            <lb ed="#P" n="48"/><pc ana="#pilcrow"/>utrum pater et filius diligant <unclear>nominaliter</unclear> 
+            <lb ed="#P" n="49"/>spiritu sancto <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> sic secundum sanctos in littera <ref>supra distinctio x <!-- might be something else here --></ref> et 
+            <lb ed="#P" n="50"/>hoc amore sive dilectione essentiali <pc ana="#punctus"/> et <unclear>notatur</unclear> habitudo causae appro<lb ed="#P" break="no" n="51"/>priate 
             <pc ana="#punctus"/> et etiam dilectione <unclear>nominali</unclear> et tunc notatur respectu diligentium 
-            <lb ed="#P"/>habitudo originis active sive <del>ratione</del> causae <pc ana="#punctus"/> quia processio 
-            <lb ed="#P"/>aeterna ratio est processionis creaturae <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> Nota etiam quod diligere 
-            <lb ed="#P"/>nos dicitur deus <pc ana="#virgula"/> effectum nobis aliquem suae bonitatis influ<!-- drops -->endo
+            <lb ed="#P" n="52"/>habitudo originis active sive <del>ratione</del> causae <pc ana="#punctus"/> quia processio 
+            <lb ed="#P" n="53"/>aeterna ratio est processionis creaturae <pc ana="#punctus"/> <pc ana="#virgula"/> <!-- fancy --> Nota etiam quod diligere 
+            <lb ed="#P" n="54"/>nos dicitur deus <pc ana="#virgula"/> effectum nobis aliquem suae bonitatis influ<!-- drops -->endo
           </p>
         </div>
         <div xml:id="wdr-l1d32q6" type="quaestio">
           <head xml:id="wdrl1d32-Hd1e3825">Liber I, Distinctio 32, Quaestio 6</head>
           <head xml:id="wdrl1d32-Hd1e3828" type="question-title">Utrum pater sapiens sapientia genita</head>
           <p xml:id="wdrl1d32-d1e3831">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum pater sapiens <pc ana="#punctus"/> sapientia 
-            <lb ed="#P"/>genita <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quamvis tamen dicat 
-            <lb ed="#P"/>omnia <pc ana="#virgula"/> verbo suo <pc ana="#punctus"/> quia verbum dicit ratio ut aegredientem sapientia 
-            <lb ed="#P"/>aut ut in anima quiescentem <pc ana="#punctus"/> unde est forma quae est principium 
-            <lb ed="#P"/>actus pater autem nil habet a filio <pc ana="#punctus"/>
+            <lb ed="#P" n="55"/><pc ana="#pilcrow"/>utrum pater sapiens <pc ana="#punctus"/> sapientia 
+            <lb ed="#P" n="56"/>genita <pc ana="#punctus"/> Respondeo <pc ana="#punctus"/> non secundum <name ref="#Augustine">augustinus</name> in littera <pc ana="#punctus"/> quamvis tamen dicat 
+            <lb ed="#P" n="57"/>omnia <pc ana="#virgula"/> verbo suo <pc ana="#punctus"/> quia verbum dicit ratio ut aegredientem sapientia 
+            <lb ed="#P" n="58"/>aut ut in anima quiescentem <pc ana="#punctus"/> unde est forma quae est principium 
+            <lb ed="#P" n="59"/>actus pater autem nil habet a filio <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d32q7" type="quaestio">
           <head xml:id="wdrl1d32-Hd1e3867">Liber I, Distinctio 32, Quaestio 7</head>
           <head xml:id="wdrl1d32-Hd1e3870" type="question-title">Utrum sit potens potentia genita</head>
           <p xml:id="wdrl1d32-d1e3873">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum sit potens potentia genita <pc ana="#punctus"/> Respondeo non quamvis per 
-            <lb ed="#P"/>ipsam id est per filium operetur <pc ana="#punctus"/> quia ibi notatur esse principium 
-            <lb ed="#P"/>actus <pc ana="#punctus"/> hic autem non sit
+            <lb ed="#P" n="60"/><pc ana="#pilcrow"/>utrum sit potens potentia genita <pc ana="#punctus"/> Respondeo non quamvis per 
+            <lb ed="#P" n="61"/>ipsam id est per filium operetur <pc ana="#punctus"/> quia ibi notatur esse principium 
+            <lb ed="#P" n="62"/>actus <pc ana="#punctus"/> hic autem non sit
           </p>
         </div>
         <div xml:id="wdr-l1d32q8" type="quaestio">
           <head xml:id="wdrl1d32-Hd1e3892">Liber I, Distinctio 32, Quaestio 8</head>
           <head xml:id="wdrl1d32-Hd1e3895" type="question-title">Utrum filius sit sapiens sapientia genita vel ingenita</head>
           <p xml:id="wdrl1d32-d1e3898">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum filius sit sapiens sapientia genita vel ingentia 
-            <lb ed="#P"/>Responsio simpliciter et formaliter loquendo est sapiens sapientia genita <pc ana="#punctus"/> 
-            <lb ed="#P"/>quae est ipse <pc ana="#punctus"/> sed sapientia ingenita originaliter tantum est sapiens 
-            <lb ed="#P"/><unclear>quaestio</unclear> ut discipulus <pc ana="#virgula"/> sapientia magistri est sapiens <pc ana="#punctus"/>
+            <lb ed="#P" n="63"/><pc ana="#pilcrow"/>utrum filius sit sapiens sapientia genita vel ingentia 
+            <lb ed="#P" n="64"/>Responsio simpliciter et formaliter loquendo est sapiens sapientia genita <pc ana="#punctus"/> 
+            <lb ed="#P" n="65"/>quae est ipse <pc ana="#punctus"/> sed sapientia ingenita originaliter tantum est sapiens 
+            <lb ed="#P" n="66"/><unclear>quaestio</unclear> ut discipulus <pc ana="#virgula"/> sapientia magistri est sapiens <pc ana="#punctus"/>
           </p>
         </div>
       </div>

@@ -55,13 +55,13 @@
           <head xml:id="wdrl1d30-Hd1e3511" type="question-title">utrum aliqua dicatur de Deo ex tempore</head>
           <p xml:id="wdrl1d30-d1e3514">
             <lb ed="#P" n="54"/><pc ana="#pilcrow"/>Quaeritur utrum aliqua dicantur 
-            <lb ed="#P"/>de deo ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quadruplex est praedicatio scilicet 
-            <lb ed="#P"/>per essentiam <pc ana="#punctus"/> per denominationem sive per inhaerentiam <pc ana="#punctus"/> per causam <pc ana="#punctus"/> 
-            <lb ed="#P"/>per relationem sive habitudinem ut esse dextrum alicui <pc ana="#punctus"/> primo 
-            <lb ed="#P"/>et secundo modo nihil dicitur de deo ex tempore <pc ana="#punctus"/> immediate sed mediate 
-            natura assumpta <pc ana="#punctus"/> quia mutabilis esset <pc ana="#punctus"/> <unclear>termino</unclear> autem modo sic <pc ana="#punctus"/> 
-            <lb ed="#P"/>ut <unclear>pacia? ma?</unclear> <pc ana="#punctus"/> salus <unclear>ma</unclear> <pc ana="#punctus"/> similiter quarto modo <pc ana="#punctus"/> ut 
-            <lb ed="#P"/>dominus creator <pc ana="#punctus"/> et huiusmodi secundum <name ref="#Augustine">augustinum</name> in littera quia connotant effectum 
+            <lb ed="#P" n="55"/>de deo ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> quadruplex est praedicatio scilicet 
+            <lb ed="#P" n="56"/>per essentiam <pc ana="#punctus"/> per denominationem sive per inhaerentiam <pc ana="#punctus"/> per causam <pc ana="#punctus"/> 
+            <lb ed="#P" n="57"/>per relationem sive habitudinem ut esse dextrum alicui <pc ana="#punctus"/> primo 
+            <lb ed="#P" n="58"/>et secundo modo nihil dicitur de deo ex tempore <pc ana="#punctus"/> immediate sed mediate 
+            <lb ed="#P" n="59"/>natura assumpta <pc ana="#punctus"/> quia mutabilis esset <pc ana="#punctus"/> <unclear>termino</unclear> autem modo sic <pc ana="#punctus"/> 
+            <lb ed="#P" n="60"/>ut <unclear>pacia? ma?</unclear> <pc ana="#punctus"/> salus <unclear>ma</unclear> <pc ana="#punctus"/> similiter quarto modo <pc ana="#punctus"/> ut 
+            <lb ed="#P" n="61"/>dominus creator <pc ana="#punctus"/> et huiusmodi secundum <name ref="#Augustine">augustinum</name> in littera quia connotant effectum 
             <!-- drops --> in creatura
           </p>
         </div>
@@ -70,31 +70,31 @@
           <head xml:id="wdrl1d30-Hd1e3583" type="question-title">Utrum dicatur de deo per se 
             vel per accidens</head>
           <p xml:id="wdrl1d30-d1e3586">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum dicatur de deo per se 
-            <lb ed="#P"/>vel per accidens <pc ana="#punctus"/> Responsio dici aliquid per accidens potest in<lb ed="#P" break="no"/>telligi 
+            <lb ed="#P" n="62"/><pc ana="#pilcrow"/>utrum dicatur de deo per se 
+            <lb ed="#P" n="63"/>vel per accidens <pc ana="#punctus"/> Responsio dici aliquid per accidens potest in<lb ed="#P" break="no" n="64"/>telligi 
             aut per oppositum addici secundum substantiam <pc ana="#virgula"/> aut 
-            <lb ed="#P"/>ad dici per se <pc ana="#punctus"/> aut addici semper <pc ana="#punctus"/> sive <choice><orig>neccessario</orig><reg>necessario</reg></choice> primo modo secundum <name ref="#Augustine">augustinum</name> 
-            <lb ed="#P"/>nihil de deo dicitur secundum accidens secundo modo dici per accidens possunt 
+            <lb ed="#P" n="65"/>ad dici per se <pc ana="#punctus"/> aut addici semper <pc ana="#punctus"/> sive <choice><orig>neccessario</orig><reg>necessario</reg></choice> primo modo secundum <name ref="#Augustine">augustinum</name> 
+            <lb ed="#P" n="66"/>nihil de deo dicitur secundum accidens secundo modo dici per accidens possunt 
             <pb ed="#P" n="36-r"/>
             <cb ed="#P" n="a"/>
-            <lb ed="#P"/>quae conveniunt deo per naturam assumptam <pc ana="#punctus"/> <unclear>termino</unclear> modo secundum <name ref="#HilaryOfPoitiers">hillarium</name> <pc ana="#punctus"/> dicitur esse de 
-            <lb ed="#P"/>creatura per accidens <pc ana="#punctus"/> et sic quae ex tempore de deo dicuntur <pc ana="#virgula"/> per accidens 
-            <lb ed="#P"/>dicuntur <pc ana="#punctus"/> quantum ad connotant <pc ana="#punctus"/> nunquam ad principale significatum super quod 
-            <lb ed="#P"/>fundantur illud autem accidens secundum <name ref="#Augustine">augustinum</name> in littera non est <unclear>dei</unclear> sed alterius
+            <lb ed="#P" n="1"/>quae conveniunt deo per naturam assumptam <pc ana="#punctus"/> <unclear>termino</unclear> modo secundum <name ref="#HilaryOfPoitiers">hillarium</name> <pc ana="#punctus"/> dicitur esse de 
+            <lb ed="#P" n="2"/>creatura per accidens <pc ana="#punctus"/> et sic quae ex tempore de deo dicuntur <pc ana="#virgula"/> per accidens 
+            <lb ed="#P" n="3"/>dicuntur <pc ana="#punctus"/> quantum ad connotant <pc ana="#punctus"/> nunquam ad principale significatum super quod 
+            <lb ed="#P" n="4"/>fundantur illud autem accidens secundum <name ref="#Augustine">augustinum</name> in littera non est <unclear>dei</unclear> sed alterius
           </p>
         </div>
         <div xml:id="wdr-l1d30q3" type="quaestio">
           <head xml:id="wdrl1d30-Hd1e3656">Liber I, Distinctio 30, Quaestio 3</head>
           <head xml:id="wdrl1d30-Hd1e3659" type="question-title">Utrum dicantur secundum substantiam vel secundum relationem</head>
           <p xml:id="wdrl1d30-d1e3662">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum dicantur secundum substantiam <pc ana="#punctus"/> vel secundum relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> significant 
-            <lb ed="#P"/>principali divinam essentiam <pc ana="#punctus"/> quia dicunt habitudine dei ad creaturam 
-            <lb ed="#P"/>per aliquem effectum <unclear>cantum</unclear> <pc ana="#punctus"/> Inter hoc autem <pc ana="#punctus"/> quidam connotant respectum 
-            <lb ed="#P"/>temporale ad deum ut ad principium ut dicens creator <pc ana="#punctus"/> et haec conveniunt 
-            <lb ed="#P"/>toti trinitati <pc ana="#punctus"/> quidam vero connotant relationem aeternum personae ad personam 
-            <lb ed="#P"/>ut missus <pc ana="#punctus"/> et haec conveniunt tantum personae illi cui <del rend="strikethrough">cre</del> convenit <unclear>r?s</unclear> <pc ana="#punctus"/> 
-            <lb ed="#P"/>quaedam nullo connotant respectum temporalem creaturae ad unam personam 
-            <lb ed="#P"/>determinatam <pc ana="#punctus"/> sicut ad terminum non tantum ut ad principium ut in<lb ed="#P" break="no"/>carnatus 
+            <lb ed="#P" n="5"/><pc ana="#pilcrow"/>Utrum dicantur secundum substantiam <pc ana="#punctus"/> vel secundum relationem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> significant 
+            <lb ed="#P" n="6"/>principali divinam essentiam <pc ana="#punctus"/> quia dicunt habitudine dei ad creaturam 
+            <lb ed="#P" n="7"/>per aliquem effectum <unclear>cantum</unclear> <pc ana="#punctus"/> Inter hoc autem <pc ana="#punctus"/> quidam connotant respectum 
+            <lb ed="#P" n="8"/>temporale ad deum ut ad principium ut dicens creator <pc ana="#punctus"/> et haec conveniunt 
+            <lb ed="#P" n="9"/>toti trinitati <pc ana="#punctus"/> quidam vero connotant relationem aeternum personae ad personam 
+            <lb ed="#P" n="10"/>ut missus <pc ana="#punctus"/> et haec conveniunt tantum personae illi cui <del rend="strikethrough">cre</del> convenit <unclear>r?s</unclear> <pc ana="#punctus"/> 
+            <lb ed="#P" n="11"/>quaedam nullo connotant respectum temporalem creaturae ad unam personam 
+            <lb ed="#P" n="12"/>determinatam <pc ana="#punctus"/> sicut ad terminum non tantum ut ad principium ut in<lb ed="#P" break="no" n="13"/>carnatus 
             <unclear>unde</unclear> etiam illi tantum convenit
           </p>
         </div>
@@ -102,16 +102,16 @@
           <head xml:id="wdrl1d30-Hd1e3724">Liber I, Distinctio 30, Quaestio 4</head>
           <head xml:id="wdrl1d30-Hd1e3727" type="question-title">Utrum ponant aliquam relationem in deo realem</head>
           <p xml:id="wdrl1d30-d1e3730">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum ponant aliquam relationem in deo realem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non 
-            <lb ed="#P"/>sed tantum in creatura <pc ana="#punctus"/> <del rend="strikethrough">ponitur</del> ratio ponitur <ref>sententia quaestio 1</ref> <pc ana="#virgula"/> nihilominus tantum aliquid 
-            <lb ed="#P"/>est in deo <pc ana="#punctus"/> super quod illa relatio fundatur <pc ana="#punctus"/> ut quod creator <pc ana="#punctus"/> super 
-            <lb ed="#P"/>potentiam operationem et huiusmodi <pc ana="#punctus"/> et ideo non est cassa <pc ana="#virgula"/> <pc ana="#punctus"/> Nota ergo <pc ana="#punctus"/> quod relatio 
-            <lb ed="#P"/>quandoque realiter est in utroque extremorum ut pater et filius <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque 
-            <lb ed="#P"/>in altero tantum <pc ana="#punctus"/> ut scientia <pc ana="#punctus"/> et scibile <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque in neutro sed in anima 
-            <lb ed="#P"/>tantum <pc ana="#punctus"/> ut relatio eiusdem ad seipsum <pc ana="#punctus"/> Item quod ratio tripliciter apprehen<lb ed="#P" break="no"/>dit 
+            <lb ed="#P" n="14"/><pc ana="#pilcrow"/>utrum ponant aliquam relationem in deo realem <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> non 
+            <lb ed="#P" n="15"/>sed tantum in creatura <pc ana="#punctus"/> <del rend="strikethrough">ponitur</del> ratio ponitur <ref>sententia quaestio 1</ref> <pc ana="#virgula"/> nihilominus tantum aliquid 
+            <lb ed="#P" n="16"/>est in deo <pc ana="#punctus"/> super quod illa relatio fundatur <pc ana="#punctus"/> ut quod creator <pc ana="#punctus"/> super 
+            <lb ed="#P" n="17"/>potentiam operationem et huiusmodi <pc ana="#punctus"/> et ideo non est cassa <pc ana="#virgula"/> <pc ana="#punctus"/> Nota ergo <pc ana="#punctus"/> quod relatio 
+            <lb ed="#P" n="18"/>quandoque realiter est in utroque extremorum ut pater et filius <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque 
+            <lb ed="#P" n="19"/>in altero tantum <pc ana="#punctus"/> ut scientia <pc ana="#punctus"/> et scibile <pc ana="#punctus"/> <pc ana="#virgula"/> quandoque in neutro sed in anima 
+            <lb ed="#P" n="20"/>tantum <pc ana="#punctus"/> ut relatio eiusdem ad seipsum <pc ana="#punctus"/> Item quod ratio tripliciter apprehen<lb ed="#P" break="no" n="21"/>dit 
             se ipsum formam rei scilicet vel <del rend="expunctuated">omnino</del> quae omnino est in re <pc ana="#punctus"/> ut 
-            <lb ed="#P"/>lapis vel quae nullo modo <pc ana="#punctus"/> ut chimerae <pc ana="#punctus"/> aliquando partim in re <pc ana="#punctus"/> partim 
-            <lb ed="#P"/>non <pc ana="#punctus"/> vel <del rend="strikethrough">fom</del> forma universalis <pc ana="#punctus"/> quae in singularibus fundatur tamen 
+            <lb ed="#P" n="22"/>lapis vel quae nullo modo <pc ana="#punctus"/> ut chimerae <pc ana="#punctus"/> aliquando partim in re <pc ana="#punctus"/> partim 
+            <lb ed="#P" n="23"/>non <pc ana="#punctus"/> vel <del rend="strikethrough">fom</del> forma universalis <pc ana="#punctus"/> quae in singularibus fundatur tamen 
             <!-- drops --> non est ibi universalis
           </p>
         </div>
@@ -119,10 +119,10 @@
           <head xml:id="wdrl1d30-Hd1e3827">Liber I, Distinctio 30, Quaestio 5</head>
           <head xml:id="wdrl1d30-Hd1e3830" type="question-title">Utrum esse divini conveniat deo ab aeterno vel ex tempore</head>
           <p xml:id="wdrl1d30-d1e3833">
-            <lb ed="#P"/><pc ana="#pilcrow"/>utrum esse divini conveniat deo ab 
-            <lb ed="#P"/>aeterno <pc ana="#punctus"/> vel ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> convenit ei ex tempore <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> 
-            <lb ed="#P"/>et hic largo dicendo ex tempore id est cum tempore <pc ana="#punctus"/> et tunc ex <pc ana="#punctus"/>
-            <lb ed="#P"/>dicit concomitantiam solam <pc ana="#punctus"/> <pc ana="#virgula"/> Si autem ex <pc ana="#punctus"/> dicit ordinem et 
+            <lb ed="#P" n="24"/><pc ana="#pilcrow"/>utrum esse divini conveniat deo ab 
+            <lb ed="#P" n="25"/>aeterno <pc ana="#punctus"/> vel ex tempore <pc ana="#punctus"/> Responsio <pc ana="#punctus"/> convenit ei ex tempore <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinum</name> in littera <pc ana="#punctus"/> 
+            <lb ed="#P" n="26"/>et hic largo dicendo ex tempore id est cum tempore <pc ana="#punctus"/> et tunc ex <pc ana="#punctus"/>
+            <lb ed="#P" n="27"/>dicit concomitantiam solam <pc ana="#punctus"/> <pc ana="#virgula"/> Si autem ex <pc ana="#punctus"/> dicit ordinem et 
             <!-- drops --> convenientiam <pc ana="#punctus"/> sic dicendum quod non <pc ana="#punctus"/>
           </p>
         </div>

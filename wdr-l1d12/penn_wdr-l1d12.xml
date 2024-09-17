@@ -54,38 +54,38 @@
           <head xml:id="wdrl1d12-Hd1e3508" type="question-title">Utrum Spiritus Sanctus prius procedat a Patre quam a Filio</head>
           <p xml:id="wdrl1d12-d1e3511">
             <lb ed="#P" n="8"/>Quaeritur utrum spiritus sanctus prius <pc ana="#punctus"/> 
-            <lb ed="#P"/>procedat a patre quam a filio Responsio non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera 
-            <lb ed="#P"/>quia in aeternitate non est prius et posterius <pc ana="#punctus"/>
+            <lb ed="#P" n="9"/>procedat a patre quam a filio Responsio non <pc ana="#punctus"/> secundum <name ref="#Augustine">augustinus</name> in littera 
+            <lb ed="#P" n="10"/>quia in aeternitate non est prius et posterius <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d12q2" type="quaestio">
           <head xml:id="wdrl1d12-Hd1e3531" type="question-title">Utrum plenius procedat ab uno quam ab alio</head>
           <p xml:id="wdrl1d12-d1e3534">
-            <lb ed="#P"/><g ref="#pilcrow"/>Utrum plenius procedat ab uno quam ab alio 
-            <lb ed="#P"/>Responsio in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quia quamvis filius virtutem spirantem 
-            <lb ed="#P"/>habeat a patre tamen eandem habet a patre quam pater
+            <lb ed="#P" n="11"/><g ref="#pilcrow"/>Utrum plenius procedat ab uno quam ab alio 
+            <lb ed="#P" n="12"/>Responsio in littera <pc ana="#punctus"/> quod non <pc ana="#punctus"/> quia quamvis filius virtutem spirantem 
+            <lb ed="#P" n="13"/>habeat a patre tamen eandem habet a patre quam pater
           </p>
         </div>
         <div xml:id="wdr-l1d12q3" type="quaestio">
           <head xml:id="wdrl1d12-Hd1e3550" type="question-title">Utrum aeque immediate procedat ab utroque</head>
           <p xml:id="wdrl1d12-d1e3553">
-            <lb ed="#P"/><g ref="#pilcrow"/>utrum eam immediate procedat ab utroque 
-            <lb ed="#P"/>Responsio sic <pc ana="#punctus"/> respiciendo ad principium quo spirant <pc ana="#punctus"/> similiter 
-            <lb ed="#P"/>respiciendo ad ipsos spirantes <pc ana="#punctus"/> <pc ana="#virgula"/> sed nihilominus etiam mediate 
-            <lb ed="#P"/>et immediate procedit a patre ut dicit <name ref="#RichardOfStVictor">Ricardus</name> <pc ana="#punctus"/> quia filius a patre 
+            <lb ed="#P" n="14"/><g ref="#pilcrow"/>utrum eam immediate procedat ab utroque 
+            <lb ed="#P" n="15"/>Responsio sic <pc ana="#punctus"/> respiciendo ad principium quo spirant <pc ana="#punctus"/> similiter 
+            <lb ed="#P" n="16"/>respiciendo ad ipsos spirantes <pc ana="#punctus"/> <pc ana="#virgula"/> sed nihilominus etiam mediate 
+            <lb ed="#P" n="17"/>et immediate procedit a patre ut dicit <name ref="#RichardOfStVictor">Ricardus</name> <pc ana="#punctus"/> quia filius a patre 
             <!-- drops to next line -->habet quod spirat <pc ana="#punctus"/>
           </p>
         </div>
         <div xml:id="wdr-l1d12q4" type="quaestio">
           <head xml:id="wdrl1d12-Hd1e3585" type="question-title">Utrum eadem virtus spirativa quae est in eis sit etiam in Spiritu Sancto</head>
           <p xml:id="wdrl1d12-d1e3588">
-            <lb ed="#P"/><pc ana="#pilcrow"/>Utrum eadem virtus spi<lb ed="#P" break="no"/>ratam 
+            <lb ed="#P" n="18"/><pc ana="#pilcrow"/>Utrum eadem virtus spi<lb ed="#P" break="no" n="19"/>ratam 
             quae est in eis <pc ana="#virgula"/> sit etiam in spiritu sancto Responsio 
-            <lb ed="#P"/>potentia spirandi tripliciter potest dici <pc ana="#punctus"/> quia gerundium potest sumi <pc ana="#punctus"/> vel 
-            <lb ed="#P"/>a verbo activo <pc ana="#virgula"/> vel passivo <pc ana="#punctus"/> vel impersonali <pc ana="#punctus"/> <pc ana="#virgula"/> primo modo est in patre 
-            <lb ed="#P"/>et filio tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum modo in spiritu sancto tantum <pc ana="#virgula"/> Tertio modo est in tribus 
-            <lb ed="#P"/>convenienter personis <pc ana="#punctus"/> quia sic idem est quod potentia per quam fit spiratio <pc ana="#punctus"/> <pc ana="#virgula"/> non 
-            <lb ed="#P"/>tamen propter hoc tres spirant vel spirantur <pc ana="#punctus"/> Sed duo spi<!--drops to next line -->rant 
+            <lb ed="#P" n="20"/>potentia spirandi tripliciter potest dici <pc ana="#punctus"/> quia gerundium potest sumi <pc ana="#punctus"/> vel 
+            <lb ed="#P" n="21"/>a verbo activo <pc ana="#virgula"/> vel passivo <pc ana="#punctus"/> vel impersonali <pc ana="#punctus"/> <pc ana="#virgula"/> primo modo est in patre 
+            <lb ed="#P" n="22"/>et filio tantum <pc ana="#punctus"/> <pc ana="#virgula"/> Secundum modo in spiritu sancto tantum <pc ana="#virgula"/> Tertio modo est in tribus 
+            <lb ed="#P" n="23"/>convenienter personis <pc ana="#punctus"/> quia sic idem est quod potentia per quam fit spiratio <pc ana="#punctus"/> <pc ana="#virgula"/> non 
+            <lb ed="#P" n="24"/>tamen propter hoc tres spirant vel spirantur <pc ana="#punctus"/> Sed duo spi<!--drops to next line -->rant 
             <pc ana="#punctus"/> et unus spiratur
           </p>
         </div>
